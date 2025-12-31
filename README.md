@@ -1,4 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fejlődési Kognitív Idegtudomány Vizsgáztató Webapp
+
+Ez a projekt egy Next.js alapú webalkalmazás, amely egy 200 kérdéses kérdésbankot tartalmaz (easy/medium/hard blokkok), minden kérdéshez 1 perces időzítővel, valamint próbavizsga funkcióval (90 kérdés). A projekt készen áll Vercel deployra.
+
+## Fő funkciók
+- 200 kérdéses kérdésbank (easy, medium, hard)
+- 1 perces időzítő minden kérdéshez
+- Próbavizsga: 90 véletlenszerű kérdés
+- Modern Next.js + Tailwind CSS frontend
+
+## Fejlesztés
+- `npm run dev` – fejlesztői szerver indítása
+- `npm run build` – buildelés
+- `npm run start` – production szerver indítása
+
+## Deploy
+A projekt könnyen deployolható Vercelre.
+
+## TODO
+- Kérdésbank implementálása
+- Vizsgaváz logika
+- UI fejlesztés
+- Tesztelés
+
+---
+
+Kérdés vagy javaslat esetén nyugodtan jelezz!
 
 ## Getting Started
 

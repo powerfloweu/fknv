@@ -1,0 +1,8 @@
+{
+  "examSize": 90,
+  "blockQuotas": {
+    "easy": 30,
+    "medium": 40,
+    "hard": 20
+  }
+}

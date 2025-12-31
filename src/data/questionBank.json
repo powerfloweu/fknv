@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "Melyik agyterület felelős leginkább a munkamemóriáért?",
+    "options": ["Prefrontális kéreg", "Hipokampusz", "Cerebellum", "Amygdala"],
+    "answer": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "type": "multi",
+    "question": "Mely agyterületek vesznek részt a tanulásban?",
+    "options": ["Prefrontális kéreg", "Hipokampusz", "Cerebellum", "Amygdala"],
+    "answer": [0, 1],
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "type": "tf",
+    "question": "A szenzitív periódus csak a gyermekkorban létezik.",
+    "answer": false,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "type": "short",
+    "question": "Nevezzen meg egy fő agyterületet, amely a beszédért felelős!",
+    "criteria": [
+      {"regex": "broca", "flags": "i"},
+      {"regex": "wernicke", "flags": "i"}
+    ],
+    "difficulty": "medium"
+  }
+  // ... további kérdések (összesen 200)
+]
