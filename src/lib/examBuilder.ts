@@ -25,7 +25,7 @@ export function buildExam(
   questions: Question[],
   blueprint: ExamBlueprint,
   seed: string
-): number[] {
+): string[] {
   // Seed stringből szám generálása
   let hash = 5381;
   for (let i = 0; i < seed.length; i++) {
@@ -33,32 +33,36 @@ export function buildExam(
   }
   const random = mulberry32(hash);
 
-  // Kérdések csoportosítása nehézség szerint
-  const byDifficulty: Record<string, Question[]> = {
-    easy: [],
-    medium: [],
-    hard: []
-  };
+  // Kérdések csoportosítása blokk szerint (A/B/C/...) – a blueprint.blockQuotas is blokkokra vonatkozik
+  const byBlock: Record<string, Question[]> = {};
   for (const q of questions) {
-    byDifficulty[q.difficulty].push(q);
+    const b = (q as any).block;
+    if (!b) continue;
+    if (!byBlock[b]) byBlock[b] = [];
+    byBlock[b].push(q);
   }
 
-  // Kvóták alkalmazása (itt történik a quotas logika)
-  const selected: number[] = [];
-  (Object.keys(blueprint.blockQuotas) as Array<keyof typeof byDifficulty>).forEach(diff => {
-    const quota = blueprint.blockQuotas[diff];
-    const pool = shuffle(byDifficulty[diff], random);
+  const selected: string[] = [];
+
+  // Kvóták alkalmazása blokk szerint
+  for (const block of Object.keys(blueprint.blockQuotas) as Array<keyof typeof blueprint.blockQuotas>) {
+    const quota = blueprint.blockQuotas[block];
+    const pool = shuffle(byBlock[block] ?? [], random);
     selected.push(...pool.slice(0, quota).map(q => q.id));
-  });
-
-  // Ha a kvóták összege kisebb, mint examSize, véletlenszerűen pótoljuk
-  if (selected.length < blueprint.examSize) {
-    const remaining = questions.filter(q => !selected.includes(q.id));
-    selected.push(...shuffle(remaining, random).slice(0, blueprint.examSize - selected.length).map(q => q.id));
   }
 
-  // Végső sorrend is legyen random
-  return shuffle(selected, random).slice(0, blueprint.examSize);
+  // Duplikációk kiszűrése (biztonsági)
+  const uniqueSelected = Array.from(new Set(selected));
+
+  // Ha a kvóták összege kisebb, mint examSize, véletlenszerűen pótoljuk a maradékból
+  if (uniqueSelected.length < blueprint.examSize) {
+    const remaining = questions.filter(q => !uniqueSelected.includes(q.id));
+    const needed = blueprint.examSize - uniqueSelected.length;
+    uniqueSelected.push(...shuffle(remaining, random).slice(0, needed).map(q => q.id));
+  }
+
+  // Végső sorrend is legyen random, és pontosan examSize hosszú
+  return shuffle(uniqueSelected, random).slice(0, blueprint.examSize);
 }
 
 // ---
