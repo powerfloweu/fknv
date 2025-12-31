@@ -25,7 +25,7 @@ export function buildExam(
   questions: Question[],
   blueprint: ExamBlueprint,
   seed: string
-): string[] {
+): number[] {
   // Seed stringből szám generálása
   let hash = 5381;
   for (let i = 0; i < seed.length; i++) {
