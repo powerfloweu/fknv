@@ -4,9 +4,9 @@ import { Question, ExamBlueprint } from './types';
 // Mock data
 const questions: Question[] = [
   // 10 easy, 10 medium, 10 hard (id: 1-30)
-  ...Array.from({ length: 10 }, (_, i) => ({ id: i + 1, type: 'single', question: 'Q', options: ['A'], answer: 0, difficulty: 'easy' })),
-  ...Array.from({ length: 10 }, (_, i) => ({ id: i + 11, type: 'single', question: 'Q', options: ['A'], answer: 0, difficulty: 'medium' })),
-  ...Array.from({ length: 10 }, (_, i) => ({ id: i + 21, type: 'single', question: 'Q', options: ['A'], answer: 0, difficulty: 'hard' })),
+  ...Array.from({ length: 10 }, (_, i) => ({ id: i + 1, type: 'single' as const, question: 'Q', options: ['A'], answer: 0, difficulty: 'easy' as const })),
+  ...Array.from({ length: 10 }, (_, i) => ({ id: i + 11, type: 'single' as const, question: 'Q', options: ['A'], answer: 0, difficulty: 'medium' as const })),
+  ...Array.from({ length: 10 }, (_, i) => ({ id: i + 21, type: 'single' as const, question: 'Q', options: ['A'], answer: 0, difficulty: 'hard' as const })),
 ];
 
 const blueprint: ExamBlueprint = {
