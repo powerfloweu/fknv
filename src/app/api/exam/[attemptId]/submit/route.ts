@@ -30,8 +30,8 @@ function scoreShort(q: Question, a: any) {
   }) ? 1 : 0;
 }
 
-export async function POST(req: NextRequest, { params }: { params: { attemptId: string } }) {
-  const { attemptId } = params;
+export async function POST(req: NextRequest, context: { params: { attemptId: string } }) {
+  const { attemptId } = context.params;
   const attempt: ExamAttempt | undefined = attempts.get(attemptId);
   if (!attempt) {
     return NextResponse.json({ error: 'Invalid attemptId' }, { status: 404 });
