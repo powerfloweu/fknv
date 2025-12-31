@@ -42,7 +42,7 @@ export function buildExam(
     byBlock[b].push(q);
   }
 
-  const selected: string[] = [];
+  const selected: number[] = [];
 
   // Kvóták alkalmazása blokk szerint
   for (const block of Object.keys(blueprint.blockQuotas) as Array<keyof typeof blueprint.blockQuotas>) {
