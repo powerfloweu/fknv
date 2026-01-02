@@ -33,10 +33,10 @@ export function buildExam(
   }
   const random = mulberry32(hash);
 
-  // Kérdések csoportosítása blokk szerint (A/B/C/...) – a blueprint.blockQuotas is blokkokra vonatkozik
+  // Kérdések csoportosítása blokk szerint (magyarul: 'blokk')
   const byBlock: Record<string, Question[]> = {};
   for (const q of questions) {
-    const b = (q as any).block;
+    const b = (q as any).blokk;
     if (!b) continue;
     if (!byBlock[b]) byBlock[b] = [];
     byBlock[b].push(q);
@@ -55,10 +55,13 @@ export function buildExam(
   const uniqueSelected = Array.from(new Set(selected));
 
   // Ha a kvóták összege kisebb, mint examSize, véletlenszerűen pótoljuk a maradékból
+  // DE csak akkor, ha a kvóták összege tényleg kisebb, különben nem pótolunk!
   if (uniqueSelected.length < blueprint.examSize) {
     const remaining = questions.filter(q => !uniqueSelected.includes(q.id));
     const needed = blueprint.examSize - uniqueSelected.length;
-    uniqueSelected.push(...shuffle(remaining, random).slice(0, needed).map(q => q.id));
+    if (needed > 0) {
+      uniqueSelected.push(...shuffle(remaining, random).slice(0, needed).map(q => q.id));
+    }
   }
 
   // Végső sorrend is legyen random, és pontosan examSize hosszú
