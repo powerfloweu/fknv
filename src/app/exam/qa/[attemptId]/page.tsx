@@ -66,7 +66,7 @@ export default function ExamQaPage() {
     const metaRaw = localStorage.getItem("exam-meta");
     let meta = {};
     if (metaRaw) try { meta = JSON.parse(metaRaw); } catch {}
-    const attemptMeta = meta[attemptId];
+    const attemptMeta = meta[String(attemptId)];
     if (!attemptMeta) return;
     // KérdésID-k localStorage-ből (mint a sima examnál)
     const resultRaw = localStorage.getItem(`exam-result-${attemptId}`);
