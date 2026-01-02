@@ -57,6 +57,7 @@ export function buildExam(
   // Ha a kvóták összege kisebb, mint examSize, véletlenszerűen pótoljuk a maradékból
   // DE csak akkor, ha a kvóták összege tényleg kisebb, különben nem pótolunk!
   if (uniqueSelected.length < blueprint.examSize) {
+    // Csak a már szűrt poolból pótolunk (pl. hardMode-nál csak hard kérdésekből)
     const remaining = questions.filter(q => !uniqueSelected.includes(q.id));
     const needed = blueprint.examSize - uniqueSelected.length;
     if (needed > 0) {

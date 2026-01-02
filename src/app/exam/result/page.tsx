@@ -8,7 +8,7 @@ function mapJsonToQuestion(json: any): Question {
       type: 'single',
       question: json.kérdés,
       options: json.válaszlehetőségek,
-      answer: json.helyes_válasz,
+      answer: typeof json.helyes_válasz === 'number' ? json.helyes_válasz - 1 : json.helyes_válasz,
       difficulty: json.nehézség,
       blokk: json.blokk,
     };
@@ -18,7 +18,7 @@ function mapJsonToQuestion(json: any): Question {
       type: 'multi',
       question: json.kérdés,
       options: json.válaszlehetőségek,
-      answer: json.helyes_válaszok,
+      answer: Array.isArray(json.helyes_válaszok) ? json.helyes_válaszok.map((n: number) => n - 1) : json.helyes_válaszok,
       difficulty: json.nehézség,
       blokk: json.blokk,
     };

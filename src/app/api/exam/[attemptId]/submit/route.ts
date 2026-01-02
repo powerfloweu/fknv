@@ -45,15 +45,32 @@ function mapJsonToQuestion(json: any): Question {
 // Simple scoring functions for demo (adjust as needed)
 function scoreSingle(q: Question, a: any): number {
   if (q.type !== 'single') return 0;
+  // Ha a helyes_válasz 1-alapú, a frontend 0-alapút küld
+  if (typeof q.answer === 'number' && typeof a === 'number') {
+    return (a + 1) === q.answer ? 1 : 0;
+  }
   return a === q.answer ? 1 : 0;
 }
 function scoreMulti(q: Question, a: any): number {
   if (q.type !== 'multi') return 0;
   if (!Array.isArray(a) || !Array.isArray(q.answer)) return 0;
-  // Full point only if all correct and only correct marked
+  // A helyes_válaszok 1-alapú, a frontend 0-alapút küld, ezért +1 minden elemhez
+  const user = a.map((n: number) => n + 1).sort().join(',');
   const correct = q.answer.sort().join(',');
-  const user = a.sort().join(',');
   return correct === user ? 1 : 0;
+}
+
+function scoreShort(q: Question, a: any): number {
+  if (q.type !== 'short' || !Array.isArray(q.criteria) || q.criteria.length === 0) return 0;
+  if (typeof a !== 'string' || !a.trim()) return 0;
+  // Minden kritériát végignéz, ha bármelyik regex illeszkedik, elfogadja
+  for (const crit of q.criteria) {
+    try {
+      const re = new RegExp(crit.regex, crit.flags || 'i');
+      if (re.test(a.trim())) return 1;
+    } catch {}
+  }
+  return 0;
 }
 import { NextRequest, NextResponse } from 'next/server';
 import { attempts } from '../../start/route';
@@ -99,9 +116,13 @@ export async function POST(
   const answers: Record<number, any> = payload.answers as Record<number, any>;
   for (const qid of attempt.questionIds) {
     const q = byId[qid];
-    const a = answers?.[qid];
+    let a = answers?.[qid];
+    // Ha a válasz objektum, vegyük ki a .value mezőt
+    if (a && typeof a === 'object' && 'value' in a) {
+      a = a.value;
+    }
 
-    if (!q || !a) {
+    if (!q || typeof a === 'undefined' || a === null) {
       breakdown[qid] = 0;
       continue;
     }
@@ -109,7 +130,8 @@ export async function POST(
     let score = 0;
     if (q.type === 'single') score = scoreSingle(q, a);
     else if (q.type === 'multi') score = scoreMulti(q, a);
-    // (tf, short: not used)
+    else if (q.type === 'short') score = scoreShort(q, a);
+    // (tf: not used)
 
     breakdown[qid] = score;
     total += score;

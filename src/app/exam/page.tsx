@@ -6,6 +6,7 @@ export default function ExamStartPage() {
   const [error, setError] = useState<string | null>(null);
   const [count, setCount] = useState(90);
   const [hardMode, setHardMode] = useState(false);
+  const [qaMode, setQaMode] = useState(false);
 
   function validateCount(n: number) {
     return n >= 9 && n <= 180 && n % 9 === 0;
@@ -19,11 +20,11 @@ export default function ExamStartPage() {
     setLoading(true);
     setError(null);
     const seed = Date.now().toString();
-    // Store count and hardMode in localStorage for ExamPage to pick up
+    // Store count, hardMode, qaMode in localStorage for ExamPage to pick up
     try {
       const metaRaw = localStorage.getItem("exam-meta");
       const meta = metaRaw ? JSON.parse(metaRaw) : {};
-      meta[seed] = { count, hardMode };
+      meta[seed] = { count, hardMode, qaMode };
       localStorage.setItem("exam-meta", JSON.stringify(meta));
     } catch {}
     const res = await fetch('/api/exam/start', {
@@ -37,7 +38,11 @@ export default function ExamStartPage() {
       return;
     }
     const data = await res.json();
-    window.location.href = `/exam/${data.attemptId}`;
+    if (qaMode) {
+      window.location.href = `/exam/qa/${data.attemptId}`;
+    } else {
+      window.location.href = `/exam/${data.attemptId}`;
+    }
   }
 
   return (
@@ -104,6 +109,17 @@ export default function ExamStartPage() {
               style={{ width: 20, height: 20, accentColor: '#6366f1', marginRight: 8 }}
             />
             Csak nehéz kérdésekből álló (&quot;hard mode&quot;) vizsga
+          </label>
+        </div>
+        <div style={{ marginBottom: 12 }}>
+          <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, fontSize: 17, color: '#0f172a', fontWeight: 500 }}>
+            <input
+              type="checkbox"
+              checked={qaMode}
+              onChange={e => setQaMode(e.target.checked)}
+              style={{ width: 20, height: 20, accentColor: '#6366f1', marginRight: 8 }}
+            />
+            Kérdés-felelet mód (azonnali visszajelzés minden kérdés után)
           </label>
         </div>
         <button

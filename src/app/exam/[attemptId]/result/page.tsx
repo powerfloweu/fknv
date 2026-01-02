@@ -20,7 +20,7 @@ export default function ExamResultPage() {
           type: 'single',
           question: json.kérdés,
           options: json.válaszlehetőségek,
-          answer: json.helyes_válasz,
+          answer: json.helyes_válasz, // 1-alapú marad
           difficulty: json.nehézség,
           blokk: json.blokk,
         };
@@ -30,7 +30,7 @@ export default function ExamResultPage() {
           type: 'multi',
           question: json.kérdés,
           options: json.válaszlehetőségek,
-          answer: json.helyes_válaszok,
+          answer: json.helyes_válaszok, // 1-alapú marad
           difficulty: json.nehézség,
           blokk: json.blokk,
         };
@@ -88,9 +88,9 @@ export default function ExamResultPage() {
 
   const { attempt, answers, result } = data;
   // import removed: not allowed inside function
-  const questions = (questionBank as any[])
-    .map(mapJsonToQuestion)
-    .filter(q => attempt.questionIds.includes(q.id));
+  // Mindig a vizsgakísérlet questionIds sorrendjét követjük
+  const questionMap = new Map((questionBank as any[]).map(q => [q.id, mapJsonToQuestion(q)]));
+  const questions = attempt.questionIds.map((qid: number) => questionMap.get(qid)).filter(Boolean);
   const total = result.total;
   const percent = Math.round((total / attempt.questionIds.length) * 100);
 
@@ -125,7 +125,22 @@ export default function ExamResultPage() {
         </div>
         <ul style={{ listStyle: 'none', padding: 0, textAlign: 'left', marginTop: 16 }}>
           {questions.map((q, idx) => {
-            const userAns = answers?.[q.id];
+            // A válaszok lehetnek kérdés id vagy index alapján is eltárolva
+            let userAns = answers?.[q.id];
+            if (typeof userAns === 'undefined') {
+              userAns = answers?.[idx];
+            }
+            // Ha a válasz egy objektum { value: ... }, akkor vegyük ki belőle a value-t
+            if (userAns && typeof userAns === 'object' && 'value' in userAns) {
+              userAns = (userAns as any).value;
+            }
+            // Igazítsuk a userAns-t 1-alapúra
+            let userAns1 = userAns;
+            if (q.type === "single" && typeof userAns === 'number') {
+              userAns1 = userAns + 1;
+            } else if (q.type === "multi" && Array.isArray(userAns)) {
+              userAns1 = userAns.map((n: number) => n + 1);
+            }
             let correctAns = null;
             if (q.type === "single") correctAns = q.answer;
             else if (q.type === "multi") correctAns = q.answer;
@@ -139,11 +154,11 @@ export default function ExamResultPage() {
                   {q.options.map((opt: string, i: number) => {
                     let isUser = false, isCorrectOpt = false;
                     if (q.type === "single") {
-                      isUser = userAns === i;
-                      isCorrectOpt = correctAns === i;
+                      isUser = userAns1 === (i + 1);
+                      isCorrectOpt = correctAns === (i + 1);
                     } else if (q.type === "multi") {
-                      isUser = Array.isArray(userAns) ? userAns.includes(i) : false;
-                      isCorrectOpt = Array.isArray(correctAns) && typeof correctAns[0] === 'number' ? (correctAns as number[]).includes(i) : false;
+                      isUser = Array.isArray(userAns1) ? userAns1.includes(i + 1) : false;
+                      isCorrectOpt = Array.isArray(correctAns) && typeof correctAns[0] === 'number' ? (correctAns as number[]).includes(i + 1) : false;
                     }
                     // Exclusive color logic:
                     let background = '#1e293b';
@@ -183,8 +198,8 @@ export default function ExamResultPage() {
                 {renderOptions()}
                 {q.type === "short" && (
                   <>
-                    <div><b>Válaszod:</b> {JSON.stringify(userAns)}</div>
-                    <div><b>Helyes válasz:</b> {JSON.stringify(correctAns)}</div>
+                    <div><b>Válaszod:</b> {typeof userAns === 'string' ? userAns : userAns ? String(userAns) : <i>–</i>}</div>
+                    <div><b>Helyes válasz:</b> {Array.isArray(correctAns) && correctAns.length > 0 && typeof correctAns[0] === 'object' && 'regex' in correctAns[0] ? <span style={{fontFamily:'monospace'}}>{correctAns[0].regex}</span> : <i>–</i>}</div>
                   </>
                 )}
                 <div style={{ color: isCorrect ? '#16a34a' : '#dc2626', fontWeight: 600, marginTop: 6 }}>
