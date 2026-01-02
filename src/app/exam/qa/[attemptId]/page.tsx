@@ -64,7 +64,7 @@ export default function ExamQaPage() {
     if (!attemptId) return;
     // Metaadatok localStorage-ből
     const metaRaw = localStorage.getItem("exam-meta");
-    let meta = {};
+    let meta: Record<string, any> = {};
     if (metaRaw) try { meta = JSON.parse(metaRaw); } catch {}
     const attemptMeta = meta[String(attemptId)];
     if (!attemptMeta) return;
