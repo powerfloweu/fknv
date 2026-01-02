@@ -1,11 +1,60 @@
 "use client";
 import { useEffect, useState } from "react";
+import { Question } from "@/lib/types";
 import questionBank from "@/data/questionBank.json";
 import { useParams } from "next/navigation";
 
 export default function ExamResultPage() {
   const { attemptId } = useParams();
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<{
+    attempt?: { questionIds: number[]; [key: string]: unknown };
+    answers?: Record<string, unknown>;
+    result?: { total: number; breakdown: Record<string, number> };
+  } | null>(null);
+  
+    // Helper to map JSON question to internal Question type
+    function mapJsonToQuestion(json: any): Question {
+      if (json.típus === 'single') {
+        return {
+          id: json.id,
+          type: 'single',
+          question: json.kérdés,
+          options: json.válaszlehetőségek,
+          answer: json.helyes_válasz,
+          difficulty: json.nehézség,
+          blokk: json.blokk,
+        };
+      } else if (json.típus === 'multi' || json.típus === 'multiple') {
+        return {
+          id: json.id,
+          type: 'multi',
+          question: json.kérdés,
+          options: json.válaszlehetőségek,
+          answer: json.helyes_válaszok,
+          difficulty: json.nehézség,
+          blokk: json.blokk,
+        };
+      } else if (json.típus === 'tf') {
+        return {
+          id: json.id,
+          type: 'tf',
+          question: json.kérdés,
+          answer: json.helyes_válasz,
+          difficulty: json.nehézség,
+          blokk: json.blokk,
+        };
+      } else if (json.típus === 'short' || json.típus === 'regex') {
+        return {
+          id: json.id,
+          type: 'short',
+          question: json.kérdés,
+          criteria: json.helyes_regex ? [{ regex: json.helyes_regex }] : [],
+          difficulty: json.nehézség,
+          blokk: json.blokk,
+        };
+      }
+      throw new Error('Ismeretlen kérdés típus: ' + json.típus);
+    }
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -38,7 +87,10 @@ export default function ExamResultPage() {
   }
 
   const { attempt, answers, result } = data;
-  const questions = (questionBank as any[]).filter(q => attempt.questionIds.includes(q.id));
+  // import removed: not allowed inside function
+  const questions = (questionBank as any[])
+    .map(mapJsonToQuestion)
+    .filter(q => attempt.questionIds.includes(q.id));
   const total = result.total;
   const percent = Math.round((total / attempt.questionIds.length) * 100);
 
@@ -73,29 +125,43 @@ export default function ExamResultPage() {
         </div>
         <ul style={{ listStyle: 'none', padding: 0, textAlign: 'left', marginTop: 16 }}>
           {questions.map((q, idx) => {
-            const userAns = answers[q.id];
+            const userAns = answers?.[q.id];
             let correctAns = null;
-            if (q.típus === "single") correctAns = q.helyes_válasz;
-            else if (q.típus === "multiple") correctAns = q.helyes_válaszok;
-            else if (q.típus === "regex") correctAns = q.helyes_regex;
+            if (q.type === "single") correctAns = q.answer;
+            else if (q.type === "multi") correctAns = q.answer;
+            else if (q.type === "short") correctAns = q.criteria;
             const isCorrect = result.breakdown && result.breakdown[q.id] > 0;
             // Helper to highlight user's answer and correct answer
             const renderOptions = () => {
-              if (!q.válaszlehetőségek) return null;
+              if (!('options' in q) || !q.options) return null;
               return (
                 <ul style={{ margin: '8px 0', padding: 0 }}>
-                  {q.válaszlehetőségek.map((opt: string, i: number) => {
+                  {q.options.map((opt: string, i: number) => {
                     let isUser = false, isCorrectOpt = false;
-                    if (q.típus === "single") {
-                      isUser = userAns === i || userAns?.value === i;
+                    if (q.type === "single") {
+                      isUser = userAns === i;
                       isCorrectOpt = correctAns === i;
-                    } else if (q.típus === "multiple") {
-                      isUser = Array.isArray(userAns) ? userAns.includes(i) : userAns?.value?.includes?.(i);
-                      isCorrectOpt = Array.isArray(correctAns) ? correctAns.includes(i) : false;
+                    } else if (q.type === "multi") {
+                      isUser = Array.isArray(userAns) ? userAns.includes(i) : false;
+                      isCorrectOpt = Array.isArray(correctAns) && typeof correctAns[0] === 'number' ? (correctAns as number[]).includes(i) : false;
                     }
+                    // Exclusive color logic:
+                    let background = '#1e293b';
+                    let border = 'none';
+                    if (isUser && isCorrectOpt) {
+                      background = '#16a34a'; // green
+                      border = '2px solid #fbbf24';
+                    } else if (isUser && !isCorrectOpt) {
+                      background = '#f59e42'; // orange
+                      border = '2px solid #fbbf24';
+                    } else if (!isUser && isCorrectOpt) {
+                      background = '#2563eb'; // blue
+                      border = '2px solid #2563eb';
+                    }
+                    // else: dark gray
                     return (
                       <li key={i} style={{
-                        background: isUser && isCorrectOpt ? '#16a34a' : isUser ? '#f59e42' : isCorrectOpt ? '#2563eb' : '#1e293b',
+                        background,
                         color: '#fff',
                         borderRadius: 6,
                         padding: '6px 12px',
@@ -104,7 +170,7 @@ export default function ExamResultPage() {
                         fontWeight: 500,
                         listStyle: 'none',
                         display: 'inline-block',
-                        border: isUser ? '2px solid #fbbf24' : isCorrectOpt ? '2px solid #2563eb' : 'none'
+                        border
                       }}>{opt}</li>
                     );
                   })}
@@ -113,9 +179,9 @@ export default function ExamResultPage() {
             };
             return (
               <li key={q.id} style={{ marginBottom: 28, borderBottom: '1px solid #e5e7eb', paddingBottom: 16 }}>
-                <div style={{ fontWeight: 600, color: '#3730a3', fontSize: 17 }}><b>{idx + 1}.</b> {q.kérdés}</div>
+                <div style={{ fontWeight: 600, color: '#3730a3', fontSize: 17 }}><b>{idx + 1}.</b> {q.question}</div>
                 {renderOptions()}
-                {q.típus === "regex" && (
+                {q.type === "short" && (
                   <>
                     <div><b>Válaszod:</b> {JSON.stringify(userAns)}</div>
                     <div><b>Helyes válasz:</b> {JSON.stringify(correctAns)}</div>

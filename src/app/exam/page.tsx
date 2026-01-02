@@ -5,6 +5,7 @@ export default function ExamStartPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [count, setCount] = useState(90);
+  const [hardMode, setHardMode] = useState(false);
 
   function validateCount(n: number) {
     return n >= 9 && n <= 180 && n % 9 === 0;
@@ -18,17 +19,17 @@ export default function ExamStartPage() {
     setLoading(true);
     setError(null);
     const seed = Date.now().toString();
-    // Store count in localStorage for ExamPage to pick up
+    // Store count and hardMode in localStorage for ExamPage to pick up
     try {
       const metaRaw = localStorage.getItem("exam-meta");
       const meta = metaRaw ? JSON.parse(metaRaw) : {};
-      meta[seed] = { count };
+      meta[seed] = { count, hardMode };
       localStorage.setItem("exam-meta", JSON.stringify(meta));
     } catch {}
     const res = await fetch('/api/exam/start', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ seed, count })
+      body: JSON.stringify({ seed, count, hardMode })
     });
     if (!res.ok) {
       setError('Hiba a vizsga indításakor');
@@ -94,6 +95,17 @@ export default function ExamStartPage() {
             color: '#1e293b'
           }}
         />
+        <div style={{ marginBottom: 16 }}>
+          <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, fontSize: 17, color: '#0f172a', fontWeight: 500 }}>
+            <input
+              type="checkbox"
+              checked={hardMode}
+              onChange={e => setHardMode(e.target.checked)}
+              style={{ width: 20, height: 20, accentColor: '#6366f1', marginRight: 8 }}
+            />
+            Csak nehéz kérdésekből álló (&quot;hard mode&quot;) vizsga
+          </label>
+        </div>
         <button
           onClick={startExam}
           disabled={loading}

@@ -36,7 +36,7 @@ export function buildExam(
   // Kérdések csoportosítása blokk szerint (magyarul: 'blokk')
   const byBlock: Record<string, Question[]> = {};
   for (const q of questions) {
-    const b = (q as any).blokk;
+    const b: string | undefined = (q as Question & { blokk?: string }).blokk;
     if (!b) continue;
     if (!byBlock[b]) byBlock[b] = [];
     byBlock[b].push(q);

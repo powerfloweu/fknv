@@ -1,25 +1,33 @@
 
-
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { useParams } from "next/navigation";
 import questionBank from "@/data/questionBank.json";
+import { ExamAttempt } from "@/lib/types";
 
-// Minimal localStorage helpers
-function saveLocal(attemptId: string, data: any): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem("exam-" + attemptId, JSON.stringify(data));
+// Helper to load localStorage and parse as expected structure
+function loadLocal(key: string): { attempt?: ExamAttempt; answers?: Record<string, unknown>; startTs?: number } | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const raw = localStorage.getItem(`exam-result-${key}`);
+    if (!raw) return null;
+    return JSON.parse(raw) as { attempt?: ExamAttempt; answers?: Record<string, unknown>; startTs?: number };
+  } catch {
+    return null;
+  }
 }
+
+
 
 
 function ExamPage() {
   const { attemptId } = useParams();
-  const [attempt, setAttempt] = useState<Attempt | null>(null);
+  const [attempt, setAttempt] = useState<ExamAttempt | null>(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [answers, setAnswers] = useState<Record<string, any>>({});
+  const [answers, setAnswers] = useState<Record<string, unknown>>({});
   const [remainingTime, setRemainingTime] = useState(0);
   const [questionTime, setQuestionTime] = useState(60);
-  const timerRef = useRef(null);
+
   const [startTs, setStartTs] = useState<number | null>(null);
   const submittedRef = useRef(false);
 
@@ -27,25 +35,15 @@ function ExamPage() {
   const key = String(qid);
 
   // Minimal localStorage helpers
-  function saveLocal(attemptId: string, data: any): void {
+  function saveLocal(attemptId: string, data: unknown): void {
     if (typeof window === "undefined") return;
     localStorage.setItem("exam-" + attemptId, JSON.stringify(data));
   }
 
-  function loadLocal(attemptId: string): any {
-    if (typeof window === "undefined") return null;
-    try {
-      const raw = localStorage.getItem("exam-" + attemptId);
-      if (!raw) return null;
-      return JSON.parse(raw);
-    } catch {
-      return null;
-    }
-  }
 
-  async function handleSubmit() {
+  const handleSubmit = useCallback(async () => {
     // Always send answers in backend-expected format: { [qid]: { type, value } }
-    const formattedAnswers: Record<string, any> = {};
+    const formattedAnswers: Record<string, unknown> = {};
     if (attempt) {
       for (const qid of attempt.questionIds) {
         const question = (questionBank as Question[]).find(q => String(q.id) === String(qid));
@@ -56,7 +54,7 @@ function ExamPage() {
         } else if (question.típus === "multiple") {
           formattedAnswers[qid] = { type: "multi", value: Array.isArray(ans) ? ans : [] };
         } else if (question.típus === "regex") {
-          formattedAnswers[qid] = { type: "regex", value: typeof ans === "string" ? ans : "" };
+          formattedAnswers[qid] = { type: "regex", value: typeof ans === "string" && ans.length > 0 ? ans : null };
         }
       }
     }
@@ -105,7 +103,7 @@ function ExamPage() {
         }, 300);
       }
     }
-  }
+  }, [attempt, answers, attemptId]);
 
   type Question = {
   id: number;
@@ -122,10 +120,6 @@ function ExamPage() {
   forrás_témák?: string[];
 };
 
-  type Attempt = {
-  questionIds: (string | number)[];
-  durationSec: number;
-};
   // Fetch attempt data on mount
   useEffect(() => {
     async function fetchAttempt() {
@@ -178,7 +172,7 @@ function ExamPage() {
     }
     const id = setTimeout(() => setRemainingTime(t => t - 1), 1000);
     return () => clearTimeout(id);
-  }, [attempt, startTs, remainingTime]);
+  }, [attempt, startTs, remainingTime, handleSubmit]);
 
   // Per-question timer
   useEffect(() => {
@@ -333,7 +327,7 @@ function ExamPage() {
             <div>
               <input
                 type="text"
-                value={answers[key] || ""}
+                value={typeof answers[key] === 'string' ? answers[key] : ''}
                 onChange={e => setAnswers({ ...answers, [key]: e.target.value })}
                 onKeyDown={e => {
                   if (e.key === "Enter") {

@@ -1,8 +1,19 @@
+
 "use client";
 import { useState, useMemo } from "react";
+import { Question } from "@/lib/types";
 
-export default function ClientStudyPage({ questions }: { questions: any[] }) {
+// Magyar típusnevek
+const typeLabels: Record<string, string> = {
+  single: 'Feleletválasztós',
+  multi: 'Többválasztós',
+  tf: 'Igaz-hamis',
+  short: 'Regex',
+};
+
+export default function ClientStudyPage({ questions }: { questions: Question[] }) {
   const [showOnlyCorrect, setShowOnlyCorrect] = useState(false);
+  const [hideCorrect, setHideCorrect] = useState(false);
   const [page, setPage] = useState(1);
   const pageSize = 100;
   let filtered: typeof questions = [];
@@ -12,13 +23,14 @@ export default function ClientStudyPage({ questions }: { questions: any[] }) {
   const [topic, setTopic] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [type, setType] = useState("");
+  const [search, setSearch] = useState("");
 
   const blocks = useMemo(
     () => Array.from(new Set(questions.map(q => q.blokk).filter(Boolean))),
     [questions]
   );
   const types = useMemo(
-    () => Array.from(new Set(questions.map(q => q.típus).filter(Boolean))),
+    () => Array.from(new Set(questions.map(q => q.type).filter(Boolean))),
     [questions]
   );
   const blockScoped = useMemo(
@@ -26,22 +38,25 @@ export default function ClientStudyPage({ questions }: { questions: any[] }) {
     [block, questions]
   );
   const topics = useMemo(
-    () => Array.from(new Set(blockScoped.map(q => q.téma).filter(Boolean))),
+    () => Array.from(new Set(blockScoped.map(q => q.topic).filter(Boolean))),
     [blockScoped]
   );
   const difficulties = useMemo(
-    () => Array.from(new Set(blockScoped.map(q => q.nehézség).filter(Boolean))),
+    () => Array.from(new Set(blockScoped.map(q => q.difficulty).filter(Boolean))),
     [blockScoped]
   );
   filtered = useMemo(
     () =>
-      blockScoped.filter(
-        q =>
-          (!topic || q.téma === topic) &&
-          (!difficulty || q.nehézség === difficulty) &&
-          (!type || q.típus === type)
+      blockScoped.filter(q =>
+        (!topic || q.topic === topic) &&
+        (!difficulty || q.difficulty === difficulty) &&
+        (!type || q.type === type) &&
+        (!search ||
+          (q.id && q.id.toString().includes(search)) ||
+          (q.question && q.question.toLowerCase().includes(search.toLowerCase()))
+        )
       ),
-    [blockScoped, topic, difficulty, type]
+    [blockScoped, topic, difficulty, type, search]
   );
   totalPages = Math.ceil(filtered.length / pageSize);
   paginated = filtered.slice((page - 1) * pageSize, page * pageSize);
@@ -83,9 +98,16 @@ export default function ClientStudyPage({ questions }: { questions: any[] }) {
           Böngéssz, szűrj, tanulj!
         </div>
         <div style={{ display: "flex", gap: 16, marginBottom: 16, justifyContent: 'center', flexWrap: 'wrap', background: '#fff', padding: 12, borderRadius: 12, boxShadow: '0 2px 8px rgba(60,60,120,0.04)' }}>
+          <input
+            type="text"
+            value={search}
+            onChange={e => { setSearch(e.target.value); setPage(1); }}
+            placeholder="Keresés ID-re vagy szövegre..."
+            style={{ minWidth: 220, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}
+          />
           <select value={type} onChange={e => { setType(e.target.value); setPage(1); }} style={{ minWidth: 140, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}>
             <option value="">Minden típus</option>
-            {types.map(t => <option key={t} value={t}>{t}</option>)}
+            {types.map(t => <option key={t} value={t}>{typeLabels[t] || t}</option>)}
           </select>
           <select value={block} onChange={e => {
             setBlock(e.target.value);
@@ -108,31 +130,41 @@ export default function ClientStudyPage({ questions }: { questions: any[] }) {
             <input type="checkbox" checked={showOnlyCorrect} onChange={e => setShowOnlyCorrect(e.target.checked)} style={{ accentColor: '#6366f1', width: 18, height: 18 }} />
             Csak a helyes válasz mutatása
           </label>
+          <label style={{ display: 'flex', alignItems: 'center', gap: 8, fontWeight: 500, color: '#3730a3', fontSize: 16, background: '#f1f5f9', borderRadius: 8, padding: '8px 14px', border: '1.5px solid #6366f1', cursor: 'pointer' }}>
+            <input type="checkbox" checked={hideCorrect} onChange={e => setHideCorrect(e.target.checked)} style={{ accentColor: '#6366f1', width: 18, height: 18 }} />
+            Helyes válasz elrejtése
+          </label>
         </div>
         <ul style={{ padding: 0, textAlign: 'left', marginTop: 16 }}>
           {paginated.map((q) => (
             <li key={q.id} style={{ marginBottom: 24, borderBottom: "1px solid #e0e7ff", paddingBottom: 12, background: '#f8fafc', borderRadius: 12, padding: '16px 16px 12px 16px', boxShadow: '0 2px 8px rgba(60,60,120,0.04)' }}>
               <div style={{ fontWeight: 600, color: '#3730a3', fontSize: 17, marginBottom: 4 }}>
-                <span style={{ color: '#818cf8', fontWeight: 700, marginRight: 8 }}>{q.id}.</span> {q.kérdés}
+                <span style={{ color: '#818cf8', fontWeight: 700, marginRight: 8 }}>{q.id}.</span> {q.question}
+                <div style={{ fontSize: 13, color: '#64748b', marginTop: 2, fontWeight: 500 }}>
+                  <b>Típus:</b> {typeLabels[q.type] || q.type}
+                </div>
               </div>
-              {q.válaszlehetőségek && Array.isArray(q.válaszlehetőségek) && (
+              {'options' in q && q.options && Array.isArray(q.options) && (
                 <ul style={{ margin: "8px 0", paddingLeft: 20 }}>
-                  {q.válaszlehetőségek.map((opt: string, i: number) => {
-                    const isCorrect = (typeof q.helyes_válasz === 'number' && q.helyes_válasz - 1 === i) || (Array.isArray(q.helyes_válaszok) && q.helyes_válaszok.includes(i + 1));
+                  {q.options.map((opt: string, i: number) => {
+                      const isCorrect = (typeof q.answer === 'number' && q.answer - 1 === i) || (Array.isArray(q.answer) && q.answer.includes(i + 1));
                     if (showOnlyCorrect && !isCorrect) return null;
+                    if (hideCorrect && isCorrect) return (
+                      <li key={i} style={{ background: '#e0e7ff', borderRadius: 6, padding: '4px 10px', marginBottom: 4, display: 'inline-block', minWidth: 120, color: '#cbd5e1', fontWeight: 400 }}>{String.fromCharCode(65 + i)}. <span style={{ fontStyle: 'italic' }}>elrejtve</span></li>
+                    );
                     return (
                       <li key={i} style={{ color: isCorrect ? '#166534' : '#3730a3', background: isCorrect ? '#bbf7d0' : '#e0e7ff', borderRadius: 6, padding: '4px 10px', marginBottom: 4, display: 'inline-block', minWidth: 120, fontWeight: isCorrect ? 700 : 400 }}>{String.fromCharCode(65 + i)}. {opt}</li>
                     );
                   })}
                 </ul>
               )}
-              {q.típus === 'regex' && q.helyes_regex && (
+              {q.type === 'short' && q.criteria && q.criteria.length > 0 && (
                 <div style={{ margin: '8px 0', color: '#166534', background: '#bbf7d0', borderRadius: 6, padding: '6px 12px', display: 'inline-block', fontWeight: 600 }}>
-                  Elfogadott kulcsszavak: <span style={{ fontFamily: 'monospace', color: '#166534' }}>{q.helyes_regex}</span>
+                  Elfogadott kulcsszavak: <span style={{ fontFamily: 'monospace', color: '#166534' }}>{q.criteria.map(c => c.regex).join(', ')}</span>
                 </div>
               )}
               <div style={{ color: '#6366f1', fontSize: 14, marginTop: 4 }}>
-                <b>Blokk:</b> {q.blokk} | <b>Téma:</b> {q.téma} | <b>Nehézség:</b> {q.nehézség}
+                <b>Blokk:</b> {q.blokk} | <b>Téma:</b> {q.topic} | <b>Nehézség:</b> {q.difficulty}
               </div>
             </li>
           ))}

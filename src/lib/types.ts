@@ -9,6 +9,7 @@ export interface QuestionBase {
   question: string;
   difficulty: Difficulty;
   blokk?: string;
+  topic?: string;
 }
 
 export interface SingleQuestion extends QuestionBase {

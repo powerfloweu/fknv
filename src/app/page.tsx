@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main style={{
@@ -40,7 +42,7 @@ export default function Home() {
           Fedezd fel az agy fejlődésének, kognitív funkcióinak és vizsgálati módszereinek világát!<br />
           Próbavizsga, tanulás, magyarázatok – minden egy helyen.
         </p>
-        <a
+        <Link
           href="/exam"
           style={{
             display: 'inline-block',
@@ -56,7 +58,7 @@ export default function Home() {
           }}
         >
           Próbavizsga indítása &rarr;
-        </a>
+        </Link>
       </div>
       <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
         <span role="img" aria-label="brain">🧠</span> Kognitív idegtudomány – tanulj, fejlődj, vizsgázz!
