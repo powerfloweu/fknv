@@ -125,6 +125,7 @@ export default function ExamResultPage() {
         </div>
         <ul style={{ listStyle: 'none', padding: 0, textAlign: 'left', marginTop: 16 }}>
           {questions.map((q, idx) => {
+            if (!q) return null;
             // A válaszok lehetnek kérdés id vagy index alapján is eltárolva
             let userAns = answers?.[q.id];
             if (typeof userAns === 'undefined') {
