@@ -71,6 +71,25 @@ export default function ClientStudyPage({ questions }: { questions: Question[] }
       justifyContent: 'flex-start',
       padding: 0
     }}>
+      <div style={{ width: '100%', maxWidth: 900, display: 'flex', justifyContent: 'flex-end', marginTop: 24 }}>
+        <a
+          href="/exam"
+          style={{
+            display: 'inline-block',
+            padding: '10px 28px',
+            background: 'linear-gradient(90deg, #6366f1 0%, #a5b4fc 100%)',
+            color: 'white',
+            borderRadius: 12,
+            fontWeight: 600,
+            fontSize: 16,
+            textDecoration: 'none',
+            boxShadow: '0 2px 8px rgba(60,60,120,0.10)',
+            transition: 'background 0.2s',
+          }}
+        >
+          Vizsga mód
+        </a>
+      </div>
       <div style={{
         background: 'white',
         borderRadius: 24,

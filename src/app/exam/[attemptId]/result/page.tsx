@@ -1,219 +1,150 @@
 "use client";
+
 import { useEffect, useState } from "react";
-import { Question } from "@/lib/types";
-import questionBank from "@/data/questionBank.json";
 import { useParams } from "next/navigation";
+
+type StoredAnswer = {
+  selected?: number[] | number;
+  displayedCorrect?: number[];
+  displayedOptions?: string[];
+};
+
+type ExamResultData = {
+  attempt: {
+    questionIds: number[];
+  };
+  answers: Record<string, StoredAnswer>;
+  result: {
+    total: number;
+    breakdown: Record<string, number>;
+  };
+};
 
 export default function ExamResultPage() {
   const { attemptId } = useParams();
-  const [data, setData] = useState<{
-    attempt?: { questionIds: number[]; [key: string]: unknown };
-    answers?: Record<string, unknown>;
-    result?: { total: number; breakdown: Record<string, number> };
-  } | null>(null);
-  
-    // Helper to map JSON question to internal Question type
-    function mapJsonToQuestion(json: any): Question {
-      if (json.típus === 'single') {
-        return {
-          id: json.id,
-          type: 'single',
-          question: json.kérdés,
-          options: json.válaszlehetőségek,
-          answer: json.helyes_válasz, // 1-alapú marad
-          difficulty: json.nehézség,
-          blokk: json.blokk,
-        };
-      } else if (json.típus === 'multi' || json.típus === 'multiple') {
-        return {
-          id: json.id,
-          type: 'multi',
-          question: json.kérdés,
-          options: json.válaszlehetőségek,
-          answer: json.helyes_válaszok, // 1-alapú marad
-          difficulty: json.nehézség,
-          blokk: json.blokk,
-        };
-      } else if (json.típus === 'tf') {
-        return {
-          id: json.id,
-          type: 'tf',
-          question: json.kérdés,
-          answer: json.helyes_válasz,
-          difficulty: json.nehézség,
-          blokk: json.blokk,
-        };
-      } else if (json.típus === 'short' || json.típus === 'regex') {
-        return {
-          id: json.id,
-          type: 'short',
-          question: json.kérdés,
-          criteria: json.helyes_regex ? [{ regex: json.helyes_regex }] : [],
-          difficulty: json.nehézség,
-          blokk: json.blokk,
-        };
-      }
-      throw new Error('Ismeretlen kérdés típus: ' + json.típus);
-    }
+  const [data, setData] = useState<ExamResultData | null>(null);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      let tries = 0;
-      function tryLoad() {
-        try {
-          const raw = localStorage.getItem(`exam-result-${String(attemptId)}`);
-          if (raw) {
-            setData(JSON.parse(raw));
-            return;
-          }
-        } catch {}
-        if (tries < 10) {
-          tries++;
-          setTimeout(tryLoad, 100);
-        }
-      }
-      tryLoad();
+    if (typeof window === "undefined") return;
+    try {
+      const raw = localStorage.getItem(`exam-result-${String(attemptId)}`);
+      if (!raw) return;
+      setData(JSON.parse(raw));
+    } catch (e) {
+      console.error("Failed to load exam result", e);
     }
   }, [attemptId]);
 
-  if (!data || !data.attempt || !data.result) {
+  if (!data) {
     return (
-      <main style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ background: 'white', borderRadius: 24, boxShadow: '0 8px 32px rgba(60,60,120,0.12)', padding: 40, maxWidth: 540, width: '100%', textAlign: 'center' }}>
-          <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>Exam result not found or not available.</h1>
-        </div>
+      <main style={{ padding: 40, textAlign: "center" }}>
+        <h2>Vizsgaeredmény betöltése…</h2>
       </main>
     );
   }
 
   const { attempt, answers, result } = data;
-  // import removed: not allowed inside function
-  // Mindig a vizsgakísérlet questionIds sorrendjét követjük
-  const questionMap = new Map((questionBank as any[]).map(q => [q.id, mapJsonToQuestion(q)]));
-  const questions = attempt.questionIds.map((qid: number) => questionMap.get(qid)).filter(Boolean);
-  const total = result.total;
-  const percent = Math.round((total / attempt.questionIds.length) * 100);
+  const totalQuestions =
+    Array.isArray(attempt.questionIds) && attempt.questionIds.length > 0
+      ? attempt.questionIds.length
+      : 1;
+
+  const percent = Math.round((result.total / totalQuestions) * 100);
 
   return (
-    <main style={{ minHeight: '100vh', background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 0 }}>
-      <div style={{ background: 'white', borderRadius: 24, boxShadow: '0 8px 32px rgba(60,60,120,0.12)', padding: '40px 32px 32px 32px', maxWidth: 800, width: '100%', textAlign: 'center', marginBottom: 32 }}>
-        <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>Vizsgaeredmény</h1>
-        <div style={{ fontSize: 18, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
-          Elért pontszám: <b>{total} / {attempt.questionIds.length}</b> ({percent}%)
-        </div>
-        {/* Color legend */}
-        <div style={{ margin: '0 auto 18px auto', maxWidth: 500, textAlign: 'left', background: '#f3f4f6', borderRadius: 10, padding: '12px 18px', fontSize: 15, color: '#111' }}>
-          <b>Színmagyarázat:</b>
-          <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-            <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}>
-              <span style={{ display: 'inline-block', width: 18, height: 18, background: '#16a34a', borderRadius: 4, marginRight: 8, border: '2px solid #fbbf24' }}></span>
-              <span><b>Zöld</b> – Helyes válasz, amit te is megjelöltél</span>
-            </li>
-            <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}>
-              <span style={{ display: 'inline-block', width: 18, height: 18, background: '#f59e42', borderRadius: 4, marginRight: 8, border: '2px solid #fbbf24' }}></span>
-              <span><b>Narancs</b> – Általad megjelölt, de nem helyes válasz</span>
-            </li>
-            <li style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}>
-              <span style={{ display: 'inline-block', width: 18, height: 18, background: '#2563eb', borderRadius: 4, marginRight: 8, border: '2px solid #2563eb' }}></span>
-              <span><b>Kék</b> – Helyes válasz, amit nem jelöltél meg</span>
-            </li>
-            <li style={{ display: 'flex', alignItems: 'center', marginBottom: 0 }}>
-              <span style={{ display: 'inline-block', width: 18, height: 18, background: '#1e293b', borderRadius: 4, marginRight: 8 }}></span>
-              <span><b>Sötétszürke</b> – Egyéb válaszlehetőség</span>
-            </li>
-          </ul>
-        </div>
-        <ul style={{ listStyle: 'none', padding: 0, textAlign: 'left', marginTop: 16 }}>
-          {questions.map((q, idx) => {
-            if (!q) return null;
-            // A válaszok lehetnek kérdés id vagy index alapján is eltárolva
-            let userAns = answers?.[q.id];
-            if (typeof userAns === 'undefined') {
-              userAns = answers?.[idx];
-            }
-            // Ha a válasz egy objektum { value: ... }, akkor vegyük ki belőle a value-t
-            if (userAns && typeof userAns === 'object' && 'value' in userAns) {
-              userAns = (userAns as any).value;
-            }
-            // Igazítsuk a userAns-t 1-alapúra
-            let userAns1 = userAns;
-            if (q.type === "single" && typeof userAns === 'number') {
-              userAns1 = userAns + 1;
-            } else if (q.type === "multi" && Array.isArray(userAns)) {
-              userAns1 = userAns.map((n: number) => n + 1);
-            }
-            let correctAns = null;
-            if (q.type === "single") correctAns = q.answer;
-            else if (q.type === "multi") correctAns = q.answer;
-            else if (q.type === "short") correctAns = q.criteria;
-            const isCorrect = result.breakdown && result.breakdown[q.id] > 0;
-            // Helper to highlight user's answer and correct answer
-            const renderOptions = () => {
-              if (!('options' in q) || !q.options) return null;
-              return (
-                <ul style={{ margin: '8px 0', padding: 0 }}>
-                  {q.options.map((opt: string, i: number) => {
-                    let isUser = false, isCorrectOpt = false;
-                    if (q.type === "single") {
-                      isUser = userAns1 === (i + 1);
-                      isCorrectOpt = correctAns === (i + 1);
-                    } else if (q.type === "multi") {
-                      isUser = Array.isArray(userAns1) ? userAns1.includes(i + 1) : false;
-                      isCorrectOpt = Array.isArray(correctAns) && typeof correctAns[0] === 'number' ? (correctAns as number[]).includes(i + 1) : false;
-                    }
-                    // Exclusive color logic:
-                    let background = '#1e293b';
-                    let border = 'none';
+    <main style={{ padding: 32, maxWidth: 900, margin: "0 auto" }}>
+      <h1>Vizsgaeredmény</h1>
+      <p>
+        Elért pontszám: <b>{result.total} / {totalQuestions}</b> ({percent}%)
+      </p>
+
+      <hr style={{ margin: "24px 0" }} />
+
+      <ul style={{ listStyle: "none", padding: 0 }}>
+        {attempt.questionIds.map((qid, index) => {
+          const answer = answers?.[String(qid)];
+          const isCorrect = result.breakdown?.[qid] > 0;
+
+          const selected =
+            typeof answer?.selected === "number"
+              ? [answer.selected]
+              : Array.isArray(answer?.selected)
+              ? answer.selected
+              : [];
+
+          return (
+            <li key={qid} style={{ marginBottom: 28 }}>
+              <b>{index + 1}. Kérdés #{qid}</b>
+
+              {/* OPTIONS */}
+              {Array.isArray(answer?.displayedOptions) &&
+              answer.displayedOptions.length > 0 ? (
+                <ul style={{ marginTop: 8, padding: 0 }}>
+                  {answer.displayedOptions.map((opt, i) => {
+                    const isUser = selected.includes(i);
+                    const isCorrectOpt =
+                      Array.isArray(answer.displayedCorrect) &&
+                      answer.displayedCorrect.includes(i);
+
+                    let background = "#1e293b";
+                    let border = "none";
+
                     if (isUser && isCorrectOpt) {
-                      background = '#16a34a'; // green
-                      border = '2px solid #fbbf24';
+                      background = "#16a34a";
+                      border = "2px solid #fbbf24";
                     } else if (isUser && !isCorrectOpt) {
-                      background = '#f59e42'; // orange
-                      border = '2px solid #fbbf24';
+                      background = "#f59e42";
+                      border = "2px solid #fbbf24";
                     } else if (!isUser && isCorrectOpt) {
-                      background = '#2563eb'; // blue
-                      border = '2px solid #2563eb';
+                      background = "#2563eb";
+                      border = "2px solid #2563eb";
                     }
-                    // else: dark gray
+
                     return (
-                      <li key={i} style={{
-                        background,
-                        color: '#fff',
-                        borderRadius: 6,
-                        padding: '6px 12px',
-                        marginBottom: 6,
-                        fontSize: 15,
-                        fontWeight: 500,
-                        listStyle: 'none',
-                        display: 'inline-block',
-                        border
-                      }}>{opt}</li>
+                      <li
+                        key={i}
+                        style={{
+                          background,
+                          color: "#fff",
+                          borderRadius: 6,
+                          padding: "6px 12px",
+                          marginBottom: 6,
+                          display: "inline-block",
+                          marginRight: 6,
+                          border,
+                        }}
+                      >
+                        {opt}
+                      </li>
                     );
                   })}
                 </ul>
-              );
-            };
-            return (
-              <li key={q.id} style={{ marginBottom: 28, borderBottom: '1px solid #e5e7eb', paddingBottom: 16 }}>
-                <div style={{ fontWeight: 600, color: '#3730a3', fontSize: 17 }}><b>{idx + 1}.</b> {q.question}</div>
-                {renderOptions()}
-                {q.type === "short" && (
-                  <>
-                    <div><b>Válaszod:</b> {typeof userAns === 'string' ? userAns : userAns ? String(userAns) : <i>–</i>}</div>
-                    <div><b>Helyes válasz:</b> {Array.isArray(correctAns) && correctAns.length > 0 && typeof correctAns[0] === 'object' && 'regex' in correctAns[0] ? <span style={{fontFamily:'monospace'}}>{correctAns[0].regex}</span> : <i>–</i>}</div>
-                  </>
-                )}
-                <div style={{ color: isCorrect ? '#16a34a' : '#dc2626', fontWeight: 600, marginTop: 6 }}>
-                  {isCorrect ? '✔️ Helyes' : '❌ Hibás'}
+              ) : (
+                <div
+                  style={{
+                    marginTop: 8,
+                    color: "#64748b",
+                    fontStyle: "italic",
+                  }}
+                >
+                  Nincs megjeleníthető válasz (régi vizsgaadat).
                 </div>
-              </li>
-            );
-          })}
-        </ul>
-        <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-          <span role="img" aria-label="brain">🧠</span> Gratulálunk a kitöltéshez!
-        </div>
-      </div>
+              )}
+
+              {/* RESULT */}
+              <div
+                style={{
+                  marginTop: 6,
+                  fontWeight: 600,
+                  color: isCorrect ? "#16a34a" : "#dc2626",
+                }}
+              >
+                {isCorrect ? "✔️ Helyes" : "❌ Hibás"}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
     </main>
   );
 }

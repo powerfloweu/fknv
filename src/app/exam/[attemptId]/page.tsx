@@ -1,9 +1,26 @@
 
-"use client";
-import { useEffect, useState, useRef, useCallback } from "react";
+ "use client";
+import { useEffect, useState, useRef, useCallback, useMemo } from "react";
 import { useParams } from "next/navigation";
-import questionBank from "@/data/questionBank.json";
+import goldBank from "@/data/questionBank_GOLD.json";
 import { ExamAttempt } from "@/lib/types";
+
+type Question = {
+  id: number;
+  blokk: string;
+  téma: string;
+  típus: "single" | "multiple" | "regex" | string;
+  nehézség: string;
+  kérdés: string;
+  válaszlehetőségek?: string[];
+  helyes_válasz?: number; // 1-based index
+  helyes_válaszok?: number[]; // 1-based indices
+  helyes_regex?: string;
+  forrás_téma?: string;
+  forrás_témák?: string[];
+};
+
+// Helper to load localStorage and parse as expected structure
 
 // Helper to load localStorage and parse as expected structure
 function loadLocal(key: string): { attempt?: ExamAttempt; answers?: Record<string, unknown>; startTs?: number } | null {
@@ -15,6 +32,40 @@ function loadLocal(key: string): { attempt?: ExamAttempt; answers?: Record<strin
   } catch {
     return null;
   }
+}
+
+// Deterministic PRNG (Mulberry32) + string hash, so answer order is stable per attemptId+qid
+function hashStringToUint32(str: string): number {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function mulberry32(seed: number): () => number {
+  let t = seed >>> 0;
+  return () => {
+    t += 0x6D2B79F5;
+    let r = Math.imul(t ^ (t >>> 15), 1 | t);
+    r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);
+    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function getShuffledOptions(q: Question, seedKey: string): { options: string[]; mapDisplayedToOriginal1: number[] } {
+  const opts = q.válaszlehetőségek ?? [];
+  // mapDisplayedToOriginal1: displayedIndex -> originalIndex (1-based)
+  const indices = opts.map((_, i) => i + 1);
+  const rng = mulberry32(hashStringToUint32(seedKey));
+  // Fisher-Yates shuffle on indices
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  const shuffledOpts = indices.map(orig1 => opts[orig1 - 1]);
+  return { options: shuffledOpts, mapDisplayedToOriginal1: indices };
 }
 
 
@@ -31,6 +82,10 @@ function ExamPage() {
   const [startTs, setStartTs] = useState<number | null>(null);
   const submittedRef = useRef(false);
 
+  const preparedQuestions = useMemo(() => {
+    return goldBank as unknown as Question[];
+  }, []);
+
   const qid = attempt?.questionIds?.[currentQuestionIndex];
   const key = String(qid);
 
@@ -40,15 +95,26 @@ function ExamPage() {
     localStorage.setItem("exam-" + attemptId, JSON.stringify(data));
   }
 
+  // Always resolve question and shuffled here, before any early return!
+  const question: Question | undefined =
+    preparedQuestions.find(q => String(q.id) === String(qid));
+
+  const shuffled = useMemo(() => {
+    if (!question) return { options: [] as string[], mapDisplayedToOriginal1: [] as number[] };
+    const seedKey = `${String(attemptId)}::${String(question.id)}`;
+    return getShuffledOptions(question, seedKey);
+  }, [question, attemptId]);
 
   const handleSubmit = useCallback(async () => {
     // Always send answers in backend-expected format: { [qid]: { type, value } }
     const formattedAnswers: Record<string, unknown> = {};
     if (attempt) {
       for (const qid of attempt.questionIds) {
-        const question = (questionBank as Question[]).find(q => String(q.id) === String(qid));
+        const question = preparedQuestions.find(q => String(q.id) === String(qid));
         if (!question) continue;
         const ans = answers[String(qid)];
+
+        // We store option indices as 1-based (matching GOLD: helyes_válasz / helyes_válaszok)
         if (question.típus === "single") {
           formattedAnswers[qid] = { type: "single", value: typeof ans === "number" ? ans : null };
         } else if (question.típus === "multiple") {
@@ -103,22 +169,8 @@ function ExamPage() {
         }, 300);
       }
     }
-  }, [attempt, answers, attemptId]);
+  }, [attempt, answers, attemptId, preparedQuestions]);
 
-  type Question = {
-  id: number;
-  blokk: string;
-  téma: string;
-  típus: string;
-  nehézség: string;
-  kérdés: string;
-  válaszlehetőségek?: string[];
-  helyes_válasz?: number;
-  helyes_válaszok?: number[];
-  helyes_regex?: string;
-  forrás_téma?: string;
-  forrás_témák?: string[];
-};
 
   // Fetch attempt data on mount
   useEffect(() => {
@@ -191,6 +243,7 @@ function ExamPage() {
     const id = setTimeout(() => setQuestionTime(t => t - 1), 1000);
     return () => clearTimeout(id);
   }, [questionTime, currentQuestionIndex, attempt]);
+
   if (!attempt) return (
     <main style={{
       minHeight: '100vh',
@@ -232,120 +285,121 @@ function ExamPage() {
   );
 
 
-  const question: Question | undefined = (questionBank as Question[]).find(q => String(q.id) === String(qid));
 
   function renderQuestionContent() {
-        if (!question) {
-          // Skip to next question if not found
-          setTimeout(() => {
-            setCurrentQuestionIndex(i => {
-              if (!attempt) return i;
-              const next = i + 1;
-              return next < attempt.questionIds.length ? next : i;
-            });
-          }, 100);
-          return <div style={{color:'red'}}>Question not found, skipping...</div>;
-        }
-        if (question.típus === "single") {
-          return (
-            <div>
-              <ul style={{ listStyle: 'none', padding: 0 }}>
-                {(question.válaszlehetőségek || []).map((opt, i) => {
-                  const checked = answers[key] === i;
-                  return (
-                    <li key={i} style={{
-                      marginBottom: 10,
-                      background: checked ? '#3730a3' : '#f3f4f6',
-                      color: checked ? '#fff' : '#1e293b',
-                      borderRadius: 8,
-                      fontWeight: checked ? 700 : 500,
-                      padding: '8px 14px',
-                      transition: 'background 0.2s, color 0.2s',
-                      display: 'flex', alignItems: 'center',
-                      cursor: 'pointer',
-                      border: checked ? '2px solid #6366f1' : '2px solid transparent'
-                    }}>
-                      <label style={{ width: '100%', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
-                        <input
-                          type="radio"
-                          name={key}
-                          checked={checked}
-                          onChange={() => setAnswers({ ...answers, [key]: i })}
-                          style={{ marginRight: 10 }}
-                        />
-                        {opt}
-                      </label>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          );
-        }
-        if (question.típus === "multiple") {
-          return (
-            <div>
-              <ul style={{ listStyle: 'none', padding: 0 }}>
-                {(question.válaszlehetőségek || []).map((opt, i) => {
-                  const checked = Array.isArray(answers[key]) && answers[key].includes(i);
-                  return (
-                    <li key={i} style={{
-                      marginBottom: 10,
-                      background: checked ? '#334155' : '#cbd5e1',
-                      color: checked ? '#fff' : '#1e293b',
-                      borderRadius: 8,
-                      fontWeight: checked ? 700 : 500,
-                      padding: '8px 14px',
-                      transition: 'background 0.2s, color 0.2s',
-                      display: 'flex', alignItems: 'center',
-                      cursor: 'pointer',
-                      border: checked ? '2px solid #6366f1' : '2px solid transparent'
-                    }}>
-                      <label style={{ width: '100%', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
-                        <input
-                          type="checkbox"
-                          checked={checked}
-                          onChange={e => {
-                            let arr: number[] = Array.isArray(answers[key]) ? answers[key] : [];
-                            if (e.target.checked) arr = [...arr, i];
-                            else arr = arr.filter((idx: number) => idx !== i);
-                            setAnswers({ ...answers, [key]: arr });
-                          }}
-                          style={{ marginRight: 10 }}
-                        />
-                        {opt}
-                      </label>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          );
-        }
-        if (question.típus === "regex") {
-          return (
-            <div>
-              <input
-                type="text"
-                value={typeof answers[key] === 'string' ? answers[key] : ''}
-                onChange={e => setAnswers({ ...answers, [key]: e.target.value })}
-                onKeyDown={e => {
-                  if (e.key === "Enter") {
-                    e.preventDefault();
-                    setCurrentQuestionIndex(i => {
-                      if (!attempt) return i;
-                      return Math.min((attempt?.questionIds?.length ?? 1) - 1, i + 1);
-                    });
-                  }
-                }}
-                placeholder="Írd be a választ..."
-                style={{ width: "100%", padding: 8, borderRadius: 8, border: '1.5px solid #6366f1', fontSize: 16, color: '#1e293b' }}
-                autoFocus
-              />
-            </div>
-          );
-        }
-        return <div>Unknown question type.</div>;
+    if (!question) {
+      // Skip to next question if not found
+      setTimeout(() => {
+        setCurrentQuestionIndex(i => {
+          if (!attempt) return i;
+          const next = i + 1;
+          return next < attempt.questionIds.length ? next : i;
+        });
+      }, 100);
+      return <div style={{color:'red'}}>Question not found, skipping...</div>;
+    }
+    if (question.típus === "single") {
+      return (
+        <div>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
+            {(shuffled.options || []).map((opt, i) => {
+              const originalIndex1 = shuffled.mapDisplayedToOriginal1[i];
+              const checked = answers[key] === originalIndex1;
+              return (
+                <li key={i} style={{
+                  marginBottom: 10,
+                  background: checked ? '#3730a3' : '#f3f4f6',
+                  color: checked ? '#fff' : '#1e293b',
+                  borderRadius: 8,
+                  fontWeight: checked ? 700 : 500,
+                  padding: '8px 14px',
+                  transition: 'background 0.2s, color 0.2s',
+                  display: 'flex', alignItems: 'center',
+                  cursor: 'pointer',
+                  border: checked ? '2px solid #6366f1' : '2px solid transparent'
+                }}>
+                  <label style={{ width: '100%', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
+                    <input
+                      type="radio"
+                      name={key}
+                      checked={checked}
+                      onChange={() => setAnswers({ ...answers, [key]: originalIndex1 })}
+                      style={{ marginRight: 10 }}
+                    />
+                    {opt}
+                  </label>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      );
+    }
+    if (question.típus === "multiple") {
+      return (
+        <div>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
+            {(shuffled.options || []).map((opt, i) => {
+              const originalIndex1 = shuffled.mapDisplayedToOriginal1[i];
+              const checked = Array.isArray(answers[key]) && (answers[key] as number[]).includes(originalIndex1);
+              return (
+                <li key={i} style={{
+                  marginBottom: 10,
+                  background: checked ? '#334155' : '#cbd5e1',
+                  color: checked ? '#fff' : '#1e293b',
+                  borderRadius: 8,
+                  fontWeight: checked ? 700 : 500,
+                  padding: '8px 14px',
+                  transition: 'background 0.2s, color 0.2s',
+                  display: 'flex', alignItems: 'center',
+                  cursor: 'pointer',
+                  border: checked ? '2px solid #6366f1' : '2px solid transparent'
+                }}>
+                  <label style={{ width: '100%', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
+                    <input
+                      type="checkbox"
+                      checked={checked}
+                      onChange={e => {
+                        let arr: number[] = Array.isArray(answers[key]) ? (answers[key] as number[]) : [];
+                        if (e.target.checked) arr = [...arr, originalIndex1];
+                        else arr = arr.filter((idx: number) => idx !== originalIndex1);
+                        setAnswers({ ...answers, [key]: arr });
+                      }}
+                      style={{ marginRight: 10 }}
+                    />
+                    {opt}
+                  </label>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      );
+    }
+    if (question.típus === "regex") {
+      return (
+        <div>
+          <input
+            type="text"
+            value={typeof answers[key] === 'string' ? answers[key] : ''}
+            onChange={e => setAnswers({ ...answers, [key]: e.target.value })}
+            onKeyDown={e => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                setCurrentQuestionIndex(i => {
+                  if (!attempt) return i;
+                  return Math.min((attempt?.questionIds?.length ?? 1) - 1, i + 1);
+                });
+              }
+            }}
+            placeholder="Írd be a választ..."
+            style={{ width: "100%", padding: 8, borderRadius: 8, border: '1.5px solid #6366f1', fontSize: 16, color: '#1e293b' }}
+            autoFocus
+          />
+        </div>
+      );
+    }
+    return <div>Unknown question type.</div>;
   }
 
   return (

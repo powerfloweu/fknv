@@ -1,8 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import questionBank from "@/data/questionBank.json";
+// import questionBank from "@/data/questionBank.json";
 import { Question } from "@/lib/types";
+import goldBank from "@/data/questionBank_GOLD.json";
+// import { applyGoldAnswers } from "@/lib/applyGoldAnswers";
 
 // Helper to map JSON question to internal Question type
 function mapJsonToQuestion(json: any): Question {
@@ -22,7 +24,10 @@ function mapJsonToQuestion(json: any): Question {
       type: 'multi',
       question: json.kérdés,
       options: json.válaszlehetőségek,
-      answer: json.helyes_válaszok,
+      // GOLD bank answers are typically 1-based; normalize to 0-based indices
+      answer: Array.isArray(json.helyes_válaszok)
+        ? json.helyes_válaszok.map((v: any) => (typeof v === "number" ? v - 1 : v))
+        : json.helyes_válaszok,
       difficulty: json.nehézség,
       blokk: json.blokk,
     };
@@ -31,7 +36,8 @@ function mapJsonToQuestion(json: any): Question {
       id: json.id,
       type: 'tf',
       question: json.kérdés,
-      answer: json.helyes_válasz,
+      // normalize numeric answers if they are 1-based (defensive)
+      answer: typeof json.helyes_válasz === "number" ? json.helyes_válasz - 1 : json.helyes_válasz,
       difficulty: json.nehézség,
       blokk: json.blokk,
     };
@@ -48,16 +54,47 @@ function mapJsonToQuestion(json: any): Question {
   throw new Error('Ismeretlen kérdés típus: ' + json.típus);
 }
 
+function buildDisplayedOptions(
+  q: Extract<Question, { options: string[] }>,
+  seed: string
+): { order: number[]; labels: string[] } {
+  const order = q.options.map((_, i) => i);
+  let h = 2166136261;
+  for (let i = 0; i < seed.length; i++) {
+    h ^= seed.charCodeAt(i);
+    h += (h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24);
+  }
+  function rng() {
+    let t = (h += 0x6d2b79f5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  }
+  for (let i = order.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return { order, labels: order.map(i => q.options[i]) };
+}
+
+function isMultiCorrect(user: number[] | undefined, correct: number[]) {
+  if (!Array.isArray(user)) return false;
+  const a = [...user].sort().join(",");
+  const b = [...correct].sort().join(",");
+  return a === b;
+}
+
 export default function ExamQaPage() {
   const { attemptId } = useParams();
   const router = useRouter();
   const [attempt, setAttempt] = useState<any>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, any>>({});
+  const [answers, setAnswers] = useState<Record<number, number | number[] | string>>({});
   const [showCorrect, setShowCorrect] = useState(false);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
+  const [optionOrders, setOptionOrders] = useState<Record<number, number[]>>({});
 
   // Betöltjük a vizsga metaadatokat és kérdéseket
   useEffect(() => {
@@ -81,7 +118,7 @@ export default function ExamQaPage() {
     }
     // Ha nincs, fallback: összes kérdésből random választás (nem ideális, de MVP)
     if (!questionIds.length) {
-      questionIds = (questionBank as any[])
+      questionIds = (goldBank as any[])
         .map(mapJsonToQuestion)
         .filter(q => !attemptMeta.hardMode || q.difficulty === 'hard')
         .sort(() => Math.random() - 0.5)
@@ -89,7 +126,7 @@ export default function ExamQaPage() {
         .map(q => q.id);
     }
     // Kérdések betöltése
-    const qs = (questionBank as any[])
+    const qs = (goldBank as any[])
       .map(mapJsonToQuestion)
       .filter(q => questionIds.includes(q.id));
     setQuestions(qs);
@@ -116,9 +153,10 @@ export default function ExamQaPage() {
         let correct = false;
         if (q.type === 'single') correct = ans === q.answer;
         else if (q.type === 'multi') {
-          // A helyes_válaszok 1-alapú, a felhasználó 0-alapút küld
-          const userAns1 = Array.isArray(ans) ? ans.map((n: number) => n + 1) : [];
-          correct = Array.isArray(ans) && Array.isArray(q.answer) && userAns1.sort().join(',') === q.answer.sort().join(',');
+          // q.answer and ans are arrays of optionIds
+          if (Array.isArray(ans) && Array.isArray(q.answer)) {
+            correct = isMultiCorrect(ans, q.answer);
+          }
         }
         else if (q.type === 'short' && Array.isArray(q.criteria) && q.criteria.length > 0 && typeof ans === 'string') {
           for (const crit of q.criteria) {
@@ -155,11 +193,37 @@ export default function ExamQaPage() {
 
   const q = questions[current];
   const userAns = answers[q.id];
-  const isCorrect = showCorrect && (
-    (q.type === 'single' && userAns === q.answer) ||
-    (q.type === 'multi' && Array.isArray(userAns) && Array.isArray(q.answer) && userAns.sort().join(',') === q.answer.sort().join(',')) ||
-    (q.type === 'short' && Array.isArray(q.criteria) && q.criteria.length > 0 && typeof userAns === 'string' && q.criteria.some(crit => { try { return new RegExp(crit.regex, crit.flags || 'i').test(userAns.trim()); } catch { return false; } }))
-  );
+  const seed = `${attemptId}::${q.id}`;
+
+  let order = optionOrders[q.id];
+  if (!order && (q.type === "single" || q.type === "multi")) {
+    const built = buildDisplayedOptions(q, seed);
+    order = built.order;
+    if (!optionOrders[q.id]) {
+      setOptionOrders(o => ({ ...o, [q.id]: order! }));
+    }
+  }
+  const displayed =
+    q.type === "single" || q.type === "multi"
+      ? { order: order ?? q.options.map((_, i) => i), labels: (order ?? q.options.map((_, i) => i)).map(i => q.options[i]) }
+      : { order: [], labels: [] };
+
+  const isCorrect =
+    showCorrect &&
+    (
+      (q.type === "single" && userAns === q.answer) ||
+      (q.type === "multi" && isMultiCorrect(userAns as number[], q.answer as number[])) ||
+      (q.type === "short" &&
+        Array.isArray(q.criteria) &&
+        typeof userAns === "string" &&
+        q.criteria.some(c => {
+          try {
+            return new RegExp(c.regex, c.flags || "i").test(userAns.trim());
+          } catch {
+            return false;
+          }
+        }))
+    );
 
   return (
     <main style={{ minHeight: '100vh', background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 0 }}>
@@ -172,33 +236,45 @@ export default function ExamQaPage() {
         {/* Válaszlehetőségek */}
         {q.type === 'single' && (
           <ul style={{ margin: '8px 0', padding: 0 }}>
-            {q.options.map((opt: string, i: number) => (
-              <li key={i} style={{
-                background: userAns === i ? (showCorrect ? (i === q.answer ? '#16a34a' : '#f59e42') : '#6366f1') : '#f3f4f6',
-                color: userAns === i ? '#fff' : '#1e293b',
-                borderRadius: 6,
-                padding: '8px 14px',
-                marginBottom: 8,
-                fontSize: 16,
-                fontWeight: 500,
-                listStyle: 'none',
-                cursor: showCorrect ? 'default' : 'pointer',
-                border: i === q.answer && showCorrect ? '2px solid #16a34a' : '2px solid transparent',
-                transition: 'background 0.2s'
-              }}
-                onClick={() => !showCorrect && handleAnswer(i)}
-              >{opt}</li>
-            ))}
+            {displayed.labels.map((opt: string, i: number) => {
+              const optionId = displayed.order[i];
+              return (
+                <li key={i} style={{
+                  background: userAns === optionId ? (showCorrect ? (optionId === q.answer ? '#16a34a' : '#f59e42') : '#6366f1') : '#f3f4f6',
+                  color: userAns === optionId ? '#fff' : '#1e293b',
+                  borderRadius: 6,
+                  padding: '8px 14px',
+                  marginBottom: 8,
+                  fontSize: 16,
+                  fontWeight: 500,
+                  listStyle: 'none',
+                  cursor: showCorrect ? 'default' : 'pointer',
+                  border: optionId === q.answer && showCorrect ? '2px solid #16a34a' : '2px solid transparent',
+                  transition: 'background 0.2s'
+                }}
+                  onClick={() => !showCorrect && handleAnswer(optionId)}
+                >{opt}</li>
+              );
+            })}
           </ul>
         )}
         {q.type === 'multi' && (
           <>
             <ul style={{ margin: '8px 0', padding: 0 }}>
-              {q.options.map((opt: string, i: number) => {
-                const checked = Array.isArray(userAns) && userAns.includes(i);
+              {displayed.labels.map((opt: string, i: number) => {
+                const optionId = displayed.order[i];
+                const checked = Array.isArray(userAns) && userAns.includes(optionId);
                 return (
                   <li key={i} style={{
-                    background: checked ? (showCorrect ? (Array.isArray(q.answer) && q.answer.includes(i) ? '#16a34a' : '#f59e42') : '#6366f1') : '#f3f4f6',
+                    background: checked
+                      ? showCorrect
+                        ? (Array.isArray(q.answer) && q.answer.includes(optionId)
+                            ? "#16a34a"
+                            : "#f59e42")
+                        : "#6366f1"
+                      : showCorrect && Array.isArray(q.answer) && q.answer.includes(optionId)
+                        ? "#2563eb"
+                        : "#f3f4f6",
                     color: checked ? '#fff' : '#1e293b',
                     borderRadius: 6,
                     padding: '8px 14px',
@@ -207,14 +283,14 @@ export default function ExamQaPage() {
                     fontWeight: 500,
                     listStyle: 'none',
                     cursor: showCorrect ? 'default' : 'pointer',
-                    border: Array.isArray(q.answer) && q.answer.includes(i) && showCorrect ? '2px solid #16a34a' : '2px solid transparent',
+                    border: Array.isArray(q.answer) && q.answer.includes(optionId) && showCorrect ? '2px solid #16a34a' : '2px solid transparent',
                     transition: 'background 0.2s'
                   }}
                     onClick={() => {
                       if (showCorrect) return;
                       let arr = Array.isArray(userAns) ? [...userAns] : [];
-                      if (arr.includes(i)) arr = arr.filter(x => x !== i);
-                      else arr.push(i);
+                      if (arr.includes(optionId)) arr = arr.filter(x => x !== optionId);
+                      else arr.push(optionId);
                       setAnswers(a => ({ ...a, [q.id]: arr }));
                     }}
                   >{opt}</li>
@@ -248,7 +324,7 @@ export default function ExamQaPage() {
           <div style={{ marginTop: 18, marginBottom: 8, fontSize: 16, fontWeight: 500 }}>
             {isCorrect ? <span style={{ color: '#16a34a' }}>✔️ Helyes válasz!</span> : <span style={{ color: '#dc2626' }}>❌ Hibás válasz.</span>}
             <div style={{ marginTop: 8, color: '#334155', fontSize: 15 }}>
-              <b>Helyes válasz:</b> {q.type === 'single' ? q.options[q.answer] : q.type === 'multi' ? (Array.isArray(q.answer) ? q.answer.map((i: number) => q.options[i]).join(', ') : '') : q.type === 'short' && Array.isArray(q.criteria) && q.criteria.length > 0 && typeof q.criteria[0] === 'object' && 'regex' in q.criteria[0] ? <span style={{fontFamily:'monospace'}}>{q.criteria[0].regex}</span> : ''}
+              <b>Helyes válasz:</b> {q.type === 'single' ? q.options[q.answer as number] : q.type === 'multi' ? (Array.isArray(q.answer) ? (q.answer as number[]).slice().sort((a,b) => a - b).map(i => q.options[i]).join(", ") : '') : q.type === 'short' && Array.isArray(q.criteria) && q.criteria.length > 0 && typeof q.criteria[0] === 'object' && 'regex' in q.criteria[0] ? <span style={{fontFamily:'monospace'}}>{q.criteria[0].regex}</span> : ''}
             </div>
             <button onClick={nextQuestion} style={{ marginTop: 16, padding: '8px 22px', borderRadius: 8, background: '#6366f1', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>{current + 1 === questions.length ? 'Befejezés' : 'Következő kérdés'}</button>
           </div>

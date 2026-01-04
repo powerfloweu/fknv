@@ -12,21 +12,30 @@ export interface QuestionBase {
   topic?: string;
 }
 
+
 export interface SingleQuestion extends QuestionBase {
   type: 'single';
   options: string[];
   answer: number;
+  helyes_valasz_szoveg?: string;
+  helyes_valasz_szovegek?: string[];
 }
+
 
 export interface MultiQuestion extends QuestionBase {
   type: 'multi';
   options: string[];
   answer: number[];
+  helyes_valasz_szoveg?: string;
+  helyes_valasz_szovegek?: string[];
 }
+
 
 export interface TFQuestion extends QuestionBase {
   type: 'tf';
   answer: boolean;
+  helyes_valasz_szoveg?: string;
+  helyes_valasz_szovegek?: string[];
 }
 
 export interface ShortQuestion extends QuestionBase {

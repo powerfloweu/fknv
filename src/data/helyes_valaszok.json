@@ -1,0 +1,1842 @@
+[
+  {
+    "id": 1,
+    "kerdes": "Mire irányulnak a fejlődéselméletek megközelítése szerint?",
+    "helyes_valasz": "A fejlődés mechanizmusainak és hajtóerejének magyarázatára"
+  },
+  {
+    "id": 2,
+    "kerdes": "Mit jelöl a „szocio-affektív-kognitív idegtudomány” megnevezés?",
+    "helyes_valasz": "A szociális, érzelmi és kognitív folyamatok idegrendszeri vizsgálatát"
+  },
+  {
+    "id": 3,
+    "kerdes": "Mire irányult a korai érdeklődés a történeti perspektíva szerint?",
+    "helyes_valasz": "A fizikai érés pszichológiai fejlődésre gyakorolt hatására"
+  },
+  {
+    "id": 4,
+    "kerdes": "Mely állítás szerepel a neurokonstruktivizmus leírásában?",
+    "helyes_valasz": "A fejlődés nem teljesen előre programozott folyamat"
+  },
+  {
+    "id": 5,
+    "kerdes": "Mire fókuszál elsődlegesen a fejlődési idegtudomány?",
+    "helyes_valasz": "Az idegrendszer fejlődésének és működésének változásaira"
+  },
+  {
+    "id": 6,
+    "kerdes": "Mi határozza meg a fejlődést a fejlődési pszichopatológia perspektívája szerint?",
+    "helyes_valasz": "A genetikai, környezeti, fiziológiai és pszichológiai tényezők közötti kapcsolat"
+  },
+  {
+    "id": 7,
+    "kerdes": "Mely célok szerepelnek a fejlődési pszichopatológia perspektívájában?",
+    "helyes_valasz": [
+      "Adaptív és maladaptív fejlődési kimenetekhez vezető utak feltárása",
+      "Magas kockázatú csoportok vizsgálata",
+      "Diagnosztikai rendszerek bizonyítékon alapuló validációja"
+    ]
+  },
+  {
+    "id": 8,
+    "kerdes": "Mely szemléleti elemek jelennek meg mind a neurokonstruktivizmusban, mind a fejlődési pszichopatológia perspektívájában?",
+    "helyes_valasz": [
+      "A fejlődés nem teljesen előre programozott",
+      "Többszintű elemzés szükségessége",
+      "Az egyéni és környezeti tényezők kölcsönhatása"
+    ]
+  },
+  {
+    "id": 9,
+    "kerdes": "Nevezzen meg EGY tényezőt, amely meghatározza a fejlődést a fejlődési pszichopatológia perspektívája szerint!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 46,
+    "kerdes": "Mire használják a TMS-t a megfogalmazás szerint?",
+    "helyes_valasz": "Ingerlésre és virtuális lézió létrehozására"
+  },
+  {
+    "id": 47,
+    "kerdes": "Mely állítások szerepelnek a TMS mechanizmusával kapcsolatban?",
+    "helyes_valasz": [
+      "Mágneses tér változása elektromos áramot kelt az érintett szövetekben",
+      "Neuromodulátorok és transzmitterek felszabadulása megváltozik"
+    ]
+  },
+  {
+    "id": 48,
+    "kerdes": "Mely állítások igazak a TMS gyermek- és serdülőkori alkalmazására?",
+    "helyes_valasz": [
+      "Nagyon korlátozottan alkalmazzák",
+      "Elsősorban serdülőknél fordul elő",
+      "A fejlődő agy biztonsága elsődleges szempont"
+    ]
+  },
+  {
+    "id": 49,
+    "kerdes": "Nevezzen meg EGY területet vagy állapotot, amelynek kapcsán TMS-vizsgálatot említenek!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 50,
+    "kerdes": "Mit vizsgál a feladat/inger alapú fMRI megközelítés szerint?",
+    "helyes_valasz": "Az agyi aktivációt meghatározott feladatok vagy ingerek során"
+  },
+  {
+    "id": 51,
+    "kerdes": "Mely jellemzők kapcsolódnak a feladat/inger alapú fMRI-vizsgálatokhoz?",
+    "helyes_valasz": [
+      "Kísérleti feladatok alkalmazása",
+      "Ingerhez kötött agyi aktiváció mérése",
+      "Összehasonlítás kontrollfeltételekkel"
+    ]
+  },
+  {
+    "id": 52,
+    "kerdes": "Mi jellemzi a nyugalmi állapotú fMRI-vizsgálatokat?",
+    "helyes_valasz": "Spontán agyi aktivitás vizsgálatára épülnek"
+  },
+  {
+    "id": 53,
+    "kerdes": "Mely állítások igazak a nyugalmi állapotú fMRI-re?",
+    "helyes_valasz": [
+      "Funkcionális hálózatok azonosítására alkalmas",
+      "Fejlődési különbségek vizsgálatára is használható"
+    ]
+  },
+  {
+    "id": 54,
+    "kerdes": "Mit jelent a funkcionális konnektivitás fogalma?",
+    "helyes_valasz": "A különböző agyi területek aktivitásának együttjárását"
+  },
+  {
+    "id": 55,
+    "kerdes": "Mire használják a diffúziós tenzor képalkotást (DTI)?",
+    "helyes_valasz": "A fehérállományi pályák vizsgálatára"
+  },
+  {
+    "id": 56,
+    "kerdes": "Mit mér az EEG a megfogalmazás szerint?",
+    "helyes_valasz": "Az agy elektromos aktivitását"
+  },
+  {
+    "id": 57,
+    "kerdes": "Mely állítások jellemzik az ERP-módszert?",
+    "helyes_valasz": [
+      "Ingerhez kötött agyi válaszokat vizsgál",
+      "Magas idői felbontással rendelkezik",
+      "EEG-alapú módszer"
+    ]
+  },
+  {
+    "id": 58,
+    "kerdes": "Mi jellemzi a NIRS-módszert?",
+    "helyes_valasz": "Hemodinamikai változásokat mér"
+  },
+  {
+    "id": 59,
+    "kerdes": "Mely állítások írják le a multimodális idegtudományi megközelítéseket?",
+    "helyes_valasz": [
+      "Több módszer együttes alkalmazására épülnek",
+      "Eltérő idői és térbeli felbontású adatok integrálását teszik lehetővé"
+    ]
+  },
+  {
+    "id": 60,
+    "kerdes": "Mit jelent az agyi laterizáció fogalma?",
+    "helyes_valasz": "Bizonyos funkciók egyik agyféltekéhez való domináns kötődését"
+  },
+  {
+    "id": 61,
+    "kerdes": "Mely állítások jellemzik az agyi laterizáció fejlődését?",
+    "helyes_valasz": [
+      "A laterizáció mértéke fejlődés során változhat",
+      "Fejlődési vizsgálatokkal tanulmányozható"
+    ]
+  },
+  {
+    "id": 62,
+    "kerdes": "Mire utal a hálózatok érésének fogalma?",
+    "helyes_valasz": "Az agyi hálózatok szerveződésének és hatékonyságának változására"
+  },
+  {
+    "id": 63,
+    "kerdes": "Mely jelenségek kapcsolódnak a hálózatok éréséhez?",
+    "helyes_valasz": [
+      "Hatékonyabb információfeldolgozás",
+      "Funkcionális konnektivitás változása",
+      "Hálózati specializáció növekedése"
+    ]
+  },
+  {
+    "id": 64,
+    "kerdes": "Mely állítások írják le a hálózatok érésének és a funkcionális konnektivitásnak a kapcsolatát?",
+    "helyes_valasz": [
+      "A hálózati éréssel változik az agyi területek együttjárása",
+      "Az éréssel nő a hálózatok hatékonysága"
+    ]
+  },
+  {
+    "id": 65,
+    "kerdes": "Mi a fejlődési idegtudományi módszerek egyik fő alkalmazási területe?",
+    "helyes_valasz": "Tipikus és atipikus fejlődési folyamatok feltárása"
+  },
+  {
+    "id": 66,
+    "kerdes": "Mely területek jelennek meg az atipikus fejlődés idegtudományi vizsgálatában?",
+    "helyes_valasz": [
+      "Fejlődési zavarok idegrendszeri háttere",
+      "Klinikai és kutatási megközelítések",
+      "Fejlődési pályák összehasonlítása"
+    ]
+  },
+  {
+    "id": 67,
+    "kerdes": "Mi az egyik kiemelt etikai szempont fejlődési idegtudományi vizsgálatokban?",
+    "helyes_valasz": "A fejlődő agy védelme"
+  },
+  {
+    "id": 68,
+    "kerdes": "Mely állítások kapcsolódnak az etikai megfontolásokhoz?",
+    "helyes_valasz": [
+      "A gyermekek és serdülők fokozott védelme",
+      "A vizsgálatok kockázatainak minimalizálása",
+      "A módszerek indokoltságának mérlegelése"
+    ]
+  },
+  {
+    "id": 69,
+    "kerdes": "Mely tényezők jelennek meg módszertani korlátként a fejlődési idegtudományi vizsgálatokban?",
+    "helyes_valasz": [
+      "Mozgási artefaktumok",
+      "Életkori együttműködés korlátai",
+      "Mérési eljárások érzékenysége"
+    ]
+  },
+  {
+    "id": 70,
+    "kerdes": "Mi jellemzi a csecsemőkori idegtudományi vizsgálatokat?",
+    "helyes_valasz": "Életkorhoz igazított, kíméletes módszerek alkalmazása"
+  },
+  {
+    "id": 71,
+    "kerdes": "Mely módszerek alkalmazhatók csecsemők vizsgálatában?",
+    "helyes_valasz": [
+      "EEG/ERP",
+      "NIRS",
+      "Nyugalmi állapotú fMRI"
+    ]
+  },
+  {
+    "id": 72,
+    "kerdes": "Mely etikai megfontolások jelennek meg kifejezetten csecsemők idegtudományi vizsgálatánál?",
+    "helyes_valasz": [
+      "Minimális terhelés biztosítása",
+      "A vizsgálatok időtartamának korlátozása",
+      "A szülői beleegyezés szerepe"
+    ]
+  },
+  {
+    "id": 73,
+    "kerdes": "Mit jelent a longitudinális vizsgálati elrendezés a fejlődési idegtudományban?",
+    "helyes_valasz": "Ugyanazon személyek követését időben"
+  },
+  {
+    "id": 74,
+    "kerdes": "Mely előnyök kapcsolódnak a longitudinális vizsgálatokhoz a dián?",
+    "helyes_valasz": [
+      "Fejlődési pályák feltárása",
+      "Egyéni változások nyomon követése",
+      "Okozati következtetések megalapozása"
+    ]
+  },
+  {
+    "id": 75,
+    "kerdes": "Mely kihívások jelennek meg longitudinális fejlődési idegtudományi vizsgálatokban a dián?",
+    "helyes_valasz": [
+      "Lemorzsolódás",
+      "Hosszú adatgyűjtési idő",
+      "Életkori együttműködés változása"
+    ]
+  },
+  {
+    "id": 76,
+    "kerdes": "Miért nem ajánlott a fiatalabb gyermekek és csecsemők fMRI-eredményeinek közvetlen összehasonlítása idősebb gyermekekével vagy felnőttekével a dián?",
+    "helyes_valasz": "Mert a csecsemők hemodinamikus válaszfüggvénye eltér, ami torzíthatja a BOLD-adatok értelmezését"
+  },
+  {
+    "id": 77,
+    "kerdes": "Mit vizsgál az rs-fcMRI (nyugalmi fMRI) módszer a dián?",
+    "helyes_valasz": "Az agyi területek spontán aktivitásának együttjárását nyugalmi állapotban"
+  },
+  {
+    "id": 78,
+    "kerdes": "Mire használható az rs-fcMRI a változások követésére a dián?",
+    "helyes_valasz": "Az egyéni fejlődési pályák és hálózati változások nyomon követésére"
+  },
+  {
+    "id": 79,
+    "kerdes": "Mit illusztrál a Gao et al. (2013) tanulmány a dián?",
+    "helyes_valasz": "A nyugalmi állapotú funkcionális hálózatok fejlődési változásait"
+  },
+  {
+    "id": 80,
+    "kerdes": "Mit jelent a kohorsz vizsgálat az MRI-alapú fejlődési kutatásokban a dián?",
+    "helyes_valasz": "Ugyanazon csoport hosszabb távú követését"
+  },
+  {
+    "id": 81,
+    "kerdes": "Mire használják a DWI és DTI módszereket a dián?",
+    "helyes_valasz": "A fehérállomány szerkezetének és pályáinak vizsgálatára"
+  },
+  {
+    "id": 82,
+    "kerdes": "Mit vizsgál a pszichofiziológia a dián?",
+    "helyes_valasz": "A viselkedés és az élettani folyamatok kapcsolatát"
+  },
+  {
+    "id": 83,
+    "kerdes": "Mit mér az EEG a dián?",
+    "helyes_valasz": "Az agy elektromos aktivitását"
+  },
+  {
+    "id": 84,
+    "kerdes": "Mi a klinikai vizsgálatok célja a dián?",
+    "helyes_valasz": "Diagnosztikai és terápiás döntések támogatása"
+  },
+  {
+    "id": 85,
+    "kerdes": "Mit jelentenek az eseményhez kötött potenciálok (EKP) a dián?",
+    "helyes_valasz": "Ingerhez kötött agyi elektromos válaszokat"
+  },
+  {
+    "id": 86,
+    "kerdes": "Mire utal a P300/P3 komponens az ERP-vizsgálatokban a dián?",
+    "helyes_valasz": "Figyelmi és kognitív feldolgozásra"
+  },
+  {
+    "id": 87,
+    "kerdes": "Mit szemléltet az akusztikus ingerre adott ERP-válaszok hipotetikus bemutatása a dián?",
+    "helyes_valasz": "Az ingerhez időben kötött agyi válaszok lefutását"
+  },
+  {
+    "id": 88,
+    "kerdes": "Mit mér a MEG a dián?",
+    "helyes_valasz": "Az idegsejtek által keltett mágneses teret"
+  },
+  {
+    "id": 89,
+    "kerdes": "Mit vizsgál a szemmozgás követés a dián?",
+    "helyes_valasz": "A tekintet irányát és mozgását"
+  },
+  {
+    "id": 90,
+    "kerdes": "Mire szolgálnak a biomarkerek az autizmus spektrum zavar példáján a dián?",
+    "helyes_valasz": "A diagnózis és a prognózis támogatására"
+  },
+  {
+    "id": 91,
+    "kerdes": "Mit tesznek lehetővé a szemkövetéses (eyetracking) vizsgálatok a dián?",
+    "helyes_valasz": "A figyelmi fókusz és információfeldolgozás vizsgálatát"
+  },
+  {
+    "id": 92,
+    "kerdes": "Mire utal a pupilla dilatáció mérése fejlődéskutatásokban a dián?",
+    "helyes_valasz": "Az autonóm idegrendszeri aktivitás és arousal változásaira"
+  },
+  {
+    "id": 93,
+    "kerdes": "Mit jelezhet a pislogási frekvencia mérése fejlődéskutatásokban a dián?",
+    "helyes_valasz": "Figyelmi terhelést és kognitív állapotot"
+  },
+  {
+    "id": 94,
+    "kerdes": "Hogyan jellemzi a dia az idegrendszer fejlődését?",
+    "helyes_valasz": "Hosszú távú, dinamikus és szerveződő folyamatként"
+  },
+  {
+    "id": 95,
+    "kerdes": "Mi hangsúlyos az agyfejlődés általános megfontolásai között a dián?",
+    "helyes_valasz": "A fejlődés időben elnyújtott és területenként eltérő jellege"
+  },
+  {
+    "id": 96,
+    "kerdes": "Mire utal az AGYFEJLŐDÉS diacím alatt tárgyalt folyamat?",
+    "helyes_valasz": "Az agy szerkezeti és funkcionális változásainak összességére"
+  },
+  {
+    "id": 97,
+    "kerdes": "Mit jelent az elnyújtott agyfejlődés fogalma a dián?",
+    "helyes_valasz": "Az agy fejlődése serdülőkorig vagy fiatal felnőttkorig is tart"
+  },
+  {
+    "id": 98,
+    "kerdes": "Mire utal a mechanizmus diacím az agyfejlődés kapcsán?",
+    "helyes_valasz": "Az agyfejlődés mögött álló sejtes és hálózati folyamatokra"
+  },
+  {
+    "id": 99,
+    "kerdes": "Mely tényezők befolyásolják az agyfejlődést a dián?",
+    "helyes_valasz": [
+      "Genetikai hatások",
+      "Környezeti tényezők",
+      "Tapasztalat és tanulás"
+    ]
+  },
+  {
+    "id": 100,
+    "kerdes": "Mire fókuszál a prenatális KIR fejlődés témája a dián?",
+    "helyes_valasz": "A központi idegrendszer méhen belüli fejlődésére"
+  },
+  {
+    "id": 101,
+    "kerdes": "Mit jelent a neurogenezis fogalma a dián?",
+    "helyes_valasz": "Idegsejtek születését és szaporodását"
+  },
+  {
+    "id": 102,
+    "kerdes": "Mikor zajlik a prenatális agyfejlődés a megnevezés szerint?",
+    "helyes_valasz": "A méhen belüli fejlődés során"
+  },
+  {
+    "id": 103,
+    "kerdes": "Mit jelent a differenciálódás folyamata az idegrendszer fejlődésében a dián?",
+    "helyes_valasz": "Az idegsejtek funkcionális és szerkezeti specializációját"
+  },
+  {
+    "id": 104,
+    "kerdes": "Mire utal az axonok kialakulása az idegrendszer fejlődésében a dián?",
+    "helyes_valasz": "Az idegsejtek közötti kapcsolatok hosszú távú kialakulására"
+  },
+  {
+    "id": 105,
+    "kerdes": "Mit jelent a szinaptogenezis folyamata a dián?",
+    "helyes_valasz": "Új szinapszisok kialakulását"
+  },
+  {
+    "id": 106,
+    "kerdes": "Mire utal a korai kérgi térfogatnövekedés fogalma a dián?",
+    "helyes_valasz": "A kéreg térfogatának gyors növekedésére a fejlődés korai szakaszában"
+  },
+  {
+    "id": 107,
+    "kerdes": "Mit hangsúlyoz a dia a szürke- és fehérállomány nagyléptékű fejlődési változásai kapcsán?",
+    "helyes_valasz": "A szürke- és fehérállomány eltérő fejlődési pályáit"
+  },
+  {
+    "id": 108,
+    "kerdes": "Hogyan értelmezi a dia a szürkeállomány elvékonyodását a fejlődés során?",
+    "helyes_valasz": "Normatív fejlődési folyamatként"
+  },
+  {
+    "id": 109,
+    "kerdes": "Mire használható a strukturális MRI a fejlődési idegtudományban a dián?",
+    "helyes_valasz": "Az agy szerkezeti jellemzőinek vizsgálatára"
+  },
+  {
+    "id": 110,
+    "kerdes": "Mit emel ki a dia a szürkeállomány fejlődési változásai kapcsán?",
+    "helyes_valasz": "Nemlineáris és régióspecifikus változásokat"
+  },
+  {
+    "id": 111,
+    "kerdes": "Mely folyamatok tartoznak a sejtszintű változások közé az agyfejlődés során a dián?",
+    "helyes_valasz": "Szinaptikus nyesés és dendritikus átrendeződés"
+  },
+  {
+    "id": 112,
+    "kerdes": "Mire utalnak a kortikális változások a fejlődő agyban a dián?",
+    "helyes_valasz": "A kéreg vastagságának, felszínének és regionális érésének változásaira"
+  },
+  {
+    "id": 113,
+    "kerdes": "Mi jellemzi a fehérállomány fejlődési változásait a dián?",
+    "helyes_valasz": "A mielinizáció és a hosszú távú kapcsolatok érésének folyamata"
+  },
+  {
+    "id": 114,
+    "kerdes": "Mit állít az egyensúlyhiányos (imbalance) modell a serdülőkori agyfejlődésről?",
+    "helyes_valasz": "A kognitív kontroll és az érzelmi motivációs rendszerek eltérő ütemben érnek"
+  },
+  {
+    "id": 115,
+    "kerdes": "Mire utal a funkciók változása a serdülőkori agyfejlődés során?",
+    "helyes_valasz": "A kognitív, érzelmi és motivációs funkciók átalakulására"
+  },
+  {
+    "id": 116,
+    "kerdes": "Mi jellemzi az ingerkeresést serdülőkorban a dián?",
+    "helyes_valasz": "Az új és jutalmazó ingerek fokozott keresése"
+  },
+  {
+    "id": 117,
+    "kerdes": "Mit jelent a neurális moduláció a fejlődő idegrendszerben a dián?",
+    "helyes_valasz": "Az idegi válaszok finomhangolását neuromodulátorok révén"
+  },
+  {
+    "id": 118,
+    "kerdes": "Mit fejez ki az idegrendszeri plaszticitás fogalma?",
+    "helyes_valasz": "Az idegrendszer alkalmazkodóképességét tapasztalat és környezet hatására"
+  },
+  {
+    "id": 119,
+    "kerdes": "Mit vizsgált a Bukarest study a dián?",
+    "helyes_valasz": "Az intézményi depriváció hatását a fejlődő agyra"
+  },
+  {
+    "id": 120,
+    "kerdes": "Mit illusztrál Alex esete Vargha-Khadem és munkatársai (1997) szerint?",
+    "helyes_valasz": "A korai agysérülés hosszú távú kognitív következményeit"
+  },
+  {
+    "id": 121,
+    "kerdes": "Mi a különbség a kritikus és a szenzitív periódus között a dián?",
+    "helyes_valasz": "A kritikus periódus szűkebb és nélkülözhetetlen, a szenzitív rugalmasabb időablak"
+  },
+  {
+    "id": 122,
+    "kerdes": "Mit mutatnak az ingerdeprivációs vizsgálatok a fejlődésről a dián?",
+    "helyes_valasz": "A környezeti ingerek hiánya tartós fejlődési eltérésekhez vezethet"
+  },
+  {
+    "id": 123,
+    "kerdes": "Mit jelent a szenzitív periódus fogalma a dián?",
+    "helyes_valasz": "Olyan időszakot, amikor a tapasztalat különösen erősen befolyásolja a fejlődést"
+  },
+  {
+    "id": 124,
+    "kerdes": "Nevezzen meg EGY kérdést vagy fókuszt, amelyre a fejlődéselméletek választ keresnek!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 125,
+    "kerdes": "Nevezzen meg EGY vizsgált folyamatot ebben a megközelítésben!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 126,
+    "kerdes": "Mi NEM teljesen előre programozott a neurokonstruktivizmus szerint?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 127,
+    "kerdes": "Nevezzen meg EGY tényezőt, amely meghatározza a fejlődést ebben a perspektívában!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 128,
+    "kerdes": "Mit vizsgál a strukturális MRI?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 129,
+    "kerdes": "Nevezzen meg EGY folyamatot, amely a fehérállomány fejlődéséhez kapcsolódik!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 130,
+    "kerdes": "Mi jön létre a szinaptogenezis során?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 131,
+    "kerdes": "Milyen állapotban vizsgálja az agyat az rs-fcMRI?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 132,
+    "kerdes": "Milyen típusú aktivitást mér az EEG?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 133,
+    "kerdes": "Mely kognitív folyamat kapcsolódik a P300/P3 komponenshez?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 134,
+    "kerdes": "Mely két rendszer eltérő érésére utal az imbalance modell?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 135,
+    "kerdes": "Melyik periódus rugalmasabb időablak a fejlődésben?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 136,
+    "kerdes": "Mi a nemzetközi ajánlások elsődleges célja a fejlődési idegtudományi kutatásokban?",
+    "helyes_valasz": "A módszertani és etikai minimumkövetelmények kijelölése"
+  },
+  {
+    "id": 137,
+    "kerdes": "Mit hangsúlyoz a dia az elméleti megközelítések történeti változásai kapcsán?",
+    "helyes_valasz": "A biológiai, pszichológiai és környezeti szemléletek váltakozó hangsúlyát"
+  },
+  {
+    "id": 138,
+    "kerdes": "Mit állít a dia a korai idegrendszeri hátrányok és a későbbi pszichopatológia kapcsolatáról?",
+    "helyes_valasz": "A korai hátrányok növelhetik a későbbi pszichopatológiai kockázatot"
+  },
+  {
+    "id": 139,
+    "kerdes": "Mit vizsgál az ACE-modell (Felitti et al., 1998) a fejlődés szempontjából?",
+    "helyes_valasz": "A korai ártalmas élmények hosszú távú egészségi és pszichés következményeit"
+  },
+  {
+    "id": 140,
+    "kerdes": "Mit tesznek lehetővé az epidemiológiai tanulmányok a biológiai kockázat vizsgálatában?",
+    "helyes_valasz": "Nagy populációkban megjelenő kockázati mintázatok feltárását"
+  },
+  {
+    "id": 141,
+    "kerdes": "Miért tekinthető a szegénység biológiai kockázati tényezőnek a fejlődés során?",
+    "helyes_valasz": "Mert tartós stresszen és környezeti hatásokon keresztül befolyásolja az agyfejlődést"
+  },
+  {
+    "id": 142,
+    "kerdes": "Hogyan hat a mélyszegénység az agyfejlődésre a dián?",
+    "helyes_valasz": "Krónikus stressz, csökkent kognitív stimuláció és környezeti terhelés révén"
+  },
+  {
+    "id": 143,
+    "kerdes": "Milyen összefüggésre fókuszál Hamza et al. (2024) vizsgálata a dián?",
+    "helyes_valasz": "A szocioökonómiai környezet és az agyi fejlődési jellemzők kapcsolatára"
+  },
+  {
+    "id": 144,
+    "kerdes": "Milyen agyi jellegzetességeket keresnek a biológiai kockázatot vizsgáló tanulmányok?",
+    "helyes_valasz": "Szerkezeti és funkcionális eltéréseket"
+  },
+  {
+    "id": 145,
+    "kerdes": "Mit jelöl a SES a fejlődési idegtudományi vizsgálatokban?",
+    "helyes_valasz": "A szocioökonómiai státuszt, például a szülők iskolai végzettségét"
+  },
+  {
+    "id": 146,
+    "kerdes": "Mit hangsúlyoz a dia a SES és az idegrendszeri érés kapcsolatában?",
+    "helyes_valasz": "Az idegrendszeri érés és a SES közötti összefüggést"
+  },
+  {
+    "id": 147,
+    "kerdes": "Mit jelent az, hogy nem gyorsulás vagy lassulás, hanem eltérő fejlődési pályák figyelhetők meg?",
+    "helyes_valasz": "Minőségi különbségeket a fejlődési mintázatokban"
+  },
+  {
+    "id": 148,
+    "kerdes": "Hogyan kapcsolódik a kognitív gazdagítás a SES-hez az agyfejlődés szempontjából a dián?",
+    "helyes_valasz": "A SES befolyásolja az elérhető kognitív ingereket és tapasztalatokat"
+  },
+  {
+    "id": 149,
+    "kerdes": "Mit hangsúlyoz a dia a SES és az idegrendszeri plaszticitás kapcsolatáról?",
+    "helyes_valasz": "A környezeti hatások által befolyásolt idegrendszeri alkalmazkodóképességet"
+  },
+  {
+    "id": 150,
+    "kerdes": "Mire utalnak a pszichoszociális hatások intézményi nevelés esetén a dián?",
+    "helyes_valasz": "A környezeti és kapcsolati tényezők fejlődést befolyásoló szerepére"
+  },
+  {
+    "id": 151,
+    "kerdes": "Mit vizsgál a Bucharest Early Intervention Project a pszichoszociális kockázat kapcsán?",
+    "helyes_valasz": "Az intézményi nevelés és a korai pszichoszociális környezet hatását a fejlődésre"
+  },
+  {
+    "id": 152,
+    "kerdes": "Mire vonatkoznak az értelmi fejlődéssel kapcsolatos eredmények a dián?",
+    "helyes_valasz": "Az intellektuális működés alakulására különböző nevelési környezetekben"
+  },
+  {
+    "id": 153,
+    "kerdes": "Mit hangsúlyoznak a kötődéssel kapcsolatos eredmények a Bucharest Early Intervention Projectben?",
+    "helyes_valasz": "A korai gondozási környezet szerepét a kötődési mintázatok alakulásában"
+  },
+  {
+    "id": 154,
+    "kerdes": "Mire utalnak a 8 éves korban mért funkcionális agyi változások eredményei a dián?",
+    "helyes_valasz": "A korai pszichoszociális környezet tartós hatására az agyi funkciókra"
+  },
+  {
+    "id": 155,
+    "kerdes": "Mit jeleznek a strukturális agyi változások eredményei a dián?",
+    "helyes_valasz": "A korai környezeti hatásokkal összefüggő szerkezeti eltéréseket"
+  },
+  {
+    "id": 156,
+    "kerdes": "Mire utalnak a funkcionális agyi változásokról szóló eredmények a dián?",
+    "helyes_valasz": "A korai környezeti hatásokkal összefüggő működésbeli eltérésekre"
+  },
+  {
+    "id": 157,
+    "kerdes": "Milyen összefüggésre fókuszál Debnath és mtsai (2019) a fejlődéslélektani kontextusban?",
+    "helyes_valasz": "A korai stressz és az idegrendszeri működés kapcsolatára"
+  },
+  {
+    "id": 158,
+    "kerdes": "Mit foglal össze a rossz bánásmód hatásairól szóló dia?",
+    "helyes_valasz": "A korai ártalmas tapasztalatok több fejlődési szintet érintő hatásait"
+  },
+  {
+    "id": 159,
+    "kerdes": "Mit jelent a Short és Baram (2017) modell újragondolása a dián?",
+    "helyes_valasz": "A korai stressz idegrendszeri hatásainak finomabb, fejlődési szempontú értelmezését"
+  },
+  {
+    "id": 160,
+    "kerdes": "Mit vizsgált Fantz a csecsemők észlelésével kapcsolatban?",
+    "helyes_valasz": "A vizuális preferenciákat és nézési időt"
+  },
+  {
+    "id": 161,
+    "kerdes": "Mire utal a \"nézéstől a figyelem felé\" kifejezés a korai fejlődésben?",
+    "helyes_valasz": "Az aktív figyelmi folyamatok fokozatos megjelenésére"
+  },
+  {
+    "id": 162,
+    "kerdes": "Mit jelöl a vizuális percepció fogalma a korai fejlődésben?",
+    "helyes_valasz": "A vizuális információk feldolgozását és értelmezését"
+  },
+  {
+    "id": 163,
+    "kerdes": "Miért fontos a kontrasztszenzitivitás vizsgálata csecsemőkorban?",
+    "helyes_valasz": "Mert információt ad a vizuális rendszer funkcionális érettségéről"
+  },
+  {
+    "id": 164,
+    "kerdes": "Mit fejez ki a látás élessége a korai fejlődés során a dián?",
+    "helyes_valasz": "A finom részletek elkülönítésének képességét"
+  },
+  {
+    "id": 165,
+    "kerdes": "Mit hangsúlyoz a dia a színlátás csecsemőkori fejlődésével kapcsolatban?",
+    "helyes_valasz": "A színlátás fokozatos érését az idegrendszeri fejlődéssel párhuzamosan"
+  },
+  {
+    "id": 166,
+    "kerdes": "Mire utal a szemmozgások fejlődése a korai idegrendszeri érés során a dián?",
+    "helyes_valasz": "A tekintetkontroll és a vizuomotoros koordináció fokozatos finomodására"
+  },
+  {
+    "id": 167,
+    "kerdes": "Mely szemmozgás-típusok különíthetők el a vizuális fejlődés során a dián?",
+    "helyes_valasz": "Szakkádok és követő szemmozgások"
+  },
+  {
+    "id": 168,
+    "kerdes": "Mit foglal magában a vizuális funkciók fejlődése a dián?",
+    "helyes_valasz": "A látásélesség, kontrasztérzékenység, színlátás és szemmozgások összehangolt érését"
+  },
+  {
+    "id": 169,
+    "kerdes": "Mit jelent a biológiai mozgás észlelése a fejlődéslélektanban?",
+    "helyes_valasz": "Élőlényekre jellemző mozgásmintázatok felismerését"
+  },
+  {
+    "id": 170,
+    "kerdes": "Mit tesz lehetővé a mélységészlelés kialakulása?",
+    "helyes_valasz": "A térbeli távolságok és relációk észlelését"
+  },
+  {
+    "id": 171,
+    "kerdes": "Mit fejez ki az alak- és nagyságkonstancia a percepció fejlődésében?",
+    "helyes_valasz": "A tárgyak állandó tulajdonságainak felismerését változó körülmények mellett"
+  },
+  {
+    "id": 172,
+    "kerdes": "Mit jelent a perceptuális tanulás a fejlődés során?",
+    "helyes_valasz": "Az észlelési teljesítmény tapasztalatfüggő finomodását"
+  },
+  {
+    "id": 173,
+    "kerdes": "Mit ír le Posner (2012) figyelmi hálózati modellje?",
+    "helyes_valasz": "Az éberség, orientáció és végrehajtó kontroll elkülönülő hálózatait"
+  },
+  {
+    "id": 174,
+    "kerdes": "Mire utal az éberség/készültség figyelmi komponense?",
+    "helyes_valasz": "Az általános készenléti állapot fenntartására"
+  },
+  {
+    "id": 175,
+    "kerdes": "Mit jelent az orientáció a figyelmi rendszerekben?",
+    "helyes_valasz": "A figyelem térbeli vagy szenzoros áthelyezését"
+  },
+  {
+    "id": 176,
+    "kerdes": "Nevezzen meg EGY jellemzőt, ami a biológiai mozgásra utal!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 177,
+    "kerdes": "Nevezzen meg EGY kulcsfogalmat a mélységészleléshez!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 178,
+    "kerdes": "Mi marad állandó az alak- és nagyságkonstancia során?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 179,
+    "kerdes": "Mi finomodik a perceptuális tanulás során?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 180,
+    "kerdes": "Nevezzen meg EGY figyelmi hálózatot Posner modelljéből!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 181,
+    "kerdes": "Mire utal az éberség figyelmi szempontból?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 182,
+    "kerdes": "Mi történik orientáció során?",
+    "helyes_valasz": null
+  },
+  {
+    "id": 183,
+    "kerdes": "Mit hangsúlyoz a neurokonstruktivizmus a fejlődés magyarázatában?",
+    "helyes_valasz": "A fejlődés több szinten zajló, kölcsönhatásos folyamatát"
+  },
+  {
+    "id": 184,
+    "kerdes": "Mi jellemezte az 1960–1990 közötti időszakot a fejlődéslélektanban a diák alapján?",
+    "helyes_valasz": "A „software” jellegű fejlődés iránti fokozott érdeklődés"
+  },
+  {
+    "id": 185,
+    "kerdes": "Mit integrál a szocio-affektív-kognitív idegtudomány szemlélete?",
+    "helyes_valasz": "A szociális, érzelmi és kognitív folyamatokat idegrendszeri szinten"
+  },
+  {
+    "id": 186,
+    "kerdes": "Mire irányulnak a fejlődési idegtudomány nemzetközi ajánlásai a diák szerint?",
+    "helyes_valasz": "Etikus, életkorspecifikus kutatási gyakorlatokra"
+  },
+  {
+    "id": 187,
+    "kerdes": "Nevezzen meg EGY kulcsfogalmat, amely a neurokonstruktivista szemlélethez kapcsolódik!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 188,
+    "kerdes": "Mi különbözteti meg leginkább a neurokonstruktivizmust a klasszikus éréselméletektől?",
+    "helyes_valasz": "A fejlődés többszintű, tapasztalat–agy kölcsönhatásban zajló értelmezése"
+  },
+  {
+    "id": 189,
+    "kerdes": "Mi indokolta a fejlődéslélektanban a tisztán éréselméleti megközelítések háttérbe szorulását?",
+    "helyes_valasz": "A tanulás és tapasztalat szerepét alátámasztó empirikus eredmények"
+  },
+  {
+    "id": 190,
+    "kerdes": "Miért tekinthető a szocio-affektív-kognitív idegtudomány integratív szemléletnek?",
+    "helyes_valasz": "Mert több pszichológiai domént kapcsol össze idegrendszeri szinten"
+  },
+  {
+    "id": 191,
+    "kerdes": "Milyen következménye van a neurokonstruktivista szemléletnek a tipikus és atipikus fejlődés értelmezésére?",
+    "helyes_valasz": "A fejlődési kimenetek kontinuumként értelmezhetők"
+  },
+  {
+    "id": 192,
+    "kerdes": "Nevezzen meg EGY jellemzőt, amely a neurokonstruktivizmus fejlődésfelfogását írja le!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 193,
+    "kerdes": "Mit jelent az idegrendszeri plaszticitás fogalma?",
+    "helyes_valasz": "Az idegrendszer alkalmazkodóképességét tapasztalat hatására"
+  },
+  {
+    "id": 194,
+    "kerdes": "Mi a különbség a kritikus és a szenzitív periódus között?",
+    "helyes_valasz": "A szenzitív periódus rugalmasabb fejlődési lehetőséget biztosít"
+  },
+  {
+    "id": 195,
+    "kerdes": "Mit mutatnak az ingerdeprivációs vizsgálatok az idegrendszeri fejlődésről?",
+    "helyes_valasz": "A tapasztalat hiánya tartós funkcionális eltérésekhez vezethet"
+  },
+  {
+    "id": 196,
+    "kerdes": "Mi volt a Bukarest Early Intervention Project egyik fő tanulsága?",
+    "helyes_valasz": "A korai beavatkozás javíthatja a fejlődési kimeneteket"
+  },
+  {
+    "id": 197,
+    "kerdes": "Nevezzen meg EGY tényezőt, amely befolyásolja a szenzitív periódusok hatékonyságát!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 198,
+    "kerdes": "Mit állít a serdülőkori agyfejlődés egyensúlyhiányos (imbalance) modellje?",
+    "helyes_valasz": "Az érzelmi–jutalmazó rendszerek korábban érnek, mint a kontrollrendszerek"
+  },
+  {
+    "id": 199,
+    "kerdes": "Hogyan kapcsolódik az ingerkeresés a serdülőkori idegrendszeri fejlődéshez?",
+    "helyes_valasz": "Az ingerkeresés az érzelmi–jutalmazó rendszerek korábbi érésével függ össze"
+  },
+  {
+    "id": 200,
+    "kerdes": "Mely funkciók érintettek leginkább a serdülőkori agyfejlődés során az imbalance modell szerint?",
+    "helyes_valasz": "Érzelmi szabályozás és kognitív kontroll"
+  },
+  {
+    "id": 201,
+    "kerdes": "Mit jelent a neurális moduláció szerepe serdülőkorban?",
+    "helyes_valasz": "A hálózatok működésének kontextusfüggő változását"
+  },
+  {
+    "id": 202,
+    "kerdes": "Nevezzen meg EGY idegrendszeri tényezőt, amely hozzájárul a serdülőkori egyensúlyhiányhoz!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 203,
+    "kerdes": "Hány fő figyelmi hálózatot különít el Posner modellje?",
+    "helyes_valasz": "Hármat"
+  },
+  {
+    "id": 204,
+    "kerdes": "Mit ír le az éberség/készültség figyelmi hálózata?",
+    "helyes_valasz": "Az ingerfeldolgozás általános készenléti szintjét"
+  },
+  {
+    "id": 205,
+    "kerdes": "Mire utal az orientációs figyelmi hálózat Posner modelljében?",
+    "helyes_valasz": "A figyelem térbeli irányítására"
+  },
+  {
+    "id": 206,
+    "kerdes": "Mely funkció kapcsolódik elsősorban az executív figyelmi hálózathoz?",
+    "helyes_valasz": "Konfliktuskezelés és kognitív kontroll"
+  },
+  {
+    "id": 207,
+    "kerdes": "Nevezzen meg EGY figyelmi hálózatot Posner modellje alapján!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 208,
+    "kerdes": "Mely két agyi állomány fejlődését vizsgálják gyakran nagyléptékű fejlődési változások kapcsán?",
+    "helyes_valasz": "Szürke- és fehérállomány"
+  },
+  {
+    "id": 209,
+    "kerdes": "Mit jelez a szürkeállomány elvékonyodása a fejlődés során?",
+    "helyes_valasz": "Hatékonyabb idegi hálózati szerveződést"
+  },
+  {
+    "id": 210,
+    "kerdes": "Mi jellemzi leginkább a fehérállomány fejlődését gyermek- és serdülőkorban?",
+    "helyes_valasz": "Fokozatos növekedés és mielinizáció"
+  },
+  {
+    "id": 211,
+    "kerdes": "Mire alkalmas elsősorban a strukturális MRI az agyfejlődés vizsgálatában?",
+    "helyes_valasz": "Agyi struktúrák térfogatának és vastagságának vizsgálatára"
+  },
+  {
+    "id": 212,
+    "kerdes": "Nevezzen meg EGY sejtszintű vagy hálózati mechanizmust, amely a kortikális változások hátterében állhat!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 213,
+    "kerdes": "Mit jelent a végrehajtó figyelem (executive attention) fogalma?",
+    "helyes_valasz": "A konfliktuskezelést, gátlást és kontrollált figyelmi szabályozást"
+  },
+  {
+    "id": 214,
+    "kerdes": "Mely agyterület kapcsolódik legszorosabban a végrehajtó figyelemhez?",
+    "helyes_valasz": "Prefrontális kéreg és elülső cinguláris kéreg"
+  },
+  {
+    "id": 215,
+    "kerdes": "Mit hangsúlyoz Eisenberg modellje a temperamentum és a későbbi problémák kapcsolatában?",
+    "helyes_valasz": "A végrehajtó figyelem és az érzelemszabályozás közvetítő szerepét"
+  },
+  {
+    "id": 216,
+    "kerdes": "Mit mutatott ki Green et al. (2008) a figyelmi kontroll fejlődésével kapcsolatban?",
+    "helyes_valasz": "A végrehajtó figyelem fokozatos, életkorhoz kötött fejlődést mutat"
+  },
+  {
+    "id": 217,
+    "kerdes": "Mely tényezők jelennek meg a végrehajtó figyelem idegrendszeri útvonalaiban?",
+    "helyes_valasz": [
+      "Prefrontális–cinguláris hálózatok",
+      "Dopaminerg és noradrenerg moduláció",
+      "Top-down kontroll mechanizmusok"
+    ]
+  },
+  {
+    "id": 218,
+    "kerdes": "Mely neurotranszmitter játszik kiemelt szerepet a figyelmi készenlét és éberség szabályozásában?",
+    "helyes_valasz": "Noradrenalin"
+  },
+  {
+    "id": 219,
+    "kerdes": "Milyen funkcióhoz kapcsolódik leginkább a dopaminerg rendszer a figyelmi kontrollban?",
+    "helyes_valasz": "Motiváció és jutalom-alapú tanulás"
+  },
+  {
+    "id": 220,
+    "kerdes": "Mi az elülső cinguláris kéreg (ACC) elsődleges szerepe a végrehajtó figyelemben?",
+    "helyes_valasz": "Konfliktusmonitorozás és hibadetektálás"
+  },
+  {
+    "id": 221,
+    "kerdes": "Mit jelent a top-down kontroll a figyelmi rendszerek működésében?",
+    "helyes_valasz": "A magasabb rendű kognitív folyamatok irányító hatását az alsóbb szintekre"
+  },
+  {
+    "id": 222,
+    "kerdes": "Nevezzen meg EGY neurotranszmittert, amely szerepet játszik a figyelmi kontroll idegrendszeri szabályozásában!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 223,
+    "kerdes": "Mit jelöl az Adverse Childhood Experiences (ACE) fogalma?",
+    "helyes_valasz": "Gyermekkori stresszt és kedvezőtlen élményeket"
+  },
+  {
+    "id": 224,
+    "kerdes": "Mit mutatnak a vizsgálatok a szocioökonómiai státusz (SES) és az idegrendszeri érés kapcsolatáról?",
+    "helyes_valasz": "Eltérő fejlődési pályák figyelhetők meg"
+  },
+  {
+    "id": 225,
+    "kerdes": "Miért és hogyan hathat a mélyszegénység az agyfejlődésre?",
+    "helyes_valasz": "A krónikus stressz, kognitív ingerszegénység és pszichoszociális terhelés révén"
+  },
+  {
+    "id": 226,
+    "kerdes": "Mi volt a Bucharest Early Intervention Project egyik fő célja?",
+    "helyes_valasz": "Az intézményi nevelés hatásainak vizsgálata a fejlődésre"
+  },
+  {
+    "id": 227,
+    "kerdes": "Nevezzen meg EGY pszichoszociális kockázati tényezőt, amely hatással lehet az idegrendszeri fejlődésre!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 228,
+    "kerdes": "Mit vizsgált Fantz preferenciális nézési paradigmája csecsemőknél?",
+    "helyes_valasz": "Vizuális preferenciákat és diszkriminációt"
+  },
+  {
+    "id": 229,
+    "kerdes": "Mit jelez a nézési viselkedés fokozatos átalakulása figyelmi működéssé a fejlődés során?",
+    "helyes_valasz": "A kontrollált figyelmi folyamatok kialakulását"
+  },
+  {
+    "id": 230,
+    "kerdes": "Mi jellemzi a kontrasztérzékenység fejlődését csecsemőkorban?",
+    "helyes_valasz": "Fokozatosan javul az idegrendszeri érés során"
+  },
+  {
+    "id": 231,
+    "kerdes": "Miért fontos a szemmozgások fejlődésének vizsgálata a perceptuális fejlődés szempontjából?",
+    "helyes_valasz": "Mert közvetlen kapcsolatban állnak a vizuális feldolgozással és figyelemmel"
+  },
+  {
+    "id": 232,
+    "kerdes": "Nevezzen meg EGY perceptuális funkciót, amely fejlődésen megy keresztül csecsemőkorban!",
+    "helyes_valasz": null
+  },
+  {
+    "id": null,
+    "kerdes": "Mit jelöl a végrehajtó (executive, kontrollált) figyelem fogalma?",
+    "helyes_valasz": "Tudatos, konfliktuskezeléssel és gátlással járó figyelmi kontrollt"
+  },
+  {
+    "id": null,
+    "kerdes": "Mely funkció NEM tartozik a végrehajtó figyelemhez?",
+    "helyes_valasz": "Kontrasztérzékenység"
+  },
+  {
+    "id": null,
+    "kerdes": "Eisenberg modellje szerint mi közvetíti a temperamentum és a későbbi pszichés problémák kapcsolatát?",
+    "helyes_valasz": "A végrehajtó figyelem és érzelemszabályozás fejlődése"
+  },
+  {
+    "id": null,
+    "kerdes": "Mit hangsúlyoz Green és munkatársai (2008) a végrehajtó figyelem fejlődésével kapcsolatban?",
+    "helyes_valasz": "A fejlődés fokozatos és idegrendszeri éréshez kötött"
+  },
+  {
+    "id": null,
+    "kerdes": "Nevezzen meg EGY neurotranszmittert, amely szerepet játszik a végrehajtó figyelem idegrendszeri szabályozásában!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 237,
+    "kerdes": "Mire fókuszál Colombo (2001) a figyelmi fejlődés vizsgálatában csecsemőkorban?",
+    "helyes_valasz": "A figyelmi folyamatok szerveződésére és idői dinamikájára"
+  },
+  {
+    "id": 238,
+    "kerdes": "Mit ír le Colombo (2001) csecsemő figyelmi modellje?",
+    "helyes_valasz": "A figyelem fejlődését egymást követő, eltérő funkciójú szakaszokként"
+  },
+  {
+    "id": 239,
+    "kerdes": "Mit jelent az endogén figyelem fejlődése csecsemőkorban?",
+    "helyes_valasz": "A belső kontroll alatt álló figyelmi szabályozás fokozatos megjelenését"
+  },
+  {
+    "id": 240,
+    "kerdes": "Mit jelent, hogy a figyelem fenntartásának fejlődése nem lineáris a nézési idő alapján?",
+    "helyes_valasz": "A figyelem időszakosan visszaeséseket és átrendeződéseket mutat"
+  },
+  {
+    "id": 241,
+    "kerdes": "Mi alapján különítették el Richards és munkatársai a figyelem különböző fázisait csecsemőknél?",
+    "helyes_valasz": "Szívritmus-változások és nézési idő együttes vizsgálatával"
+  },
+  {
+    "id": 242,
+    "kerdes": "Mi volt a Colombo et al. (2004) longitudinális adatbázis egyik fő célja?",
+    "helyes_valasz": "A figyelmi működés hosszú távú stabilitásának és változásainak feltárása"
+  },
+  {
+    "id": 243,
+    "kerdes": "Mit jelöl a fenntartott figyelem (sustained attention, SA) fogalma a fejlődéskutatásban?",
+    "helyes_valasz": "A figyelem hosszabb ideig történő fenntartásának képességét"
+  },
+  {
+    "id": 244,
+    "kerdes": "Mi a longitudinális kutatások egyik fő előnye a figyelmi fejlődés vizsgálatában?",
+    "helyes_valasz": "Egyéni fejlődési pályák nyomon követése időben"
+  },
+  {
+    "id": 245,
+    "kerdes": "Mit jelent a fókuszált figyelem fogalma a fejlődéslélektanban?",
+    "helyes_valasz": "Egy adott ingerre vagy feladatra irányuló, szelektív figyelmet"
+  },
+  {
+    "id": 246,
+    "kerdes": "Mit jelent a prediktív korreláció a figyelmi működés és a kognitív teljesítmény között?",
+    "helyes_valasz": "A korai figyelmi mutatók előre jelezhetik a későbbi kognitív teljesítményt"
+  },
+  {
+    "id": 247,
+    "kerdes": "Mit mutattak ki Colombo és Mitchell (1990) a csecsemők figyelmi mutatóival kapcsolatban?",
+    "helyes_valasz": "A korai figyelmi különbségek összefügghetnek a későbbi kognitív képességekkel"
+  },
+  {
+    "id": 248,
+    "kerdes": "Miért fontos a fókuszált figyelem a végrehajtó funkciók fejlődése szempontjából?",
+    "helyes_valasz": "Mert a fókuszált figyelem alapot biztosít a kontrollált információfeldolgozáshoz"
+  },
+  {
+    "id": 249,
+    "kerdes": "Nevezzen meg EGY végrehajtó funkciót, amely kapcsolatban áll a végrehajtó figyelemmel!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 250,
+    "kerdes": "Miért különbözik a gyermekek memóriája a serdülőkétől és a felnőttekétől?",
+    "helyes_valasz": "Mert az emlékezeti folyamatok és az idegrendszeri háttér még fejlődésben van"
+  },
+  {
+    "id": 251,
+    "kerdes": "Mi jelent fő kihívást a kognitív fejlődés – ezen belül az emlékezet – vizsgálatában gyermekkorban?",
+    "helyes_valasz": "Az életkornak megfelelő mérőeszközök és feladatok kialakítása"
+  },
+  {
+    "id": 252,
+    "kerdes": "Mi jellemezte az emlékezetfejlődés vizsgálatának korai szakaszát?",
+    "helyes_valasz": "Egyszerű viselkedéses paradigmák használata"
+  },
+  {
+    "id": 253,
+    "kerdes": "Miért fontos az emlékezetkutatás előzményeinek ismerete a fejlődési megközelítésben?",
+    "helyes_valasz": "Mert segít megérteni a módszertani és elméleti kiindulópontokat"
+  },
+  {
+    "id": 254,
+    "kerdes": "Mit hangsúlyoz a memóriakutatás történeti áttekintése a fejlődéslélektan szempontjából?",
+    "helyes_valasz": "A memória fejlődése fokozatos és életkorfüggő változásokat mutat"
+  },
+  {
+    "id": 255,
+    "kerdes": "Mi a hippokampusz elsődleges szerepe az emlékezeti működésben?",
+    "helyes_valasz": "Episzodikus emlékek kialakítása és konszolidációja"
+  },
+  {
+    "id": 256,
+    "kerdes": "Mit jelent a plaszticitás és érzékenység szerepe az emlékezet fejlődésében?",
+    "helyes_valasz": "A környezeti hatásokra való fokozott idegrendszeri fogékonyságot"
+  },
+  {
+    "id": 257,
+    "kerdes": "Mit hangsúlyoz Squire és Zola-Morgan (1993) emlékezeti rendszerekről szóló modellje?",
+    "helyes_valasz": "Az explicit és implicit emlékezeti rendszerek elkülönülését"
+  },
+  {
+    "id": 258,
+    "kerdes": "Mit jelent a memóriakutatás fejlődési szempontú megközelítése?",
+    "helyes_valasz": "Az emlékezeti rendszerek életkori változásainak vizsgálatát"
+  },
+  {
+    "id": 259,
+    "kerdes": "Mi jellemzi a gyermekkori emlékek sajátosságait a fejlődéslélektan szerint?",
+    "helyes_valasz": "Kialakulásuk és felidézésük függ az idegrendszeri érés szintjétől"
+  },
+  {
+    "id": 260,
+    "kerdes": "Mit jelöl az emlékezeti engram fogalma?",
+    "helyes_valasz": "Az emlékek idegrendszeri lenyomatát és annak újraaktiválhatóságát"
+  },
+  {
+    "id": 261,
+    "kerdes": "Nevezzen meg EGY agyi struktúrát, amely kulcsszerepet játszik az explicit (deklaratív) emlékezet működésében!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 262,
+    "kerdes": "Nevezzen meg EGY tényezőt, amely befolyásolja a gyermekkori emlékek kialakulását vagy felidézhetőségét!",
+    "helyes_valasz": null
+  },
+  {
+    "id": 263,
+    "kerdes": "Mit jelöl a gyermekkori amnézia fogalma?",
+    "helyes_valasz": "A korai életszakaszokból származó epizodikus emlékek későbbi felidézhetetlenségét"
+  },
+  {
+    "id": 264,
+    "kerdes": "Mi jellemzi a nem-deklaratív emlékezetet?",
+    "helyes_valasz": "Készségekhez és kondicionáláshoz kapcsolódik"
+  },
+  {
+    "id": 265,
+    "kerdes": "Miért szükséges speciális módszerek alkalmazása a memória vizsgálatában csecsemőkorban?",
+    "helyes_valasz": "Mert a verbális válaszadás nem lehetséges"
+  },
+  {
+    "id": 266,
+    "kerdes": "Mely megközelítés jellemző a memória fejlődésének vizsgálatára csecsemőkorban?",
+    "helyes_valasz": "Preferenciális nézés és kondicionálásos paradigmák"
+  },
+  {
+    "id": 267,
+    "kerdes": "Mit mutatnak az újszülöttek emlékezetére vonatkozó vizsgálatok?",
+    "helyes_valasz": "Bizonyos tanulási és emlékezeti formák már jelen vannak"
+  },
+  {
+    "id": 268,
+    "kerdes": "Mire utal a felismerési memória vizsgálata csecsemőkorban?",
+    "helyes_valasz": "Az ismerős és az új ingerek megkülönböztetésére"
+  },
+  {
+    "id": 269,
+    "kerdes": "Mely emlékezeti rendszer érintettsége kapcsolódik leginkább a gyermekkori amnézia jelenségéhez?",
+    "helyes_valasz": "Epizodikus (deklaratív) emlékezet"
+  },
+  {
+    "id": 270,
+    "kerdes": "Miért vizsgálható jól a nem-deklaratív emlékezet csecsemőkorban?",
+    "helyes_valasz": "Mert viselkedéses válaszokon keresztül mérhető"
+  },
+  {
+    "id": 271,
+    "kerdes": "Mely módszer alkalmas leginkább a csecsemők emlékezeti teljesítményének vizsgálatára?",
+    "helyes_valasz": "Preferenciális nézési paradigma"
+  },
+  {
+    "id": 272,
+    "kerdes": "Miért fontos a módszertani illesztés a memória fejlődésének vizsgálatában csecsemőkorban?",
+    "helyes_valasz": "Mert a fejlődési szint torzíthatja az eredményeket"
+  },
+  {
+    "id": 273,
+    "kerdes": "Mely következtetés vonható le az újszülöttek emlékezetére vonatkozó kutatásokból?",
+    "helyes_valasz": "Bizonyos tanulási mechanizmusok már jelen vannak"
+  },
+  {
+    "id": 274,
+    "kerdes": "Milyen viselkedéses mutató jelzi a felismerési memória működését csecsemőkorban?",
+    "helyes_valasz": "Preferencia az új inger iránt"
+  },
+  {
+    "id": 275,
+    "kerdes": "Mit mér elsősorban a felismerési memória?",
+    "helyes_valasz": "Az ismerős és új ingerek megkülönböztetését"
+  },
+  {
+    "id": 276,
+    "kerdes": "Miért alkalmas az operáns kondicionálás a memória vizsgálatára csecsemőkorban?",
+    "helyes_valasz": "Mert a viselkedés következményein alapul"
+  },
+  {
+    "id": 277,
+    "kerdes": "Mit igazoltak Rovee-Collier klasszikus vizsgálatai csecsemőkorban?",
+    "helyes_valasz": "Az emlékezet időtartamának életkori növekedését"
+  },
+  {
+    "id": 278,
+    "kerdes": "Mi a tipikus operáns kondicionálásos vizsgálatok fő célja csecsemőkorban?",
+    "helyes_valasz": "Asszociációk megtanulásának és megtartásának vizsgálata"
+  },
+  {
+    "id": 279,
+    "kerdes": "Mit jelez a kondicionálás fennmaradása késleltetés után?",
+    "helyes_valasz": "Emlékezeti megtartást"
+  },
+  {
+    "id": 280,
+    "kerdes": "Hogyan jellemezhető általánosan a memória fejlődése gyermekkorban?",
+    "helyes_valasz": "Fokozatos, életkorral összefüggő változás"
+  },
+  {
+    "id": 281,
+    "kerdes": "Mi a vita központi kérdése az explicit és implicit emlékezet fejlődésével kapcsolatban?",
+    "helyes_valasz": "Hogy elkülönülten vagy egymásra épülve fejlődnek-e"
+  },
+  {
+    "id": 282,
+    "kerdes": "Mi jellemzi a deklaratív (explicit) emlékezetet?",
+    "helyes_valasz": "Tudatos felidézést igénylő emlékek"
+  },
+  {
+    "id": 283,
+    "kerdes": "Hogyan tanulmányozható az explicit memória előhívása nem verbális csecsemőknél?",
+    "helyes_valasz": "Viselkedéses válaszok és utánzás alapján"
+  },
+  {
+    "id": 284,
+    "kerdes": "Mit jelez a késleltetett utánzás megjelenése csecsemőkorban?",
+    "helyes_valasz": "Az emlékezeti előhívás és reprezentáció meglétét"
+  },
+  {
+    "id": 288,
+    "kerdes": "Mely agyi struktúrákhoz kötik a csecsemőkorban megfigyelt kondicionálási formákat?",
+    "helyes_valasz": "Bazális ganglionok, kisagy és amygdala"
+  },
+  {
+    "id": 289,
+    "kerdes": "Mire támaszkodik elsősorban a felismerés 2 éves kor körül?",
+    "helyes_valasz": "Perceptuális jegyekre (látvány, forma, szín)"
+  },
+  {
+    "id": 290,
+    "kerdes": "Mely tényezők jelennek meg az autobiografikus memória fejlődésében a diaszöveg szerint?",
+    "helyes_valasz": "A kognitív szelf kialakulása és a nyelv fejlődése"
+  },
+  {
+    "id": 291,
+    "kerdes": "Mely agyi területek kapcsolódnak az implicit memória procedurális tanulásához a táblázat szerint?",
+    "helyes_valasz": "Striatum, SMA, motoros kéreg, frontális terület"
+  },
+  {
+    "id": 292,
+    "kerdes": "Milyen feladattal vizsgálják a pre-explicit memória működését a táblázat szerint?",
+    "helyes_valasz": "Újdonság detekció habituációt követően, páros összehasonlítás"
+  },
+  {
+    "id": 293,
+    "kerdes": "A mobilos rúgás-paradigmában hogyan változik a tanult kapcsolat megőrzésének időtartama az életkor előrehaladtával?",
+    "helyes_valasz": "Az életkor növekedésével fokozatosan nő"
+  },
+  {
+    "id": 294,
+    "kerdes": "Mit mutattak Rovee-Collier kísérletei a kontextus szerepéről a csecsemők emlékezetében?",
+    "helyes_valasz": "A teljes környezeti kontextus megváltoztatása rontja az előhívást"
+  },
+  {
+    "id": 295,
+    "kerdes": "Mi volt a fő elméleti vita tárgya Rovee-Collier mobilos és vonatos feladataival kapcsolatban?",
+    "helyes_valasz": "Hogy valóban az explicit memória működését mérik-e"
+  },
+  {
+    "id": 296,
+    "kerdes": "Schacter és Moscovitch álláspontja szerint mely memóriarendszer működik születéstől fogva?",
+    "helyes_valasz": "Implicit memória"
+  },
+  {
+    "id": 297,
+    "kerdes": "Mely életkori változás figyelhető meg Bauer és munkatársai késleltetett utánzás vizsgálataiban?",
+    "helyes_valasz": "A 10 hónaposok már hosszú távon is előhívják az információt"
+  },
+  {
+    "id": 298,
+    "kerdes": "Mi jellemzi a felismerési memória működését 2 éves kor körül?",
+    "helyes_valasz": "Elsősorban perceptuális jegyekre támaszkodik"
+  },
+  {
+    "id": 299,
+    "kerdes": "Mely hippocampális területek gyors fejlődése járul hozzá a mintázatszétválasztás javulásához 3–4 éves korban?",
+    "helyes_valasz": "CA3 és dentate gyrus"
+  },
+  {
+    "id": 300,
+    "kerdes": "Mi jellemzi a 3–4 éves gyermekek felismerési teljesítményét Sluzenski és munkatársai szerint?",
+    "helyes_valasz": "Magas felismerés, de sok téves riasztás hasonló ingereknél"
+  },
+  {
+    "id": 301,
+    "kerdes": "Mely életkorban jelenik meg a tudatos felidézés a puszta felismerés mellett?",
+    "helyes_valasz": "4–5 év"
+  },
+  {
+    "id": 302,
+    "kerdes": "Mely agyi struktúra szelektív aktivációját mutatták ki 4–5 éves korban felismerési feladatok során?",
+    "helyes_valasz": "Hippokampusz"
+  },
+  {
+    "id": 303,
+    "kerdes": "Hogyan járul hozzá a nyelvi fejlődés az autobiografikus emlékezethez?",
+    "helyes_valasz": "Lehetővé teszi a verbalizált kódolást és megosztást"
+  },
+  {
+    "id": 304,
+    "kerdes": "Mit jelent a binding probléma fiatalabb gyermekeknél?",
+    "helyes_valasz": "Az esemény elemeinek nehéz összekapcsolását"
+  },
+  {
+    "id": 305,
+    "kerdes": "Mely idegrendszeri érési folyamatokkal jár együtt a relációs binding fejlődése?",
+    "helyes_valasz": "Hippokampusz és prefrontális kéreg"
+  },
+  {
+    "id": 306,
+    "kerdes": "Mi jellemzi az idősebb gyermekek szemantikus emlékezetének szerveződését?",
+    "helyes_valasz": "Minőségi fogalmi kapcsolatok alakulnak ki"
+  },
+  {
+    "id": 307,
+    "kerdes": "Mely életkorban jelenik meg több spontán hamis emlék Brainerd és Reyna szerint?",
+    "helyes_valasz": "9–12 éves korban"
+  },
+  {
+    "id": 308,
+    "kerdes": "Mely komponensek halványulnak el leggyorsabban a korai autobiografikus emlékekben?",
+    "helyes_valasz": "Epizodikus részletek"
+  },
+  {
+    "id": 309,
+    "kerdes": "Mikor jelenik meg a kognitív szelf, amely az autobiografikus memória alapja?",
+    "helyes_valasz": "18–24 hónap"
+  },
+  {
+    "id": 310,
+    "kerdes": "Mit állítanak a diaszövegek a legkorábbi autobiografikus emlékek érzelmi jellegéről?",
+    "helyes_valasz": "Többségük semleges"
+  },
+  {
+    "id": 311,
+    "kerdes": "Miben különböznek az 5–6 évesek autobiografikus beszámolói a 9–12 évesekétől?",
+    "helyes_valasz": "Kevesebb idői és érzelmi információt tartalmaznak"
+  },
+  {
+    "id": 312,
+    "kerdes": "Mi az autobiografikus emlékezet alapvető funkciója a diaszöveg szerint?",
+    "helyes_valasz": "Az én folytonosságának és identitásának biztosítása"
+  },
+  {
+    "id": 313,
+    "kerdes": "Mi tartozik a nyelv elsődleges funkciói közé a diaszöveg szerint?",
+    "helyes_valasz": "Beszédészlelés és beszédprodukció"
+  },
+  {
+    "id": 314,
+    "kerdes": "Mit jelöl a prozódia fogalma a nyelvi rendszerben?",
+    "helyes_valasz": "A beszéd ritmusát, hangsúlyát és intonációját"
+  },
+  {
+    "id": 315,
+    "kerdes": "Mi a fonológia definíciója a diaszöveg alapján?",
+    "helyes_valasz": "A nyelv fonémákból álló hangrendszere és azok kombinációs szabályai"
+  },
+  {
+    "id": 316,
+    "kerdes": "Mit jelent a perceptuális szűkítés jelensége a fonológiai fejlődésben?",
+    "helyes_valasz": "Az anyanyelv fonémáira való fokozódó érzékenységet és más nyelvek kontrasztjainak elvesztését"
+  },
+  {
+    "id": 317,
+    "kerdes": "Mely nyelvi folyamat vizsgálatára használták a szótagok közötti átmeneti valószínűségeket Saffran és munkatársai (1996)?",
+    "helyes_valasz": "Szóhatárok felismerése"
+  },
+  {
+    "id": 318,
+    "kerdes": "A Hart és Risley (1995) által leírt különbség szerint mekkora eltérés mutatkozik a hallott szavak számában alacsony és magas SES családok között 4 éves korra?",
+    "helyes_valasz": "30 millió szó"
+  },
+  {
+    "id": 319,
+    "kerdes": "Mely életkorban jelenik meg tipikusan a reduplikatív (kanonikus) gügyögés?",
+    "helyes_valasz": "6 hónapos korban"
+  },
+  {
+    "id": 320,
+    "kerdes": "Mit mutattak a Fenson és munkatársai (1994) által közölt normatív adatok a receptív szókincs variabilitásáról 12 hónapos korban?",
+    "helyes_valasz": "Egyes gyermekek több mint 200 szót értenek, mások 25-nél kevesebbet"
+  },
+  {
+    "id": 321,
+    "kerdes": "Mit nevezünk holofrázisnak az egyszavas szakaszban?",
+    "helyes_valasz": "Egy szó teljes mondat funkciójának betöltését"
+  },
+  {
+    "id": 322,
+    "kerdes": "Mit jeleznek a túláltalánosítási hibák (pl. „majomok”) a nyelvtani fejlődés során?",
+    "helyes_valasz": "Belső szabályrendszer kialakulását"
+  },
+  {
+    "id": 323,
+    "kerdes": "Mikor lehet a digitális közeg hatékony a nyelvtanulásban a diaszöveg szerint?",
+    "helyes_valasz": "Ha élő, kölcsönös és válaszkész interakció zajlik"
+  },
+  {
+    "id": 333,
+    "kerdes": "Mely Piaget-féle fejlődési szakasz jellemző 6 éves kortól a diaszöveg szerint?",
+    "helyes_valasz": "Konkrét műveletek szakasza"
+  },
+  {
+    "id": 334,
+    "kerdes": "Megközelítőleg mekkora szókincse van egy 6 éves gyermeknek a diaszöveg szerint?",
+    "helyes_valasz": "3000 szó"
+  },
+  {
+    "id": 335,
+    "kerdes": "Mely tényező segíti elő az iskolás kori metanyelvi megértés fejlődését?",
+    "helyes_valasz": "Formális iskolai instrukciók"
+  },
+  {
+    "id": 336,
+    "kerdes": "Milyen idegrendszeri változás jellemző az iskoláskorban a nyelvi fejlődés hátterében?",
+    "helyes_valasz": "Fehérállomány volumenének növekedése és konnektivitás változása"
+  },
+  {
+    "id": 337,
+    "kerdes": "Wilke és mtsai. (2009) szerint milyen mintázat figyelhető meg 6–15 éves gyermekeknél történethallgatás közben?",
+    "helyes_valasz": "Bilaterális aktiváció bal oldali dominanciával"
+  },
+  {
+    "id": 338,
+    "kerdes": "Mely nem nyelvi képességek befolyásolják az iskolás kori nyelvi fejlődést a diaszöveg szerint?",
+    "helyes_valasz": "Figyelem, társas készségek, memória"
+  },
+  {
+    "id": 339,
+    "kerdes": "Milyen strukturális változás jellemző serdülőkorban a diaszöveg szerint?",
+    "helyes_valasz": "Fehérállomány növekedése és szürkeállomány csökkenése"
+  },
+  {
+    "id": 340,
+    "kerdes": "Hogyan változik a nyelvi produkció laterális szerveződése serdülőkorban?",
+    "helyes_valasz": "Egyre erősebb bal féltekei lateralizáció jelenik meg"
+  },
+  {
+    "id": 341,
+    "kerdes": "Hogyan változik a verbális munkamemória kapacitása koragyermekkortól kamaszkorig?",
+    "helyes_valasz": "Nő"
+  },
+  {
+    "id": 342,
+    "kerdes": "Meddig mutat erős kapcsolatot a verbális munkamemória a szótanulással?",
+    "helyes_valasz": "8 éves korig"
+  },
+  {
+    "id": 343,
+    "kerdes": "Milyen szerepet tölt be a verbális munkamemória a nyelvtani fejlődésben?",
+    "helyes_valasz": "Közvetíti a nyelvtan elsajátítását"
+  },
+  {
+    "id": 344,
+    "kerdes": "Mit jósol be a jó verbális munkamemória kapacitás 3 éves korban?",
+    "helyes_valasz": "Hosszabb és változatosabb spontán beszédet"
+  },
+  {
+    "id": 345,
+    "kerdes": "Mely készséggel jár együtt az álszóismétlési képesség fejlődése?",
+    "helyes_valasz": "Olvasási készség"
+  },
+  {
+    "id": 346,
+    "kerdes": "Melyik példa illusztrál szószintű kétértelműséget?",
+    "helyes_valasz": "„dob” szó"
+  },
+  {
+    "id": 347,
+    "kerdes": "Mely életkorban értik meg a gyerekek tipikusan az iróniát?",
+    "helyes_valasz": "6–8 év"
+  },
+  {
+    "id": 348,
+    "kerdes": "Mely életkorban értik meg a gyerekek a finomabb indirekt kéréseket?",
+    "helyes_valasz": "5–6 év"
+  },
+  {
+    "id": 349,
+    "kerdes": "Mely kognitív funkció érintett tipikusan nyelvfejlődési zavarban?",
+    "helyes_valasz": "Verbális munkamemória"
+  },
+  {
+    "id": 350,
+    "kerdes": "Mely kognitív deficit jellemző diszlexiában a diaszöveg szerint?",
+    "helyes_valasz": "Verbális munkamemória zavara"
+  },
+  {
+    "id": 351,
+    "kerdes": "Mely területek érintettek tipikusan autizmus spektrumzavarban?",
+    "helyes_valasz": "Szándéktulajdonítás és végrehajtó funkciók"
+  },
+  {
+    "id": 352,
+    "kerdes": "Mely végrehajtó funkció érintett leginkább ADHD esetén a diaszöveg szerint?",
+    "helyes_valasz": "Végrehajtó funkciók – végrehajtó kontroll"
+  },
+  {
+    "id": 353,
+    "kerdes": "Miért tekinthető az ADHD elsődlegesen végrehajtó funkció zavarnak?",
+    "helyes_valasz": "Mert a gátlás, munkamemória és önszabályozás érintett"
+  },
+  {
+    "id": 354,
+    "kerdes": "Mely neurokognitív érési eltérés áll az ADHD hátterében a fejlődési modellek szerint?",
+    "helyes_valasz": "Prefrontális kéreg érési késése"
+  },
+  {
+    "id": 355,
+    "kerdes": "Mely társas kognitív deficit tekinthető központinak autizmus spektrumzavarban?",
+    "helyes_valasz": "Közös figyelem és mentalizáció zavara"
+  },
+  {
+    "id": 356,
+    "kerdes": "Mely korai viselkedéses jel utalhat leginkább autizmus spektrumzavarra 12–18 hónapos korban?",
+    "helyes_valasz": "Közös figyelem kezdeményezésének és válaszának hiánya"
+  },
+  {
+    "id": 357,
+    "kerdes": "Mi jellemzi az autizmus spektrumzavart szemkontaktus feldolgozás szempontjából?",
+    "helyes_valasz": "Szemkontaktus arousal-moduláló hatásának csökkenése"
+  },
+  {
+    "id": 358,
+    "kerdes": "Mely feladat teljesítése sérül leggyakrabban autizmus spektrumzavarban?",
+    "helyes_valasz": "Hamis vélekedés feladat"
+  },
+  {
+    "id": 359,
+    "kerdes": "Mely agyi terület mutat legkövetkezetesebben atipikus működést ToM-deficit esetén?",
+    "helyes_valasz": "Jobb temporoparietális átmenet (TPJ)"
+  },
+  {
+    "id": 360,
+    "kerdes": "A szimulációs elmélet szerint hogyan értjük meg mások mentális állapotait?",
+    "helyes_valasz": "Saját mentális állapotaink leképezésével"
+  },
+  {
+    "id": 361,
+    "kerdes": "Mi a tükörneuron rendszer feltételezett funkciója a társas kognícióban?",
+    "helyes_valasz": "Mások cselekvéseinek és érzelmeinek szimulációja"
+  },
+  {
+    "id": 362,
+    "kerdes": "Miért kapcsolják a tükörneuron rendszer atipikus működését autizmus spektrumzavarhoz?",
+    "helyes_valasz": "Mert empatikus és intencionális szimuláció zavarához vezethet"
+  },
+  {
+    "id": 363,
+    "kerdes": "Miért tekinthető a közös figyelem zavara kulcsfontosságú tünetnek ASD-ben?",
+    "helyes_valasz": "Mert megelőzi és befolyásolja a nyelvi és társas fejlődést"
+  },
+  {
+    "id": 364,
+    "kerdes": "Milyen kapcsolat áll fenn a nyelvi fejlődés és az elmeelmélet fejlődése között?",
+    "helyes_valasz": "A nyelv támogatja a mentális állapotok reprezentációját"
+  },
+  {
+    "id": 365,
+    "kerdes": "Hogyan hat az alacsony szocioökonómiai státusz a kognitív fejlődésre?",
+    "helyes_valasz": "Stresszen keresztül gyengítheti a végrehajtó funkciókat"
+  },
+  {
+    "id": 366,
+    "kerdes": "Mit jelent a végrehajtó funkciók nagyfokú plaszticitása?",
+    "helyes_valasz": "Tapasztalat- és környezetfüggően alakíthatók"
+  },
+  {
+    "id": 367,
+    "kerdes": "Miért hatékonyak a korai környezeti intervenciók EF-zavar esetén?",
+    "helyes_valasz": "Mert a plasztikus idegrendszeri hálózatokat célozzák"
+  },
+  {
+    "id": 368,
+    "kerdes": "Mely tényező tekinthető protektívnek a társas-kognitív fejlődésben?",
+    "helyes_valasz": "Mentalizáció-központú szülői kommunikáció"
+  },
+  {
+    "id": 369,
+    "kerdes": "Mi jellemzi leginkább a fejlődési kognitív zavarok hosszú távú kimenetét?",
+    "helyes_valasz": "Heterogén, környezeti tényezők által erősen modulált"
+  },
+  {
+    "id": 370,
+    "kerdes": "Mi a fejlődési kognitív zavarok vizsgálatának fő tanulsága?",
+    "helyes_valasz": "A kognitív rendszerek hálózatokban, fejlődési pályák mentén működnek"
+  },
+  {
+    "id": 371,
+    "kerdes": "Mely állítás igaz a végrehajtó funkciók iskolai teljesítményben betöltött szerepére?",
+    "helyes_valasz": "Prediktív erejük nagyobb lehet, mint az IQ-é"
+  },
+  {
+    "id": 372,
+    "kerdes": "Mely mechanizmus áll leginkább az ADHD-ban megfigyelhető kognitív nehézségek hátterében?",
+    "helyes_valasz": "Végrehajtó kontroll zavara"
+  },
+  {
+    "id": 373,
+    "kerdes": "Mely jelenség hiánya figyelhető meg tipikusan autizmus spektrumzavarban már 12–18 hónapos korban?",
+    "helyes_valasz": "Válasz a közös figyelem kezdeményezésére"
+  },
+  {
+    "id": 374,
+    "kerdes": "Mely életkorban jelenik meg tipikusan az explicit hamis vélekedés megértése?",
+    "helyes_valasz": "4–5 éves korban"
+  },
+  {
+    "id": 375,
+    "kerdes": "Mely agyi terület mutat szelektív érzékenységet mások mentális állapotainak feldolgozására?",
+    "helyes_valasz": "Jobb temporoparietális junkció (TPJ)"
+  },
+  {
+    "id": 376,
+    "kerdes": "Miért problematikus a gátlás egységes fogalomként való kezelése?",
+    "helyes_valasz": "Mert automatikus és szándékos formái is vannak"
+  },
+  {
+    "id": 377,
+    "kerdes": "Mely feladat alkalmas elsősorban kognitív flexibilitás vizsgálatára?",
+    "helyes_valasz": "Wisconsin Kártyaszortírozó Teszt"
+  },
+  {
+    "id": 378,
+    "kerdes": "Mely atipikus mintázat jellemző ASD esetén szemkontaktus során?",
+    "helyes_valasz": "Szem helyett inkább a szájra irányuló figyelem"
+  },
+  {
+    "id": 379,
+    "kerdes": "Mely terület fejlődésére van bizonyított hatása az 1 éves kori közös figyelmi aktivitásnak?",
+    "helyes_valasz": "Nyelvi és szocio-emocionális fejlődésre"
+  },
+  {
+    "id": 380,
+    "kerdes": "Mely állítás írja le legpontosabban a végrehajtó funkció fejlődését?",
+    "helyes_valasz": "Magas fokú plaszticitást mutat"
+  },
+  {
+    "id": 391,
+    "kerdes": "Mely állítás ragadja meg legpontosabban a Miyake-féle végrehajtó funkció modell és a Zelazo-féle CCC modell közös pontját?",
+    "helyes_valasz": "A végrehajtó funkció hierarchikusan szerveződő, szabályvezérelt kontrollfolyamat"
+  },
+  {
+    "id": 392,
+    "kerdes": "Miért jelenik meg az explicit hamis vélekedés megértése később, mint az implicit mentalizáció?",
+    "helyes_valasz": "Mert az explicit feladatok végrehajtó gátlást igényelnek"
+  },
+  {
+    "id": 393,
+    "kerdes": "Mely agyi hálózat atipikus működése magyarázza leginkább az ASD-ben megjelenő ToM-deficitet?",
+    "helyes_valasz": "Kortikális középvonal struktúrák (CMS) és TPJ"
+  },
+  {
+    "id": 394,
+    "kerdes": "Mely mechanizmuson keresztül járul hozzá a közös figyelem a végrehajtó funkció fejlődéséhez?",
+    "helyes_valasz": "A viselkedési gátlás és figyelmi váltás gyakorlásán keresztül"
+  },
+  {
+    "id": 395,
+    "kerdes": "Mit jelent Johnson „fast-track modulátor” modellje a szemkontaktus esetében?",
+    "helyes_valasz": "A szemkontaktus szubkortikális útvonalakon keresztül gyorsan modulálja a társas agyat"
+  },
+  {
+    "id": 396,
+    "kerdes": "Mely fejlődési folyamat járul hozzá leginkább a végrehajtó funkciók hatékonyságának növekedéséhez serdülőkorban?",
+    "helyes_valasz": "Szinaptikus metszés és mielinizáció"
+  },
+  {
+    "id": 397,
+    "kerdes": "Mi a fő kritika a hideg–meleg végrehajtó funkció elkülönítésével szemben?",
+    "helyes_valasz": "Nem különíthető el idegrendszerileg"
+  },
+  {
+    "id": 398,
+    "kerdes": "Mely idegrendszeri mechanizmus támasztja alá a szimulációs elméletet?",
+    "helyes_valasz": "CMS és tükörneuron rendszer együttműködése"
+  },
+  {
+    "id": 399,
+    "kerdes": "Mely közös mechanizmus sérülése járulhat hozzá nyelvi és társas kognitív zavarok együttes megjelenéséhez?",
+    "helyes_valasz": "Perceptuális szűkítés folyamata"
+  },
+  {
+    "id": 400,
+    "kerdes": "Mely láncolat írja le legpontosabban az alacsony SES hosszútávú hatását a kognitív fejlődésre?",
+    "helyes_valasz": "Alacsony SES → stressz → gyengébb EF → negatív kimenet"
+  },
+  {
+    "id": 401,
+    "kerdes": "Mi magyarázza leginkább, hogy a nyelvtani túláltalánosítási hibák megjelenése fejlődési szempontból adaptív jelenség?",
+    "helyes_valasz": "A szabályalkotás és a végrehajtó kontroll aktív működése"
+  },
+  {
+    "id": 402,
+    "kerdes": "Miért képesek csecsemők implicit mentalizációra jóval az explicit ToM-feladatok megoldása előtt?",
+    "helyes_valasz": "Mert az implicit feldolgozás kevésbé terheli a végrehajtó funkciókat"
+  },
+  {
+    "id": 403,
+    "kerdes": "Mely mechanizmuson keresztül hat a közös figyelem a nyelvi pragmatika fejlődésére?",
+    "helyes_valasz": "Referenciális figyelem és szándéktulajdonítás összekapcsolásán keresztül"
+  },
+  {
+    "id": 404,
+    "kerdes": "Miért tekinthető a szemkontaktus a végrehajtó funkciók fejlődésének facilitátorának?",
+    "helyes_valasz": "Mert arousal-fokozáson keresztül modulálja a figyelmi és kontrollrendszereket"
+  },
+  {
+    "id": 405,
+    "kerdes": "Mi a perceptuális szűkítés adaptív funkciója mind a nyelvi, mind az arcfeldolgozásban?",
+    "helyes_valasz": "A releváns kategóriákra való hatékony specializáció"
+  },
+  {
+    "id": 406,
+    "kerdes": "Mely végrehajtó funkció komponens a legkritikusabb a hamis vélekedés feladatok sikeres megoldásához?",
+    "helyes_valasz": "Gátló kontroll"
+  },
+  {
+    "id": 407,
+    "kerdes": "Miért jelenik meg a közös figyelem zavara az autizmus spektrumzavar egyik legkorábbi markerjeként?",
+    "helyes_valasz": "Mert a társas motiváció és a figyelmi váltás hálózatai sérülnek"
+  },
+  {
+    "id": 408,
+    "kerdes": "Miért prediktívebb a végrehajtó funkció az iskolai sikeresség szempontjából, mint az IQ?",
+    "helyes_valasz": "Mert az EF közvetlenül befolyásolja a tanulási stratégiák alkalmazását"
+  },
+  {
+    "id": 409,
+    "kerdes": "Mely tényező mutatja leginkább, hogy a prefrontális kéreg fejlődése tapasztalatfüggő?",
+    "helyes_valasz": "Környezeti változásokra adott EF-javulás"
+  },
+  {
+    "id": 410,
+    "kerdes": "Mely hálózatok együttműködése alapozza meg a társas megismerés fejlődését?",
+    "helyes_valasz": "CMS, TPJ, STS és prefrontális régiók"
+  }
+]

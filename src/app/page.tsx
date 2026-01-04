@@ -38,6 +38,25 @@ export default function Home() {
         <div style={{ fontSize: 18, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
           Vizsgarendszer & Tanulóplatform
         </div>
+        <Link href="/study" passHref legacyBehavior>
+          <a
+            style={{
+              display: 'inline-block',
+              marginTop: 18,
+              padding: '12px 32px',
+              background: 'linear-gradient(90deg, #6366f1 0%, #a5b4fc 100%)',
+              color: 'white',
+              borderRadius: 12,
+              fontWeight: 600,
+              fontSize: 18,
+              textDecoration: 'none',
+              boxShadow: '0 2px 8px rgba(60,60,120,0.10)',
+              transition: 'background 0.2s',
+            }}
+          >
+            Tanuló mód
+          </a>
+        </Link>
         <p style={{ color: '#334155', fontSize: 16, marginBottom: 24 }}>
           Fedezd fel az agy fejlődésének, kognitív funkcióinak és vizsgálati módszereinek világát!<br />
           Próbavizsga, tanulás, magyarázatok – minden egy helyen.

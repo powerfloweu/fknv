@@ -6,7 +6,8 @@ export default function ExamStartPage() {
   const [error, setError] = useState<string | null>(null);
   const [count, setCount] = useState(90);
   const [hardMode, setHardMode] = useState(false);
-  const [qaMode, setQaMode] = useState(false);
+  // kérdés-felelet mód always enabled
+  const qaMode = true;
 
   function validateCount(n: number) {
     return n >= 9 && n <= 180 && n % 9 === 0;
@@ -38,11 +39,7 @@ export default function ExamStartPage() {
       return;
     }
     const data = await res.json();
-    if (qaMode) {
-      window.location.href = `/exam/qa/${data.attemptId}`;
-    } else {
-      window.location.href = `/exam/${data.attemptId}`;
-    }
+    window.location.href = `/exam/qa/${data.attemptId}`;
   }
 
   return (
@@ -79,8 +76,14 @@ export default function ExamStartPage() {
         <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>
           Próbavizsga indítása
         </h1>
+        <div style={{ color: '#dc2626', fontWeight: 600, fontSize: 16, marginBottom: 10 }}>
+          Jelenleg csak a Q&A mód működik!
+        </div>
         <div style={{ fontSize: 17, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
-          Állítsd be, hány kérdésből álljon a vizsga! (Mivel kilenc nagy téma van, ezzel a számmal oszhatónak kell lennie az elemszámnak!)
+          Állítsd be, hány kérdésből álljon a vizsga!
+        </div>
+        <div style={{ fontStyle: 'italic', fontSize: 15, color: '#3730a3', marginBottom: 18, fontWeight: 400 }}>
+          (Mivel kilenc nagy téma van, ezzel a számmal oszhatónak kell lennie az elemszámnak!)
         </div>
         <input
           type="number"
@@ -111,17 +114,7 @@ export default function ExamStartPage() {
             Csak nehéz kérdésekből álló (&quot;hard mode&quot;) vizsga
           </label>
         </div>
-        <div style={{ marginBottom: 12 }}>
-          <label style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, fontSize: 17, color: '#0f172a', fontWeight: 500 }}>
-            <input
-              type="checkbox"
-              checked={qaMode}
-              onChange={e => setQaMode(e.target.checked)}
-              style={{ width: 20, height: 20, accentColor: '#6366f1', marginRight: 8 }}
-            />
-            Kérdés-felelet mód (azonnali visszajelzés minden kérdés után)
-          </label>
-        </div>
+        {/* Kérdés-felelet mód always enabled, checkbox removed */}
         <button
           onClick={startExam}
           disabled={loading}
