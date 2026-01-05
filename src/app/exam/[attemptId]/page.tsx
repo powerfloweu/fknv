@@ -34,38 +34,26 @@ function loadLocal(key: string): { attempt?: ExamAttempt; answers?: Record<strin
   }
 }
 
-// Deterministic PRNG (Mulberry32) + string hash, so answer order is stable per attemptId+qid
-function hashStringToUint32(str: string): number {
-  let h = 2166136261;
-  for (let i = 0; i < str.length; i++) {
-    h ^= str.charCodeAt(i);
-    h = Math.imul(h, 16777619);
-  }
-  return h >>> 0;
-}
-
-function mulberry32(seed: number): () => number {
-  let t = seed >>> 0;
-  return () => {
-    t += 0x6D2B79F5;
-    let r = Math.imul(t ^ (t >>> 15), 1 | t);
-    r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);
-    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-function getShuffledOptions(q: Question, seedKey: string): { options: string[]; mapDisplayedToOriginal1: number[] } {
+// Deterministic shuffle compatible with QA model (optionId-based, 0-based, deterministic)
+function getShuffledOptions(q: Question, seedKey: string): { ids: number[]; labels: string[] } {
   const opts = q.válaszlehetőségek ?? [];
-  // mapDisplayedToOriginal1: displayedIndex -> originalIndex (1-based)
-  const indices = opts.map((_, i) => i + 1);
-  const rng = mulberry32(hashStringToUint32(seedKey));
-  // Fisher-Yates shuffle on indices
-  for (let i = indices.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
-    [indices[i], indices[j]] = [indices[j], indices[i]];
+  const ids = opts.map((_, i) => i); // 0-based optionIds
+  let h = 2166136261;
+  for (let i = 0; i < seedKey.length; i++) {
+    h ^= seedKey.charCodeAt(i);
+    h += (h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24);
   }
-  const shuffledOpts = indices.map(orig1 => opts[orig1 - 1]);
-  return { options: shuffledOpts, mapDisplayedToOriginal1: indices };
+  function rng() {
+    let t = (h += 0x6d2b79f5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  }
+  for (let i = ids.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [ids[i], ids[j]] = [ids[j], ids[i]];
+  }
+  return { ids, labels: ids.map(i => opts[i]) };
 }
 
 
@@ -100,7 +88,7 @@ function ExamPage() {
     preparedQuestions.find(q => String(q.id) === String(qid));
 
   const shuffled = useMemo(() => {
-    if (!question) return { options: [] as string[], mapDisplayedToOriginal1: [] as number[] };
+    if (!question) return { ids: [] as number[], labels: [] as string[] };
     const seedKey = `${String(attemptId)}::${String(question.id)}`;
     return getShuffledOptions(question, seedKey);
   }, [question, attemptId]);
@@ -113,12 +101,12 @@ function ExamPage() {
         const question = preparedQuestions.find(q => String(q.id) === String(qid));
         if (!question) continue;
         const ans = answers[String(qid)];
-
-        // We store option indices as 1-based (matching GOLD: helyes_válasz / helyes_válaszok)
         if (question.típus === "single") {
-          formattedAnswers[qid] = { type: "single", value: typeof ans === "number" ? ans : null };
+          // Convert 0-based optionId to 1-based for backend (GOLD)
+          formattedAnswers[qid] = { type: "single", value: typeof ans === "number" ? ans + 1 : null };
         } else if (question.típus === "multiple") {
-          formattedAnswers[qid] = { type: "multi", value: Array.isArray(ans) ? ans : [] };
+          // Convert 0-based optionIds to 1-based for backend (GOLD)
+          formattedAnswers[qid] = { type: "multi", value: Array.isArray(ans) ? (ans as number[]).map(id => id + 1) : [] };
         } else if (question.típus === "regex") {
           formattedAnswers[qid] = { type: "regex", value: typeof ans === "string" && ans.length > 0 ? ans : null };
         }
@@ -302,9 +290,9 @@ function ExamPage() {
       return (
         <div>
           <ul style={{ listStyle: 'none', padding: 0 }}>
-            {(shuffled.options || []).map((opt, i) => {
-              const originalIndex1 = shuffled.mapDisplayedToOriginal1[i];
-              const checked = answers[key] === originalIndex1;
+            {(shuffled.labels || []).map((opt, i) => {
+              const optionId = shuffled.ids[i]; // 0-based
+              const checked = answers[key] === optionId;
               return (
                 <li key={i} style={{
                   marginBottom: 10,
@@ -323,7 +311,7 @@ function ExamPage() {
                       type="radio"
                       name={key}
                       checked={checked}
-                      onChange={() => setAnswers({ ...answers, [key]: originalIndex1 })}
+                      onChange={() => setAnswers({ ...answers, [key]: optionId })}
                       style={{ marginRight: 10 }}
                     />
                     {opt}
@@ -339,9 +327,9 @@ function ExamPage() {
       return (
         <div>
           <ul style={{ listStyle: 'none', padding: 0 }}>
-            {(shuffled.options || []).map((opt, i) => {
-              const originalIndex1 = shuffled.mapDisplayedToOriginal1[i];
-              const checked = Array.isArray(answers[key]) && (answers[key] as number[]).includes(originalIndex1);
+            {(shuffled.labels || []).map((opt, i) => {
+              const optionId = shuffled.ids[i]; // 0-based
+              const checked = Array.isArray(answers[key]) && (answers[key] as number[]).includes(optionId);
               return (
                 <li key={i} style={{
                   marginBottom: 10,
@@ -361,8 +349,8 @@ function ExamPage() {
                       checked={checked}
                       onChange={e => {
                         let arr: number[] = Array.isArray(answers[key]) ? (answers[key] as number[]) : [];
-                        if (e.target.checked) arr = [...arr, originalIndex1];
-                        else arr = arr.filter((idx: number) => idx !== originalIndex1);
+                        if (e.target.checked) arr = [...arr, optionId];
+                        else arr = arr.filter((idx: number) => idx !== optionId);
                         setAnswers({ ...answers, [key]: arr });
                       }}
                       style={{ marginRight: 10 }}

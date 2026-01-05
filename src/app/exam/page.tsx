@@ -6,14 +6,9 @@ export default function ExamStartPage() {
   const [error, setError] = useState<string | null>(null);
   const [count, setCount] = useState(90);
   const [hardMode, setHardMode] = useState(false);
-  // kérdés-felelet mód always enabled
-  const qaMode = true;
 
-  function validateCount(n: number) {
-    return n >= 9 && n <= 180 && n % 9 === 0;
-  }
-
-  async function startExam() {
+  // Separate handlers for normal and Q&A modes
+  async function startNormalExam() {
     if (!validateCount(count)) {
       setError('A kérdések száma legyen legalább 9 és osztható 9-cel!');
       return;
@@ -21,11 +16,38 @@ export default function ExamStartPage() {
     setLoading(true);
     setError(null);
     const seed = Date.now().toString();
-    // Store count, hardMode, qaMode in localStorage for ExamPage to pick up
     try {
       const metaRaw = localStorage.getItem("exam-meta");
       const meta = metaRaw ? JSON.parse(metaRaw) : {};
-      meta[seed] = { count, hardMode, qaMode };
+      meta[seed] = { count, hardMode, qaMode: false };
+      localStorage.setItem("exam-meta", JSON.stringify(meta));
+    } catch {}
+    const res = await fetch('/api/exam/start', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ seed, count, hardMode })
+    });
+    if (!res.ok) {
+      setError('Hiba a vizsga indításakor');
+      setLoading(false);
+      return;
+    }
+    const data = await res.json();
+    window.location.href = `/exam/${data.attemptId}`;
+  }
+
+  async function startQaExam() {
+    if (!validateCount(count)) {
+      setError('A kérdések száma legyen legalább 9 és osztható 9-cel!');
+      return;
+    }
+    setLoading(true);
+    setError(null);
+    const seed = Date.now().toString();
+    try {
+      const metaRaw = localStorage.getItem("exam-meta");
+      const meta = metaRaw ? JSON.parse(metaRaw) : {};
+      meta[seed] = { count, hardMode, qaMode: true };
       localStorage.setItem("exam-meta", JSON.stringify(meta));
     } catch {}
     const res = await fetch('/api/exam/start', {
@@ -41,6 +63,11 @@ export default function ExamStartPage() {
     const data = await res.json();
     window.location.href = `/exam/qa/${data.attemptId}`;
   }
+
+  function validateCount(n: number) {
+    return n >= 9 && n <= 180 && n % 9 === 0;
+  }
+
 
   return (
     <main style={{
@@ -76,9 +103,7 @@ export default function ExamStartPage() {
         <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>
           Próbavizsga indítása
         </h1>
-        <div style={{ color: '#dc2626', fontWeight: 600, fontSize: 16, marginBottom: 10 }}>
-          Jelenleg csak a Q&A mód működik!
-        </div>
+        {/* Két külön gomb, figyelmeztetés eltávolítva */}
         <div style={{ fontSize: 17, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
           Állítsd be, hány kérdésből álljon a vizsga!
         </div>
@@ -114,26 +139,44 @@ export default function ExamStartPage() {
             Csak nehéz kérdésekből álló (&quot;hard mode&quot;) vizsga
           </label>
         </div>
-        {/* Kérdés-felelet mód always enabled, checkbox removed */}
-        <button
-          onClick={startExam}
-          disabled={loading}
-          style={{
-            background: 'linear-gradient(90deg, #6366f1 0%, #a5b4fc 100%)',
-            color: 'white',
-            fontWeight: 600,
-            fontSize: 18,
-            padding: '12px 32px',
-            borderRadius: 12,
-            border: 'none',
-            boxShadow: '0 2px 8px rgba(99,102,241,0.08)',
-            cursor: loading ? 'not-allowed' : 'pointer',
-            marginBottom: 12,
-            transition: 'background 0.2s'
-          }}
-        >
-          {loading ? 'Vizsga indítása...' : `${count} kérdéses vizsga indítása`}
-        </button>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 12 }}>
+          <button
+            onClick={startNormalExam}
+            disabled={loading}
+            style={{
+              background: 'linear-gradient(90deg, #6366f1 0%, #a5b4fc 100%)',
+              color: 'white',
+              fontWeight: 600,
+              fontSize: 18,
+              padding: '12px 32px',
+              borderRadius: 12,
+              border: 'none',
+              boxShadow: '0 2px 8px rgba(99,102,241,0.08)',
+              cursor: loading ? 'not-allowed' : 'pointer',
+              transition: 'background 0.2s'
+            }}
+          >
+            {loading ? 'Vizsga indítása...' : `${count} kérdéses normál vizsga`}
+          </button>
+          <button
+            onClick={startQaExam}
+            disabled={loading}
+            style={{
+              background: 'linear-gradient(90deg, #f59e42 0%, #fbbf24 100%)',
+              color: 'white',
+              fontWeight: 600,
+              fontSize: 18,
+              padding: '12px 32px',
+              borderRadius: 12,
+              border: 'none',
+              boxShadow: '0 2px 8px rgba(251,191,36,0.10)',
+              cursor: loading ? 'not-allowed' : 'pointer',
+              transition: 'background 0.2s'
+            }}
+          >
+            {loading ? 'Vizsga indítása...' : `${count} kérdéses Q&A vizsga`}
+          </button>
+        </div>
         {error && <div style={{ color: '#dc2626', marginTop: 8 }}>{error}</div>}
       </div>
       <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
