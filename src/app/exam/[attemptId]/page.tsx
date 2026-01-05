@@ -93,6 +93,21 @@ function ExamPage() {
     return getShuffledOptions(question, seedKey);
   }, [question, attemptId]);
 
+  useEffect(() => {
+  if (!question || !shuffled.ids.length) return;
+
+  const local = loadLocal(String(attemptId));
+  if (!local?.attempt) return;
+
+  const orders = (local as any).orders ?? {};
+  orders[String(question.id)] = shuffled.ids;
+
+  saveLocal(String(attemptId), {
+    ...local,
+    orders
+  });
+}, [question?.id, shuffled.ids, attemptId]);
+
   const handleSubmit = useCallback(async () => {
     // Always send answers in backend-expected format: { [qid]: { type, value } }
     const formattedAnswers: Record<string, unknown> = {};
@@ -126,7 +141,7 @@ function ExamPage() {
           `exam-result-${String(attemptId)}`,
           JSON.stringify({
             attempt,
-            answers: formattedAnswers,
+            answers, // <-- RAW 0-based optionIds for result page
             result
           })
         );
@@ -196,7 +211,7 @@ function ExamPage() {
         const ts = Date.now();
         setStartTs(ts);
         setRemainingTime(data.durationSec || 0);
-        saveLocal(String(attemptId), { attempt: data, answers: {}, startTs: ts });
+        saveLocal(String(attemptId), { attempt: data, answers: {}, orders: {}, startTs: ts });
       }
     }
     fetchAttempt();
@@ -311,7 +326,16 @@ function ExamPage() {
                       type="radio"
                       name={key}
                       checked={checked}
-                      onChange={() => setAnswers({ ...answers, [key]: optionId })}
+                      onChange={() => {
+  setAnswers(prev => ({ ...prev, [key]: optionId }));
+  const local = loadLocal(String(attemptId));
+  if (local?.attempt) {
+    saveLocal(String(attemptId), {
+      ...local,
+      answers: { ...(local.answers ?? {}), [key]: optionId }
+    });
+  }
+}}
                       style={{ marginRight: 10 }}
                     />
                     {opt}
@@ -351,7 +375,17 @@ function ExamPage() {
                         let arr: number[] = Array.isArray(answers[key]) ? (answers[key] as number[]) : [];
                         if (e.target.checked) arr = [...arr, optionId];
                         else arr = arr.filter((idx: number) => idx !== optionId);
-                        setAnswers({ ...answers, [key]: arr });
+                        setAnswers(prev => {
+  const next = { ...prev, [key]: arr };
+  const local = loadLocal(String(attemptId));
+  if (local?.attempt) {
+    saveLocal(String(attemptId), {
+      ...local,
+      answers: { ...(local.answers ?? {}), [key]: arr }
+    });
+  }
+  return next;
+});
                       }}
                       style={{ marginRight: 10 }}
                     />
@@ -370,7 +404,17 @@ function ExamPage() {
           <input
             type="text"
             value={typeof answers[key] === 'string' ? answers[key] : ''}
-            onChange={e => setAnswers({ ...answers, [key]: e.target.value })}
+            onChange={e => {
+  const val = e.target.value;
+  setAnswers(prev => ({ ...prev, [key]: val }));
+  const local = loadLocal(String(attemptId));
+  if (local?.attempt) {
+    saveLocal(String(attemptId), {
+      ...local,
+      answers: { ...(local.answers ?? {}), [key]: val }
+    });
+  }
+}}
             onKeyDown={e => {
               if (e.key === "Enter") {
                 e.preventDefault();

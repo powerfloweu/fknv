@@ -1,4 +1,22 @@
+
 "use client";
+
+// --- answer normalizer: always map display indexes to optionIds using order ---
+function toOptionIds(
+  q: Question,
+  userAns: number | number[] | boolean | string | undefined,
+  order: number[]
+): number | number[] | boolean | string | undefined {
+  if (q.type === "single" && typeof userAns === "number") {
+    return order[userAns];
+  }
+  if (q.type === "multi" && Array.isArray(userAns)) {
+    return userAns
+      .map(i => order[i])
+      .filter(v => typeof v === "number");
+  }
+  return userAns;
+}
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
@@ -47,16 +65,18 @@ function mapJsonToQuestion(json: any): Question {
       };
     }
     if (tipus === "multi" || tipus === "multiple") {
-      return {
-        id,
-        type: "multi",
-        question,
-        options,
-        answer: Array.isArray(json.helyes_válaszok) ? json.helyes_válaszok : [],
-        difficulty,
-        blokk,
-      };
-    }
+  return {
+    id,
+    type: "multi",
+    question,
+    options,
+    answer: Array.isArray(json.helyes_válaszok)
+      ? json.helyes_válaszok.map((v: number) => v - 1)
+      : [],
+    difficulty,
+    blokk,
+  };
+}
     if (tipus === "tf") {
       return {
         id,
@@ -168,11 +188,93 @@ function shuffleOptions(options: string[], seed: string) {
   return order;
 }
 
+function resolveSingleChoice(
+  userAns: number,
+  order: number[],
+  optionCount: number,
+  correctOptId: number
+): { chosenOptId?: number; chosenDisplayIdx?: number } {
+  const fromIndexOptId = userAns >= 0 && userAns < order.length ? order[userAns] : undefined;
+  const fromOptIdOptId = userAns >= 0 && userAns < optionCount ? userAns : undefined;
+
+  // If exactly one interpretation matches the correct answer, prefer that.
+  const indexMatches = typeof fromIndexOptId === "number" && fromIndexOptId === correctOptId;
+  const optIdMatches = typeof fromOptIdOptId === "number" && fromOptIdOptId === correctOptId;
+
+  if (indexMatches && !optIdMatches) {
+    return { chosenOptId: fromIndexOptId, chosenDisplayIdx: userAns };
+  }
+  if (optIdMatches && !indexMatches) {
+    return { chosenOptId: fromOptIdOptId, chosenDisplayIdx: order.indexOf(fromOptIdOptId) };
+  }
+
+  // Otherwise default to DISPLAY INDEX (this matches how the UI is clicked),
+  // but fall back to option id if index is not valid.
+  if (typeof fromIndexOptId === "number") {
+    return { chosenOptId: fromIndexOptId, chosenDisplayIdx: userAns };
+  }
+  if (typeof fromOptIdOptId === "number") {
+    return { chosenOptId: fromOptIdOptId, chosenDisplayIdx: order.indexOf(fromOptIdOptId) };
+  }
+  return {};
+}
+
+function resolveMultiChoice(
+  userAns: number[],
+  order: number[],
+  optionCount: number,
+  correctOptIds: number[]
+): { chosenOptIds: number[]; chosenDisplayIdxs: number[] } {
+  const correctSet = new Set(correctOptIds);
+
+  const chosenOptIds: number[] = [];
+  const chosenDisplayIdxs: number[] = [];
+
+  for (const v of userAns) {
+    const fromIndexOptId = v >= 0 && v < order.length ? order[v] : undefined;
+    const fromOptIdOptId = v >= 0 && v < optionCount ? v : undefined;
+
+    const indexMatches = typeof fromIndexOptId === "number" && correctSet.has(fromIndexOptId);
+    const optIdMatches = typeof fromOptIdOptId === "number" && correctSet.has(fromOptIdOptId);
+
+    // Prefer the interpretation that lands inside the correct set when only one does.
+    if (indexMatches && !optIdMatches && typeof fromIndexOptId === "number") {
+      chosenOptIds.push(fromIndexOptId);
+      chosenDisplayIdxs.push(v);
+      continue;
+    }
+    if (optIdMatches && !indexMatches && typeof fromOptIdOptId === "number") {
+      chosenOptIds.push(fromOptIdOptId);
+      chosenDisplayIdxs.push(order.indexOf(fromOptIdOptId));
+      continue;
+    }
+
+    // Otherwise default to display index if valid.
+    if (typeof fromIndexOptId === "number") {
+      chosenOptIds.push(fromIndexOptId);
+      chosenDisplayIdxs.push(v);
+      continue;
+    }
+    // Fallback to option id.
+    if (typeof fromOptIdOptId === "number") {
+      chosenOptIds.push(fromOptIdOptId);
+      chosenDisplayIdxs.push(order.indexOf(fromOptIdOptId));
+    }
+  }
+
+  // De-duplicate and sort for stable comparisons
+  const uniqOpt = Array.from(new Set(chosenOptIds)).sort((a, b) => a - b);
+  const uniqIdx = Array.from(new Set(chosenDisplayIdxs)).filter(i => i >= 0).sort((a, b) => a - b);
+
+  return { chosenOptIds: uniqOpt, chosenDisplayIdxs: uniqIdx };
+}
+
 /* ---------- page ---------- */
 
 type StoredData = {
   attempt: { questionIds: number[] };
   answers: Record<string, number | number[] | string>;
+  orders?: Record<string, number[]>; // qid -> shuffled option id order used during the attempt
   result: { total: number; breakdown: Record<string, number> };
 };
 
@@ -201,6 +303,16 @@ export default function ExamResultPage() {
 
   // --- Score calculation ---
   const scoreSeed = (qid: number) => `${attemptKey}::${qid}`;
+  const getOrder = (qid: number, q: Question): number[] => {
+    if (q.type !== "single" && q.type !== "multi") return [];
+
+    const stored = data.orders?.[String(qid)];
+    if (Array.isArray(stored) && stored.length === q.options.length) {
+      return stored;
+    }
+
+    return shuffleOptions(q.options, scoreSeed(qid));
+  };
   const scored: number[] = data.attempt.questionIds.map(qid => {
     let score = 0;
 
@@ -209,30 +321,48 @@ export default function ExamResultPage() {
 
     const rawAns = data.answers?.[String(qid)];
     const userAns = normalizeStoredAnswer(rawAns);
+    const hasStoredOrder = Array.isArray(data.orders?.[String(qid)]);
 
     if (q.type === "single") {
       if (typeof userAns === "number" && q.options && q.options.length > 0) {
-        const order = shuffleOptions(q.options, scoreSeed(qid));
-        const chosenOptId = order[userAns];
-        if (typeof chosenOptId === "number" && chosenOptId === q.answer) {
-          score = 1;
+        if (hasStoredOrder) {
+          const chosen = toOptionIds(q, userAns, getOrder(qid, q));
+          score = chosen === (q.answer as number) ? 1 : 0;
+        } else {
+          // Fallback to old logic
+          const order = shuffleOptions(q.options, scoreSeed(qid));
+          const resolved = resolveSingleChoice(userAns, order, q.options.length, q.answer as number);
+          if (resolved.chosenOptId === (q.answer as number)) score = 1;
         }
       }
     } else if (q.type === "multi") {
       if (Array.isArray(userAns) && q.options && q.options.length > 0) {
-        const order = shuffleOptions(q.options, scoreSeed(qid));
-        const chosenOptIds = userAns
-          .map(i => order[i])
-          .filter((v): v is number => typeof v === "number")
-          .sort();
-        const correctOptIds = Array.isArray(q.answer)
-          ? [...(q.answer as number[])].sort()
-          : [];
-        if (
-          chosenOptIds.length === correctOptIds.length &&
-          chosenOptIds.every((v, i) => v === correctOptIds[i])
-        ) {
-          score = 1;
+        if (hasStoredOrder) {
+          const correctOptIds = Array.isArray(q.answer)
+            ? [...(q.answer as number[])].sort((a,b)=>a-b)
+            : [];
+
+          const chosenOptIds = Array.isArray(toOptionIds(q, userAns, getOrder(qid, q)))
+            ? [...new Set(toOptionIds(q, userAns, getOrder(qid, q)) as number[])].sort((a,b)=>a-b)
+            : [];
+
+          score =
+            chosenOptIds.length === correctOptIds.length &&
+            chosenOptIds.every((v, i) => v === correctOptIds[i])
+              ? 1
+              : 0;
+        } else {
+          // Fallback to old logic
+          const order = shuffleOptions(q.options, scoreSeed(qid));
+          const correctOptIds = Array.isArray(q.answer) ? [...(q.answer as number[])].sort((a,b)=>a-b) : [];
+          const resolved = resolveMultiChoice(userAns, order, q.options.length, correctOptIds);
+          const chosenOptIds = resolved.chosenOptIds;
+          if (
+            chosenOptIds.length === correctOptIds.length &&
+            chosenOptIds.every((v, i) => v === correctOptIds[i])
+          ) {
+            score = 1;
+          }
         }
       }
     } else if (q.type === "tf") {
@@ -254,11 +384,79 @@ export default function ExamResultPage() {
   const totalScore = scored.reduce((a, b) => a + b, 0);
   const maxScore = data.attempt.questionIds.length;
 
+  const percentScore = Math.round((totalScore / maxScore) * 100);
+
+  const blockStats = data.attempt.questionIds.reduce<Record<string, { correct: number; total: number }>>(
+    (acc, qid, idx) => {
+      const q = questionMap.get(qid);
+      if (!q) return acc;
+      const block = q.blokk ?? "unknown";
+      if (!acc[block]) acc[block] = { correct: 0, total: 0 };
+      acc[block].total += 1;
+      acc[block].correct += scored[idx] ?? 0;
+      return acc;
+    },
+    {}
+  );
+
   return (
     <main style={{ padding: 32, maxWidth: 900, margin: "0 auto" }}>
       <h1>Vizsgaeredmény</h1>
-      <div style={{ marginBottom: 20, fontSize: 18, fontWeight: 700 }}>
-        Pontszám: {totalScore} / {maxScore}
+      <div
+        style={{
+          marginBottom: 20,
+          padding: 16,
+          borderRadius: 10,
+          background: "#0f172a",
+          color: "#fff",
+        }}
+      >
+        <div style={{ fontSize: 20, fontWeight: 800 }}>
+          Pontszám: {totalScore} / {maxScore} ({percentScore}%)
+        </div>
+
+        <div
+          style={{
+            marginTop: 10,
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
+            gap: 10,
+            fontSize: 14,
+          }}
+        >
+          {Object.entries(blockStats).map(([block, s]) => {
+            const p = Math.round((s.correct / s.total) * 100);
+            return (
+              <div
+                key={block}
+                style={{
+                  background: "#020617",
+                  borderRadius: 8,
+                  padding: "8px 10px",
+                }}
+              >
+                <div style={{ fontWeight: 700 }}>{block}</div>
+                <div>
+                  {s.correct}/{s.total} ({p}%)
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <div
+        style={{
+          marginBottom: 28,
+          padding: 14,
+          borderRadius: 10,
+          background: "#f1f5f9",
+          fontSize: 14,
+        }}
+      >
+        <div style={{ fontWeight: 700, marginBottom: 6 }}>Jelmagyarázat</div>
+        <div><span style={{ color: "#16a34a", fontWeight: 700 }}>Zöld</span>: helyes válaszod</div>
+        <div><span style={{ color: "#f59e42", fontWeight: 700 }}>Narancs</span>: hibásan jelölt válasz</div>
+        <div><span style={{ color: "#2563eb", fontWeight: 700 }}>Kék</span>: helyes válasz (nem jelölt)</div>
       </div>
 
       <ul style={{ listStyle: "none", padding: 0 }}>
@@ -267,44 +465,58 @@ export default function ExamResultPage() {
           if (!q) return null;
 
           const rawAns = data.answers?.[String(qid)];
-
           const userAns = normalizeStoredAnswer(rawAns);
           const seed = `${attemptKey}::${qid}`;
+          const order = getOrder(qid, q);
+          const hasStoredOrder = Array.isArray(data.orders?.[String(qid)]);
 
           let isCorrect = false;
-
           if (q.type === "single") {
             if (typeof userAns === "number" && q.options && q.options.length > 0) {
-              const order = shuffleOptions(q.options, seed);
-              const chosenOptId = order[userAns];
-              isCorrect = typeof chosenOptId === "number" && chosenOptId === q.answer;
+              if (hasStoredOrder) {
+                const chosen = toOptionIds(q, userAns, order);
+                isCorrect = chosen === (q.answer as number);
+              } else {
+                const resolved = resolveSingleChoice(userAns, order, q.options.length, q.answer as number);
+                isCorrect = resolved.chosenOptId === (q.answer as number);
+              }
             } else {
               isCorrect = false;
             }
           }
-
           if (q.type === "multi") {
             if (Array.isArray(userAns) && q.options && q.options.length > 0) {
-              const order = shuffleOptions(q.options, seed);
-              const chosenOptIds = userAns
-                .map(i => order[i])
-                .filter((v): v is number => typeof v === "number")
-                .sort();
-              const correctOptIds = Array.isArray(q.answer) ? [...(q.answer as number[])].sort() : [];
-              isCorrect =
-                chosenOptIds.length === correctOptIds.length &&
-                chosenOptIds.every((v, i) => v === correctOptIds[i]);
+              if (hasStoredOrder) {
+                const correctOptIds = Array.isArray(q.answer)
+                  ? [...(q.answer as number[])].sort((a, b) => a - b)
+                  : [];
+
+                const chosenOptIds = Array.isArray(toOptionIds(q, userAns, order))
+                  ? [...new Set(toOptionIds(q, userAns, order) as number[])].sort((a, b) => a - b)
+                  : [];
+
+                isCorrect =
+                  chosenOptIds.length === correctOptIds.length &&
+                  chosenOptIds.every((v, i) => v === correctOptIds[i]);
+              } else {
+                const correctOptIds = Array.isArray(q.answer)
+                  ? [...(q.answer as number[])].sort((a, b) => a - b)
+                  : [];
+                const resolved = resolveMultiChoice(userAns, order, q.options.length, correctOptIds);
+                const chosenOptIds = resolved.chosenOptIds;
+                isCorrect =
+                  chosenOptIds.length === correctOptIds.length &&
+                  chosenOptIds.every((v, i) => v === correctOptIds[i]);
+              }
             } else {
               isCorrect = false;
             }
           }
-
           if (q.type === "tf") {
             isCorrect =
               typeof userAns === "boolean" &&
               userAns === q.answer;
           }
-
           if (q.type === "short") {
             isCorrect =
               typeof userAns === "string" &&
@@ -319,13 +531,31 @@ export default function ExamResultPage() {
 
               {q.type === "single" || q.type === "multi" ? (() => {
                 if (!q.options || q.options.length === 0) return null;
-                const order = shuffleOptions(q.options ?? [], seed);
-                const selected =
-                  typeof userAns === "number"
-                    ? [userAns]
-                    : Array.isArray(userAns)
-                    ? userAns
-                    : [];
+                // Use order from getOrder
+                let selected: number[] = [];
+                if (hasStoredOrder) {
+                  // New logic: answers are option ids, order is the stored order
+                  if (q.type === "single" && typeof userAns === "number") {
+                    const displayIdx = order.indexOf(userAns);
+                    if (displayIdx >= 0) selected = [displayIdx];
+                  } else if (q.type === "multi" && Array.isArray(userAns)) {
+                    selected = userAns
+                      .map(optId => order.indexOf(optId))
+                      .filter(i => i >= 0);
+                  }
+                } else {
+                  // Fallback to old logic
+                  if (q.type === "single" && typeof userAns === "number") {
+                    const resolved = resolveSingleChoice(userAns, order, q.options.length, q.answer as number);
+                    if (typeof resolved.chosenDisplayIdx === "number" && resolved.chosenDisplayIdx >= 0) {
+                      selected = [resolved.chosenDisplayIdx];
+                    }
+                  } else if (q.type === "multi" && Array.isArray(userAns)) {
+                    const correctOptIds = Array.isArray(q.answer) ? (q.answer as number[]) : [];
+                    const resolved = resolveMultiChoice(userAns, order, q.options.length, correctOptIds);
+                    selected = resolved.chosenDisplayIdxs;
+                  }
+                }
 
                 const correct =
                   q.type === "single"
@@ -422,11 +652,6 @@ export default function ExamResultPage() {
           );
         })}
       </ul>
-      <div style={{ marginTop: 32, fontSize: 14 }}>
-        <div><span style={{ color: "#16a34a", fontWeight: 700 }}>Zöld</span>: helyes válaszod</div>
-        <div><span style={{ color: "#f59e42", fontWeight: 700 }}>Narancs</span>: hibásan jelölt válasz</div>
-        <div><span style={{ color: "#2563eb", fontWeight: 700 }}>Kék</span>: helyes válasz (nem jelölt)</div>
-      </div>
     </main>
   );
 }
