@@ -69,8 +69,8 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
       }}
     >
       <div style={{ width: "100%", maxWidth: 1100, display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, flexWrap: "wrap", gap: 8 }}>
-        <Link href="/idegzavarok" style={{ color: "#9a3412", fontWeight: 600, textDecoration: "none", background: "white", padding: "8px 16px", borderRadius: 10, border: "1.5px solid #f9a8d4" }}>
-          ← Vissza
+        <Link href="/idegzavarok/tanulas" style={{ color: "#9a3412", fontWeight: 600, textDecoration: "none", background: "white", padding: "8px 16px", borderRadius: 10, border: "1.5px solid #f9a8d4" }}>
+          ← Tanuló mód
         </Link>
         <input
           type="text"

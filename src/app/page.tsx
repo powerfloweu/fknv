@@ -61,16 +61,16 @@ export default function Home() {
             Vizsgarendszer ~350 kérdéssel, próbavizsga és tanuló mód, blokk/téma/nehézség szerinti szűréssel.
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <Link href="/exam" style={{
+            <Link href="/study" style={{
               padding: '10px 18px',
               background: 'linear-gradient(90deg,#6366f1,#a5b4fc)',
               color: 'white', borderRadius: 10,
               fontWeight: 600, fontSize: 15,
               textDecoration: 'none',
             }}>
-              Próbavizsga →
+              Tanuló mód
             </Link>
-            <Link href="/study" style={{
+            <Link href="/exam" style={{
               padding: '10px 18px',
               background: '#eef2ff',
               color: '#3730a3', borderRadius: 10,
@@ -78,7 +78,7 @@ export default function Home() {
               textDecoration: 'none',
               border: '1.5px solid #c7d2fe',
             }}>
-              Tanuló mód
+              Vizsga indítása →
             </Link>
           </div>
         </div>
@@ -109,16 +109,16 @@ export default function Home() {
             és részletes tanulási segédlet.
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <Link href="/idegzavarok/kviz" style={{
+            <Link href="/idegzavarok/tanulas" style={{
               padding: '10px 18px',
-              background: 'linear-gradient(90deg,#f97316,#fb923c)',
+              background: 'linear-gradient(90deg,#ec4899,#f472b6)',
               color: 'white', borderRadius: 10,
               fontWeight: 600, fontSize: 15,
               textDecoration: 'none',
             }}>
-              Gyakorló kvíz →
+              Tanuló mód
             </Link>
-            <Link href="/idegzavarok/segedlet" style={{
+            <Link href="/idegzavarok/vizsga" style={{
               padding: '10px 18px',
               background: '#fdf2f8',
               color: '#9a3412', borderRadius: 10,
@@ -126,7 +126,7 @@ export default function Home() {
               textDecoration: 'none',
               border: '1.5px solid #fbcfe8',
             }}>
-              Tanulási segédlet
+              Vizsga indítása →
             </Link>
           </div>
         </div>

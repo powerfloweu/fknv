@@ -16,7 +16,7 @@ export default function IdegzavarokLandingPage() {
         borderRadius: 24,
         boxShadow: '0 8px 32px rgba(120,80,60,0.12)',
         padding: '40px 32px 32px 32px',
-        maxWidth: 560,
+        maxWidth: 520,
         width: '100%',
         textAlign: 'center',
         marginBottom: 24
@@ -31,71 +31,63 @@ export default function IdegzavarokLandingPage() {
             <path d="M60 15 Q55 30 60 50" stroke="#b45309" strokeWidth="2" fill="none" />
           </svg>
         </div>
-        <h1 style={{ fontSize: 26, fontWeight: 700, color: '#9a3412', marginBottom: 8 }}>
+        <h1 style={{ fontSize: 24, fontWeight: 700, color: '#9a3412', marginBottom: 8 }}>
           Idegrendszer fejlődési zavarai és fejlesztésük
         </h1>
-        <div style={{ fontSize: 16, color: '#b45309', fontWeight: 500, marginBottom: 22 }}>
-          Gyakorló kvíz és tanulási segédlet
-        </div>
-        <p style={{ color: '#334155', fontSize: 15, marginBottom: 26, lineHeight: 1.5 }}>
-          11 témakör: fejlődési pszichopatológia, etiológia, IKZ, tanulási zavarok,
-          szenzoros integráció, koraszülöttség, nyelv és kommunikáció, ADHD,
-          autizmus, fejlesztés és intervenció, átfogó kérdések.
+        <p style={{ color: '#475569', fontSize: 15, marginBottom: 24, lineHeight: 1.5 }}>
+          11 témakör — IKZ, tanulási zavarok, ADHD, autizmus, koraszülöttség,
+          szenzoros integráció, kommunikáció, fejlesztés és intervenció.
         </p>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-          <Link
-            href="/idegzavarok/kviz"
-            style={{
-              display: 'inline-block',
-              padding: '14px 24px',
-              background: 'linear-gradient(90deg, #f97316 0%, #fb923c 100%)',
-              color: 'white',
-              borderRadius: 12,
-              fontWeight: 600,
-              fontSize: 17,
-              textDecoration: 'none',
-              boxShadow: '0 2px 8px rgba(249,115,22,0.18)'
-            }}
-          >
-            Gyakorló kvíz indítása →
-          </Link>
-          <Link
-            href="/idegzavarok/segedlet"
-            style={{
-              display: 'inline-block',
-              padding: '14px 24px',
-              background: 'linear-gradient(90deg, #ec4899 0%, #f472b6 100%)',
-              color: 'white',
-              borderRadius: 12,
-              fontWeight: 600,
-              fontSize: 17,
-              textDecoration: 'none',
-              boxShadow: '0 2px 8px rgba(236,72,153,0.18)'
-            }}
-          >
-            Tanulási segédlet megnyitása →
-          </Link>
-          <Link
-            href="/"
-            style={{
-              display: 'inline-block',
-              marginTop: 4,
-              padding: '10px 20px',
-              background: '#f1f5f9',
-              color: '#3730a3',
-              borderRadius: 10,
-              fontWeight: 500,
-              fontSize: 14,
-              textDecoration: 'none',
-              border: '1.5px solid #cbd5e1'
-            }}
-          >
-            ← Vissza a tárgyválasztóhoz
-          </Link>
-        </div>
+
+        <Link
+          href="/idegzavarok/tanulas"
+          style={{
+            display: 'block',
+            marginBottom: 12,
+            padding: '13px 24px',
+            background: 'linear-gradient(90deg, #ec4899 0%, #f472b6 100%)',
+            color: 'white',
+            borderRadius: 12,
+            fontWeight: 600,
+            fontSize: 17,
+            textDecoration: 'none',
+            boxShadow: '0 2px 8px rgba(236,72,153,0.18)'
+          }}
+        >
+          Tanuló mód
+        </Link>
+        <Link
+          href="/idegzavarok/vizsga"
+          style={{
+            display: 'block',
+            padding: '13px 24px',
+            background: 'linear-gradient(90deg, #f97316 0%, #fb923c 100%)',
+            color: 'white',
+            borderRadius: 12,
+            fontWeight: 600,
+            fontSize: 17,
+            textDecoration: 'none',
+            boxShadow: '0 2px 8px rgba(249,115,22,0.18)'
+          }}
+        >
+          Vizsga indítása →
+        </Link>
+
+        <Link
+          href="/"
+          style={{
+            display: 'inline-block',
+            marginTop: 20,
+            color: '#64748b',
+            fontSize: 14,
+            textDecoration: 'none',
+          }}
+        >
+          ← Tárgyválasztó
+        </Link>
       </div>
-      <div style={{ color: '#64748b', fontSize: 14, marginTop: 8, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Tanulj, gyakorolj, készülj a vizsgára!
+      <div style={{ color: '#64748b', fontSize: 14, textAlign: 'center' }}>
+        <span role="img" aria-label="brain">🧠</span> Tanulj, fejlődj, vizsgázz!
       </div>
     </main>
   );
