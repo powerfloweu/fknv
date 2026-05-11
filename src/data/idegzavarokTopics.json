@@ -1,0 +1,46 @@
+[
+  {
+    "num": 1,
+    "name": "Bevezetés a fejlődési pszichopatológiába"
+  },
+  {
+    "num": 2,
+    "name": "Etiológia"
+  },
+  {
+    "num": 3,
+    "name": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "num": 4,
+    "name": "Tanulási zavarok"
+  },
+  {
+    "num": 5,
+    "name": "Szenzoros integráció zavara"
+  },
+  {
+    "num": 6,
+    "name": "Koraszülöttség"
+  },
+  {
+    "num": 7,
+    "name": "Kommunikáció és nyelv zavarai"
+  },
+  {
+    "num": 8,
+    "name": "ADHD"
+  },
+  {
+    "num": 9,
+    "name": "Autizmus spektrumzavar"
+  },
+  {
+    "num": 10,
+    "name": "Fejlesztés és intervenció"
+  },
+  {
+    "num": 11,
+    "name": "Átfogó, integráló kérdések"
+  }
+]
