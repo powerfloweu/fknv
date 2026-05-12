@@ -1620,5 +1620,703 @@
     ],
     "answer": 2,
     "explanation": "A BTMN kategória: életkori szinthez képest alulteljesít, társas/tanulási/magatartási problémák, de NEM SNI."
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás igaz a szociális készségekre enyhe értelmi fogyatékosság esetén?",
+    "options": [
+      "Teljesen azonosak a tipikus fejlődésű kortársakéval",
+      "Csak a szókincsük elmaradott, de a társas érzékenységük normális",
+      "Nehezebben észlelik a társas jelzéseket, metakommunikációs jeleket",
+      "Kiemelkedő empatikus készségekkel bírnak"
+    ],
+    "answer": 3,
+    "explanation": "Enyhe IKZ-ban a társas jelzések (metakommunikáció, mimika, szándéktulajdonítás) észlelése és feldolgozása nehezített.",
+    "id": 100,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "topicNum": 2,
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Felnőttkorra magzati alkohol szindróma (FAS) esetén jellemző lehet:",
+    "options": [
+      "Teljes tünetmentesség",
+      "Viselkedési problémák (pl. kriminalitás) és önálló életviteli nehézségek",
+      "Magas önállóság és társas alkalmazkodás",
+      "Javuló végrehajtó funkciók és memória"
+    ],
+    "answer": 2,
+    "explanation": "FAS esetén felnőttkorban is jellemző a végrehajtó funkciók zavara, impulzivitás, kriminalitás kockázata és önálló életviteli nehézségek.",
+    "id": 101,
+    "topic": "Etiológia"
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Értelmi fejlődési zavar (intellektuális képességzavar) melyik zavarnál áll fenn a zavar kritériumaként?",
+    "options": [
+      "ADHD",
+      "Autizmus spektrum zavar",
+      "Prader-Willi szindróma",
+      "Down szindróma"
+    ],
+    "answer": [
+      3,
+      4
+    ],
+    "explanation": "Prader-Willi szindróma és Down szindróma esetén az intellektuális fejlődési zavar szinte kivétel nélkül fennáll. ADHD-nál és ASD-nél nem kritérium.",
+    "id": 102,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "topicNum": 4,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik állítás igaz a tanulási zavar veszélyeztettség óvodáskori jeleiről?",
+    "options": [
+      "Csak az egyensúly-érzékelés zavara jellemző",
+      "Csak a bizonytalan testséma jellemző",
+      "Csak a mozgáskoordinációs nehézségek jellemzők",
+      "Mind: egyensúly-érzékelés zavara, bizonytalan testséma és mozgáskoordinációs nehézségek egyaránt előfordulhatnak",
+      "Egyik sem"
+    ],
+    "answer": 4,
+    "explanation": "A tanulási zavar korai jelei sokrétűek: egyensúlyzavar, bizonytalan testséma, nagy- és finommozgások koordinációs nehézségei egyaránt szerepelhetnek.",
+    "id": 103,
+    "topic": "Tanulási zavarok"
+  },
+  {
+    "topicNum": 6,
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Igaz vagy hamis? A családi környezetnek és a szocioökonómiai státusznak (SES) hatása van a koraszülés rizikójában.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Alacsony SES, krónikus stressz, elégtelen prenatális gondozás mind növelik a koraszülés kockázatát.",
+    "id": 104,
+    "topic": "Koraszülöttség"
+  },
+  {
+    "topicNum": 8,
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az alábbiak közül melyik igaz az ADHD komorbid zavaraira?",
+    "options": [
+      "Magatartási zavarok",
+      "Egyik sem",
+      "Nyelvi zavar",
+      "Szorongás",
+      "Mind (magatartási zavarok, nyelvi zavar és szorongás egyaránt előfordul)"
+    ],
+    "answer": 5,
+    "explanation": "ADHD-hoz igen gyakran társul oppozíciós/conduct zavar, szorongás, tanulási/nyelvi zavar – ezek mind elismert komorbiditások.",
+    "id": 105,
+    "topic": "ADHD"
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Igaz vagy hamis? A pica tápértéket nem képviselő anyagok elfogyasztása minimum 1 hónapon keresztül.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "DSM-5/ICD: pica diagnózisához legalább 1 hónapos fennállás szükséges; 1,5 éves kor felett tekinthető kórosnak.",
+    "id": 106,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik IQ-tartomány jellemzi az enyhe értelmi fogyatékosságot?",
+    "options": [
+      "70–85",
+      "50–69",
+      "35–49",
+      "20–34"
+    ],
+    "answer": 2,
+    "explanation": "Enyhe IKZ IQ-tartomány: 50–69 (BNO-10: F70, DSM-5: 317).",
+    "id": 107,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "topicNum": 5,
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit jelent az ideomotoros diszpraxia?",
+    "options": [
+      "Tapintási (taktilis) érzékelési zavar",
+      "Nyelvfejlődés során fellépő zavar",
+      "Általános érzékszervi feldolgozási zavar",
+      "Szenzomotoros program szervezése során fellépő zavar"
+    ],
+    "answer": 4,
+    "explanation": "Az ideomotoros diszpraxia lényege, hogy az agy nehezen szervezi meg a szenzomotoros programokat – a mozdulatok tervezése és végrehajtása zavart szenved.",
+    "id": 108,
+    "topic": "Szenzoros integráció zavara"
+  },
+  {
+    "topicNum": 4,
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás igaz a fejlődési diszkalkuliára?",
+    "options": [
+      "Szerzett sérülés következménye",
+      "Az aritmetikai képességek fejlődési zavara",
+      "Fiúknál az esetek 90%-ában fordul elő",
+      "Felnőttkorban jelenik meg"
+    ],
+    "answer": 2,
+    "explanation": "A fejlődési diszkalkulia (nem szerzett) az aritmetikai képességek fejlődési zavara; nem nemi alapú, a fejlődési időszakban kezdődik.",
+    "id": 109,
+    "topic": "Tanulási zavarok"
+  },
+  {
+    "topicNum": 2,
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Igaz vagy hamis? A klasszikus 21-es triszómia (Down-szindróma) kialakulásában az anya vagy apa életmódja döntő szerepet játszik.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "T21 a 21-es kromoszóma véletlenszerű nem-diszjunkciójából ered; az életmód NEM döntő tényező (anyai életkor emeli a kockázatot, de nem az életmód).",
+    "id": 110,
+    "topic": "Etiológia"
+  },
+  {
+    "topicNum": 2,
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A Rett szindrómát mely jegyek jellemzik?",
+    "options": [
+      "Mind: növekedési zavar (fejkörfogat-deceleráció), sztereotip kézmozgás és kommunikációs deficit",
+      "Csak növekedési zavar",
+      "Egyik sem",
+      "Csak sztereotip magatartás/mozgás (kéz)",
+      "Csak kommunikációs deficit"
+    ],
+    "answer": 1,
+    "explanation": "Rett szindrómát a fejkörfogat-deceleráció (5–48. hó), sztereotip kézmozdulatok (kézcsavarás/mosás) és súlyos kommunikációs deficit együttese jellemzi.",
+    "id": 111,
+    "topic": "Etiológia"
+  },
+  {
+    "topicNum": 5,
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Jelöld be a szenzoros integrációs zavar tüneteit! (Több helyes válasz)",
+    "options": [
+      "Fejlődési apraxia",
+      "Epizódikus memória problémái",
+      "Ideamotoros diszpraxia",
+      "Féltekei integráció zavara",
+      "Merev, szabályzott viselkedés",
+      "Taktilis érzékelés problémái"
+    ],
+    "answer": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "explanation": "SIZ tünetei: fejlődési apraxia, ideamotoros diszpraxia, féltekei integráció zavara, taktilis diszkrimináció zavara. Az epizódikus memória és a merev viselkedés más zavarokban jellemzők.",
+    "id": 112,
+    "topic": "Szenzoros integráció zavara"
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik NEM tartozik a DSM-5 szerinti intellektuális képességzavar súlyossági fokozatai közé?",
+    "options": [
+      "Enyhe",
+      "Súlyos",
+      "Kritikus",
+      "Mérsékelt"
+    ],
+    "answer": 3,
+    "explanation": "DSM-5 négy szintet ismer: enyhe, mérsékelt, súlyos és igen súlyos. A 'kritikus' nem létezik.",
+    "id": 113,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "topicNum": 6,
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Igaz vagy hamis? Három hónaposan, ventrális alátámasztással vizsgálva a csecsemők végtagjainak extendált tartása az idegrendszeri érettség jele.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "3 hónapos korban ventrális helyzetben az extenzoros tónus fiziológiásan dominál; az extendált végtagtartás az érettség jelzője.",
+    "id": 114,
+    "topic": "Koraszülöttség"
+  },
+  {
+    "topicNum": 4,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Mi a BNO-11 elnevezése a tanulási zavaroknak?",
+    "options": [
+      "Fejlődési eredetű tanulási zavar",
+      "Tanulási veszélyeztettség",
+      "Iskolai teljesítmény zavara",
+      "Egyik sem"
+    ],
+    "answer": 1,
+    "explanation": "BNO-11: 'Fejlődési eredetű tanulási zavar' (6A03 Developmental learning disorder).",
+    "id": 115,
+    "topic": "Tanulási zavarok"
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Igaz vagy hamis? A BNO-11-ben az 'értelmi fogyatékosság' helyett a 'disorders of intellectual development' (intellektuális fejlődési zavar) kifejezést használják.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "BNO-11 (2022) az 'intellectual development disorder' terminológiát vezette be.",
+    "id": 116,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "type": "matching",
+    "leftItems": [
+      "Értelmi fejlődési zavar vizsgálata",
+      "Diszlexia",
+      "Autizmus spektrumzavar",
+      "Diszkalkulia",
+      "ADHD",
+      "Nyelvi fejlődés vizsgálata"
+    ],
+    "rightItems": [
+      "Aritmetikai Kognitív Fejlődési Képességek Teszt (AKFK)",
+      "ADOS-2",
+      "Meixner olvasólap",
+      "KOFA (MacArthur-Bates CDI)",
+      "Raven Progresszív Mátrixok",
+      "Bayley III teszt",
+      "WISC-IV / WPPSI-IV",
+      "SZÓL-E?",
+      "Szék-lámpa teszt (MFFT)"
+    ],
+    "answer": [
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        9
+      ],
+      [
+        4
+      ]
+    ],
+    "options": [],
+    "topicNum": 11,
+    "difficulty": "hard",
+    "question": "Rendszerezd a vizsgálati eljárásokat – melyik eljárás melyik zavarnál alkalmazható?",
+    "explanation": "Értelmi fejlődési: Raven, WISC-IV/WPPSI-IV, Bayley III. Diszlexia: SZÓL-E, Meixner. Autizmus: ADOS-2. Diszkalkulia: AKFK. ADHD: Szék-lámpa teszt (MFFT). Nyelvi fejlődés: KOFA.",
+    "id": 117,
+    "topic": "Átfogó, integráló kérdések"
+  },
+  {
+    "topicNum": 7,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A specifikus nyelvfejlődési zavar (DLD/SLI) tünettanára melyik felsorolás igaz?",
+    "options": [
+      "Csak csökkent szókincs",
+      "Csak korlátozott mondatszerkezetek",
+      "Csak a társalgás károsodása",
+      "Mindegyik: csökkent szókincs, korlátozott mondatszerkezetek és társalgási nehézség"
+    ],
+    "answer": 4,
+    "explanation": "DLD/SLI tünettana komplex: csökkent szókincs, korlátozott mondatszerkezetek és a diskurzus szintjének károsodása egyaránt jellemző.",
+    "id": 118,
+    "topic": "Kommunikáció és nyelv zavarai"
+  },
+  {
+    "topicNum": 2,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A magzati korban az anyai alkoholfogyasztás következménye lehet:",
+    "options": [
+      "Lelassult fejlődés",
+      "Egyik sem",
+      "Mind: lelassult fejlődés, alacsony születési súly és fejletlen idegrendszer",
+      "Csak alacsony születési súly",
+      "Csak fejletlen idegrendszer"
+    ],
+    "answer": 3,
+    "explanation": "Az alkohol a placentán szabadon átjut; következményei: fejlődési lassulás, alacsony születési súly, idegrendszeri károsodás, jellegzetes arcdysmorphia.",
+    "id": 119,
+    "topic": "Etiológia"
+  },
+  {
+    "topicNum": 6,
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A csecsemők mikorra tanulnak meg négykézláb mászni (kézen és térden)?",
+    "options": [
+      "4–6 hó",
+      "10–12 hó",
+      "8–10 hó",
+      "6–8 hó"
+    ],
+    "answer": 3,
+    "explanation": "A reciprok négykézláb mászás tipikusan 8–10 hónapos korban alakul ki.",
+    "id": 120,
+    "topic": "Koraszülöttség"
+  },
+  {
+    "topicNum": 11,
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Melyik szindrómáknál valószínűsíthető számolási rendellenesség (diszkalkulia)? (Több helyes válasz)",
+    "options": [
+      "Elhízás",
+      "Törékeny X szindróma",
+      "Turner szindróma",
+      "Down szindróma",
+      "Fejlődési Gerstmann szindróma"
+    ],
+    "answer": [
+      2,
+      3,
+      4
+    ],
+    "explanation": "Törékeny X, Turner (visuospatialis-matematikai deficit) és Down szindróma esetén dokumentált a számolási zavar. Az elhízás és a Gerstmann szindróma nem tipikus társítás.",
+    "id": 121,
+    "topic": "Átfogó, integráló kérdések"
+  },
+  {
+    "topicNum": 2,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Mi az Edwards-szindróma másik elnevezése?",
+    "options": [
+      "Triszómia 21",
+      "Turner-szindróma",
+      "Triszómia 13",
+      "Triszómia 18"
+    ],
+    "answer": 4,
+    "explanation": "Edwards-szindróma = 18-as triszómia. Patau = 13-as; Down = 21-es; Turner = X-monoszómia.",
+    "id": 122,
+    "topic": "Etiológia"
+  },
+  {
+    "topicNum": 6,
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "1000 g alatt született korababáknál fennáll a következő kockázat: (Több helyes válasz)",
+    "options": [
+      "Williams szindróma kialakulása",
+      "Periventrikuláris leukomalácia (PVL)",
+      "Retinopathia prematurorum (ROP)",
+      "Halláskárosodás",
+      "Cerebrális parézis (CP)",
+      "Dandy–Walker szindróma kialakulása"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "ELBW (<1000 g): PVL, ROP, halláskárosodás és CP jelentős kockázattal bír. Williams és Dandy–Walker genetikai/fejlődési kórkép, nem a koraszülöttségből ered.",
+    "id": 123,
+    "topic": "Koraszülöttség"
+  },
+  {
+    "topicNum": 2,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A klasszikus Down-szindróma mely kromoszómarendellenesség következménye?",
+    "options": [
+      "13-as kromoszóma triplázódása minden sejtben",
+      "Egy kromoszóma hiánya",
+      "A 21-es kromoszóma triplázódása minden sejtben (T21)",
+      "A 18-as kromoszóma triplázódása"
+    ],
+    "answer": 3,
+    "explanation": "Klasszikus Down-szindróma (~95%) = 21-es triszómia, ahol a 21-es kromoszóma minden sejtben háromszor van jelen.",
+    "id": 124,
+    "topic": "Etiológia"
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a hazai pedagógiai tipológia két fő csoportja az értelmi képességzavarral élő személyek esetében?",
+    "options": [
+      "Diszlexia és diszkalkulia",
+      "Tanulásban akadályozott és értelmileg akadályozott",
+      "Mentális és viselkedéses akadályozottság",
+      "Enyhe és súlyos tanulási zavar"
+    ],
+    "answer": 2,
+    "explanation": "Magyar gyógypedagógiai tipológia: 'tanulásban akadályozott' (enyhe IF) és 'értelmileg akadályozott' (mérsékelt–igen súlyos IF).",
+    "id": 125,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "topicNum": 2,
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Mi okozza az újszülöttkori absztinencia szindrómát (NAS/NOWS)?",
+    "options": [
+      "Genetikai rendellenesség",
+      "Oxigénhiányos állapot a szülés alatt",
+      "Addiktív szerek méhen belüli hatása, majd megszületés utáni megvonása",
+      "Koraszülöttségből eredő fejlődési zavar"
+    ],
+    "answer": 3,
+    "explanation": "NAS akkor alakul ki, ha a magzat méhen belül addiktív szernek (leggyakrabban opiátnak) volt kitéve, majd a megszületés után a szer megvonódik.",
+    "id": 126,
+    "topic": "Etiológia"
+  },
+  {
+    "topicNum": 3,
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Az enyhe fokú értelmi fejlődési zavart (enyhe IKZ) jellemzi: (4 helyes válasz van)",
+    "options": [
+      "A beszédet és a gesztusokat nagyon korlátozott szinten értik meg",
+      "IQ = 50–70",
+      "Az absztrakt gondolkodás nehezített",
+      "Szociális interakciók terén elmaradás",
+      "Nehézség az iskolai kultúrtechnikák (olvasás, írás, matematika) elsajátításában",
+      "Másokra vannak utalva az élet minden területén",
+      "IQ = 20–35"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "Enyhe IKZ (IQ 50–70): nehezített absztrakt gondolkodás, szociális elmaradás, kultúrtechnikák nehézségei. A nagyon korlátozott megértés és a teljes függőség súlyos IKZ jellemzője.",
+    "id": 127,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "type": "matching",
+    "leftItems": [
+      "Down-szindróma",
+      "Rett-szindróma",
+      "Törékeny X szindróma",
+      "Williams-Beuren szindróma",
+      "Prader-Willi szindróma",
+      "Turner-szindróma"
+    ],
+    "rightItems": [
+      "21-es triszómia (T21)",
+      "X-hez kötött, MECP2 gén mutációja",
+      "FMR1 gén mutációja (Xq27.3)",
+      "7q11.23 deléció",
+      "15q11-q13 paternális deléció vagy maternális UPD",
+      "X-monoszómia (45,X)"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "options": [],
+    "topicNum": 2,
+    "difficulty": "hard",
+    "question": "Párosítsd össze a genetikai szindrómákat a genetikai hátterükkel!",
+    "explanation": "Down=T21; Rett=MECP2; Törékeny X=FMR1; Williams-Beuren=7q11.23 del; Prader-Willi=15q11-q13 pat.del/mat.UPD; Turner=45,X.",
+    "id": 128,
+    "topic": "Etiológia"
+  },
+  {
+    "type": "matching",
+    "leftItems": [
+      "Fonológiai diszlexia",
+      "Felszíni (surface) diszlexia",
+      "Mély (deep) diszlexia"
+    ],
+    "rightItems": [
+      "Hang-betű megfeleltetés zavara; álszavak olvasása különösen nehéz",
+      "Egész-szó felismerés zavara; szabálytalan szavak olvasása nehéz; fonetikus hibák",
+      "Szemantikai (jelentésalapú) tévesztések; pl. 'kutya' helyett 'macska'"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "options": [],
+    "topicNum": 4,
+    "difficulty": "hard",
+    "question": "Párosítsd össze a diszlexia típusokat a jellemző hibamintázatukkal!",
+    "explanation": "Fonológiai: hang-betű megfeleltetés zavara. Felszíni: egész-szó felismerés zavara, fonetikus hibák. Mély: szemantikai tévesztések (legritkább, legsúlyosabb forma).",
+    "id": 129,
+    "topic": "Tanulási zavarok"
+  },
+  {
+    "type": "matching",
+    "leftItems": [
+      "Enyhe IKZ",
+      "Mérsékelt IKZ",
+      "Súlyos IKZ",
+      "Igen súlyos IKZ"
+    ],
+    "rightItems": [
+      "IQ 50–69; kultúrtechnikák elsajátíthatók, önellátás életkornak megfelelő",
+      "IQ 35–49; absztrakt gondolkodás minden téren elmarad, kultúrtechnikák alig alakulnak ki",
+      "IQ 20–34; csak korlátozott fogalomhasználat, folyamatos gondozás szükséges",
+      "IQ <20; csak fizikai környezetre irányuló fogalmak, teljes körű támogatás"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": [],
+    "topicNum": 3,
+    "difficulty": "hard",
+    "question": "Párosítsd össze az intellektuális képességzavar súlyossági szintjeit a jellemző IQ-tartomány és funkcionális leírással!",
+    "explanation": "Enyhe=IQ 50–69; Mérsékelt=IQ 35–49; Súlyos=IQ 20–34; Igen súlyos=IQ<20. A DSM-5 a súlyosságot funkcionálisan (nem IQ alapján) határozza meg, de az IQ-tartományok a BNO-10-ben szerepelnek.",
+    "id": 130,
+    "topic": "Intellektuális képességzavar (IKZ)"
+  },
+  {
+    "type": "matching",
+    "leftItems": [
+      "Reduplikatív gügyögés (pl. ma-ma-ma)",
+      "Első szavak megjelenése",
+      "Kétszavas kombinációk",
+      "Négykézláb mászás",
+      "Önálló járás"
+    ],
+    "rightItems": [
+      "6–8 hónapos kor",
+      "10–14 hónapos kor",
+      "18–24 hónapos kor",
+      "8–10 hónapos kor",
+      "12–15 hónapos kor"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "options": [],
+    "topicNum": 11,
+    "difficulty": "medium",
+    "question": "Párosítsd össze a fejlődési mérföldköveket a tipikus megjelenési életkorral!",
+    "explanation": "Reduplikatív gügyögés: 6–8 hó; első szavak: 10–14 hó; kétszavas mondatok: 18–24 hó; négykézláb mászás: 8–10 hó; önálló járás: 12–15 hó.",
+    "id": 131,
+    "topic": "Átfogó, integráló kérdések"
+  },
+  {
+    "type": "matching",
+    "leftItems": [
+      "M-CHAT",
+      "ADOS-2",
+      "ADI-R",
+      "SCQ"
+    ],
+    "rightItems": [
+      "23 tételes szülői szűrőkérdőív; 16–30 hónapos kor",
+      "Standardizált, félig strukturált közvetlen megfigyelés, 4 modul",
+      "Strukturált diagnosztikus szülői interjú (93 tétel)",
+      "40 tételes szülői kérdőív; 4 éves kortól alkalmazható"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": [],
+    "topicNum": 9,
+    "difficulty": "hard",
+    "question": "Párosítsd össze az autizmus szűrő/diagnosztikai eszközöket a leírásukkal!",
+    "explanation": "M-CHAT: 23 tételes szülői szűrőkérdőív (16–30 hó). ADOS-2: félig strukturált közvetlen megfigyelés. ADI-R: strukturált szülői interjú. SCQ: 40 tételes szülői kérdőív (4+).",
+    "id": 132,
+    "topic": "Autizmus spektrumzavar"
   }
 ]
