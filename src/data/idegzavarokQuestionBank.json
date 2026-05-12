@@ -3517,5 +3517,1025 @@
     ],
     "answer": 2,
     "explanation": "Transzdiagnosztikus tényezők (pl. végrehajtó funkciók gyengesége, koraszülöttség) több, eltérő zavar közös rizikóját jelentik."
+  },
+  {
+    "id": 188,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a fő különbség a sajátos nevelési igényű (SNI) és a beilleszkedési, tanulási, magatartási nehézséggel küzdő (BTMN) gyermek között a köznevelési törvény szerint?",
+    "options": [
+      "BTMN esetén nincs szükség szakértői bizottsági véleményre, SNI esetén igen",
+      "SNI valamely fogyatékossággal (mozgás, érzék, értelem, beszéd) vagy ASD/súlyos pszichés zavarral küzd; BTMN életkorhoz képest alulteljesít, de nem minősül SNI-nek",
+      "BTMN a tehetséges gyermek kategóriája, SNI a hátrányos helyzetű",
+      "A két fogalom szinonima, csak az iskolatípustól függ a használatuk"
+    ],
+    "answer": 2,
+    "explanation": "A 2011. évi CXC. törvény szerint az SNI valamilyen fogyatékossággal vagy súlyos pszichés zavarral küzd; a BTMN szintén különleges bánásmódot igényel, de nem minősül SNI-nek."
+  },
+  {
+    "id": 189,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A fejlődés társas ökológiai modellje (Sameroff, 2009) szerint:",
+    "options": [
+      "A fejlődési zavarok kizárólag genetikai okokra vezethetők vissza",
+      "Lineáris ok-okozati összefüggések magyarázzák a patológiát",
+      "Kockázati és védőtényezők dinamikus, reciprok-tranzakciós kölcsönhatása alakítja a fejlődést",
+      "A környezet hatása csak felnőttkorban válik meghatározóvá"
+    ],
+    "answer": 3,
+    "explanation": "Sameroff reciprok tranzakciós modellje szerint a fejlődés valószínűségi, dinamikus, nem-lineáris és komplex folyamat, ahol az egyén és a környezet folyamatosan alakítja egymást."
+  },
+  {
+    "id": 190,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Miért van szükség klasszifikációs rendszerekre (DSM, BNO) a fejlődési pszichopatológiában?",
+    "options": [
+      "Segítenek kijelölni a határt az egészséges és az eltérő fejlődés között (diagnosztika)",
+      "Lehetővé teszik a különböző zavarok elkülönítését (differenciáldiagnosztika)",
+      "Közös nyelvet teremtenek szakemberek, kutatók és családtagok között",
+      "Megalapozzák a tesztelhetőséget és a beavatkozások összehasonlíthatóságát",
+      "Eltörlik az egyéni változatosságot a diagnosztikában"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A klasszifikációs rendszerek 4 fő célja: határok kijelölése, differenciálás, közös nyelv és tesztelhetőség. Az egyéni változatosság elismerése továbbra is fontos."
+  },
+  {
+    "id": 191,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Mi a különbség a szűrés (screening) és a nyomon követés (surveillance) között?",
+    "options": [
+      "A szűrés rövid standardizált eszközzel egyszeri azonosítás; a nyomon követés folyamatos, longitudinális, életkorhoz igazított",
+      "A szűrés folyamatos, a nyomon követés egyszeri esemény",
+      "A két fogalom szinonim",
+      "A szűrést csak szakorvos, a nyomon követést bárki végezheti"
+    ],
+    "answer": 1,
+    "explanation": "Szűrés = rövid, standardizált eszközzel végzett egyszeri azonosítás; nyomon követés = rugalmas, folyamatos longitudinális folyamat (pl. védőnői látogatások)."
+  },
+  {
+    "id": 192,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a fejlődési zavarok ellátási folyamatának szakaszait a tartalmukkal!",
+    "options": [],
+    "leftItems": [
+      "1. szakasz: észlelés (problémafelismerés)",
+      "2. szakasz: probléma azonosítás",
+      "3. szakasz: habilitációs/rehabilitációs ellátás"
+    ],
+    "rightItems": [
+      "Szűrés, jelzés",
+      "Állapotmegismerés, diagnosztika",
+      "(Pszicho)terápia, fejlesztő szolgáltatások"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "A fejlődési zavarok ellátása három szakaszra bontható: észlelés (1), probléma azonosítás (2), majd a habilitációs/rehabilitációs ellátás (3)."
+  },
+  {
+    "id": 193,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a klinikai kérdésfelvetés szempontjai, amikor az aggodalmat klinikai kérdéssé konvertáljuk?",
+    "options": [
+      "A jelzett probléma egyáltalán atipikus fejlődésmenetet feltételez-e",
+      "A jelzett probléma mennyiségi vagy minőségi jellegű",
+      "A jelzett probléma mióta áll fenn",
+      "A probléma folyamatosan fennáll-e, vagy időszakosan jelenik meg",
+      "A probléma milyen súlyosságú",
+      "Ki a gyermek kedvenc rokona"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A klinikai kérdésfelvetés alapja: atipikusság, jelleg, súlyosság, időtartam, folyamatosság — ezek vezetnek a megfelelő kliensút tervezéséhez."
+  },
+  {
+    "id": 194,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek az információszerzés legfontosabb módjai/eszközei a fejlődési vizsgálatban?",
+    "options": [
+      "Dokumentumelemzés (egészségügyi, pedagógiai, családi)",
+      "Kikérdezés, interjú",
+      "Megfigyelés (viselkedés, játéktevékenység, szülő-gyermek interakció)",
+      "Strukturált, bemért diagnosztikai eszközzel végzett szűrés",
+      "Csak az iskolai bizonyítvány elemzése elegendő"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A komplex állapotfelmérés négy fő információforrást használ: dokumentum, interjú, megfigyelés, standardizált eszköz."
+  },
+  {
+    "id": 195,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A DC:0–5 (ZERO TO THREE, 2016) klasszifikációs rendszer egyik fő jellemzője — szemben a DSM-5-tel —, hogy:",
+    "options": [
+      "Egy tengelyes, csak a viselkedéses tüneteket jelöli",
+      "Kapcsolatfókuszú és fejlődésorientált, megtartja a többtengelyes megközelítést",
+      "Kizárólag a 6 év feletti korosztályt fedi le",
+      "Etiológia alapú, nem fenomenológiai"
+    ],
+    "answer": 2,
+    "explanation": "A DC:0–5 a DSM-5-tel ellentétben kapcsolatfókuszú, fejlődésorientált, többtengelyes; az első öt évre vonatkozik, és érzékenyen differenciál átmeneti nehézségek és igazi zavarok között."
+  },
+  {
+    "id": 196,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A DSM és a BNO klasszifikációs rendszerek alapja:",
+    "options": [
+      "Etiológiai (kóreredet) alapú osztályozás",
+      "Fenomenológiai (jelenség, tünet) alapú osztályozás",
+      "Életkor alapú osztályozás",
+      "Szigorúan pszichoanalitikus elméleten alapuló"
+    ],
+    "answer": 2,
+    "explanation": "„A DSM és a BNO egyértelműen fenomenológia (jelenség) alapú és nem etiológia (kóreredet) alapú klasszifikációs rendszerek.”"
+  },
+  {
+    "id": 197,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a szomatikus kromoszóma triszómiákat a megfelelő szindrómával!",
+    "options": [],
+    "leftItems": [
+      "21-es triszómia",
+      "18-as triszómia",
+      "13-as triszómia"
+    ],
+    "rightItems": [
+      "Down-szindróma",
+      "Edwards-szindróma",
+      "Patau-szindróma"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "A három fő szomatikus triszómia: 21=Down (leggyakoribb, 1:750), 18=Edwards (1:6000), 13=Patau (ritka, 1:10000–21700)."
+  },
+  {
+    "id": 198,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit jelent a magatartás-teratológia (behavioral teratology) fogalma?",
+    "options": [
+      "A kromoszóma-rendellenességek vizsgálatát",
+      "A postnatális tanulási környezet hatásainak vizsgálatát",
+      "Olyan károsító anyagok hatásainak vizsgálatát, amelyek in utero érik a magzatot, és következményeik a születés utáni időszaktól a szexuális érésig jelentkezhetnek",
+      "Az állatkísérletek általános módszertanát genetikai betegségek esetén"
+    ],
+    "answer": 3,
+    "explanation": "A magatartás-teratológia a prenatálisan ható kémiai/teratogén anyagok későbbi viselkedéses, idegrendszeri következményeit vizsgálja."
+  },
+  {
+    "id": 199,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek azok az ipari vegyi anyagok, amelyek megbízhatóan besorolhatók fejlődési neurotoxikus szerek közé?",
+    "options": [
+      "Ólom",
+      "Metil-higany",
+      "Arzén",
+      "Poliklórozott bifenilek (PCB)",
+      "Toluol (oldószer)",
+      "C-vitamin"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A diasor öt megbízhatóan azonosított fejlődési neurotoxikus ipari vegyi anyagot sorol fel: ólom, metil-higany, arzén, PCB, toluol."
+  },
+  {
+    "id": 200,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely tünetek jellemzőek a magzati alkohol szindrómára (FAS)?",
+    "options": [
+      "Alacsony születési súly és visszamaradt testi fejlődés",
+      "Jellegzetes arc: rövid szemrések, keskeny felső ajak, lelapult arcközép",
+      "Az orr és felső ajak közötti bemélyedés (philtrum) hiánya",
+      "Kis agytérfogat, kisebb kisagy és prefrontális kéreg",
+      "Diszreguláció, impulzivitás, hiperaktivitás",
+      "Megnövekedett magasság és emelkedett IQ"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A FAS tipikus jegyei: növekedési elmaradás, jellegzetes arcjegyek (rövid szemrés, keskeny felső ajak, sima philtrum), kisebb agytérfogat, viselkedési/kognitív deficitek."
+  },
+  {
+    "id": 201,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely tünetek jellemzőek az újszülött absztinencia szindrómára (NAS)?",
+    "options": [
+      "Erős ingerlékenység, magas hangú sírás („high-pitched cry”)",
+      "Túlzott reflexek, izomtónus fokozódás (hipertónia)",
+      "Remegés (tremor), rángások, súlyos esetben görcsök",
+      "Táplálkozási nehézségek, hasmenés, hányás",
+      "Gyors, szabálytalan légzés (tahipnoé), tahikardia",
+      "Tartós szedáció és csökkent reflexek"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A NAS főbb tünetcsoportjai: idegrendszeri (sírás, hipertónia, tremor), emésztőrendszeri (étkezési, hányás, hasmenés), légző-keringési (tahipnoé, tahikardia)."
+  },
+  {
+    "id": 202,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a Down-szindróma típusait a gyakoriságukkal és genetikai jellemzőjükkel!",
+    "options": [],
+    "leftItems": [
+      "21-es triszómia (T21, 47,XX,+21)",
+      "Mozaik Down-szindróma",
+      "Transzlokációs Down-szindróma"
+    ],
+    "rightItems": [
+      "Leggyakoribb forma (~95%); a tripla 21-es kromoszóma minden sejtbe továbbíródik",
+      "Ritka (1–2%); a 21-es triplázódás csak a sejtek egy részén áll fenn, enyhébb tünetek lehetnek",
+      "Az esetek 2–3%-a; a 21-es egy másik kromoszómához (pl. 14-hez) kapcsolódik, öröklődik"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "A Down-szindróma három fő formája: klasszikus T21 (95%), mozaik (1–2%), transzlokáció (2–3%) — utóbbi öröklődhet, ezért genetikai tanácsadás javasolt."
+  },
+  {
+    "id": 203,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A Williams (Williams-Beuren) szindrómára jellemző egyik legjellegzetesebb magatartási sajátság a „koktélparti pszicho”. Mit jelent ez?",
+    "options": [
+      "Súlyos szociális visszahúzódás és kommunikációs zavar",
+      "Az expresszív nyelvi készségek jobbak, mint a kognitív szint alapján várható lenne; nyíltság, könnyű, felszínes szociális kapcsolatteremtés",
+      "Kompulzív evés és élelemkeresés",
+      "Sztereotip kézmozdulatok és kommunikáció elvesztése"
+    ],
+    "answer": 2,
+    "explanation": "A Williams-szindrómában a verbális készségek viszonylag jobbak a vizuospaciálisnál; a betegek nyíltak, barátságosak, könnyen kötnek (gyakran felszínes) kapcsolatokat — ez a „koktélparti pszicho”."
+  },
+  {
+    "id": 204,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a kromoszóma-rendellenességek szerkezeti (kariopátia) típusai?",
+    "options": [
+      "Deléció",
+      "Transzlokáció",
+      "Inverzió",
+      "Inszerció",
+      "Gyűrű kromoszóma",
+      "Triszómia (számbeli, nem szerkezeti!)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A szerkezeti kariopátiák átrendeződések (deléció, transzlokáció, inverzió, inszerció, gyűrű, izokromoszóma, törékeny). A triszómia számbeli rendellenesség."
+  },
+  {
+    "id": 205,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az epigenetika fő mechanizmusai közé NEM tartozik:",
+    "options": [
+      "DNS-metiláció",
+      "Hisztonmódosulások",
+      "Nem-kódoló RNS-ek",
+      "A DNS bázissorrendjének megváltoztatása (mutáció)"
+    ],
+    "answer": 4,
+    "explanation": "Az epigenetika a génexpresszió szabályozása a DNS-szekvencia megváltoztatása NÉLKÜL. Fő mechanizmusai: DNS-metiláció, hisztonmódosulások, nem-kódoló RNS-ek."
+  },
+  {
+    "id": 206,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A Rett-szindróma egyik jellegzetes felismerési jele, amelyet a korábban kialakult célzott kézmozdulatok elvesztése követ:",
+    "options": [
+      "Az evéssel kapcsolatos kompulzív viselkedés",
+      "Sztereotip, középvonalban megjelenő kézmozdulatok (kézcsavarás, kézmosás, tapsolás)",
+      "Túlzott szocializációs igény idegenekkel szemben",
+      "Jellegzetes „manóarc” (koboldarc)"
+    ],
+    "answer": 2,
+    "explanation": "A Rett-szindróma egyik patognomikus jele a középvonalban mutatkozó sztereotip kézmozdulatok (kézcsavarás, „kézmosás”) megjelenése a célzott kézhasználat elvesztésével párhuzamosan."
+  },
+  {
+    "id": 207,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! A magatartás-teratogén anyagok kategóriái közé tartoznak:",
+    "options": [
+      "Gyógyszerek",
+      "Élelmiszerek",
+      "Vegyi anyagok",
+      "Légszennyezők",
+      "Hormonok",
+      "Az anya testhőmérséklete"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A diasor öt magatartás-teratogén kategóriát sorol fel: gyógyszerek, élelmiszerek, vegyi anyagok, légszennyezők, hormonok."
+  },
+  {
+    "id": 208,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás igaz a szociális készségekre enyhe értelmi fogyatékosság (enyhe IKZ, IQ 50–69) esetén?",
+    "options": [
+      "A szociális interakciók problémamentesek, megegyeznek az átlagos populációval",
+      "A szociális interakciók terén elmaradás van; a társas jelzéseket nem mindig tudják pontosan észlelni",
+      "Csak a non-verbális kommunikáció érintett",
+      "A szociális készségek súlyos sérülése folyamatos felügyeletet tesz szükségessé"
+    ],
+    "answer": 2,
+    "explanation": "Enyhe IKZ-ban a szociális interakciók terén elmaradás tapasztalható, a társas jelzések pontatlan észlelése miatt, de összetettebb feladatokhoz csak részleges segítségre van szükség."
+  },
+  {
+    "id": 209,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A pica fogalmával kapcsolatban melyik megállapítás helyes?",
+    "options": [
+      "Bármely életkorban kórosnak minősül",
+      "Tápértéket nem képviselő anyagok elfogyasztása legalább 1 hónapon át, 1,5 éves kor után kóros, és nem felel meg az egyén funkcionális szintjének",
+      "Csak a Rett-szindrómában fordul elő",
+      "Az evészavarok közül kizárólag az IKZ-ban diagnosztizálható"
+    ],
+    "answer": 2,
+    "explanation": "A pica diagnosztikai kritériumai: tápértéket nem képviselő anyagok fogyasztása min. 1 hónapon át, kulturálisan nem támogatott, 1,5 éves kor után kóros, fontos a mentális fejlettség figyelembe vétele."
+  },
+  {
+    "id": 210,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely funkciókat töltheti be az önsértő/autoagresszív viselkedés (ÖV) IKZ-ban?",
+    "options": [
+      "Nem-verbális kommunikációs funkció (fájdalom, frusztráció kifejezése)",
+      "Feszültségcsökkentő, érzelemszabályozó szerep",
+      "Igények kifejezése verbális úton nem tudó egyénnél",
+      "Túlterheltség jelzése",
+      "Mindig kizárólag biológiai (epileptiform) eredetű"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Az ÖV heterogén zavar, gyakran kommunikációs vagy érzelemszabályozási funkciót tölt be. Nem mindig biológiai eredetű."
+  },
+  {
+    "id": 211,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Az AAIDD szemléletváltás (intellektuális képességzavar megközelítés) fő elemei közé tartoznak:",
+    "options": [
+      "Terminológiai változás: „mentális retardáció” → „intellektuális képességzavar”",
+      "Deficitmodell helyett támogatásmodell",
+      "Statikus állapot helyett fejlődési perspektíva",
+      "Egyéni-környezeti interakció hangsúlyozása",
+      "Inkluzív, emberi jogi megközelítés",
+      "Kizárólag az IQ-érték alapján történő besorolás"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "Az AAIDD szemléletváltás öt fő eleme: terminológia, támogatásmodell, fejlődési perspektíva, interakció-fókusz, inkluzív szemlélet. Az IQ önmagában már nem elsődleges meghatározó."
+  },
+  {
+    "id": 212,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A hazai gyógypedagógiai szóhasználatban az IKZ-val élő személyeket két csoportra osztják. Melyik megfeleltetés helyes?",
+    "options": [
+      "Tanulásban akadályozott = mérsékelt/súlyos IKZ; értelmileg akadályozott = enyhe IKZ",
+      "Tanulásban akadályozott = enyhe IKZ; értelmileg akadályozott = mérsékelt, súlyos és igen súlyos IKZ",
+      "Tanulásban akadályozott = ép intellektus mellett részképességzavar; értelmileg akadályozott = bármely IKZ",
+      "A két fogalom szinonim"
+    ],
+    "answer": 2,
+    "explanation": "Hazai sajátosság: a tanulásban akadályozottság (enyhe IKZ) és az értelmi akadályozottság (mérsékelt, súlyos, igen súlyos) — pedagógiai szemléletű csoportosítás."
+  },
+  {
+    "id": 213,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a könnyen érthető kommunikáció (KÉK) alapelvei és gyakorlati ajánlásai?",
+    "options": [
+      "Beszéd előtt és után 10 másodperc várakozás",
+      "A partner bevonása: kérdezzük meg, miről szeretne beszélni, akar-e témát váltani",
+      "Csak akkor kérdezzünk, ha valóban érdekel a válasz",
+      "A szöveg kidolgozásába vonjunk be értelmi fogyatékos embert",
+      "Sok igen–nem kérdés használata, hogy egyértelmű legyen a válasz",
+      "Tegyünk fel sok kérdést, és ismételjünk minden mondatot többször"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A KÉK alapelvei: várakozás, partneri bevonás, valódi érdeklődés, az érintett személy bevonása a szövegkészítésbe. Kerülendő: túl sok kérdés, csak igen-nem kérdés, ismételgetés."
+  },
+  {
+    "id": 214,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! IKZ-ban a támogatási szükséglet kategóriái közé tartoznak:",
+    "options": [
+      "Időszakos támogatás (enyhe IKZ-nak felel meg)",
+      "Korlátozott támogatás (mérsékelt/középsúlyos IKZ)",
+      "Kiterjedt támogatás (súlyos IKZ)",
+      "Pervazív (átható/állandó) támogatás (igen súlyos, halmozott IKZ)",
+      "Egyszeri támogatás (csak diagnosztikai kategória)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Az AAIDD-féle támogatási szükségleti osztályozás 4 kategóriát különböztet meg: időszakos, korlátozott, kiterjedt, pervazív."
+  },
+  {
+    "id": 215,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás IGAZ a sztereotip viselkedésre IKZ-ban?",
+    "options": [
+      "Mindig veszélyes, önsértő jellegű",
+      "Más pszichiátriai vagy neurológiai betegség tüneteként jelenik meg",
+      "Nem célszerű, nem funkcionális, ritmusos és ismétlődő mozgások; lehetnek nem veszélyesek (pl. ringatás) vagy önveszélyesek (pl. fej ütögetése)",
+      "Csak az autizmus spektrumzavarban fordul elő"
+    ],
+    "answer": 3,
+    "explanation": "A sztereotip mozgások nem célszerű, ritmusos, ismétlődő mozgások; lehetnek nem veszélyesek (ringatás, hajcsavargatás) vagy önveszélyesek (fej ütögetése, harapdálás). Különösen jellemzők pl. Rett-szindrómában, autizmusban."
+  },
+  {
+    "id": 216,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a különbség a részképességzavar és a komplex tanulási zavar között?",
+    "options": [
+      "A részképességzavar adott kognitív/motoros funkció (pl. hallási differenciálás, alak- és térészlelés) területén megjelenő deficit; a komplex tanulási zavar az intelligenciaszint alapján elvárhatónál lényegesen alacsonyabb tanulási teljesítményt jelent, sajátos kognitív tünetegyüttessel",
+      "A részképességzavar súlyosabb, mint a komplex tanulási zavar",
+      "A komplex tanulási zavar csak egy részképességet érint, a részképességzavar többet",
+      "A két fogalom szinonim"
+    ],
+    "answer": 1,
+    "explanation": "A részképességzavar (pl. hallási differenciálás, alak-tér észlelés, testérzékelés) egy-egy területet érint; a komplex tanulási zavar az olvasás, írás, számolás zavara, neurológiai funkciózavar talaján."
+  },
+  {
+    "id": 217,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a vizsgálati eljárásokat azzal, hogy mit mérnek!",
+    "options": [],
+    "leftItems": [
+      "Raven Progresszív Mátrixok",
+      "Rey-komplex",
+      "Frostig-teszt",
+      "Bender-teszt",
+      "TROG",
+      "Peabody-teszt",
+      "Meixner-olvasólap",
+      "DPV (Dékány–Juhász)"
+    ],
+    "rightItems": [
+      "Intelligenciavizsgálat (nonverbális)",
+      "Emlékezet (komplex ábra + auditív-verbális tanulás)",
+      "Vizuális percepció (szem-kéz koord., alak-háttér, alak-konstancia, térbeli helyzet/viszony)",
+      "Vizuomotoros koordináció (ábramásolás)",
+      "Nyelvtani szerkezetek megértése",
+      "Passzív szókincs",
+      "Olvasási zavar pedagógiai vizsgálata",
+      "Diszkalkulia Pedagógiai Vizsgálata"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ]
+    ],
+    "explanation": "A különböző diagnosztikus eljárások specifikus területet mérnek; ezek felismerése a differenciáldiagnosztika alapja a tanulási zavaroknál."
+  },
+  {
+    "id": 218,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a diszkalkulia altípusait (Desoete, 2006) a jellemzőikkel!",
+    "options": [],
+    "leftItems": [
+      "Szemantikus emlékezet deficit",
+      "Procedurális deficit",
+      "Téri-vizuális deficit",
+      "Számismeret deficit"
+    ],
+    "rightItems": [
+      "Numerikus tények előhívásának problémája; fejben számolásnál hibázás, magas hibázási arány",
+      "Komplex aritmetikai eljárások végrehajtásának zavara; fejletlen stratégiák, sok hiba lépés-sorrendben",
+      "Számok számegyenesen való elhelyezésének zavara; téri jelölés, geometria megértésének problémája",
+      "Számolvasás, -írás, -produkció zavara; modalitások közti átkódolás nehézsége"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "explanation": "Desoete (2006) négy diszkalkulia altípust ír le, mindegyiknek jellegzetes kognitív profilja van."
+  },
+  {
+    "id": 219,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely hibázási módok jellemzők a diszlexiás olvasásra/írásra?",
+    "options": [
+      "Elízió (kihagyás) – pl. asztal → atal",
+      "Szubsztitúció (helyettesítés) – pl. gép → dép",
+      "Permutáció (betűsorrend felcserélése) – pl. asztal → atszal",
+      "Addíció (hozzáadás) – pl. asztal → aszatal",
+      "Centralizáció (szótő átalakítása) – nem valós kategória"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A diszlexia négy fő elsődleges hibázási módja: elízió, szubsztitúció, permutáció, addíció."
+  },
+  {
+    "id": 220,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! A diszgráfia megnyilvánulási formái közé tartoznak:",
+    "options": [
+      "Ortográfiai (helyesírási) nehézség: betűtévesztés, hangkihagyás, szabályalkalmazási problémák",
+      "Motoros (grafomotoros) forma: nehezen olvasható írás, lassú írástempó, rendezetlen betűalakítás",
+      "Nyelvi-szövegalkotási zavar: rövid, grammatikailag hibás mondatok, koherenciahiány",
+      "Az olvasott szöveg megértésének zavara"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "A diszgráfia három fő megnyilvánulása: ortográfiai, motoros (grafomotoros) és nyelvi-szövegalkotási. Az olvasott szöveg megértése a diszlexia területe."
+  },
+  {
+    "id": 221,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely genetikai rendellenességeknél fordulnak elő számolási (diszkalkulia jellegű) zavarok?",
+    "options": [
+      "Fejlődési Gerstmann-szindróma",
+      "Williams-szindróma",
+      "Törékeny X szindróma",
+      "Turner-szindróma",
+      "Down-szindróma",
+      "Velocardiofacial szindróma"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "explanation": "A diasor számolási zavarokat összefüggésbe hozza az alábbi szindrómákkal: Gerstmann, Williams, törékeny X, Turner, Down, anyagcserezavar, velocardiofacial, jobb agyfélteke."
+  },
+  {
+    "id": 222,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! A diszlexia lehetséges neuropszichológiai okai közé tartoznak:",
+    "options": [
+      "Gyengült fonológiai tudatosság (phonological awareness)",
+      "Gyors automatikus elnevezés (RAN) zavara",
+      "Csökkent olvasási fluencia, gyenge VWFA-aktiváció",
+      "Perceptuális feldolgozás (auditoros szinkronizáció) sérülése",
+      "Idői feldolgozás, mintavételezés és figyelmi deficitek",
+      "Kizárólag a látáskorrekció hiánya magyarázza"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A diszlexia komplex neuropszichológiai háttere: fonológiai tudatosság, RAN, fluencia, perceptuális feldolgozás, figyelmi/idői sajátosságok. Nem szemészeti probléma!"
+  },
+  {
+    "id": 223,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! A diszlexia prevenciós órák készségfejlesztési területei közé tartoznak:",
+    "options": [
+      "Mozgásfejlesztés (egyensúly, izomtónus, ritmusérzék)",
+      "Testtudat és téri tájékozódás fejlesztése (bal-jobb, dominancia)",
+      "Percepciófejlesztés (vizuális, hallási, taktilis, kinesztetikus)",
+      "Beszédkészség fejlesztése (szókincs, mondatalkotás)",
+      "Algebrai egyenletek megoldási stratégiái"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A diszlexia prevenció négy fő készségfejlesztési területet érint: mozgás, testtudat/téri orientáció, percepció, beszéd. Az algebra nem szerepel."
+  },
+  {
+    "id": 224,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az International Dyslexia Association (IDA) 2002-es definíciója szerint a diszlexia tipikus alapja:",
+    "options": [
+      "Általános intellektuális elmaradás (IQ < 70)",
+      "Fonológiai komponens deficitje neurobiológiai eredetű specifikus tanulási zavar keretében",
+      "Tisztán pszichoszociális tényezők (motivációhiány)",
+      "Szemészeti rendellenesség (látáskorrekció hiánya)"
+    ],
+    "answer": 2,
+    "explanation": "Az IDA (2002) definíciója: a diszlexia neurobiológiai eredetű, specifikus tanulási zavar; a nehézségek tipikusan a fonológiai komponens deficitjéből erednek."
+  },
+  {
+    "id": 225,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a BNO-11 (2018/2022) elnevezése a tanulási zavarokra?",
+    "options": [
+      "Tanulási veszélyeztettség",
+      "Iskolai teljesítmény zavara",
+      "Fejlődési eredetű tanulási zavar",
+      "Specifikus tanulási zavar"
+    ],
+    "answer": 3,
+    "explanation": "A BNO-11-ben (Disorders of intellectual development, ill. tanulási zavarok 6A03) az új elnevezés: „Fejlődési eredetű tanulási zavar”."
+  },
+  {
+    "id": 226,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik NEM tartozik a DSM-5 szerinti intellektuális képességzavar súlyossági fokozatai közé?",
+    "options": [
+      "Enyhe",
+      "Mérsékelt",
+      "Kritikus",
+      "Súlyos"
+    ],
+    "answer": 3,
+    "explanation": "A DSM-5 négy súlyossági szintet különít el: enyhe, mérsékelt, súlyos, igen súlyos. „Kritikus” nem szerepel."
+  },
+  {
+    "id": 227,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "IGAZ vagy HAMIS? A BNO-11-ben az „értelmi fogyatékosság” helyett a „disorders of intellectual development” (intellektuális fejlődési zavar) kifejezést használják.",
+    "options": [],
+    "answer": true,
+    "explanation": "A BNO-11 új terminológiája az „intellektuális fejlődési zavarok”, ami a kevésbé stigmatizáló, fejlődésorientált szemléletet tükrözi."
+  },
+  {
+    "id": 228,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Mi az Edwards-szindróma másik elnevezése?",
+    "options": [
+      "Triszómia 21",
+      "Turner-szindróma",
+      "Triszómia 13",
+      "Triszómia 18"
+    ],
+    "answer": 4,
+    "explanation": "Az Edwards-szindróma a 18-as kromoszóma számbeli anomáliája (18-as triszómia). 21=Down, 13=Patau."
+  },
+  {
+    "id": 229,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi okozza az újszülött absztinencia szindrómát (NAS)?",
+    "options": [
+      "Genetikai rendellenesség",
+      "Oxigénhiányos állapot a szülés alatt",
+      "Addiktív szerek méhen belüli hatása, majd megvonása a születés után",
+      "Koraszülöttségből eredő fejlődési zavar"
+    ],
+    "answer": 3,
+    "explanation": "A NAS oka, hogy a magzat méhen belül addiktív szereknek (leggyakrabban opioidoknak, de alkoholnak, nikotinnak is) van kitéve, és a születés után megvonási tüneteket él át."
+  },
+  {
+    "id": 230,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A klasszikus Down-szindróma mely kromoszómaprobléma következménye?",
+    "options": [
+      "13-as kromoszóma triplázódása",
+      "Egy kromoszóma hiánya",
+      "A 21-es kromoszóma triplázódása minden sejtben (T21)",
+      "A 18-as kromoszóma triplázódása"
+    ],
+    "answer": 3,
+    "explanation": "A klasszikus Down-szindróma a 21-es kromoszóma triplázódása az összes testi sejtben (T21, 47,XX/XY,+21) — a Down-szindrómás esetek kb. 95%-a."
+  },
+  {
+    "id": 231,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "IGAZ vagy HAMIS? A klasszikus 21-es triszómia (T21) kialakulásában az anya vagy az apa életmódja döntő szerepet játszik.",
+    "options": [],
+    "answer": false,
+    "explanation": "A klasszikus T21 kialakulását sem az anya, sem az apa életmódja nem befolyásolja; az életkor (különösen anyai 35 év felett) viszont rizikófaktor."
+  },
+  {
+    "id": 232,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! A magzati korban az anyai alkoholfogyasztás közvetlen következményei közé tartoznak:",
+    "options": [
+      "Lelassult fejlődés",
+      "Alacsony születési súly",
+      "Fejletlen idegrendszer (kisebb agytérfogat, kisagy)",
+      "Spontán vetélés fokozott gyakorisága",
+      "Magasabb születési súly és emelkedett IQ"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Az alkohol az idegsejtek fejlődését és migrációját szakítja meg, lelassult fejlődést, alacsony születési súlyt, fejletlen idr-i fejlődést és gyakoribb vetélést okoz."
+  },
+  {
+    "id": 233,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik IQ-tartomány jellemzi az enyhe értelmi fogyatékosságot (enyhe IKZ)?",
+    "options": [
+      "70–85",
+      "50–69",
+      "30–49",
+      "20–34"
+    ],
+    "answer": 2,
+    "explanation": "A DSM-5 / BNO-10 szerint az enyhe IKZ IQ-tartománya 50–69 (F70). 35–49 = középsúlyos, 20–34 = súlyos, 20 alatt = igen súlyos."
+  },
+  {
+    "id": 234,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Az enyhe értelmi fejlődés zavarát (enyhe IKZ) jellemzi:",
+    "options": [
+      "IQ kb. 50–69",
+      "Nehézség az iskolai kultúrtechnikák (olvasás, írás, matematika) elsajátításában",
+      "Az absztrakt gondolkodás nehezített",
+      "Szociális interakciók terén elmaradás",
+      "A beszédet és a gesztusokat csak nagyon korlátozott szinten értik meg",
+      "Az élet minden területén másokra vannak utalva"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Enyhe IKZ jellemzői (IQ 50–69): kultúrtechnikák elsajátítása nehezített, absztrakt gondolkodás zavart, szociális elmaradás. A korlátozott gesztusértés és teljes ráutaltság a súlyos/igen súlyos IKZ-t jellemzi."
+  },
+  {
+    "id": 235,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! A tanulási zavar veszélyeztetettség óvodáskori jelei közé tartoznak:",
+    "options": [
+      "Egyensúly-érzékelés zavara",
+      "Bizonytalan testséma és téri orientáció",
+      "Laterális dominancia kialakulásának megkésése",
+      "Nagy- és finommozgások összehangolásában nehézségek",
+      "Görcsös vagy hipotón ceruzafogás",
+      "Életkor szerint elvárható szókincs és nyelvi készségek"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "Óvodáskori tanulási zavar veszélyeztetettségi jelek: egyensúly, testséma/téri orientáció, dominancia, mozgáskoordináció, ceruzafogás problémái — a megfelelő szókincs/nyelvi készség nem rizikójel."
+  },
+  {
+    "id": 236,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A fejlődési diszkalkulia legpontosabb meghatározása:",
+    "options": [
+      "Szerzett sérülés következménye",
+      "Az aritmetikai képesség problémája normál intelligencia mellett, gyermekkori kezdettel",
+      "Fiúknál jellemző az esetek 90%-ában",
+      "Felnőttkorban jelenik meg, agysérülés miatt"
+    ],
+    "answer": 2,
+    "explanation": "A fejlődési diszkalkulia gyermekkorban kezdődő, sérülés nélkül fennálló tanulási zavar; a normál intelligencia mellett az aritmetikai képességek elsajátítását akadályozza."
   }
 ]
