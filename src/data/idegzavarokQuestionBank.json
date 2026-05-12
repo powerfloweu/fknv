@@ -2884,5 +2884,638 @@
       "DSM-5: Társas (pragmatikai) kommunikációs zavar",
       "DSM-5: Autizmus spektrum zavar"
     ]
+  },
+  {
+    "id": 166,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely változásokat hozta a DSM-5 (2013) a DSM-IV-hez képest?",
+    "options": [
+      "A 'mentális retardáció' helyett 'intellektuális képességzavar' elnevezést vezet be",
+      "Az autizmust spektrumként, dimenzionálisan kezeli",
+      "Külön diagnózisként megszünteti az Asperger-szindrómát",
+      "Egységesíti a tanulási zavarokat (specifikus tanulási zavar)",
+      "A 'neurofejlődési zavarok' új főkategóriát hoz létre",
+      "Visszaállítja a mentális betegségek dichotóm (van/nincs) szemléletét"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A DSM-5 dimenzionális, spektrum-alapú szemléletet vezetett be, új főkategóriával és átnevezett zavarokkal."
+  },
+  {
+    "id": 167,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely etiológiai tényezőcsoportok játszanak szerepet a fejlődési zavarokban?",
+    "options": [
+      "Genetikai (kromoszomális, gén-szintű)",
+      "Prenatális ártalmak (pl. teratogének, fertőzések)",
+      "Perinatális tényezők (pl. hipoxia, koraszülöttség)",
+      "Posztnatális tényezők (pl. trauma, fertőzés)",
+      "Pszichoszociális rizikófaktorok",
+      "Epigenetikai hatások (gén-környezet kölcsönhatás)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "explanation": "A fejlődési zavarok multifaktoriálisak: genetikai, pre-/peri-/posztnatális, pszichoszociális és epigenetikai tényezők együtt hatnak."
+  },
+  {
+    "id": 168,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely genetikai szindrómákban szerepel rendszerint intellektuális képességzavar?",
+    "options": [
+      "Down-szindróma",
+      "Törékeny X szindróma",
+      "Williams-Beuren szindróma",
+      "Prader-Willi szindróma",
+      "Angelman-szindróma",
+      "Turner-szindróma (jellemzően ép intellektus)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A Turner-szindrómában az intellektus általában a normál tartományban van; a többi szindrómában az IKZ tipikus."
+  },
+  {
+    "id": 169,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely pszichiátriai/viselkedési zavarok fordulnak elő gyakrabban IKZ-ban (kettős diagnózis)?",
+    "options": [
+      "ADHD",
+      "Autizmus spektrumzavar",
+      "Szorongásos zavarok",
+      "Hangulati zavarok",
+      "Önsértő, sztereotip viselkedés",
+      "Pszichózisok"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "explanation": "IKZ-ban a komorbid pszichiátriai zavarok aránya 3–5x magasabb (kettős diagnózis); minden felsorolt jelentősen gyakoribb."
+  },
+  {
+    "id": 170,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely zavarok társulnak gyakran fejlődési diszlexiához?",
+    "options": [
+      "Fonológiai tudatosság gyengesége",
+      "ADHD",
+      "Fejlődési nyelvi zavar (DLD)",
+      "Diszkalkulia",
+      "Fejlődési koordinációs zavar (DCD)",
+      "Szorongás, alacsony önértékelés"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "explanation": "A diszlexia ritkán fordul elő izoláltan; magas a komorbiditása más fejlődési és szekunder pszichés zavarokkal."
+  },
+  {
+    "id": 171,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! A szenzoros integráció zavara mely fejlődési zavarokkal mutat magas együttjárást?",
+    "options": [
+      "Autizmus spektrumzavar",
+      "ADHD",
+      "Fejlődési koordinációs zavar (DCD)",
+      "Tanulási zavarok",
+      "Fejlődési nyelvi zavar (DLD)",
+      "Klinikai depresszió felnőttkorban"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A szenzoros feldolgozási nehézségek a felsorolt neurofejlődési zavarokkal együtt gyakran fordulnak elő, gyermekkori depresszióval nem társulnak közvetlenül."
+  },
+  {
+    "id": 172,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely tényezők növelik a koraszülöttek későbbi fejlődési zavar kockázatát?",
+    "options": [
+      "Alacsony gestációs kor (<32. hét)",
+      "Nagyon alacsony születési súly (<1500 g)",
+      "Periventrikuláris leukomalácia (PVL)",
+      "Intraventrikuláris vérzés (IVH)",
+      "Perinatális hipoxia",
+      "Anyai gondozás minőségétől függetlenül azonos minden esetben"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A neonatális rizikótényezők (GA, súly, PVL/IVH, hipoxia) mind növelik a kockázatot; a pszichoszociális környezet jelentősen modulálja a kimenetet."
+  },
+  {
+    "id": 173,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely zavarok jelennek meg gyakran a koraszülöttség késői következményeként?",
+    "options": [
+      "Tanulási zavarok",
+      "ADHD",
+      "Motoros koordinációs zavar (DCD)",
+      "Autizmus spektrumzavar (megnövekedett kockázat)",
+      "Általános kognitív elmaradás / IKZ",
+      "Magasabb átlagos IQ a kortársakhoz képest"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A koraszülöttség minden felsorolt neurofejlődési zavar kockázatát növeli; ellenkező irányú előny nincs."
+  },
+  {
+    "id": 174,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely jellemzők különítik el a pragmatikai kommunikációs zavart (PKZ) az autizmustól?",
+    "options": [
+      "PKZ-ben nincs restriktív, repetitív viselkedés",
+      "PKZ-ben a szociális motiváció megtartott",
+      "PKZ-ben elsősorban a nyelvhasználat szociális szabályai zavartak",
+      "PKZ-ben mindig súlyos szenzoros érzékenység tapasztalható",
+      "PKZ önállóan diagnosztizálható, ha ASD kritériumai nem teljesülnek"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "explanation": "A PKZ az ASD-vel ellentétben szociális motivációt és rugalmasságot megőriz; szenzoros érzékenység nem kritérium."
+  },
+  {
+    "id": 175,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely DSM-5 kritériumoknak kell teljesülniük ADHD diagnózisához gyermekkorban?",
+    "options": [
+      "A tünetek 12 éves kor előtt megjelennek",
+      "Legalább 6 tünet a figyelmetlenség és/vagy hiperaktivitás-impulzivitás területén",
+      "A tünetek legalább 2 helyszínen (pl. otthon és iskola) jelen vannak",
+      "A tünetek funkcionális károsodást okoznak",
+      "A tünetek legalább 6 hónapja fennállnak",
+      "A tüneteknek 18 éves kor előtt el kell múlniuk"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "DSM-5: 12 év előtti megjelenés, 6+ tünet, 2+ helyszín, 6+ hónap, funkcionális károsodás. ADHD felnőttkorban is fennállhat."
+  },
+  {
+    "id": 176,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Az autizmus spektrumzavar DSM-5 kritériumai közé tartoznak:",
+    "options": [
+      "Szociális kommunikáció és interakció tartós zavara",
+      "Restriktív, repetitív viselkedés- és érdeklődési minták",
+      "Tünetek a korai fejlődési időszakban megjelennek",
+      "A tünetek klinikailag jelentős funkcionális károsodást okoznak",
+      "Szenzoros input iránti hiper- vagy hiporeaktivitás",
+      "Megkövetelt minimum IQ-érték a diagnózishoz"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "DSM-5: A és B kritérium (szociális+RRB), C (korai megjelenés), D (károsodás); szenzoros sajátosságok a B kritérium része. IQ-kritérium nincs."
+  },
+  {
+    "id": 177,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek tipikus, ADHD-val gyakran együttjáró komorbid zavarok gyermekkorban?",
+    "options": [
+      "Specifikus tanulási zavar (pl. diszlexia)",
+      "Oppozíciós/dacos zavar",
+      "Szorongásos zavarok",
+      "Autizmus spektrumzavar",
+      "Motoros koordinációs zavar (DCD)",
+      "Súlyos szenilis demencia"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "ADHD ritkán izolált; gyakori a tanulási, viselkedési, szorongásos, ASD és DCD komorbiditás. A demencia életkor miatt irreleváns."
+  },
+  {
+    "id": 178,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely neurofejlődési zavarokban gyakori a végrehajtó funkciók (executive functions) zavara?",
+    "options": [
+      "ADHD",
+      "Autizmus spektrumzavar",
+      "Intellektuális képességzavar",
+      "Fejlődési diszlexia",
+      "Koraszülöttek későbbi kognitív profilja",
+      "Egyik fejlődési zavarban sem érintett"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "A végrehajtó funkciók (gátlás, munkamemória, váltás) zavara transzdiagnosztikus jelenség — a felsorolt zavarokban mind jelen van."
+  },
+  {
+    "id": 179,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely fejlődési zavarok mutatnak átlag feletti heritabilitást (≥70%) ikervizsgálatok alapján?",
+    "options": [
+      "Autizmus spektrumzavar",
+      "ADHD",
+      "Fejlődési diszlexia",
+      "Intellektuális képességzavar (genetikai etiológiánál)",
+      "Pszichoszociális deprivációból eredő, izolált viselkedészavar"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Az ASD, ADHD, diszlexia és genetikai IKZ heritabilitása magas (70–90%); a pszichoszociálisan kondicionált viselkedészavar környezetfüggő."
+  },
+  {
+    "id": 180,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a zavarokat a DSM-5 főkategóriájukkal!",
+    "options": [],
+    "leftItems": [
+      "Intellektuális képességzavar",
+      "Fejlődési diszlexia",
+      "Autizmus spektrumzavar",
+      "ADHD",
+      "Fejlődési koordinációs zavar (DCD)",
+      "Fejlődési nyelvi zavar (DLD)"
+    ],
+    "rightItems": [
+      "Intellektuális zavarok",
+      "Specifikus tanulási zavar",
+      "Autizmus spektrumzavar",
+      "Figyelemhiányos/hiperaktivitás zavar",
+      "Motoros jártasság zavarai",
+      "Kommunikációs zavarok"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "explanation": "A DSM-5 a neurofejlődési zavarok főkategórián belül külön alkategóriákba sorolja az egyes zavartípusokat."
+  },
+  {
+    "id": 181,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd az intervenciós módszereket a célzott területtel/zavarral!",
+    "options": [],
+    "leftItems": [
+      "Ayres-féle szenzoros integrációs terápia",
+      "Pető-módszer (konduktív pedagógia)",
+      "ABA (Applied Behavior Analysis)",
+      "TEACCH",
+      "Meixner-módszer",
+      "Katona-féle neuroterápia"
+    ],
+    "rightItems": [
+      "Szenzoros feldolgozás zavarai",
+      "Mozgásszervi/CP rehabilitáció",
+      "Autizmus, viselkedéses készségfejlesztés",
+      "Autizmus, strukturált környezet és vizuális támogatás",
+      "Diszlexia prevenció és reedukáció",
+      "Korai csecsemőkori idegrendszeri fejlesztés"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "explanation": "Minden módszernek megvan a saját elsődleges célterülete; több zavarnál is használhatók, de fő alkalmazási területük eltér."
+  },
+  {
+    "id": 182,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a diagnosztikus eszközöket a megfelelő zavarral/területtel!",
+    "options": [],
+    "leftItems": [
+      "ADOS-2",
+      "M-CHAT",
+      "Conners-skála",
+      "Meixner olvasólap",
+      "AKFK (Aritmetikai Kognitív Fejlődési Képességek Teszt)",
+      "WISC / WPPSI / WAIS"
+    ],
+    "rightItems": [
+      "Autizmus diagnosztika (közvetlen megfigyelés)",
+      "Autizmus korai szűrés (16–30 hó)",
+      "ADHD szülői/tanári kérdőív",
+      "Olvasási zavar vizsgálata",
+      "Diszkalkulia / aritmetikai képességek",
+      "Intelligenciavizsgálat"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "explanation": "Minden eszköz specifikus zavarra vagy területre fókuszál; ismeretük a differenciáldiagnosztika alapja."
+  },
+  {
+    "id": 183,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a zavarokat a tipikus felismerési életkorukkal!",
+    "options": [],
+    "leftItems": [
+      "Súlyos/igen súlyos intellektuális képességzavar",
+      "Autizmus spektrumzavar (tipikus felismerés)",
+      "ADHD (tipikus diagnózis)",
+      "Fejlődési diszlexia",
+      "Fejlődési nyelvi zavar (DLD)"
+    ],
+    "rightItems": [
+      "Csecsemő-/kisgyermekkor (0–2 év)",
+      "Kisgyermekkor (1,5–3 év)",
+      "Óvodás-/iskoláskor (4–8 év)",
+      "Iskoláskor (6–10 év, olvasástanulás kezdete után)",
+      "Óvodáskor (3–5 év)"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "explanation": "A felismerés időpontját a tünetek megjelenése és az életkori normákhoz mérhetőség határozza meg."
+  },
+  {
+    "id": 184,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd az etiológiai csoportokat a hozzájuk leginkább kötődő példával!",
+    "options": [],
+    "leftItems": [
+      "Kromoszomális eltérés",
+      "Egygénes (monogénes) mutáció",
+      "Prenatális teratogén",
+      "Perinatális ártalom",
+      "Posztnatális szerzett",
+      "Pszichoszociális rizikó"
+    ],
+    "rightItems": [
+      "Down-szindróma (21-es triszómia)",
+      "Törékeny X szindróma (FMR1)",
+      "Magzati alkohol szindróma (FAS)",
+      "Perinatális hipoxia",
+      "Súlyos koponyatrauma kisgyermekkorban",
+      "Korai deprivációs környezet"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "explanation": "Az etiológiai csoportok a fejlődési időszak szerint különülnek el; minden csoportnak van paradigmatikus példája."
+  },
+  {
+    "id": 185,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a zavarokat a leggyakoribb komorbid állapotukkal!",
+    "options": [],
+    "leftItems": [
+      "ADHD",
+      "Fejlődési diszlexia",
+      "Autizmus spektrumzavar",
+      "Fejlődési koordinációs zavar (DCD)",
+      "Intellektuális képességzavar"
+    ],
+    "rightItems": [
+      "Oppozíciós/dacos zavar",
+      "Egyéb specifikus tanulási zavar (pl. diszkalkulia)",
+      "Intellektuális képességzavar",
+      "ADHD",
+      "ADHD vagy ASD"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "explanation": "A komorbiditások a fejlődési zavarok inkább szabályok, mint kivételek; minden zavarnak van jellegzetes társulási mintázata."
+  },
+  {
+    "id": 186,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mely megállapítás a leghelyesebb a fejlődési zavarok komorbiditásáról?",
+    "options": [
+      "A fejlődési zavarok jellemzően izoláltan, egymástól függetlenül jelennek meg",
+      "A neurofejlődési zavarok átfedése (komorbiditása) a szabály, nem a kivétel",
+      "A komorbiditás csak felnőttkorban válik jellemzővé",
+      "A komorbiditás kizárólag a súlyos IKZ-ban fordul elő"
+    ],
+    "answer": 2,
+    "explanation": "A fejlődési zavarok komorbiditása rendkívül gyakori — ADHD, ASD, SLD, DCD jelentős átfedést mutatnak; az izolált forma a kivétel."
+  },
+  {
+    "id": 187,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A 'transzdiagnosztikus' rizikótényező fogalma azt jelenti, hogy:",
+    "options": [
+      "Csak egy konkrét zavarhoz kötődik",
+      "Több, eltérő diagnózisú zavar közös kockázati tényezője",
+      "Életkortól függetlenül azonos hatású",
+      "Csak genetikai eredetű lehet"
+    ],
+    "answer": 2,
+    "explanation": "Transzdiagnosztikus tényezők (pl. végrehajtó funkciók gyengesége, koraszülöttség) több, eltérő zavar közös rizikóját jelentik."
   }
 ]
