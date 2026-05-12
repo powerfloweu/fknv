@@ -1542,7 +1542,8 @@
       "Autizmus spektrumzavar",
       "ADHD",
       "Specifikus tanulási zavar",
-      "Generalizált szorongásos zavar"
+      "Generalizált szorongásos zavar",
+      "Motoros jártasság zavarai (pl. DCD)"
     ],
     "answer": [
       1,
@@ -2012,7 +2013,8 @@
     "answer": [
       2,
       3,
-      4
+      4,
+      5
     ],
     "explanation": "Törékeny X, Turner (visuospatialis-matematikai deficit) és Down szindróma esetén dokumentált a számolási zavar. Az elhízás és a Gerstmann szindróma nem tipikus társítás.",
     "id": 121,
