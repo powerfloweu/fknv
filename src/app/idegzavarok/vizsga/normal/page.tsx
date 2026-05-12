@@ -27,6 +27,19 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+function shuffleOptions(q: Q): Q {
+  if (q.type !== "single" && q.type !== "multi") return q;
+  const n = q.options.length;
+  const perm = shuffle(Array.from({ length: n }, (_, i) => i));
+  const inv = new Array<number>(n);
+  for (let i = 0; i < n; i++) inv[perm[i]] = i;
+  const newOptions = perm.map(oi => q.options[oi]);
+  const newAnswer = q.type === "single"
+    ? inv[(q.answer as number) - 1] + 1
+    : (q.answer as number[]).map(a => inv[a - 1] + 1).sort((a, b) => a - b);
+  return { ...q, options: newOptions, answer: newAnswer };
+}
+
 // matching sel: Record<leftIndex, rightIndex[]>  (1-based rightItems indices)
 type MatchingSel = Record<number, number[]>;
 type AnySel = number | number[] | boolean | MatchingSel | null;
@@ -119,7 +132,7 @@ function NormalVizsga() {
       if (diffFilter && q.difficulty !== diffFilter) return false;
       return true;
     });
-    return shuffle(pool).slice(0, count);
+    return shuffle(pool).slice(0, count).map(shuffleOptions);
   })[0];
 
   const [selections, setSelections] = useState<Record<number, AnySel>>({});

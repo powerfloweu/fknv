@@ -2320,5 +2320,569 @@
     "explanation": "M-CHAT: 23 tételes szülői szűrőkérdőív (16–30 hó). ADOS-2: félig strukturált közvetlen megfigyelés. ADI-R: strukturált szülői interjú. SCQ: 40 tételes szülői kérdőív (4+).",
     "id": 132,
     "topic": "Autizmus spektrumzavar"
+  },
+  {
+    "id": 133,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A DSM-5-ben mi lett a korábbi 'mentális retardáció' kategóriájának neve?",
+    "options": [
+      "Kognitív fejlődési zavar",
+      "Intellektuális képességzavar (értelmi fejlődés zavara)",
+      "Szellemi fogyatékosság",
+      "Neurokognitív zavar"
+    ],
+    "answer": 2,
+    "explanation": "A DSM-5 az 'intellektuális képességzavar (az értelmi fejlődés zavara)' elnevezést vezette be a korábbi, stigmatizáló 'mentális retardáció' helyett (DSM-5, 2013)."
+  },
+  {
+    "id": 134,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Milyen változásokat hozott a DSM-5 a korábbi rendszerekhez képest? (Több helyes válasz)",
+    "options": [
+      "Megszűnt az öttengelyes rendszer",
+      "A 'mentális retardáció' helyett 'intellektuális képességzavar' lett",
+      "Az autizmus spektrum egyetlen egységes kategória lett",
+      "Dimenzionális szempontokat is beépített (specifikátorok, súlyossági fokmérők)",
+      "A reaktív kötődési zavar megszűnt mint kategória"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A DSM-5 megszüntette az öttengelyes rendszert, átnevezett több kategóriát (pl. mentális retardáció), egységesítette az ASD-t, és dimenzionális elemeket is bevezetett."
+  },
+  {
+    "id": 135,
+    "topicNum": 1,
+    "topic": "Bevezetés a fejlődési pszichopatológiába",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A DC:0-5 rendszer szándékoltan ateoretikus, akárcsak a DSM-5.",
+    "options": [],
+    "answer": true,
+    "explanation": "Igaz. A DC:0-5 jellemzőiről a diák expliciten kimondják: 'szándékoltan ateoretikus (csakúgy, mint a DSM-5), vagyis nem kapcsolódik specifikus magyarázó teóriákhoz'."
+  },
+  {
+    "id": 136,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Melyek az epigenetikai mechanizmusok főbb formái a diák szerint? (Több helyes válasz)",
+    "options": [
+      "DNS-metiláció",
+      "Hisztonmódosulások",
+      "Nem-kódoló RNS-ek hatása",
+      "Pontmutáció",
+      "Transzlokáció"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "A diák három fő epigenetikai mechanizmust emelnek ki: DNS-metiláció, hisztonmódosulások és nem-kódoló RNS-ek. A pontmutáció és a transzlokáció genetikai, nem epigenetikai mechanizmusok."
+  },
+  {
+    "id": 137,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mekkora az autizmus spektrumzavar konkordanciája egypetéjű (monozigóta) ikreknél a diák szerint?",
+    "options": [
+      "~10–30%",
+      "~40–50%",
+      "~60–80%",
+      "~95–100%"
+    ],
+    "answer": 3,
+    "explanation": "Az etiológia diák szerint az autizmus konkordanciája egypetéjű ikreknél ~60–80%, kétpetéjű ikreknél ~10–30%, ami erős genetikai meghatározottságra utal."
+  },
+  {
+    "id": 138,
+    "topicNum": 2,
+    "topic": "Etiológia",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A poligénes öröklődés azt jelenti, hogy egyetlen, erősen ható gén felelős a fejlődési zavarért.",
+    "options": [],
+    "answer": false,
+    "explanation": "Hamis. A poligénes öröklődés több, kis hatású gén együttes szerepét jelenti – nem egyetlen gén hatásáról van szó."
+  },
+  {
+    "id": 139,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás igaz az igen súlyos értelmi fejlődés zavarára (IQ < 20)?",
+    "options": [
+      "Fogalmi készségeik a szimbolikus folyamatokra is kiterjednek",
+      "A tárgyak célirányos használatára esetenként képesek",
+      "Önállóan képesek az önellátásra",
+      "Komplex expressszív beszéd általában elsajátítható"
+    ],
+    "answer": 2,
+    "explanation": "Az igen súlyos szinten a fogalmi készségek a fizikai környezetre irányulnak, szimbolikus folyamatokra nem terjednek ki; a tárgyak célirányos használatára esetenként képesek, de az élet minden területén másokra vannak utalva."
+  },
+  {
+    "id": 140,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Milyen társuló pszichopatológiák fordulhatnak elő intellektuális képességzavar (IKZ) esetén? (Több helyes válasz)",
+    "options": [
+      "Hangulati és szorongásos zavar",
+      "Skizofrénia spektrum",
+      "Demencia",
+      "Személyiségzavar",
+      "IKZ esetén pszichiátriai komorbiditás ritka, csak 5% alatti"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "IKZ-val élő gyermekeknél az érzelmi és viselkedésproblémák, pszichiátriai zavarok háromszor-négyszer gyakoribbak, mint átlagos intelligencia mellett. Társuló zavarok: hangulati, szorongásos, skizofrénia spektrum, demencia, személyiségzavar."
+  },
+  {
+    "id": 141,
+    "topicNum": 3,
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az önsértő viselkedés (ÖV) IKZ-ban az egyik legzavaróbb és legkárosítóbb viselkedésforma.",
+    "options": [],
+    "answer": true,
+    "explanation": "Igaz. A diák szerint az önsértő/autoagresszív viselkedés IKZ-ban az egyik legzavaróbb és legkárosítóbb viselkedésforma (Cooper, 2009: 4,9%-os előfordulás)."
+  },
+  {
+    "id": 142,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a fő különbség a fejlődési és a szerzett diszlexia között?",
+    "options": [
+      "A fejlődési diszlexia felnőttkorban alakul ki, a szerzett gyermekkorban",
+      "A fejlődési diszlexia neurodevelopmentális (fejlődési) eredetű, a szerzett agysérülés következménye",
+      "A fejlődési diszlexia kizárólag az olvasást érinti, a szerzett az írást is",
+      "Nincs lényeges különbség köztük, csak az életkor eltér"
+    ],
+    "answer": 2,
+    "explanation": "A fejlődési diszlexia gyermekkorban jelenik meg és neurodevelopmentális eredetü; a szerzett diszlexia agysérülés következménye és felnőttkorban alakul ki."
+  },
+  {
+    "id": 143,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Milyen neuropszichológiai következmények/zavarok kísérhetik a diszlexiát? (Több helyes válasz)",
+    "options": [
+      "Szókincs és más nyelvi problémák",
+      "Rövidtávú és munkamemória zavar",
+      "Végrehajtó funkciók zavarai (gátlás, automatikus váltás)",
+      "Vizuális-téri folyamatok zavara",
+      "Kiemelkedően jó epizodikus memória"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A diszlexiával együtt járó neuropszichológiai következmények a diák szerint: fonológiai/auditoros folyamatok, szókincs és nyelvi problémák, vizuális-téri folyamatok, rövidtávú és munkamemória zavar, végrehajtó funkciók zavara."
+  },
+  {
+    "id": 144,
+    "topicNum": 4,
+    "topic": "Tanulási zavarok",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A fejlődési diszkalkulia normál intelligencia mellett akadályozza az aritmetikai képességek elsajátítását.",
+    "options": [],
+    "answer": true,
+    "explanation": "Igaz. A Dékány-féle meghatározás szerint a diszkalkulia ép intelligenciaérték mellett, organikus hátterű, szint alatti teljesítmény az aritmetika területén."
+  },
+  {
+    "id": 145,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik a szenzoros modulációs zavar három altípusának egyike a diák szerint?",
+    "options": [
+      "Poszturális zavar",
+      "Szenzoros diszkriminációs zavar",
+      "Szenzoros élménykeresés",
+      "Fejlődési diszpraxia"
+    ],
+    "answer": 3,
+    "explanation": "A szenzoros modulációs zavar három altípusa: szenzoros túlérzékenység, szenzoros érzéketlenség/tompaság és szenzoros élménykeresés. A poszturális zavar és a diszpraxia a szenzoros alapú mozgásrendellenességek körébe tartozik."
+  },
+  {
+    "id": 146,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Milyen tünetek jelentkeznek diszpraxia (DCD) esetén óvodás/iskoláskorban? (Több helyes válasz)",
+    "options": [
+      "Rajzolás, írás problémás",
+      "Cipőfűzés, gombolás nehéz",
+      "Labdajátékokban ügyetlenség",
+      "Kiemelkedően jó egyensúlyérzékelés",
+      "Lassú munkavégzés"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "explanation": "Diszpraxia tünetei óvoda/iskoláskorban: rajzolás és írás problémás, cipőfűzés és gombolás nehéz, labdajátékokban ügyetlenség, lassú munkavégzés, mozgásos feladatok kerülése."
+  },
+  {
+    "id": 147,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A szenzoros integráció zavarának esetén mindig egyetlen, jól azonosítható ok áll a háttérben.",
+    "options": [],
+    "answer": false,
+    "explanation": "Hamis. A diák szerint 'a szenzoros (integráció) zavara esetén nincs egyetlen ok, a háttér gyakran tisztázatlan' – több tényező (genetikai, pre/perinatális, gyermekkori betegségek, agysérülés) állhat mögötte."
+  },
+  {
+    "id": 148,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A periventrikuláris leukomalácia (PVL) az egyik legfontosabb rizikófaktora melyik állapotnak?",
+    "options": [
+      "Retinopátia (ROP)",
+      "Spasztikus diplegia (cerebrális parézis egyik formája)",
+      "Bronchopulmonális diszplázia (BPD)",
+      "Intraventrikuláris agyvérzés (IVH)"
+    ],
+    "answer": 2,
+    "explanation": "A PVL az agykamrák körüli fehérállomány ischaemiás károsodása, és az egyik legfontosabb rizikófaktora a spasztikus diplegiának, amely a cerebrális parézis egyik formája."
+  },
+  {
+    "id": 149,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Melyek a koraszülöttség lehetséges hosszú távú következményei? (Több helyes válasz)",
+    "options": [
+      "Cerebrális parézis (CP)",
+      "Tanulási zavar, diszlexia, diszgráfia",
+      "ADHD háromszor gyakrabban, mint időre születetteknél",
+      "Fokozott kockázat szív- és érrendszeri betegségekre felnőttkorban",
+      "Koraszülötteknél magasabb az önállóság és a kognitív teljesítmény"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A koraszülöttség hosszú távú következményei: CP (ELBW esetén ~6,1%), tanulási zavarok, ADHD (háromszoros kockázat), fejlődési koordinációs zavar, valamint felnőttkori szív-érrendszeri rizikó és elhízás."
+  },
+  {
+    "id": 150,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A koraszülöttség rizikófaktorként szerepel a felnőttkori szív- és érrendszeri betegségek és elhízás kialakulásában.",
+    "options": [],
+    "answer": true,
+    "explanation": "Igaz. A diák szerint 'a koraszülés tanulási, motoros problémákat, látás- és halláskárosodást okoz, rizikó a felnőttkori szív- és érrendszeri betegségekre, elhízásra'."
+  },
+  {
+    "id": 151,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás jellemzi a fejlődési nyelvi zavart (DLD/SLI)?",
+    "options": [
+      "Értelmi elmaradással mindig együtt jár",
+      "Ép szenzórium és normál övezetbe eső nonverbális intelligencia mellett is fennállhat",
+      "Kizárólag fiúknál fordul elő",
+      "Kizárólag az expresszív beszédet érinti, a megértés mindig ép"
+    ],
+    "answer": 2,
+    "explanation": "A DLD kritériumai közé tartozik az ép szenzórium (ép hallás), negatív neurológiai státusz és normál övezetbe eső nonverbális intelligencia; a zavar ennek ellenére fennáll."
+  },
+  {
+    "id": 152,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "A pragmatikai kommunikációs zavar (PKZ) DSM-5 szerinti diagnosztikai kritériumai közé tartoznak: (Több helyes válasz)",
+    "options": [
+      "Nehézség a kommunikáció társas szándékú használatában",
+      "Nehézség a kommunikáció partnerhez/helyzethez való igazításában",
+      "Szűk körű, repetitív viselkedésminták megléte (mint ASD-ben)",
+      "Megértési nehézségek nem szó szerinti, kétértelmű jelentéseknél",
+      "A tünetek a fejlődés korai időszakában jelennek meg"
+    ],
+    "answer": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "explanation": "A PKZ diagnosztikai kritériumai: kommunikáció társas szándékú használatának nehézsége, helyzethez való igazítás nehézsége, társalgási szabályok követésének nehézsége, nem szó szerinti jelentések megértésének nehézsége, és korai fejlődési kezdet. Az ASD-re jellemző repetitív viselkedések megléte KIZÁRJA a PKZ diagnózist."
+  },
+  {
+    "id": 153,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A pragmatikai kommunikációs zavar (PKZ) már a DSM-IV-ben is önálló diagnosztikai kategóriaként szerepelt.",
+    "options": [],
+    "answer": false,
+    "explanation": "Hamis. A PKZ 2013-ban jelent meg önálló kategóriaként a DSM-5-ben. A DSM-IV szerint még a nem specifikált pervazív fejlődési zavar alá tartozott."
+  },
+  {
+    "id": 154,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik a metilfenidát (Ritalin) hatásmechanizmusa?",
+    "options": [
+      "Szelektív szerotonin visszavétel gátló",
+      "Dopamin visszavétel gátló pszichostimuláns",
+      "Szelektív noradrenalin visszavétel gátló",
+      "Atipikus antipszichotikum"
+    ],
+    "answer": 2,
+    "explanation": "A metilfenidát (Ritalin) dopamin visszavétel gátló pszichostimuláns. Az atomoxetin ezzel szemben szelektív noradrenalin visszavétel gátló, nem-stimuláns szer."
+  },
+  {
+    "id": 155,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Az ADHD kezelési lehetőségei közé sorolhatók: (Több helyes válasz)",
+    "options": [
+      "Metilfenidát (Ritalin)",
+      "Atomoxetin",
+      "Szülőtréning és viselkedésterápia",
+      "Neurofeedback",
+      "Az ADHD kizárólag gyógyszerrel kezelhető"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Az ADHD kezelése multimodális: gyógyszerek (metilfenidát, atomoxetin), pszichológiai módszerek (viselkedésterápia, szülőtréning, CBT), neurofeedback és pszichoedukáció egyaránt részét képezik."
+  },
+  {
+    "id": 156,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az ADHD heritabilitása magas, megközelítőleg 70–80%.",
+    "options": [],
+    "answer": true,
+    "explanation": "Igaz. A diák szerint az ADHD esetében a heritabilitás 70–80%, amit iker- és adoptációs vizsgálatok egyaránt alátámasztanak."
+  },
+  {
+    "id": 157,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mire alkalmas az ADOS-2 vizsgálati eszköz?",
+    "options": [
+      "Intelligenciamérésre autizmusgyanús személyeknél",
+      "Standardizált, félig strukturált megfigyelési helyzeteken alapuló ASD-tünet azonosításra",
+      "Kizárólag verbálisan kommunikáló személyek vizsgálatára",
+      "Az ADHD és az ASD elkülönítő diagnózisára önmagában elegendő"
+    ],
+    "answer": 2,
+    "explanation": "Az ADOS-2 standardizált, félig strukturált megfigyelési eszköz, amely press-típusú helyzeteket teremt a társas interakciók előhívásához. Nem verbálisaktól a fluens nyelvhasználókig 4 modulja van, és kiváló reliabilitással/validitással rendelkezik, de önmagában nem elégséges az ASD diagnózishoz."
+  },
+  {
+    "id": 158,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Melyik állítások igazak az autizmus spektrumzavar DSM-5 szerinti diagnózisáról? (Több helyes válasz)",
+    "options": [
+      "Tartós hiányosságok a szocio-kommunikáció és szociális interakciók területén",
+      "Korlátozott, ismétlődő viselkedésminták, érdeklődés és tevékenységek",
+      "3 súlyossági fok a támogatási szükséglet alapján",
+      "Az Asperger-szindróma és a gyermekkori dezintegratív zavar megmaradtak külön kategóriaként",
+      "Nincs érvényes, klinikailag validált alcsoport (pl. az Asperger külön kategóriaként)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "explanation": "A DSM-5 az autizmus spektrumot egyetlen kategóriában fogja össze az autisztikus diád (szocio-kommunikáció + rugalmatlan viselkedés) alapján, 3 súlyossági fokkal. Az Asperger-szindróma önálló kategóriaként megszűnt."
+  },
+  {
+    "id": 159,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az autizmus spektrumzavar kizárólag gyermekeket érint; felnőttkorban tünetei megszűnnek.",
+    "options": [],
+    "answer": false,
+    "explanation": "Hamis. Az autizmus spektrumzavar pervazív és élethosszig fennálló állapot. Tévhit, hogy 'kinőhető' – a felnőtt autistáknak is szükségük lehet megfelelő támogatásra."
+  },
+  {
+    "id": 160,
+    "topicNum": 10,
+    "topic": "Fejlesztés és intervenció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a Pető-módszer (konduktív pedagógia) alapgondolata?",
+    "options": [
+      "Kizárólag a mozgáskoordinációs feladatokra fókuszál, kognitív elemek nélkül",
+      "Az idegrendszer ép területeit bevonva, új idegi kapcsolatok kiépítésével teszi lehetővé a mozgás elsajátítását",
+      "Vesztibuláris ingerlés alkalmazása szenzoros integrációs terápiában",
+      "Csak intézményes keretek között végezhető, otthon nem alkalmazható"
+    ],
+    "answer": 2,
+    "explanation": "A Pető-módszer alapgondolata: a központi idegrendszer a károsodások ellenére tartalékokkal rendelkezik; az ép területek bevonásával és a tanulási-tanítási folyamat megfelelő vezérlésével új kapcsolatok építhetők ki."
+  },
+  {
+    "id": 161,
+    "topicNum": 10,
+    "topic": "Fejlesztés és intervenció",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Melyek az Ayres-féle szenzoros integrációs terápia jellemzői? (Több helyes válasz)",
+    "options": [
+      "3 éves kortól alkalmazható",
+      "Izgalmas egyensúlyfejlesztő és tapintásos érzékelést segítő játékokat tartalmaz",
+      "Célja a szenzoros élmények integrálásán, az idegrendszer önszerveződésének támogatásán keresztül hat",
+      "Kizárólag cerebrális parézis esetén alkalmazzák",
+      "A terápia a gyermek kreatív erőinek felébresztésére törekszik"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "explanation": "Az Ayres-féle szenzoros integrációs terápia 3 éves kortól alkalmazható, egyensúlyfejlesztő és tapintásos játékokat tartalmaz, és a gyermek önszervezési folyamatait, kreatív erőit kívánja felébreszteni aktív, örömteli interakciókon keresztül."
+  },
+  {
+    "id": 162,
+    "topicNum": 10,
+    "topic": "Fejlesztés és intervenció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A Katona-féle neurohabilitációs tréninget a szülő végezheti otthon a gyermekkel, napi 4–6 alkalommal 15–30 percben.",
+    "options": [],
+    "answer": true,
+    "explanation": "Igaz. A diák szerint 'az előírt program napi 4–6 alkalommal 15–30 percben végezhető gyakorlatsor, amit a szülő végez a gyermek állapotától, korától, fejlettségétől függően, egyénre szabottan'."
+  },
+  {
+    "id": 163,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik klasszifikációs rendszert dolgozták ki kifejezetten a 0–5 éves korcsoport lelki egészségének és fejlődési zavarainak osztályozására?",
+    "options": [
+      "DSM-5 (APA, 2013)",
+      "BNO-11 (WHO, 2018)",
+      "DC:0-5 (Zero to Three, 2016)",
+      "DSM-IV-TR (APA, 2000)"
+    ],
+    "answer": 3,
+    "explanation": "A DC:0-5 (Diagnostic Classification of Mental Health and Developmental Disorders of Infancy and Early Childhood) kifejezetten a csecsemő- és kisgyermekkorra (0–5 év) kidolgozott klasszifikációs rendszer, amelyet a Zero to Three szervezet adott ki 2016-ban."
+  },
+  {
+    "id": 164,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Melyek az ADHD-hoz és az autizmus spektrumzavarhoz (ASD) egyaránt kapcsolódó jellemzők? (Több helyes válasz)",
+    "options": [
+      "Szorongásos zavarok előfordulása komorbiditásként",
+      "Szenzoros feldolgozási nehézségek lehetséges megjelenése",
+      "Végrehajtó funkciók zavara",
+      "Tanulási zavarok komorbiditása",
+      "Mindkét zavar kizárólag genetikai eredetü, környezeti hatás nem játszik szerepet"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Mindkét zavarban előfordulhat szorongásos komorbiditás, szenzoros nehézség, végrehajtó funkciók zavara és tanulási nehézségek. Mindkettő multifaktoriális: erős genetikai háttér mellett környezeti hatások is szerepet játszanak."
+  },
+  {
+    "id": 165,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a fejlődési zavarokat a DSM-5 / BNO-11 szerinti megfelelő kategóriájukkal!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "explanation": "A diákon szereplő DSM-5/BNO-11 kategóriák: Diszlexia → Specifikus tanulási zavar olvasási zavarral; Diszpraxia → Motoros koordináció fejlődési zavara; ADHD → Figyelemhiányos/hiperaktivitás zavar; PKZ → Társas (pragmatikai) kommunikációs zavar.",
+    "leftItems": [
+      "Fejlődési diszlexia",
+      "Fejlődési koordinációs zavar (diszpraxia, DCD)",
+      "Figyelemhiányos/hiperaktivitás zavar (ADHD)",
+      "Pragmatikai kommunikációs zavar (PKZ)"
+    ],
+    "rightItems": [
+      "DSM-5: Specifikus tanulási zavar – olvasás érintettségével",
+      "DSM-5: Motoros jártasság zavara (fejlődési koordinációs zavar)",
+      "DSM-5: Figyelemhiányos/hiperaktivitás zavar",
+      "DSM-5: Társas (pragmatikai) kommunikációs zavar",
+      "DSM-5: Autizmus spektrum zavar"
+    ]
   }
 ]
