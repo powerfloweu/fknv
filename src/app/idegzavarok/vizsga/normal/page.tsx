@@ -7,10 +7,12 @@ import questionsRaw from "@/data/idegzavarokQuestionBank.json";
 type Q = {
   id: number; topicNum: number; topic: string;
   difficulty: "easy" | "medium" | "hard";
-  type: "single" | "multi" | "tf";
+  type: "single" | "multi" | "tf" | "matching";
   question: string; options: string[];
-  answer: number | number[] | boolean;
+  answer: number | number[] | boolean | number[][];
   explanation: string;
+  leftItems?: string[];
+  rightItems?: string[];
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
@@ -25,6 +27,85 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+// matching sel: Record<leftIndex, rightIndex[]>  (1-based rightItems indices)
+type MatchingSel = Record<number, number[]>;
+type AnySel = number | number[] | boolean | MatchingSel | null;
+
+function isMatchingCorrect(q: Q, sel: MatchingSel): boolean {
+  const ans = q.answer as number[][];
+  if (!q.leftItems) return false;
+  for (let li = 0; li < q.leftItems.length; li++) {
+    const expected = [...(ans[li] || [])].sort().join(",");
+    const got = [...(sel[li] || [])].sort().join(",");
+    if (expected !== got) return false;
+  }
+  return true;
+}
+
+function isAnyCorrect(q: Q, sel: AnySel): boolean {
+  if (sel === null) return false;
+  if (q.type === "single") return sel === q.answer;
+  if (q.type === "tf") return sel === q.answer;
+  if (q.type === "multi" && Array.isArray(sel) && Array.isArray(q.answer))
+    return [...sel].sort().join() === [...(q.answer as number[])].sort().join();
+  if (q.type === "matching" && typeof sel === "object" && !Array.isArray(sel))
+    return isMatchingCorrect(q, sel as MatchingSel);
+  return false;
+}
+
+function MatchingInput({ q, sel, setSel, submitted }: {
+  q: Q; sel: MatchingSel;
+  setSel: (s: MatchingSel) => void;
+  submitted: boolean;
+}) {
+  const ans = q.answer as number[][];
+  return (
+    <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, marginTop: 8 }}>
+      <thead>
+        <tr>
+          <th style={{ textAlign: "left", padding: "5px 8px", background: "#fde68a", color: "#7c2d12", borderRadius: "6px 0 0 0" }}>Kategória</th>
+          <th style={{ textAlign: "left", padding: "5px 8px", background: "#fde68a", color: "#7c2d12", borderRadius: "0 6px 0 0" }}>Válasz(ok)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {(q.leftItems || []).map((left, li) => {
+          const correctIdxs = ans[li] || [];
+          const chosen = sel[li] || [];
+          return (
+            <tr key={li} style={{ borderBottom: "1px solid #fde68a" }}>
+              <td style={{ padding: "6px 8px", fontWeight: 600, color: "#7c2d12", verticalAlign: "top", width: "35%" }}>{left}</td>
+              <td style={{ padding: "6px 8px" }}>
+                {(q.rightItems || []).map((right, ri) => {
+                  const idx1 = ri + 1;
+                  const isChosen = chosen.includes(idx1);
+                  const isCorrect = correctIdxs.includes(idx1);
+                  let bg = "#f9fafb", color = "#374151";
+                  if (submitted) {
+                    if (isCorrect) { bg = "#bbf7d0"; color = "#166534"; }
+                    else if (isChosen) { bg = "#fecaca"; color = "#991b1b"; }
+                  } else if (isChosen) { bg = "#fde68a"; color = "#7c2d12"; }
+                  return (
+                    <label key={ri} style={{ display: "flex", alignItems: "center", gap: 6, padding: "3px 6px", borderRadius: 6, background: bg, color, cursor: submitted ? "default" : "pointer", marginBottom: 3, fontSize: 13 }}>
+                      <input type="checkbox" disabled={submitted} checked={isChosen}
+                        onChange={() => {
+                          const arr = [...chosen];
+                          const pos = arr.indexOf(idx1);
+                          if (pos >= 0) arr.splice(pos, 1); else arr.push(idx1);
+                          setSel({ ...sel, [li]: arr.sort((a, b) => a - b) });
+                        }} />
+                      {right}
+                    </label>
+                  );
+                })}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  );
+}
+
 function NormalVizsga() {
   const params = useSearchParams();
   const router = useRouter();
@@ -32,47 +113,42 @@ function NormalVizsga() {
   const diffFilter = params.get("diff") || null;
   const count = Number(params.get("count") || 20);
 
-  const [questions] = useState<Q[]>(() => {
+  const questions: Q[] = useState<Q[]>(() => {
     const pool = (questionsRaw as unknown as Q[]).filter((q) => {
       if (topicFilter && q.topicNum !== topicFilter) return false;
       if (diffFilter && q.difficulty !== diffFilter) return false;
       return true;
     });
     return shuffle(pool).slice(0, count);
-  });
+  })[0];
 
-  type Sel = number | number[] | boolean | null;
-  const [selections, setSelections] = useState<Record<number, Sel>>({});
+  const [selections, setSelections] = useState<Record<number, AnySel>>({});
   const [submitted, setSubmitted] = useState(false);
 
   const score = useMemo(() => {
     if (!submitted) return null;
     let correct = 0;
     for (const q of questions) {
-      const sel = selections[q.id];
-      if (q.type === "single" && sel === q.answer) correct++;
-      else if (q.type === "multi" && Array.isArray(sel) && Array.isArray(q.answer)) {
-        if ([...sel].sort().join() === [...q.answer].sort().join()) correct++;
-      } else if (q.type === "tf" && sel === q.answer) correct++;
+      if (isAnyCorrect(q, selections[q.id] ?? null)) correct++;
     }
     return { correct, total: questions.length };
   }, [submitted, questions, selections]);
+
+  const pct = score ? Math.round((100 * score.correct) / Math.max(1, score.total)) : 0;
 
   function setSingle(qid: number, v: number) { setSelections(p => ({ ...p, [qid]: v })); }
   function toggleMulti(qid: number, v: number) {
     setSelections(p => {
       const arr = Array.isArray(p[qid]) ? (p[qid] as number[]) : [];
-      const next = arr.includes(v) ? arr.filter(x => x !== v) : [...arr, v];
-      return { ...p, [qid]: next.sort((a, b) => a - b) };
+      return { ...p, [qid]: arr.includes(v) ? arr.filter(x => x !== v) : [...arr, v].sort((a, b) => a - b) };
     });
   }
   function setTf(qid: number, v: boolean) { setSelections(p => ({ ...p, [qid]: v })); }
-
-  const pct = score ? Math.round((100 * score.correct) / Math.max(1, score.total)) : 0;
+  function setMatching(qid: number, ms: MatchingSel) { setSelections(p => ({ ...p, [qid]: ms })); }
 
   return (
     <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #fef3c7 0%, #fce7f3 100%)", display: "flex", flexDirection: "column", alignItems: "center", padding: "16px" }}>
-      <div style={{ width: "100%", maxWidth: 800, display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 8, marginBottom: 12 }}>
+      <div style={{ width: "100%", maxWidth: 860, display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 8, marginBottom: 12 }}>
         <Link href="/idegzavarok/vizsga" style={{ color: "#9a3412", fontWeight: 600, textDecoration: "none", background: "white", padding: "8px 16px", borderRadius: 10, border: "1.5px solid #fdba74" }}>
           ← Vizsga beállítások
         </Link>
@@ -83,7 +159,7 @@ function NormalVizsga() {
         )}
       </div>
 
-      <div style={{ background: "white", borderRadius: 20, boxShadow: "0 6px 24px rgba(120,80,60,0.10)", padding: "24px", maxWidth: 800, width: "100%" }}>
+      <div style={{ background: "white", borderRadius: 20, boxShadow: "0 6px 24px rgba(120,80,60,0.10)", padding: "24px", maxWidth: 860, width: "100%" }}>
         <h1 style={{ fontSize: 22, fontWeight: 700, color: "#9a3412", marginBottom: 4 }}>Normál vizsga</h1>
         <div style={{ fontSize: 14, color: "#92400e", marginBottom: 20 }}>{questions.length} kérdés — jelöld be a válaszokat, majd kérj kiértékelést</div>
 
@@ -96,19 +172,20 @@ function NormalVizsga() {
 
         <ol style={{ listStyle: "none", paddingLeft: 0, margin: 0 }}>
           {questions.map((q, qi) => {
-            const sel = selections[q.id];
+            const sel = selections[q.id] ?? null;
             const reveal = submitted;
+
             function optBg(idx1: number) {
-              const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && q.answer.includes(idx1);
-              const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && sel.includes(idx1);
+              const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
+              const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
               if (!reveal) return isSel ? "#fde68a" : "#f9fafb";
               if (isAns) return "#bbf7d0";
               if (isSel && !isAns) return "#fecaca";
               return "#f9fafb";
             }
             function optColor(idx1: number) {
-              const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && q.answer.includes(idx1);
-              const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && sel.includes(idx1);
+              const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
+              const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
               if (!reveal) return isSel ? "#7c2d12" : "#374151";
               if (isAns) return "#166534";
               if (isSel && !isAns) return "#991b1b";
@@ -117,9 +194,10 @@ function NormalVizsga() {
             function tfBg(v: boolean) {
               if (!reveal) return sel === v ? "#fde68a" : "#f9fafb";
               if (q.answer === v) return "#bbf7d0";
-              if (sel === v && q.answer !== v) return "#fecaca";
+              if (sel === v) return "#fecaca";
               return "#f9fafb";
             }
+
             return (
               <li key={q.id} style={{ background: "#fffbeb", border: "1.5px solid #fde68a", borderRadius: 12, padding: "14px 16px", marginBottom: 12 }}>
                 <div style={{ display: "flex", justifyContent: "space-between", gap: 8, alignItems: "flex-start", marginBottom: 6 }}>
@@ -136,18 +214,13 @@ function NormalVizsga() {
                   <ul style={{ listStyle: "none", padding: 0, margin: "6px 0 0 0" }}>
                     {q.options.map((opt, i) => {
                       const idx1 = i + 1;
-                      const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && sel.includes(idx1);
+                      const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
                       return (
                         <li key={i} style={{ marginBottom: 4 }}>
-                          <label style={{ display: "flex", alignItems: "flex-start", gap: 8, padding: "7px 10px", borderRadius: 8, cursor: submitted ? "default" : "pointer", background: optBg(idx1), color: optColor(idx1), fontWeight: 400, fontSize: 14 }}>
-                            <input
-                              type={q.type === "single" ? "radio" : "checkbox"}
-                              name={`q-${q.id}`}
-                              disabled={submitted}
-                              checked={isSel || false}
+                          <label style={{ display: "flex", alignItems: "flex-start", gap: 8, padding: "7px 10px", borderRadius: 8, cursor: submitted ? "default" : "pointer", background: optBg(idx1), color: optColor(idx1), fontSize: 14 }}>
+                            <input type={q.type === "single" ? "radio" : "checkbox"} name={`q-${q.id}`} disabled={submitted} checked={isSel || false}
                               onChange={() => q.type === "single" ? setSingle(q.id, idx1) : toggleMulti(q.id, idx1)}
-                              style={{ marginTop: 2 }}
-                            />
+                              style={{ marginTop: 2 }} />
                             <span><b>{String.fromCharCode(65 + i)})</b> {opt}</span>
                           </label>
                         </li>
@@ -159,12 +232,19 @@ function NormalVizsga() {
                 {q.type === "tf" && (
                   <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
                     {([true, false] as const).map((v) => (
-                      <label key={String(v)} style={{ display: "flex", alignItems: "center", gap: 6, padding: "7px 16px", borderRadius: 8, cursor: submitted ? "default" : "pointer", background: tfBg(v), color: tfBg(v) === "#bbf7d0" ? "#166534" : tfBg(v) === "#fecaca" ? "#991b1b" : "#374151", fontWeight: sel === v ? 700 : 400, fontSize: 14 }}>
+                      <label key={String(v)} style={{ display: "flex", alignItems: "center", gap: 6, padding: "7px 16px", borderRadius: 8, cursor: submitted ? "default" : "pointer", background: tfBg(v), color: tfBg(v) === "#bbf7d0" ? "#166534" : tfBg(v) === "#fecaca" ? "#991b1b" : "#374151", fontSize: 14 }}>
                         <input type="radio" name={`q-${q.id}`} disabled={submitted} checked={sel === v} onChange={() => setTf(q.id, v)} />
                         {v ? "Igaz" : "Hamis"}
                       </label>
                     ))}
                   </div>
+                )}
+
+                {q.type === "matching" && q.leftItems && q.rightItems && (
+                  <MatchingInput q={q}
+                    sel={typeof sel === "object" && sel !== null && !Array.isArray(sel) ? sel as MatchingSel : {}}
+                    setSel={(ms) => setMatching(q.id, ms)}
+                    submitted={submitted} />
                 )}
 
                 {reveal && q.explanation && (

@@ -7,16 +7,18 @@ export type Q = {
   topicNum: number;
   topic: string;
   difficulty: "easy" | "medium" | "hard";
-  type: "single" | "multi" | "tf";
+  type: "single" | "multi" | "tf" | "matching";
   question: string;
   options: string[];
-  answer: number | number[] | boolean;
+  answer: number | number[] | boolean | number[][];
   explanation: string;
+  leftItems?: string[];
+  rightItems?: string[];
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
 const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
-const typeLabel: Record<string, string> = { single: "Egy helyes", multi: "Több helyes", tf: "Igaz/Hamis" };
+const typeLabel: Record<string, string> = { single: "Egy helyes", multi: "Több helyes", tf: "Igaz/Hamis", matching: "Párosítás" };
 
 export default function TanulasClient({
   questions,
@@ -54,7 +56,7 @@ export default function TanulasClient({
 
   function isCorrectOption(q: Q, idx1: number): boolean {
     if (q.type === "single") return q.answer === idx1;
-    if (q.type === "multi") return Array.isArray(q.answer) && q.answer.includes(idx1);
+    if (q.type === "multi") return Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
     return false;
   }
 
@@ -206,6 +208,35 @@ export default function TanulasClient({
                           </span>
                         );
                       })}
+                    </div>
+                  )}
+
+                  {q.type === "matching" && q.leftItems && q.rightItems && (
+                    <div style={{ marginTop: 8 }}>
+                      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+                        <thead>
+                          <tr>
+                            <th style={{ textAlign: "left", padding: "4px 8px", background: "#fde68a", borderRadius: "6px 0 0 0", color: "#7c2d12" }}>Kategória</th>
+                            <th style={{ textAlign: "left", padding: "4px 8px", background: "#fde68a", borderRadius: "0 6px 0 0", color: "#7c2d12" }}>Helyes párok</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {q.leftItems.map((left, li) => {
+                            const ansArr = Array.isArray(q.answer) && Array.isArray((q.answer as number[][])[li])
+                              ? (q.answer as number[][])[li]
+                              : [];
+                            const rights = ansArr.map((idx1: number) => q.rightItems![idx1 - 1]).filter(Boolean);
+                            return (
+                              <tr key={li} style={{ borderBottom: "1px solid #fde68a" }}>
+                                <td style={{ padding: "5px 8px", fontWeight: 600, color: "#7c2d12", verticalAlign: "top", width: "40%" }}>{left}</td>
+                                <td style={{ padding: "5px 8px", color: hideAnswer ? "#a5b4fc" : "#166534", fontWeight: hideAnswer ? 400 : 600 }}>
+                                  {hideAnswer ? <i>elrejtve</i> : rights.join(" / ")}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
                     </div>
                   )}
 

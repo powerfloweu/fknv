@@ -7,10 +7,12 @@ import questionsRaw from "@/data/idegzavarokQuestionBank.json";
 type Q = {
   id: number; topicNum: number; topic: string;
   difficulty: "easy" | "medium" | "hard";
-  type: "single" | "multi" | "tf";
+  type: "single" | "multi" | "tf" | "matching";
   question: string; options: string[];
-  answer: number | number[] | boolean;
+  answer: number | number[] | boolean | number[][];
   explanation: string;
+  leftItems?: string[];
+  rightItems?: string[];
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
@@ -25,14 +27,82 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-function isAnswerCorrect(q: Q, sel: number | number[] | boolean | null): boolean {
-  if (sel === null || sel === undefined) return false;
+type MatchingSel = Record<number, number[]>;
+type AnySel = number | number[] | boolean | MatchingSel | null;
+
+function isMatchingCorrect(q: Q, sel: MatchingSel): boolean {
+  const ans = q.answer as number[][];
+  if (!q.leftItems) return false;
+  for (let li = 0; li < q.leftItems.length; li++) {
+    const expected = [...(ans[li] || [])].sort().join(",");
+    const got = [...(sel[li] || [])].sort().join(",");
+    if (expected !== got) return false;
+  }
+  return true;
+}
+
+function isAnswerCorrect(q: Q, sel: AnySel): boolean {
+  if (sel === null) return false;
   if (q.type === "single") return sel === q.answer;
   if (q.type === "tf") return sel === q.answer;
-  if (q.type === "multi" && Array.isArray(sel) && Array.isArray(q.answer)) {
-    return [...sel].sort().join() === [...q.answer].sort().join();
-  }
+  if (q.type === "multi" && Array.isArray(sel) && Array.isArray(q.answer))
+    return [...sel].sort().join() === [...(q.answer as number[])].sort().join();
+  if (q.type === "matching" && typeof sel === "object" && !Array.isArray(sel))
+    return isMatchingCorrect(q, sel as MatchingSel);
   return false;
+}
+
+function MatchingInput({ q, sel, setSel, revealed }: {
+  q: Q; sel: MatchingSel;
+  setSel: (s: MatchingSel) => void;
+  revealed: boolean;
+}) {
+  const ans = q.answer as number[][];
+  return (
+    <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, marginBottom: 16, textAlign: "left" }}>
+      <thead>
+        <tr>
+          <th style={{ padding: "5px 8px", background: "#fde68a", color: "#7c2d12", borderRadius: "6px 0 0 0" }}>Kategória</th>
+          <th style={{ padding: "5px 8px", background: "#fde68a", color: "#7c2d12", borderRadius: "0 6px 0 0" }}>Válasz(ok)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {(q.leftItems || []).map((left, li) => {
+          const correctIdxs = ans[li] || [];
+          const chosen = sel[li] || [];
+          return (
+            <tr key={li} style={{ borderBottom: "1px solid #fde68a" }}>
+              <td style={{ padding: "6px 8px", fontWeight: 600, color: "#7c2d12", verticalAlign: "top", width: "35%" }}>{left}</td>
+              <td style={{ padding: "6px 8px" }}>
+                {(q.rightItems || []).map((right, ri) => {
+                  const idx1 = ri + 1;
+                  const isChosen = chosen.includes(idx1);
+                  const isCorrect = correctIdxs.includes(idx1);
+                  let bg = "#f9fafb", color = "#374151";
+                  if (revealed) {
+                    if (isCorrect) { bg = "#bbf7d0"; color = "#166534"; }
+                    else if (isChosen) { bg = "#fecaca"; color = "#991b1b"; }
+                  } else if (isChosen) { bg = "#fde68a"; color = "#7c2d12"; }
+                  return (
+                    <label key={ri} style={{ display: "flex", alignItems: "center", gap: 6, padding: "3px 6px", borderRadius: 6, background: bg, color, cursor: revealed ? "default" : "pointer", marginBottom: 3, fontSize: 13 }}>
+                      <input type="checkbox" disabled={revealed} checked={isChosen}
+                        onChange={() => {
+                          const arr = [...chosen];
+                          const pos = arr.indexOf(idx1);
+                          if (pos >= 0) arr.splice(pos, 1); else arr.push(idx1);
+                          setSel({ ...sel, [li]: arr.sort((a, b) => a - b) });
+                        }} />
+                      {right}
+                    </label>
+                  );
+                })}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  );
 }
 
 function QaVizsga() {
@@ -52,7 +122,7 @@ function QaVizsga() {
   });
 
   const [current, setCurrent] = useState(0);
-  const [sel, setSel] = useState<number | number[] | boolean | null>(null);
+  const [sel, setSel] = useState<AnySel>(null);
   const [revealed, setRevealed] = useState(false);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
@@ -67,9 +137,18 @@ function QaVizsga() {
   const correct = isAnswerCorrect(q, sel);
   const pct = Math.round((100 * score) / questions.length);
 
+  function canReveal(): boolean {
+    if (sel === null) return false;
+    if (q.type === "multi") return Array.isArray(sel) && (sel as number[]).length > 0;
+    if (q.type === "matching") {
+      const ms = sel as MatchingSel;
+      return (q.leftItems || []).some((_, li) => (ms[li] || []).length > 0);
+    }
+    return true;
+  }
+
   function reveal() {
-    if (sel === null && q.type !== "multi") return;
-    if (q.type === "multi" && (!Array.isArray(sel) || sel.length === 0)) return;
+    if (!canReveal()) return;
     setRevealed(true);
     if (isAnswerCorrect(q, sel)) setScore(s => s + 1);
   }
@@ -86,7 +165,7 @@ function QaVizsga() {
 
   function toggleMulti(v: number) {
     setSel(prev => {
-      const arr = Array.isArray(prev) ? prev : [];
+      const arr = Array.isArray(prev) ? (prev as number[]) : [];
       return arr.includes(v) ? arr.filter(x => x !== v) : [...arr, v].sort((a, b) => a - b);
     });
   }
@@ -116,8 +195,8 @@ function QaVizsga() {
   }
 
   function optStyle(idx1: number) {
-    const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && q.answer.includes(idx1);
-    const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && sel.includes(idx1);
+    const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
+    const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
     if (!revealed) return { bg: isSel ? "#fde68a" : "#f9fafb", color: isSel ? "#7c2d12" : "#374151", border: isSel ? "2px solid #f97316" : "2px solid transparent" };
     if (isAns) return { bg: "#bbf7d0", color: "#166534", border: "2px solid #16a34a" };
     if (isSel) return { bg: "#fecaca", color: "#991b1b", border: "2px solid #dc2626" };
@@ -133,6 +212,9 @@ function QaVizsga() {
     return { bg: "#f9fafb", color: "#374151", border: "2px solid transparent" };
   }
 
+  const needsConfirm = q.type === "multi" || q.type === "matching";
+  const confirmEnabled = canReveal();
+
   return (
     <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #fef3c7 0%, #fce7f3 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "16px" }}>
       <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(120,80,60,0.12)", padding: "32px 28px", maxWidth: 700, width: "100%", textAlign: "center" }}>
@@ -145,7 +227,7 @@ function QaVizsga() {
 
         {/* Progress bar */}
         <div style={{ height: 6, background: "#fde68a", borderRadius: 3, marginBottom: 20, overflow: "hidden" }}>
-          <div style={{ height: "100%", background: "linear-gradient(90deg,#f97316,#ec4899)", borderRadius: 3, width: `${((current) / questions.length) * 100}%`, transition: "width 0.3s" }} />
+          <div style={{ height: "100%", background: "linear-gradient(90deg,#f97316,#ec4899)", borderRadius: 3, width: `${(current / questions.length) * 100}%`, transition: "width 0.3s" }} />
         </div>
 
         <div style={{ display: "flex", justifyContent: "center", gap: 6, marginBottom: 12 }}>
@@ -155,7 +237,6 @@ function QaVizsga() {
 
         <div style={{ fontWeight: 700, color: "#7c2d12", fontSize: 18, marginBottom: 20, lineHeight: 1.4 }}>{q.question}</div>
 
-        {/* Options */}
         {(q.type === "single" || q.type === "multi") && (
           <ul style={{ listStyle: "none", padding: 0, margin: "0 0 16px 0", textAlign: "left" }}>
             {q.options.map((opt, i) => {
@@ -190,16 +271,25 @@ function QaVizsga() {
           </div>
         )}
 
-        {/* Multi confirm */}
-        {q.type === "multi" && !revealed && (
-          <button onClick={reveal} disabled={!Array.isArray(sel) || sel.length === 0}
-            style={{ marginBottom: 12, padding: "8px 20px", borderRadius: 8, background: "#f97316", color: "white", fontWeight: 600, border: "none", cursor: (!Array.isArray(sel) || sel.length === 0) ? "not-allowed" : "pointer", opacity: (!Array.isArray(sel) || sel.length === 0) ? 0.5 : 1 }}>
+        {q.type === "matching" && q.leftItems && q.rightItems && (
+          <MatchingInput
+            q={q}
+            sel={typeof sel === "object" && sel !== null && !Array.isArray(sel) ? sel as MatchingSel : {}}
+            setSel={(ms) => setSel(ms)}
+            revealed={revealed}
+          />
+        )}
+
+        {/* Confirm button for multi and matching */}
+        {needsConfirm && !revealed && (
+          <button onClick={reveal} disabled={!confirmEnabled}
+            style={{ marginBottom: 12, padding: "8px 20px", borderRadius: 8, background: "#f97316", color: "white", fontWeight: 600, border: "none", cursor: confirmEnabled ? "pointer" : "not-allowed", opacity: confirmEnabled ? 1 : 0.5 }}>
             Válasz beküldése
           </button>
         )}
 
-        {/* Auto-reveal on single/tf selection */}
-        {!revealed && q.type !== "multi" && sel !== null && (
+        {/* Auto-reveal button for single/tf */}
+        {!needsConfirm && !revealed && sel !== null && (
           <button onClick={reveal} style={{ marginBottom: 12, padding: "8px 20px", borderRadius: 8, background: "#f97316", color: "white", fontWeight: 600, border: "none", cursor: "pointer" }}>
             Ellenőrzés
           </button>
