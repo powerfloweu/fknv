@@ -6299,5 +6299,290 @@
     "topic": "Átfogó, integráló kérdések",
     "category": "uj",
     "vizsgakerdes": false
+  },
+  {
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a magzati expozíciót okozó szert a rá leginkább jellemző (megkülönböztető) hatással!",
+    "options": [],
+    "leftItems": [
+      "Alkohol (FAS / FASD)",
+      "Kokain",
+      "Amfetamin",
+      "Opiátok (heroin, morfin)",
+      "Marihuána (THC)",
+      "Benzodiazepinek"
+    ],
+    "rightItems": [
+      "Jellegzetes arc-morfológia (rövid szemrések, keskeny felső ajak, hiányzó philtrum), kis agytérfogat",
+      "Érszűkítés → placentális vérátáramlás csökkenése; korai placentaleválás; közvetlen neurotoxicitás",
+      "Kardiovaszkuláris és vázizomzati fejlődési zavar; cerebrovaszkuláris léziók; görcsroham-kockázat",
+      "NAS 24–72 órán belül; magas neonatális mortalitás; kezelése metadon / buprenorfin",
+      "Endokannabinoid rendszerre hat; csökkent figyelmi kontroll, lassabb reakcióidő (3–10 éves kortól)",
+      "GABAerg rendszerre hat; szájpadhasadék és sérv gyakoribb; fokozott szorongás serdülőkorban"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "explanation": "Alkohol – jellegzetes arc; Kokain – érszűkítés/placentaleválás; Amfetamin – cerebrovaszkuláris; Opiátok – NAS; THC – endokannabinoid; BZD – szájpadhasadék.",
+    "id": 293,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyik szerek magzati expozíciója okozhat újszülött absztinencia szindrómát (NAS)?",
+    "options": [
+      "Ópiátok (heroin, metadon, buprenorfin)",
+      "Alkohol",
+      "Nikotin",
+      "Benzodiazepinek",
+      "Magnézium-szulfát",
+      "Antidepresszánsok (egyes szerek)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "explanation": "NAS leggyakoribb oka ópiát, de alkohol, nikotin, antidepresszánsok és benzodiazepinek is okozhatják. Tünetek 24–72 órán belül, néha 5–7 nap múlva.",
+    "id": 294,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik magzati hatás KÜLÖNÖSEN jellemző a kokainra a többi pszichoaktív szerrel összevetve?",
+    "options": [
+      "Érszűkítés következtében csökkent placentális vérátáramlás és korai placentaleválás",
+      "Jellegzetes arc-morfológiai jegyek (rövid szemrések, keskeny felső ajak)",
+      "Szájpadhasadék és köldöksérv halmozott előfordulása",
+      "Súlyos újszülött absztinencia szindróma 24–72 órán belül"
+    ],
+    "answer": 1,
+    "explanation": "A kokain érszűkítő hatása miatt csökken a placentális vérátáramlás → korai placentaleválás, koraszülés. Az érszűkítés a kokain-specifikus mechanizmus.",
+    "id": 295,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a magzati amfetamin-expozíció jellegzetes következményei?",
+    "options": [
+      "Kardiovaszkuláris és vázizomzati fejlődési zavar",
+      "Cerebrovaszkuláris léziók",
+      "Lepényletapadási probléma, koraszülés",
+      "Görcsroham-kockázat, alvászavar",
+      "Hiányzó philtrum és lelapult arcközép",
+      "Súlyos NAS 24–72 órán belül"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Amfetamin: kardiovaszk./vázizomzati problémák, cerebrovaszkuláris léziók, lepényletapadás, koraszülés, görcsroham. A jellegzetes arc és NAS más szerekre jellemző (alkohol ill. ópiátok).",
+    "id": 296,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás IGAZ a magzati benzodiazepin-expozícióra?",
+    "options": [
+      "Az endokannabinoid rendszerre hat",
+      "A GABAerg rendszerre hat; szájpadhasadék és sérv gyakoribb az utódoknál",
+      "Érszűkítő hatású; korai placentaleválást okoz",
+      "Cerebrovaszkuláris léziók és görcsrohamok kockázata kiemelt"
+    ],
+    "answer": 2,
+    "explanation": "A benzodiazepinek GABAerg rendszerre hatnak. Magzati következmények: szájpadhasadék és sérv halmozott előfordulása, csökkent kognitív képességek, fokozott szorongás (különösen serdülőkorban).",
+    "id": 297,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás IGAZ a magzati marihuána- (THC-) expozícióra?",
+    "options": [
+      "Nem jut át a placentán",
+      "Az endokannabinoid rendszeren keresztül fejti ki hatását; átjut a placentán; csökkent figyelmi kontroll és ADHD-szerű tünetek 3–10 éves kortól",
+      "Súlyos NAS-t okoz az első 24 órában",
+      "Jellegzetes arc-morfológiai eltéréseket eredményez"
+    ],
+    "answer": 2,
+    "explanation": "THC az endokannabinoid rendszerre hat, átjut a placentán; csökkent figyelmi kontroll, alacsonyabb IQ, lassabb reakcióidő, ADHD-szerű tünetek 3–10 éves kortól.",
+    "id": 298,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a szert a fő hatásmechanizmusával / célrendszerével!",
+    "options": [],
+    "leftItems": [
+      "Marihuána (THC)",
+      "Benzodiazepinek",
+      "Kokain",
+      "Szervesfoszfátok (rovarirtók)"
+    ],
+    "rightItems": [
+      "Endokannabinoid rendszer",
+      "GABAerg rendszer",
+      "Érszűkítés → placentális hipoperfúzió + monoaminerg rendszerek",
+      "Acetilkolin-észteráz gátlás"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "explanation": "THC – endokannabinoid; BZD – GABA; kokain – érszűkítés/monoaminerg; szervesfoszfátok – AchE gátlás.",
+    "id": 299,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek SPECIFIKUSAN az alkohol (FAS) magzati expozíciójára jellemzők a többi pszichoaktív szerrel összevetve?",
+    "options": [
+      "Tipikus arc-triász: rövid szemrések, keskeny felső ajak, hiányzó philtrum",
+      "Lelapult arcközép",
+      "Kis agytérfogat, kisebb kisagy, csökkent kérgestest",
+      "Korai placentaleválás érszűkítés miatt",
+      "Szájpadhasadék és köldöksérv halmozott előfordulása",
+      "NAS 24–72 órán belül a legtipikusabb megnyilvánulás"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Az alkohol FAS-specifikus jegyei: jellegzetes arc-triász + kis agytérfogat / kisebb kisagy / kérgestest sérülése. A placentaleválás kokainra, szájpadhasadék benzodiazepinre, a NAS ópiátokra leginkább jellemző.",
+    "id": 300,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az ópiát-függő anya újszülöttjénél jelentkező NAS leggyakoribb kezelési stratégiája:",
+    "options": [
+      "Naloxon adása az újszülöttnek",
+      "Metadon vagy buprenorfin szubsztitúció + támogató kezelés",
+      "Benzodiazepin nagy dózisban",
+      "Antipszichotikum a tünetek mérséklésére"
+    ],
+    "answer": 2,
+    "explanation": "Az ópiát-NAS sztandard kezelése a fokozatosan csökkentett metadon vagy buprenorfin, kiegészítve támogató kezeléssel (csendes környezet, gyakori etetés).",
+    "id": 301,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a magzati expozíciói járnak ADHD-szerű hosszú távú következménnyel?",
+    "options": [
+      "Kokain",
+      "Marihuána (THC)",
+      "Ópiátok",
+      "Benzodiazepinek",
+      "Nikotin",
+      "Alkohol (FASD)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "explanation": "Lényegében MIND – a felsorolt szerek mindegyike ADHD-szerű figyelmi/viselkedéses tüneteket okozhat az utódoknál (a mechanizmus különbözik).",
+    "id": 302,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Mely tünetek tartoznak az újszülött absztinencia szindróma (NAS) klasszikus tünetcsoportjába?",
+    "options": [
+      "High-pitched sírás, hipertónia, tremor",
+      "Görcsroham, alvászavar",
+      "Táplálkozási nehézség, hasmenés, hányás, nyáladzás",
+      "Tachypnoé, orrdugulás, tüsszögés, vérnyomás-ingadozás, tachikardia",
+      "Lelapult arcközép és rövid szemrések",
+      "Súlyos myopia és látásvesztés"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "NAS-tünetek 3 csoportban: idegrendszeri (high-pitched cry, hipertónia, tremor, görcs, alvászavar), emésztőszervi (táplálkozási nehézség, hasmenés, hányás, nyáladzás), légző/szív (tachypnoé, orrdugulás, vérnyomás-ingadozás).",
+    "id": 303,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
   }
 ]
