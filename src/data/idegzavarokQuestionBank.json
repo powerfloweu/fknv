@@ -2157,8 +2157,9 @@
         7
       ],
       [
-        8,
-        3
+        3,
+        4,
+        8
       ],
       [
         2
@@ -2170,14 +2171,15 @@
         9
       ],
       [
-        4
+        4,
+        8
       ]
     ],
     "options": [],
     "topicNum": 11,
     "difficulty": "hard",
     "question": "Rendszerezd a vizsgálati eljárásokat – melyik eljárás melyik zavarnál alkalmazható?",
-    "explanation": "Értelmi fejlődési: Raven, WISC-IV/WPPSI-IV, Bayley III. Diszlexia: SZÓL-E, Meixner. Autizmus: ADOS-2. Diszkalkulia: AKFK. ADHD: Szék-lámpa teszt (MFFT). Nyelvi fejlődés: KOFA.",
+    "explanation": "Értelmi fejlődési: Raven, WISC-IV/WPPSI-IV, Bayley III. Diszlexia: Meixner, KOFA, SZÓL-E (mindhárom hasznos szűrésre/követésre). Autizmus: ADOS-2. Diszkalkulia: AKFK. ADHD: Szék-lámpa teszt (MFFT). Nyelvi fejlődés: KOFA, SZÓL-E (mindkettő alkalmazható, életkor- és területspecifikusan).",
     "id": 117,
     "topic": "Átfogó, integráló kérdések",
     "category": "uj",
@@ -2256,7 +2258,7 @@
       4,
       5
     ],
-    "explanation": "Törékeny X, Turner (visuospatialis-matematikai deficit) és Down szindróma esetén dokumentált a számolási zavar. Az elhízás és a Gerstmann szindróma nem tipikus társítás.",
+    "explanation": "Törékeny X, Turner (visuospatialis-matematikai deficit), Down szindróma és a (fejlődési) Gerstmann szindróma esetén dokumentált a számolási zavar. Az elhízás nem tipikus társítás.",
     "id": 121,
     "topic": "Átfogó, integráló kérdések",
     "category": "uj",
