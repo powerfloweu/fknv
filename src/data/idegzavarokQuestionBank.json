@@ -4537,5 +4537,852 @@
     ],
     "answer": 2,
     "explanation": "A fejlődési diszkalkulia gyermekkorban kezdődő, sérülés nélkül fennálló tanulási zavar; a normál intelligencia mellett az aritmetikai képességek elsajátítását akadályozza."
+  },
+  {
+    "id": 237,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás igaz a diszpraxiára (fejlődési koordinációs zavarra, DCD)?",
+    "options": [
+      "Az intelligencia és a kognitív képességek zavarát jelenti",
+      "A mozgáskoordináció és mozgástervezés (praxis) idegrendszeri fejlődési zavara — az intelligenciát nem érinti",
+      "Kizárólag a finommotoros készségeket érinti, a nagymozgások épek",
+      "Elsősorban a látási feldolgozás és a téri tájékozódás zavara"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 238,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a szenzoros feldolgozás minőségétől függő területek Anderson és Emmons (2004) szerint?",
+    "options": [
+      "Alacsony vagy magas szenzoros ingerküszöb (érintés, mozgás, hang, vizuális ingerek)",
+      "Az aktivitási szint szokatlanul magas vagy alacsony a kortársakhoz képest",
+      "Koordinációs nehézségek és zavarok",
+      "Megkésett mozgásfejlődés, alacsony mozgásfejlettségi szint",
+      "Kiemelkedő verbális memória és szókincs"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 239,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik NEM tartozik a szenzoros modulációs zavar három alfajához?",
+    "options": [
+      "Szenzoros túlérzékenység",
+      "Szenzoros érzéketlenség / tompaság",
+      "Szenzoros diszkriminációs zavar",
+      "Szenzoros élménykeresés"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 240,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "IGAZ vagy HAMIS? A szenzoros integráció zavara önálló, önállóan kódolható diagnosztikai kategória a DSM-5-ben.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 241,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a szenzoros feldolgozási zavar főformáit a leírásukkal!",
+    "leftItems": [
+      "Szenzoros modulációs zavar",
+      "Szenzoros diszkriminációs zavar",
+      "Diszpraxia (DCD)",
+      "Poszturális zavar"
+    ],
+    "rightItems": [
+      "Az ingerekre adott válasz intenzitása / időzítése nem megfelelő (túl- vagy alulérzékenység, élménykeresés)",
+      "Nehézség az ingerek részleteinek megkülönböztetésében (textúra, hangszín, forma)",
+      "A motoros tervezés és szervezés zavara; taktilis ingerek feldolgozásának nehezítettsége",
+      "Egyensúlyi, izomtónus-szabályozási és mozgáskoordinációs nehézségek",
+      "A kétoldali mozgásintegráció és testközépvonal-átlépés zavara"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": []
+  },
+  {
+    "id": 242,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Ki dolgozta ki a szenzoros integráció neuropszichológiai elméletének alapjait és a szenzoros integrációs terápiát?",
+    "options": [
+      "Jean Piaget",
+      "Jane A. Ayres",
+      "Lev Vigotszkij",
+      "Arnold Gesell"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 243,
+    "topicNum": 5,
+    "topic": "Szenzoros integráció zavara",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek elterjedt neuromítoszok a MANEK kérdőív (2022) vizsgálata alapján a tanulással kapcsolatban?",
+    "options": [
+      "A csecsemőkori kúszás kimaradása tanulási vagy magatartási nehézségekhez vezet",
+      "A keresztezett lateralitás (pl. bal kéz + jobb láb domináns) tanulási és nyelvi zavarok jele",
+      "A mozgáskoordinációs gyakorlatok rövid sorozatainak hatására javul a jobb és bal félteke integrációja",
+      "A szenzoros integráció a normál fejlődés természetes része",
+      "A nagy intenzitású mozgások javítják a mentális funkciókat"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 244,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Mit jelent a korrigált életkor fogalma koraszülötteknél, és meddig alkalmazzák?",
+    "options": [
+      "A fejlettségi szint kategorizálása születési súly alapján, 1 éves korig",
+      "Az életkor kiszámítása a várható szülési dátumtól (nem a tényleges születéstől), általában 2 éves korig",
+      "A kognitív teljesítmény korrekciója IQ-teszteknél, 5 éves korig",
+      "A szenzoros fejlettség normalizálása inkubátoros kezelés ideje alapján"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 245,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a periventrikuláris leukomalacia (PVL)?",
+    "options": [
+      "Agykamrai vérzés (IVH), amelyet I–IV fokozatban osztályoznak",
+      "Koraszülöttek krónikus tüdőbetegsége (BPD/CLD)",
+      "A periventrikuláris fehérállomány ischaemiás károsodása az agykamrák körül, a spasztikus diplegia egyik legfontosabb rizikófaktora",
+      "A retina kóros érképződése koraszülötteknél (ROP)"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 246,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Jelöld be a koraszülöttség igazolt hosszú távú fejlődési / idegrendszeri következményeit!",
+    "options": [
+      "Cerebrális parézis (CP) — ELBW koraszülötteknél ~6% előfordulás",
+      "ADHD — háromszor olyan gyakori, mint időre született kortársakban",
+      "Fejlődési koordinációs zavar (DCD) — ELBW gyerekek 50%-a 9 éves korban eléri a diagnosztikus küszöböt",
+      "Tanulási zavarok: diszlexia, diszgráfia, matematikai problémák",
+      "Magasabb átlag-IQ a populáción belül, kompenzációként"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 247,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az agykamrai vérzés (IVH) súlyosság szerinti osztályozása I–IV. fokozatból áll. Melyik állítás IGAZ a III. fokú IVH-ról?",
+    "options": [
+      "A vérzés csak a germinális mátrixot érinti, maradandó következmény nem lép fel",
+      "A vérzés betör az agykamrába, de nem okoz kamratágulatot",
+      "A vérzés agykamratágulatot okoz, hydrocephalus kialakulása miatt shunt beépítése válhat szükségessé",
+      "A vér áttöri a kamra falát és a körülvevő idegszövetbe kerül, a legmagasabb mortalitással"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 248,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a koraszülöttség típusait/súlykategóriáit a jellemzőikkel!",
+    "leftItems": [
+      "Extrém koraszülöttség",
+      "Igen korai koraszülöttség",
+      "Kései koraszülöttség",
+      "ELBW (extrém kis születési súly)"
+    ],
+    "rightItems": [
+      "28. gesztációs hét előtt, magas rizikó",
+      "28–32. gesztációs hét, közepes rizikó",
+      "32. gesztációs hét után, alacsony rizikó",
+      "Születési súly < 1000 g",
+      "Születési súly 1000–1500 g között (VLBW)"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": []
+  },
+  {
+    "id": 249,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek növelik a koraszülés kockázatát?",
+    "options": [
+      "Anyai húgyúti fertőzés vagy hüvelygyulladás terhesség alatt",
+      "Ikerterhesség in vitro megtermékenyítés (IVF) után",
+      "Korábbi koraszülés (ismétlési kockázat 30–50%)",
+      "Az anya életkora: túl fiatal vagy túl idős kor",
+      "Magzati alkohol szindróma (FAS) előzmény"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 250,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A hazai irányelv szerint hány gesztációs héttől és hány grammos születési súlytól tekintendő életképesnek a koraszülött?",
+    "options": [
+      "22. hét, 300 g",
+      "26. hét, 700 g",
+      "24. hét, 500 g",
+      "28. hét, 1000 g"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 251,
+    "topicNum": 6,
+    "topic": "Koraszülöttség",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "IGAZ vagy HAMIS? A koraszülöttséggel összefüggő hosszú távú fejlődési kimenetelt kizárólag biológiai tényezők (születési súly, gesztációs hét) határozzák meg — a szociális és környezeti tényezők (SES, anyai mentális egészség, kötődés) nem befolyásolják érdemben.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 252,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi különbözteti meg elsősorban a pragmatikai kommunikációs zavart (PKZ) az autizmus spektrumzavartól (ASD)?",
+    "options": [
+      "A PKZ-ban nincsenek szociális-kommunikációs nehézségek",
+      "A PKZ-ban hiányoznak a szűkített, ismétlő, sztereotip viselkedésminták (RRB), amelyek az ASD kritériumai",
+      "Az ASD-ben nem jelennek meg pragmatikai nehézségek",
+      "A PKZ kizárólag felnőtteknél diagnosztizálható"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 253,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a DSM-5 szerinti kommunikációs / nyelvi zavarok önálló kategóriái?",
+    "options": [
+      "Nyelvi zavar (Language Disorder)",
+      "Pragmatikai kommunikációs zavar (Social Pragmatic Communication Disorder)",
+      "Gyermekkori fluencia zavar (dadogás)",
+      "Fejlődési koordinációs zavar (DCD)",
+      "Fejlődési diszpraxia"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 254,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik szűrőeszközt alkalmazzák 8–30 hónapos gyermekek korai kommunikációs fejlődésének szülői kérdőíves mérésére?",
+    "options": [
+      "SZÓL-E? (Szűrőeljárás az Óvodai Logopédiai Ellátásban)",
+      "KOBAK (Kognitív és Beszédészlelési Képességek Vizsgáló Teszt)",
+      "MacArthur–Bates Kommunikatív Fejlődési Adattár (KOFA / CDI)",
+      "TROG-H (Nyelvtani Szerkezetek Megértése Teszt)"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 255,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik megállapítás igaz a fejlődési diszfáziáról és mai megfelelőjéről?",
+    "options": [
+      "Mindig értelmi elmaradással (IKZ-val) jár együtt",
+      "Kizárólag az expresszív (kifejező) beszédet érinti, a receptív megértés ép",
+      "A fejlődési diszfázia régebbi elnevezés; a BNO-11 és a modern szakirodalom fejlődési nyelvi zavar (DLD) névvel illeti",
+      "Ép hallás esetén nem lehetséges, ezért a hallásszűrés kizárja"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 256,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a fejlődési nyelvi zavar (DLD) jellemző tünetei?",
+    "options": [
+      "Helytelen vagy hiányos szókincs, hiányos mondatalkotás",
+      "Helyesírási hibák és helytelen grammatikai szabályhasználat",
+      "Rövid távú verbális emlékezet gyengesége (szó- és mondatismétlési tesztek alapján)",
+      "Ép nonverbális intelligencia (IQ 85 felett) — ez a diagnózis feltétele",
+      "Jellemzően 10–12 éves kor után kezdődik, korábbi fejlődés ép"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 257,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a logopédiai / nyelvi diagnosztikus eszközöket a célcsoportjukkal és fő funkciójukkal!",
+    "leftItems": [
+      "KOFA (MacArthur–Bates CDI)",
+      "SZÓL-E?",
+      "KOBAK",
+      "TROG-H"
+    ],
+    "rightItems": [
+      "8–30 hónapos csecsemők, szülői kérdőív a korai szókincs, gesztusok és mondatalkotás mérésére",
+      "5–6 (6–10) éves gyermekek, logopédiai szűrőeljárás 10 területen (artikuláció, fonológiai tudatosság stb.)",
+      "5–8 éves gyermekek, kognitív és beszédészlelési képességek, diszlexia-rizikószűrés",
+      "Grammatikai szerkezetek megértése, 3–14 éves korig",
+      "2–7 éves gyermekek, szüleiktől kapott információk a fluencia zavarának szűrésére"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": []
+  },
+  {
+    "id": 258,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "IGAZ vagy HAMIS? A pragmatikai kommunikációs zavar (PKZ) már a DSM-IV-ben is önálló diagnosztikai kategóriaként szerepelt.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 259,
+    "topicNum": 7,
+    "topic": "Kommunikáció és nyelv zavarai",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik BNO-11 kód jelöli a fejlődési nyelvi zavart (Developmental Language Disorder)?",
+    "options": [
+      "6A01.0",
+      "6A01.1",
+      "6A01.2",
+      "6A01.3"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 260,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Melyik állítás IGAZ az ADHD kétutas modelljéről (Sonuga-Barke, 2003)?",
+    "options": [
+      "Kizárólag a végrehajtó funkciók zavarát tételezi fel (cingulo-fronto-parietális hálózat)",
+      "Két független diszfunkcionális folyamatot azonosít: a motivációs rendszer zavarát (azonnali jutalom-függőség) és a kognitív kontroll zavarát",
+      "Kizárólag a dopaminerg rendszer globális hipoaktivitásán alapul, noradrenerg komponens nélkül",
+      "Gyermekeknél nem validált modell, csak felnőtt ADHD esetén alkalmazható"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 261,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek az ADHD leggyakoribb komorbid zavarai a diákon közölt adatok alapján?",
+    "options": [
+      "Oppozíciós magatartászavar (ODD) — 30–40%-ban",
+      "Tanulási zavarok — 73–75%-ban",
+      "Szorongásos zavarok — 20–25%-ban",
+      "Depresszió — 15–20%-ban",
+      "Bipoláris zavar — egyértelműen igazolt, az esetek döntő többségében"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 262,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az ADHD DSM-5 / BNO-11 szerinti megjelenési formái közé NEM tartozik:",
+    "options": [
+      "Túlnyomórészt figyelemhiányos megjelenési forma",
+      "Kombinált megjelenési forma",
+      "Túlnyomórészt impulzív-agresszív megjelenési forma",
+      "Túlnyomórészt hiperaktív/impulzív megjelenési forma"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 263,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik gyógyszer az ADHD kezelésében alkalmazott pszichostimuláns hatóanyag?",
+    "options": [
+      "Atomoxetin (szelektív noradrenalin visszavétel gátló, nem stimuláns)",
+      "Metilfenidát (Ritalin) — dopamin visszavétel gátló pszichostimuláns",
+      "Risperidon — atípusos antipszichotikum",
+      "Haloperidol — tipikus antipszichotikum"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 264,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "IGAZ vagy HAMIS? Az ADHD heritabilitása 70–80% közötti, amelyet iker- és adoptációs vizsgálatok is alátámasztanak.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 265,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyik vizsgálati eszközöket alkalmazzák az ADHD diagnosztikájában gyermekeknél?",
+    "options": [
+      "Conners pontozó skála (szülőknek és pedagógusoknak)",
+      "CBCL (Gyermekviselkedési Kérdőív)",
+      "SDQ (Képességek és nehézségek szűrőkérdőív)",
+      "ACE kérdőív (ADHD Felmérése Gyermekkorban, Susan Young 2015)",
+      "ADOS2 (autizmus megfigyelési eljárás)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 266,
+    "topicNum": 8,
+    "topic": "ADHD",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd az ADHD tünetcsoportjait a jellemző életkori megjelenési formájukkal!",
+    "leftItems": [
+      "Óvodáskor (3–6 év)",
+      "Alsó tagozat (6–10 év)",
+      "Felső tagozat / serdülőkor (10–14 év)",
+      "Felnőttkor"
+    ],
+    "rightItems": [
+      "Gyorsan elkalandozik, folyton mozog, nem tud a körben maradni, elveszi más játékát",
+      "Nem figyel utasításokra, fészkelődik, belevág más szavába, hirtelen dühkitörések",
+      "Szervezetlen, halogatás, belső nyugtalanság, érzelmi túlreakciók, kockázatkereső viselkedés",
+      "Munkanélküliség, balesetek, alacsony önértékelés, szerfüggőség kockázata",
+      "Memóriaproblémák és koncentrációs nehézség tanulás közben"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": []
+  },
+  {
+    "id": 267,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Mi az autisztikus diád (DSM-5 definíció szerint)?",
+    "options": [
+      "Intellektuális képességzavar + sztereotip viselkedés",
+      "Szociális kommunikáció/interakció atipikus mintázatai + korlátozott, ismétlődő viselkedésminták",
+      "Receptív + expresszív nyelvi zavar kombinációja",
+      "Szenzoros feldolgozás zavara + végrehajtó funkciók zavara"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 268,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit jelent az ADOS2 az autizmus diagnosztikájában?",
+    "options": [
+      "Önkitöltős szülői kérdőív 16–30 hónapos gyermekeknek",
+      "Standardizált, félig strukturált, press-típusú közvetlen megfigyelési eljárás, 4 modulban, 31 hónaptól felnőttkorig",
+      "Strukturált heteroanamnesztikus szülői interjú a fejlődéstörténet feltérképezésére (ADI-R)",
+      "Genetikai szűrővizsgálat autizmus spektrum zavarban"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 269,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek az ASD korai jelzői csecsemő- és kisgyermekkorban?",
+    "options": [
+      "Tekintet megfelelő használatának hiánya",
+      "Érdeklődés vagy öröm megosztásának hiánya (pl. KFV, megmutatás)",
+      "Névre adott orientációs válasz hiánya",
+      "A szemkontaktus, arckifejezés, gesztusok és hangadás koordinációjának hiánya",
+      "Erős, stabil kötődési viselkedés mindkét szülő iránt"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 270,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik állítás igaz az autizmus prevalenciájáról és nemek közti arányáról?",
+    "options": [
+      "Lányoknál kétszer olyan gyakori, mint fiúknál",
+      "Prevalenciája az elmúlt évtizedekben csökkent a jobb differenciáldiagnosztika miatt",
+      "Prevalenciája 1–2%, a fiú:lány arány megközelítőleg 3–4:1",
+      "Magyarország prevalenciája meghaladja az USA-ban mért 2,8%-ot"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 271,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "IGAZ vagy HAMIS? Az autizmus egy életen át fennálló állapot — a tünetek felnőttkorban nem tűnnek el, bár a klinikai kép változhat.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": 1
+  },
+  {
+    "id": 272,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek az általános módszertani ajánlások 4 kulcskifejezése az autizmussal élők oktatásában / terápiájában?",
+    "options": [
+      "Bejósolhatóság (a változások előzetes jelzése)",
+      "Struktúra (tér és idő strukturálása)",
+      "Vizuális támogatás",
+      "Jutalmazás",
+      "Normalizálás (a tipikus viselkedés elvárása jutalmazás nélkül)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 273,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd az ASD szűrő- és diagnosztikus eszközöket az életkori célcsoportjukkal!",
+    "leftItems": [
+      "M-CHAT",
+      "Q-CHAT",
+      "SCQ (Social Communication Questionnaire)",
+      "ADOS2"
+    ],
+    "rightItems": [
+      "16–30 hónap, szűrőkérdőív, 23 eldöntendő kérdés",
+      "18–24 hónap, 10 kérdés 5 fokozatú skálán",
+      "Kisgyermekkortól felnőttkorig, önkitöltős szülői kérdőív",
+      "31 hónaptól felnőttkorig, közvetlen megfigyelési eljárás 4 modulban",
+      "2 éves kortól, strukturált szülői/gondozói interjú (ADI-R)"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": []
+  },
+  {
+    "id": 274,
+    "topicNum": 9,
+    "topic": "Autizmus spektrumzavar",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Melyik állítás igaz az autizmus diagnózisának felállításáról a DSM-5 és a klinikai gyakorlat szerint?",
+    "options": [
+      "Egyetlen jól azonosított biológiai marker (biomarker) alapján felállítható 30–40 perc alatt",
+      "A diagnózis nem állapítható meg 5 éves kor előtt, mivel a tünetek csak iskoláskorban válnak egyértelművé",
+      "Nincs egyetlen olyan tünet, amely önmagában igazolná vagy kizárná az ASD diagnózist; multidiszciplináris team, hossz- és keresztmetszeti kép szükséges",
+      "A diagnózis felállításához elegendő a szülői kérdőív (M-CHAT) pozitív eredménye"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 275,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A koraszülöttség és az ADHD kapcsolatáról melyik állítás igaz?",
+    "options": [
+      "Koraszülötteknél alacsonyabb az ADHD prevalenciája, mint időre született társaiknál",
+      "Az ADHD háromszor olyan gyakori koraszülötteknél, mint az időre születetteknél",
+      "Koraszülöttség és ADHD között nincs bizonyított összefüggés",
+      "ADHD kockázata csak ELBW (<1000g) koraszülötteknél emelkedett"
+    ],
+    "answer": 2
+  },
+  {
+    "id": 276,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek azok a fejlődési zavarok, amelyekben a végrehajtó funkciók zavara kiemelten jellemző?",
+    "options": [
+      "ADHD",
+      "Autizmus spektrumzavar (ASD)",
+      "Diszpraxia (DCD)",
+      "Pragmatikai kommunikációs zavar (PKZ)",
+      "Fejlődési koordinációs zavar mint önálló zavar"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 277,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a terápiás módszereket a fő célterületükkel / leginkább célzott zavarral!",
+    "leftItems": [
+      "Pető módszer (konduktív pedagógia)",
+      "PECS (Picture Exchange Communication System)",
+      "Metilfenidát (Ritalin)",
+      "Ayres szenzoros integrációs terápia"
+    ],
+    "rightItems": [
+      "Cerebrális parézis (CP), mozgásfejlesztés — az ép idegrendszeri tartalékok bevonásával",
+      "Autizmus spektrumzavar, augmentatív/alternatív kommunikáció fejlesztése",
+      "ADHD, pszichostimuláns farmakoterápia",
+      "Szenzoros integráció zavara, szenzomotoros fejlesztés egyensúly- és tapintásos játékokon keresztül",
+      "Pragmatikai kommunikációs zavar, szociális narratívák megtanítása"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "options": []
+  },
+  {
+    "id": 278,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik fejlődési zavarban az elsődleges diagnosztikus eszköz az ADOS2?",
+    "options": [
+      "ADHD",
+      "Fejlődési diszlexia",
+      "Autizmus spektrumzavar (ASD)",
+      "Szenzoros integráció zavara"
+    ],
+    "answer": 3
+  },
+  {
+    "id": 279,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyik fejlődési zavarokban jelenik meg a szenzoros érzékenység (hiperszenzitivitás) mint jellemző tünet?",
+    "options": [
+      "Autizmus spektrumzavar (ASD) — a DSM-5 kritériumok B pontjában szerepel",
+      "Szenzoros integráció zavara (szenzoros modulációs zavar)",
+      "ADHD — szenzoros problémák az jéghegy-modell rejtett rétegében",
+      "Fejlődési koordinációs zavar (DCD/diszpraxia)",
+      "Fejlődési diszlexia — kizárólagos tünet"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 280,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik állítás igaz a fejlődési zavarok diagnózisának időbeliségéről?",
+    "options": [
+      "Az autizmus legkorábban 15–20 hónapos kor körül diagnosztizálható; az ADHD első vizsgálata tipikusan 5–12 éves kor között történik",
+      "Az ADHD mindig korábban kerül felismerésre, mint az autizmus",
+      "A fejlődési diszlexia már csecsemőkorban megbízhatóan azonosítható olvasási tesztekkel",
+      "A szenzoros integráció zavara csak iskoláskorban diagnosztizálható"
+    ],
+    "answer": 1
   }
 ]
