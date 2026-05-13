@@ -2515,26 +2515,26 @@
     ],
     "rightItems": [
       "6–8 hónapos kor",
-      "10–14 hónapos kor",
-      "18–24 hónapos kor",
       "8–10 hónapos kor",
-      "12–15 hónapos kor"
+      "10–14 hónapos kor",
+      "12–15 hónapos kor",
+      "18–24 hónapos kor"
     ],
     "answer": [
       [
         1
       ],
       [
-        2
-      ],
-      [
         3
       ],
       [
-        4
+        5
       ],
       [
-        5
+        2
+      ],
+      [
+        4
       ]
     ],
     "options": [],
