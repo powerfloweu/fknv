@@ -13,7 +13,9 @@
       "Sroufe"
     ],
     "answer": 2,
-    "explanation": "Sameroff (2009) reciprok tranzakciós modellje az egyén és környezet dinamikus kölcsönhatását írja le."
+    "explanation": "Sameroff (2009) reciprok tranzakciós modellje az egyén és környezet dinamikus kölcsönhatását írja le.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 2,
@@ -29,7 +31,9 @@
       "RDC-PA"
     ],
     "answer": 3,
-    "explanation": "A DC:0–5 (Zero to Three, 2016) kifejezetten a 0–5 éves korosztály diagnosztikai rendszere; kapcsolatfókuszú, fejlődésorientált."
+    "explanation": "A DC:0–5 (Zero to Three, 2016) kifejezetten a 0–5 éves korosztály diagnosztikai rendszere; kapcsolatfókuszú, fejlődésorientált.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 3,
@@ -43,13 +47,15 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "A DSM-5 egyik átnevezése: mentális retardáció → értelmi fejlődési zavar / intellektuális képességzavar."
+    "explanation": "A DSM-5 egyik átnevezése: mentális retardáció → értelmi fejlődési zavar / intellektuális képességzavar.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 4,
     "topicNum": 1,
     "topic": "Bevezetés a fejlődési pszichopatológiába",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A 2011. évi CXC. törvény szerint a beilleszkedési, tanulási, magatartási nehézséggel (BTMN) küzdő gyermek melyik állítás miatt KÜLÖNBÖZIK a sajátos nevelési igényű (SNI) gyermektől?",
     "options": [
@@ -59,13 +65,15 @@
       "A BTMN gyermek mindig értelmi fogyatékos"
     ],
     "answer": 2,
-    "explanation": "A BTMN szintén szakértői vélemény alapján kerül megállapításra, de nem SNI – elsősorban tanulási, viselkedési, beilleszkedési problémák."
+    "explanation": "A BTMN szintén szakértői vélemény alapján kerül megállapításra, de nem SNI – elsősorban tanulási, viselkedési, beilleszkedési problémák.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 5,
     "topicNum": 1,
     "topic": "Bevezetés a fejlődési pszichopatológiába",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Cicchetti és Toth (2019) szerint melyik NEM tartozik a fejlődési pszichopatológia négy fő kérdése közé?",
     "options": [
@@ -75,13 +83,15 @@
       "Mi különbözteti meg a különböző zavarokat egymástól?"
     ],
     "answer": 3,
-    "explanation": "Az IQ-vizsgálat módszertani kérdés, nem szerepel a négy fő kérdés között. A negyedik kérdés a hatékony intervenciók tervezése."
+    "explanation": "Az IQ-vizsgálat módszertani kérdés, nem szerepel a négy fő kérdés között. A negyedik kérdés a hatékony intervenciók tervezése.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 6,
     "topicNum": 1,
     "topic": "Bevezetés a fejlődési pszichopatológiába",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A DSM-PC (Wolraich és mtsai, 1996) kontinuum-megközelítése szerint a gyermek problémái HÁROM szintre tagolhatóak. Melyek ezek?",
     "options": [
@@ -91,13 +101,15 @@
       "Genetikai → környezeti → multifaktoriális"
     ],
     "answer": 2,
-    "explanation": "A DSM-PC sajátossága a kontinuum-szemlélet: normatív variáció → probléma → klinikai zavar."
+    "explanation": "A DSM-PC sajátossága a kontinuum-szemlélet: normatív variáció → probléma → klinikai zavar.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 7,
     "topicNum": 1,
     "topic": "Bevezetés a fejlődési pszichopatológiába",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! A DSM-5 (2013) változásai a DSM-IV-hez képest:",
     "options": [
@@ -113,13 +125,15 @@
       3,
       5
     ],
-    "explanation": "A 'd' téves: a DSM-5 éppen hogy kiterjesztette a kulturális/társas/életkori/gender szempontok beépítését."
+    "explanation": "A 'd' téves: a DSM-5 éppen hogy kiterjesztette a kulturális/társas/életkori/gender szempontok beépítését.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 8,
     "topicNum": 1,
     "topic": "Bevezetés a fejlődési pszichopatológiába",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "tf",
     "question": "Igaz vagy hamis? A DC:0–5 rendszerben minden zavar kritériumai között szerepel a distressz átélése és a funkcionális sérülés mint kötelező feltétel, hogy a klinikai zavarokat el lehessen különíteni a természetes változatosságtól és az átmeneti nehézségektől.",
     "options": [
@@ -127,7 +141,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "A DC:0–5 érzékeny differenciálási elve: kötelező feltétel a distressz és funkcionális sérülés."
+    "explanation": "A DC:0–5 érzékeny differenciálási elve: kötelező feltétel a distressz és funkcionális sérülés.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 9,
@@ -143,7 +159,9 @@
       "Részleges deléció a 21-es kromoszómán"
     ],
     "answer": 3,
-    "explanation": "A klasszikus T21 a Down-szindróma esetek ~95%-át teszi ki."
+    "explanation": "A klasszikus T21 a Down-szindróma esetek ~95%-át teszi ki.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 10,
@@ -157,7 +175,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "Ez a FAS hátterében álló neurobiológiai mechanizmus központi eleme."
+    "explanation": "Ez a FAS hátterében álló neurobiológiai mechanizmus központi eleme.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 11,
@@ -173,13 +193,15 @@
       "Turner-szindróma"
     ],
     "answer": 2,
-    "explanation": "Patau-kór = 13-as triszómia; Edwards = 18-as; Down = 21-es; Turner = X-monoszómia."
+    "explanation": "Patau-kór = 13-as triszómia; Edwards = 18-as; Down = 21-es; Turner = X-monoszómia.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 12,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik epigenetikai mechanizmus során NEM változik meg a DNS-szekvencia, mégis szabályozódik a génexpresszió?",
     "options": [
@@ -189,13 +211,15 @@
       "Deléció"
     ],
     "answer": 2,
-    "explanation": "A DNS-metiláció a szekvencia változása nélkül szabályozza a gének ki-/bekapcsolását; a sejtosztódás során öröklődik."
+    "explanation": "A DNS-metiláció a szekvencia változása nélkül szabályozza a gének ki-/bekapcsolását; a sejtosztódás során öröklődik.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 13,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A Williams-Beuren szindróma genetikai háttere:",
     "options": [
@@ -205,13 +229,15 @@
       "X-kromoszóma részleges monoszómiája"
     ],
     "answer": 3,
-    "explanation": "A Williams-Beuren szindróma a 7q11.23 deléciójából ered, legalább 15 gént érint."
+    "explanation": "A Williams-Beuren szindróma a 7q11.23 deléciójából ered, legalább 15 gént érint.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 14,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Mely jellemzők kapcsolódnak a Prader-Willi szindrómához?",
     "options": [
@@ -226,13 +252,15 @@
       3,
       4
     ],
-    "explanation": "Az apraxia és kézcsavarás Rett-szindrómára jellemző; a hiányzó X Turner-szindróma. A többi a Prader-Willi jellemzője."
+    "explanation": "Az apraxia és kézcsavarás Rett-szindrómára jellemző; a hiányzó X Turner-szindróma. A többi a Prader-Willi jellemzője.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 15,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik öt ipari vegyi anyagot azonosíthatjuk megbízhatóan fejlődési neurotoxikus szerként?",
     "options": [
@@ -242,13 +270,15 @@
       "Toluol, acetilszalicilsav, ibuprofen, paracetamol, koffein"
     ],
     "answer": 1,
-    "explanation": "Grandjean és Landrigan (2014) szerint az öt megbízhatóan azonosított fejlődési neurotoxikus szer: ólom, MeHg, arzén, PCB, toluol."
+    "explanation": "Grandjean és Landrigan (2014) szerint az öt megbízhatóan azonosított fejlődési neurotoxikus szer: ólom, MeHg, arzén, PCB, toluol.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 16,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "tf",
     "question": "Igaz vagy hamis? Az alkohol a placentán keresztül szabadon átjut, és a csecsemő ugyanazt a hatást érzi, mint az anya.",
     "options": [
@@ -256,13 +286,15 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "Az alkohol jól permeálódik a placentán; a magzat hasonló koncentrációnak van kitéve, mint az anyai vér."
+    "explanation": "Az alkohol jól permeálódik a placentán; a magzat hasonló koncentrációnak van kitéve, mint az anyai vér.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 17,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik állítás igaz a Rett-szindrómára?",
     "options": [
@@ -272,13 +304,15 @@
       "A FMR1 gén mutációja okozza"
     ],
     "answer": 3,
-    "explanation": "Lányokat érint; születéskor még nem felismerhető; X-hez kötött; nem FMR1, hanem MECP2 gén."
+    "explanation": "Lányokat érint; születéskor még nem felismerhető; X-hez kötött; nem FMR1, hanem MECP2 gén.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 18,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Az újszülöttkori absztinencia szindróma (NAS) MELYIK tünete sorolható az idegrendszeri tünetek közé?",
     "options": [
@@ -288,7 +322,9 @@
       "„High-pitched” sírás, tremor, görcsök"
     ],
     "answer": 4,
-    "explanation": "A 'high-pitched cry', tremor, hipertónia, görcs idegrendszeri tünetek; az emésztőszerviek és a légző-/szív tünetek külön csoportot képeznek."
+    "explanation": "A 'high-pitched cry', tremor, hipertónia, görcs idegrendszeri tünetek; az emésztőszerviek és a légző-/szív tünetek külön csoportot képeznek.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 19,
@@ -304,7 +340,9 @@
       "Az IQ-érték legalább 6 hónapja stabilan 70 alatt van"
     ],
     "answer": 4,
-    "explanation": "A DSM-5 már nem IQ-alapú; az intellektuális, adaptív és fejlődési időszak hármas a kritérium."
+    "explanation": "A DSM-5 már nem IQ-alapú; az intellektuális, adaptív és fejlődési időszak hármas a kritérium.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 20,
@@ -318,7 +356,9 @@
       "Hamis"
     ],
     "answer": false,
-    "explanation": "A DSM-5 a súlyossági szinteket a fogalmi, társas és gyakorlati doménben mutatott funkcionálás alapján határozza meg, NEM IQ-alapon."
+    "explanation": "A DSM-5 a súlyossági szinteket a fogalmi, társas és gyakorlati doménben mutatott funkcionálás alapján határozza meg, NEM IQ-alapon.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 21,
@@ -334,13 +374,15 @@
       "A BTMN-t"
     ],
     "answer": 2,
-    "explanation": "A tanulásban akadályozottság az enyhe IF-t fedi le; az értelmi akadályozottság a mérsékelt, súlyos és igen súlyos IF-t."
+    "explanation": "A tanulásban akadályozottság az enyhe IF-t fedi le; az értelmi akadályozottság a mérsékelt, súlyos és igen súlyos IF-t.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 22,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A Wight Szigeti vizsgálat (Rutter és mtsai, 1970) szerint a 70 IQ alatti gyerekek hány százaléka mutatott pszichiátriai zavart is?",
     "options": [
@@ -350,13 +392,15 @@
       "Körülbelül 80%"
     ],
     "answer": 3,
-    "explanation": "70 IQ alatt 50%, míg 70 IQ fölött 6,8% – ez a 3-4× nagyobb kockázat alapja."
+    "explanation": "70 IQ alatt 50%, míg 70 IQ fölött 6,8% – ez a 3-4× nagyobb kockázat alapja.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 23,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik súlyossági szinten jellemző, hogy az IQ 35–49 közötti, az absztrakt gondolkodás minden téren elmarad, és a kultúrtechnikák elsajátítása jelentősen lassú vagy nem alakul ki?",
     "options": [
@@ -366,13 +410,15 @@
       "Igen súlyos"
     ],
     "answer": 2,
-    "explanation": "Mérsékelt: IQ 35–49, BNO-10 F71 (régebbi, elavult: imbecillitás)."
+    "explanation": "Mérsékelt: IQ 35–49, BNO-10 F71 (régebbi, elavult: imbecillitás).",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 24,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Melyik viselkedésforma fordul elő gyakran IKZ-ban?",
     "options": [
@@ -386,13 +432,15 @@
       2,
       3
     ],
-    "explanation": "A hyperphagia inkább Prader-Willi sajátos tünete; a többi IKZ-ban általánosan gyakori társuló viselkedés."
+    "explanation": "A hyperphagia inkább Prader-Willi sajátos tünete; a többi IKZ-ban általánosan gyakori társuló viselkedés.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 25,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A KÉK (Könnyen Érthető Kommunikáció) alapelvei között szerepel:",
     "options": [
@@ -402,13 +450,15 @@
       "A beszélgetést kontrolljuk teljes mértékben"
     ],
     "answer": 3,
-    "explanation": "Az ENSZ Egyezmény alapelvei között hangsúlyos az érintettek bevonása. Az a, b, d éppen kerülendők."
+    "explanation": "Az ENSZ Egyezmény alapelvei között hangsúlyos az érintettek bevonása. Az a, b, d éppen kerülendők.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 26,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "A pica diagnózisához szükséges, hogy a nem-tápláléknak minősülő anyagok fogyasztása MENNYI ideig fennálljon?",
     "options": [
@@ -418,13 +468,15 @@
       "6 hónap"
     ],
     "answer": 2,
-    "explanation": "DSM-5 / ICD: legalább 1 hónapon át. 1,5 éves kor felett már kóros."
+    "explanation": "DSM-5 / ICD: legalább 1 hónapon át. 1,5 éves kor felett már kóros.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 27,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Mely AAIDD-tipusú támogatási kategóriába tartozik az enyhe értelmi fogyatékosság megfelelője?",
     "options": [
@@ -434,7 +486,9 @@
       "Időszakos támogatás"
     ],
     "answer": 4,
-    "explanation": "Időszakos = enyhe; korlátozott = mérsékelt; kiterjedt = súlyos; pervazív = igen súlyos/halmozott."
+    "explanation": "Időszakos = enyhe; korlátozott = mérsékelt; kiterjedt = súlyos; pervazív = igen súlyos/halmozott.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 28,
@@ -450,7 +504,9 @@
       "Stanislas Dehaene"
     ],
     "answer": 1,
-    "explanation": "Samuel Kirk (1962) – Kirk-Bateman: a beszéd, olvasás-írás, számolás folyamatainak zavarai összefoglalva."
+    "explanation": "Samuel Kirk (1962) – Kirk-Bateman: a beszéd, olvasás-írás, számolás folyamatainak zavarai összefoglalva.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 29,
@@ -464,7 +520,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "DSM-5-TR (2022) – ez a 6 hónapos tartósság és a célzott beavatkozás ellenére fennmaradás kritérium."
+    "explanation": "DSM-5-TR (2022) – ez a 6 hónapos tartósság és a célzott beavatkozás ellenére fennmaradás kritérium.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 30,
@@ -480,13 +538,15 @@
       "Addíció"
     ],
     "answer": 3,
-    "explanation": "Elízió = kihagyás (pl. paradicsom → paracso); szubsztitúció = csere; permutáció = sorrendcsere; addíció = beszúrás."
+    "explanation": "Elízió = kihagyás (pl. paradicsom → paracso); szubsztitúció = csere; permutáció = sorrendcsere; addíció = beszúrás.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 31,
     "topicNum": 4,
     "topic": "Tanulási zavarok",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik dyslexia-típusra jellemzőek a jelentésalapú hibák (pl. „kutya” helyett „macska”)?",
     "options": [
@@ -496,13 +556,15 @@
       "Auditív domináns diszlexia"
     ],
     "answer": 3,
-    "explanation": "A mély diszlexia szemantikai tévesztéseket mutat; ritkább és súlyosabb forma."
+    "explanation": "A mély diszlexia szemantikai tévesztéseket mutat; ritkább és súlyosabb forma.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 32,
     "topicNum": 4,
     "topic": "Tanulási zavarok",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Desoete (2006) szerint melyik diszkalkulia-altípusra jellemző elsősorban a számfogalom hiányos megértése, a számolvasás-, számírás-zavar, és az átkódolási nehézség?",
     "options": [
@@ -512,13 +574,15 @@
       "Számismeret deficit"
     ],
     "answer": 4,
-    "explanation": "A számismeret diszkalkulia altípus a számok olvasásával, írásával, modalitások közti átkódolásával kapcsolatos zavarokkal jellemezhető."
+    "explanation": "A számismeret diszkalkulia altípus a számok olvasásával, írásával, modalitások közti átkódolásával kapcsolatos zavarokkal jellemezhető.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 33,
     "topicNum": 4,
     "topic": "Tanulási zavarok",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! A diszlexia neuropszichológiai hátterében milyen folyamatok zavara játszik szerepet?",
     "options": [
@@ -534,13 +598,15 @@
       3,
       5
     ],
-    "explanation": "A vizuális kortikális vakság (Anton-szindróma) nem a diszlexia háttere; a többi mind a diszlexia neuropszichológiai magyarázatai között szerepel."
+    "explanation": "A vizuális kortikális vakság (Anton-szindróma) nem a diszlexia háttere; a többi mind a diszlexia neuropszichológiai magyarázatai között szerepel.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 34,
     "topicNum": 4,
     "topic": "Tanulási zavarok",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik diagnosztikai eszköz a diszkalkulia pedagógiai vizsgálatára kifejlesztett magyar (Dékány-Juhász, Sipos) eszköz?",
     "options": [
@@ -550,13 +616,15 @@
       "DPV (Diszkalkulia Pedagógiai Vizsgálata)"
     ],
     "answer": 4,
-    "explanation": "DPV – kifejezetten a diszkalkulia komplex pedagógiai vizsgálatára."
+    "explanation": "DPV – kifejezetten a diszkalkulia komplex pedagógiai vizsgálatára.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 35,
     "topicNum": 4,
     "topic": "Tanulási zavarok",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Egy 4. osztályos diák ép intelligenciaszinttel rendelkezik (IQ ≥ 85), nincs érzékszervi vagy neurológiai problémája, az olvasásban azonban súlyos, célzott fejlesztés ellenére is fennmaradó nehézségei vannak. Mi a leginkább illeszkedő diagnózis?",
     "options": [
@@ -566,13 +634,15 @@
       "Pragmatikai kommunikációs zavar"
     ],
     "answer": 2,
-    "explanation": "Ép IQ + ép szenzórium + tartós olvasási nehézség célzott beavatkozás ellenére = DSM-5 szerinti diszlexia."
+    "explanation": "Ép IQ + ép szenzórium + tartós olvasási nehézség célzott beavatkozás ellenére = DSM-5 szerinti diszlexia.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 36,
     "topicNum": 4,
     "topic": "Tanulási zavarok",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "A „permutáció” mint diszlexiás hibatípus melyik példában jelenik meg?",
     "options": [
@@ -582,7 +652,9 @@
       "ablak → abalak"
     ],
     "answer": 3,
-    "explanation": "Permutáció = a betűsorrend felcserélése (asztal → atszal). 'a' elízió, 'b' szubsztitúció, 'd' addíció."
+    "explanation": "Permutáció = a betűsorrend felcserélése (asztal → atszal). 'a' elízió, 'b' szubsztitúció, 'd' addíció.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 37,
@@ -598,7 +670,9 @@
       "Annette Karmiloff-Smith"
     ],
     "answer": 2,
-    "explanation": "Jean Ayres a szenzoros integrációs elmélet és terápia megalapozója (Sensory Integration and Learning Disorders)."
+    "explanation": "Jean Ayres a szenzoros integrációs elmélet és terápia megalapozója (Sensory Integration and Learning Disorders).",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 38,
@@ -612,7 +686,9 @@
       "Hamis"
     ],
     "answer": false,
-    "explanation": "A diszpraxia NEM az intelligenciát érinti, hanem azt, hogy az agy mennyire hatékonyan tervezi és szervezi meg a mozgásokat."
+    "explanation": "A diszpraxia NEM az intelligenciát érinti, hanem azt, hogy az agy mennyire hatékonyan tervezi és szervezi meg a mozgásokat.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 39,
@@ -628,13 +704,15 @@
       "Egyéb szenzoros zavarok"
     ],
     "answer": 3,
-    "explanation": "A diszpraxia és a poszturális zavar a szenzoros alapú mozgásrendellenességek csoportjába tartozik."
+    "explanation": "A diszpraxia és a poszturális zavar a szenzoros alapú mozgásrendellenességek csoportjába tartozik.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 40,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A szenzoros modulációs zavaroknak NEM tartozik közéjük:",
     "options": [
@@ -644,13 +722,15 @@
       "Diszpraxia"
     ],
     "answer": 4,
-    "explanation": "A diszpraxia a szenzoros alapú mozgásrendellenességek közé tartozik, NEM a modulációs zavarok közé."
+    "explanation": "A diszpraxia a szenzoros alapú mozgásrendellenességek közé tartozik, NEM a modulációs zavarok közé.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 41,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik vizsgálati eljárás kifejezetten Ayres által kifejlesztett, dél-kaliforniai standardizált eszköz?",
     "options": [
@@ -660,13 +740,15 @@
       "Szenzoros Profil (Dunn)"
     ],
     "answer": 3,
-    "explanation": "Az SCSIT (1972) és a későbbi SIPT (1989) Ayres saját tesztcsaládja. A TSI DeGangi-Berk fejlesztése, a Szenzoros Profil Dunné."
+    "explanation": "Az SCSIT (1972) és a későbbi SIPT (1989) Ayres saját tesztcsaládja. A TSI DeGangi-Berk fejlesztése, a Szenzoros Profil Dunné.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 42,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Mely tüneteket sorolhatjuk a diszpraxia kisgyermekkori jelei közé?",
     "options": [
@@ -682,13 +764,15 @@
       4,
       5
     ],
-    "explanation": "A korai szókincs-robbanás nem jellemzője a diszpraxiának; a többi a kisgyermekkori klasszikus jelek közé tartozik."
+    "explanation": "A korai szókincs-robbanás nem jellemzője a diszpraxiának; a többi a kisgyermekkori klasszikus jelek közé tartozik.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 43,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "A MANEK (Magyar Neuroedukáció Kérdőív, 2022) szerint MELYIK állítás NEM tekinthető bizonyítékon alapuló igazságnak (azaz neuromítosz lehet)?",
     "options": [
@@ -698,13 +782,15 @@
       "A diszlexia hátterében fonológiai feldolgozási zavar áll"
     ],
     "answer": 1,
-    "explanation": "Az 'a' állítás a MANEK szerint a tipikus neuromítoszok közé tartozik; a többi tudományosan megalapozott."
+    "explanation": "Az 'a' állítás a MANEK szerint a tipikus neuromítoszok közé tartozik; a többi tudományosan megalapozott.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 44,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Egy 5 éves gyermek nem tudja átlépni a testközépvonalat, a két testfelet egymástól függetlenül igyekszik működtetni, kompenzáló mozgásokat végez. A jelenség elsősorban MELYIK alcsoportba sorolható?",
     "options": [
@@ -714,7 +800,9 @@
       "Hallási diszkriminációs zavar"
     ],
     "answer": 2,
-    "explanation": "A testközépvonal-átlépés kerülése a vesztibuláris-proprioceptív diszfunkcióhoz kötődik (poszturális és vizuális funkciók éretlensége)."
+    "explanation": "A testközépvonal-átlépés kerülése a vesztibuláris-proprioceptív diszfunkcióhoz kötődik (poszturális és vizuális funkciók éretlensége).",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 45,
@@ -730,7 +818,9 @@
       "39. hét"
     ],
     "answer": 3,
-    "explanation": "WHO 2018: koraszülött = a terhesség betöltött 37. hete előtt világra jött újszülött."
+    "explanation": "WHO 2018: koraszülött = a terhesség betöltött 37. hete előtt világra jött újszülött.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 46,
@@ -744,7 +834,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "A korrigált életkor használata 2 éves korig az általános szakmai gyakorlat."
+    "explanation": "A korrigált életkor használata 2 éves korig az általános szakmai gyakorlat.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 47,
@@ -760,13 +852,15 @@
       "Extra Low Body Weight"
     ],
     "answer": 2,
-    "explanation": "ELBW = Extremely Low Birth Weight = extrém kis súlyú, < 1000 g."
+    "explanation": "ELBW = Extremely Low Birth Weight = extrém kis súlyú, < 1000 g.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 48,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A Papile (1978) féle agykamrai vérzés (IVH) stádiumbeosztás szerint MELYIK stádiumban tör be a vérzés az agykamrába, de még nem alakul ki kamratágulat?",
     "options": [
@@ -776,13 +870,15 @@
       "IV. fok"
     ],
     "answer": 2,
-    "explanation": "I.: csak germinális mátrix; II.: betör a kamrába, nincs tágulat; III.: kamratágulat; IV.: idegszövetbe is áttör."
+    "explanation": "I.: csak germinális mátrix; II.: betör a kamrába, nincs tágulat; III.: kamratágulat; IV.: idegszövetbe is áttör.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 49,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik koraszülöttkori kórkép a periventrikuláris fehérállomány ischaemiás károsodását jelenti, és vezető rizikófaktora a spasztikus diplegiának?",
     "options": [
@@ -792,13 +888,15 @@
       "IVH I. fok"
     ],
     "answer": 3,
-    "explanation": "A PVL a fehérállomány ischaemiás károsodása; legfontosabb rizikófaktor a spasztikus diplegiához (CP egyik formája)."
+    "explanation": "A PVL a fehérállomány ischaemiás károsodása; legfontosabb rizikófaktor a spasztikus diplegiához (CP egyik formája).",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 50,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! A koraszülöttség hosszú távú következményei között szerepelnek:",
     "options": [
@@ -814,13 +912,15 @@
       3,
       5
     ],
-    "explanation": "A 'd' téves: a koraszülötteknél a kognitív, érzelmi-viselkedési problémák is gyakoriak (figyelem, IQ, EF stb.)."
+    "explanation": "A 'd' téves: a koraszülötteknél a kognitív, érzelmi-viselkedési problémák is gyakoriak (figyelem, IQ, EF stb.).",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 51,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A BPD (bronchopulmonális dysplasia) diagnózisához milyen kritérium szükséges?",
     "options": [
@@ -830,13 +930,15 @@
       "Anyai prenatális kortikoszteroid hiánya"
     ],
     "answer": 2,
-    "explanation": "BPD/CLD: legalább 28 napos > 21% oxigénkoncentrációval való kezelés a feltétel."
+    "explanation": "BPD/CLD: legalább 28 napos > 21% oxigénkoncentrációval való kezelés a feltétel.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 52,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik MR-leletet tartják a koraszülöttek hosszú távú következményei között?",
     "options": [
@@ -846,13 +948,15 @@
       "Csak felnőttkorra kompenzálódó eltérések"
     ],
     "answer": 2,
-    "explanation": "MR-tanulmányok következetesen vékonyabb entorhinális kérget, kisebb kisagyat, thalamust, hippocampust és vékonyabb corpus callosumot mutatnak."
+    "explanation": "MR-tanulmányok következetesen vékonyabb entorhinális kérget, kisebb kisagyat, thalamust, hippocampust és vékonyabb corpus callosumot mutatnak.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 53,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik intervenciós módszer fejlesztője Katona Ferenc, és milyen koraszülött-betegekre javasolt elsősorban?",
     "options": [
@@ -862,7 +966,9 @@
       "TSMT – csak iskolás kortól alkalmazható"
     ],
     "answer": 3,
-    "explanation": "Katona-féle neurohabilitáció: napi 4–6× 15–30 perc, szülő végzi; betanított mozgásmintákat az agy automatizálja."
+    "explanation": "Katona-féle neurohabilitáció: napi 4–6× 15–30 perc, szülő végzi; betanított mozgásmintákat az agy automatizálja.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 54,
@@ -878,7 +984,9 @@
       "Beszédfluencia zavar"
     ],
     "answer": 2,
-    "explanation": "Leonard (1981) vezette be a specifikus nyelvi zavar / specifikus nyelvfejlődési zavar fogalmát."
+    "explanation": "Leonard (1981) vezette be a specifikus nyelvi zavar / specifikus nyelvfejlődési zavar fogalmát.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 55,
@@ -892,7 +1000,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "Mesterházi (2015) definíciója: organikus háttér nélkül, csak mennyiségi elmaradás, normál fejlődési fokokon halad."
+    "explanation": "Mesterházi (2015) definíciója: organikus háttér nélkül, csak mennyiségi elmaradás, normál fejlődési fokokon halad.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 56,
@@ -908,13 +1018,15 @@
       "Még nem ismert el a DSM-rendszer"
     ],
     "answer": 3,
-    "explanation": "A pragmatikai kommunikációs zavar (PKZ) önálló kategóriaként a DSM-5-ben (2013) jelent meg."
+    "explanation": "A pragmatikai kommunikációs zavar (PKZ) önálló kategóriaként a DSM-5-ben (2013) jelent meg.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 57,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A DLD (fejlődési nyelvi zavar) DSM-5 szerinti kritériumai NEM tartalmazzák, hogy:",
     "options": [
@@ -924,13 +1036,15 @@
       "A diagnózishoz mindenképpen kell, hogy az IQ 70 alatti legyen"
     ],
     "answer": 4,
-    "explanation": "Éppen ellenkezőleg: a DLD diagnózisának kizáró kritériuma az értelmi fogyatékosság; az IQ legalább 85 nonverbálisan."
+    "explanation": "Éppen ellenkezőleg: a DLD diagnózisának kizáró kritériuma az értelmi fogyatékosság; az IQ legalább 85 nonverbálisan.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 58,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik diagnosztikai eszköz a 8–30 hónapos gyermekek korai nyelvi és kommunikációs fejlődésének vizsgálatára szolgáló, szülői kérdőíves eljárás?",
     "options": [
@@ -940,13 +1054,15 @@
       "PPL"
     ],
     "answer": 2,
-    "explanation": "MacArthur-Bates Communicative Development Inventories (CDI) / magyar adaptáció: KOFA. 8–30 hó, szülői kérdőív."
+    "explanation": "MacArthur-Bates Communicative Development Inventories (CDI) / magyar adaptáció: KOFA. 8–30 hó, szülői kérdőív.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 59,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A PKZ (pragmatikai kommunikációs zavar) MELYIK ASD-tünettel NEM jár együtt?",
     "options": [
@@ -956,13 +1072,15 @@
       "Pragmatikai (nem szó szerinti) jelentés megértésének nehézsége"
     ],
     "answer": 3,
-    "explanation": "PKZ-ben éppen az autizmus repetitív/sztereotip komponensei NEM jelennek meg – ez különbözteti meg az ASD-től."
+    "explanation": "PKZ-ben éppen az autizmus repetitív/sztereotip komponensei NEM jelennek meg – ez különbözteti meg az ASD-től.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 60,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! A DLD-vel együtt járó (Gerebenné által leírt) társuló részképesség-zavarok között szerepelnek:",
     "options": [
@@ -978,13 +1096,15 @@
       4,
       5
     ],
-    "explanation": "A spasztikus diplegia neurológiai kórkép, nem részképesség-zavar. A többi tipikusan a DLD társulásai közé tartozik."
+    "explanation": "A spasztikus diplegia neurológiai kórkép, nem részképesség-zavar. A többi tipikusan a DLD társulásai közé tartozik.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 61,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Egy 10 éves fiú normál nyelvi szókinccsel és nyelvtannal rendelkezik, de gyakran félreérti az iróniát, megszakítja a beszélgetést, nehezen tartja a témát, és kortársai elutasítják. ADHD- és autizmusvizsgálaton átesett, egyik diagnózis sem igazolódott. Mi a legvalószínűbb diagnózis?",
     "options": [
@@ -994,13 +1114,15 @@
       "Beszédfluencia zavar"
     ],
     "answer": 2,
-    "explanation": "A nyelvi rendszer szerkezetileg ép, a pragmatikai funkciók sérültek, ASD/ADHD kizárva – ez a PKZ klasszikus képe."
+    "explanation": "A nyelvi rendszer szerkezetileg ép, a pragmatikai funkciók sérültek, ASD/ADHD kizárva – ez a PKZ klasszikus képe.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 62,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Mit jelent a G-SLI rövidítés (van der Lely)?",
     "options": [
@@ -1010,7 +1132,9 @@
       "Genetic Subgroup of Language Impairment"
     ],
     "answer": 2,
-    "explanation": "A G-SLI a 'nyelvtan-specifikus nyelvi zavar' (van der Lely, Stollwerk, 1997) – lexikai, szemantikai, pragmatikai szintek épsége mellett a grammatika specifikus zavara."
+    "explanation": "A G-SLI a 'nyelvtan-specifikus nyelvi zavar' (van der Lely, Stollwerk, 1997) – lexikai, szemantikai, pragmatikai szintek épsége mellett a grammatika specifikus zavara.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 63,
@@ -1026,7 +1150,9 @@
       "Túlnyomórészt szorongó megjelenési forma"
     ],
     "answer": 4,
-    "explanation": "Az ADHD-nak nincs „szorongó” altípusa; a szorongás komorbid zavar lehet, de nem altípus."
+    "explanation": "Az ADHD-nak nincs „szorongó” altípusa; a szorongás komorbid zavar lehet, de nem altípus.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 64,
@@ -1040,7 +1166,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "Az ADHD heritabilitása 70–80%; egypetéjű ikrek konkordanciája magas."
+    "explanation": "Az ADHD heritabilitása 70–80%; egypetéjű ikrek konkordanciája magas.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 65,
@@ -1056,13 +1184,15 @@
       "Haloperidol"
     ],
     "answer": 3,
-    "explanation": "Metilfenidát (Ritalin) = pszichostimuláns, dopamin visszavétel gátló. Az atomoxetin nem stimuláns (NA-reuptake gátló)."
+    "explanation": "Metilfenidát (Ritalin) = pszichostimuláns, dopamin visszavétel gátló. Az atomoxetin nem stimuláns (NA-reuptake gátló).",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 66,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Sonuga-Barke (2003) kétutas ADHD modellje szerint a zavar két fő háttértényezője:",
     "options": [
@@ -1072,13 +1202,15 @@
       "Munkamemória + hosszú távú memória"
     ],
     "answer": 2,
-    "explanation": "A két fő útvonal: mezolimbikus dopaminerg rendszer (motiváció, jutalom-érzékenység) + cingulo-fronto-parietális kognitív kontroll hálózat."
+    "explanation": "A két fő útvonal: mezolimbikus dopaminerg rendszer (motiváció, jutalom-érzékenység) + cingulo-fronto-parietális kognitív kontroll hálózat.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 67,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Rutter, Moffitt és Caspi (2006) szerint a gén-környezet korrelációnak HÁROM fajtája létezik. Melyik a leírt fajtához tartozó leírás?",
     "options": [
@@ -1088,13 +1220,15 @@
       "Reaktív: a környezet hat a génekre"
     ],
     "answer": 1,
-    "explanation": "Evokatív: gyermek vált ki választ; Aktív: gyermek választja a környezetet; Passzív: szülő alakítja a környezetet."
+    "explanation": "Evokatív: gyermek vált ki választ; Aktív: gyermek választja a környezetet; Passzív: szülő alakítja a környezetet.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 68,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Az ADHD-val gyakran társuló komorbid zavarok és becsült gyakoriságuk:",
     "options": [
@@ -1110,13 +1244,15 @@
       3,
       5
     ],
-    "explanation": "A szkizofrénia NEM jellemző komorbiditás (60-80% irreálisan magas). A többi értékek a kutatások alapján stimmolnak."
+    "explanation": "A szkizofrénia NEM jellemző komorbiditás (60-80% irreálisan magas). A többi értékek a kutatások alapján stimmolnak.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 69,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Az ACE (ADHD Felmérése Gyermekkorban) kérdőív szerzője, és a magyar változat alkotói:",
     "options": [
@@ -1126,13 +1262,15 @@
       "Faraone (2000); magyar: Stefanik"
     ],
     "answer": 1,
-    "explanation": "Susan Young (2015) – ACE / ACE+; magyar nonprofit változat: Balázs Judit és Ferenczi-Dallos."
+    "explanation": "Susan Young (2015) – ACE / ACE+; magyar nonprofit változat: Balázs Judit és Ferenczi-Dallos.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 70,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "A Continuous Performance Test (CPT) értékelésekor az ELKÖVETÉSI hibák (téves riasztás) elsősorban MELYIK ADHD-tünetcsoport jelzői?",
     "options": [
@@ -1142,13 +1280,15 @@
       "Munkamemória-gyengeség"
     ],
     "answer": 2,
-    "explanation": "Elkövetési hiba = impulzivitás (begyakorolt válasz gátlásának elmaradása); kihagyásos hiba = figyelmetlenség."
+    "explanation": "Elkövetési hiba = impulzivitás (begyakorolt válasz gátlásának elmaradása); kihagyásos hiba = figyelmetlenség.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 71,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Az ADHD molekuláris genetikai kutatásai szerint MELYIK két dopamin receptor variánsai mutatták a legerősebb asszociációt a zavarral (Gizer és mtsai, 2009 metaanalízis)?",
     "options": [
@@ -1158,13 +1298,15 @@
       "Csak a DAT1 mutat asszociációt"
     ],
     "answer": 2,
-    "explanation": "Gizer és mtsai (2009): DRD4 és D1B (DRD5) receptorokat kódoló gének variánsaival a legerősebb az asszociáció."
+    "explanation": "Gizer és mtsai (2009): DRD4 és D1B (DRD5) receptorokat kódoló gének variánsaival a legerősebb az asszociáció.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 72,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "tf",
     "question": "Igaz vagy hamis? A methylphenidat terápiában részesülő ADHD-s gyerekek körében a későbbi serdülőkori drogabúzus gyakorisága a kezeletlen ADHD-csoporthoz képest háromszor magasabb.",
     "options": [
@@ -1172,7 +1314,9 @@
       "Hamis"
     ],
     "answer": false,
-    "explanation": "Éppen fordítva: a kezeltek körében a drogabúzus a normál kontroll szintjén marad; a kezeletlen ADHD-csoportban viszont háromszoros a kockázat."
+    "explanation": "Éppen fordítva: a kezeltek körében a drogabúzus a normál kontroll szintjén marad; a kezeletlen ADHD-csoportban viszont háromszoros a kockázat.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 73,
@@ -1188,7 +1332,9 @@
       "Lorna Wing"
     ],
     "answer": 3,
-    "explanation": "Leo Kanner (1943) – infantilis autizmus. Asperger 1944-ben, tőle függetlenül, autisztikus pszichopátiát írt le."
+    "explanation": "Leo Kanner (1943) – infantilis autizmus. Asperger 1944-ben, tőle függetlenül, autisztikus pszichopátiát írt le.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 74,
@@ -1202,7 +1348,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "Bettelheim hipotézise (anyai hidegség okozza az autizmust) cáfolt, kártékony hatású elmélet volt."
+    "explanation": "Bettelheim hipotézise (anyai hidegség okozza az autizmust) cáfolt, kártékony hatású elmélet volt.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 75,
@@ -1218,13 +1366,15 @@
       "Motoros sztereotípiák és érzelmi labilitás"
     ],
     "answer": 2,
-    "explanation": "DSM-5 diád: 1) szocio-kommunikáció, 2) rugalmatlan, beszűkült, repetitív viselkedés/érdeklődés."
+    "explanation": "DSM-5 diád: 1) szocio-kommunikáció, 2) rugalmatlan, beszűkült, repetitív viselkedés/érdeklődés.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 76,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A DSM-IV TRIÁSZ-ról a DSM-5 DIÁDra való átmenet részben azért történt, mert a triász MELYIK két elemét egyesítették?",
     "options": [
@@ -1234,13 +1384,15 @@
       "Kogníció + motorika"
     ],
     "answer": 1,
-    "explanation": "A reciprok szociális interakciók és a kommunikáció minőségi eltéréseit a DSM-5 közös 'szocio-kommunikációs' kategóriába vonta össze."
+    "explanation": "A reciprok szociális interakciók és a kommunikáció minőségi eltéréseit a DSM-5 közös 'szocio-kommunikációs' kategóriába vonta össze.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 77,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik az autizmus három fő neuropszichológiai magyarázó elméletének egyike?",
     "options": [
@@ -1250,13 +1402,15 @@
       "Tükörneuronok hiperaktivitása"
     ],
     "answer": 1,
-    "explanation": "A három fő elmélet: 1) naiv tudatelméleti eltérés, 2) végrehajtó funkciók atipikus működése, 3) részletfókuszált észlelés."
+    "explanation": "A három fő elmélet: 1) naiv tudatelméleti eltérés, 2) végrehajtó funkciók atipikus működése, 3) részletfókuszált észlelés.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 78,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Az ADOS-2 (Autism Diagnostic Observation Schedule) milyen típusú eljárás?",
     "options": [
@@ -1266,13 +1420,15 @@
       "EEG-alapú diagnosztikai eljárás"
     ],
     "answer": 3,
-    "explanation": "ADOS-2: 4 modul (nyelvi szint szerint), félig strukturált megfigyelés, helyzeteket teremt a társas interakciók előhívására."
+    "explanation": "ADOS-2: 4 modul (nyelvi szint szerint), félig strukturált megfigyelés, helyzeteket teremt a társas interakciók előhívására.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 79,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Mely eszközök ASD-szűrő kérdőívek/eszközök?",
     "options": [
@@ -1287,13 +1443,15 @@
       2,
       3
     ],
-    "explanation": "M-CHAT, Q-CHAT, SCQ – szűrőeszközök. Az ADI-R diagnosztikus interjú, a TROG-H nyelvtani megértést mér."
+    "explanation": "M-CHAT, Q-CHAT, SCQ – szűrőeszközök. Az ADI-R diagnosztikus interjú, a TROG-H nyelvtani megértést mér.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 80,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Az autizmus súlyossági fokát a DSM-5 NEM a tüneti súlyosság, hanem MILYEN szempont alapján határozza meg?",
     "options": [
@@ -1303,13 +1461,15 @@
       "A kommunikáció hiánya/megléte alapján"
     ],
     "answer": 2,
-    "explanation": "DSM-5 három súlyossági szintje a támogatási szükséglet alapján – nem az IQ, nem a tüneti súlyosság alapján."
+    "explanation": "DSM-5 három súlyossági szintje a támogatási szükséglet alapján – nem az IQ, nem a tüneti súlyosság alapján.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 81,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "A korszerű autizmus-specifikus megközelítés négy kulcskifejezése:",
     "options": [
@@ -1319,13 +1479,15 @@
       "Csoport, individuum, család, közösség"
     ],
     "answer": 2,
-    "explanation": "A 4 kulcskifejezés a hivatalos szakmai irányelv szerint: bejósolhatóság, struktúra, vizuális támogatás, jutalmazás."
+    "explanation": "A 4 kulcskifejezés a hivatalos szakmai irányelv szerint: bejósolhatóság, struktúra, vizuális támogatás, jutalmazás.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 82,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Az M-CHAT szűrőeszközben a 23 eldöntendő kérdés közül HÁNY (összes/kritikus) probléma esetén kell továbbküldeni a gyermeket célzott vizsgálatra?",
     "options": [
@@ -1335,13 +1497,15 @@
       "10 (kritikus tételnél 5)"
     ],
     "answer": 2,
-    "explanation": "Ha 3 (vagy a kritikus tételeknél 2) 'nem jó' válasz van, célzott vizsgálatra kell küldeni. Érzékeny szűrő, sok álpozitív."
+    "explanation": "Ha 3 (vagy a kritikus tételeknél 2) 'nem jó' válasz van, célzott vizsgálatra kell küldeni. Érzékeny szűrő, sok álpozitív.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 83,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Utah Frith kritikája szerint MELYIK állítás kontraindikátora lehet az autizmus diagnózisának?",
     "options": [
@@ -1351,7 +1515,9 @@
       "Szociális visszahúzódás"
     ],
     "answer": 1,
-    "explanation": "Frith hangsúlyozza a 'kontraindikátorok' fontosságát: gördülékeny társalgás, humor és irónia megértése az autizmus ellen szólhatnak."
+    "explanation": "Frith hangsúlyozza a 'kontraindikátorok' fontosságát: gördülékeny társalgás, humor és irónia megértése az autizmus ellen szólhatnak.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 84,
@@ -1367,7 +1533,9 @@
       "Genetikai, pedagógiai, pszichoterápiás"
     ],
     "answer": 2,
-    "explanation": "A három szakasz: észlelés, probléma azonosítás, habilitáció/rehabilitáció."
+    "explanation": "A három szakasz: észlelés, probléma azonosítás, habilitáció/rehabilitáció.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 85,
@@ -1381,7 +1549,9 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "PECS – képcserén alapuló kommunikáció, főleg nem beszélő autista gyermekeknek."
+    "explanation": "PECS – képcserén alapuló kommunikáció, főleg nem beszélő autista gyermekeknek.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 86,
@@ -1397,13 +1567,15 @@
       "Ayres terápia"
     ],
     "answer": 1,
-    "explanation": "DSGM = Dévény Speciális Gyógytorna Manuális Technika."
+    "explanation": "DSGM = Dévény Speciális Gyógytorna Manuális Technika.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 87,
     "topicNum": 10,
     "topic": "Fejlesztés és intervenció",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A pedagógiai szakszolgálat tevékenységei közé NEM tartozik:",
     "options": [
@@ -1413,13 +1585,15 @@
       "Logopédiai ellátás, gyógytestnevelés"
     ],
     "answer": 3,
-    "explanation": "Laboratóriumi vizsgálatok az egészségügyi ellátórendszer kompetenciája; a pedagógiai szakszolgálat fejlesztő, tanácsadó és diagnosztikai tevékenységeket végez."
+    "explanation": "Laboratóriumi vizsgálatok az egészségügyi ellátórendszer kompetenciája; a pedagógiai szakszolgálat fejlesztő, tanácsadó és diagnosztikai tevékenységeket végez.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 88,
     "topicNum": 10,
     "topic": "Fejlesztés és intervenció",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik intervenciós módszerben „a vesztibuláris érzékelést ingereljük, mely a mozgásfejlődésben már a magzati kortól meghatározó”, és a torna teljes mértékben otthon végezhető 8 hetes szakaszokban?",
     "options": [
@@ -1429,13 +1603,15 @@
       "Pető módszer"
     ],
     "answer": 2,
-    "explanation": "A TSMT lényege a vesztibuláris ingerlés; otthoni gyakorlatsorok 8 hetes szakaszokban, szülő végzi a gyerekkel."
+    "explanation": "A TSMT lényege a vesztibuláris ingerlés; otthoni gyakorlatsorok 8 hetes szakaszokban, szülő végzi a gyerekkel.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 89,
     "topicNum": 10,
     "topic": "Fejlesztés és intervenció",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Az autista gyermek tanórai támogatásában hatékony stratégiák:",
     "options": [
@@ -1450,13 +1626,15 @@
       2,
       4
     ],
-    "explanation": "A 'c' és 'e' kifejezetten kerülendők: a meglepetés stresszt okoz, a sietés ellehetetleníti a megértést."
+    "explanation": "A 'c' és 'e' kifejezetten kerülendők: a meglepetés stresszt okoz, a sietés ellehetetleníti a megértést.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 90,
     "topicNum": 10,
     "topic": "Fejlesztés és intervenció",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "A KÉK (Könnyen Érthető Kommunikáció) elveinek megfelelő javasolt MENNYI várakozási idő a beszéd előtt és után?",
     "options": [
@@ -1466,13 +1644,15 @@
       "1 perc"
     ],
     "answer": 3,
-    "explanation": "A KÉK elvei között szerepel a 10 másodperces várakozás beszéd előtt és után."
+    "explanation": "A KÉK elvei között szerepel a 10 másodperces várakozás beszéd előtt és után.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 91,
     "topicNum": 10,
     "topic": "Fejlesztés és intervenció",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "tf",
     "question": "Igaz vagy hamis? Az ADHD-ra a viselkedésterápia és a szülőtréning jól kontrolláltan csökkentik az ADHD alaptüneteit (figyelmetlenség, hiperaktivitás-impulzivitás).",
     "options": [
@@ -1480,13 +1660,15 @@
       "Hamis"
     ],
     "answer": false,
-    "explanation": "Nagy (2024) szerint a viselkedésterápia és szülőtréning haszna a tünetek által OKOZOTT funkciókárosodás enyhítésében mutatkozik meg, de az ADHD alaptüneteit önmagukban nem csökkentik."
+    "explanation": "Nagy (2024) szerint a viselkedésterápia és szülőtréning haszna a tünetek által OKOZOTT funkciókárosodás enyhítésében mutatkozik meg, de az ADHD alaptüneteit önmagukban nem csökkentik.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 92,
     "topicNum": 10,
     "topic": "Fejlesztés és intervenció",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Melyik intervenciós módszer a koraszülöttek korai mozgásfejlesztésében az otthon, már csecsemőkortól alkalmazható?",
     "options": [
@@ -1496,13 +1678,15 @@
       "PECS"
     ],
     "answer": 2,
-    "explanation": "A hidroterápia már csecsemőkortól otthon alkalmazható (kádas program), később babaúszással folytatható."
+    "explanation": "A hidroterápia már csecsemőkortól otthon alkalmazható (kádas program), később babaúszással folytatható.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 93,
     "topicNum": 11,
     "topic": "Átfogó, integráló kérdések",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Életkor szerinti illesztés. MELYIK életkorra jellemző a beszédfejlődés MILYEN mérföldköve?",
     "options": [
@@ -1512,13 +1696,15 @@
       "6–8 hó: kategorizációs észlelés kialakulása"
     ],
     "answer": 1,
-    "explanation": "A reduplikatív gügyögés 6–8 hónapos kor körül jelenik meg – ez egy kulcs mérföldkő, hallássérülteknél elmarad."
+    "explanation": "A reduplikatív gügyögés 6–8 hónapos kor körül jelenik meg – ez egy kulcs mérföldkő, hallássérülteknél elmarad.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 94,
     "topicNum": 11,
     "topic": "Átfogó, integráló kérdések",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "single",
     "question": "Egy gyermek 7 éves; ép intelligencia mellett a számolás területén tartós, súlyos elmaradást mutat (számfogalom, alapműveletek), célzott fejlesztés ellenére. Mi a diagnózis a DSM-5 szerint?",
     "options": [
@@ -1528,13 +1714,15 @@
       "ADHD figyelemhiányos altípus"
     ],
     "answer": 2,
-    "explanation": "Ép IQ + tartós, célzott fejlesztés ellenére fennálló matematikai elmaradás = DSM-5 szerinti specifikus tanulási zavar számolási zavarral (diszkalkulia)."
+    "explanation": "Ép IQ + tartós, célzott fejlesztés ellenére fennálló matematikai elmaradás = DSM-5 szerinti specifikus tanulási zavar számolási zavarral (diszkalkulia).",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 95,
     "topicNum": 11,
     "topic": "Átfogó, integráló kérdések",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Az idegrendszer fejlődési zavarai kategóriájába (DSM-5) MELYIK zavarok tartoznak?",
     "options": [
@@ -1552,13 +1740,15 @@
       4,
       6
     ],
-    "explanation": "A generalizált szorongásos zavar a szorongásos zavarok kategóriájába tartozik, nem az idegrendszeri fejlődési zavarokhoz."
+    "explanation": "A generalizált szorongásos zavar a szorongásos zavarok kategóriájába tartozik, nem az idegrendszeri fejlődési zavarokhoz.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 96,
     "topicNum": 11,
     "topic": "Átfogó, integráló kérdések",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Egy 18 hónapos kisfiú esetén az alábbiak közül MELYIK 3 jellemző együttesen igényel kötelezően célzott autizmusvizsgálatot?",
     "options": [
@@ -1568,13 +1758,15 @@
       "Korai szókincs, gyors mozgásfejlődés, könnyű alkalmazkodás"
     ],
     "answer": 2,
-    "explanation": "Klasszikus korai autizmus-jelek: névre nincs reakció, megmutatás hiánya, érdeklődés/öröm megosztásának hiánya – mindhárom M-CHAT kritikus tétel."
+    "explanation": "Klasszikus korai autizmus-jelek: névre nincs reakció, megmutatás hiánya, érdeklődés/öröm megosztásának hiánya – mindhárom M-CHAT kritikus tétel.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 97,
     "topicNum": 11,
     "topic": "Átfogó, integráló kérdések",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "tf",
     "question": "Igaz vagy hamis? A koraszülöttek esetén az MR-tanulmányok szerint az IQ a csökkent szenzomotoros- és középső temporális kéreg térfogatával áll összefüggésben.",
     "options": [
@@ -1582,13 +1774,15 @@
       "Hamis"
     ],
     "answer": true,
-    "explanation": "A csökkent szenzomotoros- és középső temporális kortex térfogat alacsonyabb IQ-val társul koraszülötteknél."
+    "explanation": "A csökkent szenzomotoros- és középső temporális kortex térfogat alacsonyabb IQ-val társul koraszülötteknél.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 98,
     "topicNum": 11,
     "topic": "Átfogó, integráló kérdések",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "multi",
     "question": "Több helyes válasz! Az alábbi szindrómák közül MELYEKBEN gyakori a számolási zavar (diszkalkulia)?",
     "options": [
@@ -1604,13 +1798,15 @@
       3,
       4
     ],
-    "explanation": "Mind a négy ismert szindrómában dokumentált a matematikai/számolási zavar. Az 'e' kitalált disztraktor."
+    "explanation": "Mind a négy ismert szindrómában dokumentált a matematikai/számolási zavar. Az 'e' kitalált disztraktor.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "id": 99,
     "topicNum": 11,
     "topic": "Átfogó, integráló kérdések",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "type": "single",
     "question": "Egy 6 éves kisfiú életkorához képest jelentősen alulteljesít, társas problémái vannak, tanulási nehézségei jelentkeznek. A szakértői bizottság megállapítja: nem értelmi fogyatékos, nem hallássérült, nem autista, nem ADHD-s. MELYIK kategóriába illik leginkább?",
     "options": [
@@ -1620,7 +1816,9 @@
       "Egészséges gyermek"
     ],
     "answer": 2,
-    "explanation": "A BTMN kategória: életkori szinthez képest alulteljesít, társas/tanulási/magatartási problémák, de NEM SNI."
+    "explanation": "A BTMN kategória: életkori szinthez képest alulteljesít, társas/tanulási/magatartási problémák, de NEM SNI.",
+    "category": "konnyu",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
@@ -1636,7 +1834,9 @@
     "answer": 3,
     "explanation": "Enyhe IKZ-ban a társas jelzések (metakommunikáció, mimika, szándéktulajdonítás) észlelése és feldolgozása nehezített.",
     "id": 100,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 2,
@@ -1652,7 +1852,9 @@
     "answer": 2,
     "explanation": "FAS esetén felnőttkorban is jellemző a végrehajtó funkciók zavara, impulzivitás, kriminalitás kockázata és önálló életviteli nehézségek.",
     "id": 101,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
@@ -1671,11 +1873,13 @@
     ],
     "explanation": "Prader-Willi szindróma és Down szindróma esetén az intellektuális fejlődési zavar szinte kivétel nélkül fennáll. ADHD-nál és ASD-nél nem kritérium.",
     "id": 102,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 4,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik állítás igaz a tanulási zavar veszélyeztettség óvodáskori jeleiről?",
     "options": [
@@ -1688,7 +1892,9 @@
     "answer": 4,
     "explanation": "A tanulási zavar korai jelei sokrétűek: egyensúlyzavar, bizonytalan testséma, nagy- és finommozgások koordinációs nehézségei egyaránt szerepelhetnek.",
     "id": 103,
-    "topic": "Tanulási zavarok"
+    "topic": "Tanulási zavarok",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 6,
@@ -1702,7 +1908,9 @@
     "answer": true,
     "explanation": "Alacsony SES, krónikus stressz, elégtelen prenatális gondozás mind növelik a koraszülés kockázatát.",
     "id": 104,
-    "topic": "Koraszülöttség"
+    "topic": "Koraszülöttség",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 8,
@@ -1719,11 +1927,13 @@
     "answer": 5,
     "explanation": "ADHD-hoz igen gyakran társul oppozíciós/conduct zavar, szorongás, tanulási/nyelvi zavar – ezek mind elismert komorbiditások.",
     "id": 105,
-    "topic": "ADHD"
+    "topic": "ADHD",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "Igaz vagy hamis? A pica tápértéket nem képviselő anyagok elfogyasztása minimum 1 hónapon keresztül.",
     "options": [
@@ -1733,11 +1943,13 @@
     "answer": true,
     "explanation": "DSM-5/ICD: pica diagnózisához legalább 1 hónapos fennállás szükséges; 1,5 éves kor felett tekinthető kórosnak.",
     "id": 106,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik IQ-tartomány jellemzi az enyhe értelmi fogyatékosságot?",
     "options": [
@@ -1749,7 +1961,9 @@
     "answer": 2,
     "explanation": "Enyhe IKZ IQ-tartomány: 50–69 (BNO-10: F70, DSM-5: 317).",
     "id": 107,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 5,
@@ -1765,7 +1979,9 @@
     "answer": 4,
     "explanation": "Az ideomotoros diszpraxia lényege, hogy az agy nehezen szervezi meg a szenzomotoros programokat – a mozdulatok tervezése és végrehajtása zavart szenved.",
     "id": 108,
-    "topic": "Szenzoros integráció zavara"
+    "topic": "Szenzoros integráció zavara",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 4,
@@ -1781,11 +1997,13 @@
     "answer": 2,
     "explanation": "A fejlődési diszkalkulia (nem szerzett) az aritmetikai képességek fejlődési zavara; nem nemi alapú, a fejlődési időszakban kezdődik.",
     "id": 109,
-    "topic": "Tanulási zavarok"
+    "topic": "Tanulási zavarok",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 2,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "Igaz vagy hamis? A klasszikus 21-es triszómia (Down-szindróma) kialakulásában az anya vagy apa életmódja döntő szerepet játszik.",
     "options": [
@@ -1795,7 +2013,9 @@
     "answer": false,
     "explanation": "T21 a 21-es kromoszóma véletlenszerű nem-diszjunkciójából ered; az életmód NEM döntő tényező (anyai életkor emeli a kockázatot, de nem az életmód).",
     "id": 110,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 2,
@@ -1812,7 +2032,9 @@
     "answer": 1,
     "explanation": "Rett szindrómát a fejkörfogat-deceleráció (5–48. hó), sztereotip kézmozdulatok (kézcsavarás/mosás) és súlyos kommunikációs deficit együttese jellemzi.",
     "id": 111,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 5,
@@ -1835,11 +2057,13 @@
     ],
     "explanation": "SIZ tünetei: fejlődési apraxia, ideamotoros diszpraxia, féltekei integráció zavara, taktilis diszkrimináció zavara. Az epizódikus memória és a merev viselkedés más zavarokban jellemzők.",
     "id": 112,
-    "topic": "Szenzoros integráció zavara"
+    "topic": "Szenzoros integráció zavara",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik NEM tartozik a DSM-5 szerinti intellektuális képességzavar súlyossági fokozatai közé?",
     "options": [
@@ -1851,7 +2075,9 @@
     "answer": 3,
     "explanation": "DSM-5 négy szintet ismer: enyhe, mérsékelt, súlyos és igen súlyos. A 'kritikus' nem létezik.",
     "id": 113,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 6,
@@ -1865,11 +2091,13 @@
     "answer": true,
     "explanation": "3 hónapos korban ventrális helyzetben az extenzoros tónus fiziológiásan dominál; az extendált végtagtartás az érettség jelzője.",
     "id": 114,
-    "topic": "Koraszülöttség"
+    "topic": "Koraszülöttség",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 4,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Mi a BNO-11 elnevezése a tanulási zavaroknak?",
     "options": [
@@ -1881,11 +2109,13 @@
     "answer": 1,
     "explanation": "BNO-11: 'Fejlődési eredetű tanulási zavar' (6A03 Developmental learning disorder).",
     "id": 115,
-    "topic": "Tanulási zavarok"
+    "topic": "Tanulási zavarok",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "Igaz vagy hamis? A BNO-11-ben az 'értelmi fogyatékosság' helyett a 'disorders of intellectual development' (intellektuális fejlődési zavar) kifejezést használják.",
     "options": [
@@ -1895,7 +2125,9 @@
     "answer": true,
     "explanation": "BNO-11 (2022) az 'intellectual development disorder' terminológiát vezette be.",
     "id": 116,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "type": "matching",
@@ -1947,11 +2179,13 @@
     "question": "Rendszerezd a vizsgálati eljárásokat – melyik eljárás melyik zavarnál alkalmazható?",
     "explanation": "Értelmi fejlődési: Raven, WISC-IV/WPPSI-IV, Bayley III. Diszlexia: SZÓL-E, Meixner. Autizmus: ADOS-2. Diszkalkulia: AKFK. ADHD: Szék-lámpa teszt (MFFT). Nyelvi fejlődés: KOFA.",
     "id": 117,
-    "topic": "Átfogó, integráló kérdések"
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 7,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "A specifikus nyelvfejlődési zavar (DLD/SLI) tünettanára melyik felsorolás igaz?",
     "options": [
@@ -1963,11 +2197,13 @@
     "answer": 4,
     "explanation": "DLD/SLI tünettana komplex: csökkent szókincs, korlátozott mondatszerkezetek és a diskurzus szintjének károsodása egyaránt jellemző.",
     "id": 118,
-    "topic": "Kommunikáció és nyelv zavarai"
+    "topic": "Kommunikáció és nyelv zavarai",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 2,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "A magzati korban az anyai alkoholfogyasztás következménye lehet:",
     "options": [
@@ -1980,7 +2216,9 @@
     "answer": 3,
     "explanation": "Az alkohol a placentán szabadon átjut; következményei: fejlődési lassulás, alacsony születési súly, idegrendszeri károsodás, jellegzetes arcdysmorphia.",
     "id": 119,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 6,
@@ -1996,7 +2234,9 @@
     "answer": 3,
     "explanation": "A reciprok négykézláb mászás tipikusan 8–10 hónapos korban alakul ki.",
     "id": 120,
-    "topic": "Koraszülöttség"
+    "topic": "Koraszülöttség",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 11,
@@ -2018,11 +2258,13 @@
     ],
     "explanation": "Törékeny X, Turner (visuospatialis-matematikai deficit) és Down szindróma esetén dokumentált a számolási zavar. Az elhízás és a Gerstmann szindróma nem tipikus társítás.",
     "id": 121,
-    "topic": "Átfogó, integráló kérdések"
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 2,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Mi az Edwards-szindróma másik elnevezése?",
     "options": [
@@ -2034,7 +2276,9 @@
     "answer": 4,
     "explanation": "Edwards-szindróma = 18-as triszómia. Patau = 13-as; Down = 21-es; Turner = X-monoszómia.",
     "id": 122,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 6,
@@ -2057,11 +2301,13 @@
     ],
     "explanation": "ELBW (<1000 g): PVL, ROP, halláskárosodás és CP jelentős kockázattal bír. Williams és Dandy–Walker genetikai/fejlődési kórkép, nem a koraszülöttségből ered.",
     "id": 123,
-    "topic": "Koraszülöttség"
+    "topic": "Koraszülöttség",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 2,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "A klasszikus Down-szindróma mely kromoszómarendellenesség következménye?",
     "options": [
@@ -2073,7 +2319,9 @@
     "answer": 3,
     "explanation": "Klasszikus Down-szindróma (~95%) = 21-es triszómia, ahol a 21-es kromoszóma minden sejtben háromszor van jelen.",
     "id": 124,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
@@ -2089,11 +2337,13 @@
     "answer": 2,
     "explanation": "Magyar gyógypedagógiai tipológia: 'tanulásban akadályozott' (enyhe IF) és 'értelmileg akadályozott' (mérsékelt–igen súlyos IF).",
     "id": 125,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 2,
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Mi okozza az újszülöttkori absztinencia szindrómát (NAS/NOWS)?",
     "options": [
@@ -2105,7 +2355,9 @@
     "answer": 3,
     "explanation": "NAS akkor alakul ki, ha a magzat méhen belül addiktív szernek (leggyakrabban opiátnak) volt kitéve, majd a megszületés után a szer megvonódik.",
     "id": 126,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
@@ -2129,7 +2381,9 @@
     ],
     "explanation": "Enyhe IKZ (IQ 50–70): nehezített absztrakt gondolkodás, szociális elmaradás, kultúrtechnikák nehézségei. A nagyon korlátozott megértés és a teljes függőség súlyos IKZ jellemzője.",
     "id": 127,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "type": "matching",
@@ -2175,7 +2429,9 @@
     "question": "Párosítsd össze a genetikai szindrómákat a genetikai hátterükkel!",
     "explanation": "Down=T21; Rett=MECP2; Törékeny X=FMR1; Williams-Beuren=7q11.23 del; Prader-Willi=15q11-q13 pat.del/mat.UPD; Turner=45,X.",
     "id": 128,
-    "topic": "Etiológia"
+    "topic": "Etiológia",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "type": "matching",
@@ -2206,7 +2462,9 @@
     "question": "Párosítsd össze a diszlexia típusokat a jellemző hibamintázatukkal!",
     "explanation": "Fonológiai: hang-betű megfeleltetés zavara. Felszíni: egész-szó felismerés zavara, fonetikus hibák. Mély: szemantikai tévesztések (legritkább, legsúlyosabb forma).",
     "id": 129,
-    "topic": "Tanulási zavarok"
+    "topic": "Tanulási zavarok",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "type": "matching",
@@ -2242,7 +2500,9 @@
     "question": "Párosítsd össze az intellektuális képességzavar súlyossági szintjeit a jellemző IQ-tartomány és funkcionális leírással!",
     "explanation": "Enyhe=IQ 50–69; Mérsékelt=IQ 35–49; Súlyos=IQ 20–34; Igen súlyos=IQ<20. A DSM-5 a súlyosságot funkcionálisan (nem IQ alapján) határozza meg, de az IQ-tartományok a BNO-10-ben szerepelnek.",
     "id": 130,
-    "topic": "Intellektuális képességzavar (IKZ)"
+    "topic": "Intellektuális képességzavar (IKZ)",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "type": "matching",
@@ -2283,7 +2543,9 @@
     "question": "Párosítsd össze a fejlődési mérföldköveket a tipikus megjelenési életkorral!",
     "explanation": "Reduplikatív gügyögés: 6–8 hó; első szavak: 10–14 hó; kétszavas mondatok: 18–24 hó; négykézláb mászás: 8–10 hó; önálló járás: 12–15 hó.",
     "id": 131,
-    "topic": "Átfogó, integráló kérdések"
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "type": "matching",
@@ -2319,7 +2581,9 @@
     "question": "Párosítsd össze az autizmus szűrő/diagnosztikai eszközöket a leírásukkal!",
     "explanation": "M-CHAT: 23 tételes szülői szűrőkérdőív (16–30 hó). ADOS-2: félig strukturált közvetlen megfigyelés. ADI-R: strukturált szülői interjú. SCQ: 40 tételes szülői kérdőív (4+).",
     "id": 132,
-    "topic": "Autizmus spektrumzavar"
+    "topic": "Autizmus spektrumzavar",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 133,
@@ -2335,7 +2599,9 @@
       "Neurokognitív zavar"
     ],
     "answer": 2,
-    "explanation": "A DSM-5 az 'intellektuális képességzavar (az értelmi fejlődés zavara)' elnevezést vezette be a korábbi, stigmatizáló 'mentális retardáció' helyett (DSM-5, 2013)."
+    "explanation": "A DSM-5 az 'intellektuális képességzavar (az értelmi fejlődés zavara)' elnevezést vezette be a korábbi, stigmatizáló 'mentális retardáció' helyett (DSM-5, 2013).",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 134,
@@ -2357,18 +2623,22 @@
       3,
       4
     ],
-    "explanation": "A DSM-5 megszüntette az öttengelyes rendszert, átnevezett több kategóriát (pl. mentális retardáció), egységesítette az ASD-t, és dimenzionális elemeket is bevezetett."
+    "explanation": "A DSM-5 megszüntette az öttengelyes rendszert, átnevezett több kategóriát (pl. mentális retardáció), egységesítette az ASD-t, és dimenzionális elemeket is bevezetett.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 135,
     "topicNum": 1,
     "topic": "Bevezetés a fejlődési pszichopatológiába",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "A DC:0-5 rendszer szándékoltan ateoretikus, akárcsak a DSM-5.",
     "options": [],
     "answer": true,
-    "explanation": "Igaz. A DC:0-5 jellemzőiről a diák expliciten kimondják: 'szándékoltan ateoretikus (csakúgy, mint a DSM-5), vagyis nem kapcsolódik specifikus magyarázó teóriákhoz'."
+    "explanation": "Igaz. A DC:0-5 jellemzőiről a diák expliciten kimondják: 'szándékoltan ateoretikus (csakúgy, mint a DSM-5), vagyis nem kapcsolódik specifikus magyarázó teóriákhoz'.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 136,
@@ -2389,7 +2659,9 @@
       2,
       3
     ],
-    "explanation": "A diák három fő epigenetikai mechanizmust emelnek ki: DNS-metiláció, hisztonmódosulások és nem-kódoló RNS-ek. A pontmutáció és a transzlokáció genetikai, nem epigenetikai mechanizmusok."
+    "explanation": "A diák három fő epigenetikai mechanizmust emelnek ki: DNS-metiláció, hisztonmódosulások és nem-kódoló RNS-ek. A pontmutáció és a transzlokáció genetikai, nem epigenetikai mechanizmusok.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 137,
@@ -2405,18 +2677,22 @@
       "~95–100%"
     ],
     "answer": 3,
-    "explanation": "Az etiológia diák szerint az autizmus konkordanciája egypetéjű ikreknél ~60–80%, kétpetéjű ikreknél ~10–30%, ami erős genetikai meghatározottságra utal."
+    "explanation": "Az etiológia diák szerint az autizmus konkordanciája egypetéjű ikreknél ~60–80%, kétpetéjű ikreknél ~10–30%, ami erős genetikai meghatározottságra utal.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 138,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "A poligénes öröklődés azt jelenti, hogy egyetlen, erősen ható gén felelős a fejlődési zavarért.",
     "options": [],
     "answer": false,
-    "explanation": "Hamis. A poligénes öröklődés több, kis hatású gén együttes szerepét jelenti – nem egyetlen gén hatásáról van szó."
+    "explanation": "Hamis. A poligénes öröklődés több, kis hatású gén együttes szerepét jelenti – nem egyetlen gén hatásáról van szó.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 139,
@@ -2432,7 +2708,9 @@
       "Komplex expressszív beszéd általában elsajátítható"
     ],
     "answer": 2,
-    "explanation": "Az igen súlyos szinten a fogalmi készségek a fizikai környezetre irányulnak, szimbolikus folyamatokra nem terjednek ki; a tárgyak célirányos használatára esetenként képesek, de az élet minden területén másokra vannak utalva."
+    "explanation": "Az igen súlyos szinten a fogalmi készségek a fizikai környezetre irányulnak, szimbolikus folyamatokra nem terjednek ki; a tárgyak célirányos használatára esetenként képesek, de az élet minden területén másokra vannak utalva.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 140,
@@ -2454,18 +2732,22 @@
       3,
       4
     ],
-    "explanation": "IKZ-val élő gyermekeknél az érzelmi és viselkedésproblémák, pszichiátriai zavarok háromszor-négyszer gyakoribbak, mint átlagos intelligencia mellett. Társuló zavarok: hangulati, szorongásos, skizofrénia spektrum, demencia, személyiségzavar."
+    "explanation": "IKZ-val élő gyermekeknél az érzelmi és viselkedésproblémák, pszichiátriai zavarok háromszor-négyszer gyakoribbak, mint átlagos intelligencia mellett. Társuló zavarok: hangulati, szorongásos, skizofrénia spektrum, demencia, személyiségzavar.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 141,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "Az önsértő viselkedés (ÖV) IKZ-ban az egyik legzavaróbb és legkárosítóbb viselkedésforma.",
     "options": [],
     "answer": true,
-    "explanation": "Igaz. A diák szerint az önsértő/autoagresszív viselkedés IKZ-ban az egyik legzavaróbb és legkárosítóbb viselkedésforma (Cooper, 2009: 4,9%-os előfordulás)."
+    "explanation": "Igaz. A diák szerint az önsértő/autoagresszív viselkedés IKZ-ban az egyik legzavaróbb és legkárosítóbb viselkedésforma (Cooper, 2009: 4,9%-os előfordulás).",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 142,
@@ -2481,7 +2763,9 @@
       "Nincs lényeges különbség köztük, csak az életkor eltér"
     ],
     "answer": 2,
-    "explanation": "A fejlődési diszlexia gyermekkorban jelenik meg és neurodevelopmentális eredetü; a szerzett diszlexia agysérülés következménye és felnőttkorban alakul ki."
+    "explanation": "A fejlődési diszlexia gyermekkorban jelenik meg és neurodevelopmentális eredetü; a szerzett diszlexia agysérülés következménye és felnőttkorban alakul ki.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 143,
@@ -2503,18 +2787,22 @@
       3,
       4
     ],
-    "explanation": "A diszlexiával együtt járó neuropszichológiai következmények a diák szerint: fonológiai/auditoros folyamatok, szókincs és nyelvi problémák, vizuális-téri folyamatok, rövidtávú és munkamemória zavar, végrehajtó funkciók zavara."
+    "explanation": "A diszlexiával együtt járó neuropszichológiai következmények a diák szerint: fonológiai/auditoros folyamatok, szókincs és nyelvi problémák, vizuális-téri folyamatok, rövidtávú és munkamemória zavar, végrehajtó funkciók zavara.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 144,
     "topicNum": 4,
     "topic": "Tanulási zavarok",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "A fejlődési diszkalkulia normál intelligencia mellett akadályozza az aritmetikai képességek elsajátítását.",
     "options": [],
     "answer": true,
-    "explanation": "Igaz. A Dékány-féle meghatározás szerint a diszkalkulia ép intelligenciaérték mellett, organikus hátterű, szint alatti teljesítmény az aritmetika területén."
+    "explanation": "Igaz. A Dékány-féle meghatározás szerint a diszkalkulia ép intelligenciaérték mellett, organikus hátterű, szint alatti teljesítmény az aritmetika területén.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 145,
@@ -2530,7 +2818,9 @@
       "Fejlődési diszpraxia"
     ],
     "answer": 3,
-    "explanation": "A szenzoros modulációs zavar három altípusa: szenzoros túlérzékenység, szenzoros érzéketlenség/tompaság és szenzoros élménykeresés. A poszturális zavar és a diszpraxia a szenzoros alapú mozgásrendellenességek körébe tartozik."
+    "explanation": "A szenzoros modulációs zavar három altípusa: szenzoros túlérzékenység, szenzoros érzéketlenség/tompaság és szenzoros élménykeresés. A poszturális zavar és a diszpraxia a szenzoros alapú mozgásrendellenességek körébe tartozik.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 146,
@@ -2552,18 +2842,22 @@
       3,
       5
     ],
-    "explanation": "Diszpraxia tünetei óvoda/iskoláskorban: rajzolás és írás problémás, cipőfűzés és gombolás nehéz, labdajátékokban ügyetlenség, lassú munkavégzés, mozgásos feladatok kerülése."
+    "explanation": "Diszpraxia tünetei óvoda/iskoláskorban: rajzolás és írás problémás, cipőfűzés és gombolás nehéz, labdajátékokban ügyetlenség, lassú munkavégzés, mozgásos feladatok kerülése.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 147,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "A szenzoros integráció zavarának esetén mindig egyetlen, jól azonosítható ok áll a háttérben.",
     "options": [],
     "answer": false,
-    "explanation": "Hamis. A diák szerint 'a szenzoros (integráció) zavara esetén nincs egyetlen ok, a háttér gyakran tisztázatlan' – több tényező (genetikai, pre/perinatális, gyermekkori betegségek, agysérülés) állhat mögötte."
+    "explanation": "Hamis. A diák szerint 'a szenzoros (integráció) zavara esetén nincs egyetlen ok, a háttér gyakran tisztázatlan' – több tényező (genetikai, pre/perinatális, gyermekkori betegségek, agysérülés) állhat mögötte.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 148,
@@ -2579,7 +2873,9 @@
       "Intraventrikuláris agyvérzés (IVH)"
     ],
     "answer": 2,
-    "explanation": "A PVL az agykamrák körüli fehérállomány ischaemiás károsodása, és az egyik legfontosabb rizikófaktora a spasztikus diplegiának, amely a cerebrális parézis egyik formája."
+    "explanation": "A PVL az agykamrák körüli fehérállomány ischaemiás károsodása, és az egyik legfontosabb rizikófaktora a spasztikus diplegiának, amely a cerebrális parézis egyik formája.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 149,
@@ -2601,18 +2897,22 @@
       3,
       4
     ],
-    "explanation": "A koraszülöttség hosszú távú következményei: CP (ELBW esetén ~6,1%), tanulási zavarok, ADHD (háromszoros kockázat), fejlődési koordinációs zavar, valamint felnőttkori szív-érrendszeri rizikó és elhízás."
+    "explanation": "A koraszülöttség hosszú távú következményei: CP (ELBW esetén ~6,1%), tanulási zavarok, ADHD (háromszoros kockázat), fejlődési koordinációs zavar, valamint felnőttkori szív-érrendszeri rizikó és elhízás.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 150,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "A koraszülöttség rizikófaktorként szerepel a felnőttkori szív- és érrendszeri betegségek és elhízás kialakulásában.",
     "options": [],
     "answer": true,
-    "explanation": "Igaz. A diák szerint 'a koraszülés tanulási, motoros problémákat, látás- és halláskárosodást okoz, rizikó a felnőttkori szív- és érrendszeri betegségekre, elhízásra'."
+    "explanation": "Igaz. A diák szerint 'a koraszülés tanulási, motoros problémákat, látás- és halláskárosodást okoz, rizikó a felnőttkori szív- és érrendszeri betegségekre, elhízásra'.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 151,
@@ -2628,7 +2928,9 @@
       "Kizárólag az expresszív beszédet érinti, a megértés mindig ép"
     ],
     "answer": 2,
-    "explanation": "A DLD kritériumai közé tartozik az ép szenzórium (ép hallás), negatív neurológiai státusz és normál övezetbe eső nonverbális intelligencia; a zavar ennek ellenére fennáll."
+    "explanation": "A DLD kritériumai közé tartozik az ép szenzórium (ép hallás), negatív neurológiai státusz és normál övezetbe eső nonverbális intelligencia; a zavar ennek ellenére fennáll.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 152,
@@ -2650,18 +2952,22 @@
       4,
       5
     ],
-    "explanation": "A PKZ diagnosztikai kritériumai: kommunikáció társas szándékú használatának nehézsége, helyzethez való igazítás nehézsége, társalgási szabályok követésének nehézsége, nem szó szerinti jelentések megértésének nehézsége, és korai fejlődési kezdet. Az ASD-re jellemző repetitív viselkedések megléte KIZÁRJA a PKZ diagnózist."
+    "explanation": "A PKZ diagnosztikai kritériumai: kommunikáció társas szándékú használatának nehézsége, helyzethez való igazítás nehézsége, társalgási szabályok követésének nehézsége, nem szó szerinti jelentések megértésének nehézsége, és korai fejlődési kezdet. Az ASD-re jellemző repetitív viselkedések megléte KIZÁRJA a PKZ diagnózist.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 153,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "A pragmatikai kommunikációs zavar (PKZ) már a DSM-IV-ben is önálló diagnosztikai kategóriaként szerepelt.",
     "options": [],
     "answer": false,
-    "explanation": "Hamis. A PKZ 2013-ban jelent meg önálló kategóriaként a DSM-5-ben. A DSM-IV szerint még a nem specifikált pervazív fejlődési zavar alá tartozott."
+    "explanation": "Hamis. A PKZ 2013-ban jelent meg önálló kategóriaként a DSM-5-ben. A DSM-IV szerint még a nem specifikált pervazív fejlődési zavar alá tartozott.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 154,
@@ -2677,7 +2983,9 @@
       "Atipikus antipszichotikum"
     ],
     "answer": 2,
-    "explanation": "A metilfenidát (Ritalin) dopamin visszavétel gátló pszichostimuláns. Az atomoxetin ezzel szemben szelektív noradrenalin visszavétel gátló, nem-stimuláns szer."
+    "explanation": "A metilfenidát (Ritalin) dopamin visszavétel gátló pszichostimuláns. Az atomoxetin ezzel szemben szelektív noradrenalin visszavétel gátló, nem-stimuláns szer.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 155,
@@ -2699,18 +3007,22 @@
       3,
       4
     ],
-    "explanation": "Az ADHD kezelése multimodális: gyógyszerek (metilfenidát, atomoxetin), pszichológiai módszerek (viselkedésterápia, szülőtréning, CBT), neurofeedback és pszichoedukáció egyaránt részét képezik."
+    "explanation": "Az ADHD kezelése multimodális: gyógyszerek (metilfenidát, atomoxetin), pszichológiai módszerek (viselkedésterápia, szülőtréning, CBT), neurofeedback és pszichoedukáció egyaránt részét képezik.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 156,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "Az ADHD heritabilitása magas, megközelítőleg 70–80%.",
     "options": [],
     "answer": true,
-    "explanation": "Igaz. A diák szerint az ADHD esetében a heritabilitás 70–80%, amit iker- és adoptációs vizsgálatok egyaránt alátámasztanak."
+    "explanation": "Igaz. A diák szerint az ADHD esetében a heritabilitás 70–80%, amit iker- és adoptációs vizsgálatok egyaránt alátámasztanak.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 157,
@@ -2726,7 +3038,9 @@
       "Az ADHD és az ASD elkülönítő diagnózisára önmagában elegendő"
     ],
     "answer": 2,
-    "explanation": "Az ADOS-2 standardizált, félig strukturált megfigyelési eszköz, amely press-típusú helyzeteket teremt a társas interakciók előhívásához. Nem verbálisaktól a fluens nyelvhasználókig 4 modulja van, és kiváló reliabilitással/validitással rendelkezik, de önmagában nem elégséges az ASD diagnózishoz."
+    "explanation": "Az ADOS-2 standardizált, félig strukturált megfigyelési eszköz, amely press-típusú helyzeteket teremt a társas interakciók előhívásához. Nem verbálisaktól a fluens nyelvhasználókig 4 modulja van, és kiváló reliabilitással/validitással rendelkezik, de önmagában nem elégséges az ASD diagnózishoz.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 158,
@@ -2748,18 +3062,22 @@
       3,
       5
     ],
-    "explanation": "A DSM-5 az autizmus spektrumot egyetlen kategóriában fogja össze az autisztikus diád (szocio-kommunikáció + rugalmatlan viselkedés) alapján, 3 súlyossági fokkal. Az Asperger-szindróma önálló kategóriaként megszűnt."
+    "explanation": "A DSM-5 az autizmus spektrumot egyetlen kategóriában fogja össze az autisztikus diád (szocio-kommunikáció + rugalmatlan viselkedés) alapján, 3 súlyossági fokkal. Az Asperger-szindróma önálló kategóriaként megszűnt.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 159,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "Az autizmus spektrumzavar kizárólag gyermekeket érint; felnőttkorban tünetei megszűnnek.",
     "options": [],
     "answer": false,
-    "explanation": "Hamis. Az autizmus spektrumzavar pervazív és élethosszig fennálló állapot. Tévhit, hogy 'kinőhető' – a felnőtt autistáknak is szükségük lehet megfelelő támogatásra."
+    "explanation": "Hamis. Az autizmus spektrumzavar pervazív és élethosszig fennálló állapot. Tévhit, hogy 'kinőhető' – a felnőtt autistáknak is szükségük lehet megfelelő támogatásra.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 160,
@@ -2775,7 +3093,9 @@
       "Csak intézményes keretek között végezhető, otthon nem alkalmazható"
     ],
     "answer": 2,
-    "explanation": "A Pető-módszer alapgondolata: a központi idegrendszer a károsodások ellenére tartalékokkal rendelkezik; az ép területek bevonásával és a tanulási-tanítási folyamat megfelelő vezérlésével új kapcsolatok építhetők ki."
+    "explanation": "A Pető-módszer alapgondolata: a központi idegrendszer a károsodások ellenére tartalékokkal rendelkezik; az ép területek bevonásával és a tanulási-tanítási folyamat megfelelő vezérlésével új kapcsolatok építhetők ki.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 161,
@@ -2797,18 +3117,22 @@
       3,
       5
     ],
-    "explanation": "Az Ayres-féle szenzoros integrációs terápia 3 éves kortól alkalmazható, egyensúlyfejlesztő és tapintásos játékokat tartalmaz, és a gyermek önszervezési folyamatait, kreatív erőit kívánja felébreszteni aktív, örömteli interakciókon keresztül."
+    "explanation": "Az Ayres-féle szenzoros integrációs terápia 3 éves kortól alkalmazható, egyensúlyfejlesztő és tapintásos játékokat tartalmaz, és a gyermek önszervezési folyamatait, kreatív erőit kívánja felébreszteni aktív, örömteli interakciókon keresztül.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 162,
     "topicNum": 10,
     "topic": "Fejlesztés és intervenció",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "A Katona-féle neurohabilitációs tréninget a szülő végezheti otthon a gyermekkel, napi 4–6 alkalommal 15–30 percben.",
     "options": [],
     "answer": true,
-    "explanation": "Igaz. A diák szerint 'az előírt program napi 4–6 alkalommal 15–30 percben végezhető gyakorlatsor, amit a szülő végez a gyermek állapotától, korától, fejlettségétől függően, egyénre szabottan'."
+    "explanation": "Igaz. A diák szerint 'az előírt program napi 4–6 alkalommal 15–30 percben végezhető gyakorlatsor, amit a szülő végez a gyermek állapotától, korától, fejlettségétől függően, egyénre szabottan'.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 163,
@@ -2824,7 +3148,9 @@
       "DSM-IV-TR (APA, 2000)"
     ],
     "answer": 3,
-    "explanation": "A DC:0-5 (Diagnostic Classification of Mental Health and Developmental Disorders of Infancy and Early Childhood) kifejezetten a csecsemő- és kisgyermekkorra (0–5 év) kidolgozott klasszifikációs rendszer, amelyet a Zero to Three szervezet adott ki 2016-ban."
+    "explanation": "A DC:0-5 (Diagnostic Classification of Mental Health and Developmental Disorders of Infancy and Early Childhood) kifejezetten a csecsemő- és kisgyermekkorra (0–5 év) kidolgozott klasszifikációs rendszer, amelyet a Zero to Three szervezet adott ki 2016-ban.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 164,
@@ -2846,7 +3172,9 @@
       3,
       4
     ],
-    "explanation": "Mindkét zavarban előfordulhat szorongásos komorbiditás, szenzoros nehézség, végrehajtó funkciók zavara és tanulási nehézségek. Mindkettő multifaktoriális: erős genetikai háttér mellett környezeti hatások is szerepet játszanak."
+    "explanation": "Mindkét zavarban előfordulhat szorongásos komorbiditás, szenzoros nehézség, végrehajtó funkciók zavara és tanulási nehézségek. Mindkettő multifaktoriális: erős genetikai háttér mellett környezeti hatások is szerepet játszanak.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 165,
@@ -2883,7 +3211,9 @@
       "DSM-5: Figyelemhiányos/hiperaktivitás zavar",
       "DSM-5: Társas (pragmatikai) kommunikációs zavar",
       "DSM-5: Autizmus spektrum zavar"
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 166,
@@ -2907,7 +3237,9 @@
       4,
       5
     ],
-    "explanation": "A DSM-5 dimenzionális, spektrum-alapú szemléletet vezetett be, új főkategóriával és átnevezett zavarokkal."
+    "explanation": "A DSM-5 dimenzionális, spektrum-alapú szemléletet vezetett be, új főkategóriával és átnevezett zavarokkal.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 167,
@@ -2932,7 +3264,9 @@
       5,
       6
     ],
-    "explanation": "A fejlődési zavarok multifaktoriálisak: genetikai, pre-/peri-/posztnatális, pszichoszociális és epigenetikai tényezők együtt hatnak."
+    "explanation": "A fejlődési zavarok multifaktoriálisak: genetikai, pre-/peri-/posztnatális, pszichoszociális és epigenetikai tényezők együtt hatnak.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 168,
@@ -2956,7 +3290,9 @@
       4,
       5
     ],
-    "explanation": "A Turner-szindrómában az intellektus általában a normál tartományban van; a többi szindrómában az IKZ tipikus."
+    "explanation": "A Turner-szindrómában az intellektus általában a normál tartományban van; a többi szindrómában az IKZ tipikus.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 169,
@@ -2981,7 +3317,9 @@
       5,
       6
     ],
-    "explanation": "IKZ-ban a komorbid pszichiátriai zavarok aránya 3–5x magasabb (kettős diagnózis); minden felsorolt jelentősen gyakoribb."
+    "explanation": "IKZ-ban a komorbid pszichiátriai zavarok aránya 3–5x magasabb (kettős diagnózis); minden felsorolt jelentősen gyakoribb.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 170,
@@ -3006,7 +3344,9 @@
       5,
       6
     ],
-    "explanation": "A diszlexia ritkán fordul elő izoláltan; magas a komorbiditása más fejlődési és szekunder pszichés zavarokkal."
+    "explanation": "A diszlexia ritkán fordul elő izoláltan; magas a komorbiditása más fejlődési és szekunder pszichés zavarokkal.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 171,
@@ -3030,7 +3370,9 @@
       4,
       5
     ],
-    "explanation": "A szenzoros feldolgozási nehézségek a felsorolt neurofejlődési zavarokkal együtt gyakran fordulnak elő, gyermekkori depresszióval nem társulnak közvetlenül."
+    "explanation": "A szenzoros feldolgozási nehézségek a felsorolt neurofejlődési zavarokkal együtt gyakran fordulnak elő, gyermekkori depresszióval nem társulnak közvetlenül.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 172,
@@ -3054,7 +3396,9 @@
       4,
       5
     ],
-    "explanation": "A neonatális rizikótényezők (GA, súly, PVL/IVH, hipoxia) mind növelik a kockázatot; a pszichoszociális környezet jelentősen modulálja a kimenetet."
+    "explanation": "A neonatális rizikótényezők (GA, súly, PVL/IVH, hipoxia) mind növelik a kockázatot; a pszichoszociális környezet jelentősen modulálja a kimenetet.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 173,
@@ -3078,7 +3422,9 @@
       4,
       5
     ],
-    "explanation": "A koraszülöttség minden felsorolt neurofejlődési zavar kockázatát növeli; ellenkező irányú előny nincs."
+    "explanation": "A koraszülöttség minden felsorolt neurofejlődési zavar kockázatát növeli; ellenkező irányú előny nincs.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 174,
@@ -3100,7 +3446,9 @@
       3,
       5
     ],
-    "explanation": "A PKZ az ASD-vel ellentétben szociális motivációt és rugalmasságot megőriz; szenzoros érzékenység nem kritérium."
+    "explanation": "A PKZ az ASD-vel ellentétben szociális motivációt és rugalmasságot megőriz; szenzoros érzékenység nem kritérium.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 175,
@@ -3124,7 +3472,9 @@
       4,
       5
     ],
-    "explanation": "DSM-5: 12 év előtti megjelenés, 6+ tünet, 2+ helyszín, 6+ hónap, funkcionális károsodás. ADHD felnőttkorban is fennállhat."
+    "explanation": "DSM-5: 12 év előtti megjelenés, 6+ tünet, 2+ helyszín, 6+ hónap, funkcionális károsodás. ADHD felnőttkorban is fennállhat.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 176,
@@ -3148,7 +3498,9 @@
       4,
       5
     ],
-    "explanation": "DSM-5: A és B kritérium (szociális+RRB), C (korai megjelenés), D (károsodás); szenzoros sajátosságok a B kritérium része. IQ-kritérium nincs."
+    "explanation": "DSM-5: A és B kritérium (szociális+RRB), C (korai megjelenés), D (károsodás); szenzoros sajátosságok a B kritérium része. IQ-kritérium nincs.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 177,
@@ -3172,7 +3524,9 @@
       4,
       5
     ],
-    "explanation": "ADHD ritkán izolált; gyakori a tanulási, viselkedési, szorongásos, ASD és DCD komorbiditás. A demencia életkor miatt irreleváns."
+    "explanation": "ADHD ritkán izolált; gyakori a tanulási, viselkedési, szorongásos, ASD és DCD komorbiditás. A demencia életkor miatt irreleváns.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 178,
@@ -3196,7 +3550,9 @@
       4,
       5
     ],
-    "explanation": "A végrehajtó funkciók (gátlás, munkamemória, váltás) zavara transzdiagnosztikus jelenség — a felsorolt zavarokban mind jelen van."
+    "explanation": "A végrehajtó funkciók (gátlás, munkamemória, váltás) zavara transzdiagnosztikus jelenség — a felsorolt zavarokban mind jelen van.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 179,
@@ -3218,7 +3574,9 @@
       3,
       4
     ],
-    "explanation": "Az ASD, ADHD, diszlexia és genetikai IKZ heritabilitása magas (70–90%); a pszichoszociálisan kondicionált viselkedészavar környezetfüggő."
+    "explanation": "Az ASD, ADHD, diszlexia és genetikai IKZ heritabilitása magas (70–90%); a pszichoszociálisan kondicionált viselkedészavar környezetfüggő.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 180,
@@ -3264,7 +3622,9 @@
         6
       ]
     ],
-    "explanation": "A DSM-5 a neurofejlődési zavarok főkategórián belül külön alkategóriákba sorolja az egyes zavartípusokat."
+    "explanation": "A DSM-5 a neurofejlődési zavarok főkategórián belül külön alkategóriákba sorolja az egyes zavartípusokat.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 181,
@@ -3310,7 +3670,9 @@
         6
       ]
     ],
-    "explanation": "Minden módszernek megvan a saját elsődleges célterülete; több zavarnál is használhatók, de fő alkalmazási területük eltér."
+    "explanation": "Minden módszernek megvan a saját elsődleges célterülete; több zavarnál is használhatók, de fő alkalmazási területük eltér.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 182,
@@ -3356,7 +3718,9 @@
         6
       ]
     ],
-    "explanation": "Minden eszköz specifikus zavarra vagy területre fókuszál; ismeretük a differenciáldiagnosztika alapja."
+    "explanation": "Minden eszköz specifikus zavarra vagy területre fókuszál; ismeretük a differenciáldiagnosztika alapja.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 183,
@@ -3397,7 +3761,9 @@
         5
       ]
     ],
-    "explanation": "A felismerés időpontját a tünetek megjelenése és az életkori normákhoz mérhetőség határozza meg."
+    "explanation": "A felismerés időpontját a tünetek megjelenése és az életkori normákhoz mérhetőség határozza meg.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 184,
@@ -3443,7 +3809,9 @@
         6
       ]
     ],
-    "explanation": "Az etiológiai csoportok a fejlődési időszak szerint különülnek el; minden csoportnak van paradigmatikus példája."
+    "explanation": "Az etiológiai csoportok a fejlődési időszak szerint különülnek el; minden csoportnak van paradigmatikus példája.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 185,
@@ -3484,7 +3852,9 @@
         5
       ]
     ],
-    "explanation": "A komorbiditások a fejlődési zavarok inkább szabályok, mint kivételek; minden zavarnak van jellegzetes társulási mintázata."
+    "explanation": "A komorbiditások a fejlődési zavarok inkább szabályok, mint kivételek; minden zavarnak van jellegzetes társulási mintázata.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 186,
@@ -3500,7 +3870,9 @@
       "A komorbiditás kizárólag a súlyos IKZ-ban fordul elő"
     ],
     "answer": 2,
-    "explanation": "A fejlődési zavarok komorbiditása rendkívül gyakori — ADHD, ASD, SLD, DCD jelentős átfedést mutatnak; az izolált forma a kivétel."
+    "explanation": "A fejlődési zavarok komorbiditása rendkívül gyakori — ADHD, ASD, SLD, DCD jelentős átfedést mutatnak; az izolált forma a kivétel.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 187,
@@ -3516,7 +3888,9 @@
       "Csak genetikai eredetű lehet"
     ],
     "answer": 2,
-    "explanation": "Transzdiagnosztikus tényezők (pl. végrehajtó funkciók gyengesége, koraszülöttség) több, eltérő zavar közös rizikóját jelentik."
+    "explanation": "Transzdiagnosztikus tényezők (pl. végrehajtó funkciók gyengesége, koraszülöttség) több, eltérő zavar közös rizikóját jelentik.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 188,
@@ -3532,7 +3906,9 @@
       "A két fogalom szinonima, csak az iskolatípustól függ a használatuk"
     ],
     "answer": 2,
-    "explanation": "A 2011. évi CXC. törvény szerint az SNI valamilyen fogyatékossággal vagy súlyos pszichés zavarral küzd; a BTMN szintén különleges bánásmódot igényel, de nem minősül SNI-nek."
+    "explanation": "A 2011. évi CXC. törvény szerint az SNI valamilyen fogyatékossággal vagy súlyos pszichés zavarral küzd; a BTMN szintén különleges bánásmódot igényel, de nem minősül SNI-nek.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 189,
@@ -3548,7 +3924,9 @@
       "A környezet hatása csak felnőttkorban válik meghatározóvá"
     ],
     "answer": 3,
-    "explanation": "Sameroff reciprok tranzakciós modellje szerint a fejlődés valószínűségi, dinamikus, nem-lineáris és komplex folyamat, ahol az egyén és a környezet folyamatosan alakítja egymást."
+    "explanation": "Sameroff reciprok tranzakciós modellje szerint a fejlődés valószínűségi, dinamikus, nem-lineáris és komplex folyamat, ahol az egyén és a környezet folyamatosan alakítja egymást.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 190,
@@ -3570,7 +3948,9 @@
       3,
       4
     ],
-    "explanation": "A klasszifikációs rendszerek 4 fő célja: határok kijelölése, differenciálás, közös nyelv és tesztelhetőség. Az egyéni változatosság elismerése továbbra is fontos."
+    "explanation": "A klasszifikációs rendszerek 4 fő célja: határok kijelölése, differenciálás, közös nyelv és tesztelhetőség. Az egyéni változatosság elismerése továbbra is fontos.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 191,
@@ -3586,7 +3966,9 @@
       "A szűrést csak szakorvos, a nyomon követést bárki végezheti"
     ],
     "answer": 1,
-    "explanation": "Szűrés = rövid, standardizált eszközzel végzett egyszeri azonosítás; nyomon követés = rugalmas, folyamatos longitudinális folyamat (pl. védőnői látogatások)."
+    "explanation": "Szűrés = rövid, standardizált eszközzel végzett egyszeri azonosítás; nyomon követés = rugalmas, folyamatos longitudinális folyamat (pl. védőnői látogatások).",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 192,
@@ -3617,7 +3999,9 @@
         3
       ]
     ],
-    "explanation": "A fejlődési zavarok ellátása három szakaszra bontható: észlelés (1), probléma azonosítás (2), majd a habilitációs/rehabilitációs ellátás (3)."
+    "explanation": "A fejlődési zavarok ellátása három szakaszra bontható: észlelés (1), probléma azonosítás (2), majd a habilitációs/rehabilitációs ellátás (3).",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 193,
@@ -3641,7 +4025,9 @@
       4,
       5
     ],
-    "explanation": "A klinikai kérdésfelvetés alapja: atipikusság, jelleg, súlyosság, időtartam, folyamatosság — ezek vezetnek a megfelelő kliensút tervezéséhez."
+    "explanation": "A klinikai kérdésfelvetés alapja: atipikusság, jelleg, súlyosság, időtartam, folyamatosság — ezek vezetnek a megfelelő kliensút tervezéséhez.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 194,
@@ -3663,7 +4049,9 @@
       3,
       4
     ],
-    "explanation": "A komplex állapotfelmérés négy fő információforrást használ: dokumentum, interjú, megfigyelés, standardizált eszköz."
+    "explanation": "A komplex állapotfelmérés négy fő információforrást használ: dokumentum, interjú, megfigyelés, standardizált eszköz.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 195,
@@ -3679,7 +4067,9 @@
       "Etiológia alapú, nem fenomenológiai"
     ],
     "answer": 2,
-    "explanation": "A DC:0–5 a DSM-5-tel ellentétben kapcsolatfókuszú, fejlődésorientált, többtengelyes; az első öt évre vonatkozik, és érzékenyen differenciál átmeneti nehézségek és igazi zavarok között."
+    "explanation": "A DC:0–5 a DSM-5-tel ellentétben kapcsolatfókuszú, fejlődésorientált, többtengelyes; az első öt évre vonatkozik, és érzékenyen differenciál átmeneti nehézségek és igazi zavarok között.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 196,
@@ -3695,7 +4085,9 @@
       "Szigorúan pszichoanalitikus elméleten alapuló"
     ],
     "answer": 2,
-    "explanation": "„A DSM és a BNO egyértelműen fenomenológia (jelenség) alapú és nem etiológia (kóreredet) alapú klasszifikációs rendszerek.”"
+    "explanation": "„A DSM és a BNO egyértelműen fenomenológia (jelenség) alapú és nem etiológia (kóreredet) alapú klasszifikációs rendszerek.”",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 197,
@@ -3726,7 +4118,9 @@
         3
       ]
     ],
-    "explanation": "A három fő szomatikus triszómia: 21=Down (leggyakoribb, 1:750), 18=Edwards (1:6000), 13=Patau (ritka, 1:10000–21700)."
+    "explanation": "A három fő szomatikus triszómia: 21=Down (leggyakoribb, 1:750), 18=Edwards (1:6000), 13=Patau (ritka, 1:10000–21700).",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 198,
@@ -3742,7 +4136,9 @@
       "Az állatkísérletek általános módszertanát genetikai betegségek esetén"
     ],
     "answer": 3,
-    "explanation": "A magatartás-teratológia a prenatálisan ható kémiai/teratogén anyagok későbbi viselkedéses, idegrendszeri következményeit vizsgálja."
+    "explanation": "A magatartás-teratológia a prenatálisan ható kémiai/teratogén anyagok későbbi viselkedéses, idegrendszeri következményeit vizsgálja.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 199,
@@ -3766,7 +4162,9 @@
       4,
       5
     ],
-    "explanation": "A diasor öt megbízhatóan azonosított fejlődési neurotoxikus ipari vegyi anyagot sorol fel: ólom, metil-higany, arzén, PCB, toluol."
+    "explanation": "A diasor öt megbízhatóan azonosított fejlődési neurotoxikus ipari vegyi anyagot sorol fel: ólom, metil-higany, arzén, PCB, toluol.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 200,
@@ -3790,7 +4188,9 @@
       4,
       5
     ],
-    "explanation": "A FAS tipikus jegyei: növekedési elmaradás, jellegzetes arcjegyek (rövid szemrés, keskeny felső ajak, sima philtrum), kisebb agytérfogat, viselkedési/kognitív deficitek."
+    "explanation": "A FAS tipikus jegyei: növekedési elmaradás, jellegzetes arcjegyek (rövid szemrés, keskeny felső ajak, sima philtrum), kisebb agytérfogat, viselkedési/kognitív deficitek.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 201,
@@ -3814,7 +4214,9 @@
       4,
       5
     ],
-    "explanation": "A NAS főbb tünetcsoportjai: idegrendszeri (sírás, hipertónia, tremor), emésztőrendszeri (étkezési, hányás, hasmenés), légző-keringési (tahipnoé, tahikardia)."
+    "explanation": "A NAS főbb tünetcsoportjai: idegrendszeri (sírás, hipertónia, tremor), emésztőrendszeri (étkezési, hányás, hasmenés), légző-keringési (tahipnoé, tahikardia).",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 202,
@@ -3845,7 +4247,9 @@
         3
       ]
     ],
-    "explanation": "A Down-szindróma három fő formája: klasszikus T21 (95%), mozaik (1–2%), transzlokáció (2–3%) — utóbbi öröklődhet, ezért genetikai tanácsadás javasolt."
+    "explanation": "A Down-szindróma három fő formája: klasszikus T21 (95%), mozaik (1–2%), transzlokáció (2–3%) — utóbbi öröklődhet, ezért genetikai tanácsadás javasolt.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 203,
@@ -3861,7 +4265,9 @@
       "Sztereotip kézmozdulatok és kommunikáció elvesztése"
     ],
     "answer": 2,
-    "explanation": "A Williams-szindrómában a verbális készségek viszonylag jobbak a vizuospaciálisnál; a betegek nyíltak, barátságosak, könnyen kötnek (gyakran felszínes) kapcsolatokat — ez a „koktélparti pszicho”."
+    "explanation": "A Williams-szindrómában a verbális készségek viszonylag jobbak a vizuospaciálisnál; a betegek nyíltak, barátságosak, könnyen kötnek (gyakran felszínes) kapcsolatokat — ez a „koktélparti pszicho”.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 204,
@@ -3885,7 +4291,9 @@
       4,
       5
     ],
-    "explanation": "A szerkezeti kariopátiák átrendeződések (deléció, transzlokáció, inverzió, inszerció, gyűrű, izokromoszóma, törékeny). A triszómia számbeli rendellenesség."
+    "explanation": "A szerkezeti kariopátiák átrendeződések (deléció, transzlokáció, inverzió, inszerció, gyűrű, izokromoszóma, törékeny). A triszómia számbeli rendellenesség.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 205,
@@ -3901,7 +4309,9 @@
       "A DNS bázissorrendjének megváltoztatása (mutáció)"
     ],
     "answer": 4,
-    "explanation": "Az epigenetika a génexpresszió szabályozása a DNS-szekvencia megváltoztatása NÉLKÜL. Fő mechanizmusai: DNS-metiláció, hisztonmódosulások, nem-kódoló RNS-ek."
+    "explanation": "Az epigenetika a génexpresszió szabályozása a DNS-szekvencia megváltoztatása NÉLKÜL. Fő mechanizmusai: DNS-metiláció, hisztonmódosulások, nem-kódoló RNS-ek.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 206,
@@ -3917,7 +4327,9 @@
       "Jellegzetes „manóarc” (koboldarc)"
     ],
     "answer": 2,
-    "explanation": "A Rett-szindróma egyik patognomikus jele a középvonalban mutatkozó sztereotip kézmozdulatok (kézcsavarás, „kézmosás”) megjelenése a célzott kézhasználat elvesztésével párhuzamosan."
+    "explanation": "A Rett-szindróma egyik patognomikus jele a középvonalban mutatkozó sztereotip kézmozdulatok (kézcsavarás, „kézmosás”) megjelenése a célzott kézhasználat elvesztésével párhuzamosan.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 207,
@@ -3941,7 +4353,9 @@
       4,
       5
     ],
-    "explanation": "A diasor öt magatartás-teratogén kategóriát sorol fel: gyógyszerek, élelmiszerek, vegyi anyagok, légszennyezők, hormonok."
+    "explanation": "A diasor öt magatartás-teratogén kategóriát sorol fel: gyógyszerek, élelmiszerek, vegyi anyagok, légszennyezők, hormonok.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 208,
@@ -3957,7 +4371,9 @@
       "A szociális készségek súlyos sérülése folyamatos felügyeletet tesz szükségessé"
     ],
     "answer": 2,
-    "explanation": "Enyhe IKZ-ban a szociális interakciók terén elmaradás tapasztalható, a társas jelzések pontatlan észlelése miatt, de összetettebb feladatokhoz csak részleges segítségre van szükség."
+    "explanation": "Enyhe IKZ-ban a szociális interakciók terén elmaradás tapasztalható, a társas jelzések pontatlan észlelése miatt, de összetettebb feladatokhoz csak részleges segítségre van szükség.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 209,
@@ -3973,7 +4389,9 @@
       "Az evészavarok közül kizárólag az IKZ-ban diagnosztizálható"
     ],
     "answer": 2,
-    "explanation": "A pica diagnosztikai kritériumai: tápértéket nem képviselő anyagok fogyasztása min. 1 hónapon át, kulturálisan nem támogatott, 1,5 éves kor után kóros, fontos a mentális fejlettség figyelembe vétele."
+    "explanation": "A pica diagnosztikai kritériumai: tápértéket nem képviselő anyagok fogyasztása min. 1 hónapon át, kulturálisan nem támogatott, 1,5 éves kor után kóros, fontos a mentális fejlettség figyelembe vétele.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 210,
@@ -3995,7 +4413,9 @@
       3,
       4
     ],
-    "explanation": "Az ÖV heterogén zavar, gyakran kommunikációs vagy érzelemszabályozási funkciót tölt be. Nem mindig biológiai eredetű."
+    "explanation": "Az ÖV heterogén zavar, gyakran kommunikációs vagy érzelemszabályozási funkciót tölt be. Nem mindig biológiai eredetű.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 211,
@@ -4019,7 +4439,9 @@
       4,
       5
     ],
-    "explanation": "Az AAIDD szemléletváltás öt fő eleme: terminológia, támogatásmodell, fejlődési perspektíva, interakció-fókusz, inkluzív szemlélet. Az IQ önmagában már nem elsődleges meghatározó."
+    "explanation": "Az AAIDD szemléletváltás öt fő eleme: terminológia, támogatásmodell, fejlődési perspektíva, interakció-fókusz, inkluzív szemlélet. Az IQ önmagában már nem elsődleges meghatározó.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 212,
@@ -4035,7 +4457,9 @@
       "A két fogalom szinonim"
     ],
     "answer": 2,
-    "explanation": "Hazai sajátosság: a tanulásban akadályozottság (enyhe IKZ) és az értelmi akadályozottság (mérsékelt, súlyos, igen súlyos) — pedagógiai szemléletű csoportosítás."
+    "explanation": "Hazai sajátosság: a tanulásban akadályozottság (enyhe IKZ) és az értelmi akadályozottság (mérsékelt, súlyos, igen súlyos) — pedagógiai szemléletű csoportosítás.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 213,
@@ -4058,7 +4482,9 @@
       3,
       4
     ],
-    "explanation": "A KÉK alapelvei: várakozás, partneri bevonás, valódi érdeklődés, az érintett személy bevonása a szövegkészítésbe. Kerülendő: túl sok kérdés, csak igen-nem kérdés, ismételgetés."
+    "explanation": "A KÉK alapelvei: várakozás, partneri bevonás, valódi érdeklődés, az érintett személy bevonása a szövegkészítésbe. Kerülendő: túl sok kérdés, csak igen-nem kérdés, ismételgetés.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 214,
@@ -4080,7 +4506,9 @@
       3,
       4
     ],
-    "explanation": "Az AAIDD-féle támogatási szükségleti osztályozás 4 kategóriát különböztet meg: időszakos, korlátozott, kiterjedt, pervazív."
+    "explanation": "Az AAIDD-féle támogatási szükségleti osztályozás 4 kategóriát különböztet meg: időszakos, korlátozott, kiterjedt, pervazív.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 215,
@@ -4096,7 +4524,9 @@
       "Csak az autizmus spektrumzavarban fordul elő"
     ],
     "answer": 3,
-    "explanation": "A sztereotip mozgások nem célszerű, ritmusos, ismétlődő mozgások; lehetnek nem veszélyesek (ringatás, hajcsavargatás) vagy önveszélyesek (fej ütögetése, harapdálás). Különösen jellemzők pl. Rett-szindrómában, autizmusban."
+    "explanation": "A sztereotip mozgások nem célszerű, ritmusos, ismétlődő mozgások; lehetnek nem veszélyesek (ringatás, hajcsavargatás) vagy önveszélyesek (fej ütögetése, harapdálás). Különösen jellemzők pl. Rett-szindrómában, autizmusban.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 216,
@@ -4112,7 +4542,9 @@
       "A két fogalom szinonim"
     ],
     "answer": 1,
-    "explanation": "A részképességzavar (pl. hallási differenciálás, alak-tér észlelés, testérzékelés) egy-egy területet érint; a komplex tanulási zavar az olvasás, írás, számolás zavara, neurológiai funkciózavar talaján."
+    "explanation": "A részképességzavar (pl. hallási differenciálás, alak-tér észlelés, testérzékelés) egy-egy területet érint; a komplex tanulási zavar az olvasás, írás, számolás zavara, neurológiai funkciózavar talaján.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 217,
@@ -4168,7 +4600,9 @@
         8
       ]
     ],
-    "explanation": "A különböző diagnosztikus eljárások specifikus területet mérnek; ezek felismerése a differenciáldiagnosztika alapja a tanulási zavaroknál."
+    "explanation": "A különböző diagnosztikus eljárások specifikus területet mérnek; ezek felismerése a differenciáldiagnosztika alapja a tanulási zavaroknál.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 218,
@@ -4204,7 +4638,9 @@
         4
       ]
     ],
-    "explanation": "Desoete (2006) négy diszkalkulia altípust ír le, mindegyiknek jellegzetes kognitív profilja van."
+    "explanation": "Desoete (2006) négy diszkalkulia altípust ír le, mindegyiknek jellegzetes kognitív profilja van.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 219,
@@ -4226,7 +4662,9 @@
       3,
       4
     ],
-    "explanation": "A diszlexia négy fő elsődleges hibázási módja: elízió, szubsztitúció, permutáció, addíció."
+    "explanation": "A diszlexia négy fő elsődleges hibázási módja: elízió, szubsztitúció, permutáció, addíció.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 220,
@@ -4246,7 +4684,9 @@
       2,
       3
     ],
-    "explanation": "A diszgráfia három fő megnyilvánulása: ortográfiai, motoros (grafomotoros) és nyelvi-szövegalkotási. Az olvasott szöveg megértése a diszlexia területe."
+    "explanation": "A diszgráfia három fő megnyilvánulása: ortográfiai, motoros (grafomotoros) és nyelvi-szövegalkotási. Az olvasott szöveg megértése a diszlexia területe.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 221,
@@ -4271,7 +4711,9 @@
       5,
       6
     ],
-    "explanation": "A diasor számolási zavarokat összefüggésbe hozza az alábbi szindrómákkal: Gerstmann, Williams, törékeny X, Turner, Down, anyagcserezavar, velocardiofacial, jobb agyfélteke."
+    "explanation": "A diasor számolási zavarokat összefüggésbe hozza az alábbi szindrómákkal: Gerstmann, Williams, törékeny X, Turner, Down, anyagcserezavar, velocardiofacial, jobb agyfélteke.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 222,
@@ -4295,7 +4737,9 @@
       4,
       5
     ],
-    "explanation": "A diszlexia komplex neuropszichológiai háttere: fonológiai tudatosság, RAN, fluencia, perceptuális feldolgozás, figyelmi/idői sajátosságok. Nem szemészeti probléma!"
+    "explanation": "A diszlexia komplex neuropszichológiai háttere: fonológiai tudatosság, RAN, fluencia, perceptuális feldolgozás, figyelmi/idői sajátosságok. Nem szemészeti probléma!",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 223,
@@ -4317,7 +4761,9 @@
       3,
       4
     ],
-    "explanation": "A diszlexia prevenció négy fő készségfejlesztési területet érint: mozgás, testtudat/téri orientáció, percepció, beszéd. Az algebra nem szerepel."
+    "explanation": "A diszlexia prevenció négy fő készségfejlesztési területet érint: mozgás, testtudat/téri orientáció, percepció, beszéd. Az algebra nem szerepel.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 224,
@@ -4333,7 +4779,9 @@
       "Szemészeti rendellenesség (látáskorrekció hiánya)"
     ],
     "answer": 2,
-    "explanation": "Az IDA (2002) definíciója: a diszlexia neurobiológiai eredetű, specifikus tanulási zavar; a nehézségek tipikusan a fonológiai komponens deficitjéből erednek."
+    "explanation": "Az IDA (2002) definíciója: a diszlexia neurobiológiai eredetű, specifikus tanulási zavar; a nehézségek tipikusan a fonológiai komponens deficitjéből erednek.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 225,
@@ -4349,13 +4797,15 @@
       "Specifikus tanulási zavar"
     ],
     "answer": 3,
-    "explanation": "A BNO-11-ben (Disorders of intellectual development, ill. tanulási zavarok 6A03) az új elnevezés: „Fejlődési eredetű tanulási zavar”."
+    "explanation": "A BNO-11-ben (Disorders of intellectual development, ill. tanulási zavarok 6A03) az új elnevezés: „Fejlődési eredetű tanulási zavar”.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 226,
     "topicNum": 1,
     "topic": "Bevezetés a fejlődési pszichopatológiába",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik NEM tartozik a DSM-5 szerinti intellektuális képességzavar súlyossági fokozatai közé?",
     "options": [
@@ -4365,7 +4815,9 @@
       "Súlyos"
     ],
     "answer": 3,
-    "explanation": "A DSM-5 négy súlyossági szintet különít el: enyhe, mérsékelt, súlyos, igen súlyos. „Kritikus” nem szerepel."
+    "explanation": "A DSM-5 négy súlyossági szintet különít el: enyhe, mérsékelt, súlyos, igen súlyos. „Kritikus” nem szerepel.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 227,
@@ -4376,13 +4828,15 @@
     "question": "IGAZ vagy HAMIS? A BNO-11-ben az „értelmi fogyatékosság” helyett a „disorders of intellectual development” (intellektuális fejlődési zavar) kifejezést használják.",
     "options": [],
     "answer": true,
-    "explanation": "A BNO-11 új terminológiája az „intellektuális fejlődési zavarok”, ami a kevésbé stigmatizáló, fejlődésorientált szemléletet tükrözi."
+    "explanation": "A BNO-11 új terminológiája az „intellektuális fejlődési zavarok”, ami a kevésbé stigmatizáló, fejlődésorientált szemléletet tükrözi.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 228,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Mi az Edwards-szindróma másik elnevezése?",
     "options": [
@@ -4392,7 +4846,9 @@
       "Triszómia 18"
     ],
     "answer": 4,
-    "explanation": "Az Edwards-szindróma a 18-as kromoszóma számbeli anomáliája (18-as triszómia). 21=Down, 13=Patau."
+    "explanation": "Az Edwards-szindróma a 18-as kromoszóma számbeli anomáliája (18-as triszómia). 21=Down, 13=Patau.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 229,
@@ -4408,13 +4864,15 @@
       "Koraszülöttségből eredő fejlődési zavar"
     ],
     "answer": 3,
-    "explanation": "A NAS oka, hogy a magzat méhen belül addiktív szereknek (leggyakrabban opioidoknak, de alkoholnak, nikotinnak is) van kitéve, és a születés után megvonási tüneteket él át."
+    "explanation": "A NAS oka, hogy a magzat méhen belül addiktív szereknek (leggyakrabban opioidoknak, de alkoholnak, nikotinnak is) van kitéve, és a születés után megvonási tüneteket él át.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 230,
     "topicNum": 2,
     "topic": "Etiológia",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "A klasszikus Down-szindróma mely kromoszómaprobléma következménye?",
     "options": [
@@ -4424,7 +4882,9 @@
       "A 18-as kromoszóma triplázódása"
     ],
     "answer": 3,
-    "explanation": "A klasszikus Down-szindróma a 21-es kromoszóma triplázódása az összes testi sejtben (T21, 47,XX/XY,+21) — a Down-szindrómás esetek kb. 95%-a."
+    "explanation": "A klasszikus Down-szindróma a 21-es kromoszóma triplázódása az összes testi sejtben (T21, 47,XX/XY,+21) — a Down-szindrómás esetek kb. 95%-a.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 231,
@@ -4435,7 +4895,9 @@
     "question": "IGAZ vagy HAMIS? A klasszikus 21-es triszómia (T21) kialakulásában az anya vagy az apa életmódja döntő szerepet játszik.",
     "options": [],
     "answer": false,
-    "explanation": "A klasszikus T21 kialakulását sem az anya, sem az apa életmódja nem befolyásolja; az életkor (különösen anyai 35 év felett) viszont rizikófaktor."
+    "explanation": "A klasszikus T21 kialakulását sem az anya, sem az apa életmódja nem befolyásolja; az életkor (különösen anyai 35 év felett) viszont rizikófaktor.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 232,
@@ -4457,13 +4919,15 @@
       3,
       4
     ],
-    "explanation": "Az alkohol az idegsejtek fejlődését és migrációját szakítja meg, lelassult fejlődést, alacsony születési súlyt, fejletlen idr-i fejlődést és gyakoribb vetélést okoz."
+    "explanation": "Az alkohol az idegsejtek fejlődését és migrációját szakítja meg, lelassult fejlődést, alacsony születési súlyt, fejletlen idr-i fejlődést és gyakoribb vetélést okoz.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 233,
     "topicNum": 3,
     "topic": "Intellektuális képességzavar (IKZ)",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik IQ-tartomány jellemzi az enyhe értelmi fogyatékosságot (enyhe IKZ)?",
     "options": [
@@ -4473,7 +4937,9 @@
       "20–34"
     ],
     "answer": 2,
-    "explanation": "A DSM-5 / BNO-10 szerint az enyhe IKZ IQ-tartománya 50–69 (F70). 35–49 = középsúlyos, 20–34 = súlyos, 20 alatt = igen súlyos."
+    "explanation": "A DSM-5 / BNO-10 szerint az enyhe IKZ IQ-tartománya 50–69 (F70). 35–49 = középsúlyos, 20–34 = súlyos, 20 alatt = igen súlyos.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 234,
@@ -4496,7 +4962,9 @@
       3,
       4
     ],
-    "explanation": "Enyhe IKZ jellemzői (IQ 50–69): kultúrtechnikák elsajátítása nehezített, absztrakt gondolkodás zavart, szociális elmaradás. A korlátozott gesztusértés és teljes ráutaltság a súlyos/igen súlyos IKZ-t jellemzi."
+    "explanation": "Enyhe IKZ jellemzői (IQ 50–69): kultúrtechnikák elsajátítása nehezített, absztrakt gondolkodás zavart, szociális elmaradás. A korlátozott gesztusértés és teljes ráutaltság a súlyos/igen súlyos IKZ-t jellemzi.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 235,
@@ -4520,7 +4988,9 @@
       4,
       5
     ],
-    "explanation": "Óvodáskori tanulási zavar veszélyeztetettségi jelek: egyensúly, testséma/téri orientáció, dominancia, mozgáskoordináció, ceruzafogás problémái — a megfelelő szókincs/nyelvi készség nem rizikójel."
+    "explanation": "Óvodáskori tanulási zavar veszélyeztetettségi jelek: egyensúly, testséma/téri orientáció, dominancia, mozgáskoordináció, ceruzafogás problémái — a megfelelő szókincs/nyelvi készség nem rizikójel.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 236,
@@ -4536,7 +5006,9 @@
       "Felnőttkorban jelenik meg, agysérülés miatt"
     ],
     "answer": 2,
-    "explanation": "A fejlődési diszkalkulia gyermekkorban kezdődő, sérülés nélkül fennálló tanulási zavar; a normál intelligencia mellett az aritmetikai képességek elsajátítását akadályozza."
+    "explanation": "A fejlődési diszkalkulia gyermekkorban kezdődő, sérülés nélkül fennálló tanulási zavar; a normál intelligencia mellett az aritmetikai képességek elsajátítását akadályozza.",
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 237,
@@ -4551,7 +5023,9 @@
       "Kizárólag a finommotoros készségeket érinti, a nagymozgások épek",
       "Elsősorban a látási feldolgozás és a téri tájékozódás zavara"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 238,
@@ -4572,7 +5046,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 239,
@@ -4587,20 +5063,24 @@
       "Szenzoros diszkriminációs zavar",
       "Szenzoros élménykeresés"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 240,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "IGAZ vagy HAMIS? A szenzoros integráció zavara önálló, önállóan kódolható diagnosztikai kategória a DSM-5-ben.",
     "options": [
       "Igaz",
       "Hamis"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 241,
@@ -4636,13 +5116,15 @@
         4
       ]
     ],
-    "options": []
+    "options": [],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 242,
     "topicNum": 5,
     "topic": "Szenzoros integráció zavara",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Ki dolgozta ki a szenzoros integráció neuropszichológiai elméletének alapjait és a szenzoros integrációs terápiát?",
     "options": [
@@ -4651,7 +5133,9 @@
       "Lev Vigotszkij",
       "Arnold Gesell"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 243,
@@ -4672,13 +5156,15 @@
       2,
       3,
       5
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 244,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Mit jelent a korrigált életkor fogalma koraszülötteknél, és meddig alkalmazzák?",
     "options": [
@@ -4687,7 +5173,9 @@
       "A kognitív teljesítmény korrekciója IQ-teszteknél, 5 éves korig",
       "A szenzoros fejlettség normalizálása inkubátoros kezelés ideje alapján"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 245,
@@ -4702,7 +5190,9 @@
       "A periventrikuláris fehérállomány ischaemiás károsodása az agykamrák körül, a spasztikus diplegia egyik legfontosabb rizikófaktora",
       "A retina kóros érképződése koraszülötteknél (ROP)"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 246,
@@ -4723,7 +5213,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 247,
@@ -4738,7 +5230,9 @@
       "A vérzés agykamratágulatot okoz, hydrocephalus kialakulása miatt shunt beépítése válhat szükségessé",
       "A vér áttöri a kamra falát és a körülvevő idegszövetbe kerül, a legmagasabb mortalitással"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 248,
@@ -4774,7 +5268,9 @@
         4
       ]
     ],
-    "options": []
+    "options": [],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 249,
@@ -4795,13 +5291,15 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 250,
     "topicNum": 6,
     "topic": "Koraszülöttség",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "A hazai irányelv szerint hány gesztációs héttől és hány grammos születési súlytól tekintendő életképesnek a koraszülött?",
     "options": [
@@ -4810,7 +5308,9 @@
       "24. hét, 500 g",
       "28. hét, 1000 g"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 251,
@@ -4823,7 +5323,9 @@
       "Igaz",
       "Hamis"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 252,
@@ -4838,7 +5340,9 @@
       "Az ASD-ben nem jelennek meg pragmatikai nehézségek",
       "A PKZ kizárólag felnőtteknél diagnosztizálható"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 253,
@@ -4858,13 +5362,15 @@
       1,
       2,
       3
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 254,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik szűrőeszközt alkalmazzák 8–30 hónapos gyermekek korai kommunikációs fejlődésének szülői kérdőíves mérésére?",
     "options": [
@@ -4873,7 +5379,9 @@
       "MacArthur–Bates Kommunikatív Fejlődési Adattár (KOFA / CDI)",
       "TROG-H (Nyelvtani Szerkezetek Megértése Teszt)"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 255,
@@ -4888,7 +5396,9 @@
       "A fejlődési diszfázia régebbi elnevezés; a BNO-11 és a modern szakirodalom fejlődési nyelvi zavar (DLD) névvel illeti",
       "Ép hallás esetén nem lehetséges, ezért a hallásszűrés kizárja"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 256,
@@ -4909,7 +5419,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 257,
@@ -4945,20 +5457,24 @@
         4
       ]
     ],
-    "options": []
+    "options": [],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 258,
     "topicNum": 7,
     "topic": "Kommunikáció és nyelv zavarai",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "IGAZ vagy HAMIS? A pragmatikai kommunikációs zavar (PKZ) már a DSM-IV-ben is önálló diagnosztikai kategóriaként szerepelt.",
     "options": [
       "Igaz",
       "Hamis"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 259,
@@ -4973,7 +5489,9 @@
       "6A01.2",
       "6A01.3"
     ],
-    "answer": 1
+    "answer": 1,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 260,
@@ -4988,7 +5506,9 @@
       "Kizárólag a dopaminerg rendszer globális hipoaktivitásán alapul, noradrenerg komponens nélkül",
       "Gyermekeknél nem validált modell, csak felnőtt ADHD esetén alkalmazható"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 261,
@@ -5009,7 +5529,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 262,
@@ -5024,13 +5546,15 @@
       "Túlnyomórészt impulzív-agresszív megjelenési forma",
       "Túlnyomórészt hiperaktív/impulzív megjelenési forma"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 263,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik gyógyszer az ADHD kezelésében alkalmazott pszichostimuláns hatóanyag?",
     "options": [
@@ -5039,20 +5563,24 @@
       "Risperidon — atípusos antipszichotikum",
       "Haloperidol — tipikus antipszichotikum"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 264,
     "topicNum": 8,
     "topic": "ADHD",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "IGAZ vagy HAMIS? Az ADHD heritabilitása 70–80% közötti, amelyet iker- és adoptációs vizsgálatok is alátámasztanak.",
     "options": [
       "Igaz",
       "Hamis"
     ],
-    "answer": 1
+    "answer": 1,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 265,
@@ -5073,7 +5601,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 266,
@@ -5109,13 +5639,15 @@
         4
       ]
     ],
-    "options": []
+    "options": [],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 267,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Mi az autisztikus diád (DSM-5 definíció szerint)?",
     "options": [
@@ -5124,7 +5656,9 @@
       "Receptív + expresszív nyelvi zavar kombinációja",
       "Szenzoros feldolgozás zavara + végrehajtó funkciók zavara"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 268,
@@ -5139,7 +5673,9 @@
       "Strukturált heteroanamnesztikus szülői interjú a fejlődéstörténet feltérképezésére (ADI-R)",
       "Genetikai szűrővizsgálat autizmus spektrum zavarban"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 269,
@@ -5160,13 +5696,15 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 270,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "single",
     "question": "Melyik állítás igaz az autizmus prevalenciájáról és nemek közti arányáról?",
     "options": [
@@ -5175,20 +5713,24 @@
       "Prevalenciája 1–2%, a fiú:lány arány megközelítőleg 3–4:1",
       "Magyarország prevalenciája meghaladja az USA-ban mért 2,8%-ot"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 271,
     "topicNum": 9,
     "topic": "Autizmus spektrumzavar",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "type": "tf",
     "question": "IGAZ vagy HAMIS? Az autizmus egy életen át fennálló állapot — a tünetek felnőttkorban nem tűnnek el, bár a klinikai kép változhat.",
     "options": [
       "Igaz",
       "Hamis"
     ],
-    "answer": 1
+    "answer": 1,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 272,
@@ -5209,7 +5751,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 273,
@@ -5245,7 +5789,9 @@
         4
       ]
     ],
-    "options": []
+    "options": [],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 274,
@@ -5260,7 +5806,9 @@
       "Nincs egyetlen olyan tünet, amely önmagában igazolná vagy kizárná az ASD diagnózist; multidiszciplináris team, hossz- és keresztmetszeti kép szükséges",
       "A diagnózis felállításához elegendő a szülői kérdőív (M-CHAT) pozitív eredménye"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 275,
@@ -5275,7 +5823,9 @@
       "Koraszülöttség és ADHD között nincs bizonyított összefüggés",
       "ADHD kockázata csak ELBW (<1000g) koraszülötteknél emelkedett"
     ],
-    "answer": 2
+    "answer": 2,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 276,
@@ -5296,7 +5846,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 277,
@@ -5332,7 +5884,9 @@
         4
       ]
     ],
-    "options": []
+    "options": [],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 278,
@@ -5347,7 +5901,9 @@
       "Autizmus spektrumzavar (ASD)",
       "Szenzoros integráció zavara"
     ],
-    "answer": 3
+    "answer": 3,
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 279,
@@ -5368,7 +5924,9 @@
       2,
       3,
       4
-    ]
+    ],
+    "category": "uj",
+    "vizsgakerdes": false
   },
   {
     "id": 280,
@@ -5383,6 +5941,8 @@
       "A fejlődési diszlexia már csecsemőkorban megbízhatóan azonosítható olvasási tesztekkel",
       "A szenzoros integráció zavara csak iskoláskorban diagnosztizálható"
     ],
-    "answer": 1
+    "answer": 1,
+    "category": "uj",
+    "vizsgakerdes": false
   }
 ]

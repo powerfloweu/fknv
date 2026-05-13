@@ -13,10 +13,14 @@ type Q = {
   explanation: string;
   leftItems?: string[];
   rightItems?: string[];
+  category?: "uj" | "konnyu";
+  vizsgakerdes?: boolean;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
 const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű" };
+const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2" };
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -123,12 +127,16 @@ function QaVizsga() {
   const router = useRouter();
   const topicFilter = params.get("topic") ? Number(params.get("topic")) : null;
   const diffFilter = params.get("diff") || null;
+  const onlyUj = params.get("uj") === "1";
+  const onlyVizsga = params.get("vizsga") === "1";
   const count = Number(params.get("count") || 20);
 
   const [questions] = useState<Q[]>(() => {
     const pool = (questionsRaw as unknown as Q[]).filter((q) => {
       if (topicFilter && q.topicNum !== topicFilter) return false;
       if (diffFilter && q.difficulty !== diffFilter) return false;
+      if (onlyUj && q.category !== "uj") return false;
+      if (onlyVizsga && !q.vizsgakerdes) return false;
       return true;
     });
     return shuffle(pool).slice(0, count).map(shuffleOptions);
@@ -243,7 +251,13 @@ function QaVizsga() {
           <div style={{ height: "100%", background: "linear-gradient(90deg,#f97316,#ec4899)", borderRadius: 3, width: `${(current / questions.length) * 100}%`, transition: "width 0.3s" }} />
         </div>
 
-        <div style={{ display: "flex", justifyContent: "center", gap: 6, marginBottom: 12 }}>
+        <div style={{ display: "flex", justifyContent: "center", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
+          {q.category && (
+            <span style={{ background: catColor[q.category], color: "white", fontSize: 12, padding: "3px 8px", borderRadius: 999, fontWeight: 600 }}>{catLabel[q.category]}</span>
+          )}
+          {q.vizsgakerdes && (
+            <span style={{ background: "#1d4ed8", color: "white", fontSize: 12, padding: "3px 8px", borderRadius: 999, fontWeight: 600 }}>Vizsgakérdés</span>
+          )}
           <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 12, padding: "3px 8px", borderRadius: 999, fontWeight: 600 }}>{diffLabel[q.difficulty]}</span>
           <span style={{ background: "#f3f4f6", color: "#374151", fontSize: 12, padding: "3px 8px", borderRadius: 999 }}>{q.topicNum}. {q.topic}</span>
         </div>

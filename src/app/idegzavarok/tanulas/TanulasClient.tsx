@@ -14,11 +14,15 @@ export type Q = {
   explanation: string;
   leftItems?: string[];
   rightItems?: string[];
+  category?: "uj" | "konnyu";
+  vizsgakerdes?: boolean;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
 const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
 const typeLabel: Record<string, string> = { single: "Egy helyes", multi: "Több helyes", tf: "Igaz/Hamis", matching: "Párosítás" };
+const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű" };
+const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2" };
 
 export default function TanulasClient({
   questions,
@@ -31,6 +35,7 @@ export default function TanulasClient({
   const [topicFilter, setTopicFilter] = useState<number | "">("");
   const [diffFilter, setDiffFilter] = useState("");
   const [typeFilter, setTypeFilter] = useState("");
+  const [catFilter, setCatFilter] = useState<"" | "uj" | "konnyu" | "vizsga">("");
   const [search, setSearch] = useState("");
   const [hideAnswer, setHideAnswer] = useState(false);
   const [page, setPage] = useState(1);
@@ -41,13 +46,16 @@ export default function TanulasClient({
       if (topicFilter !== "" && q.topicNum !== topicFilter) return false;
       if (diffFilter && q.difficulty !== diffFilter) return false;
       if (typeFilter && q.type !== typeFilter) return false;
+      if (catFilter === "uj" && q.category !== "uj") return false;
+      if (catFilter === "konnyu" && q.category !== "konnyu") return false;
+      if (catFilter === "vizsga" && !q.vizsgakerdes) return false;
       if (search) {
         const s = search.toLowerCase();
         if (!q.question.toLowerCase().includes(s) && !String(q.id).includes(s)) return false;
       }
       return true;
     });
-  }, [questions, topicFilter, diffFilter, typeFilter, search]);
+  }, [questions, topicFilter, diffFilter, typeFilter, catFilter, search]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
   const paginated = filtered.slice((page - 1) * pageSize, page * pageSize);
@@ -150,6 +158,16 @@ export default function TanulasClient({
                 <option value="multi">Több helyes</option>
                 <option value="tf">Igaz/Hamis</option>
               </select>
+              <select
+                value={catFilter}
+                onChange={(e) => { setCatFilter(e.target.value as "" | "uj" | "konnyu" | "vizsga"); resetPage(); }}
+                style={{ padding: "8px 12px", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
+              >
+                <option value="">Minden kategória</option>
+                <option value="uj">Új!</option>
+                <option value="konnyu">Könnyű</option>
+                <option value="vizsga">Vizsgakérdés</option>
+              </select>
               <label style={{ display: "flex", alignItems: "center", gap: 6, padding: "6px 12px", background: "#fef3c7", borderRadius: 8, fontSize: 13, color: "#92400e", fontWeight: 500, cursor: "pointer" }}>
                 <input type="checkbox" checked={hideAnswer} onChange={(e) => setHideAnswer(e.target.checked)} />
                 Válasz elrejtése
@@ -165,7 +183,17 @@ export default function TanulasClient({
                       <span style={{ color: "#b45309", marginRight: 6 }}>{q.id}.</span>
                       {q.question}
                     </div>
-                    <div style={{ display: "flex", gap: 5, flexShrink: 0 }}>
+                    <div style={{ display: "flex", gap: 5, flexShrink: 0, flexWrap: "wrap", justifyContent: "flex-end" }}>
+                      {q.category && (
+                        <span style={{ background: catColor[q.category], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                          {catLabel[q.category]}
+                        </span>
+                      )}
+                      {q.vizsgakerdes && (
+                        <span style={{ background: "#1d4ed8", color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                          Vizsgakérdés
+                        </span>
+                      )}
                       <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                         {diffLabel[q.difficulty]}
                       </span>
