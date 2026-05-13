@@ -5944,5 +5944,360 @@
     "answer": 1,
     "category": "uj",
     "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a Down-szindróma három formáját a rájuk jellemző tulajdonsággal!",
+    "options": [],
+    "leftItems": [
+      "Klasszikus (szabad) 21-es triszómia",
+      "Mozaikos Down-szindróma",
+      "Transzlokációs Down-szindróma"
+    ],
+    "rightItems": [
+      "A leggyakoribb (~95%); minden sejtben jelen van; nem öröklődik, szülői életmód nem befolyásolja",
+      "Az esetek 1–2%-a; csak a sejtek egy részében jelenik meg a triplázódás; tipikusan enyhébb tünetek",
+      "Az esetek 2–3%-a; a 21-es kromoszóma egy másik kromoszómához (pl. 14-eshez) kapcsolódik; öröklődhet"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "Klasszikus (95%) – szabad T21; mozaikos (1–2%) – csak sejtek egy részében; transzlokációs (2–3%) – öröklődhet.",
+    "id": 281,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Melyik Down-szindróma forma örökölhető a szülőktől, ezért családon belül halmozódhat?",
+    "options": [
+      "Klasszikus (szabad) 21-es triszómia",
+      "Mozaikos Down-szindróma",
+      "Transzlokációs Down-szindróma",
+      "Egyik forma sem örökölhető"
+    ],
+    "answer": 3,
+    "explanation": "Csak a transzlokációs forma örökölhető (a 21-es egy másik kromoszómához – pl. 14-hez – kapcsolódik). A klasszikus és mozaikos forma sporadikus.",
+    "id": 282,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a triszómiákat a kromoszómájukkal és prognózisukkal!",
+    "options": [],
+    "leftItems": [
+      "Patau-kór",
+      "Edwards-szindróma",
+      "Down-szindróma"
+    ],
+    "rightItems": [
+      "13-as triszómia – 1 hónapon belül ~80% meghal",
+      "18-as triszómia – magzatok fele in utero elhal, a megszületettek fele 1 héten belül",
+      "21-es triszómia – emelkedett várható élettartam, 50+ kor felében demencia gyakori"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "Patau = T13 (legrosszabb prognózis); Edwards = T18 (köztes); Down = T21 (legjobb prognózis a három közül).",
+    "id": 283,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a tipikus tüneti/megjelenési jegyet a szindrómával, amelyre leginkább jellemző!",
+    "options": [],
+    "leftItems": [
+      "5–48. hónap között fejkörfogat-deceleráció + sztereotip kézmozgás (kézcsavarás, kézmosás)",
+      "„Koboldarc\", barátságos „koktélparti pszichés\" stílus, gyenge vizuospaciális teljesítmény",
+      "Kompulzív hyperphagia (zabálás), hypothalamikus diszfunkció",
+      "Rövid szemrések, keskeny felső ajak, lelapult arcközép, hiányzó philtrum",
+      "Mérsékelt–súlyos IF (fiúknál súlyosabb), szemkontaktus-averzió, kézcsapkodás"
+    ],
+    "rightItems": [
+      "Rett-szindróma",
+      "Williams–Beuren-szindróma",
+      "Prader–Willi-szindróma",
+      "FAS (magzati alkohol szindróma)",
+      "Törékeny X (Fragile X) szindróma"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "explanation": "Rett – fejkörfogat-deceleráció + kézstereotípia; Williams – koboldarc/koktélparti; Prader–Willi – hyperphagia; FAS – tipikus arc-morfológia; Fragile X – fiúk súlyosabban, szemkontaktus-averzió.",
+    "id": 284,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A Rett-szindrómára jellemző fejkörfogat-deceleráció tipikusan mely életkori időszakban kezdődik?",
+    "options": [
+      "Magzati korban (még születés előtt)",
+      "5–48. hónap között",
+      "Iskoláskor kezdetén (5–7 év)",
+      "Serdülőkorban"
+    ],
+    "answer": 2,
+    "explanation": "Rett-szindrómában a fejkörfogat-deceleráció jellemzően az 5–48. hónap között jelentkezik – egy korábban tipikusan fejlődő csecsemőnél indul a regresszió.",
+    "id": 285,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek IGAZAK a Rett-szindrómára?",
+    "options": [
+      "X-hez kötött rendellenesség; az esetek ~99,5%-a egyedi (sporadikus) a családon belül",
+      "Tipikusan súlyos–közepes intellektuális elmaradással jár",
+      "Jellemző tünet a sztereotip kézmozgás (kézcsavarás, kézmosás-szerű mozgás)",
+      "Klasszikusan fiúknál fordul elő, lányok érintettsége nagyon ritka",
+      "Pszichomotoros retardáció és apraxia jellemzi"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "explanation": "A Rett klasszikusan LÁNYOKAT érint (X-hez kötött domináns, fiúk általában nem élnek túl). A többi állítás IGAZ.",
+    "id": 286,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a magzatra ható neurotoxikus anyagot a rá leginkább jellemző tulajdonsággal!",
+    "options": [],
+    "leftItems": [
+      "Ólom (Pb)",
+      "Metil-higany (MeHg)",
+      "Szerves oldószerek (festék, hígító, aceton)",
+      "Szervesfoszfátok (rovarirtók)",
+      "Alkohol (FAS / FASD)"
+    ],
+    "rightItems": [
+      "Nincs ismert biztonságos szint; már alacsony szint is IQ-csökkenéssel jár (hippocampus, agykéreg, kisagy)",
+      "Korai magzati fejlődéskor ~5× nagyobb sebezhetőség; apoptotikus sejthalál, csökkent neurális migráció",
+      "Orofaciális rendellenességek, magzati fejlődési rendellenességek (relatív kockázat ~13)",
+      "Acetilkolin-észteráz gátlás; csökkent mentális és motoros fejlődés (CHAMACOS study)",
+      "Jellegzetes arc (rövid szemrések, keskeny felső ajak, lelapult arcközép, hiányzó philtrum), kis agytérfogat"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "explanation": "5 megbízhatóan azonosított ipari neurotoxin: Pb, MeHg, arzén, PCB, toluol (oldószerek). + szervesfoszfátok és alkohol külön kategóriák.",
+    "id": 287,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Igaz vagy hamis? Az ólom (Pb) esetében nincs ismert biztonságos magzati expozíciós szint – már alacsony szint is mérhető IQ-csökkenéssel jár.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Igaz. Az ólomexpozíciónak nincs olyan alacsony küszöbe, amely alatt ne lenne kimutatható neurotoxikus hatás (hippocampus, agykéreg, kisagy érintett).",
+    "id": 288,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek a FAS (magzati alkohol szindróma) tipikus arc-morfológiai jegyei?",
+    "options": [
+      "Rövid szemrések",
+      "Keskeny felső ajak",
+      "Lelapult arcközép",
+      "Hiányzó / silány philtrum (orr–ajak árok)",
+      "Mongol redő, ferde szemállás",
+      "Macroglossia (megnagyobbodott nyelv)"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "A FAS klasszikus arc-triásza: rövid szemrések, keskeny felső ajak, hiányzó/silány philtrum, lelapult arcközép. A mongol redő és makroglosszia Down-szindrómára jellemző.",
+    "id": 289,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Igaz vagy hamis? Az alkohol szabadon átjut a placentán, így a magzat alkoholkoncentrációja és -hatása lényegében megegyezik az anyáéval.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Igaz. Az etanol kis molekulájú, lipidoldékony – akadálytalanul átjut a placentán; nincs biztonságos terhességi alkoholfogyasztási szint.",
+    "id": 290,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a genetikai szindrómát a leggyakoribb öröklődési mintázatával!",
+    "options": [],
+    "leftItems": [
+      "Klasszikus Down-szindróma (T21)",
+      "Transzlokációs Down-szindróma",
+      "Williams–Beuren-szindróma",
+      "Rett-szindróma",
+      "Törékeny X (Fragile X)",
+      "Prader–Willi-szindróma"
+    ],
+    "rightItems": [
+      "Sporadikus, nem öröklődik (~95% az összes Down-esetből)",
+      "Örökölhető – 21-es kromoszóma másik kromoszómához kapcsolódik",
+      "Sporadikus deléció a 7q11.23 régióban",
+      "X-hez kötött; az esetek ~99,5%-a sporadikus (egyedi a családban)",
+      "Öröklött – FMR1 gén mutációja",
+      "15q11–q13 paternális deléció vagy maternális UPD"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "explanation": "A klasszikus Down és Williams–Beuren sporadikus; a transzlokációs Down és a Fragile X örökölhető.",
+    "id": 291,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a jellemző tüneti együttest a megfelelő kórképpel!",
+    "options": [],
+    "leftItems": [
+      "Microcephalia + holoprosencephalia + ajak-/szájpadhasadék + számfeletti ujjak",
+      "Dolichocephalia + kis szem és száj + mélyen ülő fülek + hypotonia → hypertonia",
+      "Aránytalan testalkat + izomgyengeség + szívanomália (40–50%) + hallás/alvás/látásproblémák",
+      "Kis agytérfogat + kisebb kisagy + kérgestest sérülése + jellegzetes arc"
+    ],
+    "rightItems": [
+      "Patau-kór (T13)",
+      "Edwards-szindróma (T18)",
+      "Down-szindróma (T21)",
+      "FAS (Fetal Alcohol Syndrome)"
+    ],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "explanation": "Patau – ajak-szájpadhasadék, polidactylia; Edwards – dolichocephalia, hypotonia→hypertonia; Down – szívanomáliák, hypotonia; FAS – kis agytérfogat, jellegzetes arc.",
+    "id": 292,
+    "topicNum": 11,
+    "topic": "Átfogó, integráló kérdések",
+    "category": "uj",
+    "vizsgakerdes": false
   }
 ]
