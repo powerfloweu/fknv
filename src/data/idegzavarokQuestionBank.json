@@ -195,7 +195,7 @@
     "answer": 2,
     "explanation": "Patau-kór = 13-as triszómia; Edwards = 18-as; Down = 21-es; Turner = X-monoszómia.",
     "category": "konnyu",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 12,
@@ -434,7 +434,7 @@
     ],
     "explanation": "A hyperphagia inkább Prader-Willi sajátos tünete; a többi IKZ-ban általánosan gyakori társuló viselkedés.",
     "category": "konnyu",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 25,
@@ -470,7 +470,7 @@
     "answer": 2,
     "explanation": "DSM-5 / ICD: legalább 1 hónapon át. 1,5 éves kor felett már kóros.",
     "category": "konnyu",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 27,
@@ -1698,7 +1698,7 @@
     "answer": 1,
     "explanation": "A reduplikatív gügyögés 6–8 hónapos kor körül jelenik meg – ez egy kulcs mérföldkő, hallássérülteknél elmarad.",
     "category": "konnyu",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 94,
@@ -1875,7 +1875,7 @@
     "id": 102,
     "topic": "Intellektuális képességzavar (IKZ)",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": true
   },
   {
     "topicNum": 4,
@@ -2260,7 +2260,7 @@
     "id": 121,
     "topic": "Átfogó, integráló kérdések",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": true
   },
   {
     "topicNum": 2,
@@ -2321,7 +2321,7 @@
     "id": 124,
     "topic": "Etiológia",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "topicNum": 3,
@@ -2545,7 +2545,7 @@
     "id": 131,
     "topic": "Átfogó, integráló kérdések",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "type": "matching",
@@ -2802,7 +2802,7 @@
     "answer": true,
     "explanation": "Igaz. A Dékány-féle meghatározás szerint a diszkalkulia ép intelligenciaérték mellett, organikus hátterű, szint alatti teljesítmény az aritmetika területén.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 145,
@@ -4120,7 +4120,7 @@
     ],
     "explanation": "A három fő szomatikus triszómia: 21=Down (leggyakoribb, 1:750), 18=Edwards (1:6000), 13=Patau (ritka, 1:10000–21700).",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 198,
@@ -4216,7 +4216,7 @@
     ],
     "explanation": "A NAS főbb tünetcsoportjai: idegrendszeri (sírás, hipertónia, tremor), emésztőrendszeri (étkezési, hányás, hasmenés), légző-keringési (tahipnoé, tahikardia).",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 202,
@@ -4329,7 +4329,7 @@
     "answer": 2,
     "explanation": "A Rett-szindróma egyik patognomikus jele a középvonalban mutatkozó sztereotip kézmozdulatok (kézcsavarás, „kézmosás”) megjelenése a célzott kézhasználat elvesztésével párhuzamosan.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 207,
@@ -4373,7 +4373,7 @@
     "answer": 2,
     "explanation": "Enyhe IKZ-ban a szociális interakciók terén elmaradás tapasztalható, a társas jelzések pontatlan észlelése miatt, de összetettebb feladatokhoz csak részleges segítségre van szükség.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 209,
@@ -4391,7 +4391,7 @@
     "answer": 2,
     "explanation": "A pica diagnosztikai kritériumai: tápértéket nem képviselő anyagok fogyasztása min. 1 hónapon át, kulturálisan nem támogatott, 1,5 éves kor után kóros, fontos a mentális fejlettség figyelembe vétele.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 210,
@@ -4799,7 +4799,7 @@
     "answer": 3,
     "explanation": "A BNO-11-ben (Disorders of intellectual development, ill. tanulási zavarok 6A03) az új elnevezés: „Fejlődési eredetű tanulási zavar”.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 226,
@@ -4817,7 +4817,7 @@
     "answer": 3,
     "explanation": "A DSM-5 négy súlyossági szintet különít el: enyhe, mérsékelt, súlyos, igen súlyos. „Kritikus” nem szerepel.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 227,
@@ -4830,7 +4830,7 @@
     "answer": true,
     "explanation": "A BNO-11 új terminológiája az „intellektuális fejlődési zavarok”, ami a kevésbé stigmatizáló, fejlődésorientált szemléletet tükrözi.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 228,
@@ -4848,7 +4848,7 @@
     "answer": 4,
     "explanation": "Az Edwards-szindróma a 18-as kromoszóma számbeli anomáliája (18-as triszómia). 21=Down, 13=Patau.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 229,
@@ -4897,7 +4897,7 @@
     "answer": false,
     "explanation": "A klasszikus T21 kialakulását sem az anya, sem az apa életmódja nem befolyásolja; az életkor (különösen anyai 35 év felett) viszont rizikófaktor.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 232,
@@ -4921,7 +4921,7 @@
     ],
     "explanation": "Az alkohol az idegsejtek fejlődését és migrációját szakítja meg, lelassult fejlődést, alacsony születési súlyt, fejletlen idr-i fejlődést és gyakoribb vetélést okoz.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 233,
@@ -4939,7 +4939,7 @@
     "answer": 2,
     "explanation": "A DSM-5 / BNO-10 szerint az enyhe IKZ IQ-tartománya 50–69 (F70). 35–49 = középsúlyos, 20–34 = súlyos, 20 alatt = igen súlyos.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 234,
@@ -5008,7 +5008,7 @@
     "answer": 2,
     "explanation": "A fejlődési diszkalkulia gyermekkorban kezdődő, sérülés nélkül fennálló tanulási zavar; a normál intelligencia mellett az aritmetikai képességek elsajátítását akadályozza.",
     "category": "uj",
-    "vizsgakerdes": true
+    "vizsgakerdes": false
   },
   {
     "id": 237,
