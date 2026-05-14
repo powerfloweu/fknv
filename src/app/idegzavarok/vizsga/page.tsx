@@ -7,12 +7,13 @@ import questionsRaw from "@/data/idegzavarokQuestionBank.json";
 
 const topics = topicsRaw as { num: number; name: string }[];
 
-type QMeta = { topicNum: number; difficulty: string; category?: "uj" | "konnyu"; vizsgakerdes?: boolean };
+type QMeta = { topicNum: number; difficulty: string; type: string; category?: "uj" | "konnyu"; vizsgakerdes?: boolean };
 
 export default function IdegzavarokVizsgaPage() {
   const router = useRouter();
   const [topicFilter, setTopicFilter] = useState<number | "">("");
   const [diffFilter, setDiffFilter] = useState("");
+  const [typeFilter, setTypeFilter] = useState("");
   const [onlyUj, setOnlyUj] = useState(false);
   const [onlyVizsga, setOnlyVizsga] = useState(false);
   const [count, setCount] = useState(20);
@@ -22,6 +23,7 @@ export default function IdegzavarokVizsgaPage() {
   const filtered = allQ.filter((q) => {
     if (topicFilter !== "" && q.topicNum !== topicFilter) return false;
     if (diffFilter && q.difficulty !== diffFilter) return false;
+    if (typeFilter && q.type !== typeFilter) return false;
     if (onlyUj && q.category !== "uj") return false;
     if (onlyVizsga && !q.vizsgakerdes) return false;
     return true;
@@ -41,6 +43,7 @@ export default function IdegzavarokVizsgaPage() {
     const params = new URLSearchParams();
     if (topicFilter !== "") params.set("topic", String(topicFilter));
     if (diffFilter) params.set("diff", diffFilter);
+    if (typeFilter) params.set("qtype", typeFilter);
     if (onlyUj) params.set("uj", "1");
     if (onlyVizsga) params.set("vizsga", "1");
     params.set("count", String(count));
@@ -102,6 +105,19 @@ export default function IdegzavarokVizsgaPage() {
             <option value="easy">Könnyű</option>
             <option value="medium">Közepes</option>
             <option value="hard">Nehéz</option>
+          </select>
+
+          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#7c2d12", marginBottom: 4 }}>Kérdéstípus szűrő</label>
+          <select
+            value={typeFilter}
+            onChange={(e) => setTypeFilter(e.target.value)}
+            style={{ width: "100%", padding: "9px 12px", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white", marginBottom: 12 }}
+          >
+            <option value="">Minden típus</option>
+            <option value="single">Egy helyes</option>
+            <option value="multi">Több helyes</option>
+            <option value="tf">Igaz/Hamis</option>
+            <option value="matching">Párosítás / táblázat</option>
           </select>
 
           <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#7c2d12", marginBottom: 4 }}>Kategória szűrő</label>

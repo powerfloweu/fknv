@@ -128,6 +128,7 @@ function NormalVizsga() {
   const router = useRouter();
   const topicFilter = params.get("topic") ? Number(params.get("topic")) : null;
   const diffFilter = params.get("diff") || null;
+  const typeFilter = params.get("qtype") || null;
   const onlyUj = params.get("uj") === "1";
   const onlyVizsga = params.get("vizsga") === "1";
   const count = Number(params.get("count") || 20);
@@ -136,6 +137,7 @@ function NormalVizsga() {
     const pool = (questionsRaw as unknown as Q[]).filter((q) => {
       if (topicFilter && q.topicNum !== topicFilter) return false;
       if (diffFilter && q.difficulty !== diffFilter) return false;
+      if (typeFilter && q.type !== typeFilter) return false;
       if (onlyUj && q.category !== "uj") return false;
       if (onlyVizsga && !q.vizsgakerdes) return false;
       return true;
