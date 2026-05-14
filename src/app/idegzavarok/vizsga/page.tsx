@@ -7,17 +7,25 @@ import questionsRaw from "@/data/idegzavarokQuestionBank.json";
 
 const topics = topicsRaw as { num: number; name: string }[];
 
+type QMeta = { topicNum: number; difficulty: string; type: string; category?: "uj" | "konnyu"; vizsgakerdes?: boolean };
+
 export default function IdegzavarokVizsgaPage() {
   const router = useRouter();
   const [topicFilter, setTopicFilter] = useState<number | "">("");
   const [diffFilter, setDiffFilter] = useState("");
+  const [typeFilter, setTypeFilter] = useState("");
+  const [onlyUj, setOnlyUj] = useState(false);
+  const [onlyVizsga, setOnlyVizsga] = useState(false);
   const [count, setCount] = useState(20);
   const [error, setError] = useState<string | null>(null);
 
-  const allQ = questionsRaw as { topicNum: number; difficulty: string }[];
+  const allQ = questionsRaw as QMeta[];
   const filtered = allQ.filter((q) => {
     if (topicFilter !== "" && q.topicNum !== topicFilter) return false;
     if (diffFilter && q.difficulty !== diffFilter) return false;
+    if (typeFilter && q.type !== typeFilter) return false;
+    if (onlyUj && q.category !== "uj") return false;
+    if (onlyVizsga && !q.vizsgakerdes) return false;
     return true;
   });
   const max = filtered.length;
@@ -35,6 +43,9 @@ export default function IdegzavarokVizsgaPage() {
     const params = new URLSearchParams();
     if (topicFilter !== "") params.set("topic", String(topicFilter));
     if (diffFilter) params.set("diff", diffFilter);
+    if (typeFilter) params.set("qtype", typeFilter);
+    if (onlyUj) params.set("uj", "1");
+    if (onlyVizsga) params.set("vizsga", "1");
     params.set("count", String(count));
     return `/idegzavarok/vizsga/${mode}?${params.toString()}`;
   }
@@ -95,6 +106,31 @@ export default function IdegzavarokVizsgaPage() {
             <option value="medium">Közepes</option>
             <option value="hard">Nehéz</option>
           </select>
+
+          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#7c2d12", marginBottom: 4 }}>Kérdéstípus szűrő</label>
+          <select
+            value={typeFilter}
+            onChange={(e) => setTypeFilter(e.target.value)}
+            style={{ width: "100%", padding: "9px 12px", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white", marginBottom: 12 }}
+          >
+            <option value="">Minden típus</option>
+            <option value="single">Egy helyes</option>
+            <option value="multi">Több helyes</option>
+            <option value="tf">Igaz/Hamis</option>
+            <option value="matching">Párosítás / táblázat</option>
+          </select>
+
+          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#7c2d12", marginBottom: 4 }}>Kategória szűrő</label>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 12 }}>
+            <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyUj ? "#fce7f3" : "#fff7ed", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", cursor: "pointer", fontWeight: 500 }}>
+              <input type="checkbox" checked={onlyUj} onChange={(e) => setOnlyUj(e.target.checked)} />
+              <span><b style={{ color: "#db2777" }}>Új!</b> kérdések — csak a nemrég hozzáadott kérdések (közepes/nehéz)</span>
+            </label>
+            <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyVizsga ? "#dbeafe" : "#fff7ed", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", cursor: "pointer", fontWeight: 500 }}>
+              <input type="checkbox" checked={onlyVizsga} onChange={(e) => setOnlyVizsga(e.target.checked)} />
+              <span><b style={{ color: "#1d4ed8" }}>Vizsgakérdés</b> — a két korábbi vizsgából származó kérdések</span>
+            </label>
+          </div>
 
           <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#7c2d12", marginBottom: 4 }}>
             Kérdések száma (max: {max})

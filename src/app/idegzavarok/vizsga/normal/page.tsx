@@ -13,10 +13,14 @@ type Q = {
   explanation: string;
   leftItems?: string[];
   rightItems?: string[];
+  category?: "uj" | "konnyu";
+  vizsgakerdes?: boolean;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
 const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű" };
+const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2" };
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -25,6 +29,19 @@ function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+function shuffleOptions(q: Q): Q {
+  if (q.type !== "single" && q.type !== "multi") return q;
+  const n = q.options.length;
+  const perm = shuffle(Array.from({ length: n }, (_, i) => i));
+  const inv = new Array<number>(n);
+  for (let i = 0; i < n; i++) inv[perm[i]] = i;
+  const newOptions = perm.map(oi => q.options[oi]);
+  const newAnswer = q.type === "single"
+    ? inv[(q.answer as number) - 1] + 1
+    : (q.answer as number[]).map(a => inv[a - 1] + 1).sort((a, b) => a - b);
+  return { ...q, options: newOptions, answer: newAnswer };
 }
 
 // matching sel: Record<leftIndex, rightIndex[]>  (1-based rightItems indices)
@@ -111,15 +128,21 @@ function NormalVizsga() {
   const router = useRouter();
   const topicFilter = params.get("topic") ? Number(params.get("topic")) : null;
   const diffFilter = params.get("diff") || null;
+  const typeFilter = params.get("qtype") || null;
+  const onlyUj = params.get("uj") === "1";
+  const onlyVizsga = params.get("vizsga") === "1";
   const count = Number(params.get("count") || 20);
 
   const questions: Q[] = useState<Q[]>(() => {
     const pool = (questionsRaw as unknown as Q[]).filter((q) => {
       if (topicFilter && q.topicNum !== topicFilter) return false;
       if (diffFilter && q.difficulty !== diffFilter) return false;
+      if (typeFilter && q.type !== typeFilter) return false;
+      if (onlyUj && q.category !== "uj") return false;
+      if (onlyVizsga && !q.vizsgakerdes) return false;
       return true;
     });
-    return shuffle(pool).slice(0, count);
+    return shuffle(pool).slice(0, count).map(shuffleOptions);
   })[0];
 
   const [selections, setSelections] = useState<Record<number, AnySel>>({});
@@ -204,9 +227,21 @@ function NormalVizsga() {
                   <div style={{ fontWeight: 700, color: "#7c2d12", fontSize: 15 }}>
                     <span style={{ color: "#b45309", marginRight: 6 }}>{qi + 1}.</span>{q.question}
                   </div>
-                  <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600, flexShrink: 0 }}>
-                    {diffLabel[q.difficulty]}
-                  </span>
+                  <div style={{ display: "flex", gap: 5, flexShrink: 0, flexWrap: "wrap", justifyContent: "flex-end" }}>
+                    {q.category && (
+                      <span style={{ background: catColor[q.category], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                        {catLabel[q.category]}
+                      </span>
+                    )}
+                    {q.vizsgakerdes && (
+                      <span style={{ background: "#1d4ed8", color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                        Vizsgakérdés
+                      </span>
+                    )}
+                    <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                      {diffLabel[q.difficulty]}
+                    </span>
+                  </div>
                 </div>
                 <div style={{ fontSize: 12, color: "#92400e", marginBottom: 8 }}>{q.topicNum}. {q.topic}</div>
 
