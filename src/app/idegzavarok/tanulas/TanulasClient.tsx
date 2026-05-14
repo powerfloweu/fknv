@@ -157,6 +157,7 @@ export default function TanulasClient({
                 <option value="single">Egy helyes</option>
                 <option value="multi">Több helyes</option>
                 <option value="tf">Igaz/Hamis</option>
+                <option value="matching">Párosítás</option>
               </select>
               <select
                 value={catFilter}
