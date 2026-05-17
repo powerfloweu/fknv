@@ -15,6 +15,8 @@ type Q = {
   rightItems?: string[];
   category?: "uj" | "konnyu" | "vizsga" | "tobbletismeret";
   vizsgakerdes?: boolean;
+  image?: string | null;
+  imageAlt?: string | null;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
@@ -266,6 +268,14 @@ function QaVizsga() {
           <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 12, padding: "3px 8px", borderRadius: 999, fontWeight: 600 }}>{diffLabel[q.difficulty]}</span>
           <span style={{ background: "#f3f4f6", color: "#374151", fontSize: 12, padding: "3px 8px", borderRadius: 999 }}>{q.topicNum}. {q.topic}</span>
         </div>
+
+        {q.image && (
+          <div style={{ margin: "10px auto 14px auto", padding: "10px", background: "#ede9fe", borderRadius: 10, textAlign: "center" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={q.image} alt={q.imageAlt || "Kérdéshez tartozó ábra"} style={{ maxWidth: "100%", maxHeight: 450, borderRadius: 8, boxShadow: "0 2px 12px rgba(76,29,149,0.20)" }} />
+            {q.imageAlt && <div style={{ fontSize: 12, color: "#7c3aed", fontStyle: "italic", marginTop: 6 }}>{q.imageAlt}</div>}
+          </div>
+        )}
 
         <div style={{ fontWeight: 700, color: "#4c1d95", fontSize: 18, marginBottom: 20, lineHeight: 1.4 }}>{q.question}</div>
 

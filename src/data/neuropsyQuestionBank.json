@@ -4364,5 +4364,173 @@
     "category": "tobbletismeret",
     "vizsgakerdes": false,
     "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 228,
+    "topicNum": 4,
+    "topic": "Neglekt szindróma",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mely zavarra utal a beteg óramásolása az ábrán?",
+    "options": [
+      "Apraxia (konstrukciós)",
+      "Neglekt szindróma — a bal térfél figyelmen kívül hagyása",
+      "Demencia (Alzheimer-kór) korai jele",
+      "Korsakoff-szindróma — konfabuláció"
+    ],
+    "answer": 2,
+    "explanation": "A bal térfél elhanyagolása a klasszikus VIZUÁLIS NEGLEKT óramásolás-jelenete: minden szám az óra jobb oldalán zsúfolódik, a bal oldal üres marad. A leggyakoribb a jobb parietális (különösen inferior parietális) lézió után. Kontrollkérdés differenciáldiagnózishoz: konstrukciós apraxiánál az óra szerkezete egészében torzul (nem csak az egyik oldal); demenciánál inkább a számsor időbeli zavara, perszeveráció.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/clock-neglect.png",
+    "imageAlt": "Óramásolás-feladat: a páciens csak az óra jobb oldalára helyezi a számokat."
+  },
+  {
+    "id": 229,
+    "topicNum": 4,
+    "topic": "Neglekt szindróma",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a Line Bisection (vonalfelezés) teszt klasszikus eredménye unilaterális neglektben? Milyen elmozdulást látsz az ábrán?",
+    "options": [
+      "A beteg pontosan felezi a vonalat",
+      "A beteg a JOBB oldal felé tolja a felezőpontot (bal neglekt esetén)",
+      "A beteg a BAL oldal felé tolja a felezőpontot",
+      "A beteg több vonalat húz"
+    ],
+    "answer": 2,
+    "explanation": "Bal téri neglektben (klasszikus jobb hemiszférikus lézió után) a páciens a vonal JOBB oldala felé tolja el a felezőpontot — mert a bal felét részben 'nem látja', így a vonal jobbra tűnik aránytalanul. A Line Bisection (Schenkenberg, 1980) gyors, validált szűrőeszköz.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/line-bisection-neglect.png",
+    "imageAlt": "Vonalfelezés teszt: a páciens a vonal jobb oldalára teszi a 'közepét'."
+  },
+  {
+    "id": 230,
+    "topicNum": 6,
+    "topic": "Apraxia és agnózia",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A beteg kockarajzát látva mely zavarra gondolsz?",
+    "options": [
+      "Ideomotor apraxia",
+      "Ideacionális apraxia",
+      "Konstrukciós apraxia",
+      "Öltözködési apraxia"
+    ],
+    "answer": 3,
+    "explanation": "Konstrukciós apraxia: a térbeli viszonyok rajzolásban, építésben sérülnek (3D-kocka, óra, Rey-figura). Bilaterális parietális lézió esetén jelenik meg; a jobb parietális lézió 'téri' hibákat (összerakatlan, eltorzult), a bal parietális 'planifikációs' hibákat (egyszerűsített, részlet-szegény) okoz.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/cube-apraxia.png",
+    "imageAlt": "Háromdimenziós kocka másolása: a páciens nem tudja a 3D-szerkezetet rekonstruálni; az élek széttorlódnak, a kocka eltorzul."
+  },
+  {
+    "id": 231,
+    "topicNum": 6,
+    "topic": "Apraxia és agnózia",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit látsz a beteg Rey komplex figura másolásán?",
+    "options": [
+      "Normál teljesítmény",
+      "Konstrukciós + tervezési deficit — gyakran jobb parietális vagy frontális lézió",
+      "Csak vizuális neglekt",
+      "Memóriadeficit"
+    ],
+    "answer": 2,
+    "explanation": "A Rey komplex figura másolása a vizuokonstruktív és tervezési képességeket méri. Dezorganizált, részenként rajzolt másolat a szervezetlen, fragmentált megközelítésre utal — gyakran jobb parietális vagy frontális lézió esetén. A teszt második fázisában (delayed recall) az emlékezet is mérhető.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/rey-complex.png",
+    "imageAlt": "Rey-Osterrieth komplex figura másolása: a teljes ábra részleges, dezorganizált, a strukturális elemek (téglalap, átlók) hiányoznak."
+  },
+  {
+    "id": 232,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "A Trail Making Test B részén látható mintázatot elemezve mely funkciók sérültek?",
+    "options": [
+      "Csak motoros koordináció",
+      "Csak vizuális keresés",
+      "Mentális rugalmasság (set-shifting), végrehajtó funkciók — gyakran prefrontális lézió",
+      "Csak figyelem"
+    ],
+    "answer": 3,
+    "explanation": "A TMT-B-n a páciensnek számokat ÉS betűket kell felváltva összekötni (1-A-2-B-3-C…). A perszeverációs hibák (csak számokat, vagy csak betűket köt) a set-shifting nehézségére, vagyis kognitív rugalmasság-zavarra utalnak. A TMT-B-A különbség tisztán a 'shifting' költséget mutatja. Klasszikus prefrontális (dorzolaterális) tesztelési eszköz.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/trail-making-B.png",
+    "imageAlt": "Trail Making Test B: a páciens hibái jellegzetes set-shifting nehézséget mutatnak (csak számokat köt, vagy csak betűket)."
+  },
+  {
+    "id": 233,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit látsz a betegnek '11 óra 10 perc'-re rajzolt óráján?",
+    "options": [
+      "Vizuális neglekt",
+      "Konstrukciós apraxia",
+      "Klasszikus Alzheimer-kór mintázat (CDT — Clock Drawing Test): számok rosszul helyezve, mutatók 'stimulus-bound' (a hallott számokra rajzol, nem az időre)",
+      "Normál teljesítmény"
+    ],
+    "answer": 3,
+    "explanation": "A CDT (Clock Drawing Test) gyors demenciaszűrő. AD-ban tipikus: 'stimulus-bound' válasz — a beteg a 11-et és 10-et a számok közé rajzolja, mert hallja a számokat, de nem tudja az idő-fogalmat strukturálni. Más jellegzetes AD-hiba: számok össze-vissza, üres óralap, perszeverációs számismétlés. A CDT érzékeny végrehajtó és vizuokonstruktív funkciókra is.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/clock-AD.png",
+    "imageAlt": "Óra: a számok össze-vissza vannak, a mutatók eltévesztik az időt — 'stimulus-bound' jelleg."
+  },
+  {
+    "id": 234,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Egy beteget kérünk, hogy meséljen el egy egyszerű képet. A válasza: \"Hát… a… ott… kerek… papír… visz…\" (több 3-5 másodperces szünettel, izoláltt szavak, agrammatikus). Mely afázia-típus valószínű?",
+    "options": [
+      "Wernicke-afázia (folyamatos, üres, parafáziás beszéd)",
+      "Broca-afázia (nem-folyamatos, telegrafikus, agrammatikus)",
+      "Kondukciós afázia (folyamatos beszéd + izolált ismétlési zavar)",
+      "Anómiás afázia (csak megnevezési zavar)"
+    ],
+    "answer": 2,
+    "explanation": "A telegrafikus, agrammatikus, akadozó beszéd, a hosszú szünetekkel és tartalomszó-túlsúllyal a klasszikus Broca-afázia (motoros afázia) képe. A 'cookie theft' kép (BDAE — Boston Diagnostic Aphasia Examination) standard értékelési helyzet, mert spontán beszédet vált ki, és lehetővé teszi a fluencia, parafázia, agrammatizmus értékelését.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/aphasia-broca-speech.png",
+    "imageAlt": "Példa Boston Diagnostic Aphasia Examination 'cookie theft' képre: a beteg telegrafikus stílusú beszéddel reagál."
+  },
+  {
+    "id": 235,
+    "topicNum": 4,
+    "topic": "Neglekt szindróma",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit látsz a Star Cancellation (csillag-keresés) feladat eredményén?",
+    "options": [
+      "Normál teljesítmény",
+      "Bal téri neglekt — a bal oldali ingerek figyelmen kívül hagyása",
+      "Vizuális agnózia",
+      "Akalkulia"
+    ],
+    "answer": 2,
+    "explanation": "A Star Cancellation (Wilson, Cockburn, Halligan, 1987) a Behavioural Inattention Test (BIT) része. A laponként 56 kis csillag elhelyezve; a páciensnek mindegyiket be kell jelölnie. Bal neglekt esetén csak a lap jobb oldalán jelöli őket; a bal oldal jelöletlen marad. Egyszerű, gyors és nagyon érzékeny szűrőeszköz.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Képi alapú gyakorlófeladat — diasor / klinikai gyakorlat alapján (Drive)",
+    "image": "/neuropsy/images/star-cancellation.png",
+    "imageAlt": "Star cancellation teszt: a lap bal oldalán a csillagok nincsenek áthúzva, a jobb oldali csillagok meg vannak jelölve."
   }
 ]
