@@ -297,12 +297,25 @@ export default function TanulasClient({
 function SegedletEmbed() {
   return (
     <div style={{ textAlign: "center", padding: "32px 0" }}>
-      <div style={{ fontSize: 16, color: "#065f46", marginBottom: 8, fontWeight: 600 }}>
-        Tanulási segédlet — hamarosan
+      <div style={{ fontSize: 16, color: "#065f46", marginBottom: 20 }}>
+        A tanulási segédlet 13 fejezetes interaktív anyag — a 2026-os program teljes vázlata az előadás-, irodalmi és önállóan feldolgozandó anyagokból szintetizálva.
       </div>
-      <div style={{ fontSize: 14, color: "#475569" }}>
-        Az önállóan feldolgozandó és irodalmi anyagok tartalmi összefoglalói (2–3 oldalanként) a következő fázisban kerülnek fel.
-      </div>
+      <Link
+        href="/kognitiv/segedlet"
+        style={{
+          display: "inline-block",
+          padding: "13px 28px",
+          background: "linear-gradient(90deg,#10b981,#34d399)",
+          color: "white",
+          borderRadius: 12,
+          fontWeight: 600,
+          fontSize: 16,
+          textDecoration: "none",
+          boxShadow: "0 2px 8px rgba(16,185,129,0.18)",
+        }}
+      >
+        Tanulási segédlet megnyitása →
+      </Link>
     </div>
   );
 }
