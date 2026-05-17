@@ -277,9 +277,18 @@ export default function TanulasClient({
                   )}
 
                   {!hideAnswer && q.explanation && (
-                    <div style={{ marginTop: 8, padding: "6px 10px", background: "#ecfeff", border: "1px solid #67e8f9", borderRadius: 7, color: "#155e75", fontSize: 12 }}>
-                      <b>{q.type === "essay" ? "Mintaválasz vázlata:" : "Magyarázat:"}</b> {q.explanation}
-                    </div>
+                    q.type === "essay" ? (
+                      <div style={{ marginTop: 8, padding: "12px 16px", background: "#ecfeff", border: "1px solid #67e8f9", borderRadius: 8, color: "#155e75", fontSize: 14, lineHeight: 1.65 }}>
+                        <div style={{ fontWeight: 700, marginBottom: 8, color: "#0e7490", fontSize: 13, textTransform: "uppercase", letterSpacing: 0.5 }}>Mintaválasz</div>
+                        {q.explanation.split(/\n\n+/).map((para, i) => (
+                          <p key={i} style={{ margin: i === 0 ? "0 0 10px 0" : "0 0 10px 0", textAlign: "justify" }}>{para}</p>
+                        ))}
+                      </div>
+                    ) : (
+                      <div style={{ marginTop: 8, padding: "6px 10px", background: "#ecfeff", border: "1px solid #67e8f9", borderRadius: 7, color: "#155e75", fontSize: 12 }}>
+                        <b>Magyarázat:</b> {q.explanation}
+                      </div>
+                    )
                   )}
                 </li>
               ))}

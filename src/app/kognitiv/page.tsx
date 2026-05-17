@@ -37,7 +37,7 @@ export default function KognitivLandingPage() {
         <p style={{ color: '#475569', fontSize: 15, marginBottom: 24, lineHeight: 1.5 }}>
           13 témakör — arcészlelés, érzelmek, figyelmi torzítások, mentális kép,
           séma, reprezentáció, pszicholingvisztika, elmefilozófia, multimédia-tanulás,
-          tudat/tudattalan, neuropszichoanalízis, neuroedukáció, kognitív idegtudomány.
+          tudat/tudattalan, neuropszichoanalízis, neuroedukáció, mesterséges intelligencia és megismerés.
         </p>
 
         <Link

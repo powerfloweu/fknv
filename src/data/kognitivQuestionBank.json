@@ -13,7 +13,8 @@
     "answer": true,
     "explanation": "A Perky-effektus is mutatja: a kongruens (azonos témájú) instrukció beépülhet a képzeleti feladatba, és összemosódhat a vizuális tartalommal.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "answer": false,
     "explanation": "Perky (1910) kísérletének éppen az volt a lényege, hogy a személyek NEM tettek különbséget az észleleti és a képzeleti kép között — összemosták.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "answer": true,
     "explanation": "Arc elképzelése (mentális kép) az FFA (fusiform face area) működését is aktiválja — a képzelet részben ugyanazokat a területeket veszi igénybe, mint az észlelés.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "answer": false,
     "explanation": "Az eidetikus kép NEM patológiás — gyermekkorban viszonylag gyakori normál jelenség (élénk, részletgazdag kép-emlékezet).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "answer": false,
     "explanation": "Piaget invariancia-feladatainál a hiba háttere a megfordíthatóság (reverzibilitás) és a centráltság hiánya, NEM a tranzitivitásé.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     "answer": true,
     "explanation": "A procedurális (eljárási) tudás mintaalapú, implicit, gyakorlással szerveződik — szemben a deklaratív tudással, ami szabály/tényalapú.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     "answer": true,
     "explanation": "Shepard–Metzler-féle mentális forgatás, Kosslyn-féle letapogatási kísérletek mind az analóg (képi) reprezentáció létezése mellett szólnak.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     "answer": true,
     "explanation": "Kardos Lajos adiafor-hatása: olyan inger, ami önmagában nem váltja ki a reakciót, de jelzi (előhírnök) a következő, erősebb hatást.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     "answer": true,
     "explanation": "Konnekcionista (PDP) modellek: a tudás nem explicit szimbólumokban, hanem a hálózat súlyozott kapcsolataiban és aktivációs mintázatában tárolódik.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 10,
@@ -157,7 +166,8 @@
     "answer": true,
     "explanation": "A mentális képzelet a látókéreg (V1 is) területeit aktiválja — fMRI- és TMS-vizsgálatok bizonyítják a szoros átfedést.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 11,
@@ -173,7 +183,8 @@
     "answer": true,
     "explanation": "A téri közeg (mentális modell, Johnson-Laird) mind analóg (képi), mind deszkriptív (leíró) elemeket tartalmazhat.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 12,
@@ -189,7 +200,8 @@
     "answer": true,
     "explanation": "A reprezentáció épp ezért teszi lehetővé a belső világ ingerektől viszonylagos függetlenedését — pl. emlékezhetünk arra, ami most nincs jelen.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 13,
@@ -205,7 +217,8 @@
     "answer": true,
     "explanation": "Paivio kettős kódolása: a logogén (verbális) rendszerben az asszociációk főként logikai-szemantikai kapcsolatok mentén szerveződnek, míg az imagén rendszerben térbeli-vizuális kapcsolatok mentén.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 14,
@@ -221,7 +234,8 @@
     "answer": true,
     "explanation": "Dretske természetes jel-fogalma: olyan jelek, amelyek törvényszerűen (oksági/információelméleti összefüggés alapján) hordoznak információt. A reprezentáció ennél absztraktabb, tévedhet.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 15,
@@ -237,7 +251,8 @@
     "answer": true,
     "explanation": "Pylyshyn érve: a mentális képek élménye nem bizonyítja, hogy a tudás KÉPI formában tárolódik. A reprezentáció lehet propozicionális, és a kép csak epifenomén.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 16,
@@ -253,7 +268,8 @@
     "answer": false,
     "explanation": "A depiktív (képi) reprezentáció egy mentális reprezentációs forma — analóg, képszerű. Nincs köze művészeti céllal előállított képhez.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 17,
@@ -269,7 +285,8 @@
     "answer": true,
     "explanation": "Paivio (1971) kettős kódolási elmélete: imagén (képi) és logogén (verbális) — két részben független, de együttműködő reprezentációs rendszer.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 18,
@@ -285,7 +302,8 @@
     "answer": false,
     "explanation": "Az eidetikus kép NEM szukcesszív kontraszt (utókép); az élénk, részletgazdag kép-emlékezet, ami inger nélkül is felidézhető.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 19,
@@ -301,7 +319,8 @@
     "answer": true,
     "explanation": "A reprezentáció éppen attól reprezentáció, hogy tévedhet — ez teszi lehetővé a hibás predikciókból való tanulást és az alternatívák szimulációját.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 20,
@@ -317,7 +336,8 @@
     "answer": true,
     "explanation": "A parietális TMS rontja a mentális forgatást és más képzeleti műveleteket — alátámasztva, hogy a parietális kéreg részt vesz a téri képzeletben.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 21,
@@ -333,7 +353,8 @@
     "answer": true,
     "explanation": "Pylyshyn / Anderson stb. szerint a propozicionális reprezentáció absztrakt, nyelvszerű formában képes leírni a mentális tartalmakat, beleértve a képi tartalmakat is.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 22,
@@ -349,7 +370,8 @@
     "answer": false,
     "explanation": "Éppen fordítva: a kétértelmű (reverzibilis) figurák képi reprezentációja előny, és ez a forgatási nehézség az ANALÓG reprezentáció mellett érvel.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 23,
@@ -365,7 +387,8 @@
     "answer": false,
     "explanation": "A reprezentáció létét nem önmagában az evolúciós előtörténet, hanem az aktuális funkció és magyarázó ereje igazolja.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 24,
@@ -381,7 +404,8 @@
     "answer": true,
     "explanation": "Johnson-Laird mentális modellje strukturálisan analóg: a valóság szerkezetét tükrözi, nem propozíciós szimbólumokkal írja le.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 25,
@@ -397,7 +421,8 @@
     "answer": true,
     "explanation": "Kahneman (1973) figyelmi kapacitásmodellje: a teljes figyelmi kapacitás az arousal szintjével változik (fordított U-alakú összefüggés).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 26,
@@ -413,7 +438,8 @@
     "answer": false,
     "explanation": "Az epifenomenalizmus szerint a mentális események fizikai folyamatok mellékterméke, és NEM okoznak semmit a fizikai világban.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 27,
@@ -429,7 +455,8 @@
     "answer": false,
     "explanation": "A parallelizmus (Leibniz) szerint a test és lélek párhuzamosan futnak, de nem hatnak egymásra (előre elrendezett harmónia).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 28,
@@ -445,7 +472,8 @@
     "answer": false,
     "explanation": "Wittgenstein (Filozófiai vizsgálódások) éppen MEGALAPOZTA a használatelméletet: 'a szó jelentése a használata a nyelvben'.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 29,
@@ -461,7 +489,8 @@
     "answer": false,
     "explanation": "A Posner–Petersen háromkomponensű modell (éberség, orientáció, végrehajtó figyelem) téri / hálózati alapú, nem tárgyalapú.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 30,
@@ -477,7 +506,8 @@
     "answer": true,
     "explanation": "Frege a modern logika és nyelvfilozófia alapító alakja; jelentés-jelölet (Sinn–Bedeutung) megkülönböztetése klasszikus.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 31,
@@ -493,7 +523,8 @@
     "answer": true,
     "explanation": "A preattentív feldolgozás a jelenet alapsajátságait gyorsan kategorizálja, így befolyásolja, hogy téri vagy tárgyalapú figyelmi stratégia hatékonyabb.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 32,
@@ -509,7 +540,8 @@
     "answer": true,
     "explanation": "Johnson-Laird funkcionalista álláspontot képvisel: a tudat magas szintű funkcionális szerveződés, elvileg számítógépes implementáció is lehetséges.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 33,
@@ -525,7 +557,8 @@
     "answer": true,
     "explanation": "Chomsky nativizmusa: az ember veleszületett nyelvi képességgel (LAD, univerzális grammatika) rendelkezik.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 34,
@@ -541,7 +574,8 @@
     "answer": true,
     "explanation": "Tenebrozitás (Ringel): a tudati integritás (összerendezettség) és a vigilitás (ébrenléti szint) együttes zavara — pl. preszuicidális állapotban.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 35,
@@ -557,7 +591,8 @@
     "answer": true,
     "explanation": "Klasszikus felosztás: arousal/wakefulness (éberség) és awareness/content (tudati tartalom).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 36,
@@ -573,7 +608,8 @@
     "answer": false,
     "explanation": "A téri és tárgyalapú figyelem ELTÉRŐ mechanizmus; nem keverhetők össze, bár együttműködhetnek.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 37,
@@ -589,7 +625,8 @@
     "answer": true,
     "explanation": "Ringel preszuicidális szindrómája: beszűkülés + agresszió-gátlás + öngyilkossági fantáziák — csökkent tudati integritás állapota.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 38,
@@ -605,7 +642,8 @@
     "answer": false,
     "explanation": "Éppen Descartes a klasszikus dualizmus megalapítója (res extensa vs. res cogitans).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 39,
@@ -621,7 +659,8 @@
     "answer": true,
     "explanation": "A tudat fejlődési-evolúciós előfokainak hierarchiájában a 3. szintű szelektivitás formája a preferencia (Kardos / Pléh felépítés).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 40,
@@ -637,7 +676,8 @@
     "answer": true,
     "explanation": "A fizikalizmus (a mentális is végső soron fizikai) a 20. század közepétől a vezető elmefilozófiai álláspont.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 41,
@@ -653,7 +693,8 @@
     "answer": false,
     "explanation": "Az álszóismétlési teszt a fonológiai munkamemóriát méri (Gathercole–Baddeley), nem a flexibilitást.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 42,
@@ -669,7 +710,8 @@
     "answer": false,
     "explanation": "Miyake et al. (2000): gátlás, váltás (flexibilitás), frissítés (updating) — NEM 'válaszfrissítés', hanem MUNKAMEMÓRIA-frissítés. A megfogalmazás csapdás.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 43,
@@ -685,7 +727,8 @@
     "answer": false,
     "explanation": "Éppen a Sapir–Whorf-féle nyelvi relativizmus szerint a nyelv BEFOLYÁSOLJA a gondolkodást.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 44,
@@ -701,7 +744,8 @@
     "answer": true,
     "explanation": "A talamokortikális oszcillációk (~40 Hz, gamma-szinkronizáció) a kötési problémát megoldva létrehozzák a tudatos élmény egységét.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 45,
@@ -717,7 +761,8 @@
     "answer": false,
     "explanation": "Endogén figyelem rejtett (covert) is lehet — szemmozgás nélkül máshova fókuszálhatunk (Posner-paradigma).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 46,
@@ -733,7 +778,8 @@
     "answer": false,
     "explanation": "A mentális modell éppen ALTERNATÍVA a propozicionálishoz képest: analóg (strukturálisan ikonikus).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 47,
@@ -749,7 +795,8 @@
     "answer": true,
     "explanation": "Az arcészlelés holisztikus/konfigurális — a részek térbeli viszonyai (konfiguráció) határozzák meg, nem külön-külön a részek.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 48,
@@ -765,7 +812,8 @@
     "answer": false,
     "explanation": "Zenei/akusztikus hangulatindukció jól bevált módszer (mood induction).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 49,
@@ -781,7 +829,8 @@
     "answer": false,
     "explanation": "Rejtett (covert) figyelem esetén a figyelem helye nem feltétlenül esik egybe a fixációs hellyel — Posner-paradigma erre épít.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 50,
@@ -797,7 +846,8 @@
     "answer": false,
     "explanation": "Nem elég: az aktuális funkció és magyarázó erő igazolja a reprezentáció létét, nem önmagában az evolúciós múlt.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 51,
@@ -813,7 +863,8 @@
     "answer": false,
     "explanation": "A reprezentáció definíció szerint VALAMIRŐL szóló — nincs tartalom nélküli reprezentáció.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 52,
@@ -829,7 +880,8 @@
     "answer": false,
     "explanation": "Wolfe Guided Search-elmélete a Treisman féle FIT-re (Feature Integration Theory) épül, nem a Posner–Petersen-modellre.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 53,
@@ -845,7 +897,8 @@
     "answer": false,
     "explanation": "Az interaktivitás akkor hatékony, ha aktív kognitív feldolgozást vált ki (active learning) — nem önmagában a szórakoztatás miatt.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 54,
@@ -861,7 +914,8 @@
     "answer": false,
     "explanation": "Az érzelemfelismerés csoportos tréninggel (pl. SEL-programok) jól fejleszthető.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 55,
@@ -877,7 +931,8 @@
     "answer": true,
     "explanation": "Mayer (CTML) három alapja: Paivio kettős kódolása, Baddeley munkamemória-modellje, Sweller kognitív terhelés elmélete.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 56,
@@ -893,7 +948,8 @@
     "answer": true,
     "explanation": "Figyelmi torzítások (attentional bias) klinikailag jól mérhetők pl. dot-probe paradigmával — szorongás, fóbiák stb.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 57,
@@ -909,7 +965,8 @@
     "answer": true,
     "explanation": "A kiértékelés (appraisal) folyamatában a korábbi asszociációink (sémák, emlékek) befolyásolják az érzelmi reakciót.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 58,
@@ -925,7 +982,8 @@
     "answer": true,
     "explanation": "Az érzelemszabályozás (Gross-modell) kognitív stratégiái — pl. átkeretezés (reappraisal) — jól ismert eszközök az érzelmi állapot módosítására.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 59,
@@ -941,7 +999,8 @@
     "answer": true,
     "explanation": "A kognitív sémák átdolgozása (pl. KVT) hosszabb távon az érzelmi állapotot is megváltoztatja.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 60,
@@ -957,7 +1016,8 @@
     "answer": true,
     "explanation": "A tükörneuron-rendszer támogatja az empátia/affektusrezonancia jelenségét (mások állapotának belső szimulációja).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 61,
@@ -973,7 +1033,8 @@
     "answer": true,
     "explanation": "Dretske értelmében: a természetes jel törvényszerű (nem tévedhet); a reprezentáció épp attól reprezentáció, hogy tévedhet.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 62,
@@ -989,7 +1050,8 @@
     "answer": true,
     "explanation": "Zenei és akusztikai hangulatindukció bevált módszer.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 63,
@@ -1005,7 +1067,8 @@
     "answer": true,
     "explanation": "Ez a reprezentáció egyik kulcsfunkciója: emlékezhetünk, képzelhetünk, tervezhetünk anélkül, hogy az inger jelen lenne.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 64,
@@ -1021,7 +1084,8 @@
     "answer": true,
     "explanation": "A Churchland-házaspár az eliminatív materializmus klasszikus képviselői: a 'népi pszichológia' fogalmait fel kell váltania a neurotudomány által.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 65,
@@ -1037,7 +1101,8 @@
     "answer": false,
     "explanation": "Miyake et al. (2000): gátlás, váltás (flexibilitás), frissítés (updating). A 'válaszfrissítés' nem a helyes szakszó.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 66,
@@ -1053,7 +1118,8 @@
     "answer": true,
     "explanation": "A tükörneuron-rendszer alapfunkciója: másik cselekvésére/állapotára ráhangolódás + saját megfelelő válasz előkészítése.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 67,
@@ -1069,7 +1135,8 @@
     "answer": false,
     "explanation": "A figyelmi torzítások kiemelt klinikai területei elsősorban a szorongásos zavarok, fóbiák, depresszió, PTSD — nem ADHD és BPD.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 68,
@@ -1085,7 +1152,8 @@
     "answer": false,
     "explanation": "A megküzdési potenciál (Lazarus) PROBLÉMAFÓKUSZÚ ága szól a helyzet megváltoztatásáról. Az érzelemfókuszú: saját érzelmi reakció szabályozása.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 69,
@@ -1101,7 +1169,8 @@
     "answer": true,
     "explanation": "'Hot' EF: érzelmileg/motivációsan telített kontextusban működik (jutalom, frusztráció), szemben a 'cool' (semleges) EF-vel.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 70,
@@ -1117,7 +1186,8 @@
     "answer": true,
     "explanation": "Az amigdalához kötött (érzelmi) implicit memória korán, az élet első ~2 évében kifejlődik — a hippokampusz-alapú explicit memória későbbi.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 71,
@@ -1133,7 +1203,8 @@
     "answer": true,
     "explanation": "A modern tárgykapcsolat-elméletek (Klein, Bion, Ogden) az áttételt a projektív identifikáció mechanizmusával értelmezik.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 72,
@@ -1149,7 +1220,8 @@
     "answer": true,
     "explanation": "Krónikus kortizol-emelkedés (toxikus stressz) bizonyítottan a hippokampusz csökkent térfogatához vezet — gyermekkori adverzitás kutatások.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 73,
@@ -1165,7 +1237,8 @@
     "answer": true,
     "explanation": "Lazarus stressz-elmélete: másodlagos kiértékelés = saját erőforrások és coping-lehetőségek felmérése.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 74,
@@ -1181,7 +1254,8 @@
     "answer": true,
     "explanation": "A szerzett szinesztézia stroke, sclerosis multiplex, drog vagy vakság után is megjelenhet — nem csak fejlődési forma létezik.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 75,
@@ -1197,7 +1271,8 @@
     "answer": true,
     "explanation": "Csecsemőkutatások (Langlois et al.): már 3 hónaposan preferenciát mutatnak a vonzó arcok iránt.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 76,
@@ -1213,7 +1288,8 @@
     "answer": true,
     "explanation": "Az eidetikus kép jellemzője: a beszámoló jelen időben szól ('LÁTOM a képet'), mintha még most is észlelné.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 77,
@@ -1229,7 +1305,8 @@
     "answer": true,
     "explanation": "Az eidetikus képesség gyermekkorra jellemző, felnőttkorra általában elhalványul; a képzeleti élénkség is csökken.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 78,
@@ -1245,7 +1322,8 @@
     "answer": true,
     "explanation": "A propozicionális reprezentáció absztrakt, nyelvszerű, modalitásfüggetlen — a legmagasabb absztrakciós szintű.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 79,
@@ -1261,7 +1339,8 @@
     "answer": false,
     "explanation": "A Cantril-létra szubjektív életminőség / jóllét mérőeszköze, nem érzelemszabályozási mérce.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 80,
@@ -1277,7 +1356,8 @@
     "answer": true,
     "explanation": "A Thatcher-illúzió (fejjel lefelé fordított arc szem-száj inverziójának észrevétlensége) klasszikusan a konfigurációs feldolgozás bizonyítéka.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 81,
@@ -1293,7 +1373,8 @@
     "answer": false,
     "explanation": "A kognitív torzítások (figyelmi és értelmezési) jól módosíthatók — pl. Cognitive Bias Modification (CBM) programokkal.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 82,
@@ -1309,7 +1390,8 @@
     "answer": false,
     "explanation": "Perky-effektus: inkongruens (eltérő témájú) elemek is asszimilálódhatnak, ha a képzeleti instrukció elég erős.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 83,
@@ -1325,12 +1407,13 @@
     "answer": false,
     "explanation": "Általában a NREM (lassú hullámú) alvás aránya nagyobb az alvásban; poszthipnotikus szuggesztió nem fordítja meg ezt.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 84,
     "topicNum": 13,
-    "topic": "Kognitív idegtudomány",
+    "topic": "Mesterséges intelligencia és megismerés",
     "difficulty": "easy",
     "type": "tf",
     "question": "A szinaptikus hálózat alakulását kizárólag genetikai program szabályozza.",
@@ -1341,7 +1424,8 @@
     "answer": false,
     "explanation": "A szinaptikus hálózatot genetikai program ÉS tapasztalat-alapú szelekció (epigenetika, plaszticitás) együtt formálja.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 85,
@@ -1357,7 +1441,8 @@
     "answer": false,
     "explanation": "Éppen ellentétes fogalmak: depiktív = képi/analóg, deskriptív = leíró/propozicionális.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 86,
@@ -1373,7 +1458,8 @@
     "answer": true,
     "explanation": "Az appraisal-elméletek (Lazarus, Scherer) szerint az érzelem nem közvetlenül az ingerre, hanem annak kiértékelésére adott válasz.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 87,
@@ -1391,7 +1477,8 @@
     "answer": 1,
     "explanation": "Horowitz (1970) imagológiai munkáiban a gesztusok, mozdulatok kiemelt szerepet kapnak.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 88,
@@ -1409,7 +1496,8 @@
     "answer": 1,
     "explanation": "Pylyshyn a propozicionális reprezentáció elméletének fő képviselője; a mentális forgatás Shepardé.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 89,
@@ -1427,7 +1515,8 @@
     "answer": 1,
     "explanation": "Adolphs az arcészlelés strukturális/mag-kódolási modelljéhez (Bruce & Young után) kapcsolható.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 90,
@@ -1445,7 +1534,8 @@
     "answer": 1,
     "explanation": "Haber az eidetikus képek klasszikus kutatója (Haber & Haber 1964).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 91,
@@ -1465,7 +1555,8 @@
     ],
     "explanation": "Mayer multimédia-tanulása: hangok + animációk együttes bemutatása mindkét hatás miatt hatékony — multimodalitás + figyelemorientáció.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 92,
@@ -1483,7 +1574,8 @@
     "answer": 4,
     "explanation": "Wolfe Guided Search-elmélete a Treisman-féle FIT továbbfejlesztése.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 93,
@@ -1501,7 +1593,8 @@
     "answer": 4,
     "explanation": "Steven Pinker: 'The Language Instinct' (1994).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 94,
@@ -1519,7 +1612,8 @@
     "answer": 4,
     "explanation": "Bulbus olfactorius = szaglógumó; az arcfelismeréshez nincs köze. A többi mind érintett (OFA, FFA, amygdala).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 95,
@@ -1537,7 +1631,8 @@
     "answer": 4,
     "explanation": "A fordított Flynn-hatás (csökkenő IQ-átlag) magyarázatai között az oktatás struktúrája szerepel — az iskola más képességeket fejleszt.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 96,
@@ -1555,7 +1650,8 @@
     "answer": 4,
     "explanation": "Richard E. Mayer Cognitive Theory of Multimedia Learning (CTML) szerzője.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 97,
@@ -1576,7 +1672,8 @@
     ],
     "explanation": "Vitális (testi) tudattalan: ösztönök és érzelmek (alapvető testi-affektív szintek). Fantáziák, szándékok inkább a magasabb pszichikai szintek.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 98,
@@ -1594,7 +1691,8 @@
     "answer": 1,
     "explanation": "Theodor Lipps híres mondata — Freud is hivatkozik rá.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 99,
@@ -1611,12 +1709,13 @@
     "answer": 2,
     "explanation": "Eliminativizmus a Churchland-házaspár fő gondolata, NEM Chomsky. A többi mind Chomsky-fogalom.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 100,
     "topicNum": 13,
-    "topic": "Kognitív idegtudomány",
+    "topic": "Mesterséges intelligencia és megismerés",
     "difficulty": "easy",
     "type": "multi",
     "question": "A természettudományos, pozitivista pszichológiákra NEM jellemző. Jelölje a HELYTELEN válaszokat!",
@@ -1632,7 +1731,8 @@
     ],
     "explanation": "Pozitivista pszichológia: redukcionista + biologizáló (helyes). NEM kontextualista és NEM idiografikus (azok hermeneutikus megközelítések).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 101,
@@ -1650,7 +1750,8 @@
     "answer": 2,
     "explanation": "A fejlődési szinesztézia jellemzően JÓL elkülöníthető a hallucinációtól, nem nehéz tőle elválasztani.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 102,
@@ -1672,7 +1773,8 @@
     ],
     "explanation": "Késleltetés következményei: várakozás (expektancia), válaszkészenlét, exploráció. Az unalom nem direkt következmény.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 103,
@@ -1694,7 +1796,8 @@
     ],
     "explanation": "A szociális kognitív idegtudomány: mentalizáció, önszabályozás, szociokognitív folyamatok. A hermeneutikai értelmezés filozófiai/módszertani, nem kutatási tárgy.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 104,
@@ -1712,7 +1815,8 @@
     "answer": 4,
     "explanation": "Lawrence Weiskrantz: blindsight (vaklátás) klasszikus kutatója (1986).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 105,
@@ -1730,7 +1834,8 @@
     "answer": 4,
     "explanation": "Eduard von Hartmann (1869): fiziológiai, pszichológiai, abszolút tudattalan. A 'fenomenológiai' nem szerepel.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 106,
@@ -1748,7 +1853,8 @@
     "answer": 2,
     "explanation": "Az érzelemszótár (emotion vocabulary) a verbális érzelemkifejezés fejlesztésére szolgál — a megnevezés segíti a szabályozást.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 107,
@@ -1766,7 +1872,8 @@
     "answer": 4,
     "explanation": "AAP ajánlás: 18 hónap alatt gyakorlatilag NULLA képernyőidő (video chat kivételével); 18-24 hónap: minimális, kísérővel. Egyik konkrét számérték sem stimmel.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 108,
@@ -1784,7 +1891,8 @@
     "answer": 3,
     "explanation": "A hálanapló (gratitude journal) a pozitív pszichológia legjobban dokumentált pozitív-érzelem-erősítő eszköze.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 109,
@@ -1802,7 +1910,8 @@
     "answer": 4,
     "explanation": "Mindhárom tényező csökkentheti a VR-alapú tanulás hatékonyságát (kognitív terhelés, distrakció, illeszkedési probléma).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 110,
@@ -1820,7 +1929,8 @@
     "answer": 3,
     "explanation": "Mind az életkor (fejlődéslélektani szempontok), mind az aktuális hangulat (megfelelő intervenció megválasztása) számít.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 111,
@@ -1838,7 +1948,8 @@
     "answer": 2,
     "explanation": "Hangoskönyv UNIMODÁLIS (csak audio); a többi multimodális/multimédiás (vizuális elemekkel).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 112,
@@ -1856,7 +1967,8 @@
     "answer": 1,
     "explanation": "Haugeland filozófus / megismeréstudós; a többiek a mentális képzelet kísérleti kutatói (Cooper, Shepard, Kosslyn).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 113,
@@ -1874,7 +1986,8 @@
     "answer": 4,
     "explanation": "Haugeland NEM mentális forgatás kutatás (Cooper, Shepard, Metzler, Kosslyn igen).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 114,
@@ -1892,7 +2005,8 @@
     "answer": 4,
     "explanation": "A szinesztézia típusai: szerzett, fejlődési, indukált. A 'nyelvi szimuláció' nem szinesztézia-típus.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 115,
@@ -1910,7 +2024,8 @@
     "answer": 1,
     "explanation": "Szinesztézia keresztmodális élmény; a többi mind vizuális/képi élményforma.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 116,
@@ -1928,7 +2043,8 @@
     "answer": 1,
     "explanation": "Szinesztézia (modalitások közti); a többi belső vizuális kép forma.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 117,
@@ -1946,7 +2062,8 @@
     "answer": 4,
     "explanation": "fMRI = képalkotó eljárás; a többi érzelemszabályozási / önreflexiós eszköz.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 118,
@@ -1964,7 +2081,8 @@
     "answer": 3,
     "explanation": "A szimbolikus eltérő ABSZTRAKCIÓS szintet jelez; a többi a sémák / műveletek tulajdonsága (Piaget).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 119,
@@ -1980,9 +2098,10 @@
       "asszociáció"
     ],
     "answer": 4,
-    "explanation": "Akkomodáció, asszimiláció, ekvilibráció — Piaget alapfogalmai; asszociáció NEM piagetiánus.",
+    "explanation": "A figyelem klasszikus kutatási hagyományát több vonal alakítja. Donald Broadbent (1958) szűrőelmélete a korai figyelem-kutatás brit alapozó műve — az ő nevéhez NEM a szenzoros tár kapcsolódik. A szenzoros tár (sensory store, ikonikus / echóikus memória) fogalma Sperling (1960) és Neisser (1967, Cognitive Psychology) munkáiból ered. Wolfe Guided Search-elmélete viszont a vizuális keresés tárgyfelismerésre, jelenet-kódolásra és üvegnyak-mechanizmusra vonatkozó modellje. A párosítás akkor stimmel, ha minden fogalmat a szerzőjéhez illesztünk.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 120,
@@ -2000,7 +2119,8 @@
     "answer": 4,
     "explanation": "A többi külső, megfigyelhető viselkedés; a mentális kép belső reprezentáció.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 121,
@@ -2018,7 +2138,8 @@
     "answer": 2,
     "explanation": "Fantázia, testkép, introjekció — pszichoanalitikus belső fogalmak. A gesztus külső, kommunikatív kifejezés.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 122,
@@ -2036,7 +2157,8 @@
     "answer": 3,
     "explanation": "Gondolatok, hiedelmek, ítéletek = propozicionális tartalmak; az élmény fenomenális (analóg) jellegű.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 123,
@@ -2054,7 +2176,8 @@
     "answer": 2,
     "explanation": "A séma jellemzői: relációk, asszociativitás, rugalmasság. 'Alapértékek' (default values) Minsky frame-elméletének sajátja — egyfajta megfelelő, DE itt a kérdés-kontextusban a sémának nincs rögzített alapértéke.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 124,
@@ -2072,7 +2195,8 @@
     "answer": 1,
     "explanation": "Képek, analóg, elosztott — mind nem-szimbolikus reprezentációk. A propozicionális szimbolikus.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 125,
@@ -2090,7 +2214,8 @@
     "answer": 3,
     "explanation": "WEIRD: individualista — személyes identitásban a kapcsolatok és szerepek KEVÉSBÉ fontosak; ez kollektivista jellemző.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 126,
@@ -2108,7 +2233,8 @@
     "answer": 3,
     "explanation": "Russell, Wittgenstein, Frege — nyelvfilozófusok / analitikus filozófia; Piaget fejlődéspszichológus.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 127,
@@ -2126,7 +2252,8 @@
     "answer": 4,
     "explanation": "Morfológia, szemantika, fonetika — nyelvészeti diszciplínák; eliminativizmus elmefilozófiai álláspont.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 128,
@@ -2144,7 +2271,8 @@
     "answer": 1,
     "explanation": "'A nyelv elgondolkodtató funkciója' Wilhelm von Humboldt / Karl Bühler hagyománya — Chomsky nem ezzel azonosított.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 129,
@@ -2162,7 +2290,8 @@
     "answer": 1,
     "explanation": "Kvália, tudatosság, test-lélek probléma — elmefilozófiai fogalmak; a fonológia nyelvészeti.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 130,
@@ -2180,7 +2309,8 @@
     "answer": 3,
     "explanation": "Posner figyelmi hálózat: éberség, orientáció, végrehajtó. A 'szenzitivitás' nem ennek a felosztásnak része.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 131,
@@ -2198,7 +2328,8 @@
     "answer": 2,
     "explanation": "Damasio felosztása: proto-én, tudatmag, kiterjesztett tudat. Az álom nem ennek a felosztásnak része.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 132,
@@ -2216,7 +2347,8 @@
     "answer": 3,
     "explanation": "Vigilancia, szelekció, szálienciaszűrő — figyelmi alfolyamatok; a tekintetkontroll oculomotor kontroll, nem figyelmi alfunkció.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 133,
@@ -2234,7 +2366,8 @@
     "answer": 4,
     "explanation": "Noradrenalin, dopamin, epinefrin — katekolaminok. Az acetilkolin nem katekolamin.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 134,
@@ -2252,7 +2385,8 @@
     "answer": 3,
     "explanation": "A tudattalan freudi jellemzői: ellentmondás-mentesség, külső–belső valóság cseréje, ELSŐDLEGES folyamatok uralma, időtlenség. A 'másodlagos folyamatok' a tudatosra jellemzők.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 135,
@@ -2270,7 +2404,8 @@
     "answer": 4,
     "explanation": "Érzelmek, ösztönök, szándékok — pszichikai/mentális tartalmak; az álom élménysorozat, nem tartalom-kategória.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 136,
@@ -2288,7 +2423,8 @@
     "answer": 1,
     "explanation": "A szenzoros tár Sperling / Neisser hagyományához tartozik, nem Broadbenthez. Broadbent szűrőelmélete (1958) más.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 137,
@@ -2306,7 +2442,8 @@
     "answer": 3,
     "explanation": "Scherer appraisal-komponensei: relevancia, valencia (érzelmi töltet), jövőbeli kilátások. A kongruencia más fogalom (személyiségpszichológia, célkongruencia).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 138,
@@ -2324,7 +2461,8 @@
     "answer": 2,
     "explanation": "A figyelem 3 fő komponense: kompetitív szelekció, térbeli kiválasztás, kognitív ellenőrzés. Az 'intrinzik jelenlét' tudat-elméleti fogalom.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 139,
@@ -2342,7 +2480,8 @@
     "answer": 4,
     "explanation": "Szégyen, irigység, féltékenység — szelf-tudatos, szociális érzelmek; az undor alap-(bazális) érzelem.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 140,
@@ -2360,7 +2499,8 @@
     "answer": 4,
     "explanation": "Az érzelemszabályozás stratégiái: érzelemváltás, relaxáció, figyelmi váltás. Mások érzelmének felismerése EMPÁTIA, nem szabályozás.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 141,
@@ -2378,7 +2518,8 @@
     "answer": 3,
     "explanation": "Figyelmi alfolyamatok; a munkamemória külön kognitív rendszer.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 142,
@@ -2396,7 +2537,8 @@
     "answer": 1,
     "explanation": "Nativizmus, egyetemes grammatika, LAD — Chomsky-féle nyelvelsajátítás. Kondicionálás Skinneré (empirista alternatíva).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 143,
@@ -2414,7 +2556,8 @@
     "answer": 1,
     "explanation": "fMRI képalkotó kutatási eszköz; a többi önreflexiós / mérési kérdőív-szerű eszköz.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 144,
@@ -2432,7 +2575,8 @@
     "answer": 1,
     "explanation": "Churchland eliminativizmus jellemzői: népi pszichológia mint (rossz) elmélet → eliminálható. A dualizmus EZZEL SZEMBEN álló álláspont.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 145,
@@ -2450,7 +2594,8 @@
     "answer": 2,
     "explanation": "Margaret Mead: poszt-, ko-, prefiguratív kultúra (tudásátadás generációk között). A 'mimetikus' nem ide tartozik (Tomasello-féle kulturális tanulás más).",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 146,
@@ -2468,7 +2613,8 @@
     "answer": 2,
     "explanation": "Bandura szociális tanuláselmélet: megerősítés, modellkövetés, társas támasz. A naplómódszer önreflexiós módszer, nem szociális tanulási mechanizmus.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 147,
@@ -2486,7 +2632,8 @@
     "answer": 4,
     "explanation": "Az érzelem külső / belső komponensei: viselkedés, arckifejezés, testi reakció. A 'kiértékelés-detektor' nem standard érzelem-komponens.",
     "category": "vizsga",
-    "vizsgakerdes": true
+    "vizsgakerdes": true,
+    "source": null
   },
   {
     "id": 148,
@@ -2544,7 +2691,8 @@
       "prefiguratív tudásátadás",
       "imagén rendszer",
       "kulturális tanulás"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 149,
@@ -2587,7 +2735,8 @@
       "tudattalan következtetés",
       "kreatív tudattalan",
       "ösztönös 'akarat' tudattalanja"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 150,
@@ -2630,7 +2779,8 @@
       "hála",
       "harag",
       "bűntudat"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 151,
@@ -2638,7 +2788,7 @@
     "topic": "Pszicholingvisztika, nyelvi relativizmus",
     "difficulty": "medium",
     "type": "matching",
-    "question": "Párosítsd Karl Bühler (1934) orgenon-modelljének 3 nyelvi funkcióját a leírásukkal!",
+    "question": "Párosítsd Karl Bühler (1934) organon-modelljének 3 nyelvi funkcióját a leírásukkal!",
     "options": [],
     "answer": [
       [
@@ -2663,7 +2813,8 @@
       "A nyelv reprezentációs / ábrázoló funkciója; a külvilág leírására (pl. 'Esik az eső')",
       "A nyelv viselkedés-irányító, felhívó, utasító funkciója (pl. 'Kérjük, vigyázzanak az ajtózáródásra!')",
       "A nyelv kifejezési funkciója; pszichológiai, mentális állapotok közvetítése (pl. 'Fáj a fejem')"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 152,
@@ -2696,7 +2847,8 @@
       "Bühler SZIMBÓLUM — előrejelez, leír, magyaráz",
       "Bühler SZIMPTÓMA — gondol, vél, kifejez",
       "Bühler SIGNÁL — figyelmeztet, tanácsol, parancsol"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 153,
@@ -2714,7 +2866,8 @@
     "answer": 2,
     "explanation": "Popper az érvelő/argumentatív funkciót adta hozzá Bühler hármasához — tudományos diskurzusban érhetjük tetten ezt a funkciót.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 154,
@@ -2732,7 +2885,8 @@
     "answer": 2,
     "explanation": "Jakobson hozzátette a poétikai/költészeti funkciót. Az expresszívához is kapcsolható lenne, de külön kategóriában van.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 155,
@@ -2748,7 +2902,8 @@
     "answer": false,
     "explanation": "Ez SKINNER álláspontja (Verbális viselkedés, 1957), amit Chomsky 1959-es recenziójában éles bírálattal ELVETETT. Szerinte a nyelv kreatív teljesítmény, és van bele született 'nyelvelsajátító készülék' (LAD).",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 156,
@@ -2773,7 +2928,8 @@
     ],
     "explanation": "Chomsky radikalista érvei a LAD mellett: univerzalitás (robusztusság), gyors elsajátítás, inger-szegény környezet (Pinker negatív evidencia hiánya), nyelvspecifikus szabályok léte. 5. és 6. ezzel ELLENTÉTES (Skinner-i) álláspont.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 157,
@@ -2791,7 +2947,8 @@
     "answer": 2,
     "explanation": "Az 1980-as években megjelenő paraméter-beállítási elmélet: a veleszületett LAD egyfajta 'kapcsolótáblát' tartalmaz; a megfelelő paraméterek (pl. magyar = szabad szórend; angol = kötött szórend) a környezeti input alapján beállítódnak.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 158,
@@ -2807,7 +2964,8 @@
     "answer": true,
     "explanation": "Chomsky generatív grammatikája: a mondat az elemzés alapegysége (nem a szó). Véges számú szabályból végtelen számú új mondat formálható — ezért 'generatív'.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 159,
@@ -2823,7 +2981,8 @@
     "answer": true,
     "explanation": "Chomsky híres példája bizonyítja: a mondat grammatikailag jól formált, de szemantikailag értelmetlen. Ezzel demonstrálja, hogy a szintaxis autonóm, független szerveződés a lexikától.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 160,
@@ -2841,7 +3000,8 @@
     "answer": 1,
     "explanation": "Kompetencia = a nyelvi képesség (mentális reprezentáció — 'tudjuk a szabályt'); performancia = a tényleges teljesítmény (amit a kognitív korlátok — figyelem, munkamemória — engednek belőle).",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 161,
@@ -2859,7 +3019,8 @@
     "answer": 2,
     "explanation": "Chomsky racionalista–innátista álláspontot képvisel — szemben Skinner empirista (tapasztalat-alapú, kondicionálásos) modelljével.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 162,
@@ -2889,7 +3050,7 @@
         6
       ]
     ],
-    "explanation": "Bühler – orgenon-modell (szimbólum/signál/szimptóma); Habermas – egyetemes pragmatika; Popper – argumentatív funkció; Jakobson – poétikai funkció; Chomsky – generatív grammatika és LAD; Pinker – negatív evidencia hiánya, nyelvi ösztön.",
+    "explanation": "Bühler – organon-modell (szimbólum/signál/szimptóma); Habermas – egyetemes pragmatika; Popper – argumentatív funkció; Jakobson – poétikai funkció; Chomsky – generatív grammatika és LAD; Pinker – negatív evidencia hiánya, nyelvi ösztön.",
     "category": "uj",
     "vizsgakerdes": false,
     "leftItems": [
@@ -2907,7 +3068,8 @@
       "Poétikai (költészeti) funkció hozzáadása",
       "Generatív grammatika, LAD, paraméter-beállítási koncepció",
       "Nyelvi ösztön, negatív evidencia hiánya"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 163,
@@ -2925,7 +3087,8 @@
     "answer": 2,
     "explanation": "A naiv realizmus szerint a népi pszichológia helyesen feltételezi, hogy a mentális állapotok (hitek, vágyak, gondolatok) valóban léteznek. Alapbeállítottságunk realista.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 164,
@@ -2963,7 +3126,8 @@
       "Daniel Dennett",
       "Patricia és Paul Churchland",
       "Demeter Tamás és Adam Toon"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 165,
@@ -2981,7 +3145,8 @@
     "answer": 4,
     "explanation": "Dennett három álláspontja: fizikai (hardver), tervezeti (program/szoftver), intencionális (mintha gondolkodna). A hermeneutikai nem tartozik a sorozathoz.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 166,
@@ -2997,7 +3162,8 @@
     "answer": false,
     "explanation": "Éppen ellenkezőleg: szerinte mi TULAJDONÍTUNK intencionális állapotokat, de valójában a programnak nincsenek — csak ESZKÖZ-szerűen használjuk a tulajdonítást mások viselkedésének értelmezésére. Antirealista, kvázi behaviorista álláspont.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 167,
@@ -3020,7 +3186,8 @@
     ],
     "explanation": "Churchland: a 'népi pszichológia' (hit, vágy, szándék) ELMÉLET — de HAMIS / korlátos elmélet, ami fel fog váltódni az idegtudományi terminusokkal. ANTI-realista álláspont.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 168,
@@ -3038,7 +3205,8 @@
     "answer": 2,
     "explanation": "Toon mentális fikcionalizmusa szerint a mentális állapotok ÚGY léteznek, mint fikciós karakterek a regényekben — utalhatunk rájuk, de a valóságban nem léteznek. Anti-realista álláspont.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 169,
@@ -3056,7 +3224,8 @@
     "answer": 1,
     "explanation": "Toon Popper LÉTELMÉLETÉRE (hipotézis-falszifikáció és 3 világ: fizikai, mentális, kulturális objektivációk világa) támaszkodik. Szerinte a 3. világ produktumait BELEVETÍTJÜK a mentális világba.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 170,
@@ -3079,7 +3248,8 @@
     ],
     "explanation": "Három fő bírálat: (a) metafora-elsőbbség sérül a fejlődéskutatások szerint; (b) a mintha-játék fontos, de nem kizárólagos; (c) konceptuális filozófia helyett ma empirikus / 'mérhető' megközelítés kell.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 171,
@@ -3097,7 +3267,8 @@
     "answer": 2,
     "explanation": "Searle hiperrealista pozíciója szerint az intencionális állapotok valóban léteznek (intencionális realizmus). Ezzel ellenkezik a neobehaviorizmussal, ami tagadja a mentális állapotok valós létezését.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 172,
@@ -3115,7 +3286,8 @@
     "answer": 4,
     "explanation": "A három klasszikus irányzat: ortodox behaviorizmus, európai Gestalt, freudi pszichoanalízis. A kognitív idegtudomány csak a 20. század végén alakult ki.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 173,
@@ -3131,7 +3303,8 @@
     "answer": true,
     "explanation": "Watson (1913) ortodox behaviorizmusa kizárta a tudatot (és így a tudattalant is) a pszichológia tárgyköréből — csak megfigyelhető viselkedéssel foglalkozott.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 174,
@@ -3149,7 +3322,8 @@
     "answer": 4,
     "explanation": "A transzperszonális pszichológia a 4. nagy pszichológiai erő (Maslow), ami a spiritualitás kérdéseit emeli vissza — ez a fiatalabb generációkban újra értéket nyer.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 175,
@@ -3182,7 +3356,8 @@
       "Éberség, ébreszthetőség (arousal, awakefulness)",
       "Asszociációs hierarchia kérgi szintjei felé elmozdulás (állatvilágból az emberig), a megőrzés időtartamának növekedése",
       "Descartes 'cogito ergo sum'; Leibniz tudattalan képletek (petites perceptions)"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 176,
@@ -3200,7 +3375,8 @@
     "answer": 2,
     "explanation": "Husserl: az elfojtás kettős — egyrészt ELFELEJTÉS, másrészt VISSZAFOJTÁS (minden asszociatív ismerettől). Az 'értelemüledékek' passzív darabkák, asszociáció törvényei szerint szerveződnek.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 177,
@@ -3218,7 +3394,8 @@
     "answer": 3,
     "explanation": "Hartmann (1869) szerint a tudattalan 3 rétege: abszolút (kozmikus), élettani (evolúciós vak törekvés), és PSZICHOLÓGIAI tudattalan (tudatossá nem vált képzetek; vö. priming jelensége).",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 178,
@@ -3236,7 +3413,8 @@
     "answer": 2,
     "explanation": "Lipps szerint a psziché egésze tudattalan (ÓCEÁN), a tudat csak egy SZIGET ebben az óceánban. Ez gondolatilag rokon Freud későbbi jéghegy-metaforájával.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 179,
@@ -3252,7 +3430,8 @@
     "answer": true,
     "explanation": "Brentano álláspontja: a tudat lényege épp, hogy tudatos. Tudattalan tudat fogalmi képtelenség (oximoron). Pszichológiai tudattalan nincs — csak fiziológiai (testi) tudattalan folyamatok.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 180,
@@ -3285,7 +3464,8 @@
       "Normatív működés (nem deviáns irányba húzódik)",
       "Kreativitás-túlsúly (kreatív divergencia jellemző)",
       "Rivalizálás (az IQ és a kreativitás közti versengés sajátos tüneteket okozhat)"
-    ]
+    ],
+    "source": null
   },
   {
     "id": 181,
@@ -3301,7 +3481,8 @@
     "answer": true,
     "explanation": "A neurodiverzitás-szemlélet szerint a 'normális' és 'patológiás' közti merev határ nem fenntartható; helyette spektrum-szemlélet érvényes (deviáncia mindkét szélen lehet).",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 182,
@@ -3317,7 +3498,8 @@
     "answer": true,
     "explanation": "Fehr és Russel klasszikus vizsgálata: kultúraközi szinten ugyanazok az érzelmek jelennek meg leggyakrabban — alapérzelmek (öröm, szomorúság, düh).",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 183,
@@ -3328,9 +3510,10 @@
     "question": "Hasonlítsd össze az analóg (depiktív) és a propozicionális (deskriptív) reprezentációkat! Hozz fel kísérleti érveket mindkét tábor mellett.",
     "options": [],
     "answer": null,
-    "explanation": "ANALÓG (Kosslyn) érvei: Shepard-Metzler mentális forgatás (lineáris RT-szögkülönbség); Kosslyn képzeleti letapogatás; fMRI: V1 aktivitás képzelet alatt; parietális TMS rontja a teljesítményt; Behrmann CK páciens (vizuális agnózia ép képzelettel). PROPOZICIONÁLIS (Pylyshyn) érvei: a kép 'kognitíve áthatolható' — instrukciók befolyásolják; a mentális kép epifenomén; a tudás absztrakt, modalitás-független. Ma KOMPROMISSZUM: többszintű reprezentáció, kontextus-szerinti dominancia.",
+    "explanation": "A mentális reprezentációk természetéről szóló vita az 1970-es évek elejére nyúlik vissza, és lényegében arról szól, hogy a fejünkben tárolt információ valóban képi (analóg) formában él-e, vagy csupán absztrakt, nyelvszerű (propozicionális) szimbólumok kísérőjelenségéről beszélünk-e.\n\nA depiktív/analóg álláspont fő képviselője Stephen Kosslyn. Mellette szól Shepard és Metzler klasszikus mentális forgatás-kísérlete, amelyben a 3D figurák képi forgatásához szükséges idő lineárisan nő a szögkülönbséggel — mintha az elme valódi rotációt végezne egy belső képen. Kosslyn fMRI-vizsgálatai szerint nagyobb mentális kép generálása nagyobb V1 (elsődleges látókérgi) aktivitást vált ki, sőt a parietális transzkraniális mágneses ingerlés rontja a forgatási teljesítményt. Behrmann híres CK-páciense súlyos vizuális tárgyagnóziát mutatott, miközben mentális képzelete ép maradt — ez bizonyítja, hogy a képzelet részben önálló idegrendszeri folyamat, közös területekkel.\n\nA propozicionális/deskriptív álláspontot Zenon Pylyshyn fogalmazta meg legélesebben. Szerinte a mentális kép epifenomén: az élmény képszerű, de a tudás absztrakt, modalitásfüggetlen propozíciókban tárolódik. Érvként hozza fel, hogy a képzeleti élmény 'kognitíve áthatolható' — vagyis instrukciókkal befolyásolható, ami egy valódi képi reprezentáció esetén nem lenne lehetséges.\n\nA mai konszenzus inkább kompromisszumos: többszintű reprezentációs rendszerrel számolunk, amelyben a feladat és a kontextus határozza meg, mikor dominál a képi és mikor a propozicionális kódolás. A kettős kódolás (Paivio) elve éppen ezt az együttműködést hangsúlyozza a verbális (logogén) és a képi (imagén) rendszer között.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 184,
@@ -3341,9 +3524,10 @@
     "question": "Mutasd be a séma kérdéskörét! Vázold fel a sémával kapcsolatos modernebb elképzeléseket (Szokolszky: A séma fogalma a kognitív pszichológiában. Régi és új értelmezések).",
     "options": [],
     "answer": null,
-    "explanation": "Eredet: Kant (előzetes tapasztalat-alapú elvárás + emlékezeti váz). KLASSZIKUS: Bartlett 1932 (konstruktív emlékezet — 'remembering'); Piaget (asszimiláció-akkomodáció-equilibrium, érzékszervi-mozgásos→képzeti→műveleti tevékenység); Neisser 1976 (észlelési ciklus). MODERN: Rumelhart PDP/konnekcionista (nem objektum, hanem aktivációs mintázat — egymásba ágyazódás, hálózati tudás); Minsky 1975 (frames — kitöltetlen terminusok, alapértékek); Schank-Abelson 1977 (forgatókönyvek — rutincselekvések rendje). Közös vonások: relációkból álló váz, változók/üres helyek (alapértékkel), rugalmasság, aktív szerep. Kortárs: embodiment (testbe ágyazott megismerés), tükörneuron-rendszer (cselekvési séma idegrendszeri korrelátuma). Klinikai vonatkozás: Young-féle sématerápia (korai maladaptív sémák).",
+    "explanation": "A séma fogalma a kanti ismeretelméletből nőtte ki magát: az előzetes tapasztalataink alapján kialakuló elvárásrendszerként és az emlékezeti tartalmak vázaként jelenik meg. A modern kognitív pszichológia a sémát az észlelés és emlékezet központi magyarázó elvévé tette, és ennek a fejlődéstörténetnek két meghatározó alakja Bartlett és Piaget.\n\nBartlett 1932-ben jelent meg klasszikus emlékezetkönyvével, amelyben a hagyományos Ebbinghaus-féle, értelmetlen szótagokon nyugvó paradigmát elvetette, és a komplex, értelmes anyagok (történetek, rajzok) felidézését vizsgálta. Az eredmény az volt, hogy az emlékezés sosem szó szerinti, hanem konstruktív rekonstrukció: nem 'memory' (emlékezet mint passzív tár), hanem 'remembering' (aktív, képzeleti újraalkotás). A séma itt egy aktív, dinamikus szerveződés, amely az új információt a meglévő tudás és értékrend mentén alakítja át. Piaget ezzel párhuzamosan az asszimiláció, akkomodáció és ekvilibráció hármasában fogalmazta meg a séma fejlődési mechanikáját: az érzékszervi-mozgásos sémáktól a műveleti sémákig vezet az út.\n\nA modernebb értelmezésekben a séma egyre kevésbé statikus reprezentációs egység. Rumelhart konnekcionista (PDP) felfogásában a séma nem objektum, hanem hálózati aktivációs mintázat, amely egymásba ágyazódhat, és a rendszer alkalmazkodása révén rugalmasan formálódik. Minsky kerete (frame) és Schank–Abelson forgatókönyve (script) a séma másfajta operacionalizálása: kitöltetlen terminusokat, alapértékeket és cselekvési-helyzeti rutinokat tartalmazó struktúrák. Neisser észlelési ciklusa pedig azt mutatja, ahogy a séma irányítja a feltáró cselekvést, amely visszahat magára a sémára.\n\nA kortárs gondolkodásban kulcsfogalom az embodiment és a tükörneuron-rendszer: a sémák testbe ágyazottak, és nemcsak gondolati, hanem cselekvési-szenzomotoros alapokon szerveződnek. A klinikai vonatkozás Young sématerápiája, amely a korai maladaptív sémák azonosítását és átdolgozását célozza meg.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 185,
@@ -3354,9 +3538,10 @@
     "question": "Mit jelent az áttétel a neuropszichoanalízisben? Hogyan értelmezi a tárgykapcsolat-elmélet és a modern idegtudomány?",
     "options": [],
     "answer": null,
-    "explanation": "Klasszikus definíció: a páciens olyan érzéseket / mintázatokat visz át a terapeutára, melyek korai szignifikáns kapcsolataiból származnak. Tárgykapcsolat-elmélet (Klein, Bion, Ogden): az áttétel a PROJEKTÍV IDENTIFIKÁCIÓ egyik változata — nemcsak projektál, hanem aktívan elindít egy interakciós mintát, ami előhívja a terapeutából a kívánt reakciót. Idegrendszeri háttér: procedurális emlékezeti mintázatok aktiválódása, melyek a korai kötődési epizódok során (élet első ~2 éve, amygdala-alapú implicit emlékezet kifejlődési időszaka) alakultak ki. Tükörneuron-rendszer és affektusrezonancia adja a mechanikus alapot. Krónikus korai stressz → kortizol-emelkedés → hippokampusz atrófia (a 'múlt determinálja a jelent' tézis idegtudományi formája).",
+    "explanation": "Az áttétel klasszikus pszichoanalitikus értelmében azt a folyamatot jelöli, amelyben a páciens olyan érzéseket, elvárásokat és kapcsolati mintázatokat visz át a terapeutára, amelyek korábbi, jelentős kötődési viszonyaiból — leggyakrabban a gyermekkori szülő-gyermek kapcsolatból — származnak. Freud számára ez egyszerre volt diagnosztikus jel és terápiás eszköz: az áttétel megmutatja, hogyan strukturálja a múlt a jelenlegi kapcsolatokat, és lehetőséget ad az újrarendezésre.\n\nA tárgykapcsolat-elmélet (Klein, Bion, Ogden) lépett tovább, és az áttételt a projektív identifikáció egy speciális változataként értelmezi. A páciens nemcsak vetít, hanem aktívan elindít egy interakciós mintát, amely a terapeutából előhívja a kívánt választ — a terapeuta így saját ellenérzéseiben éli át a páciens belső tárgykapcsolati világát.\n\nA neuropszichoanalízis ezt az élményt idegrendszeri folyamatokra is leképezi. Solms és Panksepp munkái nyomán az áttétel olyan procedurális, implicit emlékezeti mintázatok aktiválódásaként értelmezhető, amelyek az élet első két évében, az amygdala és a tárgykapcsolati hálózat érésének periódusában formálódtak. Ezek a mintázatok nem explicit, hozzáférhető emlékek, hanem affektív sémák, amelyeket a tükörneuron-rendszer és az affektusrezonancia tart fenn a társas térben.\n\nA klinikai megfigyelést megerősítik a kortizol- és hippokampusz-kutatások is: a korai szeparáció és krónikus stressz tartós hippokampusz-atrófiát eredményez, ami biológiailag is bizonyítja, hogy a múlt valóban determinálja a jelen érzelmi és kapcsolati működését. Az áttétel így nem misztikus jelenség, hanem mérhető, idő- és kapcsolatfüggő idegrendszeri mintázat, amelynek megértése és újraírása a pszichoterápia egyik legfontosabb műveletének tekinthető.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 186,
@@ -3367,9 +3552,10 @@
     "question": "Adj címet a képnek és írd le, mit látunk rajta! Magyarázd el az elméleti hátteret a hibrid képek vagy az arcészlelési modell alapján.",
     "options": [],
     "answer": null,
-    "explanation": "Modell: Oliva-Torralba hibrid képek (LSF/HSF kombináció — közelről részletes, távolról a globális forma dominál). VAGY Bruce-Young arcészlelés-modell: strukturális kódolás → arcfelismerési egység → személyidentitás-csomópont → név-előhívás (csak más információk birtokában). FFA, OFA, STS, amygdala szerepe. Két útvonal: kéreg alatti (Conspec — gyors, alacsony téri frekvencia, magnocelluláris) és kérgi (Conlearn — finom diszkrimináció). Thatcher-illúzió a konfigurális feldolgozás bizonyítéka.",
+    "explanation": "A választott ábra Oliva és Torralba hibrid képeit, vagy a Bruce–Young-féle arcészlelési kognitív modellt szemlélteti. Mindkét anyagon ugyanaz a vizuális kettősség dolgozik: arcok és tárgyak észlelése egyszerre több téri frekvencián, egyszerre több idegi pályán halad.\n\nA hibrid kép Oliva–Torralba alapeszméje szerint két, eltérő téri frekvencián szűrt képet egyetlen képbe szorítva mutat be. Közelről a magas téri frekvenciájú (HSF) komponens dominál, így az egyik arc látszik; távolról vagy hunyorítva az alacsony téri frekvenciájú (LSF) komponens jut érvényre, és a másik arc bontakozik ki. Az elméleti háttér a két felszálló vizuális pálya — a magnocelluláris (gyors, LSF, kéreg alatti, amygdala-érintettséggel) és a parvocelluláris (lassabb, HSF, kérgi, FFA-érintettséggel) — közötti munkamegosztás.\n\nA Bruce–Young-modell az arcészlelést többlépcsős, párhuzamos folyamatként írja le. A strukturális kódolás a kontúr, alak, szín és textúra integrálását végzi egy egységes arcreprezentációvá; itt dől el a nem, az életkor és a rassz becslése. Ennek nyomán aktiválódik az arcfelismerési egység, és — ha ismerős — a személyidentitás-csomópont, amely multimodális szemantikus és epizodikus információkat köt össze. Az érzelmi arckifejezés feldolgozása és a szájról olvasás ezzel párhuzamos, független folyamatként zajlik.\n\nA két párhuzamos arcészlelési útvonal (Conspec és Conlearn) az újszülöttek arcpreferenciájának kétfázisú alakulását is magyarázza: a kéreg alatti, ősi rendszer biztosítja az arcra való ráhangoltságot, a kérgi tanuló rendszer pedig a finom diszkriminációt teszi lehetővé. A Thatcher-illúzió szemléletesen mutatja, hogy az arcfeldolgozás holisztikus/konfigurális: a fejjel lefelé fordított arcban a megfordított szem és száj furcsa volta eltűnik, mert a részletek konfigurációs viszonyai nem tudnak érvényesülni.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 187,
@@ -3380,9 +3566,10 @@
     "question": "Mutasd be a tudat–tudattalan kérdéskör 1800-as évek végi három fő irányzatát! Hogyan közelíti meg ma a kognitív tudomány a tudattalant?",
     "options": [],
     "answer": null,
-    "explanation": "Három irányzat: (1) ortodox BEHAVIORIZMUS — kizárja a tudatot, így a tudattalant is (Watson 1913); (2) európai GESTALT — élményvilág neurológiai hátterét vizsgálja, tér-idő orientáció, egyenlegesség; (3) FREUDI pszichoanalízis — dinamikus tudattalan, elsődleges folyamatok. Ma a kognitív tudomány Whyte 3 tudattalan-fogalmát használja: kognitív (küszöb alatti észlelés — Helmholtz, Greenwald New Look 3), vitális (ösztönök, érzelmek, motiváció — Panksepp), patologikus (Charcot, Bernheim, Freud — klinikai). Greenwald: a tudattalan kogníció EGYSZERŰ, alacsonyabb szintű — konnekcionista modellekkel kompatibilis.",
+    "explanation": "Az 1800-as évek vége három meghatározó irányzatot hozott, amelyek máig kijelölik a tudat–tudattalan vita gondolati tereit. Az ortodox behaviorizmus, Watson 1913-as manifesztumával, kizárta a tudatot a tudományos pszichológia tárgyköréből: nemcsak a tudatos, hanem a tudattalan folyamatok elemzését is feleslegesnek tartotta, mert csupán a megfigyelhető viselkedést kívánta vizsgálni. Az európai Gestalt-iskola — Wertheimer, Köhler, Koffka — ezzel szemben az élményvilág egészlegességét, strukturáltságát helyezte előtérbe, és az észlelés szerveződési törvényeit kereste. A freudi pszichoanalízis a tudattalan dinamikus oldalát tárta fel: az elsődleges folyamatok, az elfojtás és az ösztönkésztetések egy önálló pszichikus szféra működéseként jelentek meg, amely a tudatos elme alatt formálja a viselkedést.\n\nA három irányzat eltérően viszonyult ahhoz a problémához, hogy a tudattalan egyáltalán hozzáférhető-e tudományos vizsgálat számára. Brentano kifogásolta a 'tudatos tudattalan' fogalmát, mint oximoront; Lipps viszont az óceán-sziget metaforával éppen azt érzékeltette, hogy a psziché egésze tudattalan, és a tudat csak egy elszigetelt sziget benne.\n\nA mai kognitív tudomány Whyte hármas felosztásával dolgozik: a kognitív tudattalan (Helmholtz tudattalan következtetése, Greenwald New Look 3 paradigmája) a küszöb alatti, automatikus feldolgozást fedi le; a vitális tudattalan (Panksepp affektív rendszerei) az ösztönöket, érzelmeket, motivációkat öleli fel; a patologikus tudattalan a klinikai pszichoanalízis hagyományát viszi tovább. Greenwald összefoglalása szerint a tudattalan kogníció valós, de viszonylag egyszerű folyamatokra korlátozódik — automatikus aktiválás, implicit memória, stimuluskategorizáció szintjén —, és jól illeszkedik a konnekcionista, párhuzamos elosztott feldolgozás modelljeibe.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 188,
@@ -3393,9 +3580,10 @@
     "question": "Mutasd be a mentális állapotok ontológiájának 4 fő kortárs álláspontját! Melyik realista és melyik antirealista?",
     "options": [],
     "answer": null,
-    "explanation": "(1) FODOR-SEARLE intencionális realizmus / HIPERREALIZMUS — a mentális/intencionális állapotok valóban léteznek; ellenkezik a neobehaviorizmussal. (2) DENNETT instrumentalizmus — tulajdonítunk intencionális állapotokat (sakkprogram 3 hozzáállás), de azok eszközök mások értelmezésére, NEM valós entitások. ANTI-REALISTA, kvázi behaviorista. (3) CHURCHLAND eliminatív materializmus — a népi pszichológia elmélet, de HAMIS / korlátos; fel fogja váltani az idegtudomány. ANTI-r. (4) DEMETER TAMÁS-TOON mentális fikcionalizmus — a mentális állapotok státusza, mint Sherlock Holmesé: utalhatunk rájuk, de nem léteznek. Toon Popper 3 világára (fizikai, mentális, kult. obj.) támaszkodik. ANTI-r. Bírálatok: kísérleti kognitív fejlődési tudomány szerint a mentális állapotok megértése előbb fejlődik, mint a metaforák; a mintha-játék (Leslie) nem kizárólagos.",
+    "explanation": "A mentális állapotok ontológiai státuszának kérdése a kortárs elmefilozófia egyik központi vitája. A naiv realizmus szerint a népi (hétköznapi) pszichológia helyesen feltételezi, hogy a mentális állapotok — hitek, vágyak, szándékok — valóban léteznek. Erre az alapra négy fő kortárs álláspont reagál egészen eltérő módon.\n\nAz első a Fodor és Searle nevéhez köthető intencionális realizmus, amelyet Searle hiperrealizmusnak is nevez. Eszerint az intencionális állapotok ténylegesen léteznek, és a népi pszichológia univerzális — gondoljunk a Péter és a hűtőszekrény példájára: amikor Péter kinyitja a hűtőt, automatikusan vágyat és hitet tulajdonítunk neki, és ez nem puszta beszédfordulat. Searle ezzel szemben áll a neobehaviorizmussal, amely tagadja a mentális állapotok valós létezését. Fontos kapcsolatelve, hogy egy tudattalan intencionális állapot csak akkor tekinthető valóban mentálisnak, ha elvileg hozzáférhetővé válhat a tudatosság számára.\n\nA második álláspont Dennett instrumentalizmusa. Híres sakkprogram-példájával három hozzáállást vázol: a fizikai (hardver szintjén), a tervezeti (algoritmus, C++ szintjén) és az intencionális (mintha a program gondolkodna) hozzáállást. Dennett szerint az intencionális tulajdonítás csupán hasznos eszköz mások és önmagunk viselkedésének előrejelzésére, de ebből nem következik a mentális állapotok valós ontológiai léte. Anti-realista, behaviorista jellegű álláspont.\n\nA harmadik álláspont Patricia és Paul Churchland eliminatív materializmusa. Szerintük a népi pszichológia laikus elmélet, amely a mentális állapotokról szól, de ez az elmélet hamis és tudománytalan — hasonló a flogiszton-elmélethez. Az idegtudomány érettével a 'hit', 'vágy', 'szándék' fogalmait fel fogja váltani egy valódi neurobiológiai elmélet.\n\nA negyedik a Demeter Tamás és Adam Toon képviselte mentális fikcionalizmus. Eszerint a mentális állapotok státusza a fikciós karakterekéhez hasonlít: Sherlock Holmesra utalni tudunk, beszélni tudunk róla, de a valóságban nem létezik. Toon Popper háromvilág-elméletére támaszkodik: a kulturális objektivációk világából vetítjük be a mentális állapotokat. A kortárs kísérleti kognitív fejlődési tudomány viszont gyengíti az álláspontot: kimutatja, hogy a mentális állapotok megértése ontogenetikusan korábban jelenik meg, mint a metafora megértése, ezért a 'belső jegyzetfüzet'-metafora elsőbbsége nem tartható.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
   },
   {
     "id": 189,
@@ -3403,11 +3591,222 @@
     "topic": "Pszicholingvisztika, nyelvi relativizmus",
     "difficulty": "hard",
     "type": "essay",
-    "question": "Mutasd be Bühler orgenon-modelljét! Hogyan bővítette Habermas, Popper és Jakobson?",
+    "question": "Mutasd be Bühler organon-modelljét! Hogyan bővítette Habermas, Popper és Jakobson?",
     "options": [],
     "answer": null,
-    "explanation": "BÜHLER (1934) háromszög-modell — a nyelv 3 funkciója: SZIMBÓLUM (reprezentációs/ábrázoló, pl. 'Esik az eső'), SIGNÁL (felhívó/utasító, pl. 'Vigyázzanak az ajtózáródásra!'), SZIMPTÓMA (kifejezési, pl. 'Fáj a fejem'). HABERMAS egyetemes pragmatikája: konstativák (↔szimbólum: állít, leír, magyaráz), expresszívák (↔szimptóma: gondol, vél, kifejez), regulativák (↔signál: figyelmeztet, tanácsol, parancsol). POPPER: ARGUMENTATÍV (érvelő) funkcióval bővít — tudományos diskurzus. JAKOBSON: POÉTIKAI (költészeti) funkció. Mindezek megelőzik / kiegészítik Chomsky generatív modelljét; a kommunikatív cselekvés elmélete áll a háttérben.",
+    "explanation": "Karl Bühler 1934-ben fogalmazta meg az organon-modellt — a görög organon (eszköz, szerszám) szóból —, amely Chomsky generatív fordulata előtt máig meghatározó alapvetést adott a nyelv funkcióinak rendszerezéséhez. Bühler kérdésfeltevése egyszerű, de termékeny: mi a nyelv funkciója, milyen célból használjuk? A háromszög-modellben három párhuzamos funkciót azonosít.\n\nA szimbólum-funkció a nyelv reprezentációs, ábrázoló oldala. Itt a nyelv elsősorban a külvilág leírására szolgál — például az 'Esik az eső' vagy 'A Föld forog a Nap körül' mondatok. Wittgenstein korai műve, a Tractatus Logico-Philosophicus (1921) éppen ezt a funkciót abszolutizálja, amikor a nyelvet a valóság képeként értelmezi. A szignál-funkció a viselkedés irányítását, befolyásolását szolgálja — felhívó jellegű, mint a 'Kérjük, vigyázzanak, az ajtók záródnak.' utasítás. A szimptóma-funkció pedig a beszélő mentális, pszichológiai állapotának kifejezője: 'Fáj a fejem', 'Arra vágyom, hogy…'.\n\nBühler ugyanezt a hármast alkalmazza a pszichológia tárgyaira is: a viselkedéshez kapcsolja a behaviorizmust, az élményhez a pszichoanalízist és az alaklélektant, a kultúrához pedig a szellemtudományos pszichológiát. A modell így nemcsak nyelvi, hanem általános tudományrendszertani séma.\n\nHabermas egyetemes pragmatikája — A kommunikatív cselekvés elmélete című főművében — közvetlenül Bühler háromszögére épít. A performatív igéket három csoportba sorolja: a konstatívák (előrejelez, leír, magyaráz) a szimbólumhoz kapcsolódnak; az expresszívák (gondol, vél, kifejez) a szimptómához; a regulatívák (figyelmeztet, tanácsol, parancsol) a szignálhoz. Popper a tudományos diskurzus elemzése felől gondolta tovább a modellt, és egy negyedik, argumentatív (érvelő) funkcióval bővítette — ez az érveléses, hipotézis-falszifikációs nyelvhasználat tere. Jakobson végül a poétikai (költészeti) funkciót adta hozzá, amely az expresszívához kapcsolható lenne, de önálló esztétikai-stilisztikai kategóriát képez.\n\nEz a bővülés vezet el Chomsky generatív fordulatáig, amely már a nyelv mentális reprezentációját, kompetenciáját és a nyelvelsajátítás biológiai meghatározottságát (LAD) helyezi a középpontba — de a Bühler-modell funkcionális tagolása máig az egyik legtisztább alapot adja a nyelv szerepeinek megértéséhez.",
     "category": "uj",
-    "vizsgakerdes": false
+    "vizsgakerdes": false,
+    "source": null
+  },
+  {
+    "id": 190,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Bruce és Young arcészlelési kognitív modelljét! Hogyan kapcsolódik a Conspec/Conlearn kétpályás elmélethez?",
+    "options": [],
+    "answer": null,
+    "explanation": "Az arcészlelés egyike a legjobban kidolgozott területeknek a kognitív pszichológiában, és Bruce és Young 1986-os modellje máig az elméleti alapot adja a megértéséhez. A modell kulcsgondolata, hogy az arcok identitásának felismerése és az érzelmi arckifejezések feldolgozása funkcionálisan és neuronálisan elkülönült rendszerek munkájának eredménye.\n\nA folyamat első lépése a strukturális kódolás: a vizuális inger alapján a kontúr, az alak, a szín és a textúra integrálódik egy egységes arcreprezentációvá. Itt dől el az arc neme, életkora és rasszi hovatartozása. Ezt követi az arcfelismerési egység aktiválódása, amely az új inputot összeveti a már tárolt arcreprezentációkkal. Ha az illeszkedés sikeres, a személyidentitás-csomópont aktivál minden olyan szemantikus és epizodikus információt, amit a személyről tudunk. A névelőhívás csak ezen az úton, a kontextuális információk birtokában lehetséges — ezért tapasztaljuk gyakran, hogy 'arcra emlékszem, névre nem'.\n\nA Conspec / Conlearn elmélet (Morton és Johnson) a fejlődéslélektani vonatkozást egészíti ki: az újszülöttek arcpreferenciája két párhuzamos rendszerre vezethető vissza. A Conspec egy ősi, kéreg alatti, 'gyors és piszkos' mechanizmus (superior colliculus, amygdala, pulvinar), amely az arcszerű mintázatokra biztosítja a figyelmi orientációt — ez magyarázza az újszülöttek arcpreferenciáját. A Conlearn ezzel szemben egy kérgi tanuló rendszer (FFA, OFA, STS), amely az egyes arcok megkülönböztetését teszi lehetővé. A két rendszer fejlődési ütemkülönbsége adja meg az arcpreferencia kétfázisú alakulását: az újszülöttek preferálnak, egyhónaposok kevésbé, kéthónaposok újra preferálják az arcokat.\n\nA modell elméleti ereje, hogy magyarázatot ad az autizmus spektrum egyes arcészlelési sajátosságaira (lokális, részletfókuszú feldolgozás), a Thatcher-illúzióra (konfigurális feldolgozás összeomlása fej-fordításnál) és az életkori változásokra is.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 1.1 Arcészlelés; Ö: 1_Ö Arcfelismerés AI"
+  },
+  {
+    "id": 191,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Adj címet a következő ábrának és magyarázd el: 'Az arcészlelés két párhuzamos útvonala'. Mi a Conspec és Conlearn különbsége, és milyen idegrendszeri pályák kapcsolódnak hozzájuk?",
+    "options": [],
+    "answer": null,
+    "explanation": "Az ábrán a Geniculostriate (kérgi) és a Tectopulvinar (kéreg alatti) felszálló vizuális pálya párhuzamos szerveződését látjuk, az arcészlelés evolúciós kettősségét szemléltetve.\n\nA kéreg alatti pálya — az ősi, gyors útvonal — a retinából a superior colliculuson, a pulvinaron át halad a magnocelluláris rendszerbe. Alacsony téri frekvenciára, periférikus megjelenésre érzékeny, és közvetlen kapcsolatban áll az amygdalával. Ez teszi lehetővé a 35 ms alatti durva 'mag-kiértékelést': fenyegető arc, félelem, érzelmi szignál azonnali detektálása.\n\nA kérgi pálya — az érettebb, lassabb útvonal — a lateralis geniculate nucleuson keresztül jut el a striate cortexbe (V1), majd a fusiform face area (FFA), inferior occipitalis kéreg (OFA) és a superior temporalis sulcus (STS) hálózatába. Ez biztosítja a finom diszkriminációt: ki ez konkrétan, milyen érzelmet fejez ki most, mit mond a szája, mire figyel.\n\nAz ábra elméleti jelentősége, hogy magyarázatot ad arra, miért 'látunk arcot' ott is, ahol nincs (pareidolia — kéreg alatti pálya rossz alarmja), miért preferálják az újszülöttek az arcszerű ingereket még a kérgi rendszer érése előtt (Conspec), és miért alakul kétfázisúan az arcpreferencia az első hónapokban.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 1.1; ábra: 'A két felszálló vizuális pálya'"
+  },
+  {
+    "id": 192,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Lazarus kiértékelés-elméletét és Smith–Kirby kiértékelési folyamat-modelljét! Hogyan kapcsolódnak ezek a kognitív érzelemszabályozáshoz?",
+    "options": [],
+    "answer": null,
+    "explanation": "Az érzelmek kognitív megközelítésének egyik legtermékenyebb hagyománya Richard Lazarus appraisal-elmélete, amely az érzelmi élményt nem közvetlenül az inger váltja ki, hanem az inger kiértékelése.\n\nLazarus szerint az elsődleges kiértékelés azt vizsgálja, hogy az inger releváns-e a jóllétünk szempontjából — pozitív, fenyegető vagy semleges-e. A másodlagos kiértékelés a megküzdési erőforrásokat veszi számba: mit tudunk tenni a helyzettel, mennyire vagyunk képesek befolyásolni. Az újraértékelés pedig folyamatosan monitorozza az inger és a coping-stratégiák alakulását. Smith és Lazarus hat összetevős modelljében ezek differenciáltabb dimenziókká válnak: motivációs relevancia és kongruencia, problémafókuszú és érzelemfókuszú megküzdési potenciál, felelősség és jövőbeli kilátások. A különböző kiértékelési mintázatok eltérő érzelmeket eredményeznek: a harag az 'inkongruens, más a felelős' mintára épül, a bűntudat a 'saját felelősség' attribúcióra, a szorongás az alacsony érzelemfókuszú megküzdési potenciálra.\n\nSmith és Kirby 2000-es folyamat-modellje már párhuzamos kiértékelő mechanizmusokat tételez fel. Három információforrásra támaszkodik: a szenzoros információra, a primingon át mozgósított asszociatív reprezentációkra, és a logikus gondolkodásra. Ezeket integrálják a 'kiértékelés-detektorok', amelyek aztán az érzelmi választ — fiziológiai történéseket, cselekvéses tendenciát — generálják.\n\nEz az elméleti keret közvetlen klinikai relevanciát kap. A kognitív érzelemszabályozási stratégiák (átkeretezés, fókuszváltás) éppen a kiértékelési folyamatot célozzák meg: ha megváltoztatom, hogyan értelmezem a helyzetet, megváltozik a hozzá kapcsolódó érzelem is. A KVT, a mindfulness-alapú beavatkozások és a Gross-féle érzelemszabályozási modell mind ezt az alapelvet használják ki.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 2 Érzelmek és kogníció; IR: Eysenck-Keane 13. fejezet"
+  },
+  {
+    "id": 193,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Adj címet a Genfi érzelemkeréknek (Geneva Emotion Wheel), írd le a felépítését, és mutasd be, mire használható az érzelmi képességek fejlesztésében!",
+    "options": [],
+    "answer": null,
+    "explanation": "Az ábra a Genfi érzelemkereket (Geneva Emotion Wheel) mutatja, amely Klaus Scherer és kollégái fejlesztése a Genfi Egyetem affektív tudományi központjából. A modell egy kör formájú reprezentáció, amely az érzelmi élmény két fő dimenzióját — a kontroll és a valencia (öröm-bánat) tengelyét — szervezi vizuálisan.\n\nA kerék 20 érzelmi családot helyez el négy kvadránsban: pozitív-magas kontroll (büszkeség, öröm, izgalom), pozitív-alacsony kontroll (érdeklődés, gyengédség), negatív-alacsony kontroll (szomorúság, csalódottság, csüggedtség), és negatív-magas kontroll (harag, undor, megvetés). Minden érzelmi családhoz öt intenzitási szint tartozik, amelyek a kerék középpontjától a peremig haladnak.\n\nAz érzelmi képességek fejlesztésében több módon is használható. Először is gazdagítja az érzelemszótárat: a tanuló konkrét megnevezést kap olyan finom árnyalatokra, amelyeket korábban talán csak 'rosszul vagyok' formában tudott kifejezni. A megnevezés (labeling) önmagában is szabályozó hatású — Lieberman fMRI-vizsgálatai szerint csökkenti az amygdala aktivitását. Másodszor a vizuális reprezentáció segíti a metakognitív tudatosságot: ahelyett, hogy 'eltévedne' egy érzelmi élményben, a tanuló képes 'kívülről' ránézni és elhelyezni. Harmadszor a kontroll és valencia kétdimenziós tagolása ráirányítja a figyelmet arra, hogy mit lehet befolyásolni — és ezzel összekapcsolódik a Lazarus-féle másodlagos kiértékeléssel és a problémafókuszú vs. érzelemfókuszú coping választásával.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 2 Érzelmek; gyakorlati eszköz"
+  },
+  {
+    "id": 194,
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be a Cisler és Koster (2010) figyelmi torzítás-keretrendszerét fóbiák esetén! Milyen három alapösszetevője van, és hogyan kapcsolódik LeDoux két-rendszeres modelljéhez?",
+    "options": [],
+    "answer": null,
+    "explanation": "A specifikus fóbiák megértésében Cisler és Koster 2010-es figyelmi torzítás-keretrendszere ad egy elméleti hidat a kísérleti és a klinikai munka között. Az alapfeltevés, hogy a fenyegetésekkel kapcsolatos sajátos információ-feldolgozási mintázat — a fenyegetés iránti figyelmi torzítás (attentional bias for threat, ABT) — kulcsszerepet játszik a fóbiák etiológiájában és fenntartásában.\n\nA modell három, kísérletileg jól elkülöníthető komponenst tételez fel. Az első a facilitált figyelem a fenyegető ingerre: a fóbiás személy gyorsabban és könnyebben veszi észre a fenyegető tartalmat, ami egyfajta automatikus, ingervezérelt feldolgozás. A második a késleltetett elfordulás a fenyegető ingertől: ha egyszer a figyelem a fenyegetésre tapadt, nehezen szakad el — ez már a végrehajtó figyelmi kontroll korlátja. A harmadik a figyelmi elkerülés, amelyen belül a vigilancia-elkerülés hipotézis a leginkább elfogadott: gyors első fixáció, majd elkerülés és a környezet gyors pásztázása.\n\nLeDoux két-rendszeres modellje ehhez az idegrendszeri hátteret adja. A gyors, 'low road' (thalamus → amygdala) pálya alacsony téri frekvenciájú, durva fenyegetés-detekciót végez, közvetlen aktivációval és reflexes védekező válaszokkal. A lassabb, 'high road' (thalamus → kortikális feldolgozás → amygdala) finomabb kiértékelést végez, és integrálja a kontextuális, kognitív információt. A fóbiákban a gyors pálya hipererős — Nesse 'smoke detector' elve szerint a túlérzékeny detektálás evolúciósan adaptív, mert egy elmulasztott valós veszély költsége magas.\n\nA keretrendszer gyakorlati jelentősége abban áll, hogy a vizsgálati paradigmák (dot-probe, vizuális keresés, eye-tracking) intervenciós célra is felhasználhatók: a Cognitive Bias Modification (CBM) programok éppen a figyelmi torzítás szisztematikus átirányítását célozzák meg, az expozíciós terápia kiegészítőjeként.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 3 Fóbiák, MTA előadás; IR: Zsidó 2019"
+  },
+  {
+    "id": 195,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Perky 1910-es kísérletét és a 'Perky-effektust'! Milyen elméleti tanulságokat hordoz az észlelés és a képzelet kapcsolatáról, és hogyan kapcsolódik a modern fMRI-eredményekhez?",
+    "options": [],
+    "answer": null,
+    "explanation": "Cheves West Perky 1910-es klasszikus kísérlete máig a mentális képzelet egyik leginkább idézett bizonyítéka annak, hogy az észlelés és a képzelet ugyanazokon a kognitív és idegrendszeri folyamatokon nyugszik.\n\nA kísérleti elrendezés egyszerű volt, de a hatás meglepő. Perky arra kérte a résztvevőket, hogy nézzenek egy matt üvegfelületet, és képzeljenek el rajta különböző tárgyakat — banánt, almát, levelet. Miközben a résztvevők a vizualizációval próbálkoztak, Perky a háttérből rendkívül halványan, épp a küszöbérték feletti intenzitással rávetítette az elképzelendő tárgy képét az üvegre. A résztvevők meg voltak győződve arról, hogy amit látnak, az kizárólag a saját képzeletük szüleménye — nem tudtak különbséget tenni az észlelés és az élénk belső kép között. Ez a Perky-effektus.\n\nAz elméleti tanulság alapvető. Az észlelés és a képzelet nem csak hasonlít, hanem részben közös folyamatokra épül. Segal későbbi vizsgálatai a kongruens (hasonló témájú) és inkongruens elemek asszimilációját finomították: minél erősebb az instrukció, annál inkább összemosódik a két élmény.\n\nKosslyn 1990-es évek fMRI-vizsgálatai a modern idegtudományi megerősítést adták. A résztvevőknek arra kértek, hogy generáljanak különböző nagyságú mentális képeket egy tárgyról — a nagyobb mentális kép a V1 elsődleges látókéregben nagyobb aktivitást váltott ki, pontosan úgy, mintha valóban látták volna. LeBihan et al. 1993-as munkája is megerősítette a V1 bevonódását képzeleti feladatokban. Behrmann 1994-es CK-páciense pedig azt mutatta, hogy a két folyamat részlegesen függetleníthető: a páciens súlyos vizuális tárgyagnóziában szenvedett, miközben mentális képzelete teljesen ép maradt — emlékezetből részletesen rajzolt.\n\nA Perky-paradigma ma az afantázia (a képzeleti kép teljes hiánya) kutatásában is használatos: az afantáziás személyeknél a kongruens vetített kép nem mosódik össze a 'képzelettel', mert nincs is mit összemosni. Az életkor előrehaladtával a képzeleti élénkség csökken, és a gyermekkori eidetikus kép is fokozatosan eltűnik. A Perky-effektus így nem csupán laboratóriumi kuriózum, hanem a tudat és a fenomenológiai élmény természetére mutat rá: a 'belső' és a 'külső' látvány között nincs éles határ.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 04.1 Mentális kép; IR: Perky effect revisited"
+  },
+  {
+    "id": 196,
+    "topicNum": 5,
+    "topic": "Séma a megismerésben",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Bartlett 1932-es konstruktív emlékezet-koncepcióját! Hogyan illeszkedik ehhez Piaget asszimiláció-akkomodáció-ekvilibráció triásza és a modern (Rumelhart, Minsky, Schank) sémaelméletek?",
+    "options": [],
+    "answer": null,
+    "explanation": "Frederic Bartlett 1932-es Remembering című munkája máig az emlékezetkutatás egyik legnagyobb hatású alkotása, és a séma fogalom modern kognitív pszichológiai meghonosításáért is felelős.\n\nBartlett radikális módszertani fordulatot tett. Az Ebbinghaus-hagyománnyal — értelmetlen szótagok mechanikus megtanulásával — szembe a komplex, értelmes anyagok felidézését vizsgálta: történeteket, rajzokat, hieroglifákat. Két fő módszerét alkalmazta: a véletlenszerű, váratlan felidéztetést és a sorozat-átadást, ahol az egyik személy meséli el a másiknak a történetet. Az eredmény minden esetben ugyanaz: az emlékezés sosem szó szerinti rögzítés és előhívás, hanem KONSTRUKTÍV REKONSTRUKCIÓ. Ahogy ő nevezte, nem 'memory', hanem 'remembering' — folyamat, nem tár. A saját értékrendünknek, kulturális hátterünknek megfelelően kivonatoljuk, összevonjuk, kiegészítjük a tartalmat.\n\nA séma fogalmát Bartlett éppen ennek a jelenségnek a magyarázatára vezette be. A séma 'múltbeli reakciók, múltbeli tapasztalatok aktív szerveződése', egységes tömbként működik. A sematizáció a felidézés szelektív rekonstrukciós folyamata, amely meglévő sémáinknak megfelelően alakítja át az új információt.\n\nPiaget ezzel párhuzamosan, de a kognitív fejlődés keretében dolgozta ki a séma dinamikáját. Az asszimiláció a meglévő sémához igazítás, az akkomodáció a sémának a környezethez igazítása, az ekvilibráció pedig a kettő közötti egyensúlyozás. A séma fejlődési pályája Piaget-nál érzékszervi-mozgásostól a műveleti tevékenységig vezet, és minden szakaszban más-más alakot ölt — a konstruktív és szimbolikus játéktól az alkotó képzeletig.\n\nA modern értelmezésekben a séma egyre kevésbé statikus reprezentációs egység. Rumelhart konnekcionista (PDP) felfogásában a séma nem objektum, hanem aktivációs mintázat — egymásba ágyazódhat, és a rendszer alkalmazkodása révén rugalmasan formálódik. Minsky kerete (frame, 1975) és Schank–Abelson forgatókönyve (script, 1977) a séma másfajta operacionalizálása: kitöltetlen terminusokat, alapértékeket és cselekvési-helyzeti rutinokat tartalmazó struktúrák. Neisser észlelési ciklusa pedig azt mutatja, ahogy a séma irányítja az exploratív cselekvést, amely visszahat magára a sémára.\n\nMind a klasszikus, mind a modern megközelítések egyetértenek abban, hogy a séma nem merev reprezentáció, hanem aktív, rugalmas, az új tapasztalatra nyitott szerveződés — a megismerés egyik központi szervezőelve.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 05 SÉMA; IR: Szokolszky - A séma fogalma"
+  },
+  {
+    "id": 197,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Dretske természetes jel és reprezentáció megkülönböztetését! Hogyan kapcsolódik ehhez Kardos Lajos adiafor-elmélete és a reprezentációs tévedés fogalma?",
+    "options": [],
+    "answer": null,
+    "explanation": "A reprezentáció fogalmának egyik legtermékenyebb modern megközelítése Fred Dretske nevéhez köthető, aki élesen elkülöníti a természetes jelet és a tulajdonképpeni reprezentációt.\n\nA természetes jel törvényszerű kapcsolaton alapuló oksági viszony: a füst tüzet jelez, az eső felhőket. Ha valami okból mégis előfordul füst tűz nélkül vagy víz felhők nélkül, akkor egyszerűen nem jelez semmit — a kapcsolat felbomlott. A természetes jel nem tévedhet, mert a jelentése a fizikai-oksági struktúra.\n\nA reprezentáció ezzel szemben az élőlényekben kifejlődő belső jelzőrendszer, amelynek FUNKCIÓJA van. A béka légydetektora — az apró, sötét, levegőben mozgó tárgyakat jelző idegi mechanizmusa — azért fejlődött ki, mert hozzájárult a táplálékszerzéshez. Az 'ezért fejlődött ki' evolúciós kifejezés: a reprezentációk szelekciós történettel rendelkeznek, és ez a történet határozza meg a funkciójukat.\n\nA kulcsfogalom a REPREZENTÁCIÓS TÉVEDÉS lehetősége. A légy édes íz iránti preferenciája cukorra szelektálódott, de a szorbitol (tápérték nélküli édesítő) is kiváltja a választ. Ettől még a rendszer funkciója a cukor (nagy energiatartalmú táplálék) detektálása marad — a szorbitol-preferencia téves működés, mert evolúciósan nem maradhatott volna fenn. A reprezentáció éppen attól reprezentáció, hogy tévedhet, és helyes működésének kritériumai vannak. Ez normatív jelleg.\n\nKardos Lajos magyar pszichológus 1970-es évekbeli munkái ugyanezt a problémát az adiafor (jelentéktelen) hatások felől közelítik meg. Az adiaforikumok olyan kis erősségű környezeti hatások (fény-, hő-, vegyi, mechanikai), amelyek önmagukban nem érik el az élet lényeges változóit. Az organizmusok ezek óceánjában élnek. Az evolúciós kulcs az, hogy ezek az adiafor jelzések 'előhírnökként' megelőzhetik a fontos eseményeket (pl. az éles tárgy közeledését). A szervezet kapcsolódási szabadsággal nyer időt: a jelzésre megelőző intézkedéssel reagálhat, és nulla értékű hibajellel megoldhatja a szabályozást.\n\nAz átmenet a jelző-funkcióról az információs funkcióra — a fejlődés ugrópontja. 'Amikor ugyanis ez az átmenet bekövetkezik, az állati életben megjelenik a lelki, a pszichikus jelenség.' Kardos szerint az egész lelki élet kulcsa a reprezentációs funkció keletkezése. Dretske és Kardos elmélete így egymást kiegészítve adja a reprezentáció biológiai-evolúciós megalapozását.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 06 A reprezentáció; IR: Pléh - Reprezentációs rendszerek"
+  },
+  {
+    "id": 198,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Vesd össze Chomsky nativista és Skinner empirista nyelvelsajátítási modelljét! Milyen érveket hoz Chomsky a veleszületett LAD mellett?",
+    "options": [],
+    "answer": null,
+    "explanation": "A nyelvelsajátítás magyarázatára két alapvetően eltérő modell létezett a 20. század közepén. Skinner 1957-es Verbális viselkedés című munkája empirista keretben dolgozott: a nyelvet operáns kondicionálás termékének tekintette, amelyben a megerősítés (jutalom) és a nyelvi utánzás játssza a fő szerepet. Számára a nyelv csupán alesete volt a viselkedésnek általában.\n\nChomsky 1959-es recenziója — máig a behaviorizmus egyik leghatásosabb bírálata — alapvetően utasította el ezt a keretet. A nyelv szerinte sok szempontból speciális: kreatív teljesítmény, amelyben a beszélő véges számú szóból és véges számú szabályból végtelen számú új mondatot képes formálni. Ezt a kreativitást semmilyen tanult válaszkészlet nem magyarázza meg. Chomsky helyébe a LAD (Language Acquisition Device) racionalista, innátista koncepcióját állította: a nyelvi elsajátító készülék veleszületett.\n\nÉrvelése több vonalon halad. Először is a nyelvelsajátítás UNIVERZALITÁSA: bármilyen kultúrába szülessünk, képesek vagyunk elsajátítani a nyelvet, ami egy robusztus, ember-fajra jellemző képességet jelez. Másodszor a GYORSASÁGA: 1 éves korban már megjelennek az első szavak, 5-6 éves korra a grammatika nagyrészt elsajátítódik. Harmadszor — és talán ez a legerősebb érv — az INGERSZEGÉNY KÖRNYEZET problémája: a gyermek korlátozott, végessámú mondatot hall, mégis képes a nyelv végtelen számú új mondatának létrehozására. A gondozók a grammatikai hibákat ritkán javítják ki — Pinker ezt 'negatív evidencia hiányának' nevezi. Tisztán induktív tanulással ez egyszerűen nem magyarázható.\n\nTovábbi érv a nyelvspecifikus szabályok léte. Minden nyelvben vannak olyan szerkezetek (pl. az angol passzív átalakítás), amelyek csak a nyelvre jellemzők, és nem vezethetők le általános kognitív elvekből. A LAD ezeket veleszületett 'csomagban' szállítja. Az 1980-as évek paraméterbeállítási elmélete ezt a koncepciót finomította: a LAD egyfajta 'kapcsolótáblát' tartalmaz, és a környezeti input a kötött/szabad szórend, és más nyelvi paraméterek mentén állítja be a beszélő nyelvi kompetenciáját.\n\nChomsky elmélete forradalmi volt: a nyelvet először helyezte a kognitív pszichológia központjába, megalapozva a kognitív forradalom 'mentális reprezentáció' eszméjét. A nyelv tanulmányozása így egyúttal az elme tanulmányozása lett.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 7_8 EA Tudatelmélet, pszicholingvisztika"
+  },
+  {
+    "id": 199,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Nagel és McGinn 'hard problem' érveit a tudatosságról! Hogyan kapcsolódik ehhez Searle 'aspektuális forma' fogalma és a magasabb rendű gondolat (HOT) elmélete?",
+    "options": [],
+    "answer": null,
+    "explanation": "A tudatosság természete a kortárs elmefilozófia központi problémája, és David Chalmers nyomán általában a 'könnyű' és a 'nehéz' kérdés megkülönböztetésével vezetjük be.\n\nA könnyű kérdések — információfeldolgozás, beszámolóképesség, viselkedéskontroll — elvileg megoldhatók az idegrendszeri-funkcionális leírás szintjén. A 'hard problem' viszont az, hogy MIÉRT KÍSÉRI EGYÁLTALÁN szubjektív élmény ezeket a folyamatokat. Thomas Nagel 1974-es klasszikus tanulmánya — 'What is it like to be a bat?' — éppen ezt élezi ki. Még ha tudjuk is, hogy milyen idegrendszeri folyamatok mennek végbe egy denevérben, miközben echolokációval tájékozódik, nem tudjuk megragadni, MILYEN érzés denevérnek lenni. A szubjektív, első személyű nézőpont nem fordítható le az objektív, harmadik személyű leírásra. Ez a 'magyarázati rés' (explanatory gap).\n\nColin McGinn ezt a problémát még tovább élezi: szerinte lehetséges, hogy a tudatosságnak van anyagi, agyi alapja, de az emberi megismerés számára ez a kapcsolat ELVILEG nem hozzáférhető. Nem azt mondja, hogy a tudat természetfeletti, hanem azt, hogy a tudat-agy probléma kognitív korlátaink miatt talán megoldhatatlan — egyfajta filozófiai pesszimizmus.\n\nJohn Searle ezzel szemben a tudatosság és az intencionalitás MÉLY KAPCSOLATÁT hangsúlyozza. Kapcsolatelve szerint egy tudattalan mentális állapot csak akkor tekinthető mentálisnak, ha ELVILEG hozzáférhetővé válhat a tudatosság számára. Ha egy állapot semmilyen módon nem válhat tudatossá, akkor nem tudattalan mentális állapot, hanem pusztán nem tudatos agyi folyamat.\n\nAz intencionalitás további lényegi sajátossága az ASPEKTUÁLIS FORMA. Ugyanarra a dologra különböző szempontból irányulhat a gondolat. Valaki gondolhat az Esthajnalcsillagra anélkül, hogy tudná: az azonos a Vénusszal. A mentális állapot tehát nem egyszerűen egy tárgyra irányul, hanem valamilyen leírás, nézőpont vagy aspektus szerint. Searle szerint ez a perspektivikus jelleg az intencionalitás lényegi része, és szorosan kapcsolódik a tudatossághoz.\n\nA magasabb rendű gondolat (HOT — Higher-Order Thought) elmélete egy másik módon próbálja megragadni a tudatosságot. Eszerint egy mentális állapot akkor tudatos, ha a személynek van egy reflexív gondolata arról, hogy ebben az állapotban van — nemcsak fájdalmat érzek, hanem 'tudom', hogy fájdalmat érzek. Az elméletet azonban nehezen tudja kezelni az állati tudatosságot, a nem reflektált élményeket, vagy azokat az eseteket, amikor egy mentális állapot fennáll önreflexív tudás nélkül.\n\nA Dennett-féle demisztifikáló megközelítések a tudatosság körüli fogalmi zavarok lebontását javasolják. Konkrét élménytulajdonságokat — pl. a színélményt — idegrendszeri kódolással magyarázzák. Ez magyarázhatja, miért áll közelebb a narancs élménye a vöröshöz, mint a kékhez. De továbbra is kérdés marad, MIÉRT van egyáltalán szubjektív élménye a szín látásának.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 7_8 EA Tudatelmélet, pszicholingvisztika; IR: Grayling Philosophy"
+  },
+  {
+    "id": 200,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Mayer Cognitive Theory of Multimedia Learning (CTML) elméletét! Milyen három alapfeltevése van, és hogyan kapcsolódik Paivio kettős kódolásához és Sweller kognitív terhelés elméletéhez?",
+    "options": [],
+    "answer": null,
+    "explanation": "A multimédiás tanulás kortárs elméleti kerete Richard E. Mayer Cognitive Theory of Multimedia Learning (CTML) modellje, amely három klasszikus pszichológiai elméletet integrál egyetlen, koherens keretbe.\n\nAz első alapfeltevés a KETTŐS CSATORNA, amely Allan Paivio kettős kódolási elméletéből (1971) ered. Eszerint a vizuális/képi és az auditív/verbális információ részben független, párhuzamos csatornákban dolgozódik fel a kognitív rendszerben. Paivio terminológiájában az imagén rendszer térbeli-vizuális kapcsolatokon, a logogén rendszer logikai-szemantikai kapcsolatokon szerveződik. A két csatorna együttműködése jobb emlékezeti teljesítményt eredményez, mint bármelyik egyedül — innen ered a multimédiás tanulás alapelve: kép + szó hatékonyabb, mint csak szó.\n\nA második alapfeltevés a KORLÁTOZOTT KAPACITÁS, amely Alan Baddeley munkamemória-modelljére épül. Mindkét csatorna kapacitása korlátozott; egy adott pillanatban csak véges mennyiségű információt tudunk aktívan feldolgozni. Ez a korlát határozza meg, mennyit lehet és mennyit érdemes egyszerre bemutatni.\n\nA harmadik alapfeltevés az AKTÍV FELDOLGOZÁS, amely John Sweller kognitív terhelés-elméletére támaszkodik. A tanulás nem passzív felvétel, hanem aktív szervezés és integrálás a meglévő sémákkal. Sweller háromféle terhelést különböztet meg: az intrinzikus terhelés az anyag természetes nehézségéből ered; az extraneous terhelés a rosszul tervezett bemutatás okozta felesleges teher; a germane terhelés a sémák kiépítésére fordított 'produktív' teher. A tanítási tervezés célja minimalizálni az extraneous, kezelni az intrinsic és növelni a germane terhelést.\n\nMayer ezekből az alapokból tucatnál több empirikus elvet vezetett le, amelyek a multimédiás anyagok tervezését irányítják. A koherencia elve szerint a fölösleges elemeket el kell távolítani. A jelzés (signaling) elve a fontos részek kiemelését javasolja. A redundancia elve azt mondja, hogy ne legyen párhuzamos hangzó szöveg és írott felirat — a kettő ugyanazt a csatornát terheli. A térbeli és időbeli közelség (spatial-temporal contiguity) elvei azt diktálják, hogy az összetartozó elemek időben és térben együtt jelenjenek meg. A modalitás elve szerint kép + hangos narráció jobb, mint kép + nyomtatott szöveg. A szegmentálás elve kisebb egységekre bontást javasol, és így tovább.\n\nEz az integratív keret különösen fontos a kortárs digitális oktatástechnológia tervezésében — az interaktív tankönyvek, oktatóvideók, e-learning rendszerek és a VR-alapú tanulás mind ezeket az elveket próbálják követni vagy figyelmen kívül hagyni — gyakran az utóbbival rontva a tanulás hatékonyságát.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 9 Bali A multimédia-tanulás; Ö: 9_Ö Multimedia learning (Mayer)"
+  },
+  {
+    "id": 201,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Whyte háromféle tudattalan-fogalmát (kognitív, vitális, patologikus)! Hogyan különbözik ezekben Helmholtz, Panksepp és Freud felfogása?",
+    "options": [],
+    "answer": null,
+    "explanation": "Lancelot Law Whyte 1960-as Unconscious Before Freud című munkájában háromféle tudattalan-fogalmat különböztetett meg, amelyek máig segítenek rendet teremteni egy fogalmilag túlterhelt területen.\n\nAz első a KOGNITÍV TUDATTALAN, amelynek számos filozófiai előfutára van, de ismeretes Helmholtz és Wundt munkássága. Hermann Helmholtz 1867-es Handbuch der physiologischen Optik-jában fogalmazza meg a 'tudattalan következtetés' (unbewusster Schluss) koncepcióját: az észlelés következtetésszerű folyamat, de nem tudatos. A béka észleli a kis, sötét, mozgó tárgyat — de nem 'logikailag' következtet a légyre, hanem közvetlenül 'látja' azt. Julesz Béla a 20. század végén megerősítette: bizonyos észlelési folyamatok valóban következtetéses jellegűek, az automatikus, küszöb alatti feldolgozás kategóriájába tartoznak. Greenwald 1992-es 'New Look 3' programja ezt a tudattalan kogníciót kvantitatív, kísérletileg jól mérhető területté tette: implicit memória, automatikus aktiválás, priming.\n\nA második a VITÁLIS TUDATTALAN, amelybe az ösztönök, érzelmek, motivációk, szándékok tartoznak. Ezt ma a Freud-nyomdokokon haladó kutatás dinamikus szerepben fogja fel, de mai legdifferenciáltabb idegtudományi modellje Jaak Panksepp affektív neuroszientifikai megközelítése. Panksepp hét evolúciósan ősi affektív rendszert azonosított — SEEKING (kereső-motiváló, mesoclimbikus dopamin), RAGE, FEAR, LUST, CARE, PANIC/GRIEF (szeparációs distressz), PLAY — amelyek mind szubkortikálisan reprezentálódnak, és ezért állatokon is vizsgálhatók. Ezek a primer affektusok az 'Id' biológiai megfelelői: nem kognitív kiértékelésekből származnak, hanem evolúciósan beépített motivációs hálózatok.\n\nA harmadik a PATOLOGIKUS TUDATTALAN, amelynek alakjai Charcot, Bernheim, Breuer, Freud és Jung. A betegágy mellett figyelték meg, hogy a mentális zavarok, a pszichológiai folyamatok nem tudatos tartalmai milyen erővel meghatározhatják az életet. Charcot hisztéria-kutatásai (és hipnózis-vizsgálatai), Bernheim poszthipnotikus szuggesztiói, Breuer 'kibeszélés' (talking cure) terápiája adták az alapot a freudi pszichoanalízisnek. Freud négy alapvető tulajdonságot tulajdonított a tudattalannak: ellentmondás-mentesség, az elsődleges folyamatok uralma, időtlenség, és a külső valóság helyettesítése a lelki valósággal.\n\nLényeges, hogy ez a három tudattalan-fogalom NEM kompetitív, hanem egymást kiegészítő. A modern kognitív tudomány a kognitív tudattalannal dolgozik leggyakrabban — Greenwald szerint ez egyszerű, alacsonyabb szintű feladatokra korlátozódik, és jól illeszkedik a konnekcionista modellekbe. A klinikai gyakorlat továbbra is támaszkodik a patologikus tudattalan dinamikájára. A neuropszichoanalízis (Solms, Panksepp) pedig éppen a három fogalom integrációját kísérli meg.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 10 TUDAT-TUDATTALAN; Ö: 10_Ö Ullmann - Hogyan működik a tudattalan"
+  },
+  {
+    "id": 202,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be a neuropszichoanalízis tudománytörténeti pozícióját és Mark Solms álomkutatását! Hogyan kapcsolódik Panksepp hét affektív rendszeréhez?",
+    "options": [],
+    "answer": null,
+    "explanation": "A neuropszichoanalízis egy viszonylag fiatal interdiszciplináris terület, amely a 2000-es évek elejére intézményesült (International Neuropsychoanalysis Society, 2000). Vezető alakjai Mark Solms, Jaak Panksepp, Karen Kaplan-Solms és Oliver Turnbull. A program lényege a pszichoanalitikus elméletek és az idegtudományi empirikus eredmények integrációja — egyfajta visszatérés Freud eredeti, 1895-ben elkezdett, de feladott 'Entwurf einer Psychologie' tervéhez, immár a mai kísérleti módszerekkel.\n\nMark Solms talán legtöbbet vitatott eredménye a REM-álom és a vágyteljesítés-elmélet újraértékelése. A 20. század végi standard idegtudományi álomelmélet — Hobson activation-synthesis modellje — szerint az álmok egyszerűen a REM-fázisú kéregaktivitás melléktermékei, és nincs sajátos motivációs vagy szimbolikus tartalmuk. Solms agykárosodott betegeken végzett vizsgálatai (különösen a mesoclimbikus dopaminút lézióit szenvedett betegeken) viszont egy meglepő eredményt hoztak: ezek a betegek REM-fázist mutatnak, de NEM ÁLMODNAK. Vagyis a REM és az álmodás disszociálható, és az álom inkább a motivációs-jutalmazó (dopaminerg) rendszerhez kötődik. Ez összhangban van a freudi vágyteljesítés-elmélettel: az álom nem véletlen zaj, hanem a motivációs rendszer aktivitása.\n\nJaak Panksepp affektív neuroszientifikai munkája adja a komplementer keretet. Hét evolúciósan ősi affektív rendszert azonosított: SEEKING (kereső, motivációs — mesoclimbikus dopamin), RAGE, FEAR (amygdala), LUST, CARE (gondoskodás — oxitocin, prolaktin), PANIC/GRIEF (szeparációs distressz — cinguláris kéreg, opioidok), PLAY. Ezek a rendszerek mind szubkortikálisan reprezentálódnak, ezért állatokon is vizsgálhatók — Panksepp híres patkány-vizsgálatai például a játék és a 'nevetés-szerű' vokalizációk hátterét tárták fel. Ezek a primer affektusok megfeleltethetők a freudi Id biológiai szubsztrátumának: nem kognitív kiértékelésekből, hanem evolúciósan beépített motivációs hálózatokból származnak.\n\nA neuropszichoanalízis nem szándékozik a klinikai pszichoanalízist biológiára redukálni — sokkal inkább arra törekszik, hogy a klinikai megfigyelések összhangban legyenek azzal, amit az agyról tudunk. A pszichoanalitikus pszichoterápia hatékonyságát vizsgáló fMRI-tanulmányok (Marini et al. 2015) mérhető változásokat találtak a prefrontális kéreg, az amygdala és az anterior cinguláris kéreg aktivitásában — ez bizonyítja, hogy a pszichoterápia valós idegrendszeri változásokat hoz létre.\n\nA korai szeparáció és krónikus stressz hatására tartósan emelkedett kortizol-szint dokumentáltan hippokampusz-atrófiához vezet. Ez az 'a múlt determinálja a jelent' freudi tézis idegtudományi formája, és magyarázza, miért fejtik ki a korai gyermekkori élmények ilyen tartós hatást a felnőttkori működésre.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 10 Neuropszichanalízis; IR: Vas - A neuropszichoanalízis megalapozása"
+  },
+  {
+    "id": 203,
+    "topicNum": 12,
+    "topic": "Neuroedukáció pro és kontra",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Willingham 'három problémáját' a neuroedukáció kapcsán! Mit jelent a 'neurománia' jelensége és melyek a leggyakoribb neuromítoszok?",
+    "options": [],
+    "answer": null,
+    "explanation": "Daniel Willingham 2009-es klasszikus rövid cikke — Three problems in the marriage of neuroscience and education — kijózanító elemzést ad a neuroedukáció lehetőségeiről és korlátairól. A cím nem véletlen: a két terület 'házassága' szerinte több problematikus elemmel terhelt.\n\nAz első a granularitás-probléma. Az idegtudomány tipikusan nagyon kis vagy nagyon nagy léptékben dolgozik: vagy egyes neuronok és szinapszisok, vagy egész agyi régiók szintjén. Az oktatás viszont a közbülső, 'tantermi' léptékben mozog: tanóra, témakör, tananyag-egység szintjén. A közvetlen átvitel az egyik szintről a másikra ritkán működik — egy egysejt-szintű plaszticitási eredményből nem következik közvetlenül, hogyan kellene tanítani a törteket.\n\nA második a relevancia-probléma. Sok neurológiai megállapítás — 'a hippocampus részt vesz az emlékezetben', 'a prefrontális kéreg a végrehajtó funkcióknál aktív' — elvileg igaz, de nem mond újat a tanításnak. A 'neuromániás' magyarázatok gyakran csak újraírják pszichológiai elnevezésekkel azt, amit korábban is tudtunk. Ha a kognitív pszichológia már leírta a tesztelési hatást vagy az elosztott gyakorlást, akkor a 'mert ez serkenti a hippokampuszt' hozzátoldás nem ad érdemi tudástöbbletet.\n\nA harmadik a híd-probléma: hiányzik az a középszintű elmélet, amely az idegtudományi eredményeket konkrét osztálytermi gyakorlatra fordítaná le. Sok 'brain-based' módszer rosszul vagy spekulatív módon teszi ezt. Willingham javaslata: a kognitív pszichológia, amely közvetlenül foglalkozik tanulással, memóriával, figyelemmel, sokkal közvetlenebb hidat ad az oktatáshoz, mint az idegtudomány.\n\nA NEUROMÁNIA jelensége az idegtudományi eredmények túlzott vagy hibás értelmezése. Weisberg és munkatársai 2008-ban kísérletileg kimutatták a 'neuroglamour' hatást: az emberek hajlamosabbak hitelt adni egy magyarázatnak, ha 'neuro' előtaggal ellátott. Az fMRI-aktivitás nem 'bizonyítja' a mentális folyamatot, csak korrelál vele; egyetlen agyterület gyakran sok funkcióban vesz részt (a 'fordított következtetés' problémája). A 'neuro' előtag öneladás-eszközzé vált: neuromarketing, neuro-coaching, neuro-edukáció — sok közöttük áltudományos.\n\nA leggyakoribb neuromítoszok között szerepel a bal- és jobbagyi tanulók megkülönböztetése (a féltekei dominancia létezik, de a tanulási stílus felosztása megalapozatlan); a tanulási stílusok (vizuális/auditív/kinesztetikus) illesztésének hatékonysága (a kutatások nem támogatják); 'az agy 10%-ának' használata (teljes mítosz); az 'első 3 év kritikus, később minden eldől' tévedése (a plaszticitás egész életen át tart); a kommerciális brain-training programok hatékonysága (nem általánosodnak más feladatokra); a keresztezett mozgás (Brain Gym) tanulási előnye (nincs bizonyíték).\n\nA neuroedukáció valódi haszna inkább közvetett: alvás, mozgás, étrend megfelelő szintje; a munkamemória-tudatos tervezés (Sweller); a gyakorlás elosztása, tesztelési hatás, interleaving; aktív és kihívást jelentő feladatok; érzelmi biztonság és visszajelzés. Ezek mind a kognitív pszichológiából, és nem közvetlenül az idegtudományból származnak.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 9 Neuroedu; IR: Willingham 2009 Three problems"
+  },
+  {
+    "id": 204,
+    "topicNum": 13,
+    "topic": "Mesterséges intelligencia és megismerés",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be a kognitív idegtudomány elmúlt 30 évének főbb tendenciáit (Czigler 2021)! Hogyan kapcsolódik a kortárs mesterséges intelligencia (LLM, deep learning) az emberi megismerés modelljeihez?",
+    "options": [],
+    "answer": null,
+    "explanation": "A kognitív idegtudomány az 1990-es 'agy évtizede' óta a pszichológia egyik leggyorsabban fejlődő területe. Czigler István 2021-es áttekintése hat fő tendenciát azonosít, amelyek máig meghatározzák a területet.\n\nAz első és talán legfontosabb a LOKALIZÁCIÓTÓL A HÁLÓZAT-SZEMLÉLETIG vezető elmozdulás. Korábban a kérdés úgy szólt, hogy 'melyik agyterület végzi X-et' — ma sokkal inkább 'melyik hálózat', mert minden funkció elosztott hálózatok együttműködésén nyugszik. A default mode network, a központi végrehajtó hálózat, a száliencia-hálózat egymással versengve és kooperálva szervezi a megismerést.\n\nA második a NYUGALMI ÁLLAPOT (resting-state) jelentőségének felismerése. Raichle 2001-es vizsgálatai óta tudjuk, hogy a 'nem-feladat' agyi aktivitás nem zaj, hanem önálló, rendszer-szintű működés. A default mode network nyugalomban aktív hálózat, amely az önreflexióhoz, a jövő-szimulációhoz, a mentalizációhoz kapcsolódik.\n\nA harmadik a PREDIKTÍV KÓDOLÁS (predictive coding) elméletének elterjedése. Karl Friston szabad energia elve szerint az agy nem passzív receiver, hanem aktívan bejósolja a bemenetet; az érzékelés a predikció és a tényleges input közötti hiba (prediction error) minimalizálása. Az agy egy 'bayesi gép', amely folyamatosan frissíti belső modelljét a világról.\n\nA negyedik az IDEGRENDSZERI HÁLÓZATOK GRÁF-ELMÉLETI elemzése: small-world tulajdonság, hub-régiók, modulok azonosítása. Az ötödik a MULTIMODÁLIS INTEGRÁCIÓ — fMRI + EEG/MEG + DTI együttes elemzése. A hatodik pedig egy szerény, de fontos önreflexió: a korai, gyakran túlfutó értelmezések után reálisabb, megalapozottabb állítások jelentek meg.\n\nA mai mesterséges intelligencia és a kognitív idegtudomány új, intenzív szimbiózisban él. A mély tanulás (deep learning) hierarchikus jellemző-tanulása a vizuális rendszer rétegelt szerveződését idézi — Yamins és DiCarlo munkái szerint a CNN-ek (konvolúciós neurális hálózatok) és a fősori vizuális kéreg között jelentős funkcionális párhuzam mutatható ki. A nagy nyelvi modellek (LLM-ek) megjelenése új kérdéseket vet fel: mit tanítanak az emberi nyelvfeldolgozásról? Lehet-e a 'megértés' egyszerű mintaillesztés mellékterméke?\n\nSearle 1980-as 'kínai szoba' érve új formákat ölt a mai LLM-ek kontextusában: a szintaktikai manipuláció (szimbólumok mozgatása) nem garantálja a szemantikát (intencionalitást, valódi megértést). De az is felmerülhet, hogy esetleg felül kell vizsgálnunk a 'megértés' fogalmát.\n\nA friston-i prediktív kódolás közvetlen kapcsolatban áll a generatív AI-modellek architektúrájával: mindkettő egy belső generatív modell ellen veti az inputot, és a hibajelet használja a modell frissítésére. Ez talán az egyik legígéretesebb elméleti híd a kortárs AI és a kognitív idegtudomány között.\n\nA jövőképben fontos szerepet kapnak a neuro-AI szimbiózis (BCI, reprezentációs hasonlóság-elemzés, konnektomika), valamint a neuro-etikai kérdések: mental privacy, kognitív enhancement, a tudatosság-tulajdonítás morális következményei a komplex AI-rendszerek esetében.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "source": "Diasor 13 MI - kogmester; Ö: 13_Ö Cztigler - A kognitív idegtudomány elmúlt 30 éve"
   }
 ]
