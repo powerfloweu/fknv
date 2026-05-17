@@ -1,0 +1,2635 @@
+[
+  {
+    "id": 1,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Kongruens instrukció beépülhet a képzeleti feladatba.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A Perky-effektus is mutatja: a kongruens (azonos témájú) instrukció beépülhet a képzeleti feladatba, és összemosódhat a vizuális tartalommal.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 2,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Perky kísérleti személyei határozott különbséget találtak az észleleti és a képzeleti kép között.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Perky (1910) kísérletének éppen az volt a lényege, hogy a személyek NEM tettek különbséget az észleleti és a képzeleti kép között — összemosták.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 3,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Ha egy arcot kell elképzelni, a fusiform face area területén aktivitás mérhető.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Arc elképzelése (mentális kép) az FFA (fusiform face area) működését is aktiválja — a képzelet részben ugyanazokat a területeket veszi igénybe, mint az észlelés.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 4,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az eidetikus kép pszichotikus élményszerveződésre utal.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Az eidetikus kép NEM patológiás — gyermekkorban viszonylag gyakori normál jelenség (élénk, részletgazdag kép-emlékezet).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 5,
+    "topicNum": 5,
+    "topic": "Séma a megismerésben",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az invariancia (Piaget) kísérletek rossz válaszainak háttere a tranzitivitás hiánya.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Piaget invariancia-feladatainál a hiba háttere a megfordíthatóság (reverzibilitás) és a centráltság hiánya, NEM a tranzitivitásé.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 6,
+    "topicNum": 5,
+    "topic": "Séma a megismerésben",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A procedurális tudás mintaalapú.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A procedurális (eljárási) tudás mintaalapú, implicit, gyakorlással szerveződik — szemben a deklaratív tudással, ami szabály/tényalapú.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 7,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A mentális képekkel végezhető műveletek az analóg reprezentáció mellett érvelnek.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Shepard–Metzler-féle mentális forgatás, Kosslyn-féle letapogatási kísérletek mind az analóg (képi) reprezentáció létezése mellett szólnak.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 8,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az adiafor hatás önmagában jelentéktelen, de előhírnöke lehet valaminek.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Kardos Lajos adiafor-hatása: olyan inger, ami önmagában nem váltja ki a reakciót, de jelzi (előhírnök) a következő, erősebb hatást.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 9,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A konnekcionizmus szerint a tudás a hálózat egy részének aktivált állapota.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Konnekcionista (PDP) modellek: a tudás nem explicit szimbólumokban, hanem a hálózat súlyozott kapcsolataiban és aktivációs mintázatában tárolódik.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 10,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A mentális képzelet szoros kapcsolatban van a látórendszerrel.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A mentális képzelet a látókéreg (V1 is) területeit aktiválja — fMRI- és TMS-vizsgálatok bizonyítják a szoros átfedést.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 11,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A téri közegben képi és leíró tartalmak egyaránt megjelenhetnek.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A téri közeg (mentális modell, Johnson-Laird) mind analóg (képi), mind deszkriptív (leíró) elemeket tartalmazhat.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 12,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A mentális reprezentáció lényegi kritériuma az ingerektől való viszonylagos függetlenség.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A reprezentáció épp ezért teszi lehetővé a belső világ ingerektől viszonylagos függetlenedését — pl. emlékezhetünk arra, ami most nincs jelen.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 13,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A logogén rendszer asszociációi jórészt logikai kapcsolatok alapján szerveződnek.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Paivio kettős kódolása: a logogén (verbális) rendszerben az asszociációk főként logikai-szemantikai kapcsolatok mentén szerveződnek, míg az imagén rendszerben térbeli-vizuális kapcsolatok mentén.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 14,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A természetes jelnek az a funkciója, hogy törvényszerű összefüggéseket jelez.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Dretske természetes jel-fogalma: olyan jelek, amelyek törvényszerűen (oksági/információelméleti összefüggés alapján) hordoznak információt. A reprezentáció ennél absztraktabb, tévedhet.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 15,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A mentális képek létezése nem bizonyítja, hogy ez egyben a reprezentáció módja is.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Pylyshyn érve: a mentális képek élménye nem bizonyítja, hogy a tudás KÉPI formában tárolódik. A reprezentáció lehet propozicionális, és a kép csak epifenomén.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 16,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A depiktív reprezentáció művészeti céllal előállított kép.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A depiktív (képi) reprezentáció egy mentális reprezentációs forma — analóg, képszerű. Nincs köze művészeti céllal előállított képhez.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 17,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A kettős kódolás egységei az imagén és a logogén rendszer.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Paivio (1971) kettős kódolási elmélete: imagén (képi) és logogén (verbális) — két részben független, de együttműködő reprezentációs rendszer.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 18,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az eidetikus kép tulajdonképpen szukcesszív kontraszt.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Az eidetikus kép NEM szukcesszív kontraszt (utókép); az élénk, részletgazdag kép-emlékezet, ami inger nélkül is felidézhető.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 19,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A reprezentációs tévedés olykor hasznos lehet.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A reprezentáció éppen attól reprezentáció, hogy tévedhet — ez teszi lehetővé a hibás predikciókból való tanulást és az alternatívák szimulációját.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 20,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A parietális transzkraniális mágneses stimuláció rontja a mentális képekkel végezhető műveletek teljesítményét.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A parietális TMS rontja a mentális forgatást és más képzeleti műveleteket — alátámasztva, hogy a parietális kéreg részt vesz a téri képzeletben.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 21,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A propozíció alkalmas a mentális képek leírására.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Pylyshyn / Anderson stb. szerint a propozicionális reprezentáció absztrakt, nyelvszerű formában képes leírni a mentális tartalmakat, beleértve a képi tartalmakat is.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 22,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A kétértelmű figurák mentális elforgatásának nehézsége propozicionális reprezentációt valószínűsít.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Éppen fordítva: a kétértelmű (reverzibilis) figurák képi reprezentációja előny, és ez a forgatási nehézség az ANALÓG reprezentáció mellett érvel.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 23,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Egy reprezentáció mai létét a hosszú evolúciós előtörténete igazolja.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A reprezentáció létét nem önmagában az evolúciós előtörténet, hanem az aktuális funkció és magyarázó ereje igazolja.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 24,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A mentális modell jórészt analóg reprezentáció.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Johnson-Laird mentális modellje strukturálisan analóg: a valóság szerkezetét tükrözi, nem propozíciós szimbólumokkal írja le.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 25,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Kahneman kapacitásmodellje szerint az elérhető figyelmi kapacitás arousalfüggő.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Kahneman (1973) figyelmi kapacitásmodellje: a teljes figyelmi kapacitás az arousal szintjével változik (fordított U-alakú összefüggés).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 26,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az epifenomenalizmus szerint létezik mentális okozás.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Az epifenomenalizmus szerint a mentális események fizikai folyamatok mellékterméke, és NEM okoznak semmit a fizikai világban.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 27,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A parallelizmus szerint létezik test-lélek kölcsönhatás.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A parallelizmus (Leibniz) szerint a test és lélek párhuzamosan futnak, de nem hatnak egymásra (előre elrendezett harmónia).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 28,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Wittgenstein elvetette a nyelvi jelentés használatelméletét.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Wittgenstein (Filozófiai vizsgálódások) éppen MEGALAPOZTA a használatelméletet: 'a szó jelentése a használata a nyelvben'.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 29,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A Posner–Petersen-modell tárgyalapú figyelmi modellek közé sorolható.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A Posner–Petersen háromkomponensű modell (éberség, orientáció, végrehajtó figyelem) téri / hálózati alapú, nem tárgyalapú.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 30,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Gottlob Frege a modern nyelvfilozófia egyik első kezdeményezője.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Frege a modern logika és nyelvfilozófia alapító alakja; jelentés-jelölet (Sinn–Bedeutung) megkülönböztetése klasszikus.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 31,
+    "topicNum": 3,
+    "topic": "Fóbiák és figyelmi torzítások",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A preattentív figyelmi folyamatok meghatározzák, hogy a téri vagy a tárgyalapú modell használata költséghatékonyabb-e egy adott helyzetben.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A preattentív feldolgozás a jelenet alapsajátságait gyorsan kategorizálja, így befolyásolja, hogy téri vagy tárgyalapú figyelmi stratégia hatékonyabb.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 32,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Johnson-Laird szerint a tudat jelensége akár számítógépes programok segítségével is megvalósítható.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Johnson-Laird funkcionalista álláspontot képvisel: a tudat magas szintű funkcionális szerveződés, elvileg számítógépes implementáció is lehetséges.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 33,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Chomsky szerint a nyelvtanulás képessége veleszületett tulajdonság.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Chomsky nativizmusa: az ember veleszületett nyelvi képességgel (LAD, univerzális grammatika) rendelkezik.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 34,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A tenebrozitás az integritás és a vigilitás együttes zavara.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Tenebrozitás (Ringel): a tudati integritás (összerendezettség) és a vigilitás (ébrenléti szint) együttes zavara — pl. preszuicidális állapotban.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 35,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A tudat két fő jellemzője az éberség (ébreszthetőség) és a tartalom (tudatosság).",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Klasszikus felosztás: arousal/wakefulness (éberség) és awareness/content (tudati tartalom).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 36,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A téri és tárgyalapú figyelmi folyamatok végső soron egyként kezelhetők, mivel mindkét esetben az ingersajátságokra épül a feldolgozás.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A téri és tárgyalapú figyelem ELTÉRŐ mechanizmus; nem keverhetők össze, bár együttműködhetnek.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 37,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A preszuicidális szindróma csökkent tudati integritás állapotában figyelhető meg.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Ringel preszuicidális szindrómája: beszűkülés + agresszió-gátlás + öngyilkossági fantáziák — csökkent tudati integritás állapota.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 38,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Descartes elvetette a test-lélek probléma dualista felfogását.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Éppen Descartes a klasszikus dualizmus megalapítója (res extensa vs. res cogitans).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 39,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A tudat harmadik szintű előfokának szelektivitása az egyszerű preferencia.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A tudat fejlődési-evolúciós előfokainak hierarchiájában a 3. szintű szelektivitás formája a preferencia (Kardos / Pléh felépítés).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 40,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A fizikalizmus a 20. század második felének egyik legelfogadottabb doktrínája.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A fizikalizmus (a mentális is végső soron fizikai) a 20. század közepétől a vezető elmefilozófiai álláspont.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 41,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az álszóismétlési teszt a flexibilitást méri.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Az álszóismétlési teszt a fonológiai munkamemóriát méri (Gathercole–Baddeley), nem a flexibilitást.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 42,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A végrehajtó funkció három magkomponense: a munkamemória, a flexibilitás és a válaszfrissítés.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Miyake et al. (2000): gátlás, váltás (flexibilitás), frissítés (updating) — NEM 'válaszfrissítés', hanem MUNKAMEMÓRIA-frissítés. A megfogalmazás csapdás.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 43,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A nyelvi relativizmus szerint a nyelv nem hat a gondolkodásra.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Éppen a Sapir–Whorf-féle nyelvi relativizmus szerint a nyelv BEFOLYÁSOLJA a gondolkodást.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 44,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A talamokortikális ritmus funkciója a tudatos élmény egységességének létrehozása.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A talamokortikális oszcillációk (~40 Hz, gamma-szinkronizáció) a kötési problémát megoldva létrehozzák a tudatos élmény egységét.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 45,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Endogén figyelem esetén szemmozgás szükséges ahhoz, hogy máshova figyeljünk.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Endogén figyelem rejtett (covert) is lehet — szemmozgás nélkül máshova fókuszálhatunk (Posner-paradigma).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 46,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A mentális modell a propozicionális reprezentáció egyik változata.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A mentális modell éppen ALTERNATÍVA a propozicionálishoz képest: analóg (strukturálisan ikonikus).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 47,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az arcok észlelése konfigurális.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Az arcészlelés holisztikus/konfigurális — a részek térbeli viszonyai (konfiguráció) határozzák meg, nem külön-külön a részek.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 48,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Hangulatindukció nem idézhető elő hangokkal.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Zenei/akusztikus hangulatindukció jól bevált módszer (mood induction).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 49,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A figyelem helye mindig egybeesik a szem fixációs helyével.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Rejtett (covert) figyelem esetén a figyelem helye nem feltétlenül esik egybe a fixációs hellyel — Posner-paradigma erre épít.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 50,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Egy reprezentációnak elég, ha hosszú evolúciós előtörténete igazolja a létét.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Nem elég: az aktuális funkció és magyarázó erő igazolja a reprezentáció létét, nem önmagában az evolúciós múlt.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 51,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A mentális reprezentáció tartalomtól függetlenül is létezik.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A reprezentáció definíció szerint VALAMIRŐL szóló — nincs tartalom nélküli reprezentáció.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 52,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Wolfe irányított keresés elmélete a Posner–Petersen-féle háromkomponensű modellre épül.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Wolfe Guided Search-elmélete a Treisman féle FIT-re (Feature Integration Theory) épül, nem a Posner–Petersen-modellre.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 53,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az interaktív elemek azért hatékonyak, mert szórakoztatóvá teszik a tanulást.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Az interaktivitás akkor hatékony, ha aktív kognitív feldolgozást vált ki (active learning) — nem önmagában a szórakoztatás miatt.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 54,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az érzelemfelismerési képesség csoportos keretek között nem fejleszthető.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Az érzelemfelismerés csoportos tréninggel (pl. SEL-programok) jól fejleszthető.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 55,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A multimédiás tanulás kognitív elméletének egyik alapja Paivio kettős kódolás elmélete.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Mayer (CTML) három alapja: Paivio kettős kódolása, Baddeley munkamemória-modellje, Sweller kognitív terhelés elmélete.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 56,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A kognitív torzítások jól tetten érhetők figyelmi folyamatokban.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Figyelmi torzítások (attentional bias) klinikailag jól mérhetők pl. dot-probe paradigmával — szorongás, fóbiák stb.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 57,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Egy helyzet vagy inger kiértékelésében az asszociációink is szerepet játszhatnak.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A kiértékelés (appraisal) folyamatában a korábbi asszociációink (sémák, emlékek) befolyásolják az érzelmi reakciót.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 58,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Kognitív stratégiákkal módosítható az aktuális érzelmi állapot.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Az érzelemszabályozás (Gross-modell) kognitív stratégiái — pl. átkeretezés (reappraisal) — jól ismert eszközök az érzelmi állapot módosítására.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 59,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Kognitív sémákkal módosítható az aktuális érzelmi állapot.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A kognitív sémák átdolgozása (pl. KVT) hosszabb távon az érzelmi állapotot is megváltoztatja.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 60,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A tükörneuron-rendszer működése egyfajta affektusrezonancia.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A tükörneuron-rendszer támogatja az empátia/affektusrezonancia jelenségét (mások állapotának belső szimulációja).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 61,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A reprezentáció a természetes jellel szemben tévedhet.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Dretske értelmében: a természetes jel törvényszerű (nem tévedhet); a reprezentáció épp attól reprezentáció, hogy tévedhet.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 62,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Hangulatindukció előidézhető hangokkal.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Zenei és akusztikai hangulatindukció bevált módszer.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 63,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A reprezentáció a belső világnak az ingerektől való viszonylagos függetlenedését teszi lehetővé.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Ez a reprezentáció egyik kulcsfunkciója: emlékezhetünk, képzelhetünk, tervezhetünk anélkül, hogy az inger jelen lenne.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 64,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az eliminativizmus képviselői Patricia és Paul Churchland.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A Churchland-házaspár az eliminatív materializmus klasszikus képviselői: a 'népi pszichológia' fogalmait fel kell váltania a neurotudomány által.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 65,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "A végrehajtó funkció három magkomponense: a munkamemória, a flexibilitás és a válaszfrissítés.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Miyake et al. (2000): gátlás, váltás (flexibilitás), frissítés (updating). A 'válaszfrissítés' nem a helyes szakszó.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 66,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A tükrözés lényege a ráhangolódás és a válasz előkészítése.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A tükörneuron-rendszer alapfunkciója: másik cselekvésére/állapotára ráhangolódás + saját megfelelő válasz előkészítése.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 67,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A kognitív torzítások két kiemelt klinikai területe: a figyelemhiányos hiperaktivitás-zavar és a borderline személyiségzavar.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A figyelmi torzítások kiemelt klinikai területei elsősorban a szorongásos zavarok, fóbiák, depresszió, PTSD — nem ADHD és BPD.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 68,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az érzelemfókuszú megküzdési potenciál azt jelenti, hogy az egyén mennyire képes megváltoztatni a helyzetet.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A megküzdési potenciál (Lazarus) PROBLÉMAFÓKUSZÚ ága szól a helyzet megváltoztatásáról. Az érzelemfókuszú: saját érzelmi reakció szabályozása.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 69,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A meleg végrehajtó funkcióban jelentős szerepe van a gondolkodásnak és a motivációnak.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "'Hot' EF: érzelmileg/motivációsan telített kontextusban működik (jutalom, frusztráció), szemben a 'cool' (semleges) EF-vel.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 70,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az élet első két évében fejlődik ki az amygdalához kapcsolódó implicit memória.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Az amigdalához kötött (érzelmi) implicit memória korán, az élet első ~2 évében kifejlődik — a hippokampusz-alapú explicit memória későbbi.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 71,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A tárgykapcsolatok elmélete szerint az áttétel a projektív identifikáció egyik változatának tekinthető.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A modern tárgykapcsolat-elméletek (Klein, Bion, Ogden) az áttételt a projektív identifikáció mechanizmusával értelmezik.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 72,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A korai szeparáció és a stressz (kortizolhatás) a hippokampusz atrófiáját okozza.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Krónikus kortizol-emelkedés (toxikus stressz) bizonyítottan a hippokampusz csökkent térfogatához vezet — gyermekkori adverzitás kutatások.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 73,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A másodlagos kiértékelés azt jelenti, hogy számba vesszük az erőforrásainkat a stresszel való megküzdés érdekében.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Lazarus stressz-elmélete: másodlagos kiértékelés = saját erőforrások és coping-lehetőségek felmérése.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 74,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A szerzett szinesztézia neurológiai sérülés következménye lehet.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A szerzett szinesztézia stroke, sclerosis multiplex, drog vagy vakság után is megjelenhet — nem csak fejlődési forma létezik.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 75,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Három hónapos gyerekek különbséget tudnak tenni vonzó és taszító arcok között.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Csecsemőkutatások (Langlois et al.): már 3 hónaposan preferenciát mutatnak a vonzó arcok iránt.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 76,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az eidetikus képről szóló beszámoló jelen idejű.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Az eidetikus kép jellemzője: a beszámoló jelen időben szól ('LÁTOM a képet'), mintha még most is észlelné.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 77,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az életkor előrehaladtával csökken a képzeleti képek élénksége.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Az eidetikus képesség gyermekkorra jellemző, felnőttkorra általában elhalványul; a képzeleti élénkség is csökken.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 78,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A propozíció a legabsztraktabb reprezentációs forma.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A propozicionális reprezentáció absztrakt, nyelvszerű, modalitásfüggetlen — a legmagasabb absztrakciós szintű.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 79,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Az érzelemszabályozás mértékének mérésére szolgál a Cantril-létra.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A Cantril-létra szubjektív életminőség / jóllét mérőeszköze, nem érzelemszabályozási mérce.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 80,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A Thatcher-illúzió az arcészlelés konfigurációs feldolgozását valószínűsíti.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A Thatcher-illúzió (fejjel lefelé fordított arc szem-száj inverziójának észrevétlensége) klasszikusan a konfigurációs feldolgozás bizonyítéka.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 81,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A kognitív torzítások nem módosíthatók.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A kognitív torzítások (figyelmi és értelmezési) jól módosíthatók — pl. Cognitive Bias Modification (CBM) programokkal.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 82,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Inkongruens elemek nem asszimilálódnak képzeleti instrukció során.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Perky-effektus: inkongruens (eltérő témájú) elemek is asszimilálódhatnak, ha a képzeleti instrukció elég erős.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 83,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Poszthipnotikus szuggesztió nyomán kevesebb nem gyors szemmozgásos alvás van, mint gyors szemmozgásos alvás.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Általában a NREM (lassú hullámú) alvás aránya nagyobb az alvásban; poszthipnotikus szuggesztió nem fordítja meg ezt.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 84,
+    "topicNum": 13,
+    "topic": "Kognitív idegtudomány",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A szinaptikus hálózat alakulását kizárólag genetikai program szabályozza.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "A szinaptikus hálózatot genetikai program ÉS tapasztalat-alapú szelekció (epigenetika, plaszticitás) együtt formálja.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 85,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "A depiktív és a deskriptív reprezentáció szinonimák.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Éppen ellentétes fogalmak: depiktív = képi/analóg, deskriptív = leíró/propozicionális.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 86,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "tf",
+    "question": "Egy adott helyzet vagy inger kiértékelése meghatározza a vele kapcsolatos érzéseket.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Az appraisal-elméletek (Lazarus, Scherer) szerint az érzelem nem közvetlenül az ingerre, hanem annak kiértékelésére adott válasz.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 87,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik fogalom illik Horowitz-hoz?",
+    "options": [
+      "gesztusok",
+      "relaxáció",
+      "mentális modell",
+      "afantázia"
+    ],
+    "answer": 1,
+    "explanation": "Horowitz (1970) imagológiai munkáiban a gesztusok, mozdulatok kiemelt szerepet kapnak.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 88,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik fogalom illik Pylyshyn-hez?",
+    "options": [
+      "propozíció",
+      "deskriptív reprezentáció",
+      "mentális forgatás",
+      "szintézispróba"
+    ],
+    "answer": 1,
+    "explanation": "Pylyshyn a propozicionális reprezentáció elméletének fő képviselője; a mentális forgatás Shepardé.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 89,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik fogalom illik Adolphs-hoz?",
+    "options": [
+      "strukturális/mag/kódolás",
+      "imagináció",
+      "papírhajtogatás fejben",
+      "képzeleti letapogatás"
+    ],
+    "answer": 1,
+    "explanation": "Adolphs az arcészlelés strukturális/mag-kódolási modelljéhez (Bruce & Young után) kapcsolható.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 90,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik fogalom illik Haber-hez?",
+    "options": [
+      "eidetikus kép",
+      "szenzoros",
+      "szinesztézia",
+      "kép-emlékezet"
+    ],
+    "answer": 1,
+    "explanation": "Haber az eidetikus képek klasszikus kutatója (Haber & Haber 1964).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 91,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "multi",
+    "question": "A hangeffektek és animációk együttes bemutatása hatékony lehet, mert...",
+    "options": [
+      "több érzékszervi modalitáson keresztül közvetítik ugyanazt az információt",
+      "a releváns tartalmak felé orientálják a felhasználó figyelmét",
+      "egyik sem",
+      "mindkettő"
+    ],
+    "answer": [
+      4
+    ],
+    "explanation": "Mayer multimédia-tanulása: hangok + animációk együttes bemutatása mindkét hatás miatt hatékony — multimodalitás + figyelemorientáció.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 92,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Az irányított keresés (Guided Search) az alábbi szerző nevéhez köthető:",
+    "options": [
+      "Duncan",
+      "Posner",
+      "Kahneman",
+      "Wolfe"
+    ],
+    "answer": 4,
+    "explanation": "Wolfe Guided Search-elmélete a Treisman-féle FIT továbbfejlesztése.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 93,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A nyelvi ösztön az alábbi szerző nevéhez köthető:",
+    "options": [
+      "Chomsky",
+      "Piaget",
+      "Bühler",
+      "Pinker"
+    ],
+    "answer": 4,
+    "explanation": "Steven Pinker: 'The Language Instinct' (1994).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 94,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik terület NEM vesz részt az arcok felismerésében?",
+    "options": [
+      "inferior occipitalis gyrus",
+      "lateralis fusiform gyrus",
+      "amygdala",
+      "bulbus olfactorius"
+    ],
+    "answer": 4,
+    "explanation": "Bulbus olfactorius = szaglógumó; az arcfelismeréshez nincs köze. A többi mind érintett (OFA, FFA, amygdala).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 95,
+    "topicNum": 12,
+    "topic": "Neuroedukáció pro és kontra",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A fordított Flynn-hatás oka:",
+    "options": [
+      "egészségtelen táplálkozás",
+      "az IQ-tesztek elfogultak",
+      "butábbak lettek a gyerekek",
+      "az iskola nem az IQ-tesztek megoldására készít fel"
+    ],
+    "answer": 4,
+    "explanation": "A fordított Flynn-hatás (csökkenő IQ-átlag) magyarázatai között az oktatás struktúrája szerepel — az iskola más képességeket fejleszt.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 96,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A multimédiás tanulás kognitív elméletét ... nevéhez kötjük.",
+    "options": [
+      "Paivio",
+      "Ayres és Sweller",
+      "Parong",
+      "Mayer"
+    ],
+    "answer": 4,
+    "explanation": "Richard E. Mayer Cognitive Theory of Multimedia Learning (CTML) szerzője.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 97,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "easy",
+    "type": "multi",
+    "question": "Az alábbiak a vitális tudattalan fogalomkörébe tartoznak.",
+    "options": [
+      "fantáziák",
+      "ösztönök",
+      "szándékok",
+      "érzelmek"
+    ],
+    "answer": [
+      2,
+      4
+    ],
+    "explanation": "Vitális (testi) tudattalan: ösztönök és érzelmek (alapvető testi-affektív szintek). Fantáziák, szándékok inkább a magasabb pszichikai szintek.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 98,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kinek a nevéhez köthető: „A pszichikainak nincs olyan fogalma... amely nem veszi figyelembe a tudattalan pszichikait.”",
+    "options": [
+      "Theodor Lipps",
+      "Franz Brentano",
+      "Edmund Husserl",
+      "Sigmund Freud"
+    ],
+    "answer": 1,
+    "explanation": "Theodor Lipps híres mondata — Freud is hivatkozik rá.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 99,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "NEM Chomsky nevéhez köthető:",
+    "options": [
+      "univerzális grammatika",
+      "eliminativizmus",
+      "a nyelv gondolatalkotó funkciója"
+    ],
+    "answer": 2,
+    "explanation": "Eliminativizmus a Churchland-házaspár fő gondolata, NEM Chomsky. A többi mind Chomsky-fogalom.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 100,
+    "topicNum": 13,
+    "topic": "Kognitív idegtudomány",
+    "difficulty": "easy",
+    "type": "multi",
+    "question": "A természettudományos, pozitivista pszichológiákra NEM jellemző. Jelölje a HELYTELEN válaszokat!",
+    "options": [
+      "kontextualista",
+      "idiografikus megközelítés",
+      "redukcionista",
+      "biologizáló"
+    ],
+    "answer": [
+      1,
+      2
+    ],
+    "explanation": "Pozitivista pszichológia: redukcionista + biologizáló (helyes). NEM kontextualista és NEM idiografikus (azok hermeneutikus megközelítések).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 101,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Az alábbiak közül melyik NEM kritériuma a fejlődési szinesztéziának?",
+    "options": [
+      "élénk élmény, külső és belső képektől jól megkülönböztethető",
+      "nehéz elválasztani a hallucinációtól",
+      "gyermekkorban kezdődik",
+      "nem drog vagy más pszichogén anyag váltja ki"
+    ],
+    "answer": 2,
+    "explanation": "A fejlődési szinesztézia jellemzően JÓL elkülöníthető a hallucinációtól, nem nehéz tőle elválasztani.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 102,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "multi",
+    "question": "A célelérés késleltetésének következményei. Jelölje a HELYES válaszokat!",
+    "options": [
+      "unalom",
+      "a céltárgy expektanciája",
+      "fokozódó válaszkészenlét",
+      "a környezetre irányuló fokozott exploráció"
+    ],
+    "answer": [
+      2,
+      3,
+      4
+    ],
+    "explanation": "Késleltetés következményei: várakozás (expektancia), válaszkészenlét, exploráció. Az unalom nem direkt következmény.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 103,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "multi",
+    "question": "A szociális kognitív idegtudomány tárgyai. Jelölje a HELYES válaszokat!",
+    "options": [
+      "mentalizáció",
+      "önszabályozás",
+      "szociokognitív folyamatok",
+      "hermeneutikai értelmezés"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "A szociális kognitív idegtudomány: mentalizáció, önszabályozás, szociokognitív folyamatok. A hermeneutikai értelmezés filozófiai/módszertani, nem kutatási tárgy.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 104,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A vaklátás jelenségének leírása az alábbi kutató nevéhez köthető:",
+    "options": [
+      "Greenwald",
+      "Ganzfeld",
+      "Baars",
+      "Weiskrantz"
+    ],
+    "answer": 4,
+    "explanation": "Lawrence Weiskrantz: blindsight (vaklátás) klasszikus kutatója (1986).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 105,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Hartmann szerint a tudattalannak három rétege van. Jelölje a HELYTELEN választ!",
+    "options": [
+      "fiziológiai tudattalan",
+      "abszolút tudattalan",
+      "pszichológiai tudattalan",
+      "fenomenológiai tudattalan"
+    ],
+    "answer": 4,
+    "explanation": "Eduard von Hartmann (1869): fiziológiai, pszichológiai, abszolút tudattalan. A 'fenomenológiai' nem szerepel.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 106,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Milyen célt szolgál az érzelemszótár az érzelmi képességek fejlesztésében?",
+    "options": [
+      "figyelmi folyamatok hatékony alkalmazását érzelemszabályozási céllal",
+      "verbális érzelemkifejezési képességek fejlesztését",
+      "„lefelé szabályozási” technika elsajátítását",
+      "egyiket sem a fentiek közül"
+    ],
+    "answer": 2,
+    "explanation": "Az érzelemszótár (emotion vocabulary) a verbális érzelemkifejezés fejlesztésére szolgál — a megnevezés segíti a szabályozást.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 107,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A képernyőidő és a gyermekek kognitív fejlődésére vonatkozó kutatások alapján az Amerikai Gyermekgyógyászati Akadémia szerint a 2 év alatti gyerekek számára napi legfeljebb ... perc ajánlott.",
+    "options": [
+      "5 perc",
+      "20 perc",
+      "30 perc",
+      "egyik sem"
+    ],
+    "answer": 4,
+    "explanation": "AAP ajánlás: 18 hónap alatt gyakorlatilag NULLA képernyőidő (video chat kivételével); 18-24 hónap: minimális, kísérővel. Egyik konkrét számérték sem stimmel.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 108,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Milyen gyakorlatot/módszert javasolhatunk, ha a kliens erősíteni szeretné a pozitív érzéseit?",
+    "options": [
+      "Genfi érzelemkerék",
+      "hangulathőmérő",
+      "hálanapló",
+      "a fentiek közül bármelyiket"
+    ],
+    "answer": 3,
+    "explanation": "A hálanapló (gratitude journal) a pozitív pszichológia legjobban dokumentált pozitív-érzelem-erősítő eszköze.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 109,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Az alábbiak közül melyik járulhat hozzá ahhoz, hogy VR használata mellett csökkenjen a tanulás hatékonysága?",
+    "options": [
+      "Az ingerek száma miatt magasabb lehet a kognitív terhelés",
+      "Az ingerek száma miatt a tanulók figyelme könnyen elterelődhet",
+      "A tananyaghoz nem megfelelően illeszkednek a vizuális elemek",
+      "Mindhárom igaz"
+    ],
+    "answer": 4,
+    "explanation": "Mindhárom tényező csökkentheti a VR-alapú tanulás hatékonyságát (kognitív terhelés, distrakció, illeszkedési probléma).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 110,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Milyen szempontot kell figyelembe venni az érzelemszabályozási képességek fejlesztése során?",
+    "options": [
+      "A célcsoport életkorát",
+      "A résztvevők hangulathőmérőn aktuálisan adott értékeit",
+      "Mindkettőt",
+      "Egyiket sem"
+    ],
+    "answer": 3,
+    "explanation": "Mind az életkor (fejlődéslélektani szempontok), mind az aktuális hangulat (megfelelő intervenció megválasztása) számít.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 111,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Melyik tanulási eszköz működési elve tér el a többitől?",
+    "options": [
+      "VR-alapú tanulás",
+      "Hangoskönyv",
+      "Interaktív mesekönyv",
+      "Oktatóvideó"
+    ],
+    "answer": 2,
+    "explanation": "Hangoskönyv UNIMODÁLIS (csak audio); a többi multimodális/multimédiás (vizuális elemekkel).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 112,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "Haugeland",
+      "Cooper",
+      "Shepard",
+      "Kosslyn"
+    ],
+    "answer": 1,
+    "explanation": "Haugeland filozófus / megismeréstudós; a többiek a mentális képzelet kísérleti kutatói (Cooper, Shepard, Kosslyn).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 113,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "Kosslyn",
+      "Cooper és Shepard",
+      "Shepard és Metzler",
+      "Haugeland"
+    ],
+    "answer": 4,
+    "explanation": "Haugeland NEM mentális forgatás kutatás (Cooper, Shepard, Metzler, Kosslyn igen).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 114,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "szerzett",
+      "fejlődési/veleszületett",
+      "indukált",
+      "nyelvi szimuláció"
+    ],
+    "answer": 4,
+    "explanation": "A szinesztézia típusai: szerzett, fejlődési, indukált. A 'nyelvi szimuláció' nem szinesztézia-típus.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 115,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "szinesztézia",
+      "álomkép",
+      "eidetikus kép",
+      "utókép"
+    ],
+    "answer": 1,
+    "explanation": "Szinesztézia keresztmodális élmény; a többi mind vizuális/képi élményforma.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 116,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "szinesztézia",
+      "gondolati kép",
+      "eidetikus kép",
+      "utókép"
+    ],
+    "answer": 1,
+    "explanation": "Szinesztézia (modalitások közti); a többi belső vizuális kép forma.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 117,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "hangulatmérő",
+      "érzelemkerék",
+      "hálanapló",
+      "fMRI"
+    ],
+    "answer": 4,
+    "explanation": "fMRI = képalkotó eljárás; a többi érzelemszabályozási / önreflexiós eszköz.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 118,
+    "topicNum": 5,
+    "topic": "Séma a megismerésben",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "átalakítható",
+      "variálható",
+      "szimbolikus",
+      "megfordítható"
+    ],
+    "answer": 3,
+    "explanation": "A szimbolikus eltérő ABSZTRAKCIÓS szintet jelez; a többi a sémák / műveletek tulajdonsága (Piaget).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 119,
+    "topicNum": 5,
+    "topic": "Séma a megismerésben",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "akkomodáció",
+      "asszimiláció",
+      "ekvilibráció",
+      "asszociáció"
+    ],
+    "answer": 4,
+    "explanation": "Akkomodáció, asszimiláció, ekvilibráció — Piaget alapfogalmai; asszociáció NEM piagetiánus.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 120,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "gesztusok",
+      "testtartások",
+      "aktusok",
+      "mentális képek"
+    ],
+    "answer": 4,
+    "explanation": "A többi külső, megfigyelhető viselkedés; a mentális kép belső reprezentáció.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 121,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "fantáziák",
+      "gesztusok",
+      "testkép",
+      "introjekció"
+    ],
+    "answer": 2,
+    "explanation": "Fantázia, testkép, introjekció — pszichoanalitikus belső fogalmak. A gesztus külső, kommunikatív kifejezés.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 122,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "gondolatok",
+      "hiedelmek",
+      "élmények",
+      "ítéletek"
+    ],
+    "answer": 3,
+    "explanation": "Gondolatok, hiedelmek, ítéletek = propozicionális tartalmak; az élmény fenomenális (analóg) jellegű.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 123,
+    "topicNum": 5,
+    "topic": "Séma a megismerésben",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "vázát relációk alkotják",
+      "van alapértékük",
+      "szerveződésük asszociatív",
+      "rugalmasak"
+    ],
+    "answer": 2,
+    "explanation": "A séma jellemzői: relációk, asszociativitás, rugalmasság. 'Alapértékek' (default values) Minsky frame-elméletének sajátja — egyfajta megfelelő, DE itt a kérdés-kontextusban a sémának nincs rögzített alapértéke.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 124,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "propozicionális",
+      "képek",
+      "analóg",
+      "elosztott"
+    ],
+    "answer": 1,
+    "explanation": "Képek, analóg, elosztott — mind nem-szimbolikus reprezentációk. A propozicionális szimbolikus.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 125,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "WEIRD kultúra jellemzői NEM:",
+    "options": [
+      "analitikus kategóriák",
+      "alacsony konformitás",
+      "személyes identitásukban fontosak a kapcsolatok és szerepek",
+      "alacsony késleltetési képesség"
+    ],
+    "answer": 3,
+    "explanation": "WEIRD: individualista — személyes identitásban a kapcsolatok és szerepek KEVÉSBÉ fontosak; ez kollektivista jellemző.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 126,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "Russell",
+      "Wittgenstein",
+      "Piaget",
+      "Frege"
+    ],
+    "answer": 3,
+    "explanation": "Russell, Wittgenstein, Frege — nyelvfilozófusok / analitikus filozófia; Piaget fejlődéspszichológus.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 127,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "morfológia",
+      "szemantika",
+      "fonetika",
+      "eliminativizmus"
+    ],
+    "answer": 4,
+    "explanation": "Morfológia, szemantika, fonetika — nyelvészeti diszciplínák; eliminativizmus elmefilozófiai álláspont.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 128,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "a nyelv elgondolkodtató funkciója – Chomsky",
+      "nyelvelsajátító készülék – Chomsky",
+      "univerzális grammatika – Chomsky",
+      "a jelentés használatelmélete – Wittgenstein"
+    ],
+    "answer": 1,
+    "explanation": "'A nyelv elgondolkodtató funkciója' Wilhelm von Humboldt / Karl Bühler hagyománya — Chomsky nem ezzel azonosított.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 129,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "fonológia",
+      "kvália",
+      "tudatosság",
+      "test-lélek probléma"
+    ],
+    "answer": 1,
+    "explanation": "Kvália, tudatosság, test-lélek probléma — elmefilozófiai fogalmak; a fonológia nyelvészeti.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 130,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "éberség",
+      "orientáció",
+      "szenzitivitás",
+      "végrehajtó figyelem"
+    ],
+    "answer": 3,
+    "explanation": "Posner figyelmi hálózat: éberség, orientáció, végrehajtó. A 'szenzitivitás' nem ennek a felosztásnak része.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 131,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "kiterjesztett tudat",
+      "álmok",
+      "proto-én",
+      "tudatmag"
+    ],
+    "answer": 2,
+    "explanation": "Damasio felosztása: proto-én, tudatmag, kiterjesztett tudat. Az álom nem ennek a felosztásnak része.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 132,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "vigilancia",
+      "szelekció",
+      "tekintetkontroll",
+      "szálienciaszűrő"
+    ],
+    "answer": 3,
+    "explanation": "Vigilancia, szelekció, szálienciaszűrő — figyelmi alfolyamatok; a tekintetkontroll oculomotor kontroll, nem figyelmi alfunkció.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 133,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "noradrenalin",
+      "dopamin",
+      "epinefrin",
+      "acetilkolin"
+    ],
+    "answer": 4,
+    "explanation": "Noradrenalin, dopamin, epinefrin — katekolaminok. Az acetilkolin nem katekolamin.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 134,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "ellentmondás-mentesség",
+      "a külső valóság helyettesítése a lelki valóság által",
+      "a másodlagos folyamatok uralma",
+      "időtlenség"
+    ],
+    "answer": 3,
+    "explanation": "A tudattalan freudi jellemzői: ellentmondás-mentesség, külső–belső valóság cseréje, ELSŐDLEGES folyamatok uralma, időtlenség. A 'másodlagos folyamatok' a tudatosra jellemzők.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 135,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "szándékok",
+      "érzelmek",
+      "ösztönök",
+      "álmok"
+    ],
+    "answer": 4,
+    "explanation": "Érzelmek, ösztönök, szándékok — pszichikai/mentális tartalmak; az álom élménysorozat, nem tartalom-kategória.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 136,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "szenzoros tár – Broadbent",
+      "objektumfelismerés – Wolfe",
+      "üvegnyak – Wolfe",
+      "jelenet tulajdonságai – Wolfe"
+    ],
+    "answer": 1,
+    "explanation": "A szenzoros tár Sperling / Neisser hagyományához tartozik, nem Broadbenthez. Broadbent szűrőelmélete (1958) más.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 137,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "valencia",
+      "relevancia",
+      "kongruencia",
+      "jövőbeli kilátások"
+    ],
+    "answer": 3,
+    "explanation": "Scherer appraisal-komponensei: relevancia, valencia (érzelmi töltet), jövőbeli kilátások. A kongruencia más fogalom (személyiségpszichológia, célkongruencia).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 138,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "kompetitív szelekció",
+      "intrinzik jelenlét",
+      "információk térbeli kiválasztása",
+      "kognitív ellenőrzés"
+    ],
+    "answer": 2,
+    "explanation": "A figyelem 3 fő komponense: kompetitív szelekció, térbeli kiválasztás, kognitív ellenőrzés. Az 'intrinzik jelenlét' tudat-elméleti fogalom.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 139,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "szégyen",
+      "irigység",
+      "féltékenység",
+      "undor"
+    ],
+    "answer": 4,
+    "explanation": "Szégyen, irigység, féltékenység — szelf-tudatos, szociális érzelmek; az undor alap-(bazális) érzelem.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 140,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "váltás egyik érzelemről a másikra",
+      "relaxálás",
+      "figyelmi folyamatok váltása",
+      "mások érzelmeinek felismerése"
+    ],
+    "answer": 4,
+    "explanation": "Az érzelemszabályozás stratégiái: érzelemváltás, relaxáció, figyelmi váltás. Mások érzelmének felismerése EMPÁTIA, nem szabályozás.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 141,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "szenzitivitáskontroll",
+      "kompetitív szelekció",
+      "munkamemória",
+      "exogén orientáció"
+    ],
+    "answer": 3,
+    "explanation": "Figyelmi alfolyamatok; a munkamemória külön kognitív rendszer.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 142,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "kondicionálás",
+      "nativizmus",
+      "egyetemes grammatika",
+      "nyelvelsajátító készülék"
+    ],
+    "answer": 1,
+    "explanation": "Nativizmus, egyetemes grammatika, LAD — Chomsky-féle nyelvelsajátítás. Kondicionálás Skinneré (empirista alternatíva).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 143,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "fMRI",
+      "Cantril-létra",
+      "érzelemkerék",
+      "hálanapló"
+    ],
+    "answer": 1,
+    "explanation": "fMRI képalkotó kutatási eszköz; a többi önreflexiós / mérési kérdőív-szerű eszköz.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 144,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "Kakukktojás:",
+    "options": [
+      "dualizmus",
+      "a népi pszichológia elvetése",
+      "eliminatív materializmus",
+      "a népi pszichológia mint elmélet"
+    ],
+    "answer": 1,
+    "explanation": "Churchland eliminativizmus jellemzői: népi pszichológia mint (rossz) elmélet → eliminálható. A dualizmus EZZEL SZEMBEN álló álláspont.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 145,
+    "topicNum": 9,
+    "topic": "Multimédia-tanulás",
+    "difficulty": "easy",
+    "type": "single",
+    "question": "A tudásátadás formái szerint az alábbiak. Jelölje a HELYTELEN választ!",
+    "options": [
+      "posztfiguratív",
+      "mimetikus",
+      "prefiguratív",
+      "konfiguratív"
+    ],
+    "answer": 2,
+    "explanation": "Margaret Mead: poszt-, ko-, prefiguratív kultúra (tudásátadás generációk között). A 'mimetikus' nem ide tartozik (Tomasello-féle kulturális tanulás más).",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 146,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Jelölje a HELYTELEN választ!",
+    "options": [
+      "megerősítés",
+      "naplómódszer",
+      "társas támasz",
+      "modellkövetés"
+    ],
+    "answer": 2,
+    "explanation": "Bandura szociális tanuláselmélet: megerősítés, modellkövetés, társas támasz. A naplómódszer önreflexiós módszer, nem szociális tanulási mechanizmus.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 147,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Jelölje az oda nem tartozó fogalmat/jelenséget!",
+    "options": [
+      "viselkedés",
+      "arckifejezés",
+      "testi reakció",
+      "kiértékelés-detektor"
+    ],
+    "answer": 4,
+    "explanation": "Az érzelem külső / belső komponensei: viselkedés, arckifejezés, testi reakció. A 'kiértékelés-detektor' nem standard érzelem-komponens.",
+    "category": "vizsga",
+    "vizsgakerdes": true
+  },
+  {
+    "id": 148,
+    "topicNum": 6,
+    "topic": "Reprezentáció, reprezentációs szintek",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a nevet a hozzá kapcsolódó fogalommal!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ]
+    ],
+    "explanation": "Brentano – intencionalitás; Dretske – természetes jel; Haugeland – tiszta megismerés; Kardos – adiafor hatások; Kosslyn – képzeleti letapogatás; M. Mead – prefiguratív tudásátadás; Paivio – imagén rendszer; Tomasello – kulturális tanulás.",
+    "category": "vizsga",
+    "vizsgakerdes": true,
+    "leftItems": [
+      "Brentano",
+      "Dretske",
+      "Haugeland",
+      "Kardos",
+      "Kosslyn",
+      "M. Mead",
+      "Paivio",
+      "Tomasello"
+    ],
+    "rightItems": [
+      "intencionalitás",
+      "természetes jel",
+      "tiszta megismerés",
+      "adiafor hatások",
+      "képzeleti letapogatás",
+      "prefiguratív tudásátadás",
+      "imagén rendszer",
+      "kulturális tanulás"
+    ]
+  },
+  {
+    "id": 149,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a nevet a hozzá kapcsolódó tudattalan-fogalommal!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "explanation": "Brentano – intencionalitás; Bernheim – poszthipnotikus állapot; Helmholtz – tudattalan következtetés; Kardos – kreatív tudattalan; Nietzsche – kreatív tudattalan (Kardosé itt diszkutált).",
+    "category": "vizsga",
+    "vizsgakerdes": true,
+    "leftItems": [
+      "Brentano",
+      "Bernheim",
+      "Helmholtz",
+      "Kardos",
+      "Nietzsche"
+    ],
+    "rightItems": [
+      "intencionalitás",
+      "poszthipnotikus állapot",
+      "tudattalan következtetés",
+      "kreatív tudattalan",
+      "ösztönös 'akarat' tudattalanja"
+    ]
+  },
+  {
+    "id": 150,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd az érzelmeket a Kimenet–Ok–Kontroll mintázathoz! (Weiner-féle attribúciós elmélet)",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "explanation": "Weiner attribúciós érzelmek: szomorúság (negatív, külső, nincs kontroll); büszkeség (pozitív, belső, van); hála (pozitív, külső, van); harag (negatív, külső, van); bűntudat (negatív, belső, van).",
+    "category": "vizsga",
+    "vizsgakerdes": true,
+    "leftItems": [
+      "Kimenet: negatív, ok: külső, kontroll: nincs",
+      "Kimenet: pozitív, ok: belső, kontroll: van",
+      "Kimenet: pozitív, ok: külső, kontroll: van",
+      "Kimenet: negatív, ok: külső, kontroll: van",
+      "Kimenet: negatív, ok: belső, kontroll: van"
+    ],
+    "rightItems": [
+      "szomorúság",
+      "büszkeség",
+      "hála",
+      "harag",
+      "bűntudat"
+    ]
+  }
+]

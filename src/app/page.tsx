@@ -130,6 +130,54 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
+        {/* Subject 3: Kognitív pszichológia mesterfokon */}
+        <div style={{
+          background: 'white',
+          borderRadius: 20,
+          boxShadow: '0 8px 24px rgba(16,185,129,0.15)',
+          padding: '28px 24px',
+          textAlign: 'center',
+          display: 'flex',
+          flexDirection: 'column',
+        }}>
+          <div style={{
+            width: 56, height: 56,
+            background: 'linear-gradient(135deg,#10b981,#34d399)',
+            borderRadius: 14,
+            margin: '0 auto 14px auto',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            color: 'white', fontSize: 28,
+          }}>🌿</div>
+          <h2 style={{ fontSize: 18, fontWeight: 700, color: '#047857', marginBottom: 6 }}>
+            Kognitív pszichológia mesterfokon
+          </h2>
+          <div style={{ color: '#475569', fontSize: 14, marginBottom: 18, lineHeight: 1.5, flexGrow: 1 }}>
+            13 témakör — arcészlelés, érzelmek, képzelet, séma, reprezentáció,
+            pszicholingvisztika, elmefilozófia, tudat, neuropszichoanalízis, kognitív idegtudomány.
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            <Link href="/kognitiv/tanulas" style={{
+              padding: '10px 18px',
+              background: 'linear-gradient(90deg,#10b981,#34d399)',
+              color: 'white', borderRadius: 10,
+              fontWeight: 600, fontSize: 15,
+              textDecoration: 'none',
+            }}>
+              Tanuló mód
+            </Link>
+            <Link href="/kognitiv/vizsga" style={{
+              padding: '10px 18px',
+              background: '#ecfdf5',
+              color: '#047857', borderRadius: 10,
+              fontWeight: 600, fontSize: 15,
+              textDecoration: 'none',
+              border: '1.5px solid #86efac',
+            }}>
+              Vizsga indítása →
+            </Link>
+          </div>
+        </div>
       </div>
 
       <div style={{ color: '#64748b', fontSize: 14, marginTop: 8, textAlign: 'center' }}>
