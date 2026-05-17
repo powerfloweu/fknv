@@ -7,7 +7,7 @@ import questionsRaw from "@/data/neuropsyQuestionBank.json";
 
 const topics = topicsRaw as { num: number; name: string }[];
 
-type QMeta = { topicNum: number; difficulty: string; type: string; category?: "uj" | "konnyu" | "vizsga"; vizsgakerdes?: boolean };
+type QMeta = { topicNum: number; difficulty: string; type: string; category?: "uj" | "konnyu" | "vizsga" | "tobbletismeret"; vizsgakerdes?: boolean };
 
 export default function NeuropsyVizsgaPage() {
   const router = useRouter();
@@ -16,6 +16,7 @@ export default function NeuropsyVizsgaPage() {
   const [typeFilter, setTypeFilter] = useState("");
   const [onlyUj, setOnlyUj] = useState(false);
   const [onlyVizsga, setOnlyVizsga] = useState(false);
+  const [onlyTobblet, setOnlyTobblet] = useState(false);
   const [count, setCount] = useState(20);
   const [error, setError] = useState<string | null>(null);
 
@@ -27,6 +28,7 @@ export default function NeuropsyVizsgaPage() {
     if (typeFilter && q.type !== typeFilter) return false;
     if (onlyUj && q.category !== "uj") return false;
     if (onlyVizsga && !q.vizsgakerdes) return false;
+    if (onlyTobblet && q.category !== "tobbletismeret") return false;
     return true;
   });
   const max = filtered.length;
@@ -47,6 +49,7 @@ export default function NeuropsyVizsgaPage() {
     if (typeFilter) params.set("qtype", typeFilter);
     if (onlyUj) params.set("uj", "1");
     if (onlyVizsga) params.set("vizsga", "1");
+    if (onlyTobblet) params.set("tobblet", "1");
     params.set("count", String(count));
     return `/neuropsy/vizsga/${mode}?${params.toString()}`;
   }
@@ -129,7 +132,11 @@ export default function NeuropsyVizsgaPage() {
             </label>
             <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyVizsga ? "#dbeafe" : "#f5f3ff", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", cursor: "pointer", fontWeight: 500 }}>
               <input type="checkbox" checked={onlyVizsga} onChange={(e) => setOnlyVizsga(e.target.checked)} />
-              <span><b style={{ color: "#1d4ed8" }}>Vizsgakérdés</b> — a két korábbi vizsgából származó kérdések</span>
+              <span><b style={{ color: "#1d4ed8" }}>Vizsgakérdés</b> — a saját tananyagból származó kérdések</span>
+            </label>
+            <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyTobblet ? "#fef3c7" : "#f5f3ff", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", cursor: "pointer", fontWeight: 500 }}>
+              <input type="checkbox" checked={onlyTobblet} onChange={(e) => setOnlyTobblet(e.target.checked)} />
+              <span><b style={{ color: "#a16207" }}>Többletismeret</b> — brainaacn.org Mock Exam kérdések (angol nyelvű)</span>
             </label>
           </div>
 

@@ -13,7 +13,7 @@ type Q = {
   explanation: string;
   leftItems?: string[];
   rightItems?: string[];
-  category?: "uj" | "konnyu" | "vizsga";
+  category?: "uj" | "konnyu" | "vizsga" | "tobbletismeret";
   vizsgakerdes?: boolean;
 };
 
@@ -130,6 +130,7 @@ function QaVizsga() {
   const typeFilter = params.get("qtype") || null;
   const onlyUj = params.get("uj") === "1";
   const onlyVizsga = params.get("vizsga") === "1";
+  const onlyTobblet = params.get("tobblet") === "1";
   const count = Number(params.get("count") || 20);
 
   const [questions] = useState<Q[]>(() => {
@@ -140,6 +141,7 @@ function QaVizsga() {
       if (typeFilter && q.type !== typeFilter) return false;
       if (onlyUj && q.category !== "uj") return false;
       if (onlyVizsga && !q.vizsgakerdes) return false;
+      if (onlyTobblet && q.category !== "tobbletismeret") return false;
       return true;
     });
     return shuffle(pool).slice(0, count).map(shuffleOptions);
