@@ -7,7 +7,7 @@ import questionsRaw from "@/data/kognitivQuestionBank.json";
 
 const topics = topicsRaw as { num: number; name: string }[];
 
-type QMeta = { topicNum: number; difficulty: string; type: string; category?: "uj" | "konnyu"; vizsgakerdes?: boolean };
+type QMeta = { topicNum: number; difficulty: string; type: string; category?: "uj" | "konnyu" | "vizsga"; vizsgakerdes?: boolean };
 
 export default function KognitivVizsgaPage() {
   const router = useRouter();
@@ -21,6 +21,7 @@ export default function KognitivVizsgaPage() {
 
   const allQ = questionsRaw as QMeta[];
   const filtered = allQ.filter((q) => {
+    if (q.type === "essay") return false;
     if (topicFilter !== "" && q.topicNum !== topicFilter) return false;
     if (diffFilter && q.difficulty !== diffFilter) return false;
     if (typeFilter && q.type !== typeFilter) return false;
