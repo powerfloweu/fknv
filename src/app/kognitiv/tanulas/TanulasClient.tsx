@@ -16,6 +16,7 @@ export type Q = {
   rightItems?: string[];
   category?: "uj" | "konnyu" | "vizsga";
   vizsgakerdes?: boolean;
+  source?: string | null;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
@@ -204,7 +205,12 @@ export default function TanulasClient({
                       </span>
                     </div>
                   </div>
-                  <div style={{ fontSize: 12, color: "#065f46", marginBottom: 8 }}>{q.topicNum}. {q.topic}</div>
+                  <div style={{ fontSize: 12, color: "#065f46", marginBottom: q.source ? 2 : 8 }}>{q.topicNum}. {q.topic}</div>
+                  {q.source && (
+                    <div style={{ fontSize: 11, color: "#94a3b8", marginBottom: 8, fontStyle: "italic", lineHeight: 1.35 }}>
+                      Forrás: {q.source}
+                    </div>
+                  )}
 
                   {(q.type === "single" || q.type === "multi") && (
                     <ul style={{ listStyle: "none", paddingLeft: 0, margin: "6px 0 0 0", display: "flex", flexWrap: "wrap", gap: 6 }}>
