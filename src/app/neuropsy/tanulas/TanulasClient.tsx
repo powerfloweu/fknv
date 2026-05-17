@@ -17,6 +17,8 @@ export type Q = {
   category?: "uj" | "konnyu" | "vizsga" | "tobbletismeret";
   vizsgakerdes?: boolean;
   source?: string | null;
+  image?: string | null;        // pl. "/neuropsy/images/clock-neglect.png"
+  imageAlt?: string | null;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
@@ -211,6 +213,14 @@ export default function TanulasClient({
                   {q.source && (
                     <div style={{ fontSize: 11, color: "#94a3b8", marginBottom: 8, fontStyle: "italic", lineHeight: 1.35 }}>
                       Forrás: {q.source}
+                    </div>
+                  )}
+
+                  {q.image && (
+                    <div style={{ margin: "8px 0", padding: "8px", background: "#ede9fe", borderRadius: 8, textAlign: "center" }}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={q.image} alt={q.imageAlt || "Kérdéshez tartozó ábra"} style={{ maxWidth: "100%", maxHeight: 400, borderRadius: 6, boxShadow: "0 2px 8px rgba(76,29,149,0.15)" }} />
+                      {q.imageAlt && <div style={{ fontSize: 11, color: "#7c3aed", fontStyle: "italic", marginTop: 4 }}>{q.imageAlt}</div>}
                     </div>
                   )}
 

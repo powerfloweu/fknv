@@ -15,6 +15,8 @@ type Q = {
   rightItems?: string[];
   category?: "uj" | "konnyu" | "vizsga" | "tobbletismeret";
   vizsgakerdes?: boolean;
+  image?: string | null;
+  imageAlt?: string | null;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
@@ -247,6 +249,13 @@ function NormalVizsga() {
                   </div>
                 </div>
                 <div style={{ fontSize: 12, color: "#5b21b6", marginBottom: 8 }}>{q.topicNum}. {q.topic}</div>
+                {q.image && (
+                  <div style={{ margin: "8px 0", padding: "8px", background: "#ede9fe", borderRadius: 8, textAlign: "center" }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={q.image} alt={q.imageAlt || "Kérdéshez tartozó ábra"} style={{ maxWidth: "100%", maxHeight: 400, borderRadius: 6, boxShadow: "0 2px 8px rgba(76,29,149,0.15)" }} />
+                    {q.imageAlt && <div style={{ fontSize: 11, color: "#7c3aed", fontStyle: "italic", marginTop: 4 }}>{q.imageAlt}</div>}
+                  </div>
+                )}
 
                 {(q.type === "single" || q.type === "multi") && (
                   <ul style={{ listStyle: "none", padding: 0, margin: "6px 0 0 0" }}>
