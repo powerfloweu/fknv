@@ -7,22 +7,22 @@ export type Q = {
   topicNum: number;
   topic: string;
   difficulty: "easy" | "medium" | "hard";
-  type: "single" | "multi" | "tf" | "matching";
+  type: "single" | "multi" | "tf" | "matching" | "essay";
   question: string;
   options: string[];
-  answer: number | number[] | boolean | number[][];
+  answer: number | number[] | boolean | number[][] | null;
   explanation: string;
   leftItems?: string[];
   rightItems?: string[];
-  category?: "uj" | "konnyu";
+  category?: "uj" | "konnyu" | "vizsga";
   vizsgakerdes?: boolean;
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
 const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
-const typeLabel: Record<string, string> = { single: "Egy helyes", multi: "Több helyes", tf: "Igaz/Hamis", matching: "Párosítás" };
-const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű" };
-const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2" };
+const typeLabel: Record<string, string> = { single: "Egy helyes", multi: "Több helyes", tf: "Igaz/Hamis", matching: "Párosítás", essay: "Esszé" };
+const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű", vizsga: "Vizsgakérdés" };
+const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2", vizsga: "#1d4ed8" };
 
 export default function TanulasClient({
   questions,
@@ -158,6 +158,7 @@ export default function TanulasClient({
                 <option value="multi">Több helyes</option>
                 <option value="tf">Igaz/Hamis</option>
                 <option value="matching">Párosítás / táblázat</option>
+                <option value="essay">Esszé</option>
               </select>
               <select
                 value={catFilter}
@@ -269,9 +270,15 @@ export default function TanulasClient({
                     </div>
                   )}
 
+                  {q.type === "essay" && (
+                    <div style={{ marginTop: 6, padding: "8px 12px", background: "#f0fdfa", border: "1px dashed #14b8a6", borderRadius: 7, color: "#0f766e", fontSize: 13, fontStyle: "italic" }}>
+                      Esszékérdés — fejtsd ki saját szavaiddal. {hideAnswer ? "" : "Lenti mintaválasz csak segítség, nem szó szerinti másolásra való."}
+                    </div>
+                  )}
+
                   {!hideAnswer && q.explanation && (
                     <div style={{ marginTop: 8, padding: "6px 10px", background: "#ecfeff", border: "1px solid #67e8f9", borderRadius: 7, color: "#155e75", fontSize: 12 }}>
-                      <b>Magyarázat:</b> {q.explanation}
+                      <b>{q.type === "essay" ? "Mintaválasz vázlata:" : "Magyarázat:"}</b> {q.explanation}
                     </div>
                   )}
                 </li>

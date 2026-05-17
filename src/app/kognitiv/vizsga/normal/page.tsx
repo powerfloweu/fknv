@@ -7,13 +7,13 @@ import questionsRaw from "@/data/kognitivQuestionBank.json";
 type Q = {
   id: number; topicNum: number; topic: string;
   difficulty: "easy" | "medium" | "hard";
-  type: "single" | "multi" | "tf" | "matching";
+  type: "single" | "multi" | "tf" | "matching" | "essay";
   question: string; options: string[];
   answer: number | number[] | boolean | number[][];
   explanation: string;
   leftItems?: string[];
   rightItems?: string[];
-  category?: "uj" | "konnyu";
+  category?: "uj" | "konnyu" | "vizsga";
   vizsgakerdes?: boolean;
 };
 
@@ -135,6 +135,7 @@ function NormalVizsga() {
 
   const questions: Q[] = useState<Q[]>(() => {
     const pool = (questionsRaw as unknown as Q[]).filter((q) => {
+      if (q.type === "essay") return false;
       if (topicFilter && q.topicNum !== topicFilter) return false;
       if (diffFilter && q.difficulty !== diffFilter) return false;
       if (typeFilter && q.type !== typeFilter) return false;

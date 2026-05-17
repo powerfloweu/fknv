@@ -385,8 +385,8 @@
   },
   {
     "id": 25,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "Kahneman kapacitásmodellje szerint az elérhető figyelmi kapacitás arousalfüggő.",
@@ -449,8 +449,8 @@
   },
   {
     "id": 29,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "A Posner–Petersen-modell tárgyalapú figyelmi modellek közé sorolható.",
@@ -482,7 +482,7 @@
   {
     "id": 31,
     "topicNum": 3,
-    "topic": "Fóbiák és figyelmi torzítások",
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "A preattentív figyelmi folyamatok meghatározzák, hogy a téri vagy a tárgyalapú modell használata költséghatékonyabb-e egy adott helyzetben.",
@@ -561,8 +561,8 @@
   },
   {
     "id": 36,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "A téri és tárgyalapú figyelmi folyamatok végső soron egyként kezelhetők, mivel mindkét esetben az ingersajátságokra épül a feldolgozás.",
@@ -657,8 +657,8 @@
   },
   {
     "id": 42,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "A végrehajtó funkció három magkomponense: a munkamemória, a flexibilitás és a válaszfrissítés.",
@@ -705,8 +705,8 @@
   },
   {
     "id": 45,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "Endogén figyelem esetén szemmozgás szükséges ahhoz, hogy máshova figyeljünk.",
@@ -769,8 +769,8 @@
   },
   {
     "id": 49,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "A figyelem helye mindig egybeesik a szem fixációs helyével.",
@@ -817,8 +817,8 @@
   },
   {
     "id": 52,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "tf",
     "question": "Wolfe irányított keresés elmélete a Posner–Petersen-féle háromkomponensű modellre épül.",
@@ -1025,8 +1025,8 @@
   },
   {
     "id": 65,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "medium",
     "type": "tf",
     "question": "A végrehajtó funkció három magkomponense: a munkamemória, a flexibilitás és a válaszfrissítés.",
@@ -1469,8 +1469,8 @@
   },
   {
     "id": 92,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "single",
     "question": "Az irányított keresés (Guided Search) az alábbi szerző nevéhez köthető:",
@@ -2166,8 +2166,8 @@
   },
   {
     "id": 130,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "single",
     "question": "Kakukktojás:",
@@ -2202,8 +2202,8 @@
   },
   {
     "id": 132,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "medium",
     "type": "single",
     "question": "Kakukktojás:",
@@ -2220,8 +2220,8 @@
   },
   {
     "id": 133,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "easy",
     "type": "single",
     "question": "Kakukktojás:",
@@ -2274,8 +2274,8 @@
   },
   {
     "id": 136,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "medium",
     "type": "single",
     "question": "Kakukktojás:",
@@ -2310,8 +2310,8 @@
   },
   {
     "id": 138,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "medium",
     "type": "single",
     "question": "Kakukktojás:",
@@ -2364,8 +2364,8 @@
   },
   {
     "id": 141,
-    "topicNum": 2,
-    "topic": "Érzelmek és kogníció",
+    "topicNum": 3,
+    "topic": "Figyelem, fóbiák és figyelmi torzítások",
     "difficulty": "medium",
     "type": "single",
     "question": "Kakukktojás:",
@@ -2631,5 +2631,783 @@
       "harag",
       "bűntudat"
     ]
+  },
+  {
+    "id": 151,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd Karl Bühler (1934) orgenon-modelljének 3 nyelvi funkcióját a leírásukkal!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "Bühler háromszög-modellje: SZIMBÓLUM (reprezentációs/ábrázoló funkció), SIGNÁL (felhívó/utasító), SZIMPTÓMA (kifejezési, mentális állapotok közvetítése). Pl.: 'Esik az eső' = szimbólum; 'Kérjük, vigyázzanak az ajtózáródásra!' = signál; 'Fáj a fejem' = szimptóma.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "leftItems": [
+      "Szimbólum funkció",
+      "Signál funkció",
+      "Szimptóma funkció"
+    ],
+    "rightItems": [
+      "A nyelv reprezentációs / ábrázoló funkciója; a külvilág leírására (pl. 'Esik az eső')",
+      "A nyelv viselkedés-irányító, felhívó, utasító funkciója (pl. 'Kérjük, vigyázzanak az ajtózáródásra!')",
+      "A nyelv kifejezési funkciója; pszichológiai, mentális állapotok közvetítése (pl. 'Fáj a fejem')"
+    ]
+  },
+  {
+    "id": 152,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Habermas egyetemes pragmatikája Bühler hármasát követi. Párosítsd a Habermas-féle beszédaktus-típusokat a Bühler-funkcióval és példa-igékkel!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "Habermas: konstativák ↔ szimbólum (állítás, leírás, magyarázat); expresszívák ↔ szimptóma (gondol, vél, kifejez); regulativák ↔ signál (figyelmeztet, tanácsol, parancsol).",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "leftItems": [
+      "Konstativák",
+      "Expresszívák",
+      "Regulativák"
+    ],
+    "rightItems": [
+      "Bühler SZIMBÓLUM — előrejelez, leír, magyaráz",
+      "Bühler SZIMPTÓMA — gondol, vél, kifejez",
+      "Bühler SIGNÁL — figyelmeztet, tanácsol, parancsol"
+    ]
+  },
+  {
+    "id": 153,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Karl Popper milyen 4. funkcióval egészítette ki Bühler hármasát?",
+    "options": [
+      "esztétikai funkció",
+      "argumentatív (érvelő) funkció",
+      "metanyelvi funkció",
+      "fatikus funkció"
+    ],
+    "answer": 2,
+    "explanation": "Popper az érvelő/argumentatív funkciót adta hozzá Bühler hármasához — tudományos diskurzusban érhetjük tetten ezt a funkciót.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 154,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Roman Jakobson milyen funkcióval bővítette a nyelvi funkciók sorát Bühler hármasához képest?",
+    "options": [
+      "argumentatív funkció",
+      "poétikai (költészeti) funkció",
+      "instrumentális funkció",
+      "deontikus funkció"
+    ],
+    "answer": 2,
+    "explanation": "Jakobson hozzátette a poétikai/költészeti funkciót. Az expresszívához is kapcsolható lenne, de külön kategóriában van.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 155,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Chomsky szerint a verbális viselkedés (nyelvelsajátítás) az operáns kondicionálással formálódik, megerősítés révén.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Ez SKINNER álláspontja (Verbális viselkedés, 1957), amit Chomsky 1959-es recenziójában éles bírálattal ELVETETT. Szerinte a nyelv kreatív teljesítmény, és van bele született 'nyelvelsajátító készülék' (LAD).",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 156,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Melyek Chomsky érvei a veleszületett (innát) LAD mellett?",
+    "options": [
+      "A nyelvelsajátítás univerzalitása — bármilyen kultúrában születünk, képesek vagyunk elsajátítani a nyelvet (robusztusság)",
+      "Viszonylag GYORS nyelvelsajátítás (1 év: első szavak; 5-6 év: grammatikával befejeződik)",
+      "INGER-SZEGÉNY KÖRNYEZET (negatív evidencia hiánya — a gondozók ritkán javítják az agrammatikus mondatokat; Pinker)",
+      "Nyelvspecifikus szabályok léte (pl. állítóból passzív átalakítás csak a nyelvre jellemző, készleten a babával jönnek)",
+      "Operáns kondicionálással jól modellezhető a fejlődés",
+      "A nyelv csupán alesete a többi viselkedésnek"
+    ],
+    "answer": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Chomsky radikalista érvei a LAD mellett: univerzalitás (robusztusság), gyors elsajátítás, inger-szegény környezet (Pinker negatív evidencia hiánya), nyelvspecifikus szabályok léte. 5. és 6. ezzel ELLENTÉTES (Skinner-i) álláspont.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 157,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Mit jelent a Chomsky-féle 'paraméter-beállítási koncepció' (1980)?",
+    "options": [
+      "A nyelv tisztán általános tanulási mechanizmussal sajátítható el",
+      "A LAD 'kapcsolótáblát' tartalmaz, melynek tartalma a kötött/szabad szórend és más nyelvi paraméterek szerint beállítódik",
+      "A nyelvi szabályok megerősítéssel formálódnak az élet során",
+      "Csak az anyanyelvet lehet elsajátítani"
+    ],
+    "answer": 2,
+    "explanation": "Az 1980-as években megjelenő paraméter-beállítási elmélet: a veleszületett LAD egyfajta 'kapcsolótáblát' tartalmaz; a megfelelő paraméterek (pl. magyar = szabad szórend; angol = kötött szórend) a környezeti input alapján beállítódnak.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 158,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "A generatív grammatika alapegysége a mondat, nem a szó.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Chomsky generatív grammatikája: a mondat az elemzés alapegysége (nem a szó). Véges számú szabályból végtelen számú új mondat formálható — ezért 'generatív'.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 159,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "A 'Színtelen zöld eszmék dühödten alszanak' Chomsky-féle példamondat azt mutatja, hogy a szintaxis független a lexikától/szemantikától — autonóm.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Chomsky híres példája bizonyítja: a mondat grammatikailag jól formált, de szemantikailag értelmetlen. Ezzel demonstrálja, hogy a szintaxis autonóm, független szerveződés a lexikától.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 160,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit jelent Chomsky kompetencia-performancia megkülönböztetése?",
+    "options": [
+      "A kompetencia a TUDÁS (mentálisan reprezentált nyelvi képesség), a performancia a TELJESÍTMÉNY (aktuális megnyilvánulás)",
+      "A kompetencia mindenkire egyformán jellemző, a performancia egyéni különbségeket mutat",
+      "Csak felnőtt anyanyelvi beszélőkre alkalmazható",
+      "A két fogalom szinonima"
+    ],
+    "answer": 1,
+    "explanation": "Kompetencia = a nyelvi képesség (mentális reprezentáció — 'tudjuk a szabályt'); performancia = a tényleges teljesítmény (amit a kognitív korlátok — figyelem, munkamemória — engednek belőle).",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 161,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az 'innátista–empirista' tengelyen melyik álláspontot képviseli Chomsky?",
+    "options": [
+      "Empirista (a tapasztalat a nyelvi tudás forrása)",
+      "Racionalista / innátista (van veleszületett nyelvi képesség, LAD)",
+      "Egyik sem — kompromisszumos álláspontot képvisel",
+      "Sztenográfikus álláspontot képvisel"
+    ],
+    "answer": 2,
+    "explanation": "Chomsky racionalista–innátista álláspontot képvisel — szemben Skinner empirista (tapasztalat-alapú, kondicionálásos) modelljével.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 162,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a nyelvfilozófusokat / nyelvelméleti szakembereket a fő hozzájárulásukkal!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ]
+    ],
+    "explanation": "Bühler – orgenon-modell (szimbólum/signál/szimptóma); Habermas – egyetemes pragmatika; Popper – argumentatív funkció; Jakobson – poétikai funkció; Chomsky – generatív grammatika és LAD; Pinker – negatív evidencia hiánya, nyelvi ösztön.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "leftItems": [
+      "Karl Bühler",
+      "Jürgen Habermas",
+      "Karl Popper",
+      "Roman Jakobson",
+      "Noam Chomsky",
+      "Steven Pinker"
+    ],
+    "rightItems": [
+      "Orgenon-modell — a nyelv 3 funkciója (szimbólum, signál, szimptóma)",
+      "Egyetemes pragmatika — konstativák, expresszívák, regulativák",
+      "Argumentatív (érvelő) funkcióval bővítette Bühler hármasát",
+      "Poétikai (költészeti) funkció hozzáadása",
+      "Generatív grammatika, LAD, paraméter-beállítási koncepció",
+      "Nyelvi ösztön, negatív evidencia hiánya"
+    ]
+  },
+  {
+    "id": 163,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mi a 'naiv realizmus' (jelenés realizmusa) álláspontja a mentális állapotokról a mai tudatfilozófiában?",
+    "options": [
+      "A mentális állapotok nem léteznek",
+      "A népi (hétköznapi) pszichológia alapvetően realista pozíciót vall: a mentális állapotok valóban léteznek",
+      "A mentális állapotok csak fikciók",
+      "A mentális állapotok kizárólag az idegtudományi terminusokra redukálhatók"
+    ],
+    "answer": 2,
+    "explanation": "A naiv realizmus szerint a népi pszichológia helyesen feltételezi, hogy a mentális állapotok (hitek, vágyak, gondolatok) valóban léteznek. Alapbeállítottságunk realista.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 164,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a kortárs elmefilozófiai álláspontot a hozzá kapcsolható szerző(k)höz!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "explanation": "Intencionális realizmus (Fodor, Searle); instrumentalizmus (Dennett); eliminatív materializmus (Churchland); mentális fikcionalizmus (Demeter Tamás, Toon).",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "leftItems": [
+      "Intencionális realizmus (hiperrealista)",
+      "Instrumentalizmus",
+      "Eliminatív materializmus",
+      "Mentális fikcionalizmus"
+    ],
+    "rightItems": [
+      "Jerry Fodor és John Searle",
+      "Daniel Dennett",
+      "Patricia és Paul Churchland",
+      "Demeter Tamás és Adam Toon"
+    ]
+  },
+  {
+    "id": 165,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Dennett 'sakkprogram'-példája 3 hozzáállást vázol fel. Melyik NEM tartozik közéjük?",
+    "options": [
+      "Fizikai álláspont (a hardver működésére fókuszálunk)",
+      "Tervezeti hozzáállás (a programnyelven, pl. C++, kommunikálunk)",
+      "Intencionális hozzáállás (a bábuknak intencionális állapotot tulajdonítunk: a bástya 'célja' a királynő bevétele)",
+      "Hermeneutikai hozzáállás (a sakkjátékot mint szöveget értelmezzük)"
+    ],
+    "answer": 4,
+    "explanation": "Dennett három álláspontja: fizikai (hardver), tervezeti (program/szoftver), intencionális (mintha gondolkodna). A hermeneutikai nem tartozik a sorozathoz.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 166,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Dennett instrumentalizmusa szerint az intencionális állapotok valóban léteznek a sakkprogramban.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": false,
+    "explanation": "Éppen ellenkezőleg: szerinte mi TULAJDONÍTUNK intencionális állapotokat, de valójában a programnak nincsenek — csak ESZKÖZ-szerűen használjuk a tulajdonítást mások viselkedésének értelmezésére. Antirealista, kvázi behaviorista álláspont.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 167,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Churchland eliminatív materializmusa szerint a 'népi pszichológia' MILYEN tulajdonságokkal bír?",
+    "options": [
+      "Egy elmélet a mentális állapotokról",
+      "Hamis elmélet, mert korlátos",
+      "Fel fogja váltani az idegtudományi terminusok használata",
+      "Realista (a mentális állapotok valóban léteznek)",
+      "Tudományos kategória, jól körülírható definíciókkal"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Churchland: a 'népi pszichológia' (hit, vágy, szándék) ELMÉLET — de HAMIS / korlátos elmélet, ami fel fog váltódni az idegtudományi terminusokkal. ANTI-realista álláspont.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 168,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A mentális fikcionalizmus (Demeter Tamás, Adam Toon) szerint:",
+    "options": [
+      "A mentális állapotok valóban léteznek, mint a fizikai tárgyak",
+      "A mentális állapotok státusza hasonló, mint a fikcióé (pl. Sherlock Holmes): a regényvilágban léteznek, utalni tudunk rájuk, de a valóságban nem léteznek",
+      "A mentális állapotok kizárólag fizikai állapotokra redukálhatók",
+      "Csak a tudatos állapotok léteznek, a tudattalanok nem"
+    ],
+    "answer": 2,
+    "explanation": "Toon mentális fikcionalizmusa szerint a mentális állapotok ÚGY léteznek, mint fikciós karakterek a regényekben — utalhatunk rájuk, de a valóságban nem léteznek. Anti-realista álláspont.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 169,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Adam Toon Karl Popper melyik koncepciójára támaszkodik mentális fikcionalizmusában?",
+    "options": [
+      "Falszifikáció és lételmélet (3 világ: fizikai, mentális, kulturális objektivációk)",
+      "Negatív evidencia hiánya a nyelvelsajátításban",
+      "Az érzelmek primér elsődlegessége",
+      "A nyitott társadalom koncepciója"
+    ],
+    "answer": 1,
+    "explanation": "Toon Popper LÉTELMÉLETÉRE (hipotézis-falszifikáció és 3 világ: fizikai, mentális, kulturális objektivációk világa) támaszkodik. Szerinte a 3. világ produktumait BELEVETÍTJÜK a mentális világba.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 170,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "hard",
+    "type": "multi",
+    "question": "Több helyes válasz! Toon mentális fikcionalizmusát mely bírálatok érik a kísérleti kognitív fejlődési tudomány felől?",
+    "options": [
+      "A 'belső jegyzetfüzet' metafora: a metafora megértése Toon szerint ELSŐDLEGES a mentális állapothoz képest, de a kísérletek szerint ÉPP fordított a fejlődés (a mentális állapot megértése előbb alakul ki)",
+      "A 'mintha-játék' (as if activity): a népi pszichológia mintha mintha-játékként működne, de Alan Leslie szerint a mintha-játék megértése fontos, de NEM kizárólagos a mentális állapot megértésében",
+      "Túl analitikus filozófia szerinti konceptuális elemzésekre épít, az utóbbi 10-15 évben a radikális/kísérleti filozófia 'mérhetővé' kell tenni",
+      "Helyesen veszi figyelembe az idegtudományi adatokat",
+      "Empirikusan validált a Sherlock Holmes-analógia"
+    ],
+    "answer": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Három fő bírálat: (a) metafora-elsőbbség sérül a fejlődéskutatások szerint; (b) a mintha-játék fontos, de nem kizárólagos; (c) konceptuális filozófia helyett ma empirikus / 'mérhető' megközelítés kell.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 171,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Searle 'hiperrealista' álláspontja mit ellenez?",
+    "options": [
+      "Az intencionális állapotok létezését",
+      "A NEOBEHAVIORIZMUST — szerinte a behavioristák tévesen tagadják a mentális állapotok létezését",
+      "A népi pszichológiát",
+      "A fizikalizmust általában"
+    ],
+    "answer": 2,
+    "explanation": "Searle hiperrealista pozíciója szerint az intencionális állapotok valóban léteznek (intencionális realizmus). Ezzel ellenkezik a neobehaviorizmussal, ami tagadja a mentális állapotok valós létezését.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 172,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Az 1800-as évek végén HÁROM nagy irányzat foglalkozott a tudat-tudattalan kérdéssel. Melyik NEM tartozott közéjük?",
+    "options": [
+      "Ortodox behaviorizmus",
+      "Európai Gestalt-pszichológia",
+      "Freudi pszichoanalízis",
+      "Kognitív idegtudomány"
+    ],
+    "answer": 4,
+    "explanation": "A három klasszikus irányzat: ortodox behaviorizmus, európai Gestalt, freudi pszichoanalízis. A kognitív idegtudomány csak a 20. század végén alakult ki.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 173,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "A behaviorizmus képtelen értelmezni a tudattalant, mert magát a tudatot is 'kidobta' a tudományos pszichológia tárgyköréből.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Watson (1913) ortodox behaviorizmusa kizárta a tudatot (és így a tudattalant is) a pszichológia tárgyköréből — csak megfigyelhető viselkedéssel foglalkozott.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 174,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Mit jelent a 'transzperszonális pszichológia mint negyedik erő'?",
+    "options": [
+      "A behaviorizmus, pszichoanalízis és humanisztikus pszichológia mellett a NEGYEDIK fő pszichológiai irányzat",
+      "A pszichológia negyedik tudományos forradalma",
+      "A spiritualitás újraértékelése a kortárs (Y/Z) generációkban",
+      "Mind az 1. és a 3. válasz igaz"
+    ],
+    "answer": 4,
+    "explanation": "A transzperszonális pszichológia a 4. nagy pszichológiai erő (Maslow), ami a spiritualitás kérdéseit emeli vissza — ez a fiatalabb generációkban újra értéket nyer.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 175,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "matching",
+    "question": "Párosítsd a tudat 3 fő megközelítési módját a hozzá tartozó kulcsfogalommal!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "Neurológiai megközelítés — éberség, ébreszthetőség (arousal, awakefulness). Evolúciós megközelítés — az asszociációs hierarchia kérgi szintjei felé elmozdulás az állatvilágból, a megőrzés időtartamának növekedése. Filozófiai megközelítés — Descartes: a gondolat tudatos (cogito ergo sum), majd Leibniz: tudattalan képletek (petites perceptions).",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "leftItems": [
+      "Neurológiai",
+      "Evolúciós",
+      "Filozófiai"
+    ],
+    "rightItems": [
+      "Éberség, ébreszthetőség (arousal, awakefulness)",
+      "Asszociációs hierarchia kérgi szintjei felé elmozdulás (állatvilágból az emberig), a megőrzés időtartamának növekedése",
+      "Descartes 'cogito ergo sum'; Leibniz tudattalan képletek (petites perceptions)"
+    ]
+  },
+  {
+    "id": 176,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Husserl szerint mi az elfojtás kétféle formája?",
+    "options": [
+      "Tudatos és tudattalan elfojtás",
+      "Elfelejtés és visszafojtás (minden asszociatív ismerettől)",
+      "Aktív és passzív elfojtás",
+      "Egyéni és kollektív elfojtás"
+    ],
+    "answer": 2,
+    "explanation": "Husserl: az elfojtás kettős — egyrészt ELFELEJTÉS, másrészt VISSZAFOJTÁS (minden asszociatív ismerettől). Az 'értelemüledékek' passzív darabkák, asszociáció törvényei szerint szerveződnek.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 177,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Mit jelent Hartmann tudattalan-felosztásában a 'pszichológiai tudattalan'?",
+    "options": [
+      "Az evolúciós vak törekvés",
+      "A kozmikus szubsztancia",
+      "A tudatossá nem vált képzetek tárháza — vö. modern értelemben a priming jelensége",
+      "A kollektív tudattalan jungi értelemben"
+    ],
+    "answer": 3,
+    "explanation": "Hartmann (1869) szerint a tudattalan 3 rétege: abszolút (kozmikus), élettani (evolúciós vak törekvés), és PSZICHOLÓGIAI tudattalan (tudatossá nem vált képzetek; vö. priming jelensége).",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 178,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "single",
+    "question": "Lipps a tudat–tudattalan viszonyt milyen METAFORÁVAL illusztrálta?",
+    "options": [
+      "Jéghegy (víz alatti és feletti rész)",
+      "Óceán (tudattalan) és sziget (tudatos)",
+      "Számítógép memóriája",
+      "Színpad és kulisszák"
+    ],
+    "answer": 2,
+    "explanation": "Lipps szerint a psziché egésze tudattalan (ÓCEÁN), a tudat csak egy SZIGET ebben az óceánban. Ez gondolatilag rokon Freud későbbi jéghegy-metaforájával.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 179,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Brentano szerint a 'tudatos tudattalan' kifejezés OXIMORON: tudattalanok csak fiziológiai folyamatok lehetnek, pszichikaiak nem.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Brentano álláspontja: a tudat lényege épp, hogy tudatos. Tudattalan tudat fogalmi képtelenség (oximoron). Pszichológiai tudattalan nincs — csak fiziológiai (testi) tudattalan folyamatok.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 180,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "hard",
+    "type": "matching",
+    "question": "Párosítsd a kortárs pszichopatológia normális/deviancia kontinuumában az IQ-kreativitás kombinációkat a várható következménnyel!",
+    "options": [],
+    "answer": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "explanation": "A kortárs neurodiverzitás-megközelítés szerint a normális és a deviáns nem éles határú — a két szélén deviáncia van. Kreativitás-tesztek (szokatlan használat, távoli asszociáció) jól mérik a teljesítményt.",
+    "category": "uj",
+    "vizsgakerdes": false,
+    "leftItems": [
+      "Átlagos IQ + átlagos kreativitás",
+      "Átlagos IQ + átlag feletti kreativitás",
+      "Átlag feletti IQ + átlag feletti kreativitás"
+    ],
+    "rightItems": [
+      "Normatív működés (nem deviáns irányba húzódik)",
+      "Kreativitás-túlsúly (kreatív divergencia jellemző)",
+      "Rivalizálás (az IQ és a kreativitás közti versengés sajátos tüneteket okozhat)"
+    ]
+  },
+  {
+    "id": 181,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "A pszichopatológia kortárs (neurodiverzitás-alapú) megközelítése szerint a 'normális ~ neurotípusos' merev fogalmilag elveti a neurodiverzitást.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "A neurodiverzitás-szemlélet szerint a 'normális' és 'patológiás' közti merev határ nem fenntartható; helyette spektrum-szemlélet érvényes (deviáncia mindkét szélen lehet).",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 182,
+    "topicNum": 2,
+    "topic": "Érzelmek és kogníció",
+    "difficulty": "medium",
+    "type": "tf",
+    "question": "Fehr és Russel (1984) az érzelmi szókincs vizsgálatában az 'öröm', 'szomorúság' és 'düh' nemzetközi szinten leggyakrabban felidézett érzelmek közé tartoznak — ún. alapérzelmek.",
+    "options": [
+      "Igaz",
+      "Hamis"
+    ],
+    "answer": true,
+    "explanation": "Fehr és Russel klasszikus vizsgálata: kultúraközi szinten ugyanazok az érzelmek jelennek meg leggyakrabban — alapérzelmek (öröm, szomorúság, düh).",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 183,
+    "topicNum": 4,
+    "topic": "Mentális kép, képzelet",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Hasonlítsd össze az analóg (depiktív) és a propozicionális (deskriptív) reprezentációkat! Hozz fel kísérleti érveket mindkét tábor mellett.",
+    "options": [],
+    "answer": null,
+    "explanation": "ANALÓG (Kosslyn) érvei: Shepard-Metzler mentális forgatás (lineáris RT-szögkülönbség); Kosslyn képzeleti letapogatás; fMRI: V1 aktivitás képzelet alatt; parietális TMS rontja a teljesítményt; Behrmann CK páciens (vizuális agnózia ép képzelettel). PROPOZICIONÁLIS (Pylyshyn) érvei: a kép 'kognitíve áthatolható' — instrukciók befolyásolják; a mentális kép epifenomén; a tudás absztrakt, modalitás-független. Ma KOMPROMISSZUM: többszintű reprezentáció, kontextus-szerinti dominancia.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 184,
+    "topicNum": 5,
+    "topic": "Séma a megismerésben",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be a séma kérdéskörét! Vázold fel a sémával kapcsolatos modernebb elképzeléseket (Szokolszky: A séma fogalma a kognitív pszichológiában. Régi és új értelmezések).",
+    "options": [],
+    "answer": null,
+    "explanation": "Eredet: Kant (előzetes tapasztalat-alapú elvárás + emlékezeti váz). KLASSZIKUS: Bartlett 1932 (konstruktív emlékezet — 'remembering'); Piaget (asszimiláció-akkomodáció-equilibrium, érzékszervi-mozgásos→képzeti→műveleti tevékenység); Neisser 1976 (észlelési ciklus). MODERN: Rumelhart PDP/konnekcionista (nem objektum, hanem aktivációs mintázat — egymásba ágyazódás, hálózati tudás); Minsky 1975 (frames — kitöltetlen terminusok, alapértékek); Schank-Abelson 1977 (forgatókönyvek — rutincselekvések rendje). Közös vonások: relációkból álló váz, változók/üres helyek (alapértékkel), rugalmasság, aktív szerep. Kortárs: embodiment (testbe ágyazott megismerés), tükörneuron-rendszer (cselekvési séma idegrendszeri korrelátuma). Klinikai vonatkozás: Young-féle sématerápia (korai maladaptív sémák).",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 185,
+    "topicNum": 11,
+    "topic": "Neuropszichoanalízis",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mit jelent az áttétel a neuropszichoanalízisben? Hogyan értelmezi a tárgykapcsolat-elmélet és a modern idegtudomány?",
+    "options": [],
+    "answer": null,
+    "explanation": "Klasszikus definíció: a páciens olyan érzéseket / mintázatokat visz át a terapeutára, melyek korai szignifikáns kapcsolataiból származnak. Tárgykapcsolat-elmélet (Klein, Bion, Ogden): az áttétel a PROJEKTÍV IDENTIFIKÁCIÓ egyik változata — nemcsak projektál, hanem aktívan elindít egy interakciós mintát, ami előhívja a terapeutából a kívánt reakciót. Idegrendszeri háttér: procedurális emlékezeti mintázatok aktiválódása, melyek a korai kötődési epizódok során (élet első ~2 éve, amygdala-alapú implicit emlékezet kifejlődési időszaka) alakultak ki. Tükörneuron-rendszer és affektusrezonancia adja a mechanikus alapot. Krónikus korai stressz → kortizol-emelkedés → hippokampusz atrófia (a 'múlt determinálja a jelent' tézis idegtudományi formája).",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 186,
+    "topicNum": 1,
+    "topic": "Arcészlelés, hibrid képek észlelése",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Adj címet a képnek és írd le, mit látunk rajta! Magyarázd el az elméleti hátteret a hibrid képek vagy az arcészlelési modell alapján.",
+    "options": [],
+    "answer": null,
+    "explanation": "Modell: Oliva-Torralba hibrid képek (LSF/HSF kombináció — közelről részletes, távolról a globális forma dominál). VAGY Bruce-Young arcészlelés-modell: strukturális kódolás → arcfelismerési egység → személyidentitás-csomópont → név-előhívás (csak más információk birtokában). FFA, OFA, STS, amygdala szerepe. Két útvonal: kéreg alatti (Conspec — gyors, alacsony téri frekvencia, magnocelluláris) és kérgi (Conlearn — finom diszkrimináció). Thatcher-illúzió a konfigurális feldolgozás bizonyítéka.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 187,
+    "topicNum": 10,
+    "topic": "Tudat – tudattalan",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be a tudat–tudattalan kérdéskör 1800-as évek végi három fő irányzatát! Hogyan közelíti meg ma a kognitív tudomány a tudattalant?",
+    "options": [],
+    "answer": null,
+    "explanation": "Három irányzat: (1) ortodox BEHAVIORIZMUS — kizárja a tudatot, így a tudattalant is (Watson 1913); (2) európai GESTALT — élményvilág neurológiai hátterét vizsgálja, tér-idő orientáció, egyenlegesség; (3) FREUDI pszichoanalízis — dinamikus tudattalan, elsődleges folyamatok. Ma a kognitív tudomány Whyte 3 tudattalan-fogalmát használja: kognitív (küszöb alatti észlelés — Helmholtz, Greenwald New Look 3), vitális (ösztönök, érzelmek, motiváció — Panksepp), patologikus (Charcot, Bernheim, Freud — klinikai). Greenwald: a tudattalan kogníció EGYSZERŰ, alacsonyabb szintű — konnekcionista modellekkel kompatibilis.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 188,
+    "topicNum": 8,
+    "topic": "Elmefilozófia (klasszikus és modern)",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be a mentális állapotok ontológiájának 4 fő kortárs álláspontját! Melyik realista és melyik antirealista?",
+    "options": [],
+    "answer": null,
+    "explanation": "(1) FODOR-SEARLE intencionális realizmus / HIPERREALIZMUS — a mentális/intencionális állapotok valóban léteznek; ellenkezik a neobehaviorizmussal. (2) DENNETT instrumentalizmus — tulajdonítunk intencionális állapotokat (sakkprogram 3 hozzáállás), de azok eszközök mások értelmezésére, NEM valós entitások. ANTI-REALISTA, kvázi behaviorista. (3) CHURCHLAND eliminatív materializmus — a népi pszichológia elmélet, de HAMIS / korlátos; fel fogja váltani az idegtudomány. ANTI-r. (4) DEMETER TAMÁS-TOON mentális fikcionalizmus — a mentális állapotok státusza, mint Sherlock Holmesé: utalhatunk rájuk, de nem léteznek. Toon Popper 3 világára (fizikai, mentális, kult. obj.) támaszkodik. ANTI-r. Bírálatok: kísérleti kognitív fejlődési tudomány szerint a mentális állapotok megértése előbb fejlődik, mint a metaforák; a mintha-játék (Leslie) nem kizárólagos.",
+    "category": "uj",
+    "vizsgakerdes": false
+  },
+  {
+    "id": 189,
+    "topicNum": 7,
+    "topic": "Pszicholingvisztika, nyelvi relativizmus",
+    "difficulty": "hard",
+    "type": "essay",
+    "question": "Mutasd be Bühler orgenon-modelljét! Hogyan bővítette Habermas, Popper és Jakobson?",
+    "options": [],
+    "answer": null,
+    "explanation": "BÜHLER (1934) háromszög-modell — a nyelv 3 funkciója: SZIMBÓLUM (reprezentációs/ábrázoló, pl. 'Esik az eső'), SIGNÁL (felhívó/utasító, pl. 'Vigyázzanak az ajtózáródásra!'), SZIMPTÓMA (kifejezési, pl. 'Fáj a fejem'). HABERMAS egyetemes pragmatikája: konstativák (↔szimbólum: állít, leír, magyaráz), expresszívák (↔szimptóma: gondol, vél, kifejez), regulativák (↔signál: figyelmeztet, tanácsol, parancsol). POPPER: ARGUMENTATÍV (érvelő) funkcióval bővít — tudományos diskurzus. JAKOBSON: POÉTIKAI (költészeti) funkció. Mindezek megelőzik / kiegészítik Chomsky generatív modelljét; a kommunikatív cselekvés elmélete áll a háttérben.",
+    "category": "uj",
+    "vizsgakerdes": false
   }
 ]
