@@ -2454,5 +2454,1915 @@
     "category": "uj",
     "vizsgakerdes": false,
     "source": "Klinikai eseteseti gyakorlás (önálló kérdés)"
+  },
+  {
+    "id": 128,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "It is hypothesized that schizophrenia may be related to an excess of which neurotransmitter:",
+    "options": [
+      "Serotonin",
+      "GABA",
+      "Dopamine",
+      "Glutamate"
+    ],
+    "answer": 3,
+    "explanation": "A skizofrénia dopamin-hipotézise (1960-as évek): a pozitív tünetek (hallucináció, téveszme) hátterében a mezolimbikus dopamin-túlsúly áll. Az első generációs antipszichotikumok mind D2-receptor blokkolók.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 129,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Structural abnormalities in the brains of patients with obsessive compulsive disorder have been identified in several areas. Which of the following areas have not been found to be affected?",
+    "options": [
+      "Cingulate gyrus",
+      "Orbital frontal cortex",
+      "Substantia nigra",
+      "Caudate nucleus"
+    ],
+    "answer": 3,
+    "explanation": "OCD klasszikus érintett területei: cinguláris gyrus (különösen az anterior), orbitofrontális kéreg, és a kaudátum mag (CSTC — cortico-striato-thalamo-cortical hurok). A substantia nigra a Parkinson-kór területe, nem az OCD-é.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 130,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A patient presents with quite limited spontaneous speech, an inability to repeat statements made by the examiner, yet an ability to follow instructions provided by the examiner. This patient may be suffering from:",
+    "options": [
+      "Wernicke's Aphasia",
+      "Conduction Aphasia",
+      "Broca's Aphasia",
+      "Global Aphasia"
+    ],
+    "answer": 3,
+    "explanation": "Klasszikus Broca-afázia: nem-folyamatos / korlátozott spontán beszéd, sérült ismétlés (mert ezt is a Broca-régió végzi), de a beszédértés viszonylag megtartott (a Wernicke-régió ép).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 131,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Another patient presents with quite fluent, spontaneous speech, yet an inability to repeat statements made by the examiner, and an ability to follow instructions provided by the examiner. This patient may be suffering from:",
+    "options": [
+      "Wernicke's Aphasia",
+      "Conduction Aphasia",
+      "Broca's Aphasia",
+      "Global Aphasia"
+    ],
+    "answer": 2,
+    "explanation": "Kondukciós afázia jellegzetessége: megtartott folyamatos beszéd, megtartott beszédértés, IZOLÁLT ismétlési deficit (fonémikus parafáziákkal). A fasciculus arcuatus sérülése okozza.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 132,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A 76 year old woman presents with marked confusion, disorientation, and impaired memory that reportedly became noticeable within the past week. Among the following choices, which is the most likely diagnosis?",
+    "options": [
+      "Depression",
+      "Dementia",
+      "Delirium",
+      "Dystonia"
+    ],
+    "answer": 3,
+    "explanation": "Az 1 hét alatt kialakuló konfúzió, dezorientáció és emlékezetzavar AKUT lefolyás — ez a delírium definíciója. A demencia hónapok-évek alatt alakul ki, fokozatosan. Mindig kell az alap kezelhető okát keresni (UTI, gyógyszer, dehidráció, elektrolit-zavar).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 133,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following measures would likely be least sensitive to the effects of a brain injury?",
+    "options": [
+      "Achievement Test",
+      "IQ Test",
+      "Memory Test",
+      "Continuous Performance Test (CPT)"
+    ],
+    "answer": 1,
+    "explanation": "Az iskolai teljesítmény-tesztek (achievement tests) a túltanult, kristályosodott ismereteket mérik (olvasás, számolás, helyesírás), amelyek a leginkább ellenállóak a sérülésnek. Ezért használjuk premorbid IQ becslésére is. A memória, IQ és figyelem (CPT) érzékenyebb.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 134,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "What is the classic triad of symptoms seen in acute Wernicke-Korsakoff Syndrome?",
+    "options": [
+      "Ataxia, vertigo, and vomiting",
+      "Ataxia, eye movement abnormalities, and confusional state",
+      "Extrapyramidal movement disorder, hallucinations, and personality changes",
+      "Gradually-developing anterograde amnesia, constructional deficits, and anosmia"
+    ],
+    "answer": 2,
+    "explanation": "Wernicke-encephalopathia (akut B1/thiamin hiány) klasszikus triásza: ataxia + szem-mozgási rendellenességek (nystagmus, oftalmoplegia) + konfúziós állapot. Korai kezelés (thiamin) nélkül Korsakoff-amnézia alakul ki.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 135,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Heschl's gyrus is associated with which of the following?",
+    "options": [
+      "Primary visual cortex",
+      "Primary auditory cortex",
+      "Secondary auditory cortex",
+      "Somatosensory cortex"
+    ],
+    "answer": 2,
+    "explanation": "Heschl-gyrus = elsődleges hallókéreg, a felső temporális tekervény hátsó-felső részén, a Sylvius-árokba behajolva. Brodmann 41-42.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 136,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A right-handed patient sustains a PCA infarct that results in damage to the left posterior white matter and the splenium of the corpus callosum, with relative gray matter sparing. Which of the following symptom clusters is most likely to occur?",
+    "options": [
+      "Alexia without agraphia (a.k.a. posterior alexia or associative alexia)",
+      "Alexia with agraphia",
+      "Frontal or anterior alexia (a.k.a. literal alexia)",
+      "Wernecke's aphasia and agraphia",
+      "A conduction aphasia and agraphia"
+    ],
+    "answer": 1,
+    "explanation": "Klasszikus alexia-without-agraphia: a bal occipitális lézió + splenium corporis callosi sérülés következménye. A jobb látókéreg lát, de a vizuális szóformák nem jutnak át a bal hemiszférikus nyelvi területekre. A beteg írni tud, de nem tudja elolvasni, amit írt.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 137,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is most likely to result in dementia?",
+    "options": [
+      "Parkinson's Disease",
+      "Huntington's Disease",
+      "Sydenham's Chorea",
+      "Primary Dystonia",
+      "Essential Tremor"
+    ],
+    "answer": 2,
+    "explanation": "Huntington-kór szinte 100%-osan demenciába vezet a betegség előrehaladtával. A Parkinson-kórban nem mindenki kap demenciát (kb. 30-40%); a Sydenham-chorea és primer dystonia ritkán okoz demenciát; az esszenciális tremor nem.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 138,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Evidence of which form of validity is most needed for a job screening test?",
+    "options": [
+      "Concurrent validity",
+      "Content validity",
+      "Predictive validity",
+      "Face validity"
+    ],
+    "answer": 3,
+    "explanation": "A munkára való alkalmasság szűrőtesztjéhez prediktív (jövőbeli teljesítményt előrejelző) validitás kell — ez mutatja, hogy a teszt a jövőbeli munkateljesítményt korrelál-e. A face validity csak felszínes; a content és concurrent szűkebb hatókörűek.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 139,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which is most true of a person with Transient Global Amnesia?",
+    "options": [
+      "oriented and able to correctly provide personal information",
+      "confabulates",
+      "shows anterograde amnesia but not retrograde amnesia",
+      "shows retrograde amnesia but not anterograde amnesia",
+      "shows decreased level of consciousness"
+    ],
+    "answer": 1,
+    "explanation": "TGA: a beteg orientált önmagára (név, kor, családtagok), tudatánál van, NEM konfabulál. Anterograd amnézia dominál (új információt nem tárol), és van enyhébb retrograd komponens. 24 órán belül spontán visszafordul.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 140,
+    "topicNum": 8,
+    "topic": "Figyelem és végrehajtó funkciók",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Seizures originating in what area are associated with fear and panic?",
+    "options": [
+      "dorsolateral frontal convexity",
+      "supplementary motor area",
+      "caudate",
+      "amygdala"
+    ],
+    "answer": 4,
+    "explanation": "Az amygdala epileptikus aktivitása klasszikusan kelti a megmagyarázhatatlan félelem, pánik, deja-vu élményt — gyakran temporális lebenyi epilepsziaaurákban.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 141,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is a differentiating factor in comparing 'familial' Alzheimer's (in which a genetic link has been established) from the more common 'nonfamilial' Alzheimer's?",
+    "options": [
+      "Age of onset",
+      "Core clinical/behavioral features",
+      "Post-mortem neuropathological changes",
+      "None of the above (e.g., aside from genetics the two syndromes are identical)"
+    ],
+    "answer": 1,
+    "explanation": "Familiáris AD (APP, PSEN1, PSEN2 mutációk) korai kezdetű (~30-60 év), míg a sporadikus jellemzően 65+ év. A klinikai kép és a neuropatológia (amiloid plakkok, NFT-k) lényegében ugyanaz.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 142,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "If brain damage involves structures surrounding the cribiform plate, it is likely that which cranial nerve would be involved?",
+    "options": [
+      "Olfactory",
+      "Optic",
+      "Facial",
+      "Hypoglossal"
+    ],
+    "answer": 1,
+    "explanation": "A lamina cribrosa (cribriform plate) a szaglókéreg axonjainak átmenete az orrüregből a koponyaüregbe. Sérülése (anteriobazális TBI, frontális sérülés) anozmiát okoz.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 143,
+    "topicNum": 6,
+    "topic": "Apraxia és agnózia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A patient who is unable to recognize his family members, or his doctor of many years, is likely suffering from __________. If this problem is the result of a unilateral disorder, it is likely that the lesion is in the __________ hemisphere.",
+    "options": [
+      "Simultanagnosia, Left",
+      "Simultanagnosia, Right",
+      "Prosopagnosia, Left",
+      "Prosopagnosia, Right"
+    ],
+    "answer": 4,
+    "explanation": "Az arcok felismerésének zavara = prosopagnózia. Unilaterális lézió esetén jellemzően a JOBB ventrális occipitotemporális (FFA-régió) sérülése okozza.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 144,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is not characteristic of multiple sclerosis?",
+    "options": [
+      "Dysarthria",
+      "Aphasia",
+      "Nystagmus",
+      "Tremor"
+    ],
+    "answer": 2,
+    "explanation": "Az SM elsősorban fehérállományi (myelin) betegség; corticalis afázia ritka és nem jellemző. Dysarthria (motoros beszéd), nystagmus (cerebelláris/agytörzsi) és tremor (cerebelláris) klasszikus tünetek.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 145,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Anomic aphasia is typically caused by damage to the following area of the left hemisphere:",
+    "options": [
+      "Thalamus",
+      "Angular Gyrus",
+      "Wernicke's and Broca's Areas",
+      "Arcuate Fasciculus"
+    ],
+    "answer": 2,
+    "explanation": "Anómiás afázia (csak megnevezési zavar, egyébként folyamatos beszéd és megértés) leggyakrabban a bal angular gyrus régió sérülésénél jelenik meg.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 146,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which one of the following statements is true?",
+    "options": [
+      "Approximately 5% of all causes of dementia are reversible",
+      "Approximately 25% of all causes of dementia are reversible",
+      "Approximately 45% of all causes of dementia are reversible",
+      "Approximately 65% of all causes of dementia are reversible"
+    ],
+    "answer": 2,
+    "explanation": "A demenciák kb. 10-25%-a (klasszikus becslés ~15%) potenciálisan reverzibilis: B12 hiány, hypothyreosis, normal pressure hydrocephalus, szubdurális hematóma, depresszió-pszeudodemencia, gyógyszermellékhatás.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 147,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "An examiner gives a patient the WASI while he is on an inpatient rehabilitation unit. The patient is then seen as an outpatient to track his recovery, where he is administered the WAIS-III. What sources of variability or error variance might affect his scores and obscure real changes in his functioning?",
+    "options": [
+      "Differences in items/content (i.e., item heterogeneity)",
+      "Time differences",
+      "Scorer differences",
+      "All of the above"
+    ],
+    "answer": 4,
+    "explanation": "Két különböző teszt (WASI vs WAIS-III) összehasonlítása sok hibaforrást hoz: item-szelekció eltér, idő (test-retest), és lehet pontozási eltérés is. Az 'All of the above' a helyes.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 148,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which one of the following is true about malingering?",
+    "options": [
+      "Any patient who is involved in a personal injury case or has a lawyer must be malingering",
+      "Patients with genuine organic illnesses will not exaggerate their symptoms",
+      "Malingering patients typically demonstrate more difficulties with memory than they do with attention",
+      "Malingering is detectable through face-to-face clinical interviews alone"
+    ],
+    "answer": 3,
+    "explanation": "Klasszikus szimuláció (malingering) mintázat: aránytalanul rossz emlékezeti teljesítmény, miközben a figyelem viszonylag megtartott (mert a 'kívülről' való helyes szimulálása nehéz; a tipikus beteg-elvárás az, hogy a memória legyen rossz). Symptom validity tests (TOMM, WMT) bevétel kötelező a gyanú esetén.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 149,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "PTA, or Post Traumatic Amnesia, refers to:",
+    "options": [
+      "The fact that most children cannot remember traumatic events that happened to them.",
+      "A period of time following a TBI in which the patient cannot remember what had happened to cause the injury.",
+      "A period of time following a TBI in which new memories cannot be consistently formed.",
+      "The memory difficulties typically associated with Post-Traumatic Stress Disorder."
+    ],
+    "answer": 3,
+    "explanation": "PTA: a TBI utáni időszak, amíg a beteg nem képes konzisztensen új emlékeket képezni (anterograd amnézia). Időtartama prediktív a sérülés súlyosságára: <24 óra = mild, 1-7 nap = moderate, >7 nap = severe TBI.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 150,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "An individual with which type of dementia is most likely to show retrieval rather than retention deficits:",
+    "options": [
+      "Alzheimer's Dementia",
+      "Parkinson's Disease",
+      "Diffuse Lewy Bodies Dementia",
+      "Pick's Disease"
+    ],
+    "answer": 2,
+    "explanation": "A szubkortikális demenciák (Parkinson, Huntington, vaszkuláris) tipikusan ELŐHÍVÁSI deficitet mutatnak: a beteg nem találja elő az emléket, de felismerés javít. A kortikális demenciák (AD) TÁROLÁSI deficitet adnak: a felismerés sem segít, mert nincs mit elővenni.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 151,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Leukoaraiosis refers to:",
+    "options": [
+      "Diffuse white matter changes seen in older patients",
+      "Watershed white matter damage associated with anoxia",
+      "Destruction of white matter in the peripheral nervous system",
+      "An attack on the cerebral and spinal cord myelin following an infection or immunization"
+    ],
+    "answer": 1,
+    "explanation": "Leukoaraiosis = MRI-n / CT-n látható diffúz fehérállományi rendellenességek (T2/FLAIR-en hyperintenzitás), idősebb betegekben gyakori. Kis-erek betegségéhez (small vessel disease) kapcsolódik, kognitív hanyatlással asszociál.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 152,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The primary visual area lies along the __________.",
+    "options": [
+      "Calcarine fissure",
+      "Central sulcus",
+      "Sylvian fissure",
+      "Lateral fissure"
+    ],
+    "answer": 1,
+    "explanation": "Az elsődleges látókéreg (V1, area striata, Brodmann 17) az occipitális lebeny mediális felszínén, a sulcus calcarinus körül helyezkedik el.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 153,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The criterion validity of a test is limited by which of the following:",
+    "options": [
+      "The test's standard deviation",
+      "The test's reliability",
+      "Validity shrinkage",
+      "The standard deviation of the criterion variable"
+    ],
+    "answer": 2,
+    "explanation": "Pszichometriai alapelv: egy teszt criterion validity-je nem lehet magasabb, mint a reliabilitása (és a kritérium reliabilitása). Reliabilitás-felső-korlát.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 154,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Functional neuroimaging (PET, fMRI) in patients with schizophrenia has shown:",
+    "options": [
+      "enlarged ventricles",
+      "no difference relative to normal controls",
+      "hypofrontality",
+      "hyperfrontality"
+    ],
+    "answer": 3,
+    "explanation": "Skizofréniában a klasszikus funkcionális képalkotó eredmény a HIPOFRONTALITÁS — csökkent frontális (különösen dorzolaterális prefrontális) aktivitás, főleg végrehajtó feladatok közben. Strukturális: enlarged ventricles, de a kérdés FUNCTIONAL imaging.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 155,
+    "topicNum": 10,
+    "topic": "Klinikai esetelemzés",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "When trying to teach something to a patient with severe memory impairment, you prevent the patient from guessing or making mistakes during the learning phase. This is an example of:",
+    "options": [
+      "Prospective Memory Training",
+      "Graduated Exposure",
+      "Priming",
+      "Errorless Learning"
+    ],
+    "answer": 4,
+    "explanation": "Errorless learning (Wilson): súlyos amnéziás betegeknél a tanítás módszere, ahol a beteget megakadályozzuk a tippelésben. Mivel az implicit memória ép maradt, a hibák is bevésődnének — ezért a hibázás elkerülése kulcs.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 156,
+    "topicNum": 4,
+    "topic": "Neglekt szindróma",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Double simultaneous stimulation is used to screen for __________.",
+    "options": [
+      "Agnosia",
+      "Hyperarousal",
+      "Neglect",
+      "Ocular Apraxia"
+    ],
+    "answer": 3,
+    "explanation": "Kettős szimultán stimuláció (taktilis, vizuális, vagy auditív): egyszerre két oldalra ad ingert. Az érintett oldali ingert a beteg nem észleli (extinkció) — finomabb neglekt jele, mint a teljes elhanyagolás.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 157,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which is not a neuropathological feature associated with Alzheimer's Dementia?",
+    "options": [
+      "Neuritic Plaques",
+      "Neurofibrillary Tangles",
+      "Granulovacular Bodies",
+      "Lewy Bodies"
+    ],
+    "answer": 4,
+    "explanation": "AD klasszikus patológiája: béta-amiloid plakkok (neuritic plaques), tau-tartalmú neurofibrilláris fonatok (NFT), granulovaculáris degeneráció. A Lewy-testek (alpha-szinuklein) a Parkinson és a Lewy-testes demencia patológiája.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 158,
+    "topicNum": 8,
+    "topic": "Figyelem és végrehajtó funkciók",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Frontal memory disorders are characterized by all but:",
+    "options": [
+      "Attentional deficits interfere with encoding",
+      "Loss of autobiographical knowledge",
+      "Confabulation",
+      "Limited memory for temporal order of events"
+    ],
+    "answer": 2,
+    "explanation": "Frontális memóriazavar: figyelmi probléma → rossz kódolás, konfabuláció, idői sorrend zavara. Az autobiografikus tudás elvesztése (személyes történet) inkább temporális/mediotemporális amnézia jellemzője.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 159,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Few studies have been conducted on pesticide exposures, however, the deficits associated with them appear to be similar to the core pattern in solvent toxicity, including:",
+    "options": [
+      "Mental slowing and anxiety/depression",
+      "Visual spatial deficits",
+      "Agraphia and alexia",
+      "Peripheral neuropathy and optic ataxia"
+    ],
+    "answer": 1,
+    "explanation": "Szerves oldószerek és peszticidek krónikus expozíciója: mentális lassúság, koncentrációs zavarok, hangulati problémák (szorongás, depresszió). A klasszikus 'psychoorganic syndrome' (vagy 'painters' encephalopathy).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 160,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "In pediatric patients, about ____% of brain tumors are in the posterior fossa and ___% are supratentorial.",
+    "options": [
+      "50, 50",
+      "10, 90",
+      "70, 30",
+      "30, 70"
+    ],
+    "answer": 1,
+    "explanation": "Gyermekkori agytumorok eloszlása: kb. 50/50 az infratentoriális (hátsó fossa: kisagyi, agytörzsi) és szupratentoriális között. Felnőttekben fordított arány (több szupratentoriális).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 161,
+    "topicNum": 6,
+    "topic": "Apraxia és agnózia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is not a feature of Gerstmann's Syndrome?",
+    "options": [
+      "Acalculia",
+      "Ideational apraxia",
+      "Left/right confusion",
+      "Finger agnosia"
+    ],
+    "answer": 2,
+    "explanation": "Gerstmann-szindróma (bal angular gyrus lézió) NÉGY tünete: akalkulia, ujj-agnózia, jobb-bal tévesztés, agráfia. Az ideacionális apraxia ide nem tartozik (az is bal parietális, de más szindróma).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 162,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Broca's aphasia is commonly accompanied by which of the following?",
+    "options": [
+      "Right hemiplegia",
+      "Contralateral superior quadrantanopsia",
+      "Gerstmann's syndrome",
+      "Right visual neglect"
+    ],
+    "answer": 1,
+    "explanation": "Broca-régió (bal frontális inferior gyrus) anatómiailag a precentralis gyrus szomszédja → a Broca-afáziát gyakran kíséri jobb oldali hemiparesis (motoros kéreg ugyanazon média ágából).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 163,
+    "topicNum": 8,
+    "topic": "Figyelem és végrehajtó funkciók",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which region of the brain seems to be involved both in habit learning and in OCD?",
+    "options": [
+      "Amygdala",
+      "Caudate",
+      "Hippocampus",
+      "Dorsolateral Prefrontal Cortex"
+    ],
+    "answer": 2,
+    "explanation": "A caudátum (és más bazális ganglion struktúrák) központi a procedurális / szokás-tanulásban. Az OCD szintén caudátum-hiperaktivitást mutat (CSTC loop). Funkcionális kapcsolat.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 164,
+    "topicNum": 10,
+    "topic": "Klinikai esetelemzés",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is not one of the more common symptoms or signs of elevated intracranial pressure?",
+    "options": [
+      "Headache",
+      "Generally altered mental status, especially irritability and depressed level of alertness and attention",
+      "Focal cortical symptoms, such as aphasia",
+      "Nausea and vomiting"
+    ],
+    "answer": 3,
+    "explanation": "Emelkedett ICP klasszikus tünetei: fejfájás, hányinger/hányás, általános mentális állapot változás (álmosság, irritabilitás). FOKÁLIS tünetek (afázia, hemiparesis) inkább a struktúrális lézió direkt jele, nem az ICP-emelkedésé.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 165,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is a potentially reversible cause of dementia?",
+    "options": [
+      "Vascular Dementia",
+      "Traumatic Brain Injury",
+      "Subdural Hematoma",
+      "Dementia with Lewy Bodies"
+    ],
+    "answer": 3,
+    "explanation": "Szubdurális hematoma sebészi drenálással gyakran reverzibilis a hozzá kapcsolódó kognitív hanyatlás. A többi (VaD, TBI utáni stabil deficit, DLB) többnyire nem visszafordítható.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 166,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Alexia refers to:",
+    "options": [
+      "The lack of development of normal reading skills.",
+      "Impaired auditory processing of language",
+      "An aquired deficit in the interpretation of written language.",
+      "An inability to understand spoken language."
+    ],
+    "answer": 3,
+    "explanation": "Alexia = SZERZETT olvasási zavar (felnőttkori, agysérülés utáni). Megkülönböztetendő a fejlődési diszlexiától, ami a normál olvasási képesség kialakulásának elmaradása.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 167,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Dysarthria, dysphagia and hypoactive jaw and gag reflexes without associated cognitive or emotional changes is known as:",
+    "options": [
+      "Pseudobulbar palsy",
+      "Bulbar palsy",
+      "Suprabulbar palsy",
+      "Meniere's Disease"
+    ],
+    "answer": 2,
+    "explanation": "Bulbáris bénulás: alsó motoneuron-eredetű, izomgyengeség (dysarthria, dysphagia), HYPOaktív reflexek. Pszeudobulbáris: felső motoneuron, HYPERaktív reflexek, kötelező sírás-nevetés (emocionális labilitás).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 168,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Use of a highly specific sign or symptom (e.g., contralateral neglect) in identifying brain damage will results in a high rate of:",
+    "options": [
+      "false negative errors",
+      "false positive errors",
+      "true positive errors",
+      "true negative errors"
+    ],
+    "answer": 1,
+    "explanation": "Magas specificitás → kevés FALSE POSITIVE, de magas FALSE NEGATIVE rate (sok valós beteget elmulasztunk). Trade-off: szűrőtesztre magas szenzitivitás, megerősítésre magas specificitás kell.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 169,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following Wechsler scale subtests is the best indicator of premorbid intelligence?",
+    "options": [
+      "Vocabulary",
+      "Digit Span",
+      "Block Design",
+      "Similarities"
+    ],
+    "answer": 1,
+    "explanation": "Vocabulary (szókincs) a legjobban tükrözi a premorbid intellektust: kristályosodott, túltanult, agysérülésre ellenálló. A 'hold tests' (NART, WTAR) is reading-alapú szókincset mér.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 170,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Practice effects are most likely to be seen on which Wechsler scale subtest?",
+    "options": [
+      "Vocabulary",
+      "Similarities",
+      "Picture Completion",
+      "Digit Span"
+    ],
+    "answer": 3,
+    "explanation": "Gyakorlási hatás (practice effect) leginkább a NOVELT, NEHEZEN VERBALIZÁLHATÓ feladatokon — pl. Picture Completion (mit hiányolj a képből?). A vocabulary már túltanult, csak kevés practice effect.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 171,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which statement is correct?",
+    "options": [
+      "In Multiple Sclerosis intellectual changes typically develop later than physical deteriorations",
+      "In Alzheimer's Disease intellectual changes typically develop later than physical deteriorations",
+      "In Cerebrovascular Accidents (CVA's) physical deteriorations typically develop later than intellectual deteriorations",
+      "In Parkinson's Disease, physical changes typically develop later than intellectual changes."
+    ],
+    "answer": 1,
+    "explanation": "SM-ben jellemzően először a motoros / szenzoros tünetek jelennek meg, a kognitív tünetek csak később. AD: kognitív elsőként; PD: motoros elsőként; CVA: jellemzően egyszerre.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 172,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following statements is true with regard to differentiating depression from dementia (Alzheimer's/AD)?",
+    "options": [
+      "Cognitive deficits in persons with depression are often more severe than in persons with AD.",
+      "Persons with depression show memory retention deficits while persons with AD show retrieval deficits.",
+      "Persons with depression are more likely to show impaired naming ability, verbal fluency, and visuospatial ability.",
+      "Persons with depression may exert less effort on the performance of neuropsychological tests."
+    ],
+    "answer": 4,
+    "explanation": "Depresszióban (pszeudodemencia) a beteg kevesebb erőfeszítést tesz, 'nem tudom' válaszokat ad — motivációs probléma. AD-ban a beteg igyekszik, de objektíven nem képes. A 2. opció FORDÍTOTT: depresszióban előhívási, AD-ban tárolási deficit.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 173,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which brain region is most often affected by hydrocephalus?",
+    "options": [
+      "Posterior regions",
+      "Frontal lobes",
+      "Temporal lobes",
+      "All of these are equally affected"
+    ],
+    "answer": 2,
+    "explanation": "Hydrocephalus a frontális lebenyeket érinti leginkább — a kiterjedő oldalkamrák komprimálják a frontális fehérállományt. Innen a normal pressure hydrocephalus klasszikus tünetegyüttese: járászavar, vizelet-inkontinencia, kognitív hanyatlás (mind frontális mediatált).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 174,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The brain's major inhibitory neurotransmitter is __________, which is primarily affected by benzodiazepines and barbiturates.",
+    "options": [
+      "Acetylcholine",
+      "GABA",
+      "Glutamate",
+      "Dopamine"
+    ],
+    "answer": 2,
+    "explanation": "GABA = az agy fő gátló neurotranszmittere. A benzodiazepinek és barbiturátok a GABA-A receptor allostérikus modulátorai, fokozzák a GABA-érzékenységet.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 175,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A lesion of Brodman's area 44 in the dominant hemisphere is most closely associated with which of the following?",
+    "options": [
+      "Dysfluent aphasia",
+      "Diminished sensation in the right face and hand",
+      "Poor speech comprehension and fluent aphasia",
+      "Right hemispace neglect"
+    ],
+    "answer": 1,
+    "explanation": "BA 44 (Broca-régió) sérülése → diszfluens (nem-folyamatos) Broca-afázia. A BA 41-42 (Heschl) hallás, BA 22 (Wernicke) megértés, BA 3-1-2 szenzoros.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 176,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "What pattern of IQ performance is typically observed in children with early-onset hydrocephalus?",
+    "options": [
+      "VIQ > PIQ",
+      "PIQ > VIQ",
+      "VIQ = PIQ, with both being on average 10 points below age matched norms",
+      "VIQ = PIQ, with both being on average 10 points above age matched norms"
+    ],
+    "answer": 1,
+    "explanation": "Korai-onset hydrocephalus: a frontális és parietális fehérállomány leginkább érintett → vizuomotoros / téri (performance) IQ csökken, a verbális IQ relatíve megtartott. VIQ > PIQ mintázat klasszikus.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 177,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Lesions of the temporal lobe can cause:",
+    "options": [
+      "Contralateral inferior quadranopia",
+      "Contralateral superior quadranopia",
+      "Bitemporal hemianopia",
+      "Contralateral homonymous hemianopia"
+    ],
+    "answer": 2,
+    "explanation": "Temporális lebeny lézió: Meyer-hurok (a látópálya alsó kvadráns inferior temporális úton fut) sérülése → contralaterális FELSŐ kvadráns kiesés ('pie in the sky'). Parietális: alsó kvadráns kiesés.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 178,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Gait difficulties, urinary incontinence, and cognitive decline are highly indicative of which condition?",
+    "options": [
+      "Pseudotumor cerebri",
+      "Subdural hematoma",
+      "Tonsillar herniation",
+      "Normal pressure hydrocephalus"
+    ],
+    "answer": 4,
+    "explanation": "Hakim-triász: járászavar (magnetic gait, apraxic), vizelet-inkontinencia, kognitív hanyatlás (frontális típusú) — klasszikus normal pressure hydrocephalus (NPH). Shunt-tel reverzibilis lehet.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 179,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Following a stroke, a 75 year-old woman is left with impaired language comprehension, but normal fluency and repetition. Her symptoms are most consistent with:",
+    "options": [
+      "Mixed Transcortical Aphasia",
+      "Transcortical Sensory Aphasia",
+      "Transcortical Motor Aphasia",
+      "Wernicke's Aphasia"
+    ],
+    "answer": 2,
+    "explanation": "Transzkortikális szenzoros afázia: KÁROSODOTT beszédértés, MEGTARTOTT folyamatos beszéd, MEGTARTOTT ismétlés. Az ép ismétlés különbözteti meg a Wernicke-afáziától (ahol az ismétlés is sérül).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 180,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which statement is false regarding cerebral palsy (CP)?",
+    "options": [
+      "Injuries causing CP can occur pre-natally, post-natally, during infancy or early childhood.",
+      "When the cause of CP can be established, prematurity and low birthweight are usually implicated.",
+      "Epilepsy and mental retardation frequently co-occur with CP",
+      "Less than 5% of persons with CP have normal intelligence"
+    ],
+    "answer": 4,
+    "explanation": "A CP-vel élők kb. 50%-a normál intelligenciájú — az 5%-os állítás FALSE. A CP elsősorban motoros zavar, a kognitív társulás változatos.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 181,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following disorders has been most closely linked to degeneration of acetylcholine-synthesizing neurons in the basal forebrain?",
+    "options": [
+      "Huntington's Disease",
+      "Alzheimer's Disease",
+      "Parkinson's Disease",
+      "Normal-Pressure Hydrocephalus",
+      "Multiple Sclerosis"
+    ],
+    "answer": 2,
+    "explanation": "AD-ban a nucleus basalis of Meynert (basalis előagy) kolinerg neuronjai degenerálódnak. Ez ad rationale-t a kolineszterát-gátló terápiának (donepezil, rivastigmin).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 182,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A lesion of the arcuate fasciculus would most likely cause the following subtype of aphasia:",
+    "options": [
+      "Wernicke's Aphasia",
+      "Conduction Aphasia",
+      "Broca's Aphasia",
+      "Global Aphasia"
+    ],
+    "answer": 2,
+    "explanation": "A fasciculus arcuatus a Broca és Wernicke régiókat összekötő fehérállományi köteg. Sérülése → kondukciós afázia (megtartott beszéd és értés, izolált ismétlési deficit).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 183,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which treatments of tumors are generally not associated with mental status changes?",
+    "options": [
+      "All chemotherapies except methotrexate",
+      "Methotrexate, but generally not other chemotherapies",
+      "Cranial (whole brain) radiotherapy",
+      "Medications such as opiates used for pain"
+    ],
+    "answer": 1,
+    "explanation": "Methotrexate különösen ismert a kognitív mellékhatásokról ('chemo brain', leukoencephalopathia). A kérdés azt mondja, hogy mely kezelések NEM okoznak mentális változást — válasz 1: 'minden kemoterápia kivéve a metotrexátot' — TÉVES állítás, mert SOK kemo okozhat (5-FU, ifosfamid, cisplatin). De a kérdés trükkös; a lényeg, hogy a metotrexat klasszikusan kognitív károsodással jár.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 184,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Cerebellar pathways affect all but one of the following:",
+    "options": [
+      "Motor learning",
+      "Balance",
+      "Higher-order cognitive processes",
+      "Anosmia",
+      "Respiratory movements"
+    ],
+    "answer": 4,
+    "explanation": "A kisagy motoros tanulásban, egyensúlyban, magasabb kognitív folyamatokban (cerebelláris kognitív-affektív szindróma), és légző mozgásokban is részt vesz. Az ANOSMIA (szaglászavar) az olfaktorius rendszerre vonatkozik, nem cerebelláris.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 185,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Lateral cerebellar lesions primarily affect:",
+    "options": [
+      "Trunk control",
+      "Posture and balance",
+      "Motor planning",
+      "Gait"
+    ],
+    "answer": 3,
+    "explanation": "Cerebelláris hemiszférikus (laterális) lézió: motoros TERVEZÉS és koordináció (skilled, célzott mozgás) zavara. A trunk/balance/gait inkább a vermis és a flocculonodularis lebeny sérülésénél.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 186,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following statements is true?",
+    "options": [
+      "The left hemisphere has more association cortex than the right hemisphere.",
+      "The left hemisphere has more gray matter/less white matter relative to the right hemisphere.",
+      "The two hemispheres have equal amounts of gray and white matter.",
+      "The right hemisphere has fewer interconnections than the left hemisphere."
+    ],
+    "answer": 2,
+    "explanation": "A bal félteke kompaktabb: relatíve több szürkeállomány, kevesebb fehérállomány. A jobb félteke több fehérállományt és hosszabb kapcsolatokat tartalmaz, ami támogatja a holisztikus, integratív feldolgozást.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 187,
+    "topicNum": 6,
+    "topic": "Apraxia és agnózia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A person who can not identify an object by touch may have:",
+    "options": [
+      "Anomia",
+      "Associative Agnosia",
+      "Astereognosis",
+      "Alexia"
+    ],
+    "answer": 3,
+    "explanation": "Asztereognózis: tárgyak felismerésének tapintási zavara. Az érzékelés ép (a beteg érzi a tárgyat), de a felismerés sérült. Tipikus parietális lézió.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 188,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Autopsy studies of dementia pugilistica typically reveal all of the following except:",
+    "options": [
+      "Neuronal loss",
+      "Infarcts in the basal ganglia",
+      "Astrocyte proliferation",
+      "Prominent neurofibrillary tangles"
+    ],
+    "answer": 2,
+    "explanation": "Dementia pugilistica (krónikus traumatikus encephalopathia / CTE — bokszolóknál): tauopathia jellegzetes NFT-vel, neuronális veszteséggel, asztrocita-proliferációval. A bazális ganglion infarktus NEM klasszikus.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 189,
+    "topicNum": 8,
+    "topic": "Figyelem és végrehajtó funkciók",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which symptoms below are characteristic of normal aging:",
+    "options": [
+      "Decreased verbal fluency",
+      "Decreased selective and sustained attention",
+      "Decreased working memory skills",
+      "Decreased 'crystallized' knowledge",
+      "Difficulties with language comprehension",
+      "A & C",
+      "B & C"
+    ],
+    "answer": 7,
+    "explanation": "Normál öregedés: csökkent szelektív/fenntartott figyelem ÉS csökkent munkamemória. A kristályosodott tudás (vocabulary) megtartott, sőt nőhet. A nyelvi megértés és fluencia jellemzően megtartott.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 190,
+    "topicNum": 4,
+    "topic": "Neglekt szindróma",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Neglect can occur with lesions in all of the following areas except:",
+    "options": [
+      "Right internal capsule",
+      "Right frontal lobe",
+      "Right thalamus or basal ganglia",
+      "Right midbrain"
+    ],
+    "answer": 4,
+    "explanation": "Neglekt asszociál: parietális (klasszikus), frontális, talamusz, bazális ganglion lézióval. A középagyi (midbrain) lézió önmagában nem okoz neglektet.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 191,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The structure involved in the 'master clock' for circadian rhythms is the:",
+    "options": [
+      "Arcuate nucleus",
+      "Median eminence",
+      "Suprachiasmatic nucleus",
+      "Dentate gyrus"
+    ],
+    "answer": 3,
+    "explanation": "Suprachiasmatikus mag (SCN, hypothalamus): a cirkadián ritmus 'fő órája'. Direkt retinális bemenetet kap (RHT — retinohypothalamic tract), ami a fény-sötét ciklushoz szinkronizál.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 192,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A test designed as a general screening for brain impairment should have:",
+    "options": [
+      "High specificity",
+      "High sensitivity",
+      "Face validity",
+      "Low sensitivity but high specificity"
+    ],
+    "answer": 2,
+    "explanation": "Szűrőteszthez magas SZENZITIVITÁS kell — semelyik valós beteget se hagyjuk ki. A specificitás (false positive) másodlagos: a pozitív szűrőeredményt további confirmatory tesztek pontosítják.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 193,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Infarction of the inferior portion of the pons or medulla can cause:",
+    "options": [
+      "Pseudobulbar palsy",
+      "'Man in barrel' syndrome",
+      "Locked in syndrome",
+      "Alien hand syndrome",
+      "'Pie in sky' visual defect"
+    ],
+    "answer": 3,
+    "explanation": "Bazális pons / ventralis medulla infarktus → locked-in syndrome: tudatos beteg, kvadriplégia, csak függőleges szemmozgás és pislogás megtartott. A corticobulbáris és kortikospinális pályák szakadnak.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 194,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "___ is the neurotransmitter primarily found in neurons of the raphe nuclei.",
+    "options": [
+      "Dopamine",
+      "Acetylcholine",
+      "Histamine",
+      "Serotonin"
+    ],
+    "answer": 4,
+    "explanation": "Raphe magok = az agytörzs szerotonerg sejtcsoportjai. A szerotonin (5-HT) felszálló rostokat ad a teljes neokortexbe, részt vesz a hangulat, alvás, étvágy szabályozásában.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 195,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A person with phonological alexia is most likely to make the following error:",
+    "options": [
+      "Reads 'ought' for 'thought'",
+      "Reads 'think' for 'thought'",
+      "Reads 'hot' for 'thought'",
+      "Reads 'though' for 'thought'"
+    ],
+    "answer": 1,
+    "explanation": "Fonológiai alexia: a sublexikális (graféma-fonéma) decoding sérül; csak a lexikális (egész szó) felismerés működik. A 'thought'-ot olvasva a 'th'-t nem dolgozza fel, így marad 'ought'.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 196,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which statement is true regarding the relationship between depression and dementia:",
+    "options": [
+      "Depression decreases as the severity of dementia increases",
+      "CT and MRI reliably differentiate between depression and dementia",
+      "Cognitive symptoms associated with depression develop insidiously while cognitive symptoms associated with dementia develop rapidly.",
+      "Both depression and dementia result in similar deficits in immediate recall and recognition on memory tests."
+    ],
+    "answer": 1,
+    "explanation": "Az AD előrehaladtával a beteg betegségtudata (anozognózia) csökken → depressziós tünetek csökkennek. Korai stádiumban gyakori a depresszió (~30-40%), késő stádiumban ritkább. A 'cognitive symptom development' fordítva igaz.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 197,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which disorder is characterized by café au lait spots and Lisch nodules?",
+    "options": [
+      "Tuberous sclerosis",
+      "Neurofibromatosis Type 1",
+      "Sturge-Weber syndrome",
+      "Angelman's syndrome"
+    ],
+    "answer": 2,
+    "explanation": "NF1 (von Recklinghausen): café-au-lait foltok (legalább 6), Lisch-csomók (iris hamartoma), neurofibromák, axillaris/inguinalis szeplők. Autoszomális domináns.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 198,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is not a common characteristic in Tourette's Syndrome?",
+    "options": [
+      "Changing of tic locations and types",
+      "Waxing and waning of tics",
+      "Comorbidity with ADHD and/or OCD symptoms",
+      "Coprolalia"
+    ],
+    "answer": 4,
+    "explanation": "Coprolalia (káromkodás-tic) csak a Tourette-betegek ~10%-ánál fordul elő — NEM gyakori jellemző. A tic-helyek és típusok változása, fluktuáció, és ADHD/OCD komorbiditás (kb. 50% mindkettőre) viszont klasszikus.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 199,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is not commonly associated with Central Alexia (aka alexia with agraphia)?",
+    "options": [
+      "Finger agnosia",
+      "Right hemisensory loss (e.g., right homonymous field defect)",
+      "Right-left confusion",
+      "Acalculia",
+      "Environmental sound agnosia (aka auditory sound agnosia)"
+    ],
+    "answer": 5,
+    "explanation": "Centrális alexia (alexia-with-agraphia, angular gyrus): Gerstmann-szindróma tünetegyüttese — ujj-agnózia, jobb-bal tévesztés, akalkulia, agráfia + lehet jobb látótér / szenzoros defektus. A környezeti hangok agnóziája NEM ide tartozik (bal felső temporális kéreg).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 200,
+    "topicNum": 8,
+    "topic": "Figyelem és végrehajtó funkciók",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which area of the brain has been shown to be most involved in response initiation and inhibition?",
+    "options": [
+      "Orbital frontal lobe",
+      "Dorsolateral frontal lobe",
+      "Medial frontal lobe",
+      "Caudate"
+    ],
+    "answer": 3,
+    "explanation": "Mediális frontális kéreg (anterior cinguláris, supplementáris motoros terület): válasz-iniciáció és gátlás központi régiója. Akinetikus mutizmus a súlyos esetekben.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 201,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Analysis of motion and spatial relationships between objects and between the body and visual stimuli is most likely to occur in the ___________________.",
+    "options": [
+      "Primary visual cortex",
+      "Frontal association cortex",
+      "Temporal-occipital association cortex",
+      "Parietal-occipital association cortex"
+    ],
+    "answer": 4,
+    "explanation": "Parieto-occipitális asszociációs kéreg = dorzális 'where/how' útvonal — mozgás, téri viszonyok, vizuomotoros koordináció. A temporális-occipitális a ventrális 'what' útvonal (objektumfelismerés).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 202,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following statements is true regarding myelination?",
+    "options": [
+      "Myelination is complete by the end of the 7th month of gestation.",
+      "Sensory areas of the brain are myelinated before motor areas.",
+      "Neural tube defects result from disruption of the myelination process",
+      "Striatal neurons are primarily involved in myelination."
+    ],
+    "answer": 2,
+    "explanation": "Myelinizáció: hátulról előre (posterior → anterior), szenzoros területek előbb, mint a motoros. Egészen a 30-as életévekig folytatódik (különösen a prefrontális kéregben). A neuronális csőzáródási hibák sokkal korábbi fejlődési zavarok.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 203,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "In lesions of the dominant inferior parietal lobe, centering on the angular gyrus, you would expect that the patient could:",
+    "options": [
+      "Name individual letters in isolation",
+      "Likely have some hemisensory loss and/or right homonymous visual field deficit",
+      "Read nonwords",
+      "Write (not just copy) words"
+    ],
+    "answer": 1,
+    "explanation": "Centrális alexia (angular gyrus): a páciens KÉPES egyes betűket névén nevezni (betű-felismerés alapszinten megtartott), DE szót nem tud olvasni, írni, nem olvas nemvalós szavakat. Az 1. opció a megtartott képesség.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 204,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The pattern of 'dementia with psychomotor slowing' occurs in all except which of the following disorders?",
+    "options": [
+      "HIV-related dementia",
+      "Progressive supranuclear palsy",
+      "Huntington's disease",
+      "Alzheimer's dementia"
+    ],
+    "answer": 4,
+    "explanation": "Pszichomotoros lassúság (bradiphrenia) klasszikus a szubkortikális demenciákra: HIV, PSP, Huntington. AD jellemzően KORTIKÁLIS profil (amnézia, afázia, apraxia, agnózia), nem psychomotoros lassúsággal.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 205,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The memory deficit typically seen in mild AD is characterized by:",
+    "options": [
+      "Poor immediate repetition",
+      "Poor new learning and encoding of information when there is intention to learn",
+      "Deficits in recognition memory",
+      "Deficits in autobiographical memory"
+    ],
+    "answer": 2,
+    "explanation": "Mild AD: rossz új tanulás és kódolás. Az ismétlés (rövidtávú memória), a felismerés (ez csak később sérül) és az autobiografikus tudás (régi emlékek) viszonylag megtartott a korai szakaszban.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 206,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The pattern of new learning in the course of normal aging is characterized by:",
+    "options": [
+      "Somewhat poorer initial learning but intact delayed recall of what they learned",
+      "Normal initial learning, but poor recognition memory",
+      "Vastly impaired initial learning with severe interference effects on delayed recall",
+      "Somewhat poorer initial learning with very impaired delayed recall"
+    ],
+    "answer": 1,
+    "explanation": "Normál öregedés: a kódolás (initial learning) kissé lassabb / kevesebb információ rögzül, DE amit megtanult, azt arányosan jól megtartja (delayed recall arányos a learning-gel). AD: nem proporcionális — amit látszólag tud, sem őrzi meg.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 207,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "The type of memory deficit most apparent in patients with alcoholic Korsakoff amnesia is a deficit in:",
+    "options": [
+      "Initial encoding of new material",
+      "Recall of personal information",
+      "Poor retrieval despite adequate encoding",
+      "Recognition memory"
+    ],
+    "answer": 1,
+    "explanation": "Korsakoff (mamilláris testek, talamusz mediodorsalis): súlyos anterograd amnézia → új anyag kódolása súlyosan sérül. A retrograd komponens is jelentős, konfabuláció is kíséri.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 208,
+    "topicNum": 4,
+    "topic": "Neglekt szindróma",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A right MCA stroke in the distribution of the inferior division would most likely cause:",
+    "options": [
+      "Left hemineglect, decreased voluntary movements, and left-sided weakness",
+      "Left hemineglect, decreased tone, and left-sided weakness",
+      "Left hemineglect, decreased tone, and relatively normal left-sided strength",
+      "Left hemineglect, decreased voluntary movements, and relatively normal left-sided strength"
+    ],
+    "answer": 3,
+    "explanation": "Jobb MCA inferior divisio: parieto-temporális területek (neglekt-relevant), de a fronto-parietális motoros területet (rolandic) MEGKÍMÉLI → bal neglekt VAN, de a bal oldali erő RELATÍVE megtartott.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 209,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "What is the most likely cause for transient global amnesia?",
+    "options": [
+      "Carotid artery TIA",
+      "Basilar artery TIA",
+      "Carotid artery stroke",
+      "Basilar artery stroke"
+    ],
+    "answer": 2,
+    "explanation": "TGA leggyakoribb feltételezett oka: vertebrobazilaris (bazilaris) ágy átmeneti iszkémiája, ami a posterior cerebrális artéria területén a hippokampusz vérellátását érinti. (Más elméletek: vénás kongesztió, migrén-szerű mechanizmus.)",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 210,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Alexia without agraphia is most likely due to damage to what region(s)?",
+    "options": [
+      "Infarction of left posterior artery territory including the splenium of the corpus callosum",
+      "Angular gyrus",
+      "Border zones of MCA including Broca's area",
+      "Arcuate Fasciculus"
+    ],
+    "answer": 1,
+    "explanation": "Alexia-without-agraphia (pure alexia): bal PCA infarctus, mely az occipitális kéreget és a splenium corporis callosi-t érinti. A jobb látókéreg lát, de a vizuális szóformák nem jutnak át a bal hemiszférikus nyelvi területekre.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 211,
+    "topicNum": 5,
+    "topic": "Afázia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Research has shown that right-sided brain damage can lead to subtle language deficits in all of the following except?",
+    "options": [
+      "Prosody",
+      "Grammatical rules and structure",
+      "Articulation",
+      "Use of abstract constructs"
+    ],
+    "answer": 3,
+    "explanation": "Jobb félteke nyelvi deficites: prozódia (érzelmi hanglejtés), absztrakt fogalmak, metafora, humor megértése, pragmatika. Az ARTIKULÁCIÓ motoros funkció — bal motoros területek. Helyes válasz: c) artikuláció.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 212,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Research has shown that individuals with mild cognitive impairment will develop dementia at a rate of?",
+    "options": [
+      "1-2 % per year, no different than the general population",
+      "<1% per year, at a lower rate than the general population",
+      "25% per year, at a greater prevalence than the general population",
+      "10-15% per year, at a greater prevalence than the general population"
+    ],
+    "answer": 4,
+    "explanation": "MCI konverziós ráta demenciába: kb. 10-15%/év (vs. egészséges populáció ~1-2%/év). 5 év alatt kb. 50% konvertál — különösen az amnesztikus MCI.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 213,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which area of memory is found to be most intact in normal aging?",
+    "options": [
+      "Working memory",
+      "Learning and Recall",
+      "Recognition",
+      "Remote memory"
+    ],
+    "answer": 4,
+    "explanation": "Remote (régi, autobiografikus) memória a legjobban megtartott. Munkamemória, új tanulás és előhívás (recall) mind csökkennek. A felismerés (recognition) is csökken, de kevésbé, mint a recall.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 214,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is true about Lewy Body Dementia?",
+    "options": [
+      "It presents with Parkinsonian motor symptoms but the cognitive functioning more similarly looks like Alzheimer's dementia.",
+      "It is a variant of Parkinson Dementia in which Lewy Bodies are present in the substantia nigra.",
+      "Patients are responsive to l-dopa like Parkinson's dementia, but are insensitive to DA blocking agents.",
+      "Auditory hallucinations are frequently present."
+    ],
+    "answer": 1,
+    "explanation": "DLB: parkinsonizmus + AD-szerű kognitív kép. Kortikális Lewy-testek (alpha-szinuklein). Tipikus VIZUÁLIS hallucinációk (nem auditív). Súlyosan ÉRZÉKENY a neurolepticumokra (Parkinson-szerű mellékhatás).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 215,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Confabulation is frequently seen in all but which of the following conditions:",
+    "options": [
+      "Temporal Frontal Dementia",
+      "Primary Progressive Aphasia",
+      "Pick's Disease",
+      "Wernicke-Korsakoff's Syndrome"
+    ],
+    "answer": 2,
+    "explanation": "Konfabuláció = FTD, Pick, Korsakoff klasszikus. PPA (primer progresszív afázia) elsősorban nyelvi zavar, de a beteg betegségtudata megtartott → nem konfabulál.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 216,
+    "topicNum": 2,
+    "topic": "A. R. Lurija és funkcionális rendszerek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which statement is false?",
+    "options": [
+      "Rolandic epilepsy occurs nocturnally and is usually in remission by age 15",
+      "Landau-Kleffner syndrome is characterized by an acquired aphasia, and seizures are most commonly generalized motor seizures.",
+      "Febrile seizures occur in 2-4% of all children, and most go on to develop temporal lobe epilepsy.",
+      "Lennox-Gastaut is a mixed seizure disorder in which the seizures are difficult to control, and status epilepticus is common."
+    ],
+    "answer": 3,
+    "explanation": "FALSE: a lázgörcsök gyerekekben 2-4%-osak, de a többségük NEM fejleszt temporális lebenyi epilepsziát — csak egy kis százalék (~3%). A többi állítás igaz.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 217,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Difficulty recalling events prior to amnesia onset is called ___________________________, while difficulty recalling previously learned information because new information interfered with it is called ___________________________.",
+    "options": [
+      "Retrograde amnesia; retroactive interference",
+      "Retrograde amnesia; proactive interference",
+      "Anterograde amnesia; retroactive interference",
+      "Anterograde amnesia; proactive interference"
+    ],
+    "answer": 1,
+    "explanation": "Retrograd amnézia = nem tudja felidézni az amnézia előtti élményeket. Retroaktív interferencia = új információ blokkolja a régi felidézését. Proaktív = régi blokkolja az újat.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 218,
+    "topicNum": 8,
+    "topic": "Figyelem és végrehajtó funkciók",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following would not be expected from frontal lobe damage?",
+    "options": [
+      "Acute eye deviation with persistent neglect",
+      "Contralateral hemiplegia",
+      "Anosmia",
+      "Acalculia"
+    ],
+    "answer": 4,
+    "explanation": "Akalkulia (számolási zavar) klasszikusan PARIETÁLIS (angular gyrus, Gerstmann-szindróma része). Frontális lézió okozhat: szem-deviáció, hemiplégia (motoros kéreg), anozmia (frontobazális, olfaktorius).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 219,
+    "topicNum": 1,
+    "topic": "A neuropszichológia területei",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is true regarding childhood leukemia?",
+    "options": [
+      "Chemotherapy, such as methotrexate, does not cause cognitive impairments as it is administered intrathecally and does not pass the blood/brain barrier.",
+      "Whole brain and partial brain radiation therapy is equally damaging in regards to cognitive impairment.",
+      "Older children are comparatively more vulnerable to radiation-induced cognitive impairment than younger due to plasticity issues.",
+      "Children who have been treated with radiation therapy often present with cognitive impairment that can look like a nonverbal learning disability (i.e., performance based IQ more affected than verbal based IQ, particularly processing speed)."
+    ],
+    "answer": 4,
+    "explanation": "Gyermek-leukémia kemo/radioterápia kognitív következménye: PIQ < VIQ, processing speed csökkenés, vizuomotoros deficit — NVLD-szerű profil. Fiatalabb gyerek érzékenyebb (myelinizáció zavar). Whole brain súlyosabb, mint partial.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 220,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is not an advantage of an MRI over CT?",
+    "options": [
+      "MRI has greater resolution, being able to detect smaller objects",
+      "There is no distortion from bone",
+      "It detects hemorrhages and hematomas more accurately",
+      "It can be applied to intra- and extracranial arteries"
+    ],
+    "answer": 3,
+    "explanation": "CT JOBB az akut vérzés detektálására (első órák) — az acute blood hyperdenz CT-n. MRI a krónikus vérzést (hemosiderin), kis léziókat, fehérállományi változásokat, csontmentes területeket jobban mutatja. Helyes válasz: NEM előnye az MRI-nek a vérzés-detektálás.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 221,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is not a typical means of determining premorbid IQ?",
+    "options": [
+      "Barona Regression Equation",
+      "Reading Tests (e.g., NART, WRAT-3)",
+      "Reading Comprehension Tests (WIAT-II)",
+      "Demographically based regression equations"
+    ],
+    "answer": 3,
+    "explanation": "Premorbid IQ becslés: 'hold tests' (NART, WTAR, WRAT-reading) — túltanult szóolvasás. Demográfiai egyenletek (Barona). A READING COMPREHENSION viszont AKTÍV kognitív teljesítmény, ami az aktuális állapotot mutatja, NEM a premorbidot.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 222,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A neuropsychologist assesses a patient and finds an 18 point difference between the patient's WAIS-III Full Scale IQ (FSIQ) score and WMS-III General Memory Index (GMI) score. What other information is crucial in order to find the statistical significance of this difference at the .05 level?",
+    "options": [
+      "The patient's gender",
+      "The patient's performance on memory recognition measures",
+      "The patient's age",
+      "The patient's FSIQ"
+    ],
+    "answer": 4,
+    "explanation": "Az IQ-memory diszkrepancia szignifikanciája a base rate (a populáció hány %-ánál fordul elő ekkora vagy nagyobb különbség) FSIQ-szinttől függ — magasabb IQ-knál ritkább a nagy diszkrepancia.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 223,
+    "topicNum": 9,
+    "topic": "Neuropszichológiai tesztek",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "In order to determine whether a change in a patient's scores from Time 1 to Time 2 represents a clinically significant change, a neuropsychologist must take into account:",
+    "options": [
+      "Measurement error, practice effects, regression to the mean",
+      "Validity shrinkage, Flynn effect, multicollinearity",
+      "Criterion validity, internal consistency, effort",
+      "Test bias, discriminant validity, multiple regression"
+    ],
+    "answer": 1,
+    "explanation": "Test-retest változás interpretációja: (a) mérési hiba (RCI — Reliable Change Index), (b) gyakorlási hatás, (c) regresszióra az átlaghoz (különösen az extreme score-oknál).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 224,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following is most consistent with a mild traumatic brain injury?",
+    "options": [
+      "Galveston Orientation and Amnesia Test (GOAT) score of 15",
+      "Glascow Coma Scale (GCS) score of 8",
+      "Post-Traumatic Amnesia (PTA) of 12 hours",
+      "Loss of consciousness of 2 hours"
+    ],
+    "answer": 3,
+    "explanation": "Mild TBI klasszikus paraméterei: GCS 13-15, LOC <30 perc, PTA <24 óra. A PTA 12 óra MILD tartományba esik (<24h). A GCS 8 = súlyos, LOC 2 óra = közepes-súlyos. GOAT 15 nem értelmes szám (GOAT 75+ = oriented).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 225,
+    "topicNum": 6,
+    "topic": "Apraxia és agnózia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which of the following best describes the condition in which a patient will admit to sensory or motor impairment, but will be unconcerned about it?",
+    "options": [
+      "Anosognosia",
+      "Anosodiaphoria",
+      "Phonagnosia",
+      "Auditory affective agnosia"
+    ],
+    "answer": 2,
+    "explanation": "Anozodiafória: a beteg ELISMERI a deficitet, de NEM törődik vele (csökkent emocionális reakció). Anozognózia: tagadja. Mindkettő jobb parietális sérülés következménye.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 226,
+    "topicNum": 7,
+    "topic": "Memória és demencia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "Which statement is not true of Huntington's Disease dementia:",
+    "options": [
+      "severity of dementia is correlated with caudate atrophy",
+      "it generally begins within one year of chorea",
+      "it is correlated with severity of depression",
+      "is consistent with a subcortical dementia"
+    ],
+    "answer": 2,
+    "explanation": "FALSE: a Huntington-demencia kognitív tünetei gyakran ÉVEKKEL megelőzhetik a chorea motoros tüneteit (nem egy éven belül). A többi állítás igaz.",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
+  },
+  {
+    "id": 227,
+    "topicNum": 6,
+    "topic": "Apraxia és agnózia",
+    "difficulty": "hard",
+    "type": "single",
+    "question": "A 63-year-old man had a shower of emboli from the posterior circulation. Subsequently, he exhibits difficulty recognizing objects because of failure to perceive them. He is unable to draw objects, and he cannot match them to a sample. With what syndrome is he presenting?",
+    "options": [
+      "Apperceptive Visual Agnosia",
+      "Prosopagnosia",
+      "Simultangnosia",
+      "Cortical blindness"
+    ],
+    "answer": 1,
+    "explanation": "Appercepciós vizuális agnózia: az ELEMI ÉSZLELÉS sérül — a beteg nem tudja a tárgyat lerajzolni, mintával összeegyeztetni. Tipikus hátsó cirkulációs eredet. Asszociatív agnóziával ellentétben (ahol az észlelés ép, csak a felismerés sérül).",
+    "category": "tobbletismeret",
+    "vizsgakerdes": false,
+    "source": "brainaacn.org Mock Exam 1 (BRAIN Neuropsychology Exam) — többletismeret"
   }
 ]

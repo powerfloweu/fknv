@@ -14,7 +14,7 @@ export type Q = {
   explanation: string;
   leftItems?: string[];
   rightItems?: string[];
-  category?: "uj" | "konnyu" | "vizsga";
+  category?: "uj" | "konnyu" | "vizsga" | "tobbletismeret";
   vizsgakerdes?: boolean;
   source?: string | null;
 };
@@ -22,8 +22,8 @@ export type Q = {
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
 const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
 const typeLabel: Record<string, string> = { single: "Egy helyes", multi: "Több helyes", tf: "Igaz/Hamis", matching: "Párosítás", essay: "Esszé" };
-const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű", vizsga: "Vizsgakérdés" };
-const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2", vizsga: "#1d4ed8" };
+const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű", vizsga: "Vizsgakérdés", tobbletismeret: "Többletismeret" };
+const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2", vizsga: "#1d4ed8", tobbletismeret: "#a16207" };
 
 export default function TanulasClient({
   questions,
@@ -36,7 +36,7 @@ export default function TanulasClient({
   const [topicFilter, setTopicFilter] = useState<number | "">("");
   const [diffFilter, setDiffFilter] = useState("");
   const [typeFilter, setTypeFilter] = useState("");
-  const [catFilter, setCatFilter] = useState<"" | "uj" | "konnyu" | "vizsga">("");
+  const [catFilter, setCatFilter] = useState<"" | "uj" | "konnyu" | "vizsga" | "tobbletismeret">("");
   const [search, setSearch] = useState("");
   const [hideAnswer, setHideAnswer] = useState(false);
   const [page, setPage] = useState(1);
@@ -49,6 +49,7 @@ export default function TanulasClient({
       if (typeFilter && q.type !== typeFilter) return false;
       if (catFilter === "uj" && q.category !== "uj") return false;
       if (catFilter === "konnyu" && q.category !== "konnyu") return false;
+      if (catFilter === "tobbletismeret" && q.category !== "tobbletismeret") return false;
       if (catFilter === "vizsga" && !q.vizsgakerdes) return false;
       if (search) {
         const s = search.toLowerCase();
@@ -163,13 +164,14 @@ export default function TanulasClient({
               </select>
               <select
                 value={catFilter}
-                onChange={(e) => { setCatFilter(e.target.value as "" | "uj" | "konnyu" | "vizsga"); resetPage(); }}
+                onChange={(e) => { setCatFilter(e.target.value as "" | "uj" | "konnyu" | "vizsga" | "tobbletismeret" | "tobbletismeret"); resetPage(); }}
                 style={{ padding: "8px 12px", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", background: "white" }}
               >
                 <option value="">Minden kategória</option>
                 <option value="uj">Új!</option>
                 <option value="konnyu">Könnyű</option>
                 <option value="vizsga">Vizsgakérdés</option>
+                <option value="tobbletismeret">Többletismeret</option>
               </select>
               <label style={{ display: "flex", alignItems: "center", gap: 6, padding: "6px 12px", background: "#ede9fe", borderRadius: 8, fontSize: 13, color: "#5b21b6", fontWeight: 500, cursor: "pointer" }}>
                 <input type="checkbox" checked={hideAnswer} onChange={(e) => setHideAnswer(e.target.checked)} />
