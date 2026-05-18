@@ -61,6 +61,7 @@ export default function NeuropsyLandingPage() {
           href="/neuropsy/vizsga"
           style={{
             display: 'block',
+            marginBottom: 12,
             padding: '13px 24px',
             background: 'linear-gradient(90deg, #7c3aed 0%, #9333ea 100%)',
             color: 'white',
@@ -72,6 +73,24 @@ export default function NeuropsyLandingPage() {
           }}
         >
           Vizsga indítása →
+        </Link>
+
+        <Link
+          href="/neuropsy/eset"
+          style={{
+            display: 'block',
+            padding: '13px 24px',
+            background: 'white',
+            color: '#6d28d9',
+            border: '2px solid #8b5cf6',
+            borderRadius: 12,
+            fontWeight: 600,
+            fontSize: 17,
+            textDecoration: 'none',
+            boxShadow: '0 2px 8px rgba(139,92,246,0.18)'
+          }}
+        >
+          🩺 Klinikai esetelemzés (hipotézis-teszt) →
         </Link>
 
         <Link

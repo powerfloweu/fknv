@@ -1,0 +1,378 @@
+[
+  {
+    "id": 1,
+    "title": "67 éves nőbeteg akut tünetekkel",
+    "topicTag": "Stroke / Neglekt szindróma",
+    "difficulty": "medium",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — neglekt szindróma (Drive: Neglekt szindróma diasor + tételek)",
+    "intro": "67 éves jobbkezes nőbeteget hoz a család a sürgősségire. Reggel keltében észrevették, hogy a bal oldali végtagjait nem mozgatja megfelelően, és úgy tűnik, mintha nem venné észre a szoba bal oldalát. A beteg azt mondja, semmi panasza nincs.",
+    "steps": [
+      {
+        "question": "Mi a legvalószínűbb klinikai hipotézis a jelenlegi információk alapján?",
+        "options": [
+          "Bal hemiszférikus stroke — várhatóan afázia",
+          "Jobb hemiszférikus stroke — várhatóan bal téri neglekt + anozognózia",
+          "Pszichogén tünet — konverziós zavar",
+          "Diffúz demencia akut romlással"
+        ],
+        "answer": 2,
+        "explanation": "A jobb hemiszféra (parietális) sérülése klasszikus jellel jelenik meg: bal téri neglekt + anozognózia (a tüneteket nem ismeri el). A beteg 'nem panaszkodik' jellegzetes az anozognóziára. A bal hemiszférikus stroke afáziát adna, nem neglektet.",
+        "info": "Anamnézis: hypertonia, pitvarfibrilláció (warfarin nélkül). Tegnap este még jól volt. Vizsgálatkor: bal oldali enyhe hemiparézis, bal oldali szenzoros kiesés. Beszéde tiszta, megértés ép. NIHSS: 12. CT: jobb MCA terület hipodenzitása."
+      },
+      {
+        "question": "Mely vizsgáló eszközöket alkalmaznád a neglekt szűrésére az ágy mellett?",
+        "options": [
+          "MMSE és Trail Making Test A",
+          "Vonalfelezés (Line Bisection) + csillag-keresés (Star Cancellation) + óramásolás + virág-rajzolás",
+          "Beck Depression Inventory és STAI szorongás-skála",
+          "RAVLT (verbális tanulás) és BVMT-R (vizuális tanulás)"
+        ],
+        "answer": 2,
+        "explanation": "Neglekt szűrésére a klasszikus ágymelletti tesztek: vonalfelezés (jobbra tolja a felezőpontot), Star/Albert/Line cancellation (a bal oldali ingerek jelöletlen maradnak), óramásolás (számok jobboldalt halmozódnak), virág-rajzolás. Az MMSE és RAVLT nem specifikusan neglekt-érzékenyek.",
+        "info": "Vizsgálati eredmények: Vonalfelezés: a felezőpontot átlag 18 mm-rel jobbra tolja. Star cancellation: 54 csillagból 23 jelöletlen, mind a bal oldalon. Óramásolás: 12 szám az óra jobb oldalán. Olvasáskor a sor bal oldalát átugorja. Sminkeléskor csak az arc jobb oldalát sminkelte ki. Ezzel együtt: tagadja, hogy bármi probléma lenne."
+      },
+      {
+        "question": "A korai rehabilitációs intervenció szempontjából mely ajánlás a legmegalapozottabb?",
+        "options": [
+          "Csak gyógyszeres kezelés, mert a neglekt spontán visszafordul",
+          "Vizuális szkenning-tréning, prizma-adaptáció, limb activation tréning + családi pszichoedukáció",
+          "Csak kórházi pszichoterápia",
+          "Csak antidepresszáns, mert a tünetek depresszióból erednek"
+        ],
+        "answer": 2,
+        "explanation": "A neglekt-rehabilitáció evidencia-alapú megközelítései: (1) vizuális szkenning-tréning (a beteget tudatosan a bal oldal felé fordítjuk), (2) prizma-adaptáció (rövid távú szignifikáns javulás), (3) limb activation (a bal kar mozgatása a figyelmet a bal térfél felé húzza), (4) családi pszichoedukáció (anozognózia kezelése). Spontán javulás van az első hetekben, de aktív rehabilitáció szignifikánsan jobb kimenetet ad.",
+        "info": "Kezdődő rehabilitáció: vizuális szkenning + prizma + családi edukáció. 4 hét után: vonalfelezés-hiba 6 mm-re csökken, csillag-keresésben 12/54 jelöletlen, anozognózia részlegesen oldódik. Hazaengedhetik, ambuláns rehabilitáció folytatódik."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "58 éves férfi hirtelen beszédzavarral",
+    "topicTag": "Broca-afázia",
+    "difficulty": "medium",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — afázia (Drive: Afázia diasor + tételek)",
+    "intro": "58 éves jobbkezes férfit hoz a felesége: 'reggel hirtelen nem tudott beszélni'. Most már mond pár szót, de erősen akadozva, telegrafikus stílusban: 'Víz... ott... most.' A jobb arcfél lejjebb lóg, a jobb karját nem mozgatja.",
+    "steps": [
+      {
+        "question": "Mi a legvalószínűbb afázia-típus a vezető tünetek alapján?",
+        "options": [
+          "Wernicke-afázia (folyamatos, üres beszéd)",
+          "Kondukciós afázia (csak ismétlési zavar)",
+          "Broca-afázia (nem-folyamatos, telegrafikus + ismétlés sérült + megértés viszonylag megtartott)",
+          "Globális afázia (mind a 4 funkció sérült)"
+        ],
+        "answer": 3,
+        "explanation": "Az akadozó, telegrafikus stílusú beszéd + jobb oldali hemiparézis klasszikus Broca-afázia: a bal frontális inferior gyrus (BA 44-45) stroke-ja jellemzően kíséri a precentralis gyrus motoros területét is, innen a hemiparézis. Globális afázia esetén a beszédértés is súlyosan sérülne.",
+        "info": "Folytatva a vizsgálatot: Megértés viszonylag jó — 'Mutasson az ablakra!' utasítást követi, 'Csukja be a szemét!' utasítást követi. Ismétlés sérült: 'Süt a nap' → 'sü... nap'. Megnevezés sérült: kávéscsésze → 'kávé'. CT: bal frontális infero-lateralis hipodenzitás (MCA superior divisio infarktus)."
+      },
+      {
+        "question": "Milyen tesztet vennél fel a részletes nyelvi profil tisztázásához?",
+        "options": [
+          "MMSE (Mini-Mental State Examination)",
+          "WAB (Western Aphasia Battery) vagy BDAE (Boston Diagnostic Aphasia Examination) — komplex nyelvi battéria",
+          "Wisconsin Card Sorting Test (WCST)",
+          "Rey-Osterrieth komplex figura"
+        ],
+        "answer": 2,
+        "explanation": "Az afázia részletes profil-felmérésére a standardizált komplex nyelvi battériák valók: WAB (Western Aphasia Battery) vagy BDAE (Boston Diagnostic Aphasia Examination). Magyarországon a Magyar Afázia Vizsgálat (MAV) is használatos. Az MMSE figyelmi/orientációs szűrő, a WCST EF-teszt, a Rey vizuokonstruktív.",
+        "info": "WAB Aphasia Quotient: 38 (súlyos afázia). Részletes profil: Spontán beszéd 4/10 (telegrafikus, agrammatikus); Megértés 8/10; Ismétlés 4/10; Megnevezés 5/10. A 'cookie theft' képet leírja: 'Anya... csésze... gyerek... lop.' Klasszikus Broca-afázia profilja."
+      },
+      {
+        "question": "A rehabilitáció főbb pillérei közül melyik a legkorábbi és legmegalapozottabb beavatkozás?",
+        "options": [
+          "Csak gyógyszeres kezelés (pl. piracetam) — sokat segít az afáziánál",
+          "Korai (1-2 héten belül kezdődő), intenzív, logopédus által vezetett beszédterápia + családi tréning + AAC (alternative-augmentative communication)",
+          "Csak otthoni gyakorlás családtagok segítségével",
+          "Csak hosszú távú pszichoterápia"
+        ],
+        "answer": 2,
+        "explanation": "A Cochrane-meta-analízis szerint a korai, intenzív logopédiai terápia szignifikáns javulást hoz. Kombinálható AAC eszközökkel (rajzolós beszélő tábla, képek), Constraint-Induced Aphasia Therapy (CIAT), MIT (Melodic Intonation Therapy). A piracetam nem evidencia-alapú. A családtag bevonása fontos (terápia-kísérő, mindennapi gyakorlás).",
+        "info": "Rehabilitáció: heti 3 logopédia + családi tréning. 3 hónap után: WAB AQ 52, spontán beszéd 5/10 (több 2-3 szavas frázis). Jobb oldali hemiparézis részlegesen javult. Mindennapi szóhasználata bővül."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "72 éves nőbeteg fokozatosan kialakuló emlékezetzavarral",
+    "topicTag": "Alzheimer-kór (korai)",
+    "difficulty": "medium",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — demencia (Drive: Memória és demencia tételek)",
+    "intro": "72 éves nyugdíjas pedagógus nőbeteget hoz a férje. 2 éve észreveszi, hogy a beteg ismételten ugyanazt a történetet meséli, gyakran keresi a kulcsát, és nemrég eltévedt egy boltban, ahova évek óta jár.",
+    "steps": [
+      {
+        "question": "A leírt klinikai kép alapján mi a leginkább valószínű hipotézis?",
+        "options": [
+          "Alzheimer-kór korai / enyhe stádium (MCI lehet, vagy már enyhe AD)",
+          "Akut delírium",
+          "Pszeudodemencia (depresszió)",
+          "Frontotemporális demencia (FTD, viselkedési variáns)"
+        ],
+        "answer": 1,
+        "explanation": "A klinikai kép: 2 év alatt fokozatosan kialakuló, epizodikus memória-zavar (ismétlés, elveszti dolgokat) + téri tájékozódási zavar (eltévedés ismerős helyen) — klasszikus AD-szerű profilja. A delírium akut (órák-napok), a depresszió erőfeszítés-csökkenéssel ('nem tudom'), az FTD viselkedési-személyiségi változással jár.",
+        "info": "Részletesebb anamnézis: nincs depresszió-anamnézis, gyógyszerei stabilak. Vérvizsgálat: B12, TSH, elektrolit, máj-vese normál. Beck Depression: 6/63 (nem depressziós). MMSE: 24/30 (orientáció: 8/10; szóismétlés: 2/3; szóelőhívás: 1/3; figyelem: 4/5; rajzolás: 1/1). Óramásolás: kissé szervezetlen, számok közepe felé tolódnak."
+      },
+      {
+        "question": "Mely tesztet választanád MOST a profil pontosabb tisztázásához?",
+        "options": [
+          "Csak megismételni az MMSE-t 1 hónap múlva",
+          "Részletes neuropszichológiai battéria: RAVLT vagy AVLT (epizodikus memória), BNT (megnevezés), fluencia (kategória és fonémikus), TMT A-B, Rey Complex Figure",
+          "Csak fMRI vizsgálatot kérnék",
+          "Csak antidepresszáns próbát"
+        ],
+        "answer": 2,
+        "explanation": "A részletes battéria nélkülözhetetlen: a memória profilja (kódolási/tárolási vs. előhívási deficit) megmondja AD vs. szubkortikális vs. depresszió. RAVLT: AD-ban kódolási probléma, gyors felejtés, FELISMERÉS sem segít. BNT: AD-ban szemantikus memóriaproblémák. Fluencia: AD-ban kategoriás > fonémikus deficit (mert a szemantikus háló sérül).",
+        "info": "Battéria eredménye: RAVLT total recall 5 trial: 4-5-6-7-8 (lassú tanulás), delayed recall: 1/15 (gyors felejtés), felismerés: 7/15 (rosszabb, mint a chance-feletti tartomány). BNT: 36/60 (norma 50+). Verbális fluencia: kategoriás (állatok) 8 db (norma 17+), fonémikus (F-betűs) 9 db (norma 12+). TMT-A: 70s, B: 200s, B-A: 130s. Tipikus AD-profil."
+      },
+      {
+        "question": "Mely további diagnosztikus és kezelési ajánlások indokoltak?",
+        "options": [
+          "Csak megfigyelés — nem kell semmilyen specifikus kezelés",
+          "MRI agykép (atrófia-mintázat, hippokampusz volumenmérés), kolinészteráz-gátló (donepezil) megfontolása + családi pszichoedukáció + kognitív stimuláció + rendszeres követés",
+          "Azonnali idősotthoni elhelyezés",
+          "Csak antipszichotikum a gyakori agitáció kezelésére"
+        ],
+        "answer": 2,
+        "explanation": "A teljes diagnózishoz MRI (hippokampusz atrófia, mediális temporális — Scheltens-skála) szükséges. Esetenként CSF Aβ42/tau-arány vagy amiloid PET. Gyógyszeres: kolinészteráz-gátló (donepezil 5-10 mg) az enyhe-közepes AD-ban evidencia-alapú. Nem-gyógyszeres: kognitív stimuláció, családi edukáció, mindennapi tevékenységek strukturálása. A követés kulcs.",
+        "info": "MRI: bilaterális, jobban kifejezett bal mediotemporális atrófia, Scheltens 2. Klinikai diagnózis: enyhe-közepes Alzheimer-kór. Donepezil 5 mg/nap indítva, családi edukáció, kognitív stimulációs csoportba beutalva. 6 hónap múlva újraértékelés."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "55 éves férfi viselkedéses változással",
+    "topicTag": "Frontotemporális demencia (bvFTD)",
+    "difficulty": "hard",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — FTD (Drive: tételek + brainaacn)",
+    "intro": "55 éves férfi mérnököt hozza a felesége. Utóbbi 8 hónapban a viselkedése drasztikusan megváltozott: a munkahelyén szociálisan inadekvát megjegyzéseket tesz, ismeretlen nőkkel intimkedik. Apatikus, érdeklődését vesztett. Új szokása: napjában többszöri kompulzív édességfogyasztás. Az emlékezete viszonylag megtartott.",
+    "steps": [
+      {
+        "question": "A klinikai kép alapján mire gondolnál ELSŐKÉNT a differenciáldiagnózisban?",
+        "options": [
+          "Alzheimer-kór",
+          "Bipoláris zavar mániás epizódja",
+          "Frontotemporális demencia behaviorális variant (bvFTD)",
+          "Pszeudodemencia (depresszió)"
+        ],
+        "answer": 3,
+        "explanation": "A bvFTD klasszikus klinikai képe: 50-65 év körüli kezdet, KORAI viselkedési és személyiségi változás (dezinhibíció, apátia, kompulzív viselkedés, étkezési változás — különösen édességkeresés), MEGTARTOTT korai memória. Az AD-ban a memória sérül először, mánia-zavarban hangulati elemek dominálnak.",
+        "info": "Anamnézis: családi anamnézis: nagybátya 'hirtelen meghalt 60 évesen, idegrendszeri betegségben'. Munkahelyén több inadekvát megjegyzést tett: 'női kolléganőkkel közvetve'. Higiéniai szokásai romlottak (nem fürdik, nem borotválkozik). Felesége 'idegen embernek érzi'. Az emlékezete: rövid távon megtartott, beszélgetésekre emlékszik. Saját helyzetét nem ítéli problémásnak (anozognózia)."
+      },
+      {
+        "question": "Mely vizsgálatokat és tesztcsomagot választanád?",
+        "options": [
+          "Csak MMSE-t és Beck Depression Inventory-t",
+          "Részletes neuropszichológiai battéria EF-fókusszal: Wisconsin Card Sorting (WCST), Stroop, Trail Making B, Verbális fluencia (kategoriás vs. fonémikus), Iowa Gambling Task, FAB (Frontal Assessment Battery) + családi/munkahelyi anamnézis (CBI — Cambridge Behavioural Inventory) + MRI agykép",
+          "Csak EEG-t",
+          "Csak hangulati kérdőíveket"
+        ],
+        "answer": 2,
+        "explanation": "bvFTD diagnózishoz EF-tesztek + viselkedés-tematikájú kérdőívek + képalkotás. CBI az inverzórnek (felesége) tölti ki a viselkedéses változásokról. MRI tipikusan frontotemporális atrófia (bilaterális, jobban kifejezett a frontális vagy temporális területeken). Az FTD nemzetközi konszenzus-kritériumok (Rascovsky 2011) elvárják a fenti komplex vizsgálatot.",
+        "info": "Eredmények: MMSE: 28/30 (kognitív zavar enyhe). FAB: 11/18 (kóros). WCST: súlyos perszeveráció. Stroop interferencia: súlyosan kóros. Verbális fluencia: kategoriás (állatok) 11 / fonémikus (F) 6 (fonémikus súlyosabban sérült — frontális mintázat). Iowa Gambling Task: domináns kockázat-vállalás. Cambridge Behavioural Inventory: súlyos dezinhibíció, apátia, kompulzív viselkedés, sztereotípiák. MRI: bilaterális frontális és anterior temporális atrófia (jobb > bal). FDG-PET: bilaterális frontotemporális hipometabolizmus."
+      },
+      {
+        "question": "A megerősített bvFTD diagnózis után mely tervezés / kezelés a legmegalapozottabb?",
+        "options": [
+          "Csak kolinészteráz-gátló (donepezil) — mint az AD-ban",
+          "Specifikus farmakoterápia (pl. SSRI a kompulzív / dezinhibíciós tünetekre, alacsony dózisú antipszichotikum csak szükség esetén) + családi pszichoedukáció + munkahelyi/jogi tanácsadás + támogató szolgálat + tanácsadás genetikai vizsgálatra",
+          "Azonnali pszichiátriai kórházi felvétel",
+          "Antidepresszáns + 3 hónap múlva újraértékelés"
+        ],
+        "answer": 2,
+        "explanation": "A bvFTD-ben az AD-szerű kolinészteráz-gátlók NEM hatékonyak (sőt, ronthatnak). SSRI segíthet a dezinhibíciós és kompulzív tünetekre. Az antipszichotikumot óvatosan, kis dózisban, csak ha agitáció veszélyes. A családi edukáció, jogi tervezés (vagyon, gondnokság, munkahelyi következmények), és — mivel a familiáris bvFTD ~40%-os a familial halmozódás — genetikai vizsgálat (MAPT, GRN, C9orf72) is megfontolandó.",
+        "info": "Kezelés: SSRI (escitalopram) indítva. Felesége/munkáltatója pszichoedukációt kap. Genetikai konzultáció: GRN-mutáció pozitív. Családi felmérés a hordozók azonosítására. Munkáltatótól rokkantnyugdíj kezdeményezése. Támogató csoportba beutalva."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "81 éves nőbeteg 3 napos hirtelen konfúzióval",
+    "topicTag": "Delírium",
+    "difficulty": "easy",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — delírium vs demencia",
+    "intro": "81 éves nőbeteget hoz a fia a sürgősségire: '3 napja összeszorult, nem ismer fel néha, fluktuáló a tudata, éjszaka kiabál, nappal alszik.' Otthonában 3 nappal korábban kezelést kezdtek vizeletcsöpögés miatt. Korábban kognitív panaszt nem említett.",
+    "steps": [
+      {
+        "question": "A klinikai kép alapján mi a legvalószínűbb diagnózis?",
+        "options": [
+          "Új keletű demencia (Alzheimer)",
+          "Akut delírium",
+          "Pszichózis akut kezdettel",
+          "Stroke"
+        ],
+        "answer": 2,
+        "explanation": "Klasszikus delírium-kép: AKUT kezdet (3 nap), FLUKTUÁLÓ tudat, figyelmi zavar dominál, alvás-ébrenléti ciklus felborulása. Mindig kell az alapot keresni (UTI, gyógyszer, dehidráció, elektrolit-zavar). A demencia hetek-évek alatt lopakodik be, nem fluktuál; a stroke fokális neurológiai jelekkel jár.",
+        "info": "Vizsgálat: vizeletvizsgálat — bakteriális UTI (E. coli, magas leukocitaszám, nitrit pozitív). Vérvizsgálat: enyhe dehidráció (kreatinin 110, korábban 80), egyébként normális. EKG: szinusz, korábbi pitvarfibrilláció jól kontrollált. CT-fej: korának megfelelő kép, akut elváltozás nincs. CAM (Confusion Assessment Method) pozitív (mind 4 kritérium teljesül). MMSE: 18/30 (akut romlás, korábban anamnézis szerint 28+ volt)."
+      },
+      {
+        "question": "Mely kezelés a legmegalapozottabb a delírium esetén?",
+        "options": [
+          "Erős nyugtatás benzodiazepinekkel, csendes szoba",
+          "Az ALAP kezelése (antibiotikum a UTI-ra, rehidratáció), oki gyógyszerek (anticholinerg, BZD) elhagyása, NEM-farmakológiai intézkedések (orientáló környezet, jó alvás, családi jelenlét), antipszichotikum CSAK súlyos agitációnál (alacsony dózisú haloperidol vagy quetiapin)",
+          "Antidepresszáns",
+          "Csak antipszichotikum nagy dózisban"
+        ],
+        "answer": 2,
+        "explanation": "A delírium kezelésének alapja az ALAP (precipitáló tényező) megszüntetése. Az antibiotikum (UTI) + rehidratáció gyakran elég. NEM-farmakológiai intézkedések: orientációs eszközök (naptár, óra), nappali világítás, családi jelenlét. A benzodiazepinek SÚLYOSBÍTHATJÁK a delíriumot (az alkohol-megvonási delírium kivételével). Antipszichotikum csak súlyos agitációnál.",
+        "info": "Kezelés: IV antibiotikum, hidratálás, családi jelenlét biztosítva, orientációs táblák a szobában, alvás-ébrenlét ciklus visszaállítása. 72 óra alatt: tudat tisztul, MMSE 26/30 (visszatér a feltehetően korábbi szintre). UTI tünetei oldódnak."
+      },
+      {
+        "question": "Hazaengedés előtt mi a legfontosabb klinikai tennivaló?",
+        "options": [
+          "Semmi — a beteg teljesen meggyógyult, nincs további teendő",
+          "Strukturált neuropszichológiai vizsgálat 4-6 hét múlva ambuláns rendelésen (lehet, hogy a delírium 'leleplezett' egy korai demenciát) + családi pszichoedukáció a delírium-rizikó megelőzéséről + szóbeli + írott elbocsátó iratok az alapellátásnak",
+          "Csak gyógyszerlistás újragondolás",
+          "Csak antipszichotikumot kapjon hosszú távon"
+        ],
+        "answer": 2,
+        "explanation": "A delírium gyakran 'leleplezi' a korai, eddig nem észlelt demenciát: az idősbetegek 30-60%-a delíriumot követően több hónapig még kognitív panaszokkal él, és sokszor demenciába megy át. A követéses neuropszichológiai vizsgálat 4-6 hét múlva (amikor a delírium teljesen oldódott) tisztázhatja. Családi edukáció: jövőbeli rizikók (gyógyszerek, kiszáradás, fertőzés, alváshiány) megelőzése.",
+        "info": "Hazaengedés: gyógyszerlista revíziója (BZD-elhagyás), családi pszichoedukáció, alapellátó kollégának elbocsátó irat. 6 hét múlva ambuláns kontroll: MMSE 27/30, RAVLT és MoCA enyhe deficitek (lehet, hogy enyhe AD a háttérben), további követés ütemezve."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "32 éves férfi 6 hónappal koponyatrauma után",
+    "topicTag": "mTBI (poszt-koncussziós szindróma)",
+    "difficulty": "hard",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — TBI rehab",
+    "intro": "32 éves jogász férfi 6 hónapja autóbalesetet szenvedett. GCS 14 a baleset után, LOC ~10 perc, PTA ~4 óra (klasszikus mild TBI). Akkori CT és MRI negatív. Most panaszai: tartós fejfájás, koncentrációs zavar, fáradékonyság, hangulati labilitás, alvászavar. Munkahelyén nem tudja korábbi teljesítményét hozni.",
+    "steps": [
+      {
+        "question": "A klinikai kép alapján mire gondolnál?",
+        "options": [
+          "Posztkonkusszív szindróma (PCS) — gyakran 3 hónap után fennálló tünetek + lehetséges asszociált depresszió, szorongás, alvászavar",
+          "Akut súlyos demencia",
+          "Egyértelmű malingering (mert objektív lelet negatív)",
+          "Skizofrénia első epizódja"
+        ],
+        "answer": 1,
+        "explanation": "Mild TBI utáni 3 hónapnál tovább tartó tünetek = perzisztáló posztkonkusszív szindróma (PCS). Tipikus tünetek: fejfájás, koncentrációs zavar, fáradékonyság, alvászavar, hangulati változás. Az objektív neuropszichológiai deficit gyakran enyhe, de a funkcionális zavar jelentős lehet, különösen mentális munkahelyen. Komorbid depresszió, szorongás, PTSD gyakori — ezeket KEZELNI kell, mert sokat hozzátesznek a tünetekhez.",
+        "info": "Részletes anamnézis: rohamosan visszatért dolgozni 2 hét után, túlterhelte magát. Alvása: 4-5 óra, gyakori felébredés. Hangulata: ingerlékenység, bűntudat (a baleset miatt), elkerülés (vezetésnél szorong). Family history: tiszta. Drog/alkohol: alkalmi alkohol. Beck Depression Inventory: 18 (közepes depresszió). PCL-5 (PTSD): 32 (klinikailag jelentős)."
+      },
+      {
+        "question": "Mely vizsgálatokat csinálnál a teljes profil tisztázásához?",
+        "options": [
+          "Csak megismételni az MRI-t és vártam további 6 hónapot",
+          "Komplex neuropszichológiai battéria (figyelem, EF, processing speed, memória — különösen érzékeny a mTBI-re a processing speed és figyelem) + Symptom Validity Testing (TOMM, WMT) + depresszió/szorongás/PTSD-kérdőívek + alvás-felmérés",
+          "Csak EEG-t",
+          "Csak alapszintű IQ-t"
+        ],
+        "answer": 2,
+        "explanation": "PCS-ben a komplex neuropszichológiai battéria (fókusszal a figyelem, processing speed, EF-re) az aranystandard. KÖTELEZŐ a Symptom Validity Test (TOMM, WMT) mert a TBI utáni esetekben (különösen biztosítási / jogi kontextusban) az alulteljesítés gyakori. A komorbid állapotok (depresszió, szorongás, PTSD, alvászavar) felmérése elengedhetetlen, mert ezek MAGUK is okoznak kognitív panaszokat.",
+        "info": "Eredmények: TOMM: 50/50 (érvényes erőfeszítés). Figyelem: TMT-A 35s (átlag alatt), TMT-B 95s (kissé lassú). Processing speed (WAIS-IV): 87 (átlag alatti). Munkamemória: 95 (átlagos). Memória: RAVLT, BVMT-R normál. EF: WCST normál, Stroop interferencia enyhén emelkedett. Depresszió közepes, PTSD klinikailag szignifikáns, alvászavar súlyos. Profil: enyhe figyelmi / processing speed deficit + komorbid depresszió/PTSD/alvászavar — a tünetek többségét utóbbiak magyarázzák."
+      },
+      {
+        "question": "Mely terápiás megközelítés a legmegalapozottabb?",
+        "options": [
+          "Csak gyógyszeres kezelés depresszióra",
+          "Multimodális rehabilitáció: KVT (depresszió + PTSD-re), alváshigiénia, fokozatos visszatérés a munkához (graded return), kognitív rehabilitáció (kompenzációs stratégiák), pszichoedukáció a PCS természetéről + családi tájékoztatás",
+          "Csak passzív pihenés (több hónap)",
+          "Csak nootropikum + multivitamin"
+        ],
+        "answer": 2,
+        "explanation": "Multimodális megközelítés bizonyítottan a leghatékonyabb. KVT az asszociált pszichiátriai komorbiditásra. Alváshigiénia kulcs. 'Graded return to work' — nem hirtelen, hanem fokozatos. Pszichoedukáció: a beteg gyakran 'ráerősít' a tünetekre, ha úgy érzi, az agya károsodott. A 'good outcome expectation' önmagában javít. Passzív pihenés HOSSZÚ TÁVON ronthat (kondicionálódás-csökkenés).",
+        "info": "Multimodális terápia indítva: heti KVT, alváshigiénia, fokozatos visszatérés (heti 20 → 32 → 40 óra), kognitív rehabilitáció (kompenzációs naptár, feladatszervezés). 4 hónap után: BDI 8 (enyhe), PCL-5 18 (subklinikai), alvás 7 óra, teljes munkaidőben dolgozik."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "69 éves férfi vizuális hallucinációkkal",
+    "topicTag": "Lewy-testes demencia (DLB)",
+    "difficulty": "hard",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — DLB",
+    "intro": "69 éves férfi nyugdíjas mérnök. Felesége panaszolja: 6 hónapja látja, hogy 'kis emberek vannak a szobában', 'a kutya beszél hozzá'. Nappali kognitív teljesítménye fluktuál: néha tiszta gondolkodású, máskor zavart. Mozgása lassú, lépései rövidek. Korábbi pszichiátriai anamnézis: tiszta.",
+    "steps": [
+      {
+        "question": "A klinikai kép alapján mi az elsődleges hipotézised?",
+        "options": [
+          "Alzheimer-kór",
+          "Schizophrenia ('late-onset')",
+          "Lewy-testes demencia (DLB) — visszatérő vizuális hallucinációk + fluktuáló kogníció + parkinsonizmus = klasszikus triász",
+          "Pszichotikus depresszió"
+        ],
+        "answer": 3,
+        "explanation": "A klasszikus DLB-triász: (1) visszatérő, részletesen kidolgozott vizuális hallucinációk, (2) fluktuáló kogníció (különösen figyelem és éberség), (3) parkinsonizmus (rigor, bradikinézia, tremor). Korai kezdetű late-onset pszichózis ritka. Mindhárom fő tünet jelenléte erősen DLB-felé mutat (probabilistic DLB diagnosis criteria — McKeith).",
+        "info": "Anamnézis: alvás közben kiabál, kiüt (REM-sleep behavior disorder — RBD klasszikus DLB prodroma). Mozgása: szimmetrikus rigor, bradikinézia, kis lépések, ritka tremor (jobb kéz). Nincs domináns oldal (a Parkinson-kór tipikusan aszimmetrikus). MMSE: 22/30. Hallucinációk: állatok és gyerekek, jól strukturált, többnyire nem fenyegető, de zavaró. Anamnézis: 2 hete antipszichotikumot (haloperidolt) kapott háziorvostól → kifejezetten ROSSZABBA vált (rigor, kataton-szerű reakció)."
+      },
+      {
+        "question": "Mely tesztet / vizsgálatot tartod relevánsnak a diagnózis megerősítéséhez?",
+        "options": [
+          "Csak MMSE-t és Beck Depression Inventory-t",
+          "MoCA (érzékenyebb a frontosubkortikális zavarra), részletes neuropszichológiai battéria (különösen vizuospaciális — Rey, kockakirakó), polysomnographia (RBD megerősítése), DaTscan (presynapticus dopamin-transzporter képalkotás — a DLB-ben csökkent, mint a Parkinsonban), MRI",
+          "Csak EEG-t",
+          "Csak hangulati teszteket"
+        ],
+        "answer": 2,
+        "explanation": "DLB-ben a vizuospaciális deficit korán jellemző. DaTscan (123I-FP-CIT SPECT) érzékeny és specifikus a presynapticus dopamin-veszteségre — DLB-ben pozitív, AD-ban negatív. Polysomnographia megerősíti az RBD-t. MRI inkább kizárás céljából (más demenciák, NPH). FDG-PET: occipitalis hipometabolizmus DLB-ben.",
+        "info": "Eredmények: MoCA: 19/30. Rey complex figure: súlyosan szervezetlen másolat. Kockakirakó: súlyos deficit. Verbális fluencia: kategoriás 7, fonémikus 5 (mindkét sérült). Felidézés (RAVLT): közepes deficit, de FELISMERÉS jó (előhívási, nem tárolási probléma). DaTscan: bilaterális, súlyos presynapticus dopamin-veszteség. Polysomnographia: RBD megerősítve. MRI: kortexes atrófia, viszonylag megtartott hippokampusz."
+      },
+      {
+        "question": "A diagnózis megerősítése után melyik kezelési ajánlás a legmegalapozottabb és LEGBIZTONSÁGOSABB?",
+        "options": [
+          "Tovább folytatni a haloperidolt (a hallucinációkra)",
+          "Kolinészteráz-gátló (rivastigmin / donepezil — DLB-ben jobban hatékony, mint AD-ban), parkinsonizmusra L-dopa óvatosan (kis dózis), antipszichotikum KERÜLENDŐ (Lewy-szenzitivitás veszélyes mellékhatások — neuroleptikus malignus szindróma, súlyos rigor), ha mindenképpen kell, csak quetiapin vagy clozapin",
+          "Csak SSRI a hangulati labilitásra",
+          "Csak benzodiazepin az RBD-re"
+        ],
+        "answer": 2,
+        "explanation": "DLB-ben a kolinészteráz-gátlók (különösen rivastigmin) hatékonyabbak, mint AD-ban — javíthatják a kognitív funkciót és a hallucinációkat. L-dopa óvatosan, kis dózisban (hallucinációkat ronthat). KRITIKUSAN FONTOS: az 'első generációs' antipszichotikumok (haloperidol, risperidon) DLB-ben súlyos neuroleptikus-szenzitivitást okozhatnak (akinetikus mutizmus, malignus szindróma). Ha antipszichotikum kell: quetiapin vagy clozapin. Az RBD-re melatonin / clonazepam.",
+        "info": "Haloperidol leállítva. Rivastigmin tapasz 4.6 → 9.5 mg/24h. L-dopa 100/25 mg ×3 (óvatosan). Melatonin 3 mg lefekvés előtt (RBD-re). Családi edukáció: hallucinációk természete, biztonságos környezet (zuhanás-elkerülés, éjszakai felügyelet). 3 hónap után: MMSE 25/30, hallucinációk ritkábbak (heti 1-2), mozgása javult, RBD-epizódok ritkultak."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "48 éves férfi súlyos memóriazavarral és konfabulációval",
+    "topicTag": "Korsakoff-szindróma",
+    "difficulty": "medium",
+    "category": "uj",
+    "source": "Klinikai eset gyakorlás — Korsakoff",
+    "intro": "48 éves férfit hoznak: utóbbi évben hirtelen romlott a memóriája. Új információt nem tárol, néha 'kitalál' részleteket, amik nem történtek. Krónikus alkoholproblémák, hajléktalan. 3 hónapja került ki egy kórházból, ahol disorientáció + járászavar + szem-mozgási rendellenesség miatt kezelték.",
+    "steps": [
+      {
+        "question": "Mi a legvalószínűbb diagnózis a klinikai kép alapján?",
+        "options": [
+          "Korai Alzheimer-kór",
+          "Korsakoff-szindróma (kezelés nélkül vagy késleltetett kezelésű Wernicke-encephalopathia után)",
+          "Disszociatív amnézia",
+          "Pszeudodemencia (depresszió)"
+        ],
+        "answer": 2,
+        "explanation": "Klasszikus kép: 3 hónappal korábban Wernicke-encephalopathia (akut B1/thiamin-hiány: ataxia + szem-mozgási rendellenességek + konfúziós állapot) → KEZELETLENÜL vagy KÉSLELTETETTEN kezelve → Korsakoff-szindróma. Mamilláris testek és thalamus mediodorsalis sérülése. Súlyos anterograd amnézia + retrograd komponens + konfabuláció + viszonylag megtartott személyiség. Krónikus alkoholista hátteret kell igazolni.",
+        "info": "Anamnézis: 20+ év krónikus alkoholfogyasztás, hajléktalan, alultáplált. Kórházi anamnézis: akut Wernicke-encephalopathia 3 hónapja, akkor IV thiaminnal kezelték, de már későn. Vizsgálatkor: alert, kontaktusképes, beszéde tiszta. Súlyos anterograd amnézia: a vizsgálatvezető nevét 30 mp után elfelejti. Néha konfabulál: kérdésre, hol járt tegnap, részletesen elmesél eseményeket, amik nem történtek meg. Személyisége megtartott, érdeklődő, kooperatív."
+      },
+      {
+        "question": "Mely tesztet vennél fel a profil tisztázásához?",
+        "options": [
+          "Csak MMSE-t",
+          "WAIS (IQ profil), WMS-IV vagy RAVLT/BVMT-R (memória részletes profilja), BNT, Frontal Assessment Battery, MRI (mamilláris test atrófia, thalamus elváltozás), B12 / folát / albumin szérum-vizsgálat (egyéb táplálkozási hiányállapotok kizárása)",
+          "Csak Beck Depression Inventory",
+          "Csak EEG"
+        ],
+        "answer": 2,
+        "explanation": "Az IQ profil általában viszonylag megtartott (a kérgi területek kevésbé érintettek). Az memória részletes vizsgálata megmutatja: anterograd + retrograd, mind verbális és vizuális. RAVLT: súlyos kódolási deficit, felismerés sem segít. MRI: mamilláris test atrófia (T2 hiperintenzitás), thalamus mediodorsalis lézió — diagnosztikus jel. Egyéb táplálkozási hiányok (B12, folát) gyakran komorbid.",
+        "info": "Eredmények: WAIS-IV: FSIQ 92 (átlagos, viszonylag megtartott). RAVLT: total 5 trial 15/75 (súlyos kódolási deficit), delayed recall 0/15, felismerés 5/15 (nincs javulás). BNT: 50/60. FAB: 13/18 (enyhe frontális deficit). MRI: bilaterális mamilláris test atrófia, thalamus mediodorsalis T2 hiperintenzitás. B12: alacsony (180 pg/mL, norma 200+), folát: alacsony. Albumin: alacsony. Diagnózis: Korsakoff-szindróma + multi-nutricionális hiány."
+      },
+      {
+        "question": "Mely terápiás és rehabilitációs lépések a legmegalapozottabbak?",
+        "options": [
+          "Csak további alkoholtartózkodás, semmi más",
+          "Magas dózisú thiamin (300+ mg/nap IV, majd PO), B12 és folát pótlás, alkoholtartózkodás (abstinencia támogatása, AA), stabilizáló szociális ellátás (hajléktalanság megoldása), kognitív rehabilitáció (errorless learning, kompenzációs eszközök — naptár, jegyzetfüzet), családi pszichoedukáció a konfabuláció természetéről + maradványállapot, prognózisról",
+          "Csak antidepresszáns + 3 hónap múlva újraértékelés",
+          "Csak donepezil"
+        ],
+        "answer": 2,
+        "explanation": "A magas dózisú thiamin kulcs (akár a Wernicke-encephalopathia már lecsendesedett — a krónikus deficit perzisztál). A komorbid táplálkozási hiányok pótlása szintén kötelező. Alkoholtartózkodás a betegség progresszív romlásának megakadályozására. Errorless learning (Wilson) hatékony az amnéziás betegeknél. Szociális stabilizáció (hajléktalanság!) — ha nincs strukturált környezet, a kognitív rehabilitáció nem hatékony. A konfabuláció KEZELÉSE nem 'szembesítés' (ronthat), hanem strukturált, validáló környezet.",
+        "info": "Kezelés: 300 mg thiamin IV ×7 nap, majd 100 mg/nap PO. B12 és folát pótlás. Alkoholtartózkodás (intézményi környezetben támogatott). Beutalva hajléktalan-szállóra, gondozónővel. Kognitív rehabilitáció: errorless learning a napi rutinok visszatanításához, kompenzációs naptár. 6 hónap múlva: BNT 53/60, RAVLT delayed recall 2/15 (kis javulás), alkohol-mentes. Önállóan él egy strukturált környezetben, gondozói támogatással."
+      }
+    ]
+  }
+]
