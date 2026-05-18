@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const PASSWORD = "PHDiana!";
+const PASSWORD = "Slepp!";
 const COOKIE_NAME = "fknv_auth";
 
 export function middleware(request: NextRequest) {

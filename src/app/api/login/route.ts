@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const PASSWORD = "PHDiana!";
+const PASSWORD = "Slepp!";
 const COOKIE_NAME = "fknv_auth";
 
 export async function POST(request: Request) {
