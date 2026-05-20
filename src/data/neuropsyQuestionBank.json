@@ -13,11 +13,11 @@
       "érzelemszabályozás",
       "verbális fluencia"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A Trail Making Teszt (TMT) egy, a klinikumban gyakran használt szűrőteszt, amely a feldolgozási sebesség, a kognitív rugalmasság és az összetett vizuális pásztázás mérésére irányul. Ezen kívül a teszt nagyon érzékeny a figyelem és a végrehajtó funkciók károsodására, valamint a meglassult pszichomotóriumra.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 2,
@@ -37,7 +37,7 @@
     "explanation": "A Trail Making Test (TMT) egy standardizált neuropszichológiai teszt, amelynek célja többek között a feldolgozási sebesség, a vizuomotoros koordináció, a kognitív flexibilitás, valamint a figyelem és végrehajtó funkciók mérése. A teszt két részből áll:\n\nTMT-A: számokat kell növekvő sorrendben összekötni (1–2–3…),\n\nTMT-B: számokat és betűket kell váltakozva összekötni (1–A–2–B…).",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 3,
@@ -57,7 +57,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 4,
@@ -113,11 +113,11 @@
       "kamera",
       "tesztkártyák"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Az enyhe kognitív zavar (Mild Cognitive Impairment – MCI) az egészséges kognitív öregedés és a demencia közé helyezhetô állapot, melynek korai szûrése kulcsfontosságú, hiszen az esetek 10–15%-a egy éven belül komoly kognitív hanyatlásnak indul. A Montreal Kognitív Felmérés (Montreal Cognitive Assessment – MoCA) kifejezetten az enyhe kognitív zavar detektálására készült. A teszt a kognitív funkciók hét területét méri: téri/exekutív funkciók, megnevezés, memória, figyelem, nyelv, absztrakció és orientáció. Az MMSE-hez viszonyítva a MoCA sokkal érzékenyebben képes felmérni az esetleges exekutív, vagy vizuális-térbeli, és figyelmi zavarokat.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 7,
@@ -137,7 +137,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 8,
@@ -179,11 +179,11 @@
       "hallucinációk megjelenése a koraibb stádiumban már",
       "az epizódikus memória romlása a legjellemzőbb"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "|  |  |\n| :-: | :-: |\n| Demenciatípus | Jellemző tünet |\n| Lewy-testes demencia | Korai vizuális hallucinációk, fluktuáló figyelem, parkinsonizmus |\n| Alzheimer-kór | Epizodikus memóriazavar a legjellemzőbb első tünet |\n| Vaszkuláris demencia | Stroke-eredet, lépcsőzetes romlás, téri és végrehajtó zavarok |\n| Frontotemporális demencia | Korai viselkedésváltozás, személyiségromlás |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 10,
@@ -199,11 +199,11 @@
       "percepciós problémával rendelkező személyeknél.",
       "bárkinél"
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "A gumikéz illúzió kiváltásához a személyek elől eltakarják a saját kezüket, és egy hasonló kinézetű gumikezet helyeznek eléjük. Ezután a gumikezet a személy számára látható módon, míg a valós kezet nem látható módon, egy időben és egy helyen ingerelik, vagyis simogatják egy ecsettel. Egy idő után, a beérkező információ sugallatára, a kísérleti személyek a gumikezet fogják saját magukénak érezni, saját kezüket pedig idegennek. Az ELTE PPK kutatásában 60 egyetemista vett részt. A kísérlet során felmérték, hogyan dolgozzák fel a kísérleti személyek a karjuk helyzetére vonatkozó proprioceptív információkat. (tehát bárkinél)",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 11,
@@ -219,11 +219,11 @@
       "az egyik kéz elrejtése",
       "érintési ingerek"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A klasszikus gumikéz illúzió egy valós tárgyi (gumiból készült) kéz segítségével, egy egyszerű laboratóriumi beállításban is tökéletesen demonstrálható. A virtuális valóság (VR) ma már egy alternatív módszer a testkép és énérzet manipulálására, de nem feltétele az eredeti gumikéz illúziónak.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 12,
@@ -240,11 +240,11 @@
       "Olyan átlagpontszámok, melyeket különböző vizsgált csoportok szereztek ugyanazon a neuropszichológiai teszten.",
       "Egy 65 éves férfi, 8 osztályos végzettséggel a MoCA teszten 21 pontot ér el. Ez nem értékelhető önmagában – csak akkor, ha összevetjük a hasonló életkorú és végzettségű személyek normatív adataival."
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 13,
@@ -260,11 +260,11 @@
       "a neurológiai betegek mindennapi élethez szükséges kognitív funkcióinak vizsgálata",
       "ezek közül mind"
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "|  |  |\n| :-: | :-: |\n| Válasz | Indoklás |\n| a) Az agykárosodás mértékének feltérképezése | A neuropszichológiai tesztelés alapja: lokalizáció, funkcióvesztés elemzése. |\n| b) Rövid és hosszú távú változások nyomon követése | Különösen fontos rehabilitáció, krónikus neurológiai állapotok és fejlődési zavarok esetén. |\n| c) Fejlesztések eredményének mérése | A neuropszichológia objektív visszajelzést ad a terápiák, tréningek hatékonyságáról. |\n| d) A mindennapi élethez szükséges funkciók vizsgálata | Ecological validity (életszerű működés) és funkcionális állapotfelmérés céljából alapvető. |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 14,
@@ -281,11 +281,11 @@
       "az agy és a szív közösen dolgozik, de a legfontosabb mégiscsak a tudattalan, mely a szövetek elrendezésében és változásában értelmezhető csak",
       "A neuropszichológia egy olyan interdiszciplináris tudományág, amely az idegrendszer működése és a viselkedés közötti kapcsolatot vizsgálja. Alapfeltevése:"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A viselkedés, a gondolkodás, az érzelmek és a kognitív funkciók az agy működésének eredményei, így ezek megértéséhez az agy szerkezeti és funkcionális állapotát kell vizsgálni. Ezért a neuropszichológus a strukturális (pl. agyi sérülés, atrófia) és funkcionális (pl. aktiváció, hálózati működés) változásokból következtet a kognitív és viselkedési eltérésekre.\n\n|  |  |\n| :-: | :-: |\n| Válasz | Miért hamis vagy pontatlan? |\n| a) „Nincs lélek, csak szövettan dönt” | Redukcionista és leegyszerűsítő – a neuropszichológia nem tagadja a mentális működést, hanem neurológiai alapjait vizsgálja. |\n| c) Agy = fekete doboz, mindig kiszámítható válasz | Túlzottan behaviorista felfogás, nem veszi figyelembe a komplex, dinamikus agyi működést. |\n| d) Csak egysejtes vizsgálatok alapján lehet tudni bármit | A neuropszichológia rendszerszinten, nem csak mikroszkopikus szinten gondolkodik – teszteket, képalkotót, viselkedéselemzést is használ. |\n| e) Az agy és a szív tudattalanja a szövetek elrendezésében értelmezhető | Tudománytalan, pszichodinamikai elemekkel kevert metafora, nem a neuropszichológia módszertani alapja. |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 15,
@@ -314,7 +314,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 16,
@@ -334,7 +334,7 @@
     "explanation": "A spatiotemporális emlékezet komplex kognitív folyamat, amelyben több agyterület működik össze. Ide tartozik a hippokampusz, a medialis temporális lebeny, a prefrontális kéreg, valamint a parietális lebeny is. Ezek hálózati együttműködése teszi lehetővé az események időben és térben való szervezését.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 17,
@@ -355,7 +355,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 18,
@@ -372,11 +372,11 @@
       "szelf-reguláció",
       "A matematikai teljesítmény különösen a fonológiai hurok (verbális információk), valamint a téri-vizuális vázlattömb (számok, mennyiségek térbeli elrendezése) komponenseire támaszkodik – ezek mind Baddeley munkamemória-modelljének részei."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 19,
@@ -392,11 +392,11 @@
       "tervezzük el, hogy hogyan fogjuk elkezdeni az egyik újabb tervünket",
       "gyakoroljuk a figyelmi váltást"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 20,
@@ -416,7 +416,7 @@
     "explanation": "A neuroplaszticitás az agy, illetve tágabban értelmezve az idegrendszer alapvető tulajdonsága. Ez az a képesség, amely lehetővé teszi, hogy az idegrendszer módosítsa szerkezetét különféle tapasztalatok, ingerek, vagy akár sérülések hatására. A neuroplaszticitás során szerkezeti és működési változások jönnek létre, amelyek elsősorban a szinapszisokon belül zajlanak le.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 21,
@@ -432,11 +432,11 @@
       "Hosszabb feladatok “széttördelése” apróbbakra (alternatív válasz)",
       "Információk ismétlése verbálisan a fejünkben"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "|  |  |\n| :-: | :-: |\n| Fejlesztési módszer | Indoklás |\n| Hosszú feladatok széttördelése | Csökkenti terhelést, megelőzi figyelmi kifáradást |\n| Ösztönző jellegű tervek | Motivációs / célkitűzési stratégia |\n| Késleltetett jutalom | Impulzuskontrollra hat |\n| Szerepjáték | Szociális / kreatív funkciókat fejleszt |\n| Információk verbális ismétlése | Munkamemória-stratégia |\n\nA hosszabb feladatok kisebb részekre bontása azért hatékony, mert csökkenti a figyelmi terhelést: kevesebb információt kell egyszerre kezelni, így a kognitív kapacitás kevésbé telítődik. A kisebb, jól meghatározható részcélok révén gyakoribb visszacsatolás válik lehetővé, ami támogatja a motivációt és lehetővé teszi, hogy rövidebb figyelmi szakaszokkal is eredményes munkavégzés történjen. Ez a megközelítés megelőzheti a figyelmi kifáradást, és javítja a teljesítményt a hosszabb, összetettebb feladatok végrehajtása során.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 22,
@@ -452,11 +452,11 @@
       "a feladatoknak hasonlóaknak kell lennie a teljes gyermeki fejlődés során",
       "először mindig a külső ingerekre érdemes fordítani a gyerek figyelmét és utána segíteni neki belsőleg értelmezni és helyrerakni azokat a dolgokat"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "|  |  |\n| :-: | :-: |\n| Állítás | Indoklás (neuropszichológiai/pedagógiai) |\n| a) A belső motivációkhoz illesztett célok | A motivációs rendszert aktiválja, fokozza az elköteleződést |\n| b) Csak a minimálisan szükséges segítség | Ez a scaffolding (támogatott tanulás) alapelve |\n| c) A segítség fokozatos csökkentése | A gyerek önállósága nő, a végrehajtó funkciók fejlődnek |\n| e) Először a külső ingerek, majd belső feldolgozás | Ez megfelel a figyelmi rendszer fejlődésének és a szenzoros integrációnak |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 23,
@@ -472,11 +472,11 @@
       "Kognitív-érzelmi interakciók elmélete alapján a thalamus a legfontosabb szerv az érzelmek kialakításában.",
       "A fóbiák kialakulása feltételezhetően a frontális lebeny nem megfelelő működéséhez köthető a kognitív-érzelmi interakciók elmélet mentén."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Az amygdala és a prefrontális kéreg (különösen a ventromediális és orbitofrontális régiók), amelyek központi szerepet játszanak az érzelmek feldolgozásában, értékelésében és szabályozásában. A thalamus fontos átkapcsolóállomás, amely az érzékszervi információkat közvetíti a magasabb agyi központok felé, de önmagában nem az érzelemképzés elsődleges központja.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 24,
@@ -492,11 +492,11 @@
       "után fel lehet térképezni a féltekék egyedi funkcióit.",
       "nem akadályozza az optikus idegek keresztezését."
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 25,
@@ -513,11 +513,11 @@
       "a baloldalon felvillanó tárgyat hibásan nevezte meg.",
       "(split-brain páciens, N. G. esete):"
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "A kérgestest (corpus callosum) átvágása után a két agyfélteke közötti kommunikáció megszűnik. Ennek következményeként az információ nem tud átjutni egyik féltekéből a másikba, így az adott félteke csak a saját feldolgozó rendszereivel tud reagálni az ingerekre. A látómezők kereszteződnek: a bal vizuális mező információja a jobb agyféltekébe, míg a jobb vizuális mező információja a bal agyféltekébe fut be. A nyelvi központok (Broca, Wernicke) túlnyomórészt a bal agyféltekében találhatók.\n\nA jobb agyfélteke ugyan nem tud beszélni, de képes tárgyakat felismerni és kiválasztani például tapintás alapján (pl. bal kézzel). Nem hibásan nevezte meg – egyáltalán nem tudta megnevezni, mert a bal vizuális mezőből származó információ nem jutott el a bal agyfélteke nyelvi központjához.\n\n# Melyek azok az elemek, amelyek a leginkább jól mennek a Broca-afáziás emberek beszédében?\n\nigék\n\nautomatikus, rövidebb kifejezések\n\nnevek\n\nkülönleges, furcsább kifejezések\n\na betegséggel kapcsolatos kifejezések",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 26,
@@ -539,11 +539,11 @@
       "…semmilyen, beszéddel kapcsolatos képességük nem működik.",
       "A domináns (bal) oldali ventrolaterális frontális lebeny sérülése gátolja az artikulációt és a kifejezőkészséget."
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "|  |  |  |\n| :-: | :-: | :-: |\n| Jellemző | Broca-afázia | Wernicke-afázia |\n| Érintett agyterület | Bal frontális lebeny (Broca-terület, gyrus frontalis inferior posterior része) | Bal temporális lebeny (Wernicke-terület, gyrus temporalis superior posterior része) |\n| Beszédprodukció | Lassú, erőlködő, grammatikailag hibás (agrammatikus), nehézkes | Folyékony, de értelmetlen („szósaláta”), gyakori neologizmusok |\n| Beszédritmus | Megtörő, akadozó | Folyékony, normál beszédritmusú |\n| Beszédmegértés | Megőrzött vagy enyhén károsodott | Súlyosan károsodott |\n| Írásképesség | Hasonló a beszédhez: lassú, hibás | Írásos forma is tartalmazhat értelmetlen szavakat, neologizmusokat |\n| Tudatosság a hibákról | Általában tudatában van a nyelvi zavarnak | Gyakran nincs tudatában a zavarnak (anosognózia) |\n| Tipikus ok | Stroke az a. cerebri media felső ági elzáródása | Stroke az a. cerebri media alsó ági elzáródása |\n| Nyelvtani szerkezet | Erősen sérült, elhagyott funkciószavak | Megmaradhat a grammatika, de tartalmilag zavaros |\n| Kommunikációs szándék | Jelen van, de kivitelezés nehézségekbe ütközik | Kommunikációs szándék látszólagos, de a tartalom sérült |\n| Egyéb tünetek | Gyakori hemiparézis (jobb oldali) | Kevésbé jellemző motoros kísérőtünet |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 27,
@@ -563,7 +563,7 @@
     "explanation": "A Korsakoff-szindróma egy súlyos epizodikus emlékezeti zavar, amely leggyakrabban krónikus alkoholizmus következtében alakul ki, B1-vitamin (tiamin) hiány miatt. A károsodás főként a mammilláris testekben, dorzomediális thalamusban, és a hippocampális rendszer kapcsolataiban jelentkezik – ezek kulcsszerepet játszanak a téri és idői kontextusú epizodikus emlékezetben.\n\nA betegeknél gyakori a dezorientáció, az események időben és térben való megjegyzésének képtelensége, valamint konfabulációk is előfordulnak (kitalált vagy torzított emlékekkel pótolják a hiányzókat). Ez a szindróma tehát kifejezetten érinti a téri emlékezetet is.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 28,
@@ -583,7 +583,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 29,
@@ -601,7 +601,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 30,
@@ -623,7 +623,7 @@
     "explanation": "hypothalamus: alapvető szerepet játszik a belső egyensúly (homeosztázis) fenntartásában. Szabályozza a vegetatív idegrendszert (pl. pulzus, vérnyomás, testhőmérséklet, éhség, szomjúság), és kapcsolatban áll az érzelmi viselkedés központjaival, például az amygdalával és a frontális kéreggel. Mindez lehetővé teszi, hogy a szomatikus állapotok változásait integrálja az érzelmi állapotokkal – vagyis valóban központi szerepe van az érzelmi homeosztázis szabályozásában.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 31,
@@ -663,7 +663,7 @@
     "explanation": "A beszédközpontok többnyire a bal féltekében találhatók. Ha a jobb féltekét érzéstelenítik, és a beszéd nem torpan meg, az azt jelzi, hogy a bal félteke a domináns – ami teljesen normális. Tehát a beszéd NEM torpan meg automatikusan a jobb félteke érzéstelenítésekor.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 33,
@@ -679,7 +679,7 @@
       "után az eddig alfa pozíciót elfoglalt csimpánzok a hierarchia aljára estek.",
       "az érzelmek megértésében nem okoz változást. (hiszen az érzelemfelismerés is sérülhet)"
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "|  |  |\n| :-: | :-: |\n| Állítás | Indoklás |\n| a) A szociális kontextusnak megfelelő viselkedés akadályozott | Frontális sérülés után gyakori a szociálisan inadekvát viselkedés |\n| b) Publikus maszturbáció előfordulhat | Diszinhibíció és gátlásvesztés jellemző tünet |\n| c) Hangulatváltozást okozhat | A frontális lebeny sérülése okozhat apátiát, ingerlékenységet vagy eufóriát is |\n| d) Csimpánzoknál hierarchia-vesztés történt | Hayes (1947) és más etológiai vizsgálatok is leírták ezt frontális sérülés után |",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -703,7 +703,7 @@
     "explanation": "Az alfa hullámok (8–12 Hz) csökkenése (alfa deszinkronizáció) jellemző azokra az agyterületekre, amelyek éppen aktív feldolgozást végeznek. Az empátiával kapcsolatos agyi aktivitás különösen a prefrontális és a mediális frontális kéregben figyelhető meg. Az EEG segítségével a frontális alfa aktivitás változásai alapján következtetni lehet az érzelmi válaszkészségre, empatikus reakciókra, és a szociális kogníció különféle aspektusaira.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 35,
@@ -723,7 +723,7 @@
     "explanation": "A tanulási effektus (angolul: practice effect vagy learning effect) azt a jelenséget jelöli, amikor egy személy ismételt tesztfelvétel során egyre jobb eredményeket ér el, nem azért, mert a vizsgált képesség fejlődött, hanem mert a személy egyre ismerősebbé válik a teszttel (annak struktúrájával, instrukcióival, mechanizmusával stb.). Ez a hatás torzíthatja a neuropszichológiai mérőeszközök validitását, különösen akkor, ha rövid időn belül ugyanazt a tesztet ismételjük, például állapotkövetésnél vagy terápiás hatásvizsgálatnál.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 36,
@@ -739,11 +739,11 @@
       "occitipális kéreg",
       "retrospeniális kéreg (önéletrajzi és epizodikus emlékek téri-idői kontextusának integrációja)"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "Az emlékezeti folyamatok (különösen az epizodikus és szemantikus memória) agyi reprezentációja széles körű agyhálózatot igényel, amelyben többek között a hippocampus, a parahippocampális kéreg, a frontális kéreg és a retrosplenális kéreg is részt vesz. Ezek az agyterületek különböző szerepet játszanak a kódolás, tárolás és előhívás folyamataiban.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 37,
@@ -799,11 +799,11 @@
       "prosopagnosia és neglekt szindróma",
       "prosopagnosia (csak arcfelismerési zavar)"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A prosopagnosia, vagyis arcfelismerési zavar esetén a személy nem képes felismerni az arcokat – beleértve a sajátját is. A tükörbe nézve nem alakul ki ismerősségérzet, így előfordulhat, hogy a személy idegenként érzékeli saját tükörképét. A jelenség hátterében leggyakrabban a fusiform gyrus, azon belül is a jobb oldali fusiform face area károsodása áll.\n\nA neglekt szindróma olyan figyelmi zavar, amely során a beteg a tér egyik oldalát – jellemzően a bal oldalt – figyelmen kívül hagyja. Amikor tükörbe néz, előfordulhat, hogy saját arcának egyik felét nem észleli, és nem reagál arra, mintha az nem is létezne. Ez a tünetkép leggyakrabban a jobb oldali parietális lebeny sérüléséhez köthető.\n\nE két állapot együttes fennállása különösen torzíthatja a személy énképét: ilyenkor a beteg sem nem ismeri fel, sem nem észleli teljes egészében saját arcát a tükörben, ami súlyos identitás-élménybeli zavart okozhat.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 40,
@@ -833,11 +833,11 @@
       "A személy a tányér egyik oldaláról eszi csak meg az ételt.",
       "A személy egy vitában csupán az egyik fél álláspontját képes befogadni és felidézni (= Nem téri figyelmi zavar, inkább kognitív torzítás vagy rigiditás)"
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "A neglect szindróma (figyelmi hemiagnózia) egy térbeli figyelmi zavar, amely leggyakrabban a jobb oldali parietális lebeny sérülése után alakul ki, és a bal térfél figyelmen kívül hagyásával jár. Ez nem érzékszervi vagy memóriazavar, hanem tudattalan elhanyagolás: a beteg egyszerűen nem vesz tudomást a testének vagy környezetének egyik feléről – jellemzően a bal oldalról.\n\n|  |  |\n| :-: | :-: |\n| Viselkedés | Miért jellemző a neglect szindrómára? |\n| a) Csak az ábra egyik oldalát rajzolja meg | Téri figyelmi hiány – az egyik oldal „eltűnik” a tudatból |\n| b) Csak az arca egyik oldalát sminkeli ki | A test bal oldalának elhanyagolása, gyakori tünet |\n| c) Gondot okoz az olvasás | „Hemispace neglect” az olvasási térre is kiterjedhet – pl. a sorok bal oldala kimarad |\n| d) Csak a tányér egyik oldaláról eszik | A vizuális-téri reprezentáció hiánya miatt az étel egyik fele „láthatatlan” számára |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 42,
@@ -877,7 +877,7 @@
     "explanation": "A szemantikus emlékezet az általános világismeretünket, fogalmainkat, tényeket, neveket és jelentéseket tárolja – idői és kontextuális kötöttség nélkül. Nem epizodikus, azaz nem eseményhez kötött, hanem időtől és helytől független tudás (pl. „A Nap egy csillag”, „Einstein egy fizikus volt”).",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 44,
@@ -893,7 +893,7 @@
       "A Broca- és Wernicke-területek legtöbbször bilaterális elhelyezkedésűek.",
       "A homloklebenyben rendkívül sok az aszimmetria."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Az agyféltekei aszimmetria azt jelenti, hogy bizonyos funkciók túlnyomórészt az egyik agyféltekéhez kapcsolódnak, vagyis funkcionális lateralizáció jellemzi őket. Ez nem azt jelenti, hogy teljesen eltérő funkciókat látnának el a féltekék, hanem hogy bizonyos feldolgozási dominancia figyelhető meg – például: bal féltekei dominancia: nyelvfeldolgozás (Broca- és Wernicke-területek), analitikus gondolkodás, logikai műveletek (főleg jobbkezeseknél), jobb féltekei dominancia: téri-vizuális feldolgozás, érzelemfelismerés, prozódia (beszéd dallama, hangsúlya).\n\nA Broca- és Wernicke-területek a bal féltekében találhatók a legtöbb embernél, különösen jobbkezeseknél – ezek markáns példái a funkcionális aszimmetriának.",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -913,11 +913,11 @@
       "szervezési készségek",
       "impulzuskontroll"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 46,
@@ -933,7 +933,7 @@
       "idői emlékezet",
       "kognitív flexibilitás"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "|  |  |  |\n| :-: | :-: | :-: |\n| Funkció | Végrehajtó funkció? | Indoklás |\n| a) Self-reguláció | ✅ Igen | Viselkedés és érzelmek kontrollja |\n| b) Előre tervezés | ✅ Igen | Célorientált gondolkodás része |\n| c) Munkamemória | ✅ Igen | Információ aktív megtartása és manipulálása |\n| d) Idői emlékezet | ❌ Nem | Epizodikus memória része, nem végrehajtó rendszer |\n| e) Kognitív flexibilitás | ✅ Igen | Új helyzetekhez való alkalmazkodás |\n\nBaddeley munkamemória-modellje (eredeti 4 komponens)\n\nKözponti végrehajtó (central executive): irányítja a figyelmet, válogat az információk között, gátol vagy aktivál.\n\nFonológiai hurok (phonological loop): verbális és auditív információk átmeneti tárolására szolgál.\n\nTéri-vizuális vázlattömb (visuospatial sketchpad): vizuális és téri információk rövid távú megtartására szolgál.\n\nEpizodikus puffer (episodic buffer): a különböző információforrásokat (pl. téri, verbális, hosszú távú memória) integrálja egy egységes epizodikus reprezentációvá. → Ez kapcsolódik leginkább a kérdés szövegéhez.",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -981,11 +981,11 @@
       "fonológiai hurok",
       "procedurális tár"
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "A végrehajtó funkciók olyan magas szintű kognitív képességek, amelyek lehetővé teszik a célirányos viselkedést, problémamegoldást, tervezést és önszabályozást. Ezek a funkciók elsősorban a prefrontális kéreghez köthetők, és szorosan együttműködnek más agyterületekkel (pl. parietális kéreg, striatum).",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 50,
@@ -1001,11 +1001,11 @@
       "Kérd meg a személyt, hogy beszéljen, esetleg mondjon el utánad mondatokat.",
       "Ha észleled valakin a stroke tüneteit, azonnal hívj mentőt\\!"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Stroke-gyanú esetén idő = agyszövet, vagyis minden perc számít. A korai felismerés és az azonnali orvosi segítséghívás életet és agyműködést menthet. Semmiképpen nem szabad várni vagy pihenést javasolni, mert a stroke gyorsan romló állapot lehet.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 51,
@@ -1061,7 +1061,7 @@
       "amgydala",
       "hipotalamusz"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A sakkban lévő vizuális mintázatok felismerése során kiemelkedő aktivitás mutatkozott a fusiform face area (FFA) területén – nem arcokra, hanem játékpozíciókra reagálva. Bár a fusiform face area klasszikusan az arcfelismeréshez kapcsolható, a kutatások szerint bármilyen vizuális területen szerzett szakértői tudás (pl. sakk, madárhatározás, autómodell-felismerés) aktiválhatja ezt a régiót. Ez azt mutatja, hogy az FFA nem kizárólag arcokra specializálódott, hanem sémaszerű, komplex vizuális mintázatok feldolgozására is alkalmas – ha az adott személy magas szintű szakértő az adott doménben.\n\n|  |  |\n| :-: | :-: |\n| Agyterület | Funkció / megfigyelés |\n| Fusiform Face Area (FFA) | Vizuális mintázatok felismerése sakkjáték során, nemcsak arcokra, hanem szakértői mintákra is érzékeny |\n| Broca-terület | Nyelvi produkció – nem érintett sakkmintázatok feldolgozásában |\n| Corpus callosum | A két agyfélteke közötti kapcsolat – nem specifikus sakkhoz vagy mintaelemzéshez |\n| Amygdala | Érzelmi reakciók, fenyegetettség észlelése – nem releváns sakkmintafelismerés szempontjából |\n| Hipotalamusz | Homeosztatikus szabályozás – nem kapcsolódik sakkhoz vagy vizuális felismeréshez |",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -1081,11 +1081,11 @@
       "TIA esetén a stroke tünetek egy idő után akár maguktól is megszűnhetnek.",
       "Subarachnoidális vérzések stroke esetén egy vérrög alakul ki a SAI térben, amely a stroke-ot okozza."
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "|  |  |\n| :-: | :-: |\n| Stroke típusa | Lényege / jellemző ok |\n| Embóliás ischaemiás stroke | Nem az agyban képződött vérrög okozza az agyi ér elzáródását (pl. szívből, nyaki artériából) |\n| Hemorrhágiás stroke | Agyérrepedés következtében kialakuló vérzés az agyállományban vagy körülötte |\n| Kriptogén stroke | Ismeretlen eredetű stroke – a kiváltó ok nem deríthető ki |\n| TIA (tranziens ischaemiás attak) | Átmeneti stroke-szerű tünetek, amelyek 24 órán belül spontán megszűnhetnek |\n| Subarachnoidális vérzés | Vérzés az agyhártyák közötti térben (SAI tér), nem vérrög, hanem pl. aneurizmarepedés okozza |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 55,
@@ -1109,7 +1109,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 56,
@@ -1129,7 +1129,7 @@
     "explanation": "A „distance-based” idői emlékezet olyan elméleti modell, amely szerint az emberek nem konkrét időpontok alapján, hanem az emléknyom erősségének érzékelt „távolsága” alapján becsülik meg, hogy mennyi idő telt el egy esemény óta. Ez a becslés nem pontos, hanem hozzávetőleges, hiszen az emlékek időbeli elhalványulása nem lineáris. Például: „Ez régebbinek tűnik, mert halványabb emlékem van róla, mint a másikról.” Az emléknyom „erőssége” vagy élénksége tehát támpontként szolgál, de nem nyújt precíz idői információt – így a becslés inkább pontatlan, szubjektív.\n\n|  |  |\n| :-: | :-: |\n| Válasz | Indoklás |\n| a) emléknyom erőssége → pontos idő | A becslés nem pontos, csak hozzávetőleges |\n| b) szekvenciális pozíció → pontatlan idő | Ez order-based modell, nem distance-based |\n| c) szekvenciális pozíció → pontos idő | Ez sem jellemző a distance-alapú modellre |\n| d) erősség + pozíció → pontos idő | Túl bonyolított, nem egyértelműen distance-alapú |\n| e) emléknyom erőssége → pontatlan idő | A distance-based modell alapelve ez: becslés az emléknyom „távolsága” alapján |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 57,
@@ -1149,7 +1149,7 @@
     "explanation": "|  |  |  |\n| :-: | :-: | :-: |\n| Válasz | Értékelés | Indoklás |\n| a) Helyes | A TCM szerint az időben változó kontextus határozza meg az emlék előhívhatóságát |  |\n| b) |  Hamis | Ez a spatiotemporális memória modelljére jellemző |\n| c) | Hamis | A téri és idői emlékekhez külön sejtek kapcsolódnak |\n| d) | Hamis | Ez a kódolásspecifikus előhívás elméletére vonatkozik |\n| e) | Részben igaz, de pontatlan | Nem hangsúlyozza a folyamatos idői kontextusváltozást |\n\nA Temporal Context Model (TCM) (Howard & Kahana, 2002) egy emlékezeti modell, amely azt állítja, hogy az emlékek nem önmagukban tárolódnak, hanem egy időben változó kontextushoz kapcsolódnak. Ez a „kontextus” egy mentális reprezentáció, amely folyamatosan változik az idő múlásával, és befolyásolja, hogy mikor és hogyan hívható elő egy adott emlék. Ha az előhívás során a mentális kontextus hasonló ahhoz, mint ami a kódoláskor jelen volt, az előhívás sikeresebb lesz. Ez a modell tehát azt mondja ki, hogy az idői közelség és a kontextus hasonlósága meghatározza az emlékezeti hozzáférhetőséget – ezért „temporal” context model.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 58,
@@ -1185,11 +1185,11 @@
       "Broca-afázia",
       "Wernicke-afázia"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A tükörterápia (mirror therapy) egy egyszerű, de hatékony neurorehabilitációs eljárás, amely során a beteg egy tükröt helyez a teste elé, úgy, hogy az ép végtagját látja a tükörben, mintha az a sérült vagy amputált testrész lenne. A vizuális illúzió révén az agy újraszervezi a testképét, és ezáltal csökkenhet a fájdalomérzet vagy mozgási deficit. A tükörben látott „mozgó végtag” segít az agyi testkép torzulásának korrekciójában.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 60,
@@ -1236,7 +1236,7 @@
     "explanation": "| Komponens | Leírás |\n| :-: | :-: |\n| ✅ 1. Fiziológiai komponens | A vegetatív idegrendszer változásai (pl. pulzus, izzadás, pupillatágulat) – testi válaszok |\n| ✅ 2. Viselkedéses komponens | Kifejező viselkedés, pl. arckifejezés, testtartás, hangadás – másodlagos kommunikációs csatorna |\n| ✅ 3. Szubjektív (kognitív-affektív) komponens | Az egyén által megélt érzelmi élmény, belső értékelés, érzelemkategória – „mit érzek?” |\n\n|  |  |  |\n| :-: | :-: | :-: |\n| Komponens típusa | Példa | Kapcsolódó agyterületek |\n| Fiziológiai (vegetatív) | Szívritmus, verejtékezés | Hipotalamusz, agytörzs, amygdala |\n| Viselkedéses (expresszív) | Arckifejezés, hang, testtartás | Motoros kéreg, bazális ganglionok |\n| Szubjektív/kognitív (élmény) | Félelem, öröm, düh | Prefrontális kéreg, insula, amygdala |\n\n| Érzelmi funkció | Érzelmi komponens |\n| :-: | :-: |\n| A környezet (tárgyak és események) értékelése | Kognitív komponens (értékelés) |\n| Rendszerszabályozás | Neurofiziológiai komponens (testi jelzések) |\n| A cselekvés előkészítése és irányítása | Motivációs komponens (cselekvési tendenciák) |\n| A reakció és a viselkedési szándék kommunikációja | Motoros kifejező komponens (faciális és vokális kifejezés) |\n| A belső állapotok és a szervezet–környezet interakció monitorozása | Szubjektív érzés komponens (érzelmi élmény) |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 62,
@@ -1357,7 +1357,7 @@
     "explanation": "A hosszú távú potenciáció, az idegsejtek közötti szinaptikus kapcsolat megerősödését jelenti, amely ismételt vagy tartós ingerlés hatására jön létre. Ez az egyik legfontosabb sejtszintű mechanizmus, amelyet a tanulás és a hosszú távú memória kialakulásával hoznak összefüggésbe. A jelenség lényege, hogy ha két neuron egyidejűleg aktiválódik ismételten, akkor a köztük lévő szinapszis hatékonyabbá válik – vagyis a jövőben kisebb inger is erősebb választ fog kiváltani. Ez a Hebb-elv („neurons that fire together wire together”) alapja is.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 68,
@@ -1373,7 +1373,7 @@
       "temporo-parietális lebeny",
       "parietális lebeny"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "|  |  |\n| :-: | :-: |\n| Agyterület | Kapcsolódó zavar |\n| b) Fusiform gyrus | Prosopagnosia (arcfelismerési zavar) |\n| c) Agytörzs | Locked-in szindróma (motoros pályák leszakadása) |\n| d) Temporo-parietális lebeny | Wernicke-afázia (nyelvi megértési zavar) |\n| e) Parietális lebeny | Neglekt szindróma (térbeli figyelmi deficit) |",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -1393,7 +1393,7 @@
       "d) minél részletesebb leírása a céljainknak (alternatív válasz)",
       "e) az elvégzendő feladatok strukturálása"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "A matematikai készségek fejlesztése neuropszichológiai szempontból elsősorban a parietális lebeny bal oldali régióihoz köthető, különösen az intra-parietális sulcushoz (IPS), amely számfeldolgozást és mennyiségi reprezentációt végez. Ez nem azonos a tervezéshez szükséges prefrontális hálózatokkal, így nem tekinthető közvetlen fejlesztő hatásúnak a tervezési készségek szempontjából.\n\n|  |  |  |\n| :-: | :-: | :-: |\n| Válasz | Agyterület | Kapcsolat a tervezési funkcióval |\n| a) Verbálisan kimondjuk a terveinket | Bal prefrontális lebeny | A verbalizáció aktiválja a végrehajtó rendszereket, fokozza az önmonitorozást |\n| c) „Bedtime routine” kialakítása | Orbitofrontális és dorsolaterális prefrontalis kéreg | Strukturálási és viselkedésszervező funkciókat gyakoroltat |\n| d) Célok részletes leírása | Dorsolaterális prefrontalis kéreg | Célelőkészítés, hierarchikus viselkedéstervezés |\n| e) Feladatok strukturálása | Dorsolaterális és anterior cinguláris kéreg | Feladatsorrendek, prioritások, konfliktuskezelés |",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -1414,11 +1414,11 @@
       "mind igaz",
       "Az EEG (elektroenkefalográfia) és a MEG (magnetoenkefalográfia) egyaránt nem invazív módszerek az agy működésének vizsgálatára, de különböző jelenségeket mérnek:"
     ],
-    "answer": 1,
+    "answer": 5,
     "explanation": "|  |  |  |\n| :-: | :-: | :-: |\n| Jellemző | EEG | MEG |\n| Mit mér? | Elektromos feszültséget (tér) | Mágneses mezőt |\n| Érzékenység | Főként a felszíni kortexhez | Jó forráslokalizáció mélyebb struktúrákhoz is |\n| Elterjedtség | Széles körben használt | Kevés, specializált laborban elérhető |\n| Ár / infrastruktúra | Viszonylag olcsó, könnyen kezelhető | Nagyon drága, különleges környezet kell |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 71,
@@ -1438,7 +1438,7 @@
       "aktív akkor is, ha a figyelem rejtett (covert) vagy nyílt (overt) módon irányul valamire,",
       "főként téri tájékozódásnál kapcsolódik be: „hova nézzek?”, „merre osszam el a figyelmemet?”."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "|  |  |\n| :-: | :-: |\n| Állítás | Indoklás |\n| Akkor aktív, mikor a figyelem a téri orientációban játszik szerepet, akár nyílt vagy rejtett folyamatokban is | A DAN a top-down téri figyelmi irányításért felel, bilaterálisan működik, rejtett és nyílt figyelmet is vezérel. |\n| Elsősorban a külső ingerek vezérlik | Ez a ventrális hálózatra (VAN) jellemző, amely bottom-up módon aktiválódik váratlan ingerekre. |\n| Az agy bal féltekére lateralizálódik | A DAN bilaterális, nincs bal oldali dominancia. A lateralizáció a ventrális hálózatra (jobb félteke) jellemző. |\n| A számterjedelmi feladatok megoldásánál aktív | Ezek a feladatok főként munkamemória- és parietális számfeldolgozó hálózatokat érintenek, nem specifikusan a DAN-t. |\n| Mind igaz | Csak az a) igaz; a többi állítás téves, ezért ez a válasz nem helyes. |",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -1478,11 +1478,11 @@
       "lokális- globális feldolgozást mérő teszt",
       "Trail Making teszt"
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "A tárgypercepció középső feldolgozási szakasza során az agy már feldolgozta az alapvető vizuális jellemzőket (pl. kontúr, szín, irány), és most elkezd összetettebb egységeket létrehozni: a részeket egészben értelmezi, az alakzatokat hierarchikusan strukturálja (pl. mi a részlet, mi az egész).\n\n|  |  |\n| :-: | :-: |\n| Válasz | Indoklás |\n| a) Szondi-teszt | Mélylélektani, projektív teszt, nem tárgypercepciós. |\n| b) Flanker-teszt | Figyelmi interferencia és szelektív figyelem vizsgálata, nem perceptuális integráció. |\n| c) Go/No-Go teszt | Végrehajtó kontroll és gátlás vizsgálatára szolgál, nem perceptuális feldolgozásra. |\n| e) Trail Making Test | Figyelmi-végrehajtó funkciókat és mentális rugalmasságot mér, nem perceptuális teszt. |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 74,
@@ -1502,7 +1502,7 @@
     "explanation": "|  |  |  |  |\n| :-: | :-: | :-: | :-: |\n| Eljárás | Fókusz | Jelleg | Cél |\n| Lézió | Agyi struktúra megszűnése → mi hiányzik? | Destruktív, irreverzibilis | Oksági viszony vizsgálata |\n| Stimuláció | Agyi struktúra ingerlése → mi változik? | Nem-desztruktív, gyakran reverzibilis | Funkcionális hozzájárulás vizsgálata |\n\n|  |  |\n| :-: | :-: |\n| Válasz | Értékelés |\n| b) Lézió veszélyesebb |  Részben igaz, de nem ez a fő különbség, és a stimuláció is lehet invazív (pl. DBS). |\n| c) Stimuláció mindig serkentő |  Hamis – lehet gátló vagy serkentő hatású is (pl. TMS típusától függően). |\n| d) Mind etikátlan, nem engedélyezett |  Hamis – mindkettőt használják etikai normák betartásával, pl. epilepsziasebészetnél, kutatásban. |\n| e) Stimulációnak nincs hatása | Teljesen hamis – széles körben használják terápiás és kutatási célokra is (pl. depresszió kezelése TMS-sel). |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 75,
@@ -1518,11 +1518,11 @@
       "az első gyakori előfordulású és könnyen gyógyítható, a második pedig nem",
       "a második asszociációs agnóziában szenvedők felismerik a tárgyakat csak nem tudnak mesélni róla, nem emlékeznek arra, hogy mikor látták először életükben"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "|  |  |  |\n| :-: | :-: | :-: |\n| Típus | Fő tünet | Mit tud / nem tud a beteg? |\n| Apperceptív agnózia | Alak- és formaészlelési zavar | Nem ismeri fel a tárgy körvonalát, nem tud másolni |\n| Asszociációs agnózia | Jelentés-hozzárendelési zavar | Le tud másolni, de nem tudja megnevezni vagy használni a tárgyat |\n\n|  |  |  |\n| :-: | :-: | :-: |\n| Jellemző | Apperceptív agnózia | Asszociációs agnózia |\n| Észlelési szint | Az észlelés legkorábbi szintjén jelentkezik a zavar | Az észlelés strukturálisan ép, a feldolgozás későbbi fázisában van a probléma |\n| Alak- és formaészlelés | Nem tudja feldolgozni a tárgy körvonalait, formáit | Fel tudja dolgozni a tárgy formáját, de nem társít hozzá jelentést |\n| Rajz másolása | Nem képes másolni rajzokat | Le tudja másolni, de nem tudja megmondani, mit ábrázol |\n| Tárgyfelismerés | Egyszerű ábrák jelentését sem ismeri fel | Nem tudja megnevezni vagy azonosítani a tárgyat |\n| Károsodás helye | Jobb oldali occipitális lebeny | Bal oldali occipito-temporális régió |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 76,
@@ -1543,11 +1543,11 @@
       "az információ eljut az agyba, de ott nem történik meg a feldolgozás vagy a jelentés-hozzárendelés.",
       "Ez a zavar a ventrális vizuális feldolgozó rendszer (a „mi” pálya) károsodásából ered, amely az occipitotemporális kéreg területeit érinti – például a fusiform gyrus vagy a lingual gyrus."
     ],
-    "answer": 1,
+    "answer": 4,
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 77,
@@ -1649,7 +1649,7 @@
     "explanation": "|  |  |\n| :-: | :-: |\n| Szempont | MMSE jellemzője |\n| Alkalmazhatóság | Egyszerű, gyors, széles körben elérhető |\n| Időtartam | 5–10 perc |\n| Költség | Minimális |\n| Érzékenység enyhe hanyatlásra | Alacsony – fő probléma |\n| Alternatívák | MoCA, ACE-III – nagyobb érzékenységgel |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 83,
@@ -1690,11 +1690,11 @@
       "nincs különbség a kettő között, ugyanannak a funkciónak a két elnevezése a szakirodalomban",
       "a fenntartott figyelem megegyezik a multitasking jelenségével, míg az éberség a riasztással"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "|  |  |  |\n| :-: | :-: | :-: |\n| Szempont | Fenntartott figyelem (sustained attention) | Éberség / Vigilancia (alertness / vigilance) |\n| Fő jellemző | Folyamatos, aktív koncentráció hosszabb időn át | Általános készenléti állapot, passzív figyelmi alapállapot |\n| Kognitív aktivitás | Aktív információfeldolgozás | Készenlét a feldolgozásra, de gyakran minimális feldolgozási igény |\n| Példafeladat | Hosszú szövegértés, számsor figyelése, monoton tanulás | Jel észlelése ritkán megjelenő ingerek között (pl. radarképernyő figyelése) |\n| Agyterületek | Dorsolaterális prefrontális kéreg, anterior cinguláris kéreg, jobb parietális lebeny | ARAS (Ascending Reticular Activating System), thalamus, agytörzsi hálózatok |\n| Funkció típusa | Top-down (akaratlagos, belső kontrollált) figyelmi szabályozás | Tónusos éberségi szint, gyakran automatikus és alacsony szintű feldolgozással |\n| Kapcsolódó zavarok | ADHD, szkizofrénia, frontális sérülések | Hypersomnia, narkolepszia, agytörzsi sérülések |\n| Észlelési igény | Folyamatos ingerek követése | Szubtilis változások észlelése ritkán vagy váratlanul |\n| Vizsgálati módszerek | Continuous Performance Test (CPT), Sustained Attention to Response Task (SART) | Psychomotor Vigilance Task (PVT), Go/No-Go feladatok hosszabb időtartamban |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 85,
@@ -1710,11 +1710,11 @@
       "téri memória, visszaszámlálás, rajz",
       "finom motorika, szövegolvasás, szemvizsgálat"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "|  |  |  |  |\n| :-: | :-: | :-: | :-: |\n| Afáziatípus | Fluencia | Beszédértés | Ismétlés |\n| Broca-afázia | nem fluens | megértés megtartott | ismétlés sérült |\n| Wernicke-afázia | fluens | megértés sérült | ismétlés sérült |\n| Konduktív afázia | fluens | megértés jó | ismétlés sérült |\n| Transzkortikális motoros | nem fluens | megértés jó | ismétlés megtartott |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 86,
@@ -1734,7 +1734,7 @@
       "A beszédértés viszonylag megtartott,",
       "Az ismétlés súlyosan sérült, még akkor is, ha a beteg érti, amit mondania kellene."
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "|  |  |\n| :-: | :-: |\n| Válasz | Miért nem helyes? |\n| b) „Ismétlés tökéletesen megőrzött” | A vezetéses afázia legismertebb tünete a súlyosan károsodott ismétlés. |\n| c) „Az írás képessége tökéletesen megőrzött” | Az írás gyakran sérült, főként ha fonológiai torzítás is jelen van. |\n| d) „A Broca-terület egyik alterülete okozza” | Nem a Broca-terület, hanem az arcuatus fasciculus sérülése a fő ok. |",
     "category": "vizsga",
     "vizsgakerdes": true,
@@ -1762,7 +1762,7 @@
     "explanation": "|  |  |  |\n| :-: | :-: | :-: |\n| Mért funkció | Jelentés | Érintett rendszer |\n| Szelektív rejtett figyelem | A figyelem térbeli áthelyezése szemmozgás nélkül | Dorzális figyelmi rendszer |\n| Valid cue | Gyorsabb reakcióidő, ha a jelzés helyes | Figyelem irányítása |\n| Invalid cue | Lassabb reakció, újraorientáció szükséges | Figyelem újraosztása |",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 88,
@@ -1825,11 +1825,11 @@
       "szerepe van abban, hogy hallott szavakat írott formává alakítunk (fonéma–gráféma transzformáció),",
       "valamint a vizuális olvasási és írási formák (pl. betűk, szóalakok) reprezentációjában is."
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 91,
@@ -1854,7 +1854,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 92,
@@ -1887,7 +1887,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 94,
@@ -1904,7 +1904,7 @@
     "explanation": "Gall elképzelése szerint a különböző értelmi szinttel bíró élőlények – akár különböző fajok, akár okosabb vagy kevésbé okos emberek – eltérő agymérettel rendelkeznek. Ennek hatására az emberek a koponya alakját kezdték el tanulmányozni, például az emlékezetet a homlokhoz kötötték.\n\nOlyan értelemben lokalizacionisták voltak, hogy különböző „agydudorokat” neveztek meg különböző mentális funkciók mögött. Az agydudorok alapján 27 képességet különítettek el, például: jókedvűség, kedvesség, stb.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 95,
@@ -2021,7 +2021,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 102,
@@ -2083,7 +2083,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 106,
@@ -2115,7 +2115,7 @@
     "explanation": "A V2 fő bemenete a V1 felől érkezik, ezért a V2 sejtjeinek hangolása hasonló a V1 sejtekéhez. A V2-be bemenet érkezik a pulvinar (thalamikus struktúra) felől is, különösen szakkádikus szemmozgások és vizuális figyelem során. A V2 feladatai közé tartozik az illuzorikus kontúrok érzékelése, a mélységérzékelés a kétoldali bemenetek összehasonlítása alapján, valamint az objektum és háttér elkülönítése. Ez a terület visszacsatolást (feedback) küld a V1 felé, miközben előre irányuló jeleket (feedforward) továbbít a V3–V5 területekhez.\n\nA V3 bemeneteit főként a V2 felől kapja, és feladata a globális mozgás érzékelése, beleértve az irány és a sebesség feldolgozását. Kimenetei elsősorban a temporális kéreg, azon belül is a middle temporal (MT) terület felé irányulnak.\n\nA V4 bemenetet kap a V1, V2, V3, valamint a pulvinar felől, de feedback információkat is fogad a V5-től és a szemmozgató motoros kérgi területekről. Fő funkciója az egyszerű alakzatok felismerése.\n\nA V5 (más néven MT) elsődleges szerepe a mozgás analízise, vagyis a mozgások irányának és dinamikájának feldolgozása. A vizuális feldolgozás magasabb szintjén az inferior temporális gyrus felelős a komplex alakzatok, például objektumok és arcok felismeréséért, valamint a hippocampus közreműködésével részt vesz a vizuális memória kialakításában is.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 108,
@@ -2133,7 +2133,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 109,
@@ -2220,7 +2220,7 @@
     "explanation": "A lobotómia elterjedését részben az elmebetegek számának növekedése, illetve a pszichiátriai esetek számának emelkedése magyarázza. A kórházak túlzsúfolttá váltak, és szükség volt egy gyors, hatékonynak vélt beavatkozásra a kezelések megkönnyítése érdekében.\n\nAzonban az 1950-es évektől, az antipszichotikumok elterjedésével a lobotómia fokozatosan háttérbe szorult a szakértők körében. Az utolsó Freeman-féle műtétre 1967-ben került sor.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 115,
@@ -2251,7 +2251,7 @@
     "explanation": "",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 117,
@@ -2283,7 +2283,7 @@
     "explanation": "Hat anatómiai agyterületet különített el egymástól, azonban funkcionális szempontból nem tudott világos különbséget tenni közöttük. Például szerinte az agykéreg egyszerre felelős az akaratlagos cselekvésekért és a percepcióért, vagyis nem különült el nála a funkcionális specializáció.",
     "category": "vizsga",
     "vizsgakerdes": true,
-    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive) ⚠ válasz ellenőrzendő"
+    "source": "Neuropszichológia_kérdésbank_magyarázatokkal (Drive)"
   },
   {
     "id": 119,
