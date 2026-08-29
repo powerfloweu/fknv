@@ -124,7 +124,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
             ))}
           </ul>
           <Link
-            href="/idegzavarok/kviz"
+            href="/idegzavarok/vizsga"
             style={{
               display: "block",
               marginTop: 16,
