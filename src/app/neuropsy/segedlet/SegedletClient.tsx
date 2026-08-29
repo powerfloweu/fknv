@@ -124,7 +124,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
             ))}
           </ul>
           <Link
-            href="/neuropsy/kviz"
+            href="/neuropsy/vizsga"
             style={{
               display: "block",
               marginTop: 16,
