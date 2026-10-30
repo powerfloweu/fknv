@@ -58,7 +58,7 @@ export default function Home() {
             Fejlődési Kognitív Idegtudomány
           </h2>
           <div style={{ color: '#475569', fontSize: 14, marginBottom: 18, lineHeight: 1.5, flexGrow: 1 }}>
-            Vizsgarendszer ~350 kérdéssel, próbavizsga és tanuló mód, blokk/téma/nehézség szerinti szűréssel.
+            Vizsgarendszer ~350 kérdéssel, próbavizsga és témakörönkénti kvíz, tanuló mód blokk/téma/nehézség szerinti szűréssel.
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             <Link href="/study" style={{

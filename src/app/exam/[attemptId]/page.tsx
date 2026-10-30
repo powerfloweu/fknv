@@ -188,22 +188,25 @@ function ExamPage() {
         setRemainingTime(Math.max(0, total - elapsed));
         return;
       }
-      // Try to get count from localStorage (set by ExamStartPage)
+      // Try to get count, hardMode and blokk from localStorage (set by ExamStartPage)
       let count: number | undefined = undefined;
+      let hardMode = false;
+      let blokk: string | undefined = undefined;
       try {
         const examMeta = localStorage.getItem("exam-meta");
         if (examMeta) {
           const meta = JSON.parse(examMeta);
-          if (meta && meta[String(attemptId)] && typeof meta[String(attemptId)].count === "number") {
-            count = meta[String(attemptId)].count;
-          }
+          const m = meta?.[String(attemptId)];
+          if (m && typeof m.count === "number") count = m.count;
+          if (m?.hardMode === true) hardMode = true;
+          if (m && typeof m.blokk === "string" && m.blokk) blokk = m.blokk;
         }
       } catch {}
-      // Fetch from backend with count if available
+      // Fetch from backend with the same settings as on the start page
       const res = await fetch(`/api/exam/start`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(count ? { seed: attemptId, count } : { seed: attemptId })
+        body: JSON.stringify({ seed: attemptId, ...(count ? { count } : {}), hardMode, ...(blokk ? { blokk } : {}) })
       });
       if (res.ok) {
         const data = await res.json();
