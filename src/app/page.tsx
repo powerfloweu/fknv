@@ -1,236 +1,137 @@
 import Link from "next/link";
+import { Activity, Brain, Lightbulb, Puzzle, type LucideIcon } from "lucide-react";
+import fkiBank from "@/data/questionBank_GOLD.json";
+import idegzavarokBank from "@/data/idegzavarokQuestionBank.json";
+import idegzavarokTopics from "@/data/idegzavarokTopics.json";
+import kognitivBank from "@/data/kognitivQuestionBank.json";
+import kognitivTopics from "@/data/kognitivTopics.json";
+import neuropsyBank from "@/data/neuropsyQuestionBank.json";
+import neuropsyTopics from "@/data/neuropsyTopics.json";
+import neuropsyCases from "@/data/neuropsyCases.json";
+
+type Subject = {
+  title: string;
+  summary: string;
+  stats: string;
+  icon: LucideIcon;
+  accent: string; // gombok és ikon (fehér szöveggel is ≥4.5:1)
+  tint: string; // ikon háttér
+  study: string;
+  exam: string;
+  extra?: { href: string; label: string };
+};
+
+// A számok build közben az adatfájlokból jönnek, így nem avulnak el
+const fkiBlokks = new Set((fkiBank as { blokk?: string }[]).map((q) => q.blokk).filter(Boolean)).size;
+
+const subjects: Subject[] = [
+  {
+    title: "Fejlődési kognitív idegtudomány",
+    summary: "Próbavizsga és témakörönkénti kvíz, tanuló mód blokk, téma és nehézség szerinti szűréssel.",
+    stats: `${fkiBank.length} kérdés · ${fkiBlokks} témakör`,
+    icon: Brain,
+    accent: "#4338ca",
+    tint: "#eef2ff",
+    study: "/study",
+    exam: "/exam",
+  },
+  {
+    title: "Idegrendszer fejlődési zavarai és fejlesztésük",
+    summary: "IKZ, tanulási zavarok, ADHD, autizmus, koraszülöttség és fejlesztés, részletes tanulási segédlettel.",
+    stats: `${idegzavarokBank.length} kérdés · ${idegzavarokTopics.length} témakör`,
+    icon: Puzzle,
+    accent: "#c2410c",
+    tint: "#fff7ed",
+    study: "/idegzavarok/tanulas",
+    exam: "/idegzavarok/vizsga",
+  },
+  {
+    title: "Kognitív pszichológia mesterfokon",
+    summary: "Arcészlelés, érzelmek, képzelet, séma, reprezentáció, pszicholingvisztika, elmefilozófia, tudat.",
+    stats: `${kognitivBank.length} kérdés · ${kognitivTopics.length} témakör`,
+    icon: Lightbulb,
+    accent: "#047857",
+    tint: "#ecfdf5",
+    study: "/kognitiv/tanulas",
+    exam: "/kognitiv/vizsga",
+  },
+  {
+    title: "Neuropszichológia",
+    summary: "Lurija, neglekt, afázia, apraxia, agnózia, memória és demencia, tesztek. Szóbeli felkészülés keresztkérdésekkel.",
+    stats: `${neuropsyBank.length} kérdés · ${neuropsyTopics.length} témakör · ${neuropsyCases.length} klinikai eset`,
+    icon: Activity,
+    accent: "#6d28d9",
+    tint: "#f5f3ff",
+    study: "/neuropsy/tanulas",
+    exam: "/neuropsy/vizsga",
+    extra: { href: "/neuropsy/eset", label: "Klinikai esetek" },
+  },
+];
 
 export default function Home() {
   return (
-    <main style={{
-      minHeight: '100vh',
-      background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: '24px 16px'
-    }}>
-      <div style={{ textAlign: 'center', marginBottom: 24 }}>
-        <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block', margin: '0 auto 12px auto' }}>
-          <ellipse cx="45" cy="35" rx="40" ry="28" fill="#a5b4fc" />
-          <ellipse cx="30" cy="35" rx="16" ry="20" fill="#f0abfc" />
-          <ellipse cx="60" cy="35" rx="16" ry="20" fill="#f0abfc" />
-          <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#6366f1" strokeWidth="2.5" fill="none" />
-          <path d="M30 15 Q35 30 30 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-          <path d="M60 15 Q55 30 60 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-        </svg>
-        <h1 style={{ fontSize: 28, fontWeight: 700, color: '#3730a3', marginBottom: 6 }}>
-          Tanuló- és Vizsgaplatform
-        </h1>
-        <div style={{ fontSize: 16, color: '#6366f1', fontWeight: 500 }}>
-          Válassz tárgyat
-        </div>
-      </div>
+    <main style={{ minHeight: "100vh", background: "var(--paper)", padding: "48px 16px" }}>
+      <div style={{ maxWidth: 920, margin: "0 auto" }}>
+        <header style={{ marginBottom: 28 }}>
+          <h1 style={{ fontSize: 32, fontWeight: 700, color: "#1f2937", marginBottom: 6 }}>Tanuló- és Vizsgaplatform</h1>
+          <p style={{ fontSize: 17, color: "#475569" }}>Pszichológia MA: válassz tárgyat.</p>
+        </header>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-        gap: 20,
-        maxWidth: 880,
-        width: '100%',
-        marginBottom: 24,
-      }}>
-        {/* Subject 1: Fejlődési kognitív idegtudomány */}
-        <div style={{
-          background: 'white',
-          borderRadius: 20,
-          boxShadow: '0 8px 24px rgba(60,60,120,0.10)',
-          padding: '28px 24px',
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-        }}>
-          <div style={{
-            width: 56, height: 56,
-            background: 'linear-gradient(135deg,#6366f1,#a5b4fc)',
-            borderRadius: 14,
-            margin: '0 auto 14px auto',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            color: 'white', fontSize: 28,
-          }}>🧠</div>
-          <h2 style={{ fontSize: 18, fontWeight: 700, color: '#3730a3', marginBottom: 6 }}>
-            Fejlődési Kognitív Idegtudomány
-          </h2>
-          <div style={{ color: '#475569', fontSize: 14, marginBottom: 18, lineHeight: 1.5, flexGrow: 1 }}>
-            Vizsgarendszer ~350 kérdéssel, próbavizsga és témakörönkénti kvíz, tanuló mód blokk/téma/nehézség szerinti szűréssel.
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <Link href="/study" style={{
-              padding: '10px 18px',
-              background: 'linear-gradient(90deg,#6366f1,#a5b4fc)',
-              color: 'white', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-            }}>
-              Tanuló mód
-            </Link>
-            <Link href="/exam" style={{
-              padding: '10px 18px',
-              background: '#eef2ff',
-              color: '#3730a3', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-              border: '1.5px solid #c7d2fe',
-            }}>
-              Vizsga indítása →
-            </Link>
-          </div>
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+          {subjects.map((s) => {
+            const Icon = s.icon;
+            return (
+              <section
+                key={s.title}
+                style={{
+                  background: "white",
+                  border: "1px solid #e7e5e4",
+                  borderRadius: 16,
+                  boxShadow: "0 1px 2px rgba(28,25,23,0.04), 0 8px 24px rgba(28,25,23,0.05)",
+                  padding: 24,
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 14, marginBottom: 12 }}>
+                  <span
+                    aria-hidden="true"
+                    style={{ flexShrink: 0, width: 44, height: 44, borderRadius: 12, background: s.tint, color: s.accent, display: "flex", alignItems: "center", justifyContent: "center" }}
+                  >
+                    <Icon size={24} strokeWidth={1.75} />
+                  </span>
+                  <div>
+                    <h2 style={{ fontSize: 20, fontWeight: 700, color: "#1f2937", lineHeight: 1.25 }}>{s.title}</h2>
+                    <p style={{ fontSize: 14, color: s.accent, fontWeight: 600, marginTop: 4 }}>{s.stats}</p>
+                  </div>
+                </div>
+                <p style={{ color: "#475569", fontSize: 15, lineHeight: 1.55, marginBottom: 20, flexGrow: 1 }}>{s.summary}</p>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+                  <Link
+                    href={s.study}
+                    style={{ flex: "1 1 140px", textAlign: "center", padding: "11px 16px", background: s.accent, color: "white", borderRadius: 10, fontWeight: 600, fontSize: 15, textDecoration: "none" }}
+                  >
+                    Tanuló mód
+                  </Link>
+                  <Link
+                    href={s.exam}
+                    style={{ flex: "1 1 140px", textAlign: "center", padding: "10px 16px", background: "white", color: s.accent, border: `1.5px solid ${s.accent}`, borderRadius: 10, fontWeight: 600, fontSize: 15, textDecoration: "none" }}
+                  >
+                    Vizsga és kvíz
+                  </Link>
+                  {s.extra && (
+                    <Link
+                      href={s.extra.href}
+                      style={{ flex: "1 1 100%", textAlign: "center", padding: "8px 16px", color: s.accent, fontWeight: 600, fontSize: 15, textDecoration: "underline", textUnderlineOffset: 3 }}
+                    >
+                      {s.extra.label} →
+                    </Link>
+                  )}
+                </div>
+              </section>
+            );
+          })}
         </div>
-
-        {/* Subject 2: Idegrendszer fejlődési zavarai */}
-        <div style={{
-          background: 'white',
-          borderRadius: 20,
-          boxShadow: '0 8px 24px rgba(120,80,60,0.10)',
-          padding: '28px 24px',
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-        }}>
-          <div style={{
-            width: 56, height: 56,
-            background: 'linear-gradient(135deg,#f97316,#ec4899)',
-            borderRadius: 14,
-            margin: '0 auto 14px auto',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            color: 'white', fontSize: 28,
-          }}>🧩</div>
-          <h2 style={{ fontSize: 18, fontWeight: 700, color: '#9a3412', marginBottom: 6 }}>
-            Idegrendszer fejlődési zavarai és fejlesztésük
-          </h2>
-          <div style={{ color: '#475569', fontSize: 14, marginBottom: 18, lineHeight: 1.5, flexGrow: 1 }}>
-            99 gyakorló kérdés 11 témakörben (IKZ, tanulási zavarok, ADHD, autizmus, koraszülöttség, stb.)
-            és részletes tanulási segédlet.
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <Link href="/idegzavarok/tanulas" style={{
-              padding: '10px 18px',
-              background: 'linear-gradient(90deg,#ec4899,#f472b6)',
-              color: 'white', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-            }}>
-              Tanuló mód
-            </Link>
-            <Link href="/idegzavarok/vizsga" style={{
-              padding: '10px 18px',
-              background: '#fdf2f8',
-              color: '#9a3412', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-              border: '1.5px solid #fbcfe8',
-            }}>
-              Vizsga indítása →
-            </Link>
-          </div>
-        </div>
-
-        {/* Subject 3: Kognitív pszichológia mesterfokon */}
-        <div style={{
-          background: 'white',
-          borderRadius: 20,
-          boxShadow: '0 8px 24px rgba(16,185,129,0.15)',
-          padding: '28px 24px',
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-        }}>
-          <div style={{
-            width: 56, height: 56,
-            background: 'linear-gradient(135deg,#10b981,#34d399)',
-            borderRadius: 14,
-            margin: '0 auto 14px auto',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            color: 'white', fontSize: 28,
-          }}>🌿</div>
-          <h2 style={{ fontSize: 18, fontWeight: 700, color: '#047857', marginBottom: 6 }}>
-            Kognitív pszichológia mesterfokon
-          </h2>
-          <div style={{ color: '#475569', fontSize: 14, marginBottom: 18, lineHeight: 1.5, flexGrow: 1 }}>
-            13 témakör — arcészlelés, érzelmek, képzelet, séma, reprezentáció,
-            pszicholingvisztika, elmefilozófia, tudat, neuropszichoanalízis, kognitív idegtudomány.
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <Link href="/kognitiv/tanulas" style={{
-              padding: '10px 18px',
-              background: 'linear-gradient(90deg,#10b981,#34d399)',
-              color: 'white', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-            }}>
-              Tanuló mód
-            </Link>
-            <Link href="/kognitiv/vizsga" style={{
-              padding: '10px 18px',
-              background: '#ecfdf5',
-              color: '#047857', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-              border: '1.5px solid #86efac',
-            }}>
-              Vizsga indítása →
-            </Link>
-          </div>
-        </div>
-
-        {/* Subject 4: Neuropszichológia */}
-        <div style={{
-          background: 'white',
-          borderRadius: 20,
-          boxShadow: '0 8px 24px rgba(139,92,246,0.15)',
-          padding: '28px 24px',
-          textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-        }}>
-          <div style={{
-            width: 56, height: 56,
-            background: 'linear-gradient(135deg,#8b5cf6,#a78bfa)',
-            borderRadius: 14,
-            margin: '0 auto 14px auto',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            color: 'white', fontSize: 28,
-          }}>🧬</div>
-          <h2 style={{ fontSize: 18, fontWeight: 700, color: '#6d28d9', marginBottom: 6 }}>
-            Neuropszichológia
-          </h2>
-          <div style={{ color: '#475569', fontSize: 14, marginBottom: 18, lineHeight: 1.5, flexGrow: 1 }}>
-            10 témakör — Lurija, orientáció, neglekt, afázia, apraxia, agnózia,
-            memória, demencia, tesztek, klinikai esetelemzés. Szóbeli felkészülés
-            keresztkérdésekkel.
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <Link href="/neuropsy/tanulas" style={{
-              padding: '10px 18px',
-              background: 'linear-gradient(90deg,#8b5cf6,#a78bfa)',
-              color: 'white', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-            }}>
-              Tanuló mód
-            </Link>
-            <Link href="/neuropsy/vizsga" style={{
-              padding: '10px 18px',
-              background: '#f5f3ff',
-              color: '#6d28d9', borderRadius: 10,
-              fontWeight: 600, fontSize: 15,
-              textDecoration: 'none',
-              border: '1.5px solid #c4b5fd',
-            }}>
-              Vizsga indítása →
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div style={{ color: '#64748b', fontSize: 14, marginTop: 8, textAlign: 'center' }}>
-        <span aria-hidden="true">🧠</span> Tanulj, fejlődj, vizsgázz!
       </div>
     </main>
   );

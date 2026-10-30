@@ -19,9 +19,9 @@ type Q = {
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
-const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const diffColor: Record<string, string> = { easy: "#15803d", medium: "#854d0e", hard: "#dc2626" };
 const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű" };
-const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2" };
+const catColor: Record<string, string> = { uj: "#be185d", konnyu: "#0e7490" };
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -173,7 +173,7 @@ function NormalVizsga() {
   function setMatching(qid: number, ms: MatchingSel) { setSelections(p => ({ ...p, [qid]: ms })); }
 
   return (
-    <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #d1fae5 0%, #ecfeff 100%)", display: "flex", flexDirection: "column", alignItems: "center", padding: "16px" }}>
+    <main style={{ minHeight: "100vh", background: "var(--paper)", display: "flex", flexDirection: "column", alignItems: "center", padding: "16px" }}>
       <div style={{ width: "100%", maxWidth: 860, display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 8, marginBottom: 12 }}>
         <Link href="/kognitiv/vizsga" style={{ color: "#047857", fontWeight: 600, textDecoration: "none", background: "white", padding: "8px 16px", borderRadius: 10, border: "1.5px solid #86efac" }}>
           ← Vizsga beállítások
@@ -190,7 +190,7 @@ function NormalVizsga() {
         <div style={{ fontSize: 14, color: "#065f46", marginBottom: 20 }}>{questions.length} kérdés — jelöld be a válaszokat, majd kérj kiértékelést</div>
 
         {submitted && score && (
-          <div role="status" style={{ background: pct >= 60 ? "#dcfce7" : "#fee2e2", border: `1.5px solid ${pct >= 60 ? "#16a34a" : "#dc2626"}`, borderRadius: 12, padding: "14px 20px", marginBottom: 20, textAlign: "center", fontSize: 18, fontWeight: 700, color: pct >= 60 ? "#166534" : "#991b1b" }}>
+          <div role="status" style={{ background: pct >= 60 ? "#dcfce7" : "#fee2e2", border: `1.5px solid ${pct >= 60 ? "#15803d" : "#dc2626"}`, borderRadius: 12, padding: "14px 20px", marginBottom: 20, textAlign: "center", fontSize: 18, fontWeight: 700, color: pct >= 60 ? "#166534" : "#991b1b" }}>
             {score.correct} / {score.total} helyes válasz ({pct}%)
             {pct >= 60 ? " — Gratulálunk!" : " — Még gyakorolj!"}
           </div>
@@ -228,20 +228,20 @@ function NormalVizsga() {
               <li key={q.id} style={{ background: "#f0fdfa", border: "1.5px solid #bbf7d0", borderRadius: 12, padding: "14px 16px", marginBottom: 12 }}>
                 <div className="flex flex-col-reverse gap-1.5 md:flex-row md:items-start md:justify-between md:gap-2" style={{ marginBottom: 6 }}>
                   <div id={`q-${q.id}-title`} style={{ fontWeight: 700, color: "#064e3b", fontSize: 15 }}>
-                    <span style={{ color: "#0d9488", marginRight: 6 }}>{qi + 1}.</span>{q.question}
+                    <span style={{ color: "#0f766e", marginRight: 6 }}>{qi + 1}.</span>{q.question}
                   </div>
                   <div className="flex flex-wrap gap-[5px] md:shrink-0 md:justify-end">
                     {q.category && (
-                      <span style={{ background: catColor[q.category], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                      <span style={{ background: catColor[q.category], color: "white", fontSize: 12, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                         {catLabel[q.category]}
                       </span>
                     )}
                     {q.vizsgakerdes && (
-                      <span style={{ background: "#1d4ed8", color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                      <span style={{ background: "#1d4ed8", color: "white", fontSize: 12, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                         Vizsgakérdés
                       </span>
                     )}
-                    <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                    <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 12, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                       {diffLabel[q.difficulty]}
                     </span>
                   </div>
@@ -300,7 +300,7 @@ function NormalVizsga() {
 
         <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 20 }}>
           {!submitted ? (
-            <button onClick={() => setSubmitted(true)} style={{ padding: "12px 28px", background: "linear-gradient(90deg,#0d9488,#14b8a6)", color: "white", border: "none", borderRadius: 12, fontWeight: 700, fontSize: 16, cursor: "pointer" }}>
+            <button onClick={() => setSubmitted(true)} style={{ padding: "12px 28px", background: "#047857", color: "white", border: "none", borderRadius: 12, fontWeight: 700, fontSize: 16, cursor: "pointer" }}>
               Kiértékelés
             </button>
           ) : (

@@ -23,6 +23,7 @@ import { useParams } from "next/navigation";
 import goldBank from "@/data/questionBank_GOLD.json";
 import { Question } from "@/lib/types";
 import AnswerMark from "@/components/AnswerMark";
+import { Check, X } from "lucide-react";
 
 /* ---------- helpers ---------- */
 
@@ -455,7 +456,7 @@ export default function ExamResultPage() {
         }}
       >
         <div style={{ fontWeight: 700, marginBottom: 6 }}>Jelmagyarázat</div>
-        <div style={{ display: "flex", alignItems: "center", gap: 4 }}><span style={{ color: "#16a34a", fontWeight: 700 }}>Zöld</span> <AnswerMark correct chosen />: helyes válaszod</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 4 }}><span style={{ color: "#15803d", fontWeight: 700 }}>Zöld</span> <AnswerMark correct chosen />: helyes válaszod</div>
         <div style={{ display: "flex", alignItems: "center", gap: 4 }}><span style={{ color: "#b45309", fontWeight: 700 }}>Narancs</span> <AnswerMark correct={false} chosen />: hibásan jelölt válasz</div>
         <div style={{ display: "flex", alignItems: "center", gap: 4 }}><span style={{ color: "#2563eb", fontWeight: 700 }}>Kék</span> <AnswerMark correct chosen={false} />: helyes válasz (nem jelölt)</div>
       </div>
@@ -573,8 +574,8 @@ export default function ExamResultPage() {
                         const isCorrectOpt = correct.includes(optId);
 
                         let bg = "#1e293b";
-                        if (isUser && isCorrectOpt) bg = "#16a34a";
-                        else if (isUser && !isCorrectOpt) bg = "#f59e42";
+                        if (isUser && isCorrectOpt) bg = "#15803d";
+                        else if (isUser && !isCorrectOpt) bg = "#c2410c";
                         else if (!isUser && isCorrectOpt) bg = "#2563eb";
 
                         return (
@@ -646,10 +647,11 @@ export default function ExamResultPage() {
                 style={{
                   marginTop: 6,
                   fontWeight: 600,
-                  color: isCorrect ? "#16a34a" : "#dc2626",
+                  color: isCorrect ? "#15803d" : "#dc2626",
                 }}
               >
-                {isCorrect ? "✔️ Helyes" : "❌ Hibás"}
+                {isCorrect ? <Check aria-hidden="true" size={16} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-3px", marginRight: 4 }} /> : <X aria-hidden="true" size={16} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-3px", marginRight: 4 }} />}
+                {isCorrect ? "Helyes" : "Hibás"}
               </div>
             </li>
           );

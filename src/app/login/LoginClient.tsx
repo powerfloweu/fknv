@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { Lock } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 export default function LoginClient() {
@@ -37,7 +38,7 @@ export default function LoginClient() {
   return (
     <main style={{
       minHeight: "100vh",
-      background: "linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)",
+      background: "var(--paper)",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
@@ -55,19 +56,19 @@ export default function LoginClient() {
           textAlign: "center",
         }}
       >
-        <div style={{
-          width: 64, height: 64,
-          background: "linear-gradient(135deg,#6366f1,#a5b4fc)",
-          borderRadius: 16,
+        <div aria-hidden="true" style={{
+          width: 52, height: 52,
+          background: "#eef2ff",
+          color: "#4338ca",
+          borderRadius: 14,
           margin: "0 auto 18px auto",
           display: "flex", alignItems: "center", justifyContent: "center",
-          color: "white", fontSize: 32,
-        }}>🔒</div>
+        }}><Lock size={26} strokeWidth={1.75} /></div>
 
         <h1 style={{ fontSize: 22, fontWeight: 700, color: "#3730a3", marginBottom: 6 }}>
           Belépés
         </h1>
-        <div style={{ fontSize: 14, color: "#64748b", marginBottom: 22 }}>
+        <div style={{ fontSize: 14, color: "#52606d", marginBottom: 22 }}>
           A platform használatához jelszó szükséges.
         </div>
 
@@ -105,7 +106,7 @@ export default function LoginClient() {
             padding: "12px 18px",
             background: loading || !password
               ? "#e0e7ff"
-              : "linear-gradient(90deg,#6366f1,#a5b4fc)",
+              : "#4338ca",
             color: loading || !password ? "#a5b4fc" : "white",
             border: "none",
             borderRadius: 10,

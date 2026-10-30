@@ -183,10 +183,10 @@ export default function ExamQaPage() {
       <main style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
         <div style={{ background: 'white', borderRadius: 24, boxShadow: '0 8px 32px rgba(60,60,120,0.12)', padding: 40, maxWidth: 540, width: '100%', textAlign: 'center' }}>
           <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>Kérdés-felelet vizsga vége</h1>
-          <div style={{ fontSize: 18, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
+          <div style={{ fontSize: 18, color: '#4f46e5', fontWeight: 500, marginBottom: 18 }}>
             Elért pontszám: <b>{score} / {questions.length}</b> ({Math.round((score / questions.length) * 100)}%)
           </div>
-          <button onClick={() => router.push("/exam")} style={{ background: '#6366f1', color: 'white', fontWeight: 600, border: 'none', borderRadius: 8, padding: '10px 22px', marginTop: 16, cursor: 'pointer' }}>Vissza a vizsgaindítóhoz</button>
+          <button onClick={() => router.push("/exam")} style={{ background: '#4f46e5', color: 'white', fontWeight: 600, border: 'none', borderRadius: 8, padding: '10px 22px', marginTop: 16, cursor: 'pointer' }}>Vissza a vizsgaindítóhoz</button>
         </div>
       </main>
     );
@@ -227,10 +227,10 @@ export default function ExamQaPage() {
     );
 
   return (
-    <main style={{ minHeight: '100vh', background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 0 }}>
+    <main style={{ minHeight: '100vh', background: 'var(--paper)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 0 }}>
       <div style={{ background: 'white', borderRadius: 24, boxShadow: '0 8px 32px rgba(60,60,120,0.12)', padding: '40px 32px 32px 32px', maxWidth: 700, width: '100%', textAlign: 'center', marginBottom: 32 }}>
         <h1 style={{ fontSize: 22, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>Kérdés-felelet vizsga</h1>
-        <div style={{ fontSize: 16, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
+        <div style={{ fontSize: 16, color: '#4f46e5', fontWeight: 500, marginBottom: 18 }}>
           {current + 1} / {questions.length} kérdés
         </div>
         <div style={{ fontWeight: 600, color: '#3730a3', fontSize: 17, marginBottom: 12 }}>{q.question}</div>
@@ -241,7 +241,7 @@ export default function ExamQaPage() {
               const optionId = displayed.order[i];
               return (
                 <li key={i} style={{
-                  background: userAns === optionId ? (showCorrect ? (optionId === q.answer ? '#16a34a' : '#f59e42') : '#6366f1') : '#f3f4f6',
+                  background: userAns === optionId ? (showCorrect ? (optionId === q.answer ? '#15803d' : '#c2410c') : '#4f46e5') : '#f3f4f6',
                   color: userAns === optionId ? '#fff' : '#1e293b',
                   borderRadius: 6,
                   padding: '8px 14px',
@@ -250,7 +250,7 @@ export default function ExamQaPage() {
                   fontWeight: 500,
                   listStyle: 'none',
                   cursor: showCorrect ? 'default' : 'pointer',
-                  border: optionId === q.answer && showCorrect ? '2px solid #16a34a' : '2px solid transparent',
+                  border: optionId === q.answer && showCorrect ? '2px solid #15803d' : '2px solid transparent',
                   transition: 'background 0.2s'
                 }}
                   onClick={() => !showCorrect && handleAnswer(optionId)}
@@ -270,9 +270,9 @@ export default function ExamQaPage() {
                     background: checked
                       ? showCorrect
                         ? (Array.isArray(q.answer) && q.answer.includes(optionId)
-                            ? "#16a34a"
-                            : "#f59e42")
-                        : "#6366f1"
+                            ? "#15803d"
+                            : "#c2410c")
+                        : "#4f46e5"
                       : showCorrect && Array.isArray(q.answer) && q.answer.includes(optionId)
                         ? "#2563eb"
                         : "#f3f4f6",
@@ -284,7 +284,7 @@ export default function ExamQaPage() {
                     fontWeight: 500,
                     listStyle: 'none',
                     cursor: showCorrect ? 'default' : 'pointer',
-                    border: Array.isArray(q.answer) && q.answer.includes(optionId) && showCorrect ? '2px solid #16a34a' : '2px solid transparent',
+                    border: Array.isArray(q.answer) && q.answer.includes(optionId) && showCorrect ? '2px solid #15803d' : '2px solid transparent',
                     transition: 'background 0.2s'
                   }}
                     onClick={() => {
@@ -302,7 +302,7 @@ export default function ExamQaPage() {
               <button
                 onClick={() => handleAnswer(userAns)}
                 disabled={!Array.isArray(userAns) || userAns.length === 0}
-                style={{ marginTop: 8, padding: '8px 18px', borderRadius: 8, background: '#6366f1', color: 'white', fontWeight: 600, border: 'none', cursor: (!Array.isArray(userAns) || userAns.length === 0) ? 'not-allowed' : 'pointer' }}
+                style={{ marginTop: 8, padding: '8px 18px', borderRadius: 8, background: '#4f46e5', color: 'white', fontWeight: 600, border: 'none', cursor: (!Array.isArray(userAns) || userAns.length === 0) ? 'not-allowed' : 'pointer' }}
               >Válasz</button>
             )}
           </>
@@ -313,21 +313,21 @@ export default function ExamQaPage() {
               type="text"
               value={typeof userAns === 'string' ? userAns : ''}
               onChange={e => !showCorrect && setAnswers(a => ({ ...a, [q.id]: e.target.value }))}
-              style={{ fontSize: 16, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', width: 320, maxWidth: '100%' }}
+              style={{ fontSize: 16, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #4f46e5', width: 320, maxWidth: '100%' }}
               disabled={showCorrect}
               onKeyDown={e => { if (e.key === 'Enter' && !showCorrect) handleAnswer(e.currentTarget.value); }}
             />
-            <button onClick={() => handleAnswer(userAns)} disabled={showCorrect || !userAns || typeof userAns !== 'string'} style={{ marginLeft: 10, padding: '8px 18px', borderRadius: 8, background: '#6366f1', color: 'white', fontWeight: 600, border: 'none', cursor: showCorrect ? 'not-allowed' : 'pointer' }}>Válasz</button>
+            <button onClick={() => handleAnswer(userAns)} disabled={showCorrect || !userAns || typeof userAns !== 'string'} style={{ marginLeft: 10, padding: '8px 18px', borderRadius: 8, background: '#4f46e5', color: 'white', fontWeight: 600, border: 'none', cursor: showCorrect ? 'not-allowed' : 'pointer' }}>Válasz</button>
           </div>
         )}
         {/* Helyes válasz visszajelzés */}
         {showCorrect && (
           <div style={{ marginTop: 18, marginBottom: 8, fontSize: 16, fontWeight: 500 }}>
-            {isCorrect ? <span style={{ color: '#16a34a' }}>✔️ Helyes válasz!</span> : <span style={{ color: '#dc2626' }}>❌ Hibás válasz.</span>}
+            {isCorrect ? <span style={{ color: '#15803d' }}>Helyes válasz!</span> : <span style={{ color: '#dc2626' }}>Hibás válasz.</span>}
             <div style={{ marginTop: 8, color: '#334155', fontSize: 15 }}>
               <b>Helyes válasz:</b> {q.type === 'single' ? q.options[q.answer as number] : q.type === 'multi' ? (Array.isArray(q.answer) ? (q.answer as number[]).slice().sort((a,b) => a - b).map(i => q.options[i]).join(", ") : '') : q.type === 'short' && Array.isArray(q.criteria) && q.criteria.length > 0 && typeof q.criteria[0] === 'object' && 'regex' in q.criteria[0] ? <span style={{fontFamily:'monospace'}}>{q.criteria[0].regex}</span> : ''}
             </div>
-            <button onClick={nextQuestion} style={{ marginTop: 16, padding: '8px 22px', borderRadius: 8, background: '#6366f1', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>{current + 1 === questions.length ? 'Befejezés' : 'Következő kérdés'}</button>
+            <button onClick={nextQuestion} style={{ marginTop: 16, padding: '8px 22px', borderRadius: 8, background: '#4f46e5', color: 'white', fontWeight: 600, border: 'none', cursor: 'pointer' }}>{current + 1 === questions.length ? 'Befejezés' : 'Következő kérdés'}</button>
           </div>
         )}
       </div>

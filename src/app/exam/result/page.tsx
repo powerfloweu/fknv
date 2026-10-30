@@ -69,7 +69,7 @@ export default function ExamResultPage() {
     return (
       <main style={{
         minHeight: '100vh',
-        background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)',
+        background: 'var(--paper)',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -86,20 +86,10 @@ export default function ExamResultPage() {
           textAlign: 'center',
           marginBottom: 32
         }}>
-          <div style={{ marginBottom: 24 }}>
-            <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block', margin: '0 auto 12px auto' }}>
-              <ellipse cx="45" cy="35" rx="40" ry="28" fill="#a5b4fc" />
-              <ellipse cx="30" cy="35" rx="16" ry="20" fill="#f0abfc" />
-              <ellipse cx="60" cy="35" rx="16" ry="20" fill="#f0abfc" />
-              <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#6366f1" strokeWidth="2.5" fill="none" />
-              <path d="M30 15 Q35 30 30 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-              <path d="M60 15 Q55 30 60 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-            </svg>
-          </div>
           <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>
             Nincs vizsgaeredmény
           </h1>
-          <div style={{ fontSize: 17, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
+          <div style={{ fontSize: 17, color: '#4f46e5', fontWeight: 500, marginBottom: 18 }}>
             Nem található vizsgakísérlet az eszközön.
           </div>
         </div>
@@ -110,7 +100,7 @@ export default function ExamResultPage() {
   return (
     <main style={{
       minHeight: '100vh',
-      background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)',
+      background: 'var(--paper)',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -127,20 +117,10 @@ export default function ExamResultPage() {
         textAlign: 'center',
         marginBottom: 32
       }}>
-        <div style={{ marginBottom: 24 }}>
-          <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block', margin: '0 auto 12px auto' }}>
-            <ellipse cx="45" cy="35" rx="40" ry="28" fill="#a5b4fc" />
-            <ellipse cx="30" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <ellipse cx="60" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#6366f1" strokeWidth="2.5" fill="none" />
-            <path d="M30 15 Q35 30 30 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-            <path d="M60 15 Q55 30 60 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-          </svg>
-        </div>
         <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>
           Vizsgaeredmény
         </h1>
-        <div style={{ fontSize: 17, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
+        <div style={{ fontSize: 17, color: '#4f46e5', fontWeight: 500, marginBottom: 18 }}>
           Kérdésenkénti válaszaid, helyes megoldások, magyarázatok.
         </div>
         <ul style={{ listStyle: "none", padding: 0, textAlign: 'left', marginTop: 16 }}>
@@ -181,9 +161,9 @@ export default function ExamResultPage() {
                        }
                       // Color logic
                       if (isUser && isCorrect && gotPoint) {
-                        background = '#16a34a'; color = '#fff'; border = '2px solid #16a34a'; icon = '✔️';
+                        background = '#15803d'; color = '#fff'; border = '2px solid #15803d'; icon = '';
                       } else if (isUser && !isCorrect) {
-                        background = '#f59e42'; color = '#fff'; border = '2px solid #f59e42'; icon = '✖️';
+                        background = '#c2410c'; color = '#fff'; border = '2px solid #c2410c'; icon = '';
                       } else if (!isUser && isCorrect) {
                         background = '#2563eb'; color = '#fff'; border = '2px solid #2563eb';
                       }
@@ -217,15 +197,15 @@ export default function ExamResultPage() {
                   </ul>
                 )}
                 {/* Legend for answer colors */}
-                <div style={{ margin: '10px 0 0 0', fontSize: 14, color: '#64748b', display: 'flex', flexWrap: 'wrap', gap: 16 }}>
-                  <span><span style={{ display: 'inline-block', width: 16, height: 16, background: '#16a34a', borderRadius: 4, marginRight: 4, verticalAlign: 'middle' }}></span> Helyes és bejelölted (pontot kaptál)</span>
-                  <span><span style={{ display: 'inline-block', width: 16, height: 16, background: '#f59e42', borderRadius: 4, marginRight: 4, verticalAlign: 'middle' }}></span> Bejelölted, de nem helyes</span>
+                <div style={{ margin: '10px 0 0 0', fontSize: 14, color: '#52606d', display: 'flex', flexWrap: 'wrap', gap: 16 }}>
+                  <span><span style={{ display: 'inline-block', width: 16, height: 16, background: '#15803d', borderRadius: 4, marginRight: 4, verticalAlign: 'middle' }}></span> Helyes és bejelölted (pontot kaptál)</span>
+                  <span><span style={{ display: 'inline-block', width: 16, height: 16, background: '#c2410c', borderRadius: 4, marginRight: 4, verticalAlign: 'middle' }}></span> Bejelölted, de nem helyes</span>
                   <span><span style={{ display: 'inline-block', width: 16, height: 16, background: '#2563eb', borderRadius: 4, marginRight: 4, verticalAlign: 'middle' }}></span> Helyes, de nem jelölted</span>
                   <span><span style={{ display: 'inline-block', width: 16, height: 16, background: '#f3f4f6', borderRadius: 4, marginRight: 4, verticalAlign: 'middle', border: '1.5px solid #e5e7eb' }}></span> Egyéb opció</span>
                 </div>
                 <div style={{ marginTop: 6, fontSize: 15 }}>
                   <b>Pont:</b> {breakdown[qid] ?? 0}
-                  {gotPoint ? <span style={{ color: '#16a34a', marginLeft: 8 }}>✔️ Helyes válasz!</span> : <span style={{ color: '#dc2626', marginLeft: 8 }}>✖️ Nem kaptál pontot</span>}
+                  {gotPoint ? <span style={{ color: '#15803d', marginLeft: 8 }}>Helyes válasz!</span> : <span style={{ color: '#dc2626', marginLeft: 8 }}>Nem kaptál pontot</span>}
                 </div>
                 <div style={{ border: '1px solid #bbb', borderRadius: 6, padding: 12, marginTop: 16, background: '#fafbfc' }}>
                   <b>Magyarázat</b>
@@ -237,9 +217,6 @@ export default function ExamResultPage() {
             );
           })}
         </ul>
-      </div>
-      <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span aria-hidden="true">🧠</span> Gratulálunk a kitöltéshez!
       </div>
     </main>
   );

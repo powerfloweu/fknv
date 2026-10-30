@@ -253,7 +253,7 @@ function ExamPage() {
   if (!attempt) return (
     <main style={{
       minHeight: '100vh',
-      background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)',
+      background: 'var(--paper)',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -270,20 +270,10 @@ function ExamPage() {
         textAlign: 'center',
         marginBottom: 32
       }}>
-        <div style={{ marginBottom: 24 }}>
-          <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block', margin: '0 auto 12px auto' }}>
-            <ellipse cx="45" cy="35" rx="40" ry="28" fill="#a5b4fc" />
-            <ellipse cx="30" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <ellipse cx="60" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#6366f1" strokeWidth="2.5" fill="none" />
-            <path d="M30 15 Q35 30 30 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-            <path d="M60 15 Q55 30 60 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-          </svg>
-        </div>
         <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>
           Vizsga betöltése...
         </h1>
-        <div style={{ fontSize: 17, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
+        <div style={{ fontSize: 17, color: '#4f46e5', fontWeight: 500, marginBottom: 18 }}>
           Kérlek, várj amíg a vizsga elindul!
         </div>
       </div>
@@ -322,7 +312,7 @@ function ExamPage() {
                   transition: 'background 0.2s, color 0.2s',
                   display: 'flex', alignItems: 'center',
                   cursor: 'pointer',
-                  border: checked ? '2px solid #6366f1' : '2px solid transparent'
+                  border: checked ? '2px solid #4f46e5' : '2px solid transparent'
                 }}>
                   <label style={{ width: '100%', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
                     <input
@@ -368,7 +358,7 @@ function ExamPage() {
                   transition: 'background 0.2s, color 0.2s',
                   display: 'flex', alignItems: 'center',
                   cursor: 'pointer',
-                  border: checked ? '2px solid #6366f1' : '2px solid transparent'
+                  border: checked ? '2px solid #4f46e5' : '2px solid transparent'
                 }}>
                   <label style={{ width: '100%', cursor: 'pointer', display: 'flex', alignItems: 'center' }}>
                     <input
@@ -428,7 +418,7 @@ function ExamPage() {
               }
             }}
             placeholder="Írd be a választ..."
-            style={{ width: "100%", padding: 8, borderRadius: 8, border: '1.5px solid #6366f1', fontSize: 16, color: '#1e293b' }}
+            style={{ width: "100%", padding: 8, borderRadius: 8, border: '1.5px solid #4f46e5', fontSize: 16, color: '#1e293b' }}
             autoFocus
           />
         </div>
@@ -440,7 +430,7 @@ function ExamPage() {
   return (
     <main style={{
       minHeight: '100vh',
-      background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)',
+      background: 'var(--paper)',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -457,17 +447,7 @@ function ExamPage() {
         textAlign: 'center',
         marginBottom: 32
       }}>
-        <div style={{ marginBottom: 24 }}>
-          <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block', margin: '0 auto 12px auto' }}>
-            <ellipse cx="45" cy="35" rx="40" ry="28" fill="#a5b4fc" />
-            <ellipse cx="30" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <ellipse cx="60" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#6366f1" strokeWidth="2.5" fill="none" />
-            <path d="M30 15 Q35 30 30 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-            <path d="M60 15 Q55 30 60 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-          </svg>
-        </div>
-        <div style={{ fontSize: 18, color: '#6366f1', fontWeight: 500, marginBottom: 8 }}>
+        <div style={{ fontSize: 18, color: '#4f46e5', fontWeight: 500, marginBottom: 8 }}>
           Kérdés {currentQuestionIndex + 1} / {attempt?.questionIds?.length ?? 0}
         </div>
         <div style={{ fontSize: 16, color: '#334155', marginBottom: 8 }}>
@@ -493,11 +473,8 @@ function ExamPage() {
           })} disabled={!attempt || currentQuestionIndex === (attempt.questionIds?.length ?? 1) - 1} style={{
             background: '#e0e7ff', color: '#3730a3', fontWeight: 600, border: 'none', borderRadius: 8, padding: '10px 22px', cursor: !attempt || currentQuestionIndex === (attempt.questionIds?.length ?? 1) - 1 ? 'not-allowed' : 'pointer' }}>Tovább</button>
           <button onClick={handleSubmit} style={{
-            background: 'linear-gradient(90deg, #6366f1 0%, #a5b4fc 100%)', color: 'white', fontWeight: 600, border: 'none', borderRadius: 8, padding: '10px 22px', marginLeft: 8, cursor: 'pointer' }}>Vizsga leadása</button>
+            background: '#4338ca', color: 'white', fontWeight: 600, border: 'none', borderRadius: 8, padding: '10px 22px', marginLeft: 8, cursor: 'pointer' }}>Vizsga leadása</button>
         </div>
-      </div>
-      <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span aria-hidden="true">🧠</span> Sok sikert!
       </div>
     </main>
   );
