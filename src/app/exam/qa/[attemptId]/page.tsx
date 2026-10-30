@@ -121,6 +121,7 @@ export default function ExamQaPage() {
       questionIds = (goldBank as any[])
         .map(mapJsonToQuestion)
         .filter(q => !attemptMeta.hardMode || q.difficulty === 'hard')
+        .filter(q => !attemptMeta.blokk || q.blokk === attemptMeta.blokk)
         .sort(() => Math.random() - 0.5)
         .slice(0, attemptMeta.count)
         .map(q => q.id);

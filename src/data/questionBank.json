@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "blokk": "Fejlődési idegtudomány",
+    "blokk": "Elméleti és szemléleti alapok",
     "téma": "Fejlődési idegtudomány",
     "típus": "single",
     "nehézség": "easy",
@@ -318,7 +318,7 @@
   },
   {
     "id": 56,
-    "blokk": "Diffúziós tenzor képalkotás (DTI)",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "EEG",
     "típus": "single",
     "nehézség": "easy",
@@ -405,7 +405,7 @@
   },
   {
     "id": 61,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Agyi laterizáció fejlődése",
     "típus": "multiple",
     "nehézség": "medium",
@@ -482,7 +482,7 @@
   },
   {
     "id": 65,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Fejlődési alkalmazások idegtudományban",
     "típus": "single",
     "nehézség": "easy",
@@ -498,7 +498,7 @@
   },
   {
     "id": 66,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Atipikus fejlődés idegtudományi vizsgálata",
     "típus": "multiple",
     "nehézség": "medium",
@@ -518,7 +518,7 @@
   },
   {
     "id": 67,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Etikai szempontok fejlődési idegtudományban",
     "típus": "single",
     "nehézség": "easy",
@@ -534,7 +534,7 @@
   },
   {
     "id": 68,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Etikai szempontok fejlődési idegtudományban",
     "típus": "multiple",
     "nehézség": "medium",
@@ -554,7 +554,7 @@
   },
   {
     "id": 69,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Módszertani korlátok fejlődési idegtudományban",
     "típus": "multiple",
     "nehézség": "hard",
@@ -574,7 +574,7 @@
   },
   {
     "id": 70,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Csecsemőkori idegtudományi vizsgálatok",
     "típus": "single",
     "nehézség": "easy",
@@ -590,7 +590,7 @@
   },
   {
     "id": 71,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Csecsemőkori idegtudományi vizsgálatok",
     "típus": "multiple",
     "nehézség": "medium",
@@ -610,7 +610,7 @@
   },
   {
     "id": 72,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Csecsemőkori idegtudományi vizsgálatok + Etika",
     "típus": "multiple",
     "nehézség": "hard",
@@ -633,7 +633,7 @@
   },
   {
     "id": 73,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Longitudinális vizsgálatok",
     "típus": "single",
     "nehézség": "easy",
@@ -649,7 +649,7 @@
   },
   {
     "id": 74,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Longitudinális vizsgálatok",
     "típus": "multiple",
     "nehézség": "medium",
@@ -669,7 +669,7 @@
   },
   {
     "id": 75,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Longitudinális vizsgálatok + Módszertani korlátok",
     "típus": "multiple",
     "nehézség": "hard",
@@ -740,7 +740,7 @@
   },
   {
     "id": 79,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Gao et al., (2013)",
     "típus": "single",
     "nehézség": "medium",
@@ -788,7 +788,7 @@
   },
   {
     "id": 82,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Pszichofiziológia",
     "típus": "single",
     "nehézség": "easy",
@@ -804,7 +804,7 @@
   },
   {
     "id": 83,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "EEG – elektroencephalogram",
     "típus": "single",
     "nehézség": "easy",
@@ -820,7 +820,7 @@
   },
   {
     "id": 84,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "klinikai vizsgálatok",
     "típus": "single",
     "nehézség": "medium",
@@ -836,7 +836,7 @@
   },
   {
     "id": 85,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "EKP (Eseményhez Kötött Potenciál)",
     "típus": "single",
     "nehézség": "easy",
@@ -852,7 +852,7 @@
   },
   {
     "id": 86,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "ERP alapjai: a P300/P3 komponensre fókuszálva",
     "típus": "single",
     "nehézség": "medium",
@@ -868,7 +868,7 @@
   },
   {
     "id": 87,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Akusztikus ingerre adott ERP válaszok („hipotetikus együttes bemutatása”)",
     "típus": "single",
     "nehézség": "medium",
@@ -884,7 +884,7 @@
   },
   {
     "id": 88,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "MEG (magnetoencephalographia)",
     "típus": "single",
     "nehézség": "easy",
@@ -916,7 +916,7 @@
   },
   {
     "id": 90,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Biomarkerek szerepe a diagnosztikában: Példa: Autizmus spektrum zavar",
     "típus": "single",
     "nehézség": "medium",
@@ -932,7 +932,7 @@
   },
   {
     "id": 91,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Szemkövetés (eyetracking) vizsgálatok",
     "típus": "single",
     "nehézség": "easy",
@@ -948,7 +948,7 @@
   },
   {
     "id": 92,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Pupilla dilatáció",
     "típus": "single",
     "nehézség": "easy",
@@ -964,7 +964,7 @@
   },
   {
     "id": 93,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Pislogás mérése a fejlődéskutatásokban",
     "típus": "single",
     "nehézség": "easy",
@@ -980,7 +980,7 @@
   },
   {
     "id": 94,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Idegrendszer fejlődése",
     "típus": "single",
     "nehézség": "medium",
@@ -996,7 +996,7 @@
   },
   {
     "id": 95,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "AGYFEJLŐDÉS: ÁLTALÁNOS MEGFONTOLÁSOK",
     "típus": "single",
     "nehézség": "medium",
@@ -1012,7 +1012,7 @@
   },
   {
     "id": 96,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "AGYFEJLŐDÉS",
     "típus": "single",
     "nehézség": "easy",
@@ -1028,7 +1028,7 @@
   },
   {
     "id": 97,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Elnyújtott agyfejlődés",
     "típus": "single",
     "nehézség": "medium",
@@ -1044,7 +1044,7 @@
   },
   {
     "id": 98,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Mechanizmus",
     "típus": "single",
     "nehézség": "hard",
@@ -1060,7 +1060,7 @@
   },
   {
     "id": 99,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Agyfejlődést befolyásoló hatások",
     "típus": "multiple",
     "nehézség": "hard",
@@ -1096,7 +1096,7 @@
   },
   {
     "id": 101,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Neurogenezis – az idegsejtek születése és szaporodása",
     "típus": "single",
     "nehézség": "easy",
@@ -1128,7 +1128,7 @@
   },
   {
     "id": 103,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Differenciálódás",
     "típus": "single",
     "nehézség": "medium",
@@ -1160,7 +1160,7 @@
   },
   {
     "id": 105,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Szinaptogenezis",
     "típus": "single",
     "nehézség": "medium",
@@ -1256,7 +1256,7 @@
   },
   {
     "id": 111,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Változás sejtszinten",
     "típus": "single",
     "nehézség": "hard",
@@ -1320,7 +1320,7 @@
   },
   {
     "id": 115,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Funkciók változása",
     "típus": "single",
     "nehézség": "easy",
@@ -1384,7 +1384,7 @@
   },
   {
     "id": 119,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Bukarest study",
     "típus": "single",
     "nehézség": "medium",
@@ -1400,7 +1400,7 @@
   },
   {
     "id": 120,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Alex esete Vargha-Khadem és mtsai (1997)",
     "típus": "single",
     "nehézség": "hard",
@@ -1524,7 +1524,7 @@
   },
   {
     "id": 130,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "Szinaptogenezis",
     "típus": "regex",
     "nehézség": "medium",
@@ -1544,7 +1544,7 @@
   },
   {
     "id": 132,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "EEG – elektroencephalogram",
     "típus": "regex",
     "nehézség": "medium",
@@ -1554,7 +1554,7 @@
   },
   {
     "id": 133,
-    "blokk": "B",
+    "blokk": "Módszertan és az agyfejlődés alapjai",
     "téma": "ERP alapjai: a P300/P3 komponensre fókuszálva",
     "típus": "regex",
     "nehézség": "hard",
@@ -3043,6 +3043,7 @@
     "forrás_téma": "PERCEPTUÁLIS TANULÁS"
   },
   {
+    "id": 411,
     "blokk": "Figyelem és kognitív kontroll",
     "téma": "Végrehajtó figyelem (executive, kontrollált)",
     "típus": "single",
@@ -3058,6 +3059,7 @@
     "forrás_téma": "Végrehajtó figyelem (executive, kontrollált)"
   },
   {
+    "id": 412,
     "blokk": "Figyelem és kognitív kontroll",
     "téma": "Végrehajtó figyelem",
     "típus": "single",
@@ -3073,6 +3075,7 @@
     "forrás_téma": "Végrehajtó figyelem"
   },
   {
+    "id": 413,
     "blokk": "Figyelem és kognitív kontroll",
     "téma": "Temperamentum és későbbi problémák (Eisenberg)",
     "típus": "single",
@@ -3088,6 +3091,7 @@
     "forrás_téma": "Temperamentum és későbbi problémák (Eisenberg)"
   },
   {
+    "id": 414,
     "blokk": "Figyelem és kognitív kontroll",
     "téma": "Green et al. (2008)",
     "típus": "single",
@@ -3103,6 +3107,7 @@
     "forrás_téma": "Green et al. (2008)"
   },
   {
+    "id": 415,
     "blokk": "Figyelem és kognitív kontroll",
     "téma": "4 idegrendszeri útvonal / neurotranszmitter rendszer",
     "típus": "regex",
@@ -4647,7 +4652,7 @@
   },
   {
     "id": 346,
-    "blokk": "Kognitív kontroll",
+    "blokk": "Nyelvfejlődés iskolás korban",
     "téma": "Kétértelműség",
     "típus": "single",
     "nehézség": "easy",
@@ -4663,7 +4668,7 @@
   },
   {
     "id": 347,
-    "blokk": "Kognitív kontroll",
+    "blokk": "Nyelvfejlődés iskolás korban",
     "téma": "Nem szó szerinti jelentés",
     "típus": "single",
     "nehézség": "medium",
@@ -4679,7 +4684,7 @@
   },
   {
     "id": 348,
-    "blokk": "Kognitív kontroll",
+    "blokk": "Nyelvfejlődés iskolás korban",
     "téma": "Indirekt beszédaktus",
     "típus": "single",
     "nehézség": "medium",
