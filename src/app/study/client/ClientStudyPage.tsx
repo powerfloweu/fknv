@@ -179,7 +179,7 @@ export default function ClientStudyPage({ questions }: { questions: Question[] }
               )}
               {q.type === 'short' && q.criteria && q.criteria.length > 0 && (
                 <div style={{ margin: '8px 0', color: '#166534', background: '#bbf7d0', borderRadius: 6, padding: '6px 12px', display: 'inline-block', fontWeight: 600 }}>
-                  Elfogadott kulcsszavak: <span style={{ fontFamily: 'monospace', color: '#166534' }}>{q.criteria.map(c => c.regex).join(', ')}</span>
+                  Elfogadott kulcsszavak: <span style={{ fontFamily: 'monospace', color: '#166534', overflowWrap: 'anywhere' }}>{q.criteria.map(c => c.regex).join(', ')}</span>
                 </div>
               )}
               <div style={{ color: '#6366f1', fontSize: 14, marginTop: 4 }}>

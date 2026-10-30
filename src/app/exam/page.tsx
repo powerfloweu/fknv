@@ -111,7 +111,7 @@ export default function ExamStartPage() {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: 0
+      padding: '24px 16px'
     }}>
       <div style={{
         background: 'white',
@@ -229,7 +229,7 @@ export default function ExamStartPage() {
           </button>
         </div>
         {error && <div style={{ color: '#dc2626', marginTop: 8 }}>{error}</div>}
-        <Link href="/" style={{ display: 'inline-block', marginTop: 14, color: '#64748b', fontSize: 14, textDecoration: 'none' }}>
+        <Link href="/" style={{ display: 'inline-block', marginTop: 6, padding: '10px 12px', color: '#64748b', fontSize: 14, textDecoration: 'none' }}>
           ← Vissza
         </Link>
       </div>

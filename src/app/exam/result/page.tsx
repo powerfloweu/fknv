@@ -74,7 +74,7 @@ export default function ExamResultPage() {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 0
+        padding: '24px 16px'
       }}>
         <div style={{
           background: 'white',
@@ -115,7 +115,7 @@ export default function ExamResultPage() {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: 0
+      padding: '24px 16px'
     }}>
       <div style={{
         background: 'white',
