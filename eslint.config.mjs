@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored Impeccable design skill (third-party scripts)
+    ".claude/**",
   ]),
 ]);
 
