@@ -21,17 +21,26 @@ export default function NeuropsyVizsgaPage() {
   const [error, setError] = useState<string | null>(null);
 
   const allQ = questionsRaw as QMeta[];
-  const filtered = allQ.filter((q) => {
+  // A témakörön kívüli szűrők; a témakört külön adjuk meg, hogy témakörönként is számolhassunk
+  const matches = (q: QMeta, topic: number | "") => {
     if (q.type === "essay") return false;
-    if (topicFilter !== "" && q.topicNum !== topicFilter) return false;
+    if (topic !== "" && q.topicNum !== topic) return false;
     if (diffFilter && q.difficulty !== diffFilter) return false;
     if (typeFilter && q.type !== typeFilter) return false;
     if (onlyUj && q.category !== "uj") return false;
     if (onlyVizsga && !q.vizsgakerdes) return false;
     if (onlyTobblet && q.category !== "tobbletismeret") return false;
     return true;
-  });
-  const max = filtered.length;
+  };
+  const topicCount = (topic: number | "") => allQ.filter((q) => matches(q, topic)).length;
+  const max = topicCount(topicFilter);
+
+  function changeTopic(topic: number | "") {
+    setTopicFilter(topic);
+    setError(null);
+    // Kis témakörnél ne maradjon bent a nagyobb alapértelmezett kérdésszám
+    setCount(Math.max(1, Math.min(20, topicCount(topic))));
+  }
 
   function validate() {
     if (count < 1 || count > max) {
@@ -92,11 +101,11 @@ export default function NeuropsyVizsgaPage() {
           <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Témakör szűrő</label>
           <select
             value={topicFilter === "" ? "" : String(topicFilter)}
-            onChange={(e) => setTopicFilter(e.target.value === "" ? "" : Number(e.target.value))}
+            onChange={(e) => changeTopic(e.target.value === "" ? "" : Number(e.target.value))}
             style={{ width: "100%", padding: "9px 12px", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", background: "white", marginBottom: 12 }}
           >
-            <option value="">Minden témakör</option>
-            {topics.map((t) => <option key={t.num} value={t.num}>{t.num}. {t.name}</option>)}
+            <option value="">Minden témakör ({topicCount("")})</option>
+            {topics.map((t) => <option key={t.num} value={t.num}>{t.num}. {t.name} ({topicCount(t.num)})</option>)}
           </select>
 
           <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Nehézség szűrő</label>
