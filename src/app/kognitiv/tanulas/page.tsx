@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import questionsRaw from "@/data/kognitivQuestionBank.json";
 import topicsRaw from "@/data/kognitivTopics.json";
 import TanulasClient, { type Q } from "./TanulasClient";
+
+export const metadata: Metadata = { title: "Tanuló mód" };
 
 export default function KognitivTanulasPage() {
   const questions = questionsRaw as unknown as Q[];

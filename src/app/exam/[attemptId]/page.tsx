@@ -497,7 +497,7 @@ function ExamPage() {
         </div>
       </div>
       <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Sok sikert!
+        <span aria-hidden="true">🧠</span> Sok sikert!
       </div>
     </main>
   );

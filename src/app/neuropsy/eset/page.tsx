@@ -1,5 +1,8 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import casesRaw from "@/data/neuropsyCases.json";
+
+export const metadata: Metadata = { title: "Klinikai esetek" };
 
 type CaseListEntry = {
   id: number;

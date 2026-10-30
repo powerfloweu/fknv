@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import questionsRaw from "@/data/idegzavarokQuestionBank.json";
 import topicsRaw from "@/data/idegzavarokTopics.json";
 import TanulasClient, { type Q } from "./TanulasClient";
+
+export const metadata: Metadata = { title: "Tanuló mód" };
 
 export default function IdegzavarokTanulasPage() {
   const questions = questionsRaw as unknown as Q[];

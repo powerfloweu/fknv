@@ -230,7 +230,7 @@ export default function Home() {
       </div>
 
       <div style={{ color: '#64748b', fontSize: 14, marginTop: 8, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Tanulj, fejlődj, vizsgázz!
+        <span aria-hidden="true">🧠</span> Tanulj, fejlődj, vizsgázz!
       </div>
     </main>
   );

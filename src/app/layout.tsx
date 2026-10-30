@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fejlődési Kognitív Idegtudomány",
-  description: "Fejlődési Kognitív Idegtudomány – tanulás, vizsga, kérdésbank",
+  title: {
+    default: "Tanuló- és Vizsgaplatform",
+    template: "%s · Tanulóplatform",
+  },
+  description: "Pszichológia MA tárgyak: kérdésbankok, tanulási segédletek, próbavizsgák és klinikai esetek",
 };
 
 export default function RootLayout({
@@ -23,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="hu">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -2,6 +2,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import { useState, Suspense } from "react";
 import Link from "next/link";
+import AnswerMark from "@/components/AnswerMark";
 import questionsRaw from "@/data/kognitivQuestionBank.json";
 
 type Q = {
@@ -110,6 +111,7 @@ function MatchingInput({ q, sel, setSel, revealed }: {
                           setSel({ ...sel, [li]: arr.sort((a, b) => a - b) });
                         }} />
                       {right}
+                      {revealed && <AnswerMark correct={isCorrect} chosen={isChosen} />}
                     </label>
                   );
                 })}
@@ -242,6 +244,7 @@ function QaVizsga() {
   return (
     <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #d1fae5 0%, #ecfeff 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "16px" }}>
       <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(16,185,129,0.12)", padding: "32px 28px", maxWidth: 700, width: "100%", textAlign: "center" }}>
+        <h1 className="sr-only">Kérdés-felelet gyakorlás</h1>
         {/* Progress */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
           <Link href="/kognitiv/vizsga" style={{ color: "#64748b", fontSize: 14, textDecoration: "none", display: "inline-block", padding: "10px 8px", margin: "-10px -8px" }}>← Kilépés</Link>
@@ -265,21 +268,25 @@ function QaVizsga() {
           <span style={{ background: "#f3f4f6", color: "#374151", fontSize: 12, padding: "3px 8px", borderRadius: 999 }}>{q.topicNum}. {q.topic}</span>
         </div>
 
-        <div style={{ fontWeight: 700, color: "#064e3b", fontSize: 18, marginBottom: 20, lineHeight: 1.4 }}>{q.question}</div>
+        <h2 id="qa-question" style={{ fontWeight: 700, color: "#064e3b", fontSize: 18, marginBottom: 20, lineHeight: 1.4 }}>{q.question}</h2>
 
         {(q.type === "single" || q.type === "multi") && (
-          <ul style={{ listStyle: "none", padding: 0, margin: "0 0 16px 0", textAlign: "left" }}>
+          <ul role="group" aria-labelledby="qa-question" style={{ listStyle: "none", padding: 0, margin: "0 0 16px 0", textAlign: "left" }}>
             {q.options.map((opt, i) => {
               const idx1 = i + 1;
               const s = optStyle(idx1);
+              const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
+              const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
               return (
                 <li key={i} style={{ marginBottom: 6 }}>
                   <button
                     disabled={revealed}
+                    aria-pressed={isSel}
                     onClick={() => q.type === "single" ? setSel(idx1) : toggleMulti(idx1)}
-                    style={{ width: "100%", textAlign: "left", padding: "10px 14px", borderRadius: 10, background: s.bg, color: s.color, border: s.border, cursor: revealed ? "default" : "pointer", fontWeight: 500, fontSize: 15 }}
+                    style={{ width: "100%", textAlign: "left", display: "flex", alignItems: "center", padding: "10px 14px", borderRadius: 10, background: s.bg, color: s.color, border: s.border, cursor: revealed ? "default" : "pointer", fontWeight: 500, fontSize: 15 }}
                   >
-                    <b style={{ marginRight: 8 }}>{String.fromCharCode(65 + i)})</b>{opt}
+                    <b style={{ marginRight: 8 }}>{String.fromCharCode(65 + i)})</b><span>{opt}</span>
+                    {revealed && <AnswerMark correct={isAns} chosen={isSel} />}
                   </button>
                 </li>
               );
@@ -292,9 +299,10 @@ function QaVizsga() {
             {([true, false] as const).map((v) => {
               const s = tfStyle(v);
               return (
-                <button key={String(v)} disabled={revealed} onClick={() => setSel(v)}
-                  style={{ padding: "10px 30px", borderRadius: 10, background: s.bg, color: s.color, border: s.border, cursor: revealed ? "default" : "pointer", fontWeight: 600, fontSize: 16 }}>
+                <button key={String(v)} disabled={revealed} onClick={() => setSel(v)} aria-pressed={sel === v}
+                  style={{ display: "inline-flex", alignItems: "center", padding: "10px 30px", borderRadius: 10, background: s.bg, color: s.color, border: s.border, cursor: revealed ? "default" : "pointer", fontWeight: 600, fontSize: 16 }}>
                   {v ? "Igaz" : "Hamis"}
+                  {revealed && <AnswerMark correct={q.answer === v} chosen={sel === v} />}
                 </button>
               );
             })}
@@ -326,6 +334,7 @@ function QaVizsga() {
         )}
 
         {/* Feedback */}
+        <div aria-live="polite">
         {revealed && (
           <div style={{ marginBottom: 16 }}>
             <div style={{ fontSize: 18, fontWeight: 700, color: correct ? "#16a34a" : "#dc2626", marginBottom: 8 }}>
@@ -341,6 +350,7 @@ function QaVizsga() {
             </button>
           </div>
         )}
+        </div>
       </div>
     </main>
   );

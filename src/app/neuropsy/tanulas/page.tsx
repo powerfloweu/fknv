@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import questionsRaw from "@/data/neuropsyQuestionBank.json";
 import topicsRaw from "@/data/neuropsyTopics.json";
 import TanulasClient, { type Q } from "./TanulasClient";
+
+export const metadata: Metadata = { title: "Tanuló mód" };
 
 export default function NeuropsyTanulasPage() {
   const questions = questionsRaw as unknown as Q[];

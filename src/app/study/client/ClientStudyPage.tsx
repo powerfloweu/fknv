@@ -118,17 +118,18 @@ export default function ClientStudyPage({ questions }: { questions: Question[] }
         </div>
         <div style={{ display: "flex", gap: 16, marginBottom: 16, justifyContent: 'center', flexWrap: 'wrap', background: '#fff', padding: 12, borderRadius: 12, boxShadow: '0 2px 8px rgba(60,60,120,0.04)' }}>
           <input
-            type="text"
+            type="search"
+            aria-label="Keresés a kérdések között"
             value={search}
             onChange={e => { setSearch(e.target.value); setPage(1); }}
             placeholder="Keresés ID-re vagy szövegre..."
             style={{ minWidth: 220, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}
           />
-          <select value={type} onChange={e => { setType(e.target.value); setPage(1); }} style={{ minWidth: 140, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}>
+          <select aria-label="Kérdéstípus" value={type} onChange={e => { setType(e.target.value); setPage(1); }} style={{ minWidth: 140, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}>
             <option value="">Minden típus</option>
             {types.map(t => <option key={t} value={t}>{typeLabels[t] || t}</option>)}
           </select>
-          <select value={block} onChange={e => {
+          <select aria-label="Blokk" value={block} onChange={e => {
             setBlock(e.target.value);
             setTopic("");
             setDifficulty("");
@@ -137,11 +138,11 @@ export default function ClientStudyPage({ questions }: { questions: Question[] }
             <option value="">Minden blokk</option>
             {blocks.map(b => <option key={b} value={b}>{b}</option>)}
           </select>
-          <select value={topic} onChange={e => { setTopic(e.target.value); setPage(1); }} style={{ minWidth: 140, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}>
+          <select aria-label="Téma" value={topic} onChange={e => { setTopic(e.target.value); setPage(1); }} style={{ minWidth: 140, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}>
             <option value="">Minden téma</option>
             {topics.map(t => <option key={t} value={t}>{t}</option>)}
           </select>
-          <select value={difficulty} onChange={e => { setDifficulty(e.target.value); setPage(1); }} style={{ minWidth: 140, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}>
+          <select aria-label="Nehézség" value={difficulty} onChange={e => { setDifficulty(e.target.value); setPage(1); }} style={{ minWidth: 140, padding: '8px 12px', borderRadius: 8, border: '1.5px solid #6366f1', background: '#fff', color: '#3730a3', fontWeight: 500, fontSize: 16 }}>
             <option value="">Minden nehézség</option>
             {difficulties.map(d => <option key={d} value={d}>{d}</option>)}
           </select>
@@ -197,7 +198,7 @@ export default function ClientStudyPage({ questions }: { questions: Question[] }
         )}
       </div>
       <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Tanulj, fejlődj, ismételj!
+        <span aria-hidden="true">🧠</span> Tanulj, fejlődj, ismételj!
       </div>
     </main>
   );

@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import AnswerMark from "@/components/AnswerMark";
 
 export type CaseStep = {
   question: string;
@@ -170,7 +171,10 @@ export default function CaseClient({ cse }: { cse: Case }) {
                         key={i}
                         disabled={isRevealed}
                         onClick={() => selectAnswer(idx, idx1)}
+                        aria-pressed={isSel}
                         style={{
+                          display: "flex",
+                          alignItems: "center",
                           textAlign: "left",
                           padding: "10px 14px",
                           background: bg,
@@ -182,7 +186,8 @@ export default function CaseClient({ cse }: { cse: Case }) {
                           lineHeight: 1.5,
                         }}
                       >
-                        <b style={{ marginRight: 8 }}>{String.fromCharCode(65 + i)})</b>{opt}
+                        <b style={{ marginRight: 8 }}>{String.fromCharCode(65 + i)})</b><span>{opt}</span>
+                        {isRevealed && <AnswerMark correct={isAns} chosen={isSel} />}
                       </button>
                     );
                   })}
@@ -209,6 +214,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
                 )}
 
                 {/* Feedback after reveal */}
+                <div aria-live="polite">
                 {isRevealed && (
                   <div style={{ marginTop: 8 }}>
                     <div style={{ fontSize: 14, fontWeight: 700, color: isCorrect ? "#16a34a" : "#dc2626", marginBottom: 6 }}>
@@ -219,6 +225,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
                     </div>
                   </div>
                 )}
+                </div>
               </div>
 
               {/* New info revealed AFTER step is answered */}

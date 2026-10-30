@@ -73,6 +73,7 @@ export default function LoginClient() {
 
         <input
           type="password"
+          aria-label="Jelszó"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           placeholder="Jelszó"
@@ -87,7 +88,6 @@ export default function LoginClient() {
             color: "#3730a3",
             marginBottom: 12,
             boxSizing: "border-box",
-            outline: "none",
           }}
         />
 

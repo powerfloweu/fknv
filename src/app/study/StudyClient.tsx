@@ -171,7 +171,7 @@ export default function ClientStudyPage({ questions }: { questions: Question[] }
         )}
       </div>
       <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Tanulj, fejlődj, ismételj!
+        <span aria-hidden="true">🧠</span> Tanulj, fejlődj, ismételj!
       </div>
     </main>
   );

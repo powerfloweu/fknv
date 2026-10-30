@@ -108,7 +108,7 @@ export default function NeuropsyLandingPage() {
         </Link>
       </div>
       <div style={{ color: '#475569', fontSize: 14, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Tanulj, fejlődj, vizsgázz!
+        <span aria-hidden="true">🧠</span> Tanulj, fejlődj, vizsgázz!
       </div>
     </main>
   );

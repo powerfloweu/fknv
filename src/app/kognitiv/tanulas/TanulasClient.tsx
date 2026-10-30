@@ -97,10 +97,12 @@ export default function TanulasClient({
         </div>
 
         {/* Tabs */}
-        <div style={{ display: "flex", gap: 8, marginBottom: 20, borderBottom: "2px solid #bbf7d0" }}>
+        <div role="tablist" aria-label="Tanuló mód nézetei" style={{ display: "flex", gap: 8, marginBottom: 20, borderBottom: "2px solid #bbf7d0" }}>
           {(["kerdesek", "segedlet"] as const).map((t) => (
             <button
               key={t}
+              role="tab"
+              aria-selected={tab === t}
               onClick={() => setTab(t)}
               style={{
                 padding: "8px 18px",
@@ -125,13 +127,15 @@ export default function TanulasClient({
             {/* Filters */}
             <div style={{ display: "flex", gap: 10, marginBottom: 14, flexWrap: "wrap" }}>
               <input
-                type="text"
+                type="search"
+                aria-label="Keresés a kérdések között"
                 value={search}
                 onChange={(e) => { setSearch(e.target.value); resetPage(); }}
                 placeholder="Keresés szövegre vagy ID-re…"
                 style={{ flex: "1 1 180px", padding: "8px 12px", borderRadius: 8, border: "1.5px solid #86efac", fontSize: 14, color: "#064e3b" }}
               />
               <select
+                aria-label="Témakör"
                 value={topicFilter === "" ? "" : String(topicFilter)}
                 onChange={(e) => { setTopicFilter(e.target.value === "" ? "" : Number(e.target.value)); resetPage(); }}
                 style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #86efac", fontSize: 14, color: "#064e3b", background: "white" }}
@@ -140,6 +144,7 @@ export default function TanulasClient({
                 {topics.map((t) => <option key={t.num} value={t.num}>{t.num}. {t.name}</option>)}
               </select>
               <select
+                aria-label="Nehézség"
                 value={diffFilter}
                 onChange={(e) => { setDiffFilter(e.target.value); resetPage(); }}
                 style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #86efac", fontSize: 14, color: "#064e3b", background: "white" }}
@@ -150,6 +155,7 @@ export default function TanulasClient({
                 <option value="hard">Nehéz</option>
               </select>
               <select
+                aria-label="Kérdéstípus"
                 value={typeFilter}
                 onChange={(e) => { setTypeFilter(e.target.value); resetPage(); }}
                 style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #86efac", fontSize: 14, color: "#064e3b", background: "white" }}
@@ -162,6 +168,7 @@ export default function TanulasClient({
                 <option value="essay">Esszé</option>
               </select>
               <select
+                aria-label="Kategória"
                 value={catFilter}
                 onChange={(e) => { setCatFilter(e.target.value as "" | "uj" | "konnyu" | "vizsga"); resetPage(); }}
                 style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #86efac", fontSize: 14, color: "#064e3b", background: "white" }}
