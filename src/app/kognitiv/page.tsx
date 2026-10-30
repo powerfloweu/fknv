@@ -78,7 +78,8 @@ export default function KognitivLandingPage() {
           href="/"
           style={{
             display: 'inline-block',
-            marginTop: 20,
+            marginTop: 12,
+            padding: '10px 12px',
             color: '#64748b',
             fontSize: 14,
             textDecoration: 'none',

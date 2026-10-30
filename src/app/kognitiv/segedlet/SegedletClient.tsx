@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 
 type Section = { num: number; title: string; body: string };
@@ -44,6 +44,14 @@ function renderBody(body: string) {
 export default function SegedletClient({ sections }: { sections: Section[] }) {
   const [active, setActive] = useState<number>(sections[0]?.num ?? 1);
   const [search, setSearch] = useState("");
+  const mobileTocRef = useRef<HTMLDetailsElement>(null);
+
+  // Fejezetváltáskor a fejezet elejére ugrunk, mobilon a lenyíló tartalomjegyzéket is bezárjuk
+  function goTo(num: number) {
+    setActive(num);
+    if (mobileTocRef.current) mobileTocRef.current.open = false;
+    window.scrollTo({ top: 0 });
+  }
 
   const current = sections.find((s) => s.num === active) ?? sections[0];
 
@@ -56,6 +64,54 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
   }, [sections, search]);
 
   const blocks = useMemo(() => (current ? renderBody(current.body) : []), [current]);
+
+  // A tartalomjegyzék elemei: asztalon az oldalsávban, mobilon a lenyíló blokkban jelennek meg
+  const tocItems = (
+    <>
+      <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+        {sections.map((s) => (
+          <li key={s.num}>
+            <button
+              onClick={() => goTo(s.num)}
+              style={{
+                width: "100%",
+                textAlign: "left",
+                padding: "8px 10px",
+                margin: "2px 0",
+                background: active === s.num ? "linear-gradient(90deg,#14b8a6,#34d399)" : "transparent",
+                color: active === s.num ? "white" : "#831843",
+                border: "none",
+                borderRadius: 8,
+                cursor: "pointer",
+                fontWeight: active === s.num ? 700 : 500,
+                fontSize: 14,
+                lineHeight: 1.3,
+              }}
+            >
+              <b>{s.num}.</b> {s.title}
+            </button>
+          </li>
+        ))}
+      </ul>
+      <Link
+        href="/kognitiv/vizsga"
+        style={{
+          display: "block",
+          marginTop: 16,
+          padding: "10px 14px",
+          background: "linear-gradient(90deg,#0d9488,#14b8a6)",
+          color: "white",
+          borderRadius: 10,
+          textDecoration: "none",
+          fontWeight: 600,
+          fontSize: 14,
+          textAlign: "center",
+        }}
+      >
+        Tovább a kvízhez →
+      </Link>
+    </>
+  );
 
   return (
     <main
@@ -81,9 +137,22 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
         />
       </div>
 
-      <div style={{ width: "100%", maxWidth: 1100, display: "grid", gridTemplateColumns: "minmax(220px, 280px) 1fr", gap: 16, alignItems: "start" }}>
-        {/* TOC */}
+      <div className="grid grid-cols-1 items-start gap-4 md:grid-cols-[minmax(220px,280px)_1fr]" style={{ width: "100%", maxWidth: 1100 }}>
+        {/* Tartalomjegyzék: mobilon lenyíló blokk a szöveg fölött */}
+        <details
+          ref={mobileTocRef}
+          className="md:hidden"
+          style={{ background: "white", borderRadius: 16, boxShadow: "0 4px 16px rgba(16,185,129,0.10)", padding: "12px 16px" }}
+        >
+          <summary style={{ cursor: "pointer", fontWeight: 700, fontSize: 15, color: "#831843", padding: "6px 0" }}>
+            Tartalomjegyzék{current ? ` · ${current.num}. ${current.title}` : ""}
+          </summary>
+          <div style={{ marginTop: 8 }}>{tocItems}</div>
+        </details>
+
+        {/* Tartalomjegyzék: asztalon ragadós oldalsáv */}
         <nav
+          className="hidden md:block"
           style={{
             background: "white",
             borderRadius: 16,
@@ -98,52 +167,11 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
           <h3 style={{ color: "#831843", fontSize: 14, fontWeight: 700, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.5 }}>
             Tartalomjegyzék
           </h3>
-          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-            {sections.map((s) => (
-              <li key={s.num}>
-                <button
-                  onClick={() => setActive(s.num)}
-                  style={{
-                    width: "100%",
-                    textAlign: "left",
-                    padding: "8px 10px",
-                    margin: "2px 0",
-                    background: active === s.num ? "linear-gradient(90deg,#14b8a6,#34d399)" : "transparent",
-                    color: active === s.num ? "white" : "#831843",
-                    border: "none",
-                    borderRadius: 8,
-                    cursor: "pointer",
-                    fontWeight: active === s.num ? 700 : 500,
-                    fontSize: 14,
-                    lineHeight: 1.3,
-                  }}
-                >
-                  <b>{s.num}.</b> {s.title}
-                </button>
-              </li>
-            ))}
-          </ul>
-          <Link
-            href="/kognitiv/vizsga"
-            style={{
-              display: "block",
-              marginTop: 16,
-              padding: "10px 14px",
-              background: "linear-gradient(90deg,#0d9488,#14b8a6)",
-              color: "white",
-              borderRadius: 10,
-              textDecoration: "none",
-              fontWeight: 600,
-              fontSize: 14,
-              textAlign: "center",
-            }}
-          >
-            Tovább a kvízhez →
-          </Link>
+          {tocItems}
         </nav>
 
         {/* Content */}
-        <article style={{ background: "white", borderRadius: 16, boxShadow: "0 4px 16px rgba(16,185,129,0.10)", padding: "28px 32px", color: "#1f2937", lineHeight: 1.6 }}>
+        <article className="px-5 py-6 md:px-8 md:py-7" style={{ background: "white", borderRadius: 16, boxShadow: "0 4px 16px rgba(16,185,129,0.10)", color: "#1f2937", lineHeight: 1.6, minWidth: 0, overflowWrap: "break-word" }}>
           {filteredSections ? (
             <>
               <h2 style={{ color: "#831843", fontSize: 22, fontWeight: 700, marginBottom: 12 }}>
@@ -155,7 +183,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
               {filteredSections.map((s) => (
                 <div key={s.num} style={{ marginBottom: 18 }}>
                   <button
-                    onClick={() => { setActive(s.num); setSearch(""); }}
+                    onClick={() => { goTo(s.num); setSearch(""); }}
                     style={{
                       background: "transparent",
                       border: "none",
@@ -180,20 +208,20 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
               {blocks.map((b) => {
                 if (b.kind === "sub") {
                   return (
-                    <h3 key={b.key} style={{ color: "#047857", fontSize: 17, fontWeight: 700, marginTop: 20, marginBottom: 8 }}>
+                    <h3 key={b.key} style={{ color: "#047857", fontSize: 17, fontWeight: 700, marginTop: 20, marginBottom: 8, maxWidth: "70ch" }}>
                       {b.title}
                     </h3>
                   );
                 }
                 return (
-                  <p key={b.key} style={{ margin: "8px 0", whiteSpace: "pre-wrap", fontSize: 15 }}>
+                  <p key={b.key} style={{ margin: "8px 0", whiteSpace: "pre-wrap", fontSize: 16, maxWidth: "70ch" }}>
                     {b.text}
                   </p>
                 );
               })}
-              <div style={{ marginTop: 28, display: "flex", justifyContent: "space-between", gap: 12 }}>
+              <div style={{ marginTop: 28, display: "flex", justifyContent: "space-between", gap: 12, flexWrap: "wrap" }}>
                 <button
-                  onClick={() => setActive((n) => Math.max(1, n - 1))}
+                  onClick={() => goTo(Math.max(1, active - 1))}
                   disabled={active === 1}
                   style={{
                     padding: "10px 18px",
@@ -208,7 +236,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
                   ← Előző fejezet
                 </button>
                 <button
-                  onClick={() => setActive((n) => Math.min(sections.length, n + 1))}
+                  onClick={() => goTo(Math.min(sections.length, active + 1))}
                   disabled={active === sections.length}
                   style={{
                     padding: "10px 18px",

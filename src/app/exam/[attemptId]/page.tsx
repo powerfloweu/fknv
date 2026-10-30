@@ -258,7 +258,7 @@ function ExamPage() {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: 0
+      padding: '24px 16px'
     }}>
       <div style={{
         background: 'white',
@@ -445,7 +445,7 @@ function ExamPage() {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      padding: 0
+      padding: '24px 16px'
     }}>
       <div style={{
         background: 'white',

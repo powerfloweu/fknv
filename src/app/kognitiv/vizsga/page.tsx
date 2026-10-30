@@ -192,7 +192,7 @@ export default function KognitivVizsgaPage() {
           </button>
         </div>
 
-        <Link href="/kognitiv" style={{ display: "inline-block", marginTop: 18, color: "#64748b", fontSize: 14, textDecoration: "none" }}>
+        <Link href="/kognitiv" style={{ display: "inline-block", marginTop: 10, padding: "10px 12px", color: "#64748b", fontSize: 14, textDecoration: "none" }}>
           ← Vissza
         </Link>
       </div>

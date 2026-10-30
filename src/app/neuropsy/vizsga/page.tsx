@@ -199,7 +199,7 @@ export default function NeuropsyVizsgaPage() {
           </button>
         </div>
 
-        <Link href="/neuropsy" style={{ display: "inline-block", marginTop: 18, color: "#64748b", fontSize: 14, textDecoration: "none" }}>
+        <Link href="/neuropsy" style={{ display: "inline-block", marginTop: 10, padding: "10px 12px", color: "#64748b", fontSize: 14, textDecoration: "none" }}>
           ← Vissza
         </Link>
       </div>

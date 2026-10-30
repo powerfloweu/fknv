@@ -133,7 +133,7 @@ export default function TanulasClient({
               <select
                 value={topicFilter === "" ? "" : String(topicFilter)}
                 onChange={(e) => { setTopicFilter(e.target.value === "" ? "" : Number(e.target.value)); resetPage(); }}
-                style={{ padding: "8px 12px", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
+                style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
               >
                 <option value="">Minden témakör</option>
                 {topics.map((t) => <option key={t.num} value={t.num}>{t.num}. {t.name}</option>)}
@@ -141,7 +141,7 @@ export default function TanulasClient({
               <select
                 value={diffFilter}
                 onChange={(e) => { setDiffFilter(e.target.value); resetPage(); }}
-                style={{ padding: "8px 12px", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
+                style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
               >
                 <option value="">Minden nehézség</option>
                 <option value="easy">Könnyű</option>
@@ -151,7 +151,7 @@ export default function TanulasClient({
               <select
                 value={typeFilter}
                 onChange={(e) => { setTypeFilter(e.target.value); resetPage(); }}
-                style={{ padding: "8px 12px", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
+                style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
               >
                 <option value="">Minden típus</option>
                 <option value="single">Egy helyes</option>
@@ -162,7 +162,7 @@ export default function TanulasClient({
               <select
                 value={catFilter}
                 onChange={(e) => { setCatFilter(e.target.value as "" | "uj" | "konnyu" | "vizsga"); resetPage(); }}
-                style={{ padding: "8px 12px", borderRadius: 8, border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
+                style={{ padding: "8px 12px", borderRadius: 8, maxWidth: "100%", border: "1.5px solid #fdba74", fontSize: 14, color: "#7c2d12", background: "white" }}
               >
                 <option value="">Minden kategória</option>
                 <option value="uj">Új!</option>
@@ -179,12 +179,12 @@ export default function TanulasClient({
             <ol style={{ paddingLeft: 0, listStyle: "none", margin: 0 }}>
               {paginated.map((q) => (
                 <li key={q.id} style={{ background: "#fffbeb", border: "1.5px solid #fde68a", borderRadius: 12, padding: "14px 16px", marginBottom: 12 }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", gap: 8, alignItems: "flex-start", marginBottom: 6 }}>
+                  <div className="flex flex-col-reverse gap-1.5 md:flex-row md:items-start md:justify-between md:gap-2" style={{ marginBottom: 6 }}>
                     <div style={{ fontWeight: 700, color: "#7c2d12", fontSize: 15 }}>
                       <span style={{ color: "#b45309", marginRight: 6 }}>{q.id}.</span>
                       {q.question}
                     </div>
-                    <div style={{ display: "flex", gap: 5, flexShrink: 0, flexWrap: "wrap", justifyContent: "flex-end" }}>
+                    <div className="flex flex-wrap gap-[5px] md:shrink-0 md:justify-end">
                       {q.category && (
                         <span style={{ background: catColor[q.category], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                           {catLabel[q.category]}
@@ -242,7 +242,7 @@ export default function TanulasClient({
 
                   {q.type === "matching" && q.leftItems && q.rightItems && (
                     <div style={{ marginTop: 8 }}>
-                      <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 13 }}>
+                      <table className="match-table" style={{ width: "100%", borderCollapse: "collapse", fontSize: 13, tableLayout: "fixed", overflowWrap: "anywhere" }}>
                         <thead>
                           <tr>
                             <th style={{ textAlign: "left", padding: "4px 8px", background: "#fde68a", borderRadius: "6px 0 0 0", color: "#7c2d12" }}>Kategória</th>

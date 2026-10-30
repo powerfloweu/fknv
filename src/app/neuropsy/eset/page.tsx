@@ -54,12 +54,12 @@ export default function NeuropsyCaseListPage() {
               color: "inherit",
               transition: "transform 0.1s",
             }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 12, marginBottom: 6 }}>
+              <div className="flex flex-col-reverse gap-1.5 sm:flex-row sm:items-start sm:justify-between sm:gap-3" style={{ marginBottom: 6 }}>
                 <div style={{ fontWeight: 700, color: "#4c1d95", fontSize: 16 }}>
                   <span style={{ color: "#7c3aed", marginRight: 6 }}>{c.id}.</span>
                   {c.title}
                 </div>
-                <div style={{ display: "flex", gap: 6, flexShrink: 0 }}>
+                <div className="flex flex-wrap gap-1.5 sm:shrink-0">
                   <span style={{ background: "#8b5cf6", color: "white", fontSize: 11, padding: "2px 8px", borderRadius: 999, fontWeight: 600 }}>
                     {c.steps.length} lépés
                   </span>

@@ -76,7 +76,7 @@ function MatchingInput({ q, sel, setSel, revealed }: {
 }) {
   const ans = q.answer as number[][];
   return (
-    <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, marginBottom: 16, textAlign: "left" }}>
+    <table className="match-table" style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, tableLayout: "fixed", overflowWrap: "anywhere", marginBottom: 16, textAlign: "left" }}>
       <thead>
         <tr>
           <th style={{ padding: "5px 8px", background: "#fde68a", color: "#7c2d12", borderRadius: "6px 0 0 0" }}>Kategória</th>
@@ -243,7 +243,7 @@ function QaVizsga() {
       <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(120,80,60,0.12)", padding: "32px 28px", maxWidth: 700, width: "100%", textAlign: "center" }}>
         {/* Progress */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
-          <Link href="/idegzavarok/vizsga" style={{ color: "#64748b", fontSize: 13, textDecoration: "none" }}>← Kilépés</Link>
+          <Link href="/idegzavarok/vizsga" style={{ color: "#64748b", fontSize: 14, textDecoration: "none", display: "inline-block", padding: "10px 8px", margin: "-10px -8px" }}>← Kilépés</Link>
           <div style={{ fontSize: 14, color: "#92400e", fontWeight: 600 }}>{current + 1} / {questions.length}</div>
           <div style={{ fontSize: 13, color: "#64748b" }}>✓ {score} helyes</div>
         </div>

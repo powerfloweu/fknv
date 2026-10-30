@@ -191,7 +191,7 @@ export default function IdegzavarokVizsgaPage() {
           </button>
         </div>
 
-        <Link href="/idegzavarok" style={{ display: "inline-block", marginTop: 18, color: "#64748b", fontSize: 14, textDecoration: "none" }}>
+        <Link href="/idegzavarok" style={{ display: "inline-block", marginTop: 10, padding: "10px 12px", color: "#64748b", fontSize: 14, textDecoration: "none" }}>
           ← Vissza
         </Link>
       </div>

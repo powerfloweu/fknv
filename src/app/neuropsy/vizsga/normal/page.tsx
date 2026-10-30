@@ -79,7 +79,7 @@ function MatchingInput({ q, sel, setSel, submitted }: {
 }) {
   const ans = q.answer as number[][];
   return (
-    <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, marginTop: 8 }}>
+    <table className="match-table" style={{ width: "100%", borderCollapse: "collapse", fontSize: 14, tableLayout: "fixed", overflowWrap: "anywhere", marginTop: 8 }}>
       <thead>
         <tr>
           <th style={{ textAlign: "left", padding: "5px 8px", background: "#ddd6fe", color: "#4c1d95", borderRadius: "6px 0 0 0" }}>Kategória</th>
@@ -228,11 +228,11 @@ function NormalVizsga() {
 
             return (
               <li key={q.id} style={{ background: "#faf5ff", border: "1.5px solid #ddd6fe", borderRadius: 12, padding: "14px 16px", marginBottom: 12 }}>
-                <div style={{ display: "flex", justifyContent: "space-between", gap: 8, alignItems: "flex-start", marginBottom: 6 }}>
+                <div className="flex flex-col-reverse gap-1.5 md:flex-row md:items-start md:justify-between md:gap-2" style={{ marginBottom: 6 }}>
                   <div style={{ fontWeight: 700, color: "#4c1d95", fontSize: 15 }}>
                     <span style={{ color: "#7c3aed", marginRight: 6 }}>{qi + 1}.</span>{q.question}
                   </div>
-                  <div style={{ display: "flex", gap: 5, flexShrink: 0, flexWrap: "wrap", justifyContent: "flex-end" }}>
+                  <div className="flex flex-wrap gap-[5px] md:shrink-0 md:justify-end">
                     {q.category && (
                       <span style={{ background: catColor[q.category], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                         {catLabel[q.category]}

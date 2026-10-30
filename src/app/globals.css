@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Párosító táblázat: keskeny képernyőn a kategória a válaszai fölé kerül */
+@media (max-width: 639px) {
+  .match-table,
+  .match-table tbody,
+  .match-table tr,
+  .match-table td {
+    display: block;
+    width: auto !important;
+  }
+  .match-table thead {
+    display: none;
+  }
+}
