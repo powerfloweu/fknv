@@ -71,7 +71,7 @@ export default function NeuropsyVizsgaPage() {
   return (
     <main style={{
       minHeight: "100vh",
-      background: "linear-gradient(120deg, #ede9fe 0%, #f5f3ff 100%)",
+      background: "var(--paper)",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -79,16 +79,6 @@ export default function NeuropsyVizsgaPage() {
       padding: "24px 16px"
     }}>
       <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(139,92,246,0.12)", padding: "40px 32px 32px 32px", maxWidth: 500, width: "100%", textAlign: "center", marginBottom: 24 }}>
-        <div style={{ marginBottom: 16 }}>
-          <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: "block", margin: "0 auto 12px auto" }}>
-            <ellipse cx="45" cy="35" rx="40" ry="28" fill="#c4b5fd" />
-            <ellipse cx="30" cy="35" rx="16" ry="20" fill="#ddd6fe" />
-            <ellipse cx="60" cy="35" rx="16" ry="20" fill="#ddd6fe" />
-            <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#7c3aed" strokeWidth="2.5" fill="none" />
-            <path d="M30 15 Q35 30 30 50" stroke="#7c3aed" strokeWidth="2" fill="none" />
-            <path d="M60 15 Q55 30 60 50" stroke="#7c3aed" strokeWidth="2" fill="none" />
-          </svg>
-        </div>
         <h1 style={{ fontSize: 24, fontWeight: 700, color: "#6d28d9", marginBottom: 6 }}>
           Vizsga indítása
         </h1>
@@ -140,7 +130,7 @@ export default function NeuropsyVizsgaPage() {
           <div role="group" aria-labelledby="f-cat" style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 12 }}>
             <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyUj ? "#ede9fe" : "#f5f3ff", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", cursor: "pointer", fontWeight: 500 }}>
               <input type="checkbox" checked={onlyUj} onChange={(e) => setOnlyUj(e.target.checked)} />
-              <span><b style={{ color: "#db2777" }}>Új!</b> kérdések — csak a nemrég hozzáadott kérdések (közepes/nehéz)</span>
+              <span><b style={{ color: "#be185d" }}>Új!</b> kérdések — csak a nemrég hozzáadott kérdések (közepes/nehéz)</span>
             </label>
             <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyVizsga ? "#dbeafe" : "#f5f3ff", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", cursor: "pointer", fontWeight: 500 }}>
               <input type="checkbox" checked={onlyVizsga} onChange={(e) => setOnlyVizsga(e.target.checked)} />
@@ -148,7 +138,7 @@ export default function NeuropsyVizsgaPage() {
             </label>
             <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyTobblet ? "#fef3c7" : "#f5f3ff", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", cursor: "pointer", fontWeight: 500 }}>
               <input type="checkbox" checked={onlyTobblet} onChange={(e) => setOnlyTobblet(e.target.checked)} />
-              <span><b style={{ color: "#a16207" }}>Többletismeret</b> — brainaacn.org Mock Exam kérdések (angol nyelvű)</span>
+              <span><b style={{ color: "#854d0e" }}>Többletismeret</b> — brainaacn.org Mock Exam kérdések (angol nyelvű)</span>
             </label>
           </div>
 
@@ -172,7 +162,7 @@ export default function NeuropsyVizsgaPage() {
           <button
             onClick={() => start("normal")}
             style={{
-              background: "linear-gradient(90deg, #7c3aed 0%, #9333ea 100%)",
+              background: "#6d28d9",
               color: "white",
               fontWeight: 600,
               fontSize: 16,
@@ -188,13 +178,13 @@ export default function NeuropsyVizsgaPage() {
           <button
             onClick={() => start("qa")}
             style={{
-              background: "linear-gradient(90deg, #8b5cf6 0%, #a78bfa 100%)",
-              color: "white",
+              background: "white",
+              color: "#6d28d9",
               fontWeight: 600,
               fontSize: 16,
               padding: "12px 24px",
               borderRadius: 12,
-              border: "none",
+              border: "2px solid #6d28d9",
               cursor: "pointer",
               boxShadow: "0 2px 8px rgba(139,92,246,0.18)",
             }}
@@ -203,7 +193,7 @@ export default function NeuropsyVizsgaPage() {
           </button>
         </div>
 
-        <Link href="/neuropsy" style={{ display: "inline-block", marginTop: 10, padding: "10px 12px", color: "#64748b", fontSize: 14, textDecoration: "none" }}>
+        <Link href="/neuropsy" style={{ display: "inline-block", marginTop: 10, padding: "10px 12px", color: "#52606d", fontSize: 14, textDecoration: "none" }}>
           ← Vissza
         </Link>
       </div>

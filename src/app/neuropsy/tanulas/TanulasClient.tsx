@@ -22,10 +22,10 @@ export type Q = {
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
-const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const diffColor: Record<string, string> = { easy: "#15803d", medium: "#854d0e", hard: "#dc2626" };
 const typeLabel: Record<string, string> = { single: "Egy helyes", multi: "Több helyes", tf: "Igaz/Hamis", matching: "Párosítás", essay: "Esszé" };
 const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű", vizsga: "Vizsgakérdés", tobbletismeret: "Többletismeret" };
-const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2", vizsga: "#1d4ed8", tobbletismeret: "#a16207" };
+const catColor: Record<string, string> = { uj: "#be185d", konnyu: "#0e7490", vizsga: "#1d4ed8", tobbletismeret: "#854d0e" };
 
 export default function TanulasClient({
   questions,
@@ -75,7 +75,7 @@ export default function TanulasClient({
   return (
     <main style={{
       minHeight: "100vh",
-      background: "linear-gradient(120deg, #ede9fe 0%, #f5f3ff 100%)",
+      background: "var(--paper)",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -86,7 +86,7 @@ export default function TanulasClient({
         <Link href="/neuropsy" style={{ color: "#6d28d9", fontWeight: 600, textDecoration: "none", background: "white", padding: "8px 16px", borderRadius: 10, border: "1.5px solid #c4b5fd" }}>
           ← Vissza
         </Link>
-        <Link href="/neuropsy/vizsga" style={{ padding: "8px 18px", background: "linear-gradient(90deg,#7c3aed,#9333ea)", color: "white", border: "none", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>
+        <Link href="/neuropsy/vizsga" style={{ padding: "8px 18px", background: "#6d28d9", color: "white", border: "none", borderRadius: 10, fontWeight: 600, textDecoration: "none" }}>
           Vizsga mód →
         </Link>
       </div>
@@ -109,7 +109,7 @@ export default function TanulasClient({
               onClick={() => setTab(t)}
               style={{
                 padding: "8px 18px",
-                background: tab === t ? "linear-gradient(90deg,#8b5cf6,#a78bfa)" : "transparent",
+                background: tab === t ? "#6d28d9" : "transparent",
                 color: tab === t ? "white" : "#6d28d9",
                 border: "none",
                 borderBottom: tab === t ? "2px solid transparent" : "2px solid transparent",
@@ -187,7 +187,7 @@ export default function TanulasClient({
                 Válasz elrejtése
               </label>
             </div>
-            <div style={{ fontSize: 13, color: "#64748b", marginBottom: 12 }}>{filtered.length} kérdés</div>
+            <div style={{ fontSize: 13, color: "#52606d", marginBottom: 12 }}>{filtered.length} kérdés</div>
 
             <ol style={{ paddingLeft: 0, listStyle: "none", margin: 0 }}>
               {paginated.map((q) => (
@@ -199,26 +199,26 @@ export default function TanulasClient({
                     </div>
                     <div className="flex flex-wrap gap-[5px] md:shrink-0 md:justify-end">
                       {q.category && (
-                        <span style={{ background: catColor[q.category], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                        <span style={{ background: catColor[q.category], color: "white", fontSize: 12, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                           {catLabel[q.category]}
                         </span>
                       )}
                       {q.vizsgakerdes && (
-                        <span style={{ background: "#1d4ed8", color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                        <span style={{ background: "#1d4ed8", color: "white", fontSize: 12, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                           Vizsgakérdés
                         </span>
                       )}
-                      <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                      <span style={{ background: diffColor[q.difficulty], color: "white", fontSize: 12, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                         {diffLabel[q.difficulty]}
                       </span>
-                      <span style={{ background: "#7c3aed", color: "white", fontSize: 11, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
+                      <span style={{ background: "#7c3aed", color: "white", fontSize: 12, padding: "2px 7px", borderRadius: 999, fontWeight: 600 }}>
                         {typeLabel[q.type]}
                       </span>
                     </div>
                   </div>
                   <div style={{ fontSize: 12, color: "#5b21b6", marginBottom: q.source ? 2 : 8 }}>{q.topicNum}. {q.topic}</div>
                   {q.source && (
-                    <div style={{ fontSize: 11, color: "#94a3b8", marginBottom: 8, fontStyle: "italic", lineHeight: 1.35 }}>
+                    <div style={{ fontSize: 12, color: "#52606d", marginBottom: 8, fontStyle: "italic", lineHeight: 1.35 }}>
                       Forrás: {q.source}
                     </div>
                   )}
@@ -227,7 +227,7 @@ export default function TanulasClient({
                     <div style={{ margin: "8px 0", padding: "8px", background: "#ede9fe", borderRadius: 8, textAlign: "center" }}>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={q.image} alt={q.imageAlt || "Kérdéshez tartozó ábra"} style={{ maxWidth: "100%", maxHeight: 400, borderRadius: 6, boxShadow: "0 2px 8px rgba(76,29,149,0.15)" }} />
-                      {q.imageAlt && <div style={{ fontSize: 11, color: "#7c3aed", fontStyle: "italic", marginTop: 4 }}>{q.imageAlt}</div>}
+                      {q.imageAlt && <div style={{ fontSize: 12, color: "#7c3aed", fontStyle: "italic", marginTop: 4 }}>{q.imageAlt}</div>}
                     </div>
                   )}
 
@@ -237,7 +237,7 @@ export default function TanulasClient({
                         const idx1 = i + 1;
                         const isCorrect = isCorrectOption(q, idx1);
                         if (hideAnswer && isCorrect) return (
-                          <li key={i} style={{ padding: "4px 10px", borderRadius: 6, background: "#e0e7ff", color: "#a5b4fc", fontSize: 13 }}>
+                          <li key={i} style={{ padding: "4px 10px", borderRadius: 6, background: "#f1f5f9", color: "#334155", fontSize: 13 }}>
                             {String.fromCharCode(65 + i)}) <i>elrejtve</i>
                           </li>
                         );
@@ -255,7 +255,7 @@ export default function TanulasClient({
                       {[true, false].map((v) => {
                         const isCorrect = q.answer === v;
                         if (hideAnswer && isCorrect) return (
-                          <span key={String(v)} style={{ padding: "4px 14px", borderRadius: 6, background: "#e0e7ff", color: "#a5b4fc", fontSize: 13 }}><i>elrejtve</i></span>
+                          <span key={String(v)} style={{ padding: "4px 14px", borderRadius: 6, background: "#f1f5f9", color: "#334155", fontSize: 13 }}><i>elrejtve</i></span>
                         );
                         return (
                           <span key={String(v)} style={{ padding: "4px 14px", borderRadius: 6, background: isCorrect ? "#ddd6fe" : "#f3f4f6", color: isCorrect ? "#166534" : "#374151", fontWeight: isCorrect ? 700 : 400, fontSize: 13 }}>
@@ -284,7 +284,7 @@ export default function TanulasClient({
                             return (
                               <tr key={li} style={{ borderBottom: "1px solid #ddd6fe" }}>
                                 <td style={{ padding: "5px 8px", fontWeight: 600, color: "#4c1d95", verticalAlign: "top", width: "40%" }}>{left}</td>
-                                <td style={{ padding: "5px 8px", color: hideAnswer ? "#a5b4fc" : "#166534", fontWeight: hideAnswer ? 400 : 600 }}>
+                                <td style={{ padding: "5px 8px", color: hideAnswer ? "#52606d" : "#166534", fontWeight: hideAnswer ? 400 : 600 }}>
                                   {hideAnswer ? <i>elrejtve</i> : rights.join(" / ")}
                                 </td>
                               </tr>
@@ -321,9 +321,9 @@ export default function TanulasClient({
 
             {totalPages > 1 && (
               <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 16, marginTop: 20 }}>
-                <button onClick={() => setPage(p => p - 1)} disabled={page === 1} style={{ padding: "8px 16px", borderRadius: 8, border: "none", background: page === 1 ? "#e0e7ff" : "#7c3aed", color: page === 1 ? "#a5b4fc" : "#fff", fontWeight: 600, cursor: page === 1 ? "not-allowed" : "pointer" }}>Előző</button>
+                <button onClick={() => setPage(p => p - 1)} disabled={page === 1} style={{ padding: "8px 16px", borderRadius: 8, border: "none", background: page === 1 ? "#ede9fe" : "#7c3aed", color: page === 1 ? "#7c3aed" : "#fff", fontWeight: 600, cursor: page === 1 ? "not-allowed" : "pointer" }}>Előző</button>
                 <span style={{ fontWeight: 500, color: "#4c1d95", fontSize: 14 }}>Oldal {page} / {totalPages}</span>
-                <button onClick={() => setPage(p => p + 1)} disabled={page === totalPages} style={{ padding: "8px 16px", borderRadius: 8, border: "none", background: page === totalPages ? "#e0e7ff" : "#7c3aed", color: page === totalPages ? "#a5b4fc" : "#fff", fontWeight: 600, cursor: page === totalPages ? "not-allowed" : "pointer" }}>Következő</button>
+                <button onClick={() => setPage(p => p + 1)} disabled={page === totalPages} style={{ padding: "8px 16px", borderRadius: 8, border: "none", background: page === totalPages ? "#ede9fe" : "#7c3aed", color: page === totalPages ? "#7c3aed" : "#fff", fontWeight: 600, cursor: page === totalPages ? "not-allowed" : "pointer" }}>Következő</button>
               </div>
             )}
           </>
@@ -346,7 +346,7 @@ function SegedletEmbed() {
         style={{
           display: "inline-block",
           padding: "13px 28px",
-          background: "linear-gradient(90deg,#8b5cf6,#a78bfa)",
+          background: "#6d28d9",
           color: "white",
           borderRadius: 12,
           fontWeight: 600,

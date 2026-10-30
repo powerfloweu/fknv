@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { Stethoscope } from "lucide-react";
 
 export default function NeuropsyLandingPage() {
   return (
     <main style={{
       minHeight: '100vh',
-      background: 'linear-gradient(120deg, #ede9fe 0%, #f5f3ff 100%)',
+      background: 'var(--paper)',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -21,16 +22,6 @@ export default function NeuropsyLandingPage() {
         textAlign: 'center',
         marginBottom: 24
       }}>
-        <div style={{ marginBottom: 16 }}>
-          <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block', margin: '0 auto 12px auto' }}>
-            <ellipse cx="45" cy="35" rx="40" ry="28" fill="#c4b5fd" />
-            <ellipse cx="30" cy="35" rx="16" ry="20" fill="#ddd6fe" />
-            <ellipse cx="60" cy="35" rx="16" ry="20" fill="#ddd6fe" />
-            <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#6d28d9" strokeWidth="2.5" fill="none" />
-            <path d="M30 15 Q35 30 30 50" stroke="#6d28d9" strokeWidth="2" fill="none" />
-            <path d="M60 15 Q55 30 60 50" stroke="#6d28d9" strokeWidth="2" fill="none" />
-          </svg>
-        </div>
         <h1 style={{ fontSize: 24, fontWeight: 700, color: '#6d28d9', marginBottom: 8 }}>
           Neuropszichológia
         </h1>
@@ -46,7 +37,7 @@ export default function NeuropsyLandingPage() {
             display: 'block',
             marginBottom: 12,
             padding: '13px 24px',
-            background: 'linear-gradient(90deg, #8b5cf6 0%, #a78bfa 100%)',
+            background: '#6d28d9',
             color: 'white',
             borderRadius: 12,
             fontWeight: 600,
@@ -62,9 +53,10 @@ export default function NeuropsyLandingPage() {
           style={{
             display: 'block',
             marginBottom: 12,
-            padding: '13px 24px',
-            background: 'linear-gradient(90deg, #7c3aed 0%, #9333ea 100%)',
-            color: 'white',
+            padding: '11px 24px',
+            background: 'white',
+            color: '#6d28d9',
+            border: '2px solid #6d28d9',
             borderRadius: 12,
             fontWeight: 600,
             fontSize: 17,
@@ -90,7 +82,7 @@ export default function NeuropsyLandingPage() {
             boxShadow: '0 2px 8px rgba(139,92,246,0.18)'
           }}
         >
-          🩺 Klinikai esetelemzés (hipotézis-teszt) →
+          <Stethoscope aria-hidden="true" size={18} strokeWidth={2} style={{ display: "inline", verticalAlign: "-3px", marginRight: 6 }} />Klinikai esetelemzés (hipotézis-teszt) →
         </Link>
 
         <Link
@@ -99,16 +91,13 @@ export default function NeuropsyLandingPage() {
             display: 'inline-block',
             marginTop: 12,
             padding: '10px 12px',
-            color: '#64748b',
+            color: '#52606d',
             fontSize: 14,
             textDecoration: 'none',
           }}
         >
           ← Tárgyválasztó
         </Link>
-      </div>
-      <div style={{ color: '#475569', fontSize: 14, textAlign: 'center' }}>
-        <span aria-hidden="true">🧠</span> Tanulj, fejlődj, vizsgázz!
       </div>
     </main>
   );

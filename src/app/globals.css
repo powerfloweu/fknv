@@ -1,28 +1,49 @@
 @import "tailwindcss";
 
+/* Alap tokenek: semleges, papírszerű háttér; a tárgyak csak egy-egy kiemelőszínt kapnak */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --paper: #f6f5f2;
+  --background: var(--paper);
+  --foreground: #1f2937;
+  --muted: #52606d;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-source-sans);
+  --font-serif: var(--font-source-serif);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-source-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Címsorok: akadémiai karakterű talpas betű */
+h1,
+h2 {
+  font-family: var(--font-source-serif), Georgia, serif;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+/* Hosszabb olvasnivaló (segédlet) talpas betűvel */
+.reading p {
+  font-family: var(--font-source-serif), Georgia, serif;
+}
+
+::placeholder {
+  color: #6b7280;
+  opacity: 1;
+}
+
+::selection {
+  background: #ddd6fe;
+  color: #1f2937;
 }
 
 /* Párosító táblázat: keskeny képernyőn a kategória a válaszai fölé kerül */

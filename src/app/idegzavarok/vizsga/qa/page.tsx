@@ -3,6 +3,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { useState, Suspense } from "react";
 import Link from "next/link";
 import AnswerMark from "@/components/AnswerMark";
+import { Check, X } from "lucide-react";
 import questionsRaw from "@/data/idegzavarokQuestionBank.json";
 
 type Q = {
@@ -19,9 +20,9 @@ type Q = {
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
-const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const diffColor: Record<string, string> = { easy: "#15803d", medium: "#854d0e", hard: "#dc2626" };
 const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű" };
-const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2" };
+const catColor: Record<string, string> = { uj: "#be185d", konnyu: "#0e7490" };
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -197,7 +198,7 @@ function QaVizsga() {
 
   if (finished) {
     return (
-      <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #fef3c7 0%, #fce7f3 100%)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "24px" }}>
+      <main style={{ minHeight: "100vh", background: "var(--paper)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "24px" }}>
         <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(120,80,60,0.12)", padding: "40px 32px", maxWidth: 500, width: "100%", textAlign: "center" }}>
           <h1 style={{ fontSize: 26, fontWeight: 700, color: "#9a3412", marginBottom: 10 }}>Q&amp;A vizsga vége!</h1>
           <div style={{ fontSize: 20, color: "#b45309", fontWeight: 600, marginBottom: 20 }}>
@@ -207,10 +208,10 @@ function QaVizsga() {
             {pct >= 60 ? "Szép eredmény! Gratulálunk!" : "Még van mit gyakorolni!"}
           </div>
           <div style={{ display: "flex", gap: 10, justifyContent: "center" }}>
-            <button onClick={() => router.push("/idegzavarok/vizsga")} style={{ padding: "12px 24px", background: "linear-gradient(90deg,#ec4899,#f472b6)", color: "white", border: "none", borderRadius: 12, fontWeight: 700, cursor: "pointer", fontSize: 15 }}>
+            <button onClick={() => router.push("/idegzavarok/vizsga")} style={{ padding: "12px 24px", background: "#c2410c", color: "white", border: "none", borderRadius: 12, fontWeight: 700, cursor: "pointer", fontSize: 15 }}>
               Új vizsga
             </button>
-            <Link href="/idegzavarok/tanulas" style={{ padding: "12px 24px", background: "#fdf2f8", color: "#9a3412", border: "1.5px solid #fbcfe8", borderRadius: 12, fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
+            <Link href="/idegzavarok/tanulas" style={{ padding: "12px 24px", background: "#fff7ed", color: "#9a3412", border: "1.5px solid #fed7aa", borderRadius: 12, fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
               Tanuló mód
             </Link>
           </div>
@@ -222,8 +223,8 @@ function QaVizsga() {
   function optStyle(idx1: number) {
     const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
     const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
-    if (!revealed) return { bg: isSel ? "#fde68a" : "#f9fafb", color: isSel ? "#7c2d12" : "#374151", border: isSel ? "2px solid #f97316" : "2px solid transparent" };
-    if (isAns) return { bg: "#bbf7d0", color: "#166534", border: "2px solid #16a34a" };
+    if (!revealed) return { bg: isSel ? "#fde68a" : "#f9fafb", color: isSel ? "#7c2d12" : "#374151", border: isSel ? "2px solid #c2410c" : "2px solid transparent" };
+    if (isAns) return { bg: "#bbf7d0", color: "#166534", border: "2px solid #15803d" };
     if (isSel) return { bg: "#fecaca", color: "#991b1b", border: "2px solid #dc2626" };
     return { bg: "#f9fafb", color: "#374151", border: "2px solid transparent" };
   }
@@ -231,8 +232,8 @@ function QaVizsga() {
   function tfStyle(v: boolean) {
     const isAns = q.answer === v;
     const isSel = sel === v;
-    if (!revealed) return { bg: isSel ? "#fde68a" : "#f9fafb", color: isSel ? "#7c2d12" : "#374151", border: isSel ? "2px solid #f97316" : "2px solid transparent" };
-    if (isAns) return { bg: "#bbf7d0", color: "#166534", border: "2px solid #16a34a" };
+    if (!revealed) return { bg: isSel ? "#fde68a" : "#f9fafb", color: isSel ? "#7c2d12" : "#374151", border: isSel ? "2px solid #c2410c" : "2px solid transparent" };
+    if (isAns) return { bg: "#bbf7d0", color: "#166534", border: "2px solid #15803d" };
     if (isSel) return { bg: "#fecaca", color: "#991b1b", border: "2px solid #dc2626" };
     return { bg: "#f9fafb", color: "#374151", border: "2px solid transparent" };
   }
@@ -241,19 +242,19 @@ function QaVizsga() {
   const confirmEnabled = canReveal();
 
   return (
-    <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #fef3c7 0%, #fce7f3 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "16px" }}>
+    <main style={{ minHeight: "100vh", background: "var(--paper)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "16px" }}>
       <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(120,80,60,0.12)", padding: "32px 28px", maxWidth: 700, width: "100%", textAlign: "center" }}>
         <h1 className="sr-only">Kérdés-felelet gyakorlás</h1>
         {/* Progress */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
-          <Link href="/idegzavarok/vizsga" style={{ color: "#64748b", fontSize: 14, textDecoration: "none", display: "inline-block", padding: "10px 8px", margin: "-10px -8px" }}>← Kilépés</Link>
+          <Link href="/idegzavarok/vizsga" style={{ color: "#52606d", fontSize: 14, textDecoration: "none", display: "inline-block", padding: "10px 8px", margin: "-10px -8px" }}>← Kilépés</Link>
           <div style={{ fontSize: 14, color: "#92400e", fontWeight: 600 }}>{current + 1} / {questions.length}</div>
-          <div style={{ fontSize: 13, color: "#64748b" }}>✓ {score} helyes</div>
+          <div style={{ fontSize: 13, color: "#52606d" }}><Check aria-hidden="true" size={14} strokeWidth={2.5} style={{ display: "inline", verticalAlign: "-2px", marginRight: 3 }} />{score} helyes</div>
         </div>
 
         {/* Progress bar */}
         <div style={{ height: 6, background: "#fde68a", borderRadius: 3, marginBottom: 20, overflow: "hidden" }}>
-          <div style={{ height: "100%", background: "linear-gradient(90deg,#f97316,#ec4899)", borderRadius: 3, width: `${(current / questions.length) * 100}%`, transition: "width 0.3s" }} />
+          <div style={{ height: "100%", background: "#c2410c", borderRadius: 3, width: `${(current / questions.length) * 100}%`, transition: "width 0.3s" }} />
         </div>
 
         <div style={{ display: "flex", justifyContent: "center", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
@@ -320,14 +321,14 @@ function QaVizsga() {
         {/* Confirm button for multi and matching */}
         {needsConfirm && !revealed && (
           <button onClick={reveal} disabled={!confirmEnabled}
-            style={{ marginBottom: 12, padding: "8px 20px", borderRadius: 8, background: "#f97316", color: "white", fontWeight: 600, border: "none", cursor: confirmEnabled ? "pointer" : "not-allowed", opacity: confirmEnabled ? 1 : 0.5 }}>
+            style={{ marginBottom: 12, padding: "8px 20px", borderRadius: 8, background: "#c2410c", color: "white", fontWeight: 600, border: "none", cursor: confirmEnabled ? "pointer" : "not-allowed", opacity: confirmEnabled ? 1 : 0.5 }}>
             Válasz beküldése
           </button>
         )}
 
         {/* Auto-reveal button for single/tf */}
         {!needsConfirm && !revealed && sel !== null && (
-          <button onClick={reveal} style={{ marginBottom: 12, padding: "8px 20px", borderRadius: 8, background: "#f97316", color: "white", fontWeight: 600, border: "none", cursor: "pointer" }}>
+          <button onClick={reveal} style={{ marginBottom: 12, padding: "8px 20px", borderRadius: 8, background: "#c2410c", color: "white", fontWeight: 600, border: "none", cursor: "pointer" }}>
             Ellenőrzés
           </button>
         )}
@@ -336,15 +337,16 @@ function QaVizsga() {
         <div aria-live="polite">
         {revealed && (
           <div style={{ marginBottom: 16 }}>
-            <div style={{ fontSize: 18, fontWeight: 700, color: correct ? "#16a34a" : "#dc2626", marginBottom: 8 }}>
-              {correct ? "✓ Helyes!" : "✗ Helytelen"}
+            <div style={{ fontSize: 18, fontWeight: 700, color: correct ? "#15803d" : "#dc2626", marginBottom: 8 }}>
+              {correct ? <Check aria-hidden="true" size={20} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-4px", marginRight: 4 }} /> : <X aria-hidden="true" size={20} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-4px", marginRight: 4 }} />}
+              {correct ? "Helyes!" : "Helytelen"}
             </div>
             {q.explanation && (
               <div style={{ padding: "8px 14px", background: "#ecfeff", border: "1px solid #67e8f9", borderRadius: 8, color: "#155e75", fontSize: 14, textAlign: "left" }}>
                 <b>Magyarázat:</b> {q.explanation}
               </div>
             )}
-            <button onClick={next} style={{ marginTop: 14, padding: "10px 28px", background: "linear-gradient(90deg,#ec4899,#f472b6)", color: "white", border: "none", borderRadius: 12, fontWeight: 700, fontSize: 15, cursor: "pointer" }}>
+            <button onClick={next} style={{ marginTop: 14, padding: "10px 28px", background: "#c2410c", color: "white", border: "none", borderRadius: 12, fontWeight: 700, fontSize: 15, cursor: "pointer" }}>
               {current + 1 === questions.length ? "Befejezés" : "Következő kérdés →"}
             </button>
           </div>

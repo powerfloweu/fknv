@@ -14,7 +14,7 @@ type CaseListEntry = {
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
-const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const diffColor: Record<string, string> = { easy: "#15803d", medium: "#854d0e", hard: "#dc2626" };
 
 export default function NeuropsyCaseListPage() {
   const cases = casesRaw as CaseListEntry[];
@@ -22,7 +22,7 @@ export default function NeuropsyCaseListPage() {
   return (
     <main style={{
       minHeight: "100vh",
-      background: "linear-gradient(120deg, #ede9fe 0%, #f5f3ff 100%)",
+      background: "var(--paper)",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -63,10 +63,10 @@ export default function NeuropsyCaseListPage() {
                   {c.title}
                 </div>
                 <div className="flex flex-wrap gap-1.5 sm:shrink-0">
-                  <span style={{ background: "#8b5cf6", color: "white", fontSize: 11, padding: "2px 8px", borderRadius: 999, fontWeight: 600 }}>
+                  <span style={{ background: "#6d28d9", color: "white", fontSize: 12, padding: "2px 8px", borderRadius: 999, fontWeight: 600 }}>
                     {c.steps.length} lépés
                   </span>
-                  <span style={{ background: diffColor[c.difficulty], color: "white", fontSize: 11, padding: "2px 8px", borderRadius: 999, fontWeight: 600 }}>
+                  <span style={{ background: diffColor[c.difficulty], color: "white", fontSize: 12, padding: "2px 8px", borderRadius: 999, fontWeight: 600 }}>
                     {diffLabel[c.difficulty]}
                   </span>
                 </div>

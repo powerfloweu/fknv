@@ -106,7 +106,7 @@ export default function ExamStartPage() {
   return (
     <main style={{
       minHeight: '100vh',
-      background: 'linear-gradient(120deg, #e0e7ff 0%, #f0fdfa 100%)',
+      background: 'var(--paper)',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -123,17 +123,6 @@ export default function ExamStartPage() {
         textAlign: 'center',
         marginBottom: 32
       }}>
-        <div style={{ marginBottom: 24 }}>
-          {/* Simple SVG brain illustration */}
-          <svg width="90" height="70" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ display: 'block', margin: '0 auto 12px auto' }}>
-            <ellipse cx="45" cy="35" rx="40" ry="28" fill="#a5b4fc" />
-            <ellipse cx="30" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <ellipse cx="60" cy="35" rx="16" ry="20" fill="#f0abfc" />
-            <path d="M45 7 Q50 20 45 35 Q40 50 45 63" stroke="#6366f1" strokeWidth="2.5" fill="none" />
-            <path d="M30 15 Q35 30 30 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-            <path d="M60 15 Q55 30 60 50" stroke="#6366f1" strokeWidth="2" fill="none" />
-          </svg>
-        </div>
         <h1 style={{ fontSize: 26, fontWeight: 700, color: '#3730a3', marginBottom: 10 }}>
           Próbavizsga indítása
         </h1>
@@ -146,7 +135,7 @@ export default function ExamStartPage() {
             id="f-blokk"
             value={blokk}
             onChange={e => changeBlokk(e.target.value)}
-            style={{ width: '100%', padding: '9px 12px', borderRadius: 8, border: '1.5px solid #6366f1', fontSize: 14, color: '#3730a3', background: 'white' }}
+            style={{ width: '100%', padding: '9px 12px', borderRadius: 8, border: '1.5px solid #4f46e5', fontSize: 14, color: '#3730a3', background: 'white' }}
           >
             <option value="">Teljes vizsga (minden témakör)</option>
             {blokkok.map(b => (
@@ -154,7 +143,7 @@ export default function ExamStartPage() {
             ))}
           </select>
         </div>
-        <div style={{ fontSize: 17, color: '#6366f1', fontWeight: 500, marginBottom: 18 }}>
+        <div style={{ fontSize: 17, color: '#4f46e5', fontWeight: 500, marginBottom: 18 }}>
           {selectedBlokk ? 'Hány kérdésből álljon a témakvíz?' : 'Állítsd be, hány kérdésből álljon a vizsga!'}
         </div>
         <div style={{ fontStyle: 'italic', fontSize: 15, color: '#3730a3', marginBottom: 18, fontWeight: 400 }}>
@@ -174,7 +163,7 @@ export default function ExamStartPage() {
             fontSize: 18,
             padding: '8px 16px',
             borderRadius: 8,
-            border: '1.5px solid #6366f1',
+            border: '1.5px solid #4f46e5',
             marginBottom: 16,
             width: 120,
             textAlign: 'center',
@@ -187,7 +176,7 @@ export default function ExamStartPage() {
               type="checkbox"
               checked={hardMode}
               onChange={e => setHardMode(e.target.checked)}
-              style={{ width: 20, height: 20, accentColor: '#6366f1', marginRight: 8 }}
+              style={{ width: 20, height: 20, accentColor: '#4f46e5', marginRight: 8 }}
             />
             Csak nehéz kérdésekből álló (&quot;hard mode&quot;) vizsga
           </label>
@@ -197,7 +186,7 @@ export default function ExamStartPage() {
             onClick={startNormalExam}
             disabled={loading}
             style={{
-              background: 'linear-gradient(90deg, #6366f1 0%, #a5b4fc 100%)',
+              background: '#4338ca',
               color: 'white',
               fontWeight: 600,
               fontSize: 18,
@@ -215,13 +204,13 @@ export default function ExamStartPage() {
             onClick={startQaExam}
             disabled={loading}
             style={{
-              background: 'linear-gradient(90deg, #f59e42 0%, #fbbf24 100%)',
-              color: 'white',
+              background: 'white',
+              color: '#4338ca',
               fontWeight: 600,
               fontSize: 18,
               padding: '12px 32px',
               borderRadius: 12,
-              border: 'none',
+              border: '2px solid #4338ca',
               boxShadow: '0 2px 8px rgba(251,191,36,0.10)',
               cursor: loading ? 'not-allowed' : 'pointer',
               transition: 'background 0.2s'
@@ -231,12 +220,9 @@ export default function ExamStartPage() {
           </button>
         </div>
         {error && <div style={{ color: '#dc2626', marginTop: 8 }}>{error}</div>}
-        <Link href="/" style={{ display: 'inline-block', marginTop: 6, padding: '10px 12px', color: '#64748b', fontSize: 14, textDecoration: 'none' }}>
+        <Link href="/" style={{ display: 'inline-block', marginTop: 6, padding: '10px 12px', color: '#52606d', fontSize: 14, textDecoration: 'none' }}>
           ← Vissza
         </Link>
-      </div>
-      <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span aria-hidden="true">🧠</span> Sok sikert a vizsgához!
       </div>
     </main>
   );

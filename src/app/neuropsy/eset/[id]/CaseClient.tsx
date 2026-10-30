@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import AnswerMark from "@/components/AnswerMark";
+import { Check, Lock, X } from "lucide-react";
 
 export type CaseStep = {
   question: string;
@@ -23,7 +24,7 @@ export type Case = {
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
-const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const diffColor: Record<string, string> = { easy: "#15803d", medium: "#854d0e", hard: "#dc2626" };
 
 export default function CaseClient({ cse }: { cse: Case }) {
   // selections[i] = 1-based index of user's choice for step i (or null)
@@ -67,7 +68,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
   return (
     <main style={{
       minHeight: "100vh",
-      background: "linear-gradient(120deg, #ede9fe 0%, #f5f3ff 100%)",
+      background: "var(--paper)",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -79,7 +80,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
           ← Esetek listája
         </Link>
         <div style={{ fontSize: 13, color: "#7c3aed", fontWeight: 500 }}>
-          {totalAnswered} / {cse.steps.length} lépés · ✓ {totalCorrect}
+          {totalAnswered} / {cse.steps.length} lépés · <Check aria-hidden="true" size={14} strokeWidth={2.5} style={{ display: "inline", verticalAlign: "-2px" }} /> {totalCorrect} helyes
         </div>
       </div>
 
@@ -99,7 +100,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
 
         {/* Intro */}
         <div style={{ padding: "14px 16px", background: "#f5f3ff", border: "1.5px solid #ddd6fe", borderRadius: 10, marginBottom: 16 }}>
-          <div style={{ fontSize: 11, color: "#7c3aed", fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.6, marginBottom: 6 }}>
+          <div style={{ fontSize: 12, color: "#7c3aed", fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.6, marginBottom: 6 }}>
             Kezdeti információk
           </div>
           <div style={{ fontSize: 15, color: "#4c1d95", lineHeight: 1.6 }}>
@@ -129,7 +130,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
                 color: "#7c3aed",
                 fontWeight: 500,
               }}>
-                🔒 {idx + 1}. lépés — válaszolj az előzőre a feloldáshoz
+                <Lock aria-hidden="true" size={14} strokeWidth={2} style={{ display: "inline", verticalAlign: "-2px", marginRight: 6 }} />{idx + 1}. lépés: válaszolj az előzőre a feloldáshoz
               </div>
             );
           }
@@ -144,7 +145,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
                 boxShadow: isActive ? "0 4px 14px rgba(139,92,246,0.12)" : "none",
               }}>
                 {/* Step label */}
-                <div style={{ fontSize: 11, color: "#7c3aed", fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.6, marginBottom: 8 }}>
+                <div style={{ fontSize: 12, color: "#7c3aed", fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.6, marginBottom: 8 }}>
                   {idx + 1}. lépés
                 </div>
 
@@ -163,7 +164,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
                     if (!isRevealed) {
                       if (isSel) { bg = "#ede9fe"; color = "#4c1d95"; border = "1.5px solid #8b5cf6"; }
                     } else {
-                      if (isAns) { bg = "#dcfce7"; color = "#166534"; border = "1.5px solid #16a34a"; }
+                      if (isAns) { bg = "#dcfce7"; color = "#166534"; border = "1.5px solid #15803d"; }
                       else if (isSel) { bg = "#fee2e2"; color = "#991b1b"; border = "1.5px solid #dc2626"; }
                     }
                     return (
@@ -200,8 +201,8 @@ export default function CaseClient({ cse }: { cse: Case }) {
                     disabled={userSel == null}
                     style={{
                       padding: "10px 20px",
-                      background: userSel == null ? "#e0e7ff" : "linear-gradient(90deg,#8b5cf6,#a78bfa)",
-                      color: userSel == null ? "#a5b4fc" : "white",
+                      background: userSel == null ? "#ede9fe" : "#6d28d9",
+                      color: userSel == null ? "#7c3aed" : "white",
                       border: "none",
                       borderRadius: 10,
                       fontWeight: 600,
@@ -217,8 +218,9 @@ export default function CaseClient({ cse }: { cse: Case }) {
                 <div aria-live="polite">
                 {isRevealed && (
                   <div style={{ marginTop: 8 }}>
-                    <div style={{ fontSize: 14, fontWeight: 700, color: isCorrect ? "#16a34a" : "#dc2626", marginBottom: 6 }}>
-                      {isCorrect ? "✓ Helyes!" : "✗ Nem helyes"}
+                    <div style={{ fontSize: 14, fontWeight: 700, color: isCorrect ? "#15803d" : "#dc2626", marginBottom: 6 }}>
+                      {isCorrect ? <Check aria-hidden="true" size={16} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-3px", marginRight: 4 }} /> : <X aria-hidden="true" size={16} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-3px", marginRight: 4 }} />}
+                      {isCorrect ? "Helyes!" : "Nem helyes"}
                     </div>
                     <div style={{ padding: "10px 14px", background: "#ecfeff", border: "1px solid #c4b5fd", borderRadius: 8, fontSize: 13, color: "#5b21b6", lineHeight: 1.55 }}>
                       <b>Magyarázat:</b> {step.explanation}
@@ -233,11 +235,11 @@ export default function CaseClient({ cse }: { cse: Case }) {
                 <div style={{
                   marginTop: 10,
                   padding: "14px 16px",
-                  background: "linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%)",
+                  background: "#f5f3ff",
                   border: "1.5px solid #c4b5fd",
                   borderRadius: 10,
                 }}>
-                  <div style={{ fontSize: 11, color: "#7c3aed", fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.6, marginBottom: 6 }}>
+                  <div style={{ fontSize: 12, color: "#7c3aed", fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.6, marginBottom: 6 }}>
                     Új információ
                   </div>
                   <div style={{ fontSize: 14, color: "#4c1d95", lineHeight: 1.6 }}>
@@ -255,7 +257,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
             marginTop: 16,
             padding: "16px 18px",
             background: totalCorrect === cse.steps.length ? "#dcfce7" : "#fef3c7",
-            border: `2px solid ${totalCorrect === cse.steps.length ? "#16a34a" : "#ca8a04"}`,
+            border: `2px solid ${totalCorrect === cse.steps.length ? "#15803d" : "#854d0e"}`,
             borderRadius: 12,
             textAlign: "center",
           }}>
@@ -282,7 +284,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
               </button>
               <Link href="/neuropsy/eset" style={{
                 padding: "10px 18px",
-                background: "linear-gradient(90deg,#8b5cf6,#a78bfa)",
+                background: "#6d28d9",
                 color: "white",
                 borderRadius: 10,
                 fontWeight: 600,
@@ -297,7 +299,7 @@ export default function CaseClient({ cse }: { cse: Case }) {
 
         {/* Source footer */}
         {cse.source && (
-          <div style={{ marginTop: 16, fontSize: 11, color: "#94a3b8", fontStyle: "italic", lineHeight: 1.4 }}>
+          <div style={{ marginTop: 16, fontSize: 12, color: "#52606d", fontStyle: "italic", lineHeight: 1.4 }}>
             Forrás: {cse.source}
           </div>
         )}

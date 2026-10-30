@@ -3,6 +3,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { useState, Suspense } from "react";
 import Link from "next/link";
 import AnswerMark from "@/components/AnswerMark";
+import { Check, X } from "lucide-react";
 import questionsRaw from "@/data/neuropsyQuestionBank.json";
 
 type Q = {
@@ -21,9 +22,9 @@ type Q = {
 };
 
 const diffLabel: Record<string, string> = { easy: "Könnyű", medium: "Közepes", hard: "Nehéz" };
-const diffColor: Record<string, string> = { easy: "#16a34a", medium: "#ca8a04", hard: "#dc2626" };
+const diffColor: Record<string, string> = { easy: "#15803d", medium: "#854d0e", hard: "#dc2626" };
 const catLabel: Record<string, string> = { uj: "Új!", konnyu: "Könnyű" };
-const catColor: Record<string, string> = { uj: "#db2777", konnyu: "#0891b2" };
+const catColor: Record<string, string> = { uj: "#be185d", konnyu: "#0e7490" };
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -202,7 +203,7 @@ function QaVizsga() {
 
   if (finished) {
     return (
-      <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #ede9fe 0%, #f5f3ff 100%)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "24px" }}>
+      <main style={{ minHeight: "100vh", background: "var(--paper)", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", padding: "24px" }}>
         <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(139,92,246,0.12)", padding: "40px 32px", maxWidth: 500, width: "100%", textAlign: "center" }}>
           <h1 style={{ fontSize: 26, fontWeight: 700, color: "#6d28d9", marginBottom: 10 }}>Q&amp;A vizsga vége!</h1>
           <div style={{ fontSize: 20, color: "#7c3aed", fontWeight: 600, marginBottom: 20 }}>
@@ -212,7 +213,7 @@ function QaVizsga() {
             {pct >= 60 ? "Szép eredmény! Gratulálunk!" : "Még van mit gyakorolni!"}
           </div>
           <div style={{ display: "flex", gap: 10, justifyContent: "center" }}>
-            <button onClick={() => router.push("/neuropsy/vizsga")} style={{ padding: "12px 24px", background: "linear-gradient(90deg,#8b5cf6,#a78bfa)", color: "white", border: "none", borderRadius: 12, fontWeight: 700, cursor: "pointer", fontSize: 15 }}>
+            <button onClick={() => router.push("/neuropsy/vizsga")} style={{ padding: "12px 24px", background: "#6d28d9", color: "white", border: "none", borderRadius: 12, fontWeight: 700, cursor: "pointer", fontSize: 15 }}>
               Új vizsga
             </button>
             <Link href="/neuropsy/tanulas" style={{ padding: "12px 24px", background: "#f5f3ff", color: "#6d28d9", border: "1.5px solid #c4b5fd", borderRadius: 12, fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
@@ -228,7 +229,7 @@ function QaVizsga() {
     const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
     const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
     if (!revealed) return { bg: isSel ? "#ddd6fe" : "#f9fafb", color: isSel ? "#4c1d95" : "#374151", border: isSel ? "2px solid #7c3aed" : "2px solid transparent" };
-    if (isAns) return { bg: "#ddd6fe", color: "#166534", border: "2px solid #16a34a" };
+    if (isAns) return { bg: "#ddd6fe", color: "#166534", border: "2px solid #15803d" };
     if (isSel) return { bg: "#fecaca", color: "#991b1b", border: "2px solid #dc2626" };
     return { bg: "#f9fafb", color: "#374151", border: "2px solid transparent" };
   }
@@ -237,7 +238,7 @@ function QaVizsga() {
     const isAns = q.answer === v;
     const isSel = sel === v;
     if (!revealed) return { bg: isSel ? "#ddd6fe" : "#f9fafb", color: isSel ? "#4c1d95" : "#374151", border: isSel ? "2px solid #7c3aed" : "2px solid transparent" };
-    if (isAns) return { bg: "#ddd6fe", color: "#166534", border: "2px solid #16a34a" };
+    if (isAns) return { bg: "#ddd6fe", color: "#166534", border: "2px solid #15803d" };
     if (isSel) return { bg: "#fecaca", color: "#991b1b", border: "2px solid #dc2626" };
     return { bg: "#f9fafb", color: "#374151", border: "2px solid transparent" };
   }
@@ -246,19 +247,19 @@ function QaVizsga() {
   const confirmEnabled = canReveal();
 
   return (
-    <main style={{ minHeight: "100vh", background: "linear-gradient(120deg, #ede9fe 0%, #f5f3ff 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "16px" }}>
+    <main style={{ minHeight: "100vh", background: "var(--paper)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "16px" }}>
       <div style={{ background: "white", borderRadius: 24, boxShadow: "0 8px 32px rgba(139,92,246,0.12)", padding: "32px 28px", maxWidth: 700, width: "100%", textAlign: "center" }}>
         <h1 className="sr-only">Kérdés-felelet gyakorlás</h1>
         {/* Progress */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
-          <Link href="/neuropsy/vizsga" style={{ color: "#64748b", fontSize: 14, textDecoration: "none", display: "inline-block", padding: "10px 8px", margin: "-10px -8px" }}>← Kilépés</Link>
+          <Link href="/neuropsy/vizsga" style={{ color: "#52606d", fontSize: 14, textDecoration: "none", display: "inline-block", padding: "10px 8px", margin: "-10px -8px" }}>← Kilépés</Link>
           <div style={{ fontSize: 14, color: "#5b21b6", fontWeight: 600 }}>{current + 1} / {questions.length}</div>
-          <div style={{ fontSize: 13, color: "#64748b" }}>✓ {score} helyes</div>
+          <div style={{ fontSize: 13, color: "#52606d" }}><Check aria-hidden="true" size={14} strokeWidth={2.5} style={{ display: "inline", verticalAlign: "-2px", marginRight: 3 }} />{score} helyes</div>
         </div>
 
         {/* Progress bar */}
         <div style={{ height: 6, background: "#ddd6fe", borderRadius: 3, marginBottom: 20, overflow: "hidden" }}>
-          <div style={{ height: "100%", background: "linear-gradient(90deg,#7c3aed,#8b5cf6)", borderRadius: 3, width: `${(current / questions.length) * 100}%`, transition: "width 0.3s" }} />
+          <div style={{ height: "100%", background: "#6d28d9", borderRadius: 3, width: `${(current / questions.length) * 100}%`, transition: "width 0.3s" }} />
         </div>
 
         <div style={{ display: "flex", justifyContent: "center", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
@@ -349,15 +350,16 @@ function QaVizsga() {
         <div aria-live="polite">
         {revealed && (
           <div style={{ marginBottom: 16 }}>
-            <div style={{ fontSize: 18, fontWeight: 700, color: correct ? "#16a34a" : "#dc2626", marginBottom: 8 }}>
-              {correct ? "✓ Helyes!" : "✗ Helytelen"}
+            <div style={{ fontSize: 18, fontWeight: 700, color: correct ? "#15803d" : "#dc2626", marginBottom: 8 }}>
+              {correct ? <Check aria-hidden="true" size={20} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-4px", marginRight: 4 }} /> : <X aria-hidden="true" size={20} strokeWidth={2.75} style={{ display: "inline", verticalAlign: "-4px", marginRight: 4 }} />}
+              {correct ? "Helyes!" : "Helytelen"}
             </div>
             {q.explanation && (
               <div style={{ padding: "8px 14px", background: "#f5f3ff", border: "1px solid #c4b5fd", borderRadius: 8, color: "#581c87", fontSize: 14, textAlign: "left" }}>
                 <b>Magyarázat:</b> {q.explanation}
               </div>
             )}
-            <button onClick={next} style={{ marginTop: 14, padding: "10px 28px", background: "linear-gradient(90deg,#8b5cf6,#a78bfa)", color: "white", border: "none", borderRadius: 12, fontWeight: 700, fontSize: 15, cursor: "pointer" }}>
+            <button onClick={next} style={{ marginTop: 14, padding: "10px 28px", background: "#6d28d9", color: "white", border: "none", borderRadius: 12, fontWeight: 700, fontSize: 15, cursor: "pointer" }}>
               {current + 1 === questions.length ? "Befejezés" : "Következő kérdés →"}
             </button>
           </div>

@@ -79,8 +79,8 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
                 textAlign: "left",
                 padding: "8px 10px",
                 margin: "2px 0",
-                background: active === s.num ? "linear-gradient(90deg,#14b8a6,#34d399)" : "transparent",
-                color: active === s.num ? "white" : "#831843",
+                background: active === s.num ? "#047857" : "transparent",
+                color: active === s.num ? "white" : "#065f46",
                 border: "none",
                 borderRadius: 8,
                 cursor: "pointer",
@@ -100,7 +100,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
           display: "block",
           marginTop: 16,
           padding: "10px 14px",
-          background: "linear-gradient(90deg,#0d9488,#14b8a6)",
+          background: "#047857",
           color: "white",
           borderRadius: 10,
           textDecoration: "none",
@@ -118,7 +118,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
     <main
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(120deg, #d1fae5 0%, #d1fae5 100%)",
+        background: "var(--paper)",
         padding: "16px",
         display: "flex",
         flexDirection: "column",
@@ -126,7 +126,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
       }}
     >
       <div style={{ width: "100%", maxWidth: 1100, display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12, flexWrap: "wrap", gap: 8 }}>
-        <Link href="/kognitiv/tanulas" style={{ color: "#047857", fontWeight: 600, textDecoration: "none", background: "white", padding: "8px 16px", borderRadius: 10, border: "1.5px solid #f9a8d4" }}>
+        <Link href="/kognitiv/tanulas" style={{ color: "#047857", fontWeight: 600, textDecoration: "none", background: "white", padding: "8px 16px", borderRadius: 10, border: "1.5px solid #86efac" }}>
           ← Tanuló mód
         </Link>
         <input
@@ -135,7 +135,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Keresés a segédletben…"
-          style={{ flex: "1 1 200px", maxWidth: 360, padding: "8px 12px", borderRadius: 8, border: "1.5px solid #f9a8d4", fontSize: 14, color: "#831843" }}
+          style={{ flex: "1 1 200px", maxWidth: 360, padding: "8px 12px", borderRadius: 8, border: "1.5px solid #86efac", fontSize: 14, color: "#065f46" }}
         />
       </div>
 
@@ -146,7 +146,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
           className="md:hidden"
           style={{ background: "white", borderRadius: 16, boxShadow: "0 4px 16px rgba(16,185,129,0.10)", padding: "12px 16px" }}
         >
-          <summary style={{ cursor: "pointer", fontWeight: 700, fontSize: 15, color: "#831843", padding: "6px 0" }}>
+          <summary style={{ cursor: "pointer", fontWeight: 700, fontSize: 15, color: "#065f46", padding: "6px 0" }}>
             Tartalomjegyzék{current ? ` · ${current.num}. ${current.title}` : ""}
           </summary>
           <div style={{ marginTop: 8 }}>{tocItems}</div>
@@ -167,21 +167,21 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
             overflow: "auto",
           }}
         >
-          <p style={{ color: "#831843", fontSize: 14, fontWeight: 700, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.5 }}>
+          <p style={{ color: "#065f46", fontSize: 14, fontWeight: 700, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.5 }}>
             Tartalomjegyzék
           </p>
           {tocItems}
         </nav>
 
         {/* Content */}
-        <article className="px-5 py-6 md:px-8 md:py-7" style={{ background: "white", borderRadius: 16, boxShadow: "0 4px 16px rgba(16,185,129,0.10)", color: "#1f2937", lineHeight: 1.6, minWidth: 0, overflowWrap: "break-word" }}>
+        <article className="reading px-5 py-6 md:px-8 md:py-7" style={{ background: "white", borderRadius: 16, boxShadow: "0 4px 16px rgba(16,185,129,0.10)", color: "#1f2937", lineHeight: 1.6, minWidth: 0, overflowWrap: "break-word" }}>
           {filteredSections ? (
             <>
-              <h1 style={{ color: "#831843", fontSize: 22, fontWeight: 700, marginBottom: 12 }}>
+              <h1 style={{ color: "#065f46", fontSize: 22, fontWeight: 700, marginBottom: 12 }}>
                 Keresési találatok: „{search}”
               </h1>
               {filteredSections.length === 0 && (
-                <div style={{ color: "#64748b" }}>Nincs találat.</div>
+                <div style={{ color: "#52606d" }}>Nincs találat.</div>
               )}
               {filteredSections.map((s) => (
                 <div key={s.num} style={{ marginBottom: 18 }}>
@@ -205,7 +205,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
             </>
           ) : current ? (
             <>
-              <h1 style={{ color: "#831843", fontSize: 24, fontWeight: 700, marginBottom: 16, borderBottom: "2px solid #a7f3d0", paddingBottom: 10 }}>
+              <h1 style={{ color: "#065f46", fontSize: 24, fontWeight: 700, marginBottom: 16, borderBottom: "2px solid #a7f3d0", paddingBottom: 10 }}>
                 {current.num}. {current.title}
               </h1>
               {blocks.map((b) => {
@@ -229,7 +229,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
                   style={{
                     padding: "10px 18px",
                     background: active === 1 ? "#f1f5f9" : "white",
-                    color: active === 1 ? "#94a3b8" : "#047857",
+                    color: active === 1 ? "#52606d" : "#047857",
                     border: "1.5px solid #86efac",
                     borderRadius: 10,
                     fontWeight: 600,
@@ -243,8 +243,8 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
                   disabled={active === sections.length}
                   style={{
                     padding: "10px 18px",
-                    background: active === sections.length ? "#f1f5f9" : "linear-gradient(90deg,#14b8a6,#34d399)",
-                    color: active === sections.length ? "#94a3b8" : "white",
+                    background: active === sections.length ? "#f1f5f9" : "#047857",
+                    color: active === sections.length ? "#52606d" : "white",
                     border: "none",
                     borderRadius: 10,
                     fontWeight: 600,
