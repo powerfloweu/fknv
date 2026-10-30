@@ -239,7 +239,7 @@ export default function ExamResultPage() {
         </ul>
       </div>
       <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Gratulálunk a kitöltéshez!
+        <span aria-hidden="true">🧠</span> Gratulálunk a kitöltéshez!
       </div>
     </main>
   );

@@ -38,3 +38,9 @@ body {
     display: none;
   }
 }
+
+/* Billentyűzetes fókusz: jól látható gyűrű minden interaktív elemen */
+:focus-visible {
+  outline: 2px solid #4338ca;
+  outline-offset: 2px;
+}

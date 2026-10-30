@@ -98,8 +98,9 @@ export default function NeuropsyVizsgaPage() {
 
         {/* Filters */}
         <div style={{ textAlign: "left", marginBottom: 18 }}>
-          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Témakör szűrő</label>
+          <label htmlFor="f-topic" style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Témakör szűrő</label>
           <select
+            id="f-topic"
             value={topicFilter === "" ? "" : String(topicFilter)}
             onChange={(e) => changeTopic(e.target.value === "" ? "" : Number(e.target.value))}
             style={{ width: "100%", padding: "9px 12px", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", background: "white", marginBottom: 12 }}
@@ -108,8 +109,9 @@ export default function NeuropsyVizsgaPage() {
             {topics.map((t) => <option key={t.num} value={t.num}>{t.num}. {t.name} ({topicCount(t.num)})</option>)}
           </select>
 
-          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Nehézség szűrő</label>
+          <label htmlFor="f-diff" style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Nehézség szűrő</label>
           <select
+            id="f-diff"
             value={diffFilter}
             onChange={(e) => setDiffFilter(e.target.value)}
             style={{ width: "100%", padding: "9px 12px", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", background: "white", marginBottom: 12 }}
@@ -120,8 +122,9 @@ export default function NeuropsyVizsgaPage() {
             <option value="hard">Nehéz</option>
           </select>
 
-          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Kérdéstípus szűrő</label>
+          <label htmlFor="f-type" style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Kérdéstípus szűrő</label>
           <select
+            id="f-type"
             value={typeFilter}
             onChange={(e) => setTypeFilter(e.target.value)}
             style={{ width: "100%", padding: "9px 12px", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", background: "white", marginBottom: 12 }}
@@ -133,8 +136,8 @@ export default function NeuropsyVizsgaPage() {
             <option value="matching">Párosítás / táblázat</option>
           </select>
 
-          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Kategória szűrő</label>
-          <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 12 }}>
+          <div id="f-cat" style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>Kategória szűrő</div>
+          <div role="group" aria-labelledby="f-cat" style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 12 }}>
             <label style={{ display: "flex", alignItems: "center", gap: 8, padding: "8px 12px", background: onlyUj ? "#ede9fe" : "#f5f3ff", borderRadius: 8, border: "1.5px solid #c4b5fd", fontSize: 14, color: "#4c1d95", cursor: "pointer", fontWeight: 500 }}>
               <input type="checkbox" checked={onlyUj} onChange={(e) => setOnlyUj(e.target.checked)} />
               <span><b style={{ color: "#db2777" }}>Új!</b> kérdések — csak a nemrég hozzáadott kérdések (közepes/nehéz)</span>
@@ -149,10 +152,11 @@ export default function NeuropsyVizsgaPage() {
             </label>
           </div>
 
-          <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>
+          <label htmlFor="f-count" style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#4c1d95", marginBottom: 4 }}>
             Kérdések száma (max: {max})
           </label>
           <input
+            id="f-count"
             type="number"
             min={1}
             max={max}

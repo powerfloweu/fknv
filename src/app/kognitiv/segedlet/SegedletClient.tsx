@@ -73,6 +73,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
           <li key={s.num}>
             <button
               onClick={() => goTo(s.num)}
+              aria-current={active === s.num ? "true" : undefined}
               style={{
                 width: "100%",
                 textAlign: "left",
@@ -129,7 +130,8 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
           ← Tanuló mód
         </Link>
         <input
-          type="text"
+          type="search"
+          aria-label="Keresés a segédletben"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Keresés a segédletben…"
@@ -153,6 +155,7 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
         {/* Tartalomjegyzék: asztalon ragadós oldalsáv */}
         <nav
           className="hidden md:block"
+          aria-label="Tartalomjegyzék"
           style={{
             background: "white",
             borderRadius: 16,
@@ -164,9 +167,9 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
             overflow: "auto",
           }}
         >
-          <h3 style={{ color: "#831843", fontSize: 14, fontWeight: 700, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.5 }}>
+          <p style={{ color: "#831843", fontSize: 14, fontWeight: 700, marginBottom: 10, textTransform: "uppercase", letterSpacing: 0.5 }}>
             Tartalomjegyzék
-          </h3>
+          </p>
           {tocItems}
         </nav>
 
@@ -174,9 +177,9 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
         <article className="px-5 py-6 md:px-8 md:py-7" style={{ background: "white", borderRadius: 16, boxShadow: "0 4px 16px rgba(16,185,129,0.10)", color: "#1f2937", lineHeight: 1.6, minWidth: 0, overflowWrap: "break-word" }}>
           {filteredSections ? (
             <>
-              <h2 style={{ color: "#831843", fontSize: 22, fontWeight: 700, marginBottom: 12 }}>
+              <h1 style={{ color: "#831843", fontSize: 22, fontWeight: 700, marginBottom: 12 }}>
                 Keresési találatok: „{search}”
-              </h2>
+              </h1>
               {filteredSections.length === 0 && (
                 <div style={{ color: "#64748b" }}>Nincs találat.</div>
               )}
@@ -202,15 +205,15 @@ export default function SegedletClient({ sections }: { sections: Section[] }) {
             </>
           ) : current ? (
             <>
-              <h2 style={{ color: "#831843", fontSize: 24, fontWeight: 700, marginBottom: 16, borderBottom: "2px solid #a7f3d0", paddingBottom: 10 }}>
+              <h1 style={{ color: "#831843", fontSize: 24, fontWeight: 700, marginBottom: 16, borderBottom: "2px solid #a7f3d0", paddingBottom: 10 }}>
                 {current.num}. {current.title}
-              </h2>
+              </h1>
               {blocks.map((b) => {
                 if (b.kind === "sub") {
                   return (
-                    <h3 key={b.key} style={{ color: "#047857", fontSize: 17, fontWeight: 700, marginTop: 20, marginBottom: 8, maxWidth: "70ch" }}>
+                    <h2 key={b.key} style={{ color: "#047857", fontSize: 17, fontWeight: 700, marginTop: 20, marginBottom: 8, maxWidth: "70ch" }}>
                       {b.title}
-                    </h3>
+                    </h2>
                   );
                 }
                 return (

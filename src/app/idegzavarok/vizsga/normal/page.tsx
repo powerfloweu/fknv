@@ -2,6 +2,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import { useState, useMemo, Suspense } from "react";
 import Link from "next/link";
+import AnswerMark from "@/components/AnswerMark";
 import questionsRaw from "@/data/idegzavarokQuestionBank.json";
 
 type Q = {
@@ -111,6 +112,7 @@ function MatchingInput({ q, sel, setSel, submitted }: {
                           setSel({ ...sel, [li]: arr.sort((a, b) => a - b) });
                         }} />
                       {right}
+                      {submitted && <AnswerMark correct={isCorrect} chosen={isChosen} />}
                     </label>
                   );
                 })}
@@ -187,7 +189,7 @@ function NormalVizsga() {
         <div style={{ fontSize: 14, color: "#92400e", marginBottom: 20 }}>{questions.length} kérdés — jelöld be a válaszokat, majd kérj kiértékelést</div>
 
         {submitted && score && (
-          <div style={{ background: pct >= 60 ? "#dcfce7" : "#fee2e2", border: `1.5px solid ${pct >= 60 ? "#16a34a" : "#dc2626"}`, borderRadius: 12, padding: "14px 20px", marginBottom: 20, textAlign: "center", fontSize: 18, fontWeight: 700, color: pct >= 60 ? "#166534" : "#991b1b" }}>
+          <div role="status" style={{ background: pct >= 60 ? "#dcfce7" : "#fee2e2", border: `1.5px solid ${pct >= 60 ? "#16a34a" : "#dc2626"}`, borderRadius: 12, padding: "14px 20px", marginBottom: 20, textAlign: "center", fontSize: 18, fontWeight: 700, color: pct >= 60 ? "#166534" : "#991b1b" }}>
             {score.correct} / {score.total} helyes válasz ({pct}%)
             {pct >= 60 ? " — Gratulálunk!" : " — Még gyakorolj!"}
           </div>
@@ -224,7 +226,7 @@ function NormalVizsga() {
             return (
               <li key={q.id} style={{ background: "#fffbeb", border: "1.5px solid #fde68a", borderRadius: 12, padding: "14px 16px", marginBottom: 12 }}>
                 <div className="flex flex-col-reverse gap-1.5 md:flex-row md:items-start md:justify-between md:gap-2" style={{ marginBottom: 6 }}>
-                  <div style={{ fontWeight: 700, color: "#7c2d12", fontSize: 15 }}>
+                  <div id={`q-${q.id}-title`} style={{ fontWeight: 700, color: "#7c2d12", fontSize: 15 }}>
                     <span style={{ color: "#b45309", marginRight: 6 }}>{qi + 1}.</span>{q.question}
                   </div>
                   <div className="flex flex-wrap gap-[5px] md:shrink-0 md:justify-end">
@@ -246,10 +248,11 @@ function NormalVizsga() {
                 <div style={{ fontSize: 12, color: "#92400e", marginBottom: 8 }}>{q.topicNum}. {q.topic}</div>
 
                 {(q.type === "single" || q.type === "multi") && (
-                  <ul style={{ listStyle: "none", padding: 0, margin: "6px 0 0 0" }}>
+                  <ul role={q.type === "single" ? "radiogroup" : "group"} aria-labelledby={`q-${q.id}-title`} style={{ listStyle: "none", padding: 0, margin: "6px 0 0 0" }}>
                     {q.options.map((opt, i) => {
                       const idx1 = i + 1;
                       const isSel = q.type === "single" ? sel === idx1 : Array.isArray(sel) && (sel as number[]).includes(idx1);
+                      const isAns = q.type === "single" ? q.answer === idx1 : Array.isArray(q.answer) && (q.answer as number[]).includes(idx1);
                       return (
                         <li key={i} style={{ marginBottom: 4 }}>
                           <label style={{ display: "flex", alignItems: "flex-start", gap: 8, padding: "7px 10px", borderRadius: 8, cursor: submitted ? "default" : "pointer", background: optBg(idx1), color: optColor(idx1), fontSize: 14 }}>
@@ -257,6 +260,7 @@ function NormalVizsga() {
                               onChange={() => q.type === "single" ? setSingle(q.id, idx1) : toggleMulti(q.id, idx1)}
                               style={{ marginTop: 2 }} />
                             <span><b>{String.fromCharCode(65 + i)})</b> {opt}</span>
+                            {reveal && <AnswerMark correct={isAns} chosen={!!isSel} />}
                           </label>
                         </li>
                       );
@@ -265,11 +269,12 @@ function NormalVizsga() {
                 )}
 
                 {q.type === "tf" && (
-                  <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
+                  <div role="radiogroup" aria-labelledby={`q-${q.id}-title`} style={{ display: "flex", gap: 8, marginTop: 6 }}>
                     {([true, false] as const).map((v) => (
                       <label key={String(v)} style={{ display: "flex", alignItems: "center", gap: 6, padding: "7px 16px", borderRadius: 8, cursor: submitted ? "default" : "pointer", background: tfBg(v), color: tfBg(v) === "#bbf7d0" ? "#166534" : tfBg(v) === "#fecaca" ? "#991b1b" : "#374151", fontSize: 14 }}>
                         <input type="radio" name={`q-${q.id}`} disabled={submitted} checked={sel === v} onChange={() => setTf(q.id, v)} />
                         {v ? "Igaz" : "Hamis"}
+                        {reveal && <AnswerMark correct={q.answer === v} chosen={sel === v} />}
                       </label>
                     ))}
                   </div>

@@ -22,6 +22,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import goldBank from "@/data/questionBank_GOLD.json";
 import { Question } from "@/lib/types";
+import AnswerMark from "@/components/AnswerMark";
 
 /* ---------- helpers ---------- */
 
@@ -454,9 +455,9 @@ export default function ExamResultPage() {
         }}
       >
         <div style={{ fontWeight: 700, marginBottom: 6 }}>Jelmagyarázat</div>
-        <div><span style={{ color: "#16a34a", fontWeight: 700 }}>Zöld</span>: helyes válaszod</div>
-        <div><span style={{ color: "#f59e42", fontWeight: 700 }}>Narancs</span>: hibásan jelölt válasz</div>
-        <div><span style={{ color: "#2563eb", fontWeight: 700 }}>Kék</span>: helyes válasz (nem jelölt)</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 4 }}><span style={{ color: "#16a34a", fontWeight: 700 }}>Zöld</span> <AnswerMark correct chosen />: helyes válaszod</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 4 }}><span style={{ color: "#b45309", fontWeight: 700 }}>Narancs</span> <AnswerMark correct={false} chosen />: hibásan jelölt válasz</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 4 }}><span style={{ color: "#2563eb", fontWeight: 700 }}>Kék</span> <AnswerMark correct chosen={false} />: helyes válasz (nem jelölt)</div>
       </div>
 
       <ul style={{ listStyle: "none", padding: 0 }}>
@@ -585,11 +586,13 @@ export default function ExamResultPage() {
                               borderRadius: 6,
                               padding: "6px 12px",
                               marginBottom: 6,
-                              display: "inline-block",
+                              display: "inline-flex",
+                              alignItems: "center",
                               marginRight: 6,
                             }}
                           >
                             {q.options?.[optId] ?? ""}
+                          <AnswerMark correct={isCorrectOpt} chosen={isUser} inheritColor />
                           </li>
                         );
                       })}

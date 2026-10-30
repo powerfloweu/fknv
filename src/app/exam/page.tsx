@@ -139,10 +139,11 @@ export default function ExamStartPage() {
         </h1>
         {/* Két külön gomb, figyelmeztetés eltávolítva */}
         <div style={{ textAlign: 'left', marginBottom: 18 }}>
-          <label style={{ display: 'block', fontSize: 14, fontWeight: 600, color: '#3730a3', marginBottom: 4 }}>
+          <label htmlFor="f-blokk" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: '#3730a3', marginBottom: 4 }}>
             Témakör
           </label>
           <select
+            id="f-blokk"
             value={blokk}
             onChange={e => changeBlokk(e.target.value)}
             style={{ width: '100%', padding: '9px 12px', borderRadius: 8, border: '1.5px solid #6366f1', fontSize: 14, color: '#3730a3', background: 'white' }}
@@ -163,6 +164,7 @@ export default function ExamStartPage() {
         </div>
         <input
           type="number"
+          aria-label="Kérdések száma"
           min={selectedBlokk ? 1 : 9}
           max={selectedBlokk ? topicMax : 180}
           step={selectedBlokk ? 1 : 9}
@@ -234,7 +236,7 @@ export default function ExamStartPage() {
         </Link>
       </div>
       <div style={{ color: '#64748b', fontSize: 15, marginTop: 8, textAlign: 'center' }}>
-        <span role="img" aria-label="brain">🧠</span> Sok sikert a vizsgához!
+        <span aria-hidden="true">🧠</span> Sok sikert a vizsgához!
       </div>
     </main>
   );
